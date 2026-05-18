@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://red-dead-redemption-3.com/sitemap.xml
