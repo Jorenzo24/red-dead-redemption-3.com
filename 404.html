@@ -6,7 +6,8 @@
     <title>404 — Page Not Found | Red Dead Redemption 3</title>
     <meta name="robots" content="noindex">
     <link rel="icon" type="image/png" href="assets/favicon-red-dead-redemption-3.png">
-    <link rel="stylesheet" href="css/style.css?v=20260518b">
+    <link rel="preload" href="assets/fonts/chinese-rock.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/style.css?v=20260518c">
     <style>
         .error-page {
             display: flex;
@@ -18,34 +19,35 @@
             padding: 2rem;
         }
         .error-code {
-            font-size: clamp(6rem, 20vw, 12rem);
-            font-weight: 900;
+            font-family: var(--serif);
+            font-size: clamp(7rem, 22vw, 14rem);
             line-height: 1;
             margin: 0;
-            color: #8B2500;
+            color: var(--accent);
+            text-shadow: 0 2px 30px rgba(200, 32, 30, 0.25);
         }
         .error-message {
-            font-size: 1.5rem;
-            margin: 1rem 0 2rem;
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            margin: 1rem 0 2.5rem;
         }
         .error-link {
             display: inline-block;
-            padding: 0.75rem 1.5rem;
-            background: #8B2500;
+            padding: 0.75rem 1.75rem;
+            background: var(--accent);
             color: #fff;
-            text-decoration: none;
-            border-radius: 4px;
-            transition: opacity 0.2s;
-        }
-        .error-link:hover {
-            opacity: 0.85;
+            border-radius: 2px;
+            font-family: var(--serif);
+            letter-spacing: 0.15em;
+            font-size: 0.95rem;
+            text-transform: uppercase;
         }
     </style>
 </head>
 <body>
     <div class="error-page">
         <h1 class="error-code">404</h1>
-        <p class="error-message">This page doesn't exist.</p>
+        <p class="error-message">This trail doesn't lead anywhere.</p>
         <a href="/" class="error-link">Back to home</a>
     </div>
 </body>

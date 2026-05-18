@@ -33,26 +33,75 @@
     <link rel="preload" href="assets/fonts/chinese-rock.woff2" as="font" type="font/woff2" crossorigin>
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="css/style.css?v=20260518b">
+    <link rel="stylesheet" href="css/style.css?v=20260518c">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="/" class="logo">
-                <img src="assets/logo-red-dead-redemption-3-1.png" alt="Red Dead Redemption 3" width="240">
+    <header class="site-header">
+        <div class="site-header__inner">
+            <a href="/" class="site-header__logo" aria-label="Red Dead Redemption 3 — Home">
+                <img src="assets/logo-red-dead-redemption-3-1.png" alt="Red Dead Redemption 3">
             </a>
-        </nav>
+            <nav class="site-header__nav" aria-label="Primary">
+                <span class="site-header__lang" aria-label="Current language">EN</span>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section class="hero">
-            <h1>Red Dead Redemption 3</h1>
-            <p>The independent hub for the Red Dead universe — character wiki, lore, and honest coverage of what we actually know about RDR3.</p>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero__visual" aria-hidden="true"></div>
+            <div class="hero__inner">
+                <p class="hero__eyebrow">The independent hub</p>
+                <h1 id="hero-title" class="hero__title">Red Dead Redemption 3</h1>
+                <p class="hero__lede">
+                    Characters, lore, and honest coverage of what we actually know about
+                    the next Rockstar western. No recycled rumors. No filler.
+                </p>
+            </div>
+            <p class="hero__scroll" aria-hidden="true">Scroll</p>
+        </section>
+
+        <section class="section" aria-labelledby="pillars-title">
+            <div class="section__inner">
+                <h2 id="pillars-title" class="section__title">What you'll find here</h2>
+                <p class="section__lede">
+                    Three pillars — built slowly, written carefully. RDR3 isn't even officially
+                    announced yet. We have time to do this right.
+                </p>
+
+                <div class="pillars">
+                    <article class="pillar">
+                        <p class="pillar__index">01</p>
+                        <h3 class="pillar__title">Character Wiki</h3>
+                        <p class="pillar__text">
+                            Encyclopedic profiles of the figures who shaped the Red Dead universe —
+                            from Dutch's gang to the Pinkertons. Original writing, not Fandom rewrites.
+                        </p>
+                    </article>
+                    <article class="pillar">
+                        <p class="pillar__index">02</p>
+                        <h3 class="pillar__title">RDR3 Editorial</h3>
+                        <p class="pillar__text">
+                            Articles with an actual angle. We label what's confirmed, what's rumor,
+                            and what's pure speculation — and we tell you which is which.
+                        </p>
+                    </article>
+                    <article class="pillar">
+                        <p class="pillar__index">03</p>
+                        <h3 class="pillar__title">Lore & Timeline</h3>
+                        <p class="pillar__text">
+                            How the events of RDR1 and RDR2 connect — and what scaffolding
+                            Rockstar has laid for a third game in the saga.
+                        </p>
+                    </article>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; <span id="year">2026</span> Red Dead Redemption 3. All rights reserved. Not affiliated with Rockstar Games or Take-Two Interactive.</p>
+    <footer class="site-footer">
+        <p>&copy; <span id="year">2026</span> red-dead-redemption-3.com · All rights reserved.</p>
+        <p>This is a fan site. Not affiliated with, endorsed, or sponsored by Rockstar Games or Take-Two Interactive.</p>
     </footer>
 
     <script src="js/main.js?v=20260518a"></script>
