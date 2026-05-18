@@ -104,6 +104,9 @@ ErrorDocument 404 /404.html
 # ---- Block access to .git ----
 RedirectMatch 404 /\.git
 
+# ---- Block access to _templates (canonical templates, never publicly served) ----
+RedirectMatch 404 /_templates
+
 # ---- Disable directory browsing ----
 Options -Indexes
 
