@@ -1,4 +1,16 @@
 /* ============================================
+   Fonts
+   ============================================ */
+@font-face {
+    font-family: 'Chinese Rock';
+    src: url('../assets/fonts/chinese-rock.woff2') format('woff2'),
+         url('../assets/fonts/chinese-rock.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ============================================
    Reset CSS
    ============================================ */
 *,
@@ -49,8 +61,10 @@ ol {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: 'Chinese Rock', Georgia, 'Times New Roman', serif;
     line-height: 1.2;
-    font-weight: 700;
+    font-weight: 400;
+    letter-spacing: 0.02em;
 }
 
 /* ============================================

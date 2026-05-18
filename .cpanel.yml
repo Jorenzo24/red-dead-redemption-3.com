@@ -5,8 +5,12 @@ deployment:
     - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R articles $DEPLOYPATH
+    - /bin/cp -R characters $DEPLOYPATH
+    - /bin/cp -R fr $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp 404.html $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp robots.txt $DEPLOYPATH
     - /bin/cp sitemap.xml $DEPLOYPATH
+    - /bin/cp sitemap-en.xml $DEPLOYPATH

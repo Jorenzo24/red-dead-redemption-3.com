@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://red-dead-redemption-3.com/</loc>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <sitemap>
+        <loc>https://red-dead-redemption-3.com/sitemap-en.xml</loc>
         <lastmod>2026-05-18</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
-</urlset>
+    </sitemap>
+    <!--
+      Add future language sitemaps here once content is published:
+      <sitemap>
+          <loc>https://red-dead-redemption-3.com/sitemap-fr.xml</loc>
+          <lastmod>...</lastmod>
+      </sitemap>
+    -->
+</sitemapindex>
