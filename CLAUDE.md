@@ -145,13 +145,28 @@ et chargement performant — pas de FOIT).
 - Langue du site = **anglais par défaut** (`<html lang="en">` à la racine —
   override le `lang="fr"` du squelette de la skill init-projet).
 
-## 8. GIT
+## 8. DÉPLOIEMENT (cPanel / Hetzner)
+
+- **Username cPanel** : `reddeadredemptio`
+- **Deploy path** : `/home/reddeadredemptio/public_html/`
+- **Méthode** : `.cpanel.yml` à la racine pilote la copie des fichiers via Git Version Control de cPanel.
+- **Déclencheur** : push sur `main` → cPanel > Git Version Control > Update from Remote + Deploy HEAD Commit.
+
+### Cache-busting (NE PAS OUBLIER)
+
+Le `.htaccess` met **CSS et JS en cache navigateur 1 mois**. À chaque modif de
+`css/style.css` ou `js/main.js`, **bumper le query string `?v=AAAAMMJJx`** dans
+toutes les pages qui les référencent (`index.html`, `404.html`, …).
+- Format : `?v=20260518a` (date + lettre `a`, puis `b`, `c` si plusieurs modifs/jour).
+- Oublier = servir du code périmé pendant 30 jours aux visiteurs récurrents.
+
+## 9. GIT
 
 - Branche `main` = production. Jamais de push direct sur `main`.
 - Branches de feature (`feature/...`) pour toute modif.
 - Commits clairs et atomiques.
 
-## 9. ÉTAT D'AVANCEMENT (à tenir à jour par Claude Code)
+## 10. ÉTAT D'AVANCEMENT (à tenir à jour par Claude Code)
 
 - [ ] Phase 1 : init projet (skill) + design de base + 1-2 articles tests
 - [ ] Phase 2 : 1 fiche personnage soignée (stabilise le gabarit)
