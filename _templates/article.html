@@ -9,7 +9,7 @@ HOW TO USE
 1. Copy this whole file to: articles/<your-slug>/index.html
 2. Replace every {{PLACEHOLDER}}.
 3. Drop the hero image at: assets/articles/<your-slug>/hero.webp
-   (1600x900 minimum, WebP preferred — see CLAUDE.md §6 and §7).
+   (1600x900 minimum, WebP preferred, see CLAUDE.md §6 and §7).
 4. Add the new URL to sitemap-en.xml.
 5. Bump the cache-busting query string on css/style.css if the CSS changed.
 
@@ -17,7 +17,7 @@ PATHS
 -----
 This file lives at articles/<slug>/index.html → 2 levels deep.
 All resource paths (CSS, JS, images, fonts) use "../../".
-DO NOT change to absolute paths — see CLAUDE.md §7 ("chemins relatifs uniquement").
+DO NOT change to absolute paths, see CLAUDE.md §7 ("chemins relatifs uniquement").
 
 FRONT-MATTER
 ------------
@@ -112,7 +112,7 @@ hreflang:
 <body>
     <header class="site-header">
         <div class="site-header__inner">
-            <a href="/" class="site-header__logo" aria-label="Red Dead Redemption 3 — Home">
+            <a href="/" class="site-header__logo" aria-label="Red Dead Redemption 3, Home">
                 <img src="../../assets/logo-red-dead-redemption-3-1.png" alt="Red Dead Redemption 3">
             </a>
             <nav class="site-header__nav" aria-label="Primary">
