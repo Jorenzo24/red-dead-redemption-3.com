@@ -17,7 +17,7 @@ PATHS : EN = characters/<slug>/ → "../../"  ;  FR = fr/personnages/<slug>/ →
 LAYOUT = profil réseau social : cover + avatar + nom + chips + intro + grille de
 faits, puis accordéons <details> (1er ouvert). Sections (ordre fixe, masquer si N/A) :
   Biography · Personality · Relationships · Death/Fate · Behind the scenes ·
-  Reception & legacy · Trivia · Gallery · Sources
+  Reception & legacy · Trivia · Gallery   (PAS de "Sources" : cf. DATA-SCHEMA §3)
 -----------------------------------------------------------------------------
 ---
 type: character
@@ -31,13 +31,15 @@ born: "{{BORN_OR_OMIT}}"
 died: "{{DIED_OR_OMIT}}"
 affiliation: "{{AFFILIATION}}"
 voicedBy: "{{VOICE_ACTOR_OR_OMIT}}"
+author: joseph
+updatedAt: {{YYYY-MM-DD}}
 hero:
   image: ../../assets/characters/{{SLUG}}/portrait.jpeg
   alt: "{{PORTRAIT_ALT}}"
 hreflang:
   - { lang: en, href: "/characters/{{SLUG}}/" }
   - { lang: fr, href: "/fr/personnages/{{SLUG}}/" }
-sections: [biography, personality, relationships, death, behind-the-scenes, reception, trivia, gallery, sources]
+sections: [biography, personality, relationships, death, behind-the-scenes, reception, trivia, gallery]
 ---
 =============================================================================
 -->
@@ -69,7 +71,7 @@ sections: [biography, personality, relationships, death, behind-the-scenes, rece
 
     <link rel="icon" type="image/png" href="../../assets/favicon-red-dead-redemption-3.png">
     <link rel="preload" href="../../assets/fonts/chinese-rock.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="../../css/style.css?v=20260622h">
+    <link rel="stylesheet" href="../../css/style.css?v=20260622i">
 
     <script type="application/ld+json">
     {
@@ -120,6 +122,7 @@ sections: [biography, personality, relationships, death, behind-the-scenes, rece
                     <span class="chip">{{AFFILIATION}}</span>
                     <span class="chip">Voiced by <strong>{{VOICE_ACTOR}}</strong></span>
                 </div>
+                <p class="profile__byline">By <span>Joseph Lambert</span> &middot; Updated <time datetime="{{YYYY-MM-DD}}">{{HUMAN_DATE}}</time></p>
 
                 <div class="profile__intro">
                     <p>{{INTRO_PARAGRAPH_1}}</p>
@@ -176,10 +179,6 @@ sections: [biography, personality, relationships, death, behind-the-scenes, rece
                                 <figure><img src="../../assets/characters/{{SLUG}}/gallery-1.jpeg" alt="{{...}}" loading="lazy"><figcaption>{{...}}</figcaption></figure>
                             </div>
                         </div>
-                    </details>
-                    <details class="accordion">
-                        <summary>Sources</summary>
-                        <div class="accordion__body"><ul><li><a href="{{URL}}" rel="nofollow noopener" target="_blank">{{SOURCE}}</a></li></ul></div>
                     </details>
                 </div>
 
