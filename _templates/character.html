@@ -69,7 +69,7 @@ sections: [biography, personality, relationships, death, behind-the-scenes, rece
 
     <link rel="icon" type="image/png" href="../../assets/favicon-red-dead-redemption-3.png">
     <link rel="preload" href="../../assets/fonts/chinese-rock.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="../../css/style.css?v=20260622g">
+    <link rel="stylesheet" href="../../css/style.css?v=20260622h">
 
     <script type="application/ld+json">
     {
@@ -183,13 +183,15 @@ sections: [biography, personality, relationships, death, behind-the-scenes, rece
                     </details>
                 </div>
 
-                <footer class="article-footer">
-                    <ul class="article-tags" aria-label="Tags">
-                        <li><a href="/characters/?tag={{TAG_1}}">{{TAG_1}}</a></li>
-                        <li><a href="/characters/?tag={{TAG_2}}">{{TAG_2}}</a></li>
-                    </ul>
-                    <p class="article-back"><a href="/">&larr; Home</a></p>
-                </footer>
+                <!-- Bas de page : "More characters" = autres fiches (cartes .ccard).
+                     PAS de tags ni bouton Home. Omettre la section tant qu'aucune
+                     autre fiche n'existe (cas de la 1re fiche). -->
+                <aside class="related" aria-label="More characters">
+                    <h2 class="related__title">More characters</h2>
+                    <div class="card-grid">
+                        <!-- <a class="ccard"> d'autres personnages -->
+                    </div>
+                </aside>
             </div>
         </article>
     </main>

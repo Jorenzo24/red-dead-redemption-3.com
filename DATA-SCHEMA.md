@@ -96,9 +96,10 @@
       <!-- prose: h2/h3, p, ul/ol, blockquote, figure -->
     </div>
 
-    <footer class="article-footer">
-      <ul class="article-tags">...</ul>
-    </footer>
+    <aside class="related">              <!-- bas de page : PAS de tags ni Home -->
+      <h2 class="related__title">More articles</h2>
+      <div class="card-grid">…3 autres articles (.acard)…</div>
+    </aside>
   </article>
 
   <footer>...</footer>          <!-- partial: site footer -->
@@ -182,7 +183,7 @@ Mécanisme = `<details>`/`<summary>` natif (zéro JS, contenu indexable).
         <details class="accordion" open><summary>…</summary><div class="accordion__body">…</div></details>
         …
       </div>
-      <footer class="article-footer">…</footer>
+      <aside class="related">…"More characters" : autres fiches (.ccard), omis si aucune…</aside>
     </div>
   </article>
   <footer>…</footer>                          <!-- partial: site footer -->
