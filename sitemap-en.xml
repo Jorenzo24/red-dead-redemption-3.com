@@ -3,11 +3,20 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://red-dead-redemption-3.com/</loc>
-        <lastmod>2026-05-18</lastmod>
+        <lastmod>2026-06-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/"/>
+    </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/articles/</loc>
+        <lastmod>2026-06-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/articles/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/articles/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/articles/"/>
     </url>
     <url>
         <loc>https://red-dead-redemption-3.com/articles/the-protagonist-rdr3-fans-actually-want/</loc>
@@ -16,5 +25,77 @@
         <priority>0.8</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/articles/the-protagonist-rdr3-fans-actually-want/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/articles/the-protagonist-rdr3-fans-actually-want/"/>
+    </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/articles/roger-clark-future-of-the-series/</loc>
+        <lastmod>2023-12-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/articles/roger-clark-future-of-the-series/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/articles/roger-clark-avenir-de-la-licence/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/articles/roger-clark-future-of-the-series/"/>
+    </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/articles/huge-fan-made-rdr3-map/</loc>
+        <lastmod>2022-07-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/articles/huge-fan-made-rdr3-map/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/articles/une-enorme-map-realisee-par-un-fan/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/articles/huge-fan-made-rdr3-map/"/>
+    </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/articles/red-dead-online-is-dead/</loc>
+        <lastmod>2022-07-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/articles/red-dead-online-is-dead/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/articles/red-dead-online-est-mort/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/articles/red-dead-online-is-dead/"/>
+    </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/articles/who-will-be-the-main-character-in-rdr3/</loc>
+        <lastmod>2022-06-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/articles/who-will-be-the-main-character-in-rdr3/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/articles/qui-sera-le-personnage-principal-de-rdr-3/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/articles/who-will-be-the-main-character-in-rdr3/"/>
+    </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/articles/improvements-we-want-in-rdr3/</loc>
+        <lastmod>2022-06-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/articles/improvements-we-want-in-rdr3/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/articles/les-ameliorations-quon-attend-dans-rdr3/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/articles/improvements-we-want-in-rdr3/"/>
+    </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/articles/is-rdr3-in-development/</loc>
+        <lastmod>2022-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/articles/is-rdr3-in-development/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/articles/rdr-3-est-il-en-cours-de-developpement/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/articles/is-rdr3-in-development/"/>
+    </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/articles/red-dead-redemption-3-release-date/</loc>
+        <lastmod>2022-05-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/articles/red-dead-redemption-3-release-date/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/articles/red-dead-redemption-3-date-de-sortie/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/articles/red-dead-redemption-3-release-date/"/>
+    </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/articles/red-dead-redemption-3-map/</loc>
+        <lastmod>2022-01-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/articles/red-dead-redemption-3-map/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/articles/red-dead-redemption-3-map/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/articles/red-dead-redemption-3-map/"/>
     </url>
 </urlset>

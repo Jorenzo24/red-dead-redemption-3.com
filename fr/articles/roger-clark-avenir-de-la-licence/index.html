@@ -14,8 +14,8 @@ hero:
   image: (placeholder)
   alt: ""
 hreflang:
+  - { lang: en, href: "/articles/roger-clark-future-of-the-series/" }
   - { lang: fr, href: "/fr/articles/roger-clark-avenir-de-la-licence/" }
-  # EN translation pending: no /articles/<slug>/ counterpart yet (FR-only legacy article)
 ---
 -->
 <!DOCTYPE html>
@@ -27,8 +27,10 @@ hreflang:
     <meta name="description" content="Roger Clark, la voix d&#x27;Arthur Morgan, se dit convaincu qu&#x27;un Red Dead Redemption 3 verra le jour, mais n&#x27;attend pas le retour de son personnage.">
     <link rel="canonical" href="https://red-dead-redemption-3.com/fr/articles/roger-clark-avenir-de-la-licence/">
 
-    <!-- hreflang : article FR uniquement pour l'instant (canonical = self) -->
+    <!-- hreflang reciproque EN<->FR + x-default vers EN -->
+    <link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/articles/roger-clark-future-of-the-series/">
     <link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/articles/roger-clark-avenir-de-la-licence/">
+    <link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/articles/roger-clark-future-of-the-series/">
 
     <!-- Open Graph -->
     <meta property="og:type" content="article">
@@ -48,16 +50,10 @@ hreflang:
     <meta name="twitter:description" content="Roger Clark, la voix d&#x27;Arthur Morgan, se dit convaincu qu&#x27;un Red Dead Redemption 3 verra le jour, mais n&#x27;attend pas le retour de son personnage.">
     <meta name="twitter:image" content="https://red-dead-redemption-3.com/assets/logo-red-dead-redemption-3-1.png">
 
-    <!-- Favicon -->
     <link rel="icon" type="image/png" href="../../../assets/favicon-red-dead-redemption-3.png">
-
-    <!-- Font preload -->
     <link rel="preload" href="../../../assets/fonts/chinese-rock.woff2" as="font" type="font/woff2" crossorigin>
-
-    <!-- Stylesheet -->
     <link rel="stylesheet" href="../../../css/style.css?v=20260518f">
 
-    <!-- Schema.org Article -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -68,14 +64,8 @@ hreflang:
         "datePublished": "2023-12-19",
         "dateModified": "2025-09-19",
         "author": { "@type": "Person", "name": "Joseph Lambert" },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Red Dead Redemption 3",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://red-dead-redemption-3.com/assets/logo-red-dead-redemption-3-1.png"
-            }
-        },
+        "publisher": { "@type": "Organization", "name": "Red Dead Redemption 3",
+            "logo": { "@type": "ImageObject", "url": "https://red-dead-redemption-3.com/assets/logo-red-dead-redemption-3-1.png" } },
         "mainEntityOfPage": "https://red-dead-redemption-3.com/fr/articles/roger-clark-avenir-de-la-licence/",
         "inLanguage": "fr"
     }
@@ -88,7 +78,7 @@ hreflang:
                 <img src="../../../assets/logo-red-dead-redemption-3-1.png" alt="Red Dead Redemption 3">
             </a>
             <nav class="site-header__nav" aria-label="Principale">
-                <span class="site-header__lang" aria-label="Langue courante">FR</span>
+                <span class="site-header__lang">FR</span>
             </nav>
         </div>
     </header>
@@ -112,17 +102,10 @@ hreflang:
                  aria-label="Illustration à venir : Roger Clark partage son avis sur l&#x27;avenir de la licence"
                  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
                 <rect width="1600" height="900" fill="#17120d"/>
-                <rect x="24" y="24" width="1552" height="852" fill="none"
-                      stroke="#3a2e22" stroke-width="2"/>
-                <text x="800" y="430" text-anchor="middle"
-                      font-family="Georgia, 'Times New Roman', serif" font-size="120"
-                      letter-spacing="8" fill="#b8763a">RDR&#8201;3</text>
-                <text x="800" y="510" text-anchor="middle"
-                      font-family="Georgia, serif" font-size="40" letter-spacing="14"
-                      fill="#8a7355" text-transform="uppercase">DÉCLARATIONS</text>
-                <text x="800" y="820" text-anchor="middle"
-                      font-family="Georgia, serif" font-size="26" letter-spacing="6"
-                      fill="#5a4a38">red-dead-redemption-3.com</text>
+                <rect x="24" y="24" width="1552" height="852" fill="none" stroke="#3a2e22" stroke-width="2"/>
+                <text x="800" y="430" text-anchor="middle" font-family="Georgia,serif" font-size="120" letter-spacing="8" fill="#b8763a">RDR&#8201;3</text>
+                <text x="800" y="510" text-anchor="middle" font-family="Georgia,serif" font-size="40" letter-spacing="14" fill="#8a7355">DÉCLARATIONS</text>
+                <text x="800" y="820" text-anchor="middle" font-family="Georgia,serif" font-size="26" letter-spacing="6" fill="#5a4a38">red-dead-redemption-3.com</text>
               </svg>
             </figure>
 
