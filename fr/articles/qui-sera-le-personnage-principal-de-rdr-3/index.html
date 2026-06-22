@@ -14,8 +14,8 @@ hero:
   image: ../../../assets/articles/qui-sera-le-personnage-principal-de-rdr-3/hero.webp
   alt: "John Marston, une des pistes pour le héros de Red Dead Redemption 3"
 hreflang:
+  - { lang: en, href: "/articles/who-will-be-the-main-character-in-rdr3/" }
   - { lang: fr, href: "/fr/articles/qui-sera-le-personnage-principal-de-rdr-3/" }
-  # EN translation pending: no /articles/<slug>/ counterpart yet (FR-only legacy article)
 ---
 -->
 <!DOCTYPE html>
@@ -27,8 +27,10 @@ hreflang:
     <meta name="description" content="John, Sadie, Dutch ou de tout nouveaux héros ? On passe en revue les pistes pour le personnage principal de Red Dead Redemption 3.">
     <link rel="canonical" href="https://red-dead-redemption-3.com/fr/articles/qui-sera-le-personnage-principal-de-rdr-3/">
 
-    <!-- hreflang : article FR uniquement pour l'instant (canonical = self) -->
+    <!-- hreflang reciproque EN<->FR + x-default vers EN -->
+    <link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/articles/who-will-be-the-main-character-in-rdr3/">
     <link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/articles/qui-sera-le-personnage-principal-de-rdr-3/">
+    <link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/articles/who-will-be-the-main-character-in-rdr3/">
 
     <!-- Open Graph -->
     <meta property="og:type" content="article">
@@ -48,16 +50,10 @@ hreflang:
     <meta name="twitter:description" content="John, Sadie, Dutch ou de tout nouveaux héros ? On passe en revue les pistes pour le personnage principal de Red Dead Redemption 3.">
     <meta name="twitter:image" content="https://red-dead-redemption-3.com/assets/articles/qui-sera-le-personnage-principal-de-rdr-3/hero.webp">
 
-    <!-- Favicon -->
     <link rel="icon" type="image/png" href="../../../assets/favicon-red-dead-redemption-3.png">
-
-    <!-- Font preload -->
     <link rel="preload" href="../../../assets/fonts/chinese-rock.woff2" as="font" type="font/woff2" crossorigin>
-
-    <!-- Stylesheet -->
     <link rel="stylesheet" href="../../../css/style.css?v=20260518f">
 
-    <!-- Schema.org Article -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -68,14 +64,8 @@ hreflang:
         "datePublished": "2022-06-29",
         "dateModified": "2022-06-29",
         "author": { "@type": "Person", "name": "Joseph Lambert" },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Red Dead Redemption 3",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://red-dead-redemption-3.com/assets/logo-red-dead-redemption-3-1.png"
-            }
-        },
+        "publisher": { "@type": "Organization", "name": "Red Dead Redemption 3",
+            "logo": { "@type": "ImageObject", "url": "https://red-dead-redemption-3.com/assets/logo-red-dead-redemption-3-1.png" } },
         "mainEntityOfPage": "https://red-dead-redemption-3.com/fr/articles/qui-sera-le-personnage-principal-de-rdr-3/",
         "inLanguage": "fr"
     }
@@ -88,7 +78,7 @@ hreflang:
                 <img src="../../../assets/logo-red-dead-redemption-3-1.png" alt="Red Dead Redemption 3">
             </a>
             <nav class="site-header__nav" aria-label="Principale">
-                <span class="site-header__lang" aria-label="Langue courante">FR</span>
+                <span class="site-header__lang">FR</span>
             </nav>
         </div>
     </header>
@@ -108,8 +98,7 @@ hreflang:
 
             <figure class="article-hero">
                 <img src="../../../assets/articles/qui-sera-le-personnage-principal-de-rdr-3/hero.webp"
-                     alt="John Marston, une des pistes pour le héros de Red Dead Redemption 3"
-                     loading="eager" fetchpriority="high">
+                     alt="John Marston, une des pistes pour le héros de Red Dead Redemption 3" loading="eager" fetchpriority="high">
             </figure>
 
             <div class="article-body">
