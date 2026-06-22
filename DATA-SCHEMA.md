@@ -160,28 +160,53 @@ les sections non pertinentes ; on peut en ajouter une au cas par cas si besoin.
 **Comportement accordéons** : le 1er (`Biographie`) est `open`, les autres repliés.
 Mécanisme = `<details>`/`<summary>` natif (zéro JS, contenu indexable).
 
-### Structure HTML (sections sémantiques, ordre fixe)
+### Structure HTML — layout « profil réseau social » (ordre fixe)
 
 ```html
 <body class="theme-light">
-  <header>…</header>                       <!-- partial: site header + lang-switch -->
-  <article class="character">
-    <header class="character-header">
-      <p class="character-eyebrow">[Personnage · …]</p>
-      <h1 class="character-title">{{ title }}</h1>
-    </header>
-    <aside class="infobox">                 <!-- portrait + .infobox__name + <dl> de faits -->
-      …
-    </aside>
-    <p class="character-intro">…</p>
-    <div class="accordions">
-      <details class="accordion" open><summary>…</summary><div class="accordion__body">…</div></details>
-      …
+  <header>…</header>                          <!-- partial: site header + lang-switch -->
+  <article class="profile">
+    <div class="profile__cover"><img …></div>  <!-- bannière large (défaut: fond-site.jpeg) -->
+    <div class="profile__inner">
+      <div class="profile__head">
+        <img class="profile__avatar" …>         <!-- portrait (chevauche la cover) -->
+        <div class="profile__id">
+          <p class="profile__eyebrow">Character · …</p>
+          <h1 class="profile__name">{{ title }}</h1>
+        </div>
+      </div>
+      <div class="profile__chips"><span class="chip">…</span>…</div>   <!-- faits clés -->
+      <div class="profile__intro"><p>…</p><p>…</p></div>
+      <dl class="profile__facts"><div><dt>…</dt><dd>…</dd></div>…</dl>  <!-- grille pleine largeur -->
+      <div class="accordions">
+        <details class="accordion" open><summary>…</summary><div class="accordion__body">…</div></details>
+        …
+      </div>
+      <footer class="article-footer">…</footer>
     </div>
-    <footer class="article-footer">…</footer>
   </article>
-  <footer>…</footer>                        <!-- partial: site footer -->
+  <footer>…</footer>                          <!-- partial: site footer -->
 </body>
+```
+
+> ⚠️ Plus de float : le layout profil (cover + avatar + chips + grille de faits)
+> remplace l'ancienne `.infobox` flottante (qui laissait des vides quand l'intro
+> était courte).
+
+### Carte sur la home (section Characters)
+Composant **`.ccard`** (poster vertical 3:4, nom en superposition), **distinct**
+des cartes d'articles `.acard` (les personnages sont une partie différente du site) :
+
+```html
+<a class="ccard" href="/characters/{{slug}}/">
+  <img src="assets/characters/{{slug}}/portrait.jpeg" alt="{{name}}">
+  <span class="ccard__overlay">
+    <span class="ccard__tag">Character</span>
+    <span class="ccard__name">{{name}}</span>
+    <span class="ccard__role">{{affiliation}} · {{game}}</span>
+    <span class="ccard__cta">View profile →</span>
+  </span>
+</a>
 ```
 
 ### Schema.org (JSON-LD obligatoire)
