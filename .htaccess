@@ -11,6 +11,21 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^(.*)$ https://%1/$1 [L,R=301]
 
+# ---- Legacy redirects (301) : anciennes URLs FR /blog/ et /blog-fr/ -> /fr/articles/ ----
+# Preserve l'anteriorite SEO des articles indexes depuis 2022-2023.
+# Place AVANT les regles clean-URL pour court-circuiter la reecriture interne.
+RewriteRule ^fr/blog/red-dead-online-est-mort/?$                          /fr/articles/red-dead-online-est-mort/ [R=301,L]
+RewriteRule ^fr/blog/qui-sera-le-personnage-principal-de-rdr-3/?$         /fr/articles/qui-sera-le-personnage-principal-de-rdr-3/ [R=301,L]
+RewriteRule ^fr/blog/les-ameliorations-quon-attend-dans-rdr3/?$           /fr/articles/les-ameliorations-quon-attend-dans-rdr3/ [R=301,L]
+RewriteRule ^fr/blog/rdr-3-est-il-en-cours-de-developpement/?$            /fr/articles/rdr-3-est-il-en-cours-de-developpement/ [R=301,L]
+RewriteRule ^fr/blog/red-dead-redemption-3-date-de-sortie/?$              /fr/articles/red-dead-redemption-3-date-de-sortie/ [R=301,L]
+RewriteRule ^fr/blog-fr/red-dead-redemption-3-roger-clark-partage-son-avis-sur-lavenir-de-la-licence/?$ /fr/articles/roger-clark-avenir-de-la-licence/ [R=301,L]
+RewriteRule ^fr/blog-fr/une-enorme-map-realisee-par-un-fan/?$             /fr/articles/une-enorme-map-realisee-par-un-fan/ [R=301,L]
+RewriteRule ^fr/blog-fr/red-dead-redemption-3-map/?$                      /fr/articles/red-dead-redemption-3-map/ [R=301,L]
+# Landings et eventuels articles non listes -> index des articles FR
+RewriteRule ^fr/blog(-fr)?/?$                                            /fr/articles/ [R=301,L]
+RewriteRule ^fr/blog(-fr)?/.+                                            /fr/articles/ [R=301,L]
+
 # ---- Clean URLs ----
 # Force trailing slash on existing directories (canonical URL)
 RewriteCond %{REQUEST_FILENAME} -d
