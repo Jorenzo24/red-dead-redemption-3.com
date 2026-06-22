@@ -190,4 +190,4 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 - **Fiches personnages (Phase 2)** : gabarit stabilisé = infobox + intro + accordéons
   `<details>` (1er ouvert), taxonomie de sections figée dans `DATA-SCHEMA.md §3`.
   Fiche de référence : `characters/arthur-morgan/`.
-- **Cache-buster CSS** actuellement à `?v=20260622f` (cf. §8 : bumper à chaque modif CSS).
+- **Cache-buster CSS** actuellement à `?v=20260622g` (cf. §8 : bumper à chaque modif CSS).

@@ -1,22 +1,23 @@
 <!--
 =============================================================================
-CHARACTER TEMPLATE  (Phase 2 gabarit — voir DATA-SCHEMA.md §3)
+CHARACTER TEMPLATE  (Phase 2 gabarit — profil + accordéons — voir DATA-SCHEMA.md §3)
 =============================================================================
 HOW TO USE
 ----------
-1. Copier ce fichier vers : characters/<slug>/index.html  (EN, version primaire)
-   et fr/personnages/<slug>/index.html (miroir FR, mêmes sections).
-2. Remplacer chaque {{PLACEHOLDER}}.
-3. Portrait : assets/characters/<slug>/portrait.jpeg (+ gallery-1.jpeg, … si galerie).
-4. Ajouter les 2 URLs (EN + FR) à sitemap-en.xml / sitemap-fr.xml avec alternates.
-5. Lier la fiche depuis la section Characters de la home (carte .acard).
+1. Copier vers : characters/<slug>/index.html (EN) et fr/personnages/<slug>/index.html (FR).
+2. Remplacer chaque {{PLACEHOLDER}}. Mêmes sections EN et FR (harmonie).
+3. Images : assets/characters/<slug>/portrait.jpeg (avatar) + gallery-1/2.jpeg.
+   Cover = un visuel large ; par défaut assets/fond-site.jpeg (bannière de marque).
+4. Ajouter les 2 URLs (EN+FR) à sitemap-en.xml / sitemap-fr.xml (avec alternates).
+5. Lier depuis la section Characters de la home avec une carte .ccard (poster).
 6. Bumper ?v=... sur css/style.css si le CSS a changé.
 
-PATHS : EN = characters/<slug>/index.html → "../../"  ;  FR = fr/personnages/<slug>/ → "../../../"
+PATHS : EN = characters/<slug>/ → "../../"  ;  FR = fr/personnages/<slug>/ → "../../../"
 
-SECTIONS (ordre fixe, masquer celles non pertinentes ; 1re ouverte) :
-  Biographie · Personnalité · Relations · Mort/Destin · Coulisses ·
-  Accueil & héritage · Anecdotes · Galerie · Sources
+LAYOUT = profil réseau social : cover + avatar + nom + chips + intro + grille de
+faits, puis accordéons <details> (1er ouvert). Sections (ordre fixe, masquer si N/A) :
+  Biography · Personality · Relationships · Death/Fate · Behind the scenes ·
+  Reception & legacy · Trivia · Gallery · Sources
 -----------------------------------------------------------------------------
 ---
 type: character
@@ -68,7 +69,7 @@ sections: [biography, personality, relationships, death, behind-the-scenes, rece
 
     <link rel="icon" type="image/png" href="../../assets/favicon-red-dead-redemption-3.png">
     <link rel="preload" href="../../assets/fonts/chinese-rock.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="../../css/style.css?v=20260622f">
+    <link rel="stylesheet" href="../../css/style.css?v=20260622g">
 
     <script type="application/ld+json">
     {
@@ -100,103 +101,96 @@ sections: [biography, personality, relationships, death, behind-the-scenes, rece
     </header>
 
     <main>
-        <article class="character">
-            <header class="character-header">
-                <p class="character-eyebrow">Character &middot; {{AFFILIATION}}</p>
-                <h1 class="character-title">{{NAME}}</h1>
-            </header>
-
-            <aside class="infobox">
-                <img class="infobox__img" src="../../assets/characters/{{SLUG}}/portrait.jpeg" alt="{{PORTRAIT_ALT}}" loading="eager" fetchpriority="high">
-                <p class="infobox__cap">{{PORTRAIT_CAPTION}}</p>
-                <p class="infobox__name">{{NAME}}</p>
-                <dl>
-                    <dt>Born</dt><dd>{{BORN}}</dd>
-                    <dt>Died</dt><dd>{{DIED}}</dd>
-                    <dt>Status</dt><dd>{{STATUS}}</dd>
-                    <dt>Nationality</dt><dd>{{NATIONALITY}}</dd>
-                    <dt>Affiliation</dt><dd>{{AFFILIATION}}</dd>
-                    <dt>Role</dt><dd>{{ROLE}}</dd>
-                    <dt>Family</dt><dd>{{FAMILY}}</dd>
-                    <dt>Games</dt><dd>{{GAMES_HUMAN}}</dd>
-                    <dt>Voiced by</dt><dd>{{VOICE_ACTOR}}</dd>
-                </dl>
-            </aside>
-
-            <p class="character-intro">{{INTRO_PARAGRAPH_1}}</p>
-            <p class="character-intro">{{INTRO_PARAGRAPH_2}}</p>
-
-            <div class="accordions">
-                <!-- 1. Biographie (ouverte). Sous-titres <h3> chronologiques. -->
-                <details class="accordion" open>
-                    <summary>Biography</summary>
-                    <div class="accordion__body">
-                        <h3>{{SUBHEADING}}</h3>
-                        <p>{{...}}</p>
-                    </div>
-                </details>
-
-                <details class="accordion">
-                    <summary>Personality</summary>
-                    <div class="accordion__body"><p>{{...}}</p></div>
-                </details>
-
-                <details class="accordion">
-                    <summary>Relationships</summary>
-                    <div class="accordion__body">
-                        <h3>{{RELATED_CHARACTER}}</h3>
-                        <p>{{...}}</p>
-                    </div>
-                </details>
-
-                <!-- Masquer si non applicable -->
-                <details class="accordion">
-                    <summary>Death and fate</summary>
-                    <div class="accordion__body"><p>{{...}}</p></div>
-                </details>
-
-                <details class="accordion">
-                    <summary>Behind the scenes</summary>
-                    <div class="accordion__body"><p>{{...}}</p></div>
-                </details>
-
-                <details class="accordion">
-                    <summary>Reception and legacy</summary>
-                    <div class="accordion__body"><p>{{...}}</p></div>
-                </details>
-
-                <details class="accordion">
-                    <summary>Trivia</summary>
-                    <div class="accordion__body"><ul><li>{{...}}</li></ul></div>
-                </details>
-
-                <details class="accordion">
-                    <summary>Gallery</summary>
-                    <div class="accordion__body">
-                        <div class="accordion__gallery">
-                            <figure>
-                                <img src="../../assets/characters/{{SLUG}}/gallery-1.jpeg" alt="{{...}}" loading="lazy">
-                                <figcaption>{{...}}</figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                </details>
-
-                <details class="accordion">
-                    <summary>Sources</summary>
-                    <div class="accordion__body">
-                        <ul><li><a href="{{URL}}" rel="nofollow noopener" target="_blank">{{SOURCE}}</a></li></ul>
-                    </div>
-                </details>
+        <article class="profile">
+            <div class="profile__cover">
+                <img src="../../assets/fond-site.jpeg" alt="" aria-hidden="true" loading="eager">
             </div>
+            <div class="profile__inner">
+                <div class="profile__head">
+                    <img class="profile__avatar" src="../../assets/characters/{{SLUG}}/portrait.jpeg" alt="{{PORTRAIT_ALT}}" fetchpriority="high">
+                    <div class="profile__id">
+                        <p class="profile__eyebrow">Character &middot; {{AFFILIATION}}</p>
+                        <h1 class="profile__name">{{NAME}}</h1>
+                    </div>
+                </div>
 
-            <footer class="article-footer">
-                <ul class="article-tags" aria-label="Tags">
-                    <li><a href="/characters/?tag={{TAG_1}}">{{TAG_1}}</a></li>
-                    <li><a href="/characters/?tag={{TAG_2}}">{{TAG_2}}</a></li>
-                </ul>
-                <p class="article-back"><a href="/">&larr; Home</a></p>
-            </footer>
+                <div class="profile__chips">
+                    <span class="chip"><strong>{{BORN}}&ndash;{{DIED}}</strong></span>
+                    <span class="chip">{{STATUS}}</span>
+                    <span class="chip">{{AFFILIATION}}</span>
+                    <span class="chip">Voiced by <strong>{{VOICE_ACTOR}}</strong></span>
+                </div>
+
+                <div class="profile__intro">
+                    <p>{{INTRO_PARAGRAPH_1}}</p>
+                    <p>{{INTRO_PARAGRAPH_2}}</p>
+                </div>
+
+                <dl class="profile__facts">
+                    <div><dt>Born</dt><dd>{{BORN}}</dd></div>
+                    <div><dt>Died</dt><dd>{{DIED}}</dd></div>
+                    <div><dt>Status</dt><dd>{{STATUS}}</dd></div>
+                    <div><dt>Nationality</dt><dd>{{NATIONALITY}}</dd></div>
+                    <div><dt>Affiliation</dt><dd>{{AFFILIATION}}</dd></div>
+                    <div><dt>Role</dt><dd>{{ROLE}}</dd></div>
+                    <div><dt>Family</dt><dd>{{FAMILY}}</dd></div>
+                    <div><dt>Games</dt><dd>{{GAMES_HUMAN}}</dd></div>
+                    <div><dt>Voiced by</dt><dd>{{VOICE_ACTOR}}</dd></div>
+                </dl>
+
+                <div class="accordions">
+                    <!-- Biographie (ouverte). Sous-titres <h3> chronologiques. -->
+                    <details class="accordion" open>
+                        <summary>Biography</summary>
+                        <div class="accordion__body"><h3>{{SUBHEADING}}</h3><p>{{...}}</p></div>
+                    </details>
+                    <details class="accordion">
+                        <summary>Personality</summary>
+                        <div class="accordion__body"><p>{{...}}</p></div>
+                    </details>
+                    <details class="accordion">
+                        <summary>Relationships</summary>
+                        <div class="accordion__body"><h3>{{RELATED}}</h3><p>{{...}}</p></div>
+                    </details>
+                    <!-- Masquer si non applicable -->
+                    <details class="accordion">
+                        <summary>Death and fate</summary>
+                        <div class="accordion__body"><p>{{...}}</p></div>
+                    </details>
+                    <details class="accordion">
+                        <summary>Behind the scenes</summary>
+                        <div class="accordion__body"><p>{{...}}</p></div>
+                    </details>
+                    <details class="accordion">
+                        <summary>Reception and legacy</summary>
+                        <div class="accordion__body"><p>{{...}}</p></div>
+                    </details>
+                    <details class="accordion">
+                        <summary>Trivia</summary>
+                        <div class="accordion__body"><ul><li>{{...}}</li></ul></div>
+                    </details>
+                    <details class="accordion">
+                        <summary>Gallery</summary>
+                        <div class="accordion__body">
+                            <div class="accordion__gallery">
+                                <figure><img src="../../assets/characters/{{SLUG}}/gallery-1.jpeg" alt="{{...}}" loading="lazy"><figcaption>{{...}}</figcaption></figure>
+                            </div>
+                        </div>
+                    </details>
+                    <details class="accordion">
+                        <summary>Sources</summary>
+                        <div class="accordion__body"><ul><li><a href="{{URL}}" rel="nofollow noopener" target="_blank">{{SOURCE}}</a></li></ul></div>
+                    </details>
+                </div>
+
+                <footer class="article-footer">
+                    <ul class="article-tags" aria-label="Tags">
+                        <li><a href="/characters/?tag={{TAG_1}}">{{TAG_1}}</a></li>
+                        <li><a href="/characters/?tag={{TAG_2}}">{{TAG_2}}</a></li>
+                    </ul>
+                    <p class="article-back"><a href="/">&larr; Home</a></p>
+                </footer>
+            </div>
         </article>
     </main>
 
@@ -208,3 +202,17 @@ sections: [biography, personality, relationships, death, behind-the-scenes, rece
     <script src="../../js/main.js?v=20260518a"></script>
 </body>
 </html>
+
+<!--
+HOME CARD (section Characters) — composant .ccard (poster), DISTINCT des articles (.acard) :
+
+<a class="ccard" href="/characters/{{SLUG}}/" aria-label="{{NAME}} character profile">
+    <img src="assets/characters/{{SLUG}}/portrait.jpeg" alt="{{NAME}}" loading="lazy">
+    <span class="ccard__overlay">
+        <span class="ccard__tag">Character</span>
+        <span class="ccard__name">{{NAME}}</span>
+        <span class="ccard__role">{{AFFILIATION}} &middot; {{GAME}}</span>
+        <span class="ccard__cta">View profile &rarr;</span>
+    </span>
+</a>
+-->

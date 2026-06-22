@@ -482,6 +482,66 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 1;
 }
 
+/* Character cards (poster style, distinct from article .acard) */
+.ccard {
+    position: relative;
+    display: block;
+    aspect-ratio: 3 / 4;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background: #17120d;
+    color: #fff;
+}
+.ccard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 22%;
+    transition: transform 0.35s ease;
+}
+.ccard:hover img {
+    transform: scale(1.04);
+}
+.ccard__overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1.25rem;
+    background: linear-gradient(180deg, rgba(13, 10, 8, 0) 35%, rgba(13, 10, 8, 0.55) 62%, rgba(13, 10, 8, 0.93) 100%);
+}
+.ccard__tag {
+    font-family: var(--serif);
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent-warm);
+}
+.ccard__name {
+    font-family: var(--serif);
+    font-size: 1.7rem;
+    line-height: 1;
+    margin-top: 0.35rem;
+    color: #fff;
+}
+.ccard__role {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.82);
+    margin-top: 0.5rem;
+}
+.ccard__cta {
+    font-family: var(--serif);
+    font-size: 0.9rem;
+    letter-spacing: 0.08em;
+    color: var(--accent-warm);
+    margin-top: 0.8rem;
+}
+.ccard:hover .ccard__cta {
+    color: #fff;
+}
+
 /* ============================================
    Article page
    ============================================ */
@@ -677,83 +737,116 @@ h1, h2, h3, h4, h5, h6 {
 /* ============================================
    Character wiki pages (infobox + accordions)
    ============================================ */
-.character {
+.profile {
     max-width: 60rem;
     margin: 0 auto;
-    padding: 2.5rem var(--gutter) 4rem;
+    padding-bottom: 4rem;
 }
-.character-header {
-    margin-bottom: 1.5rem;
+.profile__cover {
+    position: relative;
+    aspect-ratio: 16 / 5;
+    background: #17120d;
+    overflow: hidden;
 }
-.character-eyebrow {
+.profile__cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+    display: block;
+}
+.profile__inner {
+    padding: 0 var(--gutter);
+}
+.profile__head {
+    display: flex;
+    align-items: flex-end;
+    gap: 1.25rem;
+    margin-top: -3.5rem;
+    position: relative;
+    z-index: 1;
+}
+.profile__avatar {
+    width: 7.5rem;
+    height: 7.5rem;
+    flex-shrink: 0;
+    border-radius: 14px;
+    border: 4px solid var(--bg-elev);
+    object-fit: cover;
+    object-position: center 22%;
+    background: #17120d;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
+}
+.profile__id {
+    padding-bottom: 0.4rem;
+    min-width: 0;
+}
+.profile__eyebrow {
     font-family: var(--serif);
     color: var(--accent-warm);
-    letter-spacing: 0.25em;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
+    font-size: 0.78rem;
+    margin-bottom: 0.35rem;
+}
+.profile__name {
+    font-family: var(--serif);
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    line-height: 1;
+}
+.profile__chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1.1rem;
+}
+.chip {
     font-size: 0.8rem;
-    margin-bottom: 0.75rem;
+    padding: 0.3rem 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--bg-elev);
+    color: var(--text-muted);
 }
-.character-title {
-    font-size: clamp(2.25rem, 5.5vw, 3.75rem);
-    line-height: 1.02;
+.chip strong {
+    color: var(--text);
+    font-weight: 600;
 }
-.character-intro {
+.profile__intro {
+    margin-top: 1.4rem;
     font-size: 1.125rem;
     line-height: 1.7;
 }
-.character-intro + .character-intro {
-    margin-top: 1rem;
+.profile__intro p + p {
+    margin-top: 0.9rem;
 }
-
-/* Infobox */
-.infobox {
+.profile__facts {
+    margin-top: 1.5rem;
+    padding: 1.1rem 1.4rem;
     background: var(--bg-elev);
     border: 1px solid var(--border);
-    border-radius: 6px;
-    overflow: hidden;
-    margin: 0 0 1.5rem 0;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    gap: 0.9rem 1.5rem;
 }
-@media (min-width: 768px) {
-    .infobox {
-        float: right;
-        width: 21rem;
-        max-width: 45%;
-        margin: 0.5rem 0 1.5rem 2rem;
-    }
+.profile__facts > div {
+    min-width: 0;
 }
-.infobox__img {
-    width: 100%;
-    height: auto;
-    display: block;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
-}
-.infobox__cap {
-    padding: 0.5rem 1rem;
-    font-size: 0.78rem;
-    font-style: italic;
-    color: var(--text-muted);
-    border-bottom: 1px solid var(--border);
-}
-.infobox__name {
-    font-family: var(--serif);
-    font-size: 1.5rem;
-    padding: 0.85rem 1rem 0.25rem;
-}
-.infobox dl {
-    margin: 0;
-    padding: 0.5rem 1rem 1.1rem;
-}
-.infobox dt {
+.profile__facts dt {
     font-size: 0.7rem;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: var(--text-muted);
-    margin-top: 0.85rem;
 }
-.infobox dd {
-    margin: 0.1rem 0 0;
+.profile__facts dd {
+    margin: 0.15rem 0 0;
     font-size: 0.95rem;
+}
+@media (max-width: 600px) {
+    .profile__avatar { width: 5.5rem; height: 5.5rem; }
+    .profile__head { margin-top: -2.5rem; }
+    .profile__name { font-size: 1.9rem; }
 }
 
 /* Accordions (native <details>) */
