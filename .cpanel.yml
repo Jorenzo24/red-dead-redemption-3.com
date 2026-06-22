@@ -14,3 +14,4 @@ deployment:
     - /bin/cp robots.txt $DEPLOYPATH
     - /bin/cp sitemap.xml $DEPLOYPATH
     - /bin/cp sitemap-en.xml $DEPLOYPATH
+    - /bin/cp sitemap-fr.xml $DEPLOYPATH
