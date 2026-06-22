@@ -369,20 +369,21 @@ h1, h2, h3, h4, h5, h6 {
 .acard {
     display: flex;
     flex-direction: column;
-    background: var(--bg-elev);
-    border: 1px solid var(--border);
-    border-radius: 4px;
+    background: #ffffff;
+    border: 1px solid #e4dbcb;
+    border-radius: 6px;
     overflow: hidden;
-    transition: border-color 0.2s ease, transform 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 .acard:hover {
-    border-color: var(--accent);
-    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+    transform: translateY(-3px);
 }
 .acard__thumb {
     display: block;
-    aspect-ratio: 16 / 9;
-    background: var(--bg);
+    aspect-ratio: 4 / 3;
+    background: #e8e2d6;
 }
 .acard__thumb img {
     width: 100%;
@@ -394,29 +395,32 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    padding: 1.25rem 1.5rem 1.5rem;
+    padding: 1.1rem 1.35rem 1.35rem;
 }
 .acard__meta {
-    font-size: 0.8rem;
-    color: var(--text-muted);
+    font-size: 0.78rem;
+    color: #8a7a61;
     letter-spacing: 0.04em;
+    text-transform: uppercase;
     margin-bottom: 0.5rem;
 }
 .acard__title {
     font-family: var(--sans);
-    font-weight: 600;
-    font-size: 1.3rem;
+    font-weight: 700;
+    font-size: 1.2rem;
     line-height: 1.25;
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.5rem;
+    color: #1b1610;
 }
 .acard__title a {
-    color: var(--text);
+    color: inherit;
 }
 .acard__title a:hover {
-    color: var(--accent-warm);
+    color: var(--accent);
+    opacity: 1;
 }
 .acard__text {
-    color: var(--text-muted);
+    color: #5e5444;
     font-size: 0.9rem;
     flex-grow: 1;
 }
@@ -425,11 +429,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 1rem;
     font-family: var(--serif);
     font-size: 0.95rem;
-    letter-spacing: 0.1em;
-    color: var(--accent-warm);
+    letter-spacing: 0.08em;
+    color: var(--accent);
 }
 .acard__link:hover {
-    color: var(--accent);
+    color: #9c1715;
+    opacity: 1;
 }
 
 /* ============================================
@@ -498,7 +503,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: auto;
     display: block;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 4 / 3;
     object-fit: cover;
     object-position: center 35%;
 }
@@ -622,4 +627,30 @@ h1, h2, h3, h4, h5, h6 {
 
 .site-footer a {
     color: var(--text);
+}
+
+/* ============================================
+   Light "media" theme — article pages & indexes
+   Applied via <body class="theme-light">. Scoped to <main> so the
+   dark sticky masthead and footer (and the light logo) stay readable.
+   All article/index components use CSS vars, so overriding the vars
+   on main is enough to flip the whole reading area to light.
+   ============================================ */
+.theme-light {
+    background: #ece6da;
+}
+.theme-light main {
+    --bg:         #ece6da;
+    --bg-elev:    #ffffff;
+    --border:     #ddd3c0;
+    --text:       #211a12;
+    --text-muted: #6d6051;
+    background: var(--bg);
+    color: var(--text);
+}
+.theme-light main .article-body a {
+    color: #b3471a;
+}
+.theme-light main .article-body a:hover {
+    color: var(--accent);
 }
