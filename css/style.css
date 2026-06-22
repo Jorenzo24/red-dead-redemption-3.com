@@ -382,12 +382,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .acard__thumb {
     display: block;
-    aspect-ratio: 4 / 3;
     background: #e8e2d6;
 }
 .acard__thumb img {
     width: 100%;
-    height: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
     object-fit: cover;
     display: block;
 }
