@@ -83,7 +83,7 @@ hreflang:
     <link rel="preload" href="../../assets/fonts/chinese-rock.woff2" as="font" type="font/woff2" crossorigin>
 
     <!-- Stylesheet (bump ?v=... at every CSS change) -->
-    <link rel="stylesheet" href="../../css/style.css?v=20260622g">
+    <link rel="stylesheet" href="../../css/style.css?v=20260622h">
 
     <!-- Schema.org Article (keep fields in sync with front-matter) -->
     <script type="application/ld+json">
@@ -165,13 +165,14 @@ hreflang:
                 <p>{{CLOSING_PARAGRAPH}}</p>
             </div>
 
-            <footer class="article-footer">
-                <ul class="article-tags" aria-label="Tags">
-                    <li><a href="/articles/?tag={{TAG_1}}">{{TAG_1}}</a></li>
-                    <li><a href="/articles/?tag={{TAG_2}}">{{TAG_2}}</a></li>
-                    <li><a href="/articles/?tag={{TAG_3}}">{{TAG_3}}</a></li>
-                </ul>
-            </footer>
+            <!-- Bas de page : suggestions, PAS de tags ni bouton Home.
+                 Section "More articles" = 3 autres articles (cartes .acard). -->
+            <aside class="related" aria-label="More articles">
+                <h2 class="related__title">More articles</h2>
+                <div class="card-grid">
+                    <!-- 3x <article class="acard"> d'autres articles (cf. /articles/ index) -->
+                </div>
+            </aside>
         </article>
     </main>
 
