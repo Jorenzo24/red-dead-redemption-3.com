@@ -157,12 +157,47 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ============================================
+   Showcase — shared background behind hero + news
+   (image fades through a long gradient to solid black
+   by the bottom of the Latest news section)
+   ============================================ */
+.showcase {
+    position: relative;
+    z-index: 0;
+    isolation: isolate;
+}
+.showcase::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('../assets/fond-site.jpeg');
+    background-size: cover;
+    background-position: center 22%;
+    background-repeat: no-repeat;
+    z-index: -2;
+}
+.showcase::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(13, 10, 8, 0.55) 0%,
+        rgba(13, 10, 8, 0.32) 26%,
+        rgba(13, 10, 8, 0.50) 56%,
+        rgba(13, 10, 8, 0.92) 90%,
+        rgba(13, 10, 8, 1) 100%
+    );
+    z-index: -1;
+}
+
+/* ============================================
    Layout — Hero
    ============================================ */
 .hero {
     position: relative;
     overflow: hidden;
-    background: var(--bg);
+    background: transparent;
     min-height: calc(100vh - 64px);
     display: flex;
     flex-direction: column;
