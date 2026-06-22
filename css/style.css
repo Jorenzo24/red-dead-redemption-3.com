@@ -325,6 +325,114 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ============================================
+   Article cards (latest-news feed + article index)
+   ============================================ */
+.section__head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+.section__head .section__title {
+    margin-bottom: 0;
+}
+.section__more {
+    font-family: var(--serif);
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    color: var(--accent-warm);
+    white-space: nowrap;
+}
+.section__more:hover {
+    color: var(--accent);
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+@media (min-width: 640px) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 900px) {
+    .card-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}
+
+.acard {
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.acard:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+}
+.acard__thumb {
+    display: block;
+    aspect-ratio: 16 / 9;
+    background: var(--bg);
+}
+.acard__thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.acard__body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 1.25rem 1.5rem 1.5rem;
+}
+.acard__meta {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    letter-spacing: 0.04em;
+    margin-bottom: 0.5rem;
+}
+.acard__title {
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 1.25;
+    margin-bottom: 0.6rem;
+}
+.acard__title a {
+    color: var(--text);
+}
+.acard__title a:hover {
+    color: var(--accent-warm);
+}
+.acard__text {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    flex-grow: 1;
+}
+.acard__link {
+    display: inline-block;
+    margin-top: 1rem;
+    font-family: var(--serif);
+    font-size: 0.95rem;
+    letter-spacing: 0.1em;
+    color: var(--accent-warm);
+}
+.acard__link:hover {
+    color: var(--accent);
+}
+
+/* ============================================
    Article page
    ============================================ */
 .article {

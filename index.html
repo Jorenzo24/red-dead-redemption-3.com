@@ -33,7 +33,7 @@
     <link rel="preload" href="assets/fonts/chinese-rock.woff2" as="font" type="font/woff2" crossorigin>
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="css/style.css?v=20260518f">
+    <link rel="stylesheet" href="css/style.css?v=20260622a">
 </head>
 <body>
     <header class="site-header">
@@ -61,37 +61,60 @@
             <p class="hero__scroll" aria-hidden="true">Scroll</p>
         </section>
 
-        <section class="section" aria-labelledby="pillars-title">
+        <section class="section" aria-labelledby="news-title">
             <div class="section__inner">
-                <h2 id="pillars-title" class="section__title">What you'll find here</h2>
-                <p class="section__lede">
-                    Two sections, built carefully and written honestly. RDR3 isn't even
-                    officially announced yet. We have time to do this right.
-                </p>
-
-                <div class="pillars">
-                    <article class="pillar">
-                        <p class="pillar__index">01</p>
-                        <h3 class="pillar__title">News</h3>
-                        <p class="pillar__text">
-                            Release-date rumors, map leaks, casting whispers, official Rockstar
-                            announcements. Every piece labels what's confirmed, what's rumor,
-                            and what's pure speculation, so you always know which is which.
-                        </p>
-                        <a href="/articles/" class="pillar__link" aria-label="Browse all RDR3 news and articles">Read the news →</a>
+                <div class="section__head">
+                    <h2 id="news-title" class="section__title">Latest news</h2>
+                    <a href="/articles/" class="section__more">All articles &rarr;</a>
+                </div>
+                <div class="card-grid">
+                    <article class="acard">
+                        <a class="acard__thumb" href="/articles/the-protagonist-rdr3-fans-actually-want/" tabindex="-1" aria-hidden="true">
+                            <img src="assets/fond-site.jpeg" alt="Red Dead Redemption 3 key artwork" loading="lazy" width="1600" height="900">
+                        </a>
+                        <div class="acard__body">
+                            <p class="acard__meta"><time datetime="2026-05-18">May 18, 2026</time> &middot; News</p>
+                            <h3 class="acard__title"><a href="/articles/the-protagonist-rdr3-fans-actually-want/">The RDR3 Protagonist Fans Actually Want: Why Rockstar Won't Deliver</a></h3>
+                            <p class="acard__text">Three names dominate every RDR3 protagonist discussion. Based on Rockstar's track record across GTA and Red Dead, none of them are likely to be the answer.</p>
+                            <a href="/articles/the-protagonist-rdr3-fans-actually-want/" class="acard__link" aria-label="Read: The RDR3 Protagonist Fans Actually Want">Read &rarr;</a>
+                        </div>
                     </article>
-                    <article class="pillar">
-                        <p class="pillar__index">02</p>
-                        <h3 class="pillar__title">Characters</h3>
-                        <p class="pillar__text">
-                            An encyclopedic wiki of every figure who shaped the Red Dead universe,
-                            from Dutch's gang to the Pinkertons, from Arthur to John. Original writing,
-                            not Fandom rewrites.
-                        </p>
-                        <!-- TODO: point to /characters/ once the wiki has at least one character published -->
-                        <a href="#" class="pillar__link pillar__link--disabled" aria-disabled="true">Coming soon</a>
+                    <article class="acard">
+                        <a class="acard__thumb" href="/articles/roger-clark-future-of-the-series/" tabindex="-1" aria-hidden="true">
+                            <img src="assets/articles/roger-clark-avenir-de-la-licence/hero.jpeg" alt="Roger Clark, the voice of Arthur Morgan" loading="lazy" width="1600" height="900">
+                        </a>
+                        <div class="acard__body">
+                            <p class="acard__meta"><time datetime="2023-12-19">December 19, 2023</time> &middot; Statements</p>
+                            <h3 class="acard__title"><a href="/articles/roger-clark-future-of-the-series/">Roger Clark Shares His Thoughts on the Future of the Series</a></h3>
+                            <p class="acard__text">Roger Clark, the voice of Arthur Morgan, says he is convinced a Red Dead Redemption 3 will happen, but doesn't expect his character to return.</p>
+                            <a href="/articles/roger-clark-future-of-the-series/" class="acard__link" aria-label="Read: Roger Clark Shares His Thoughts on the Future of the Series">Read &rarr;</a>
+                        </div>
+                    </article>
+                    <article class="acard">
+                        <a class="acard__thumb" href="/articles/huge-fan-made-rdr3-map/" tabindex="-1" aria-hidden="true">
+                            <img src="assets/articles/une-enorme-map-realisee-par-un-fan/hero.jpeg" alt="Giant Red Dead Redemption 3 map imagined by a fan on Reddit" loading="lazy" width="1600" height="900">
+                        </a>
+                        <div class="acard__body">
+                            <p class="acard__meta"><time datetime="2022-07-23">July 23, 2022</time> &middot; Community</p>
+                            <h3 class="acard__title"><a href="/articles/huge-fan-made-rdr3-map/">A Huge Fan-Made RDR3 Map</a></h3>
+                            <p class="acard__text">A fan imagined a giant map for Red Dead Redemption 3 on Reddit, with an extended Mexico and new towns. Too big for an RDR game?</p>
+                            <a href="/articles/huge-fan-made-rdr3-map/" class="acard__link" aria-label="Read: A Huge Fan-Made RDR3 Map">Read &rarr;</a>
+                        </div>
                     </article>
                 </div>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="characters-title">
+            <div class="section__inner">
+                <h2 id="characters-title" class="section__title">Characters</h2>
+                <p class="section__lede">
+                    An encyclopedic wiki of every figure who shaped the Red Dead universe,
+                    from Dutch's gang to the Pinkertons, from Arthur to John. Original writing,
+                    not Fandom rewrites.
+                </p>
+                <!-- TODO: point to /characters/ once the wiki has at least one character published -->
+                <a href="#" class="pillar__link pillar__link--disabled" aria-disabled="true">Coming soon</a>
             </div>
         </section>
     </main>
