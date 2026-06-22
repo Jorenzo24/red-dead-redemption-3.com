@@ -168,10 +168,26 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 
 ## 10. ÉTAT D'AVANCEMENT (à tenir à jour par Claude Code)
 
-- [ ] Phase 1 : init projet (skill) + design de base + 1-2 articles tests
-- [ ] Phase 2 : 1 fiche personnage soignée (stabilise le gabarit)
+- [x] Phase 1 : init projet (skill) + design de base + 1-2 articles tests
+- [x] Phase 2 : 1 fiche personnage soignée (stabilise le gabarit) — Arthur Morgan (EN+FR)
 - [ ] Phase 3 : ~20 fiches + quelques articles, toujours en dur
 - [ ] Phase 4 (futur) : évaluation migration Astro
 - [ ] Phase 5 (futur) : déploiement langues par vagues
 
 > Quand une phase avance, cocher ici et noter les décisions structurantes prises.
+
+### Décisions structurantes actées
+- **Articles : EN primaire + miroir FR** reliés par hreflang réciproque (x-default → EN).
+  16 articles publiés (2022 → mi-2026), index `/articles/` + `/fr/articles/`, fil
+  « Latest news » sur la home. Slugs localisés par langue.
+- **Anciennes URLs FR `/fr/blog/` et `/fr/blog-fr/`** → **301** vers `/fr/articles/`
+  (antériorité préservée, voir `.htaccess`).
+- **Images d'articles/fiches** : sourcing web autorisé par Joseph (il vérifie les
+  droits avant publication) — override du §6 « pas de scraping ». Optimisées (≈1600px),
+  ratio **4:3** pour vignettes et heros.
+- **Thème « média » clair** (`<body class="theme-light">`) sur articles + index + fiches ;
+  la home garde le thème western sombre.
+- **Fiches personnages (Phase 2)** : gabarit stabilisé = infobox + intro + accordéons
+  `<details>` (1er ouvert), taxonomie de sections figée dans `DATA-SCHEMA.md §3`.
+  Fiche de référence : `characters/arthur-morgan/`.
+- **Cache-buster CSS** actuellement à `?v=20260622f` (cf. §8 : bumper à chaque modif CSS).

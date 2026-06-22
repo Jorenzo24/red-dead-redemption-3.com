@@ -1,0 +1,210 @@
+<!--
+=============================================================================
+CHARACTER TEMPLATE  (Phase 2 gabarit — voir DATA-SCHEMA.md §3)
+=============================================================================
+HOW TO USE
+----------
+1. Copier ce fichier vers : characters/<slug>/index.html  (EN, version primaire)
+   et fr/personnages/<slug>/index.html (miroir FR, mêmes sections).
+2. Remplacer chaque {{PLACEHOLDER}}.
+3. Portrait : assets/characters/<slug>/portrait.jpeg (+ gallery-1.jpeg, … si galerie).
+4. Ajouter les 2 URLs (EN + FR) à sitemap-en.xml / sitemap-fr.xml avec alternates.
+5. Lier la fiche depuis la section Characters de la home (carte .acard).
+6. Bumper ?v=... sur css/style.css si le CSS a changé.
+
+PATHS : EN = characters/<slug>/index.html → "../../"  ;  FR = fr/personnages/<slug>/ → "../../../"
+
+SECTIONS (ordre fixe, masquer celles non pertinentes ; 1re ouverte) :
+  Biographie · Personnalité · Relations · Mort/Destin · Coulisses ·
+  Accueil & héritage · Anecdotes · Galerie · Sources
+-----------------------------------------------------------------------------
+---
+type: character
+slug: {{SLUG}}
+lang: en
+title: "{{NAME}}"
+description: "{{META_DESCRIPTION_UNDER_160}}"
+games: [{{GAMES}}]
+status: {{alive|deceased|unknown}}
+born: "{{BORN_OR_OMIT}}"
+died: "{{DIED_OR_OMIT}}"
+affiliation: "{{AFFILIATION}}"
+voicedBy: "{{VOICE_ACTOR_OR_OMIT}}"
+hero:
+  image: ../../assets/characters/{{SLUG}}/portrait.jpeg
+  alt: "{{PORTRAIT_ALT}}"
+hreflang:
+  - { lang: en, href: "/characters/{{SLUG}}/" }
+  - { lang: fr, href: "/fr/personnages/{{SLUG}}/" }
+sections: [biography, personality, relationships, death, behind-the-scenes, reception, trivia, gallery, sources]
+---
+=============================================================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{NAME}} | Red Dead Redemption 3</title>
+    <meta name="description" content="{{META_DESCRIPTION_UNDER_160}}">
+    <link rel="canonical" href="https://red-dead-redemption-3.com/characters/{{SLUG}}/">
+
+    <link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/characters/{{SLUG}}/">
+    <link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/personnages/{{SLUG}}/">
+    <link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/characters/{{SLUG}}/">
+
+    <meta property="og:type" content="profile">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="https://red-dead-redemption-3.com/characters/{{SLUG}}/">
+    <meta property="og:site_name" content="Red Dead Redemption 3">
+    <meta property="og:title" content="{{NAME}}">
+    <meta property="og:description" content="{{META_DESCRIPTION_UNDER_160}}">
+    <meta property="og:image" content="https://red-dead-redemption-3.com/assets/characters/{{SLUG}}/portrait.jpeg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{NAME}}">
+    <meta name="twitter:description" content="{{META_DESCRIPTION_UNDER_160}}">
+    <meta name="twitter:image" content="https://red-dead-redemption-3.com/assets/characters/{{SLUG}}/portrait.jpeg">
+
+    <link rel="icon" type="image/png" href="../../assets/favicon-red-dead-redemption-3.png">
+    <link rel="preload" href="../../assets/fonts/chinese-rock.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../../css/style.css?v=20260622f">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "{{NAME}}",
+        "description": "{{SHORT_DESCRIPTION}}",
+        "image": "https://red-dead-redemption-3.com/assets/characters/{{SLUG}}/portrait.jpeg",
+        "gender": "{{Male|Female}}",
+        "nationality": "{{NATIONALITY}}",
+        "birthDate": "{{BIRTH_OR_OMIT}}",
+        "deathDate": "{{DEATH_OR_OMIT}}",
+        "subjectOf": { "@type": "VideoGame", "name": "{{MAIN_GAME}}", "publisher": { "@type": "Organization", "name": "Rockstar Games" } },
+        "mainEntityOfPage": "https://red-dead-redemption-3.com/characters/{{SLUG}}/",
+        "inLanguage": "en"
+    }
+    </script>
+</head>
+<body class="theme-light">
+    <header class="site-header">
+        <div class="site-header__inner">
+            <a href="/" class="site-header__logo" aria-label="Red Dead Redemption 3, Home">
+                <img src="../../assets/logo-red-dead-redemption-3-1.png" alt="Red Dead Redemption 3">
+            </a>
+            <nav class="site-header__nav" aria-label="Primary">
+                <div class="lang-switch"><span class="site-header__lang is-active" aria-current="true">EN</span><a href="/fr/personnages/{{SLUG}}/" class="site-header__lang" hreflang="fr" aria-label="Lire en français">FR</a></div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <article class="character">
+            <header class="character-header">
+                <p class="character-eyebrow">Character &middot; {{AFFILIATION}}</p>
+                <h1 class="character-title">{{NAME}}</h1>
+            </header>
+
+            <aside class="infobox">
+                <img class="infobox__img" src="../../assets/characters/{{SLUG}}/portrait.jpeg" alt="{{PORTRAIT_ALT}}" loading="eager" fetchpriority="high">
+                <p class="infobox__cap">{{PORTRAIT_CAPTION}}</p>
+                <p class="infobox__name">{{NAME}}</p>
+                <dl>
+                    <dt>Born</dt><dd>{{BORN}}</dd>
+                    <dt>Died</dt><dd>{{DIED}}</dd>
+                    <dt>Status</dt><dd>{{STATUS}}</dd>
+                    <dt>Nationality</dt><dd>{{NATIONALITY}}</dd>
+                    <dt>Affiliation</dt><dd>{{AFFILIATION}}</dd>
+                    <dt>Role</dt><dd>{{ROLE}}</dd>
+                    <dt>Family</dt><dd>{{FAMILY}}</dd>
+                    <dt>Games</dt><dd>{{GAMES_HUMAN}}</dd>
+                    <dt>Voiced by</dt><dd>{{VOICE_ACTOR}}</dd>
+                </dl>
+            </aside>
+
+            <p class="character-intro">{{INTRO_PARAGRAPH_1}}</p>
+            <p class="character-intro">{{INTRO_PARAGRAPH_2}}</p>
+
+            <div class="accordions">
+                <!-- 1. Biographie (ouverte). Sous-titres <h3> chronologiques. -->
+                <details class="accordion" open>
+                    <summary>Biography</summary>
+                    <div class="accordion__body">
+                        <h3>{{SUBHEADING}}</h3>
+                        <p>{{...}}</p>
+                    </div>
+                </details>
+
+                <details class="accordion">
+                    <summary>Personality</summary>
+                    <div class="accordion__body"><p>{{...}}</p></div>
+                </details>
+
+                <details class="accordion">
+                    <summary>Relationships</summary>
+                    <div class="accordion__body">
+                        <h3>{{RELATED_CHARACTER}}</h3>
+                        <p>{{...}}</p>
+                    </div>
+                </details>
+
+                <!-- Masquer si non applicable -->
+                <details class="accordion">
+                    <summary>Death and fate</summary>
+                    <div class="accordion__body"><p>{{...}}</p></div>
+                </details>
+
+                <details class="accordion">
+                    <summary>Behind the scenes</summary>
+                    <div class="accordion__body"><p>{{...}}</p></div>
+                </details>
+
+                <details class="accordion">
+                    <summary>Reception and legacy</summary>
+                    <div class="accordion__body"><p>{{...}}</p></div>
+                </details>
+
+                <details class="accordion">
+                    <summary>Trivia</summary>
+                    <div class="accordion__body"><ul><li>{{...}}</li></ul></div>
+                </details>
+
+                <details class="accordion">
+                    <summary>Gallery</summary>
+                    <div class="accordion__body">
+                        <div class="accordion__gallery">
+                            <figure>
+                                <img src="../../assets/characters/{{SLUG}}/gallery-1.jpeg" alt="{{...}}" loading="lazy">
+                                <figcaption>{{...}}</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </details>
+
+                <details class="accordion">
+                    <summary>Sources</summary>
+                    <div class="accordion__body">
+                        <ul><li><a href="{{URL}}" rel="nofollow noopener" target="_blank">{{SOURCE}}</a></li></ul>
+                    </div>
+                </details>
+            </div>
+
+            <footer class="article-footer">
+                <ul class="article-tags" aria-label="Tags">
+                    <li><a href="/characters/?tag={{TAG_1}}">{{TAG_1}}</a></li>
+                    <li><a href="/characters/?tag={{TAG_2}}">{{TAG_2}}</a></li>
+                </ul>
+                <p class="article-back"><a href="/">&larr; Home</a></p>
+            </footer>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="year">2026</span> red-dead-redemption-3.com &middot; All rights reserved.</p>
+        <p>This is a fan site. Not affiliated with, endorsed, or sponsored by Rockstar Games or Take-Two Interactive.</p>
+    </footer>
+
+    <script src="../../js/main.js?v=20260518a"></script>
+</body>
+</html>
