@@ -114,32 +114,84 @@
 
 ## 3. Fiche personnage
 
-> ⚠️ **Phase 2** — pas encore stabilisée. Voir CLAUDE.md §5.
-> Les champs ci-dessous sont indicatifs, à affiner sur les premières fiches réelles.
+> ✅ **Gabarit stabilisé en Phase 2.** Fiche de référence : `characters/arthur-morgan/`
+> (+ miroir FR `fr/personnages/arthur-morgan/`). Toute nouvelle fiche DOIT reprendre
+> cette structure pour garantir l'harmonie (sections identiques d'une fiche à l'autre).
 
 ### URL pattern (figée)
 - EN : `/characters/<slug>/`
 - FR : `/fr/personnages/<slug>/`
 
-### Front-matter pressenti (à valider en construisant la première fiche)
+### Front-matter
 
-| Champ           | Type          | Notes                                          |
-|-----------------|---------------|------------------------------------------------|
-| `type`          | `"character"` |                                                |
-| `slug`          | string        |                                                |
-| `lang`          | enum          |                                                |
-| `name`          | string        | Nom canonique (« Arthur Morgan »)              |
-| `aliases`       | string[]      | Surnoms, pseudonymes                           |
-| `appearances`   | enum[]        | `RDR1`, `RDR2`, `RDR_undead_nightmare`, …      |
-| `birthYear`     | int?          | Canon si connu, sinon `null`                   |
-| `deathYear`     | int?          | Idem                                           |
-| `affiliations`  | string[]      | Slugs : `van-der-linde-gang`, `pinkertons`, …  |
-| `role`          | string        | `protagonist` / `antagonist` / `supporting`…   |
-| `relatedTo`     | string[]      | Slugs d'autres personnages liés                |
-| `image`         | path          |                                                |
+| Champ           | Type          | Requis | Notes                                                       |
+|-----------------|---------------|--------|-------------------------------------------------------------|
+| `type`          | `"character"` | oui    |                                                             |
+| `slug`          | string        | oui    | Identique au nom du dossier, même slug EN et FR             |
+| `lang`          | enum          | oui    | `en` / `fr` / …                                             |
+| `title`         | string        | oui    | Nom canonique (« Arthur Morgan »), = `<title>` et `<h1>`    |
+| `description`   | string        | oui    | < 160 chars                                                 |
+| `games`         | string[]      | oui    | Ex. `["Red Dead Redemption 2", "Red Dead Online"]`          |
+| `status`        | enum          | oui    | `alive` / `deceased` / `unknown`                            |
+| `born` / `died` | string?       | non    | Canon si connu (ex. `"c. 1863"`, `"1899"`), sinon omis      |
+| `affiliation`   | string        | non    | Ex. `Van der Linde gang`                                    |
+| `voicedBy`      | string?       | non    | Doubleur / acteur de performance capture                    |
+| `hero.image`    | path          | oui    | Portrait (infobox)                                          |
+| `hero.alt`      | string        | oui    | Alt descriptif                                              |
+| `hreflang`      | array         | oui    | Toutes les versions linguistiques existantes + soi          |
+| `sections`      | string[]      | oui    | Liste des sections présentes (voir taxonomie ci-dessous)    |
 
-### Schema.org
-- Type : `Person` rattaché via `subjectOf` à `VideoGame` (RDR1/RDR2/RDR3).
+### Taxonomie des sections (fil conducteur, ordre fixe)
+
+Chaque fiche = une **infobox** (toujours visible) + une **intro** (1-2 `<p class="character-intro">`)
++ des **accordéons** `<details class="accordion">` dans cet ordre. On masque simplement
+les sections non pertinentes ; on peut en ajouter une au cas par cas si besoin.
+
+1. **Biographie** *(`open` par défaut)* — chronologique : origines → vie → rôle dans les jeux. Sous-titres `<h3>`.
+2. **Personnalité**
+3. **Relations** — sous-titres `<h3>` par personnage lié
+4. **Mort / Destin** *(si applicable)*
+5. **Coulisses** — doubleur, performance capture, développement
+6. **Accueil & héritage** — réception critique, récompenses, impact culturel
+7. **Anecdotes**
+8. **Galerie** — `.accordion__gallery` (figures)
+9. **Sources** — liens externes `rel="nofollow noopener"`
+
+**Comportement accordéons** : le 1er (`Biographie`) est `open`, les autres repliés.
+Mécanisme = `<details>`/`<summary>` natif (zéro JS, contenu indexable).
+
+### Structure HTML (sections sémantiques, ordre fixe)
+
+```html
+<body class="theme-light">
+  <header>…</header>                       <!-- partial: site header + lang-switch -->
+  <article class="character">
+    <header class="character-header">
+      <p class="character-eyebrow">[Personnage · …]</p>
+      <h1 class="character-title">{{ title }}</h1>
+    </header>
+    <aside class="infobox">                 <!-- portrait + .infobox__name + <dl> de faits -->
+      …
+    </aside>
+    <p class="character-intro">…</p>
+    <div class="accordions">
+      <details class="accordion" open><summary>…</summary><div class="accordion__body">…</div></details>
+      …
+    </div>
+    <footer class="article-footer">…</footer>
+  </article>
+  <footer>…</footer>                        <!-- partial: site footer -->
+</body>
+```
+
+### Schema.org (JSON-LD obligatoire)
+- Type : `Person` (personnage fictif), rattaché via `subjectOf` à `VideoGame`
+  (`Red Dead Redemption 2`, etc.).
+- Champs : `name`, `description`, `image`, `gender`, `nationality`, `birthDate`,
+  `deathDate`, `subjectOf`, `mainEntityOfPage`, `inLanguage`.
+
+### Thème
+- Fiches en **thème clair « média »** (`<body class="theme-light">`), comme les articles.
 
 ---
 

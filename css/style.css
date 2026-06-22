@@ -675,6 +675,181 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ============================================
+   Character wiki pages (infobox + accordions)
+   ============================================ */
+.character {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 2.5rem var(--gutter) 4rem;
+}
+.character-header {
+    margin-bottom: 1.5rem;
+}
+.character-eyebrow {
+    font-family: var(--serif);
+    color: var(--accent-warm);
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-bottom: 0.75rem;
+}
+.character-title {
+    font-size: clamp(2.25rem, 5.5vw, 3.75rem);
+    line-height: 1.02;
+}
+.character-intro {
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+.character-intro + .character-intro {
+    margin-top: 1rem;
+}
+
+/* Infobox */
+.infobox {
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 0 1.5rem 0;
+}
+@media (min-width: 768px) {
+    .infobox {
+        float: right;
+        width: 21rem;
+        max-width: 45%;
+        margin: 0.5rem 0 1.5rem 2rem;
+    }
+}
+.infobox__img {
+    width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+.infobox__cap {
+    padding: 0.5rem 1rem;
+    font-size: 0.78rem;
+    font-style: italic;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+}
+.infobox__name {
+    font-family: var(--serif);
+    font-size: 1.5rem;
+    padding: 0.85rem 1rem 0.25rem;
+}
+.infobox dl {
+    margin: 0;
+    padding: 0.5rem 1rem 1.1rem;
+}
+.infobox dt {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    margin-top: 0.85rem;
+}
+.infobox dd {
+    margin: 0.1rem 0 0;
+    font-size: 0.95rem;
+}
+
+/* Accordions (native <details>) */
+.accordions {
+    clear: both;
+    margin-top: 2rem;
+}
+.accordion {
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--bg-elev);
+    margin-top: 1rem;
+    overflow: hidden;
+}
+.accordion > summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 1rem 1.25rem;
+    font-family: var(--serif);
+    font-size: 1.35rem;
+    letter-spacing: 0.02em;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.accordion > summary::-webkit-details-marker {
+    display: none;
+}
+.accordion > summary::after {
+    content: "+";
+    font-family: var(--sans);
+    font-size: 1.5rem;
+    line-height: 1;
+    color: var(--accent);
+    flex-shrink: 0;
+}
+.accordion[open] > summary::after {
+    content: "\2013";
+}
+.accordion > summary:hover {
+    color: var(--accent);
+}
+.accordion__body {
+    padding: 0.25rem 1.25rem 1.4rem;
+    font-size: 1.0625rem;
+    line-height: 1.75;
+}
+.accordion__body > * + * {
+    margin-top: 0.9rem;
+}
+.accordion__body h3 {
+    font-size: 1.15rem;
+    margin-top: 1.6rem;
+    color: var(--text);
+}
+.accordion__body ul {
+    padding-left: 1.4rem;
+    list-style: disc;
+}
+.accordion__body li + li {
+    margin-top: 0.4rem;
+}
+.accordion__body a {
+    color: #b3471a;
+    border-bottom: 1px solid currentColor;
+}
+.accordion__body a:hover {
+    color: var(--accent);
+    opacity: 1;
+}
+.accordion__gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+.accordion__gallery figure {
+    margin: 0;
+}
+.accordion__gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+.accordion__gallery figcaption {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-top: 0.35rem;
+}
+
+/* ============================================
    Light "media" theme — article pages & indexes
    Applied via <body class="theme-light">. Scoped to <main> so the
    dark sticky masthead and footer (and the light logo) stay readable.
