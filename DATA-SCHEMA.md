@@ -137,6 +137,8 @@
 | `born` / `died` | string?       | non    | Canon si connu (ex. `"c. 1863"`, `"1899"`), sinon omis      |
 | `affiliation`   | string        | non    | Ex. `Van der Linde gang`                                    |
 | `voicedBy`      | string?       | non    | Doubleur / acteur de performance capture                    |
+| `author`        | string        | oui    | Slug auteur (`joseph`) — affiché en byline (EEAT)           |
+| `updatedAt`     | date ISO      | oui    | Date de mise à jour — affichée « Updated … » (EEAT)         |
 | `hero.image`    | path          | oui    | Portrait (infobox)                                          |
 | `hero.alt`      | string        | oui    | Alt descriptif                                              |
 | `hreflang`      | array         | oui    | Toutes les versions linguistiques existantes + soi          |
@@ -156,7 +158,11 @@ les sections non pertinentes ; on peut en ajouter une au cas par cas si besoin.
 6. **Accueil & héritage** — réception critique, récompenses, impact culturel
 7. **Anecdotes**
 8. **Galerie** — `.accordion__gallery` (figures)
-9. **Sources** — liens externes `rel="nofollow noopener"`
+
+> Pas de section « Sources » : on ne cite pas Wikipedia/Fandom (on ne veut pas
+> paraître dérivé des sites qu'on cherche à dépasser, cf. §5 « contenu original »).
+> L'EEAT passe plutôt par un **auteur** + une **date de mise à jour** visibles
+> (ligne `.profile__byline` sous les chips) et l'originalité du texte.
 
 **Comportement accordéons** : le 1er (`Biographie`) est `open`, les autres repliés.
 Mécanisme = `<details>`/`<summary>` natif (zéro JS, contenu indexable).
@@ -177,6 +183,7 @@ Mécanisme = `<details>`/`<summary>` natif (zéro JS, contenu indexable).
         </div>
       </div>
       <div class="profile__chips"><span class="chip">…</span>…</div>   <!-- faits clés -->
+      <p class="profile__byline">By <span>Joseph Lambert</span> · Updated <time>…</time></p>
       <div class="profile__intro"><p>…</p><p>…</p></div>
       <dl class="profile__facts"><div><dt>…</dt><dd>…</dd></div>…</dl>  <!-- grille pleine largeur -->
       <div class="accordions">
