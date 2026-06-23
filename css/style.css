@@ -1020,9 +1020,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .rel__body h3 a {
     color: var(--accent);
+    text-decoration: none;
 }
 .rel__body h3 a:hover {
     color: #9c1715;
+    text-decoration: none;
     opacity: 1;
 }
 .rel__body p {

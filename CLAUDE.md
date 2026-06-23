@@ -198,8 +198,11 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 - **Bas de page** : pas de tags ni bouton Home ; à la place une section de suggestions
   « More articles » (articles) / « More characters » (fiches).
 - **Relations (fiches)** : liste « cast » illustrée (`.rel` + portrait). Le **nom**
-  d'un personnage qui A déjà une fiche est un **lien rouge** (`.rel__body h3 a`) vers
-  cette fiche ; sinon nom en clair. Portraits : artwork officiel ou capture in-game
-  (rendu wiki) ; à défaut, `assets/characters/placeholder-avatar.svg` (avatar western).
-- **Fiches publiées** : Arthur Morgan, John Marston (EN + FR). Phase 3 en cours.
-- **Cache-buster CSS** actuellement à `?v=20260622m` (cf. §8 : bumper à chaque modif CSS).
+  d'un personnage qui A déjà une fiche est un **lien rouge SANS soulignement**
+  (`.rel__body h3 a`, `text-decoration:none`) vers cette fiche ; sinon nom en clair.
+  Les liens contextuels dans l'intro/bio restent des liens inline normaux.
+  Portraits : artwork officiel ou capture in-game (rendu wiki, API Red Dead Wiki) ;
+  à défaut, `assets/characters/placeholder-avatar.svg` (avatar western).
+- **Fiches publiées** : Arthur Morgan, John Marston, Dutch van der Linde, Micah Bell,
+  Sadie Adler (EN + FR). Phase 3 en cours.
+- **Cache-buster CSS** actuellement à `?v=20260622n` (cf. §8 : bumper à chaque modif CSS).
