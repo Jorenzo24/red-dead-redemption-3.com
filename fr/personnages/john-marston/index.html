@@ -38,7 +38,7 @@ hreflang:
 
     <link rel="icon" type="image/png" href="../../../assets/favicon-red-dead-redemption-3.png">
     <link rel="preload" href="../../../assets/fonts/chinese-rock.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="../../../css/style.css?v=20260622p">
+    <link rel="stylesheet" href="../../../css/style.css?v=20260622q">
 
     <script type="application/ld+json">
     {
@@ -60,6 +60,32 @@ hreflang:
         "inLanguage": "fr"
     }
     </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://red-dead-redemption-3.com/fr/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Personnages",
+                "item": "https://red-dead-redemption-3.com/fr/personnages/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "John Marston",
+                "item": "https://red-dead-redemption-3.com/fr/personnages/john-marston/"
+            }
+        ]
+    }
+    </script>
 </head>
 <body class="theme-light">
     <header class="site-header">
@@ -78,6 +104,13 @@ hreflang:
     </header>
 
     <main>
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <ol>
+                <li><a href="/fr/">Accueil</a></li>
+                <li><span class="breadcrumb__sep">&rsaquo;</span><a href="/fr/personnages/">Personnages</a></li>
+                <li><span class="breadcrumb__sep">&rsaquo;</span><span aria-current="page">John Marston</span></li>
+            </ol>
+        </nav>
         <article class="profile">
             <div class="profile__cover">
                 <img src="../../../assets/characters/john-marston/cover.jpeg" alt="" aria-hidden="true" loading="eager">

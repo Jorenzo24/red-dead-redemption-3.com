@@ -83,7 +83,7 @@ hreflang:
     <link rel="preload" href="../../assets/fonts/chinese-rock.woff2" as="font" type="font/woff2" crossorigin>
 
     <!-- Stylesheet (bump ?v=... at every CSS change) -->
-    <link rel="stylesheet" href="../../css/style.css?v=20260622p">
+    <link rel="stylesheet" href="../../css/style.css?v=20260622q">
 
     <!-- Schema.org Article (keep fields in sync with front-matter) -->
     <script type="application/ld+json">
@@ -126,6 +126,13 @@ hreflang:
     </header>
 
     <main>
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <ol>
+                <li><a href="/">Home</a></li>
+                <li><span class="breadcrumb__sep">&rsaquo;</span><a href="/articles/">Articles</a></li>
+                <li><span class="breadcrumb__sep">&rsaquo;</span><span aria-current="page">{{TITLE}}</span></li>
+            </ol>
+        </nav>
         <article class="article">
             <header class="article-header">
                 <p class="article-eyebrow">News · {{CATEGORY}}</p>
