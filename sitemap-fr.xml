@@ -172,4 +172,13 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/articles/le-protagoniste-que-les-fans-veulent-vraiment/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/articles/the-protagonist-rdr3-fans-actually-want/"/>
     </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/fr/personnages/john-marston/</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/characters/john-marston/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/personnages/john-marston/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/characters/john-marston/"/>
+    </url>
 </urlset>
