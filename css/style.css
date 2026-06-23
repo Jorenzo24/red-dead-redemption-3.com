@@ -839,6 +839,24 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--text-muted);
 }
 
+.site-footer__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6rem 1.5rem;
+    margin-bottom: 1.4rem;
+    font-family: var(--serif);
+    letter-spacing: 0.06em;
+    font-size: 0.95rem;
+}
+.site-footer__nav a {
+    color: var(--text);
+}
+.site-footer__nav a:hover {
+    color: var(--accent-warm);
+    opacity: 1;
+}
+
 .site-footer p + p {
     margin-top: 0.5rem;
 }
