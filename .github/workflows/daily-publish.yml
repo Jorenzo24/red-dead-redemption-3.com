@@ -1,0 +1,80 @@
+name: Daily drip-publish
+
+# Publishes at most one queued character fiche per day (see scripts/publish_next.py),
+# commits the result, then triggers the cPanel deployment.
+#
+# ONE-TIME SETUP (see PUBLISHING.md): add these repository secrets in
+# GitHub > Settings > Secrets and variables > Actions:
+#   CPANEL_HOST       e.g. server123.web-hosting.com   (the cPanel host, no https://)
+#   CPANEL_USER       reddeadredemptio
+#   CPANEL_TOKEN      a cPanel API token (cPanel > Manage API Tokens)
+#   CPANEL_REPO_ROOT  absolute path of the cPanel-side git clone
+#                     (cPanel > Git Version Control > Manage > "Repository Path")
+# Until the secrets exist, the publish + commit still run; only the deploy step is skipped,
+# so the worst case is you click "Deploy HEAD Commit" yourself (manual fallback).
+
+on:
+  schedule:
+    - cron: "0 9 * * *"   # every day at 09:00 UTC
+  workflow_dispatch: {}    # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Publish next due fiche
+        id: pub
+        run: |
+          OUT="$(python scripts/publish_next.py)"
+          echo "$OUT"
+          echo "result=$OUT" >> "$GITHUB_OUTPUT"
+
+      - name: Commit & push if something was published
+        id: commit
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "rdr3-drip-bot"
+            git config user.email "noreply@red-dead-redemption-3.com"
+            git add -A
+            git commit -m "chore: drip-publish scheduled character (${{ steps.pub.outputs.result }})"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Nothing to publish today."
+          fi
+
+      - name: Trigger cPanel deployment
+        if: steps.commit.outputs.changed == 'true' && env.CPANEL_HOST != ''
+        continue-on-error: true   # never let a deploy hiccup fail the publish
+        env:
+          CPANEL_HOST: ${{ secrets.CPANEL_HOST }}
+          CPANEL_USER: ${{ secrets.CPANEL_USER }}
+          CPANEL_TOKEN: ${{ secrets.CPANEL_TOKEN }}
+          CPANEL_REPO_ROOT: ${{ secrets.CPANEL_REPO_ROOT }}
+        run: |
+          # Pull the new commit into the cPanel-side clone, then deploy it.
+          ENC_ROOT=$(python -c "import urllib.parse,os;print(urllib.parse.quote(os.environ['CPANEL_REPO_ROOT'],safe=''))")
+          echo "Updating cPanel repo from remote..."
+          curl -sS --max-time 90 \
+            -H "Authorization: cpanel ${CPANEL_USER}:${CPANEL_TOKEN}" \
+            "https://${CPANEL_HOST}:2083/execute/VersionControl/update?repository_root=${ENC_ROOT}" || true
+          echo "Triggering deployment..."
+          curl -sS --max-time 90 \
+            -H "Authorization: cpanel ${CPANEL_USER}:${CPANEL_TOKEN}" \
+            "https://${CPANEL_HOST}:2083/execute/VersionControlDeployment/create?repository_root=${ENC_ROOT}"
