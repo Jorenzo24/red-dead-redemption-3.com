@@ -195,8 +195,17 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   concurrents qu'on veut dépasser). À la place : byline **auteur + date « Updated »**
   sur articles ET fiches. Vérifier chaque fait précis (récompense gagnée vs nommée,
   dates, noms) avant publication.
+- **Menu header (global)** : `.site-header__menu` avec liens « Characters/Personnages »
+  (→ `/characters/` · `/fr/personnages/`) + « Articles » (→ `/articles/` · `/fr/articles/`),
+  à côté du sélecteur de langue. État actif `.is-active` + `aria-current="page"` selon
+  la section. Présent sur TOUTES les pages indexables (pas sur le 404, minimal volontaire).
+  Templates `_templates/` à jour aussi.
+- **Pages de listing** : `/characters/` + `/fr/personnages/` (grille `.ccard`),
+  `/articles/` + `/fr/articles/`. Reliées par hreflang réciproque, dans les sitemaps.
 - **Bas de page** : pas de tags ni bouton Home ; à la place une section de suggestions
-  « More articles » (articles) / « More characters » (fiches).
+  « More articles » (articles) / « More characters » (fiches). Les fiches affichent
+  **4 autres personnages + bouton « All characters »** (`.related__head` + `.related__all`)
+  vers le listing complet.
 - **Relations (fiches)** : liste « cast » illustrée (`.rel` + portrait). Le **nom**
   d'un personnage qui A déjà une fiche est un **lien rouge SANS soulignement**
   (`.rel__body h3 a`, `text-decoration:none`) vers cette fiche ; sinon nom en clair.
@@ -205,4 +214,4 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   à défaut, `assets/characters/placeholder-avatar.svg` (avatar western).
 - **Fiches publiées** : Arthur Morgan, John Marston, Dutch van der Linde, Micah Bell,
   Sadie Adler (EN + FR). Phase 3 en cours.
-- **Cache-buster CSS** actuellement à `?v=20260622n` (cf. §8 : bumper à chaque modif CSS).
+- **Cache-buster CSS** actuellement à `?v=20260622o` (cf. §8 : bumper à chaque modif CSS).
