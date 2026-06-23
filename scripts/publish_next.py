@@ -1,0 +1,161 @@
+#!/usr/bin/env python3
+"""
+Drip-publisher for red-dead-redemption-3.com.
+
+Picks the next DUE character fiche from _queue/ (publishDate <= today, UTC),
+moves it live, wires it into the listing pages + homepages + sitemaps with a
+fresh lastmod, and removes it from the queue. Designed to be run once a day by
+.github/workflows/daily-publish.yml (the workflow commits + deploys the result).
+
+Queue layout (one folder per fiche):
+    _queue/NN-<slug>/
+        meta.json   -> {"slug","name","role_en","role_fr","publishDate":"YYYY-MM-DD"}
+        en.html     -> final EN page (paths already ../../ as if at /characters/<slug>/)
+        fr.html     -> final FR page (paths already ../../../ as if at /fr/personnages/<slug>/)
+    (character images must already live in assets/characters/<slug>/)
+
+Exit codes: 0 = published one OR nothing due (no error); 1 = a real error.
+Prints "PUBLISHED <slug>" on success, "NOTHING_DUE" when idle (the workflow keys
+its commit on a real git diff, so an idle run is a harmless no-op).
+"""
+import json, os, re, sys, datetime
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+QUEUE = os.path.join(ROOT, "_queue")
+TODAY = datetime.datetime.now(datetime.timezone.utc).date()
+LASTMOD = TODAY.isoformat()
+
+GRIDS = {  # file -> (img_prefix, link_prefix, lang)
+    "characters/index.html":      ("../",   "/characters/",       "en"),
+    "fr/personnages/index.html":  ("../../","/fr/personnages/",   "fr"),
+    "index.html":                 ("",      "/characters/",       "en"),
+    "fr/index.html":              ("../",   "/fr/personnages/",   "fr"),
+}
+MARKER = "                    <!-- @ccards -->\n"
+
+
+def die(msg):
+    print("ERROR:", msg, file=sys.stderr)
+    sys.exit(1)
+
+
+def pick_due():
+    if not os.path.isdir(QUEUE):
+        return None
+    due = []
+    for name in sorted(os.listdir(QUEUE)):
+        d = os.path.join(QUEUE, name)
+        mp = os.path.join(d, "meta.json")
+        if not os.path.isfile(mp):
+            continue
+        meta = json.load(open(mp, encoding="utf-8"))
+        try:
+            pd = datetime.date.fromisoformat(meta["publishDate"])
+        except Exception:
+            die(f"bad publishDate in {mp}")
+        live = os.path.join(ROOT, "characters", meta["slug"], "index.html")
+        if pd <= TODAY and not os.path.exists(live):
+            due.append((pd, name, d, meta))
+    if not due:
+        return None
+    due.sort(key=lambda t: (t[0], t[1]))  # earliest date, then folder order
+    return due[0]
+
+
+def ccard(meta, img_prefix, link_prefix, lang):
+    slug, name = meta["slug"], meta["name"]
+    role = meta["role_en"] if lang == "en" else meta["role_fr"]
+    if lang == "en":
+        tag, cta, aria = "Character", "View profile &rarr;", f"{name} character profile"
+    else:
+        tag, cta, aria = "Personnage", "Voir le profil &rarr;", f"Fiche du personnage {name}"
+    return (
+        f'                    <a class="ccard" href="{link_prefix}{slug}/" aria-label="{aria}">\n'
+        f'                        <img src="{img_prefix}assets/characters/{slug}/portrait.jpeg" alt="{name}" loading="lazy">\n'
+        f'                        <span class="ccard__overlay">\n'
+        f'                            <span class="ccard__tag">{tag}</span>\n'
+        f'                            <span class="ccard__name">{name}</span>\n'
+        f'                            <span class="ccard__role">{role}</span>\n'
+        f'                            <span class="ccard__cta">{cta}</span>\n'
+        f'                        </span>\n'
+        f'                    </a>\n'
+    )
+
+
+def add_to_grid(relpath, meta, img_prefix, link_prefix, lang):
+    p = os.path.join(ROOT, relpath)
+    s = open(p, encoding="utf-8").read()
+    if MARKER not in s:
+        die(f"insertion marker missing in {relpath}")
+    if f'{link_prefix}{meta["slug"]}/"' in s:
+        return  # already present, idempotent
+    s = s.replace(MARKER, ccard(meta, img_prefix, link_prefix, lang) + MARKER, 1)
+    open(p, "w", encoding="utf-8").write(s)
+
+
+def add_to_sitemap(relpath, loc, en, fr, priority):
+    p = os.path.join(ROOT, relpath)
+    s = open(p, encoding="utf-8").read()
+    if f"<loc>{loc}</loc>" in s:
+        return
+    entry = (
+        "    <url>\n"
+        f"        <loc>{loc}</loc>\n"
+        f"        <lastmod>{LASTMOD}</lastmod>\n"
+        "        <changefreq>monthly</changefreq>\n"
+        f"        <priority>{priority}</priority>\n"
+        f'        <xhtml:link rel="alternate" hreflang="en" href="{en}"/>\n'
+        f'        <xhtml:link rel="alternate" hreflang="fr" href="{fr}"/>\n'
+        f'        <xhtml:link rel="alternate" hreflang="x-default" href="{en}"/>\n'
+        "    </url>\n"
+    )
+    open(p, "w", encoding="utf-8").write(s.replace("</urlset>", entry + "</urlset>"))
+
+
+def main():
+    nxt = pick_due()
+    if not nxt:
+        print("NOTHING_DUE")
+        return
+    _, folder, d, meta = nxt
+    slug = meta["slug"]
+    for key in ("slug", "name", "role_en", "role_fr"):
+        if not meta.get(key):
+            die(f"meta.json missing '{key}' in {folder}")
+
+    en_src, fr_src = os.path.join(d, "en.html"), os.path.join(d, "fr.html")
+    if not (os.path.isfile(en_src) and os.path.isfile(fr_src)):
+        die(f"en.html/fr.html missing in {folder}")
+    if not os.path.isfile(os.path.join(ROOT, "assets", "characters", slug, "portrait.jpeg")):
+        die(f"portrait.jpeg missing for {slug} (assets must be in place)")
+
+    # 1. move pages live
+    en_dir = os.path.join(ROOT, "characters", slug)
+    fr_dir = os.path.join(ROOT, "fr", "personnages", slug)
+    os.makedirs(en_dir, exist_ok=True)
+    os.makedirs(fr_dir, exist_ok=True)
+    with open(en_src, encoding="utf-8") as f:
+        open(os.path.join(en_dir, "index.html"), "w", encoding="utf-8").write(f.read())
+    with open(fr_src, encoding="utf-8") as f:
+        open(os.path.join(fr_dir, "index.html"), "w", encoding="utf-8").write(f.read())
+
+    # 2. wire into the 4 grids
+    for relpath, (img, link, lang) in GRIDS.items():
+        add_to_grid(relpath, meta, img, link, lang)
+
+    # 3. sitemaps
+    D = "https://red-dead-redemption-3.com"
+    add_to_sitemap("sitemap-en.xml", f"{D}/characters/{slug}/",
+                   f"{D}/characters/{slug}/", f"{D}/fr/personnages/{slug}/", "0.7")
+    add_to_sitemap("sitemap-fr.xml", f"{D}/fr/personnages/{slug}/",
+                   f"{D}/characters/{slug}/", f"{D}/fr/personnages/{slug}/", "0.6")
+
+    # 4. drop from queue
+    import shutil
+    shutil.rmtree(d)
+
+    print(f"PUBLISHED {slug}")
+
+
+if __name__ == "__main__":
+    main()
