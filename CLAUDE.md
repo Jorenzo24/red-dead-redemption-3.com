@@ -216,4 +216,11 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 - **Fiches publiées** (8, EN + FR) : Arthur Morgan, John Marston, Dutch van der Linde,
   Micah Bell, Sadie Adler, Hosea Matthews, Bill Williamson, Charles Smith. Phase 3 en cours.
   Au-delà de 5 persos, « More characters » affiche 4 fiches pertinentes (pas toutes).
-- **Cache-buster CSS** actuellement à `?v=20260622p` (cf. §8 : bumper à chaque modif CSS).
+- **Renforcement SEO/perf/EEAT (chantiers faits)** : fil d'Ariane (visuel + `BreadcrumbList`)
+  + `Organization`/`WebSite` sur l'accueil ; images **WebP** servies par négociation `.htaccess`
+  (fallback JPEG) + `width`/`height` partout (anti-CLS) ; pages **EEAT** `/about/`,
+  `/about/joseph-lambert/` (entité auteur, byline reliée), `/contact/` (+ FR) ; **menu =
+  Characters/Personnages · Articles · Timeline/Chronologie** + footer nav ; hub
+  `/timeline/` + `/fr/chronologie/`. Email contact `contact@red-dead-redemption-3.com`
+  (forwarder cPanel à créer).
+- **Cache-buster CSS** actuellement à `?v=20260622s` (cf. §8 : bumper à chaque modif CSS).
