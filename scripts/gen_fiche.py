@@ -16,7 +16,7 @@ See CHAR SCHEMA at the bottom for the expected dict shape.
 import json, os, re, html
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CSS_V = "20260622r"
+CSS_V = "20260622s"
 
 # Registry used to build "More characters" ccards (role per language).
 REGISTRY = {
@@ -152,6 +152,7 @@ def _page(c, lang):
         menu = (f'                <div class="site-header__menu">\n'
                 f'                    <a href="/characters/" class="site-header__link is-active" aria-current="page">Characters</a>\n'
                 f'                    <a href="/articles/" class="site-header__link">Articles</a>\n'
+                f'                    <a href="/timeline/" class="site-header__link">Timeline</a>\n'
                 f'                </div>\n'
                 f'                <div class="lang-switch"><span class="site-header__lang is-active" aria-current="true">EN</span><a href="{frurl.replace("https://red-dead-redemption-3.com","")}" class="site-header__lang" hreflang="fr" aria-label="Lire en français">FR</a></div>')
     else:
@@ -159,6 +160,7 @@ def _page(c, lang):
         menu = (f'                <div class="site-header__menu">\n'
                 f'                    <a href="/fr/personnages/" class="site-header__link is-active" aria-current="page">Personnages</a>\n'
                 f'                    <a href="/fr/articles/" class="site-header__link">Articles</a>\n'
+                f'                    <a href="/fr/chronologie/" class="site-header__link">Chronologie</a>\n'
                 f'                </div>\n'
                 f'                <div class="lang-switch"><a href="{enurl.replace("https://red-dead-redemption-3.com","")}" class="site-header__lang" hreflang="en" aria-label="Read in English">EN</a><span class="site-header__lang is-active" aria-current="true">FR</span></div>')
 
@@ -193,6 +195,7 @@ def _page(c, lang):
                 '            <a href="/about/">About</a>\n'
                 '            <a href="/about/joseph-lambert/">Author</a>\n'
                 '            <a href="/characters/">Characters</a>\n'
+                '            <a href="/timeline/">Timeline</a>\n'
                 '            <a href="/articles/">Articles</a>\n'
                 '            <a href="/contact/">Contact</a>\n'
                 '        </nav>\n')
@@ -204,6 +207,7 @@ def _page(c, lang):
                 '            <a href="/fr/a-propos/">À propos</a>\n'
                 '            <a href="/fr/a-propos/joseph-lambert/">Auteur</a>\n'
                 '            <a href="/fr/personnages/">Personnages</a>\n'
+                '            <a href="/fr/chronologie/">Chronologie</a>\n'
                 '            <a href="/fr/articles/">Articles</a>\n'
                 '            <a href="/fr/contact/">Contact</a>\n'
                 '        </nav>\n')

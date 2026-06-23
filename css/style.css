@@ -1179,3 +1179,65 @@ h1, h2, h3, h4, h5, h6 {
 .theme-light main .article-body a:hover {
     color: var(--accent);
 }
+
+/* ============================================
+   Timeline / Lore hub
+   ============================================ */
+.timeline {
+    list-style: none;
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 7.5rem;
+    top: 0.4rem;
+    bottom: 0.4rem;
+    width: 2px;
+    background: var(--border);
+}
+.timeline__item {
+    position: relative;
+    display: grid;
+    grid-template-columns: 7.5rem 1fr;
+    gap: 1.5rem;
+    padding-bottom: 2.25rem;
+}
+.timeline__item:last-child { padding-bottom: 0; }
+.timeline__year {
+    font-family: var(--serif);
+    font-size: 1.15rem;
+    color: var(--accent-warm);
+    text-align: right;
+    padding-top: 0.05rem;
+}
+.timeline__content { position: relative; padding-left: 1.5rem; }
+.timeline__content::before {
+    content: "";
+    position: absolute;
+    left: -0.43rem;
+    top: 0.5rem;
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 0 4px var(--bg-elev);
+}
+.timeline__title {
+    font-size: 1.15rem;
+    margin: 0 0 0.35rem;
+}
+.timeline__content p { margin: 0; color: var(--text-muted); }
+.timeline__content a { color: var(--accent-warm); }
+.timeline__content a:hover { color: var(--accent); opacity: 1; }
+.theme-light main .timeline__content::before { box-shadow: 0 0 0 4px #fff; }
+
+@media (max-width: 560px) {
+    .timeline::before { left: 0.4rem; }
+    .timeline__item { grid-template-columns: 1fr; gap: 0.25rem; }
+    .timeline__year { text-align: left; padding-left: 1.5rem; }
+    .timeline__content { padding-left: 1.5rem; }
+}

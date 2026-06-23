@@ -9,6 +9,7 @@ deployment:
     - /bin/cp -R characters $DEPLOYPATH
     - /bin/cp -R about $DEPLOYPATH
     - /bin/cp -R contact $DEPLOYPATH
+    - /bin/cp -R timeline $DEPLOYPATH
     - /bin/cp -R fr $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp 404.html $DEPLOYPATH
