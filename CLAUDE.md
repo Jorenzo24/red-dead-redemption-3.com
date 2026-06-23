@@ -213,6 +213,7 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Les liens contextuels dans l'intro/bio restent des liens inline normaux.
   Portraits : artwork officiel ou capture in-game (rendu wiki, API Red Dead Wiki) ;
   à défaut, `assets/characters/placeholder-avatar.svg` (avatar western).
-- **Fiches publiées** : Arthur Morgan, John Marston, Dutch van der Linde, Micah Bell,
-  Sadie Adler (EN + FR). Phase 3 en cours.
+- **Fiches publiées** (8, EN + FR) : Arthur Morgan, John Marston, Dutch van der Linde,
+  Micah Bell, Sadie Adler, Hosea Matthews, Bill Williamson, Charles Smith. Phase 3 en cours.
+  Au-delà de 5 persos, « More characters » affiche 4 fiches pertinentes (pas toutes).
 - **Cache-buster CSS** actuellement à `?v=20260622p` (cf. §8 : bumper à chaque modif CSS).
