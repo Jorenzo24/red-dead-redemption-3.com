@@ -34,7 +34,7 @@
     <link rel="preload" href="assets/fonts/chinese-rock.woff2" as="font" type="font/woff2" crossorigin>
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="css/style.css?v=20260622n">
+    <link rel="stylesheet" href="css/style.css?v=20260622o">
 </head>
 <body>
     <header class="site-header">
@@ -43,6 +43,10 @@
                 <img src="assets/logo-red-dead-redemption-3-1.png" alt="Red Dead Redemption 3">
             </a>
             <nav class="site-header__nav" aria-label="Primary">
+                <div class="site-header__menu">
+                    <a href="/characters/" class="site-header__link">Characters</a>
+                    <a href="/articles/" class="site-header__link">Articles</a>
+                </div>
                 <div class="lang-switch"><span class="site-header__lang is-active" aria-current="true">EN</span><a href="/fr/" class="site-header__lang" hreflang="fr" aria-label="Lire en français">FR</a></div>
             </nav>
         </div>
@@ -108,7 +112,10 @@
 
         <section class="section" aria-labelledby="characters-title">
             <div class="section__inner">
-                <h2 id="characters-title" class="section__title">Characters</h2>
+                <div class="section__head">
+                    <h2 id="characters-title" class="section__title">Characters</h2>
+                    <a href="/characters/" class="section__more">All characters &rarr;</a>
+                </div>
                 <p class="section__lede">
                     An encyclopedic wiki of every figure who shaped the Red Dead universe,
                     from Dutch's gang to the Pinkertons, from Arthur to John. Original writing,

@@ -46,7 +46,7 @@ sections: [biography, personality, relationships, death, behind-the-scenes, rece
 
     <link rel="icon" type="image/png" href="../../assets/favicon-red-dead-redemption-3.png">
     <link rel="preload" href="../../assets/fonts/chinese-rock.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="../../css/style.css?v=20260622n">
+    <link rel="stylesheet" href="../../css/style.css?v=20260622o">
 
     <script type="application/ld+json">
     {
@@ -75,6 +75,10 @@ sections: [biography, personality, relationships, death, behind-the-scenes, rece
                 <img src="../../assets/logo-red-dead-redemption-3-1.png" alt="Red Dead Redemption 3">
             </a>
             <nav class="site-header__nav" aria-label="Primary">
+                <div class="site-header__menu">
+                    <a href="/characters/" class="site-header__link is-active" aria-current="page">Characters</a>
+                    <a href="/articles/" class="site-header__link">Articles</a>
+                </div>
                 <div class="lang-switch"><span class="site-header__lang is-active" aria-current="true">EN</span><a href="/fr/personnages/micah-bell/" class="site-header__lang" hreflang="fr" aria-label="Lire en français">FR</a></div>
             </nav>
         </div>
@@ -242,7 +246,10 @@ sections: [biography, personality, relationships, death, behind-the-scenes, rece
                 </div>
 
                 <aside class="related" aria-label="More characters">
-                    <h2 class="related__title">More characters</h2>
+                    <div class="related__head">
+                        <h2 class="related__title">More characters</h2>
+                        <a href="/characters/" class="related__all">All characters &rarr;</a>
+                    </div>
                     <div class="card-grid">
                         <a class="ccard" href="/characters/arthur-morgan/" aria-label="Arthur Morgan character profile">
                             <img src="../../assets/characters/arthur-morgan/portrait.jpeg" alt="Arthur Morgan" loading="lazy">
@@ -253,12 +260,30 @@ sections: [biography, personality, relationships, death, behind-the-scenes, rece
                                 <span class="ccard__cta">View profile &rarr;</span>
                             </span>
                         </a>
+                        <a class="ccard" href="/characters/john-marston/" aria-label="John Marston character profile">
+                            <img src="../../assets/characters/john-marston/portrait.jpeg" alt="John Marston" loading="lazy">
+                            <span class="ccard__overlay">
+                                <span class="ccard__tag">Character</span>
+                                <span class="ccard__name">John Marston</span>
+                                <span class="ccard__role">Van der Linde gang &middot; RDR1</span>
+                                <span class="ccard__cta">View profile &rarr;</span>
+                            </span>
+                        </a>
                         <a class="ccard" href="/characters/dutch-van-der-linde/" aria-label="Dutch van der Linde character profile">
                             <img src="../../assets/characters/dutch-van-der-linde/portrait.jpeg" alt="Dutch van der Linde" loading="lazy">
                             <span class="ccard__overlay">
                                 <span class="ccard__tag">Character</span>
                                 <span class="ccard__name">Dutch van der Linde</span>
                                 <span class="ccard__role">Gang leader &middot; RDR1 &amp; 2</span>
+                                <span class="ccard__cta">View profile &rarr;</span>
+                            </span>
+                        </a>
+                        <a class="ccard" href="/characters/sadie-adler/" aria-label="Sadie Adler character profile">
+                            <img src="../../assets/characters/sadie-adler/portrait.jpeg" alt="Sadie Adler" loading="lazy">
+                            <span class="ccard__overlay">
+                                <span class="ccard__tag">Character</span>
+                                <span class="ccard__name">Sadie Adler</span>
+                                <span class="ccard__role">Bounty hunter &middot; RDR2</span>
                                 <span class="ccard__cta">View profile &rarr;</span>
                             </span>
                         </a>
