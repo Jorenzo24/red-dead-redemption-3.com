@@ -992,6 +992,34 @@ h1, h2, h3, h4, h5, h6 {
     border: 0;
 }
 
+/* Relationships — cast list with optional portrait thumbnail */
+.rel {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+.rel__img {
+    width: 5.5rem;
+    height: 5.5rem;
+    flex-shrink: 0;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: 22% 28%;
+    border: 1px solid var(--border);
+}
+.rel__body {
+    min-width: 0;
+}
+.rel__body h3 {
+    margin-top: 0;
+}
+.rel__body p {
+    margin-top: 0.4rem;
+}
+@media (max-width: 480px) {
+    .rel__img { width: 4rem; height: 4rem; }
+}
+
 /* ============================================
    Light "media" theme — article pages & indexes
    Applied via <body class="theme-light">. Scoped to <main> so the
