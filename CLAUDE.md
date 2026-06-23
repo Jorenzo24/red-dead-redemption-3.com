@@ -205,7 +205,8 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 - **Bas de page** : pas de tags ni bouton Home ; à la place une section de suggestions
   « More articles » (articles) / « More characters » (fiches). Les fiches affichent
   **4 autres personnages + bouton « All characters »** (`.related__head` + `.related__all`)
-  vers le listing complet.
+  vers le listing complet. Grilles de cartes personnages = `.card-grid--portraits`
+  (2 par ligne mobile, 4 par ligne desktop) ; les grilles d'articles gardent `.card-grid` (3 max).
 - **Relations (fiches)** : liste « cast » illustrée (`.rel` + portrait). Le **nom**
   d'un personnage qui A déjà une fiche est un **lien rouge SANS soulignement**
   (`.rel__body h3 a`, `text-decoration:none`) vers cette fiche ; sinon nom en clair.
@@ -214,4 +215,4 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   à défaut, `assets/characters/placeholder-avatar.svg` (avatar western).
 - **Fiches publiées** : Arthur Morgan, John Marston, Dutch van der Linde, Micah Bell,
   Sadie Adler (EN + FR). Phase 3 en cours.
-- **Cache-buster CSS** actuellement à `?v=20260622o` (cf. §8 : bumper à chaque modif CSS).
+- **Cache-buster CSS** actuellement à `?v=20260622p` (cf. §8 : bumper à chaque modif CSS).

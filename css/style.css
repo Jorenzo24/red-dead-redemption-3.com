@@ -440,6 +440,23 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+/* Portrait (character) grids: denser — 2 per row on mobile, 4 per row on desktop */
+.card-grid--portraits {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+@media (min-width: 640px) {
+    .card-grid--portraits {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 900px) {
+    .card-grid--portraits {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.5rem;
+    }
+}
+
 .acard {
     display: flex;
     flex-direction: column;
