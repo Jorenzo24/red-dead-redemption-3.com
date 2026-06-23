@@ -324,13 +324,38 @@ def _page(c, lang):
 """
 
 
+def _annotate_dims(s, slug):
+    """Add width/height (read from the real files) to this slug's <img> tags — anti-CLS."""
+    import subprocess
+    base = os.path.join(ROOT, "assets", "characters", slug)
+    cache = {}
+    def dim(fn):
+        if fn in cache: return cache[fn]
+        try:
+            out = subprocess.check_output(["sips", "-g", "pixelWidth", "-g", "pixelHeight",
+                                           os.path.join(base, fn)], stderr=subprocess.DEVNULL).decode()
+            w = re.search(r"pixelWidth:\s*(\d+)", out); h = re.search(r"pixelHeight:\s*(\d+)", out)
+            cache[fn] = (w.group(1), h.group(1)) if (w and h) else None
+        except Exception:
+            cache[fn] = None
+        return cache[fn]
+    def repl(m):
+        tag = m.group(0)
+        if "width=" in tag: return tag
+        sm = re.search(r'assets/characters/' + re.escape(slug) + r'/([^"]+)', tag)
+        if not sm: return tag
+        d = dim(sm.group(1))
+        return tag[:-1] + f' width="{d[0]}" height="{d[1]}">' if d else tag
+    return re.sub(r'<img\b[^>]*?>', repl, s)
+
+
 def build_to_queue(c):
     """Write _queue/NN-<slug>/{meta.json,en.html,fr.html}. NN from c['order']."""
     reg(c["slug"], c["name"], c["reg_role_en"], c["reg_role_fr"])
     folder = os.path.join(ROOT, "_queue", f'{c["order"]:02d}-{c["slug"]}')
     os.makedirs(folder, exist_ok=True)
-    open(os.path.join(folder, "en.html"), "w", encoding="utf-8").write(_page(c, "en"))
-    open(os.path.join(folder, "fr.html"), "w", encoding="utf-8").write(_page(c, "fr"))
+    open(os.path.join(folder, "en.html"), "w", encoding="utf-8").write(_annotate_dims(_page(c, "en"), c["slug"]))
+    open(os.path.join(folder, "fr.html"), "w", encoding="utf-8").write(_annotate_dims(_page(c, "fr"), c["slug"]))
     meta = {"slug": c["slug"], "name": c["name"],
             "role_en": c["reg_role_en"], "role_fr": c["reg_role_fr"],
             "publishDate": c["publishDate"]}
