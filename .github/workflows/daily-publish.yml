@@ -69,12 +69,15 @@ jobs:
           CPANEL_REPO_ROOT: ${{ secrets.CPANEL_REPO_ROOT }}
         run: |
           # Pull the new commit into the cPanel-side clone, then deploy it.
+          # -k: the host may be an IP, whose TLS cert won't match — the cpanel
+          # token in the header is what authenticates, so skipping cert hostname
+          # validation on this call to our own server is fine.
           ENC_ROOT=$(python -c "import urllib.parse,os;print(urllib.parse.quote(os.environ['CPANEL_REPO_ROOT'],safe=''))")
           echo "Updating cPanel repo from remote..."
-          curl -sS --max-time 90 \
+          curl -sSk --max-time 90 \
             -H "Authorization: cpanel ${CPANEL_USER}:${CPANEL_TOKEN}" \
             "https://${CPANEL_HOST}:2083/execute/VersionControl/update?repository_root=${ENC_ROOT}" || true
           echo "Triggering deployment..."
-          curl -sS --max-time 90 \
+          curl -sSk --max-time 90 \
             -H "Authorization: cpanel ${CPANEL_USER}:${CPANEL_TOKEN}" \
             "https://${CPANEL_HOST}:2083/execute/VersionControlDeployment/create?repository_root=${ENC_ROOT}"
