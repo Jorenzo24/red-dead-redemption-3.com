@@ -995,8 +995,13 @@ h1, h2, h3, h4, h5, h6 {
 /* Relationships — cast list with optional portrait thumbnail */
 .rel {
     display: flex;
-    gap: 1rem;
+    gap: 1.1rem;
     align-items: flex-start;
+}
+.rel + .rel {
+    margin-top: 1.6rem;
+    padding-top: 1.6rem;
+    border-top: 1px solid var(--border);
 }
 .rel__img {
     width: 5.5rem;
