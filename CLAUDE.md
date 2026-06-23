@@ -187,7 +187,15 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   ratio **4:3** pour vignettes et heros.
 - **Thème « média » clair** (`<body class="theme-light">`) sur articles + index + fiches ;
   la home garde le thème western sombre.
-- **Fiches personnages (Phase 2)** : gabarit stabilisé = infobox + intro + accordéons
-  `<details>` (1er ouvert), taxonomie de sections figée dans `DATA-SCHEMA.md §3`.
-  Fiche de référence : `characters/arthur-morgan/`.
-- **Cache-buster CSS** actuellement à `?v=20260622g` (cf. §8 : bumper à chaque modif CSS).
+- **Fiches personnages (Phase 2)** : gabarit stabilisé = layout « profil » (cover +
+  avatar + chips + grille de faits) puis accordéons `<details>` (1er ouvert) ;
+  taxonomie figée dans `DATA-SCHEMA.md §3`. Carte d'accueil dédiée `.ccard` (poster,
+  distincte des cartes d'articles). Fiche de référence : `characters/arthur-morgan/`.
+- **EEAT** : PAS de section « Sources » (liens Wikipedia/Fandom = paraît dérivé des
+  concurrents qu'on veut dépasser). À la place : byline **auteur + date « Updated »**
+  sur articles ET fiches. Vérifier chaque fait précis (récompense gagnée vs nommée,
+  dates, noms) avant publication.
+- **Bas de page** : pas de tags ni bouton Home ; à la place une section de suggestions
+  « More articles » (articles) / « More characters » (fiches, masquée tant qu'il n'y
+  a pas d'autre fiche).
+- **Cache-buster CSS** actuellement à `?v=20260622i` (cf. §8 : bumper à chaque modif CSS).
