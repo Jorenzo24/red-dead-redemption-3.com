@@ -16,7 +16,7 @@ See CHAR SCHEMA at the bottom for the expected dict shape.
 import json, os, re, html
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CSS_V = "20260622q"
+CSS_V = "20260622r"
 
 # Registry used to build "More characters" ccards (role per language).
 REGISTRY = {
@@ -184,14 +184,32 @@ def _page(c, lang):
     rel_all = "All characters &rarr;" if lang == "en" else "Tous les personnages &rarr;"
     rel_label = "More characters" if lang == "en" else "Plus de personnages"
 
-    byline = (f'By <span>Joseph Lambert</span> &middot; Updated <time datetime="2026-06-23">June 23, 2026</time>'
+    author_url = "/about/joseph-lambert/" if lang == "en" else "/fr/a-propos/joseph-lambert/"
+    byline = (f'By <a href="{author_url}"><span>Joseph Lambert</span></a> &middot; Updated <time datetime="2026-06-23">June 23, 2026</time>'
               if lang == "en" else
-              f'Par <span>Joseph Lambert</span> &middot; Mis à jour le <time datetime="2026-06-23">23 juin 2026</time>')
-    footer = ('        <p>&copy; <span id="year">2026</span> red-dead-redemption-3.com &middot; All rights reserved.</p>\n'
-              '        <p>This is a fan site. Not affiliated with, endorsed, or sponsored by Rockstar Games or Take-Two Interactive.</p>'
-              if lang == "en" else
-              '        <p>&copy; <span id="year">2026</span> red-dead-redemption-3.com &middot; Tous droits réservés.</p>\n'
-              '        <p>Site de fans. Sans aucune affiliation avec Rockstar Games ou Take-Two Interactive, ni leur approbation.</p>')
+              f'Par <a href="{author_url}"><span>Joseph Lambert</span></a> &middot; Mis à jour le <time datetime="2026-06-23">23 juin 2026</time>')
+    if lang == "en":
+        fnav = ('        <nav class="site-footer__nav" aria-label="Footer">\n'
+                '            <a href="/about/">About</a>\n'
+                '            <a href="/about/joseph-lambert/">Author</a>\n'
+                '            <a href="/characters/">Characters</a>\n'
+                '            <a href="/articles/">Articles</a>\n'
+                '            <a href="/contact/">Contact</a>\n'
+                '        </nav>\n')
+        footer = (fnav +
+                  '        <p>&copy; <span id="year">2026</span> red-dead-redemption-3.com &middot; All rights reserved.</p>\n'
+                  '        <p>This is a fan site. Not affiliated with, endorsed, or sponsored by Rockstar Games or Take-Two Interactive.</p>')
+    else:
+        fnav = ('        <nav class="site-footer__nav" aria-label="Pied de page">\n'
+                '            <a href="/fr/a-propos/">À propos</a>\n'
+                '            <a href="/fr/a-propos/joseph-lambert/">Auteur</a>\n'
+                '            <a href="/fr/personnages/">Personnages</a>\n'
+                '            <a href="/fr/articles/">Articles</a>\n'
+                '            <a href="/fr/contact/">Contact</a>\n'
+                '        </nav>\n')
+        footer = (fnav +
+                  '        <p>&copy; <span id="year">2026</span> red-dead-redemption-3.com &middot; Tous droits réservés.</p>\n'
+                  '        <p>Site de fans. Sans aucune affiliation avec Rockstar Games ou Take-Two Interactive, ni leur approbation.</p>')
 
     schema = {
         "@context": "https://schema.org", "@type": "Person", "name": name,
