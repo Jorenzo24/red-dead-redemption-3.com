@@ -46,7 +46,7 @@ sections: [biography, personality, relationships, death, behind-the-scenes, rece
 
     <link rel="icon" type="image/png" href="../../assets/favicon-red-dead-redemption-3.png">
     <link rel="preload" href="../../assets/fonts/chinese-rock.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="../../css/style.css?v=20260622p">
+    <link rel="stylesheet" href="../../css/style.css?v=20260622q">
 
     <script type="application/ld+json">
     {
@@ -67,6 +67,32 @@ sections: [biography, personality, relationships, death, behind-the-scenes, rece
         "inLanguage": "en"
     }
     </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://red-dead-redemption-3.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Characters",
+                "item": "https://red-dead-redemption-3.com/characters/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Micah Bell",
+                "item": "https://red-dead-redemption-3.com/characters/micah-bell/"
+            }
+        ]
+    }
+    </script>
 </head>
 <body class="theme-light">
     <header class="site-header">
@@ -85,6 +111,13 @@ sections: [biography, personality, relationships, death, behind-the-scenes, rece
     </header>
 
     <main>
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <ol>
+                <li><a href="/">Home</a></li>
+                <li><span class="breadcrumb__sep">&rsaquo;</span><a href="/characters/">Characters</a></li>
+                <li><span class="breadcrumb__sep">&rsaquo;</span><span aria-current="page">Micah Bell</span></li>
+            </ol>
+        </nav>
         <article class="profile">
             <div class="profile__cover">
                 <img src="../../assets/characters/micah-bell/cover.jpeg" alt="" aria-hidden="true" loading="eager">

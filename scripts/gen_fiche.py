@@ -16,7 +16,7 @@ See CHAR SCHEMA at the bottom for the expected dict shape.
 import json, os, re, html
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CSS_V = "20260622p"
+CSS_V = "20260622q"
 
 # Registry used to build "More characters" ccards (role per language).
 REGISTRY = {
@@ -207,6 +207,24 @@ def _page(c, lang):
     schema_json = json.dumps(schema, ensure_ascii=False, indent=4)
     schema_json = "\n".join("    " + ln for ln in schema_json.splitlines())
 
+    # breadcrumb (visual + BreadcrumbList JSON-LD)
+    home_lbl, home_href = ("Home", "/") if lang == "en" else ("Accueil", "/fr/")
+    chars_lbl, chars_href = ("Characters", "/characters/") if lang == "en" else ("Personnages", "/fr/personnages/")
+    breadcrumb = (
+        '        <nav class="breadcrumb" aria-label="Breadcrumb">\n'
+        '            <ol>\n'
+        f'                <li><a href="{home_href}">{home_lbl}</a></li>\n'
+        f'                <li><span class="breadcrumb__sep">&rsaquo;</span><a href="{chars_href}">{chars_lbl}</a></li>\n'
+        f'                <li><span class="breadcrumb__sep">&rsaquo;</span><span aria-current="page">{name}</span></li>\n'
+        '            </ol>\n'
+        '        </nav>\n')
+    bc = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": home_lbl, "item": "https://red-dead-redemption-3.com" + home_href},
+        {"@type": "ListItem", "position": 2, "name": chars_lbl, "item": "https://red-dead-redemption-3.com" + chars_href},
+        {"@type": "ListItem", "position": 3, "name": name, "item": canon}]}
+    bcj = json.dumps(bc, ensure_ascii=False, indent=4)
+    bc_jsonld = '    <script type="application/ld+json">\n' + "\n".join("    " + l for l in bcj.splitlines()) + '\n    </script>\n'
+
     return f"""<!DOCTYPE html>
 <html lang="{htmllang}">
 <head>
@@ -240,7 +258,7 @@ def _page(c, lang):
     <script type="application/ld+json">
 {schema_json}
     </script>
-</head>
+{bc_jsonld}</head>
 <body class="theme-light">
     <header class="site-header">
         <div class="site-header__inner">
@@ -254,7 +272,7 @@ def _page(c, lang):
     </header>
 
     <main>
-        <article class="profile">
+{breadcrumb}        <article class="profile">
             <div class="profile__cover">
                 <img src="{up}assets/characters/{slug}/cover.jpeg" alt="" aria-hidden="true" loading="eager">
             </div>
