@@ -16,7 +16,7 @@ See CHAR SCHEMA at the bottom for the expected dict shape.
 import json, os, re, html
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CSS_V = "20260624c"
+CSS_V = "20260624d"
 
 # Registry used to build "More characters" ccards (role per language).
 REGISTRY = {
@@ -340,7 +340,7 @@ def _page(c, lang):
 {footer}
     </footer>
 
-    <script src="{up}js/main.js?v=20260624c"></script>
+    <script src="{up}js/main.js?v=20260624d"></script>
 </body>
 </html>
 """
