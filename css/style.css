@@ -1312,3 +1312,9 @@ main:has(> article.article) > .breadcrumb {
     padding: 0.4rem 0 0.4rem 1rem;
     margin: 1.5rem 0;
 }
+
+/* Timeline frieze reused for the story hub: upcoming (unpublished) chapters */
+.timeline__item.is-upcoming { opacity: 0.5; }
+.timeline__item.is-upcoming .timeline__content::before { background: var(--text-muted); }
+.timeline__content h2 a { color: var(--accent-warm); }
+.timeline__content h2 a:hover { color: var(--accent); opacity: 1; }
