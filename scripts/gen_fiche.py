@@ -16,7 +16,7 @@ See CHAR SCHEMA at the bottom for the expected dict shape.
 import json, os, re, html
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CSS_V = "20260624b"
+CSS_V = "20260624c"
 
 # Registry used to build "More characters" ccards (role per language).
 REGISTRY = {
@@ -151,16 +151,16 @@ def _page(c, lang):
         logo_href, logo_aria, navlabel = "/", "Red Dead Redemption 3, Home", "Primary"
         menu = (f'                <div class="site-header__menu">\n'
                 f'                    <a href="/articles/" class="site-header__link">News</a>\n'
-                f'                    <a href="/characters/" class="site-header__link is-active" aria-current="page">Characters</a>\n'
                 f'                    <a href="/story/" class="site-header__link">Story</a>\n'
+                f'                    <a href="/characters/" class="site-header__link is-active" aria-current="page">Characters</a>\n'
                 f'                </div>\n'
                 f'                <div class="lang-switch"><span class="site-header__lang is-active" aria-current="true">EN</span><a href="{frurl.replace("https://red-dead-redemption-3.com","")}" class="site-header__lang" hreflang="fr" aria-label="Lire en français">FR</a></div>')
     else:
         logo_href, logo_aria, navlabel = "/fr/", "Red Dead Redemption 3, accueil", "Principale"
         menu = (f'                <div class="site-header__menu">\n'
                 f'                    <a href="/fr/articles/" class="site-header__link">Actus</a>\n'
-                f'                    <a href="/fr/personnages/" class="site-header__link is-active" aria-current="page">Personnages</a>\n'
                 f'                    <a href="/fr/histoire/" class="site-header__link">Histoire</a>\n'
+                f'                    <a href="/fr/personnages/" class="site-header__link is-active" aria-current="page">Personnages</a>\n'
                 f'                </div>\n'
                 f'                <div class="lang-switch"><a href="{enurl.replace("https://red-dead-redemption-3.com","")}" class="site-header__lang" hreflang="en" aria-label="Read in English">EN</a><span class="site-header__lang is-active" aria-current="true">FR</span></div>')
 
@@ -340,7 +340,7 @@ def _page(c, lang):
 {footer}
     </footer>
 
-    <script src="{up}js/main.js?v=20260518a"></script>
+    <script src="{up}js/main.js?v=20260624c"></script>
 </body>
 </html>
 """
