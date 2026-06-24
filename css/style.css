@@ -172,6 +172,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 1.1rem var(--gutter) 0;
     font-size: 0.85rem;
 }
+/* On article-shell pages (articles, About/Author/Contact) the reading column is
+   narrower (.article = 44rem); align the breadcrumb to it so widths are consistent. */
+main:has(> article.article) > .breadcrumb {
+    max-width: 44rem;
+}
 .breadcrumb ol {
     display: flex;
     flex-wrap: wrap;
