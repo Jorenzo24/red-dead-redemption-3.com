@@ -581,6 +581,7 @@ main:has(> article.article) > .breadcrumb {
     color: #fff;
 }
 .ccard img {
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -600,11 +601,7 @@ main:has(> article.article) > .breadcrumb {
     background: linear-gradient(180deg, rgba(13, 10, 8, 0) 35%, rgba(13, 10, 8, 0.55) 62%, rgba(13, 10, 8, 0.93) 100%);
 }
 .ccard__tag {
-    font-family: var(--serif);
-    font-size: 0.72rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--accent-warm);
+    display: none;
 }
 .ccard__name {
     font-family: var(--serif);
