@@ -110,6 +110,12 @@ function initNav() {
             a.addEventListener('focus', () => setOpen(name));
             p.addEventListener('mouseenter', () => setOpen(name));
         });
+        header.addEventListener('mouseover', (e) => {
+            if (e.target.closest('.mega')) return;
+            const link = e.target.closest('a.site-header__link');
+            if (link && (link === links.characters || link === links.story)) return;
+            close();
+        });
         header.addEventListener('mouseleave', close);
         header.addEventListener('focusout', (e) => { if (!header.contains(e.relatedTarget)) close(); });
         document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });

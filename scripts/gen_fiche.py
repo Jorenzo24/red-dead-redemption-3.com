@@ -340,7 +340,7 @@ def _page(c, lang):
 {footer}
     </footer>
 
-    <script src="{up}js/main.js?v=20260624d"></script>
+    <script src="{up}js/main.js?v=20260624e"></script>
 </body>
 </html>
 """
