@@ -298,4 +298,13 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/personnages/abigail-marston/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/characters/abigail-marston/"/>
     </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/fr/histoire/rdr2-chapitre-2-horseshoe-overlook/</loc>
+        <lastmod>2026-06-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/story/rdr2-chapter-2-horseshoe-overlook/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/histoire/rdr2-chapitre-2-horseshoe-overlook/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/story/rdr2-chapter-2-horseshoe-overlook/"/>
+    </url>
 </urlset>
