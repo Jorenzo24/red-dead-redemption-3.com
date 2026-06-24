@@ -1253,3 +1253,62 @@ main:has(> article.article) > .breadcrumb {
     .timeline__year { text-align: left; padding-left: 1.5rem; }
     .timeline__content { padding-left: 1.5rem; }
 }
+
+/* ============================================
+   Story / chapter guides
+   ============================================ */
+.story-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1.1rem 0 0;
+}
+.story-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem 2rem;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    font-family: var(--serif);
+}
+.story-nav a { color: var(--accent-warm); max-width: 48%; }
+.story-nav a:hover { color: var(--accent); opacity: 1; }
+.story-nav__next { margin-left: auto; text-align: right; }
+.story-nav small {
+    display: block;
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 0.15rem;
+}
+/* Story hub chapter list */
+.story-list { list-style: none; padding: 0; margin: 0 0 2rem; }
+.story-list li {
+    padding: 0.9rem 0;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
+}
+.story-list li.is-upcoming { color: var(--text-muted); }
+.story-list__num {
+    font-family: var(--serif);
+    color: var(--accent-warm);
+    font-size: 1.05rem;
+    flex: 0 0 5.5rem;
+}
+.story-list a { color: var(--text); font-weight: 600; }
+.story-list a:hover { color: var(--accent); opacity: 1; }
+
+/* Inline note / spoiler callout (story & lore pages) */
+.article-body p.note {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    border-left: 3px solid var(--accent-warm);
+    padding: 0.4rem 0 0.4rem 1rem;
+    margin: 1.5rem 0;
+}
