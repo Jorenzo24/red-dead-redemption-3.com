@@ -1318,3 +1318,13 @@ main:has(> article.article) > .breadcrumb {
 .timeline__item.is-upcoming .timeline__content::before { background: var(--text-muted); }
 .timeline__content h2 a { color: var(--accent-warm); }
 .timeline__content h2 a:hover { color: var(--accent); opacity: 1; }
+
+/* Year sub-label in the story frieze markers */
+.timeline__year small {
+    display: block;
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    margin-top: 0.15rem;
+}
