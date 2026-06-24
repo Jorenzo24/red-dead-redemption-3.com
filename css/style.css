@@ -1321,10 +1321,16 @@ main:has(> article.article) > .breadcrumb {
 
 /* Year sub-label in the story frieze markers */
 .timeline__year small {
-    display: block;
+    display: inline-block;
+    margin-top: 0.45rem;
     font-family: var(--sans);
-    font-size: 0.72rem;
-    letter-spacing: 0.06em;
-    color: var(--text-muted);
-    margin-top: 0.15rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: var(--accent-warm);
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.12rem 0.55rem;
 }
+.theme-light main .timeline__year small { background: rgba(0,0,0,0.04); }
