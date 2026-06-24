@@ -1335,17 +1335,21 @@ main:has(> article.article) > .breadcrumb {
 }
 .theme-light main .timeline__year small { background: rgba(0,0,0,0.04); }
 
-/* Story hub frieze rows: text + location thumbnail + clean dateline */
-.storyrow { display: flex; gap: 1.25rem; align-items: flex-start; }
-.storyrow__text { flex: 1 1 auto; min-width: 0; }
-.storyrow__date {
-    font-family: var(--sans);
-    font-size: 0.72rem;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
+/* Year divider in the story frieze: the year is shown once, when it changes */
+.timeline__yeardiv {
+    list-style: none;
+    margin: 0.25rem 0 1.5rem;
+    padding-left: 9rem;
+    font-family: var(--serif);
+    font-size: 1.6rem;
+    letter-spacing: 0.04em;
     color: var(--accent-warm);
-    margin: 0 0 0.3rem;
 }
+.timeline > .timeline__yeardiv:first-child { margin-top: 0; }
+
+/* Story hub frieze rows: text + location thumbnail (no per-row date now) */
+.storyrow { display: flex; gap: 1.5rem; align-items: center; }
+.storyrow__text { flex: 1 1 auto; min-width: 0; }
 .storyrow__soon {
     font-family: var(--sans);
     font-size: 0.62rem;
@@ -1357,11 +1361,13 @@ main:has(> article.article) > .breadcrumb {
     padding: 0.1rem 0.5rem;
     margin-left: 0.5rem;
     vertical-align: middle;
+    white-space: nowrap;
 }
-.storyrow__thumb { flex: 0 0 9rem; display: block; border-radius: 5px; overflow: hidden; }
-.storyrow__thumb img { width: 9rem; height: 6rem; object-fit: cover; display: block; }
+.storyrow__thumb { flex: 0 0 13rem; display: block; border-radius: 6px; overflow: hidden; }
+.storyrow__thumb img { width: 13rem; height: 8.5rem; object-fit: cover; display: block; }
 @media (max-width: 600px) {
-    .storyrow { flex-direction: column-reverse; gap: 0.75rem; }
+    .storyrow { flex-direction: column-reverse; gap: 0.75rem; align-items: stretch; }
     .storyrow__thumb { flex: none; }
     .storyrow__thumb img { width: 100%; height: auto; aspect-ratio: 3 / 2; }
+    .timeline__yeardiv { padding-left: 1.5rem; }
 }
