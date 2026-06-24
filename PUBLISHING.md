@@ -16,37 +16,41 @@ régulier sans rien faire à la main.
    - ajoute la carte aux 2 listings + 2 accueils (au marqueur `<!-- @ccards -->`) ;
    - ajoute les URLs aux sitemaps avec un `lastmod` du jour ;
    - retire la fiche de la file.
-3. L'Action **commit + push** le résultat, puis **déclenche le déploiement cPanel**.
+3. L'Action **commit + push** le résultat sur `main`.
+4. Le **déploiement est fait côté serveur** par un cron cPanel qui fait `git pull`
+   dans `public_html` (voir Setup). Le port API de cPanel (2083) étant bloqué par le
+   pare-feu pour les serveurs GitHub, on NE déploie PAS depuis l'Action.
 
 S'il n'y a rien de dû ce jour-là, l'Action ne fait rien (aucun commit).
 
 > **Fenêtre de relecture** : comme la file est versionnée, tu peux relire `_queue/`
 > à tout moment et corriger une fiche avant son jour de publication.
 
-## Setup unique (≈ 5 min) — à faire une seule fois
+## Setup unique (≈ 2 min) — le déploiement automatique
 
-### 1. Créer un token API cPanel
-cPanel → **Manage API Tokens** → *Create* → nomme-le `github-drip` → copie le token.
+Le dépôt cPanel a pour racine `public_html` : un simple `git pull` met donc le site
+à jour instantanément. On automatise ça avec un **cron cПanel** (les jetons GitHub
+de l'ancienne approche API ne servent plus, le port 2083 étant bloqué côté pare-feu).
 
-### 2. Ajouter 4 secrets GitHub
-Repo GitHub → **Settings → Secrets and variables → Actions → New repository secret** :
+cPanel → **Cron Jobs** → ajouter une tâche. Intervalle conseillé : **toutes les 15 min**
+(un `git pull` sans changement est quasi gratuit). Commande :
 
-| Secret | Valeur |
-|---|---|
-| `CPANEL_HOST` | l'hôte cPanel, ex. `serverXXX.web-hosting.com` (sans `https://`) |
-| `CPANEL_USER` | `reddeadredemptio` |
-| `CPANEL_TOKEN` | le token créé à l'étape 1 |
-| `CPANEL_REPO_ROOT` | le **Repository Path** affiché dans cPanel → *Git Version Control → Manage* (ex. `/home/reddeadredemptio/repositories/red-dead-redemption-3`) |
+```
+cd /home/reddeadredemptio/public_html && git fetch origin main -q && git reset --hard origin/main -q >> /home/reddeadredemptio/deploy.log 2>&1
+```
 
-C'est tout. Dès que les secrets existent, le cycle est 100 % mains libres.
+> Si `git` n'est pas trouvé, préfixer par le chemin cPanel :
+> `/usr/local/cpanel/3rdparty/bin/git`.
 
-### Vérifier que ça marche
-GitHub → onglet **Actions → Daily drip-publish → Run workflow** (déclenchement manuel).
-S'il y a une fiche due, elle part en ligne et le déploiement se lance. Sinon : « Nothing to publish today. »
+Avantage : ça déploie **tout** automatiquement (les drips quotidiens **et** chaque
+merge sur `main`) — plus jamais besoin de cliquer « Deploy HEAD Commit ».
 
-### Si le déploiement auto échoue (mauvais chemin, endpoint cPanel différent…)
-Le **commit du jour est quand même poussé** (l'étape deploy est `continue-on-error`).
-Filet de sécurité : cPanel → *Git Version Control* → **Update from Remote** → **Deploy HEAD Commit**, comme avant. On ajuste l'endpoint et tout redevient automatique.
+### Déclencher une publication à la demande
+GitHub → **Actions → Daily drip-publish → Run workflow** : publie la prochaine fiche
+due (commit sur `main`) ; le cron la met en ligne dans les minutes qui suivent.
+
+### Filet de sécurité (déploiement manuel)
+À tout moment : cPanel → *Git Version Control* → **Update from Remote** → **Deploy HEAD Commit**.
 
 ## Régler la cadence
 Dans `.github/workflows/daily-publish.yml`, la ligne `cron: "0 9 * * *"` = 1×/jour.
