@@ -16,7 +16,7 @@ See CHAR SCHEMA at the bottom for the expected dict shape.
 import json, os, re, html
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CSS_V = "20260622t"
+CSS_V = "20260622u"
 
 # Registry used to build "More characters" ccards (role per language).
 REGISTRY = {

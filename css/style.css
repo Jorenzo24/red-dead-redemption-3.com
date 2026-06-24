@@ -23,6 +23,7 @@
     --accent-warm:  #d97c2a;
 
     --content-max:  72rem;
+    --article-max:  52rem;
     --gutter:       clamp(1rem, 4vw, 2rem);
 
     --serif:  'Chinese Rock', Georgia, 'Times New Roman', serif;
@@ -175,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 /* On article-shell pages (articles, About/Author/Contact) the reading column is
    narrower (.article = 44rem); align the breadcrumb to it so widths are consistent. */
 main:has(> article.article) > .breadcrumb {
-    max-width: 44rem;
+    max-width: var(--article-max);
 }
 .breadcrumb ol {
     display: flex;
@@ -664,9 +665,15 @@ main:has(> article.article) > .breadcrumb {
    Article page
    ============================================ */
 .article {
-    max-width: 44rem;
+    max-width: var(--article-max);
     margin: 0 auto;
     padding: 2.5rem var(--gutter) 4rem;
+}
+/* "More articles" related grid stays 2-up (never 3) inside the reading column */
+@media (min-width: 900px) {
+    .article .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .article-eyebrow {
