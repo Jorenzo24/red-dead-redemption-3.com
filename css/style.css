@@ -1371,3 +1371,17 @@ main:has(> article.article) > .breadcrumb {
     .storyrow__thumb img { width: 100%; height: auto; aspect-ratio: 3 / 2; }
     .timeline__yeardiv { padding-left: 1.5rem; }
 }
+
+/* ============================================
+   Justified body prose (reading columns)
+   ============================================ */
+.article-body p,
+.article-body li,
+.profile__intro p,
+.accordion__body p,
+.accordion__body li,
+.section__lede {
+    text-align: justify;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
