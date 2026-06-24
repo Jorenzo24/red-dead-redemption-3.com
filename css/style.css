@@ -325,7 +325,7 @@ main:has(> article.article) > .breadcrumb {
 
 .hero__lede {
     font-size: clamp(1rem, 1.6vw, 1.25rem);
-    color: var(--text-muted);
+    color: var(--text);
     max-width: 38rem;
     margin: 0 auto;
     line-height: 1.6;
@@ -1631,4 +1631,28 @@ body.drawer-open { overflow: hidden; }
     .site-header__menu,
     .site-header__nav > .lang-switch { display: none; }
     .navburger { display: flex; }
+}
+
+/* ============================================
+   Home hero — mobile: show the characters band below the text
+   (fond-site.jpeg is portrait 1280x2120; the silhouettes sit at ~40-63% height)
+   ============================================ */
+@media (max-width: 760px) {
+    .hero {
+        min-height: auto;
+        justify-content: flex-start;
+        padding-top: 3rem;
+        padding-bottom: 0;
+    }
+    .hero::after {
+        content: "";
+        width: calc(100% + 2 * var(--gutter));
+        margin: 2.25rem calc(-1 * var(--gutter)) 0;
+        aspect-ratio: 1280 / 500;
+        background-image: url('../assets/fond-site.jpeg');
+        background-size: cover;
+        background-position: center 51%;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
 }
