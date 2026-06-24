@@ -59,25 +59,7 @@ jobs:
             echo "Nothing to publish today."
           fi
 
-      - name: Trigger cPanel deployment
-        if: steps.commit.outputs.changed == 'true' && env.CPANEL_HOST != ''
-        continue-on-error: true   # never let a deploy hiccup fail the publish
-        env:
-          CPANEL_HOST: ${{ secrets.CPANEL_HOST }}
-          CPANEL_USER: ${{ secrets.CPANEL_USER }}
-          CPANEL_TOKEN: ${{ secrets.CPANEL_TOKEN }}
-          CPANEL_REPO_ROOT: ${{ secrets.CPANEL_REPO_ROOT }}
-        run: |
-          # Pull the new commit into the cPanel-side clone, then deploy it.
-          # -k: the host may be an IP, whose TLS cert won't match — the cpanel
-          # token in the header is what authenticates, so skipping cert hostname
-          # validation on this call to our own server is fine.
-          ENC_ROOT=$(python -c "import urllib.parse,os;print(urllib.parse.quote(os.environ['CPANEL_REPO_ROOT'],safe=''))")
-          echo "Updating cPanel repo from remote..."
-          curl -sSk --max-time 90 \
-            -H "Authorization: cpanel ${CPANEL_USER}:${CPANEL_TOKEN}" \
-            "https://${CPANEL_HOST}:2083/execute/VersionControl/update?repository_root=${ENC_ROOT}" || true
-          echo "Triggering deployment..."
-          curl -sSk --max-time 90 \
-            -H "Authorization: cpanel ${CPANEL_USER}:${CPANEL_TOKEN}" \
-            "https://${CPANEL_HOST}:2083/execute/VersionControlDeployment/create?repository_root=${ENC_ROOT}"
+      # Deployment is handled SERVER-SIDE by a cPanel cron that runs `git pull`
+      # in public_html (the cPanel repo root). cPanel's API port (2083) is
+      # firewalled from GitHub runners, so we do NOT deploy from here; we only
+      # commit to main, and the server pulls it. See PUBLISHING.md.
