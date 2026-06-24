@@ -1634,25 +1634,19 @@ body.drawer-open { overflow: hidden; }
 }
 
 /* ============================================
-   Home hero — mobile: show the characters band below the text
-   (fond-site.jpeg is portrait 1280x2120; the silhouettes sit at ~40-63% height)
+   Home hero — mobile: reframe the existing background so the silhouettes
+   fall below the text (fond-site.jpeg is portrait 1280x2120; cover only
+   showed the red sky). Show the image full-width at its natural ratio.
    ============================================ */
 @media (max-width: 760px) {
+    .showcase::before {
+        background-size: 100% auto;
+        background-position: center top;
+    }
     .hero {
-        min-height: auto;
+        min-height: 116vw;
         justify-content: flex-start;
         padding-top: 3rem;
         padding-bottom: 0;
-    }
-    .hero::after {
-        content: "";
-        width: calc(100% + 2 * var(--gutter));
-        margin: 2.25rem calc(-1 * var(--gutter)) 0;
-        aspect-ratio: 1280 / 500;
-        background-image: url('../assets/fond-site.jpeg');
-        background-size: cover;
-        background-position: center 51%;
-        background-repeat: no-repeat;
-        z-index: 1;
     }
 }
