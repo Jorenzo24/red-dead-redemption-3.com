@@ -24,6 +24,10 @@ RewriteRule ^(.+)\.(jpe?g|png)$ /$1.webp [T=image/webp,L]
     </FilesMatch>
 </IfModule>
 
+# ---- Retired pages -> 301 (timeline merged into the Story hub) ----
+RewriteRule ^timeline/?$        /story/ [R=301,L]
+RewriteRule ^fr/chronologie/?$  /fr/histoire/ [R=301,L]
+
 # ---- Legacy redirects (301) : anciennes URLs FR /blog/ et /blog-fr/ -> /fr/articles/ ----
 # Preserve l'anteriorite SEO des articles indexes depuis 2022-2023.
 # Place AVANT les regles clean-URL pour court-circuiter la reecriture interne.

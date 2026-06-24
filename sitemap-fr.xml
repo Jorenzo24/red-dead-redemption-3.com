@@ -272,15 +272,6 @@
         <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/contact/"/>
     </url>
     <url>
-        <loc>https://red-dead-redemption-3.com/fr/chronologie/</loc>
-        <lastmod>2026-06-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/timeline/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/chronologie/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/timeline/"/>
-    </url>
-    <url>
         <loc>https://red-dead-redemption-3.com/fr/histoire/</loc>
         <lastmod>2026-06-24</lastmod>
         <changefreq>monthly</changefreq>
