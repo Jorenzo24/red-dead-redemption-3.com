@@ -347,27 +347,27 @@ def _page(c, lang):
 
 
 def _annotate_dims(s, slug):
-    """Add width/height (read from the real files) to this slug's <img> tags — anti-CLS."""
+    """Add width/height (read from the real files) to ALL <img> tags pointing at
+    assets/ (own images, logo, related-character portraits) — anti-CLS."""
     import subprocess
-    base = os.path.join(ROOT, "assets", "characters", slug)
     cache = {}
-    def dim(fn):
-        if fn in cache: return cache[fn]
+    def dim(relpath):
+        if relpath in cache: return cache[relpath]
         try:
             out = subprocess.check_output(["sips", "-g", "pixelWidth", "-g", "pixelHeight",
-                                           os.path.join(base, fn)], stderr=subprocess.DEVNULL).decode()
+                                           os.path.join(ROOT, relpath)], stderr=subprocess.DEVNULL).decode()
             w = re.search(r"pixelWidth:\s*(\d+)", out); h = re.search(r"pixelHeight:\s*(\d+)", out)
-            cache[fn] = (w.group(1), h.group(1)) if (w and h) else None
+            cache[relpath] = (w.group(1), h.group(1)) if (w and h) else None
         except Exception:
-            cache[fn] = None
-        return cache[fn]
+            cache[relpath] = None
+        return cache[relpath]
     def repl(m):
         tag = m.group(0)
         if "width=" in tag: return tag
-        sm = re.search(r'assets/characters/' + re.escape(slug) + r'/([^"]+)', tag)
+        sm = re.search(r'src="[^"]*?(assets/[^"]+)"', tag)
         if not sm: return tag
         d = dim(sm.group(1))
-        return tag[:-1] + f' width="{d[0]}" height="{d[1]}">' if d else tag
+        return tag[:-1].rstrip() + f' width="{d[0]}" height="{d[1]}">' if d else tag
     return re.sub(r'<img\b[^>]*?>', repl, s)
 
 

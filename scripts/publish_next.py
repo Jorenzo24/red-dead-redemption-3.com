@@ -71,7 +71,7 @@ def ccard(meta, img_prefix, link_prefix, lang):
         tag, cta, aria = "Personnage", "Voir le profil &rarr;", f"Fiche du personnage {name}"
     return (
         f'                    <a class="ccard" href="{link_prefix}{slug}/" aria-label="{aria}">\n'
-        f'                        <img src="{img_prefix}assets/characters/{slug}/portrait.jpeg" alt="{name}" loading="lazy">\n'
+        f'                        <img src="{img_prefix}assets/characters/{slug}/portrait.jpeg" alt="{name}" loading="lazy" width="800" height="1066">\n'
         f'                        <span class="ccard__overlay">\n'
         f'                            <span class="ccard__tag">{tag}</span>\n'
         f'                            <span class="ccard__name">{name}</span>\n'
