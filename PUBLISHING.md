@@ -29,7 +29,7 @@ S'il n'y a rien de dû ce jour-là, l'Action ne fait rien (aucun commit).
 ## Setup unique (≈ 2 min) — le déploiement automatique
 
 Le dépôt cPanel a pour racine `public_html` : un simple `git pull` met donc le site
-à jour instantanément. On automatise ça avec un **cron cПanel** (les jetons GitHub
+à jour instantanément. On automatise ça avec un **cron cPanel** (les jetons GitHub
 de l'ancienne approche API ne servent plus, le port 2083 étant bloqué côté pare-feu).
 
 cPanel → **Cron Jobs** → ajouter une tâche. Intervalle conseillé : **toutes les 15 min**
