@@ -242,7 +242,9 @@ main:has(> article.article) > .breadcrumb {
     inset: 0;
     background-image: url('../assets/fond-site.jpeg');
     background-size: cover;
-    background-position: center 22%;
+    /* desktop: anchor lower so the silhouettes rise into the gap below the text
+       (mobile overrides this with 100% auto / center top further down) */
+    background-position: center 66%;
     background-repeat: no-repeat;
     z-index: -2;
 }
