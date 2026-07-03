@@ -317,6 +317,15 @@
         <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/story/rdr2-chapter-3-clemens-point/"/>
     </url>
     <url>
+        <loc>https://red-dead-redemption-3.com/fr/histoire/rdr2-chapitre-4-saint-denis/</loc>
+        <lastmod>2026-07-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/story/rdr2-chapter-4-saint-denis/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/histoire/rdr2-chapitre-4-saint-denis/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/story/rdr2-chapter-4-saint-denis/"/>
+    </url>
+    <url>
         <loc>https://red-dead-redemption-3.com/fr/articles/reconnaitre-une-vraie-annonce-rdr3/</loc>
         <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
