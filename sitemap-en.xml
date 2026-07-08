@@ -326,6 +326,15 @@
         <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/story/rdr2-chapter-4-saint-denis/"/>
     </url>
     <url>
+        <loc>https://red-dead-redemption-3.com/story/rdr2-chapter-5-guarma/</loc>
+        <lastmod>2026-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/story/rdr2-chapter-5-guarma/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/histoire/rdr2-chapitre-5-guarma/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/story/rdr2-chapter-5-guarma/"/>
+    </url>
+    <url>
         <loc>https://red-dead-redemption-3.com/articles/how-to-spot-a-real-rdr3-announcement/</loc>
         <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
