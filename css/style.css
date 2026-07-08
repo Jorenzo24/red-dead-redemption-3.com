@@ -368,6 +368,24 @@ main:has(> article.article) > .breadcrumb {
     margin-bottom: 2.5rem;
 }
 
+/* Grouped character listing (by faction) */
+.char-group + .char-group {
+    margin-top: 3.5rem;
+}
+
+.char-group__title {
+    font-size: clamp(1.35rem, 3vw, 2rem);
+    margin-bottom: 0.4rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--accent);
+}
+
+.char-group__note {
+    color: var(--text-muted);
+    max-width: 44rem;
+    margin: 0 0 1.75rem;
+}
+
 /* ============================================
    Pillars (site sections — News + Characters)
    ============================================ */
