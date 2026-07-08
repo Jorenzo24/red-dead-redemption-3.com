@@ -170,7 +170,7 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 
 - [x] Phase 1 : init projet (skill) + design de base + 1-2 articles tests
 - [x] Phase 2 : 1 fiche personnage soignée (stabilise le gabarit) — Arthur Morgan (EN+FR)
-- [ ] Phase 3 : ~20 fiches + quelques articles, toujours en dur
+- [x] Phase 3 : objectif dépassé — **25 fiches** (EN+FR) + **story guide RDR2 ch. 1-5** + 16 articles, toujours en dur
 - [ ] Phase 4 (futur) : évaluation migration Astro
 - [ ] Phase 5 (futur) : déploiement langues par vagues
 
@@ -213,9 +213,44 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Les liens contextuels dans l'intro/bio restent des liens inline normaux.
   Portraits : artwork officiel ou capture in-game (rendu wiki, API Red Dead Wiki) ;
   à défaut, `assets/characters/placeholder-avatar.svg` (avatar western).
-- **Fiches publiées** (8, EN + FR) : Arthur Morgan, John Marston, Dutch van der Linde,
-  Micah Bell, Sadie Adler, Hosea Matthews, Bill Williamson, Charles Smith. Phase 3 en cours.
+- **Fiches personnages : 25 (EN + FR)**, publiées par vagues via le drip (1/jour) :
+  - Phase 2 (8) : Arthur, John, Dutch, Micah, Sadie, Hosea, Bill, Charles.
+  - Vague 1 (5) : Abigail/Jack Marston, Sean MacGuire, Lenny Summers, Javier Escuella.
+  - Vague 2 (6) : Kieran Duffy, Mary Linton, Leopold Strauss, Susan Grimshaw, Colm O'Driscoll, Edgar Ross.
+  - Vague 3 (6, drip 9→14 juil. 2026) : Angelo Bronte, Leviticus Cornwall, Andrew Milton, Josiah Trelawny, Molly O'Shea, Uncle.
+  - Prochaine cible : casting RDR1 (Bonnie MacFarlane, Landon Ricketts, Seth Briars…).
   Au-delà de 5 persos, « More characters » affiche 4 fiches pertinentes (pas toutes).
+- **RÈGLE ÉDITORIALE IMPÉRATIVE — PAS de prose « poétique »/d'ambiance qui sonne IA.**
+  Bannir les conclusions évocatrices sans info (« this is the chapter that… », « ce qu'il
+  y a de chaleureux… ») et les tics défensifs (« pas du Fandom reformulé »). Écrire
+  **factuel** : événements, missions, noms, dates, recaps scannables. (cf. mémoire feedback.)
+- **Story guide RDR2** (`/story/` + `/fr/histoire/`) : guides chapitre par chapitre, EN+FR,
+  gabarit article `theme-light`. **Ch. 1-5 faits** (Colter, Horseshoe Overlook, Clemens Point,
+  Saint-Denis, Guarma) ; restent **Beaver Hollow (6) + épilogues**. Format factuel : sections
+  + recap « Key events » à puces + nav prev/next, reliés aux fiches ; index `/story/` = frise.
+  **Pages écrites à la main → NE PAS utiliser les tokens `[[slug|Texte]]`** (seul `gen_fiche`
+  les convertit) ; mettre des `<a href>` directs. Images : vraies captures (ch. 4-5) ou
+  cartes-titres placeholder (ch. 3).
+- **Drip publishing** : `_queue/NN-<slug>/` (meta.json + en.html + fr.html), publié **1/jour**
+  par `.github/workflows/daily-publish.yml` → `scripts/publish_next.py` (cron 09:00 UTC). Images
+  requises dans `assets/characters/<slug>/` AVANT publication. Générateurs : `scripts/gen_fiche.py`
+  (fiche data→HTML, tokens `[[slug|Texte]]` + relations rouges), drivers `_wave2.py`/`_wave3.py`.
+  **Specs images fiche** : portrait **1000×562**, cover **1600×900**, gallery **1400×787**,
+  `rel/` **600×337** (JPEG + WebP).
+- **Page « Personnages » regroupée par faction** (Le gang Van der Linde · La famille Marston ·
+  Rivaux et forces de l'ordre · Autres figures), alpha dans chaque groupe. Source unique
+  `scripts/characters_registry.py` + `scripts/gen_listing.py` (régénère la zone `@charlist:start/end`,
+  **fiches publiées uniquement**). Le drip régénère les 2 pages listing ; la **home garde une grille
+  plate** (marqueur `@ccards`). PAS de lede/blurb sur la page (retiré : sonnait IA).
+- **Sourcing images (pipeline)** : via l'**API MediaWiki du Red Dead Wiki**
+  (`reddead.fandom.com/api.php?action=query&generator=images&…` — la page HTML est bloquée
+  Cloudflare, mais l'API + le CDN `static.wikia.nocookie.net` passent en `curl` avec un UA
+  navigateur). Recadrage aux specs ci-dessus ; pour les rendus « bio » verticaux, montage
+  **visage net + fond flou** plutôt qu'un crop qui coupe le visage.
+- **DÉPLOIEMENT = AUTOMATIQUE** : un **cron cPanel** fait `git reset --hard origin/main` dans
+  `public_html` **toutes les ~15 min** (voir `PUBLISHING.md`). **Plus besoin de « Deploy HEAD
+  Commit »** : un merge sur `main` part en ligne dans le quart d'heure. (Le workflow ne déploie
+  PAS lui-même : port cPanel 2083 firewallé depuis GitHub.)
 - **Renforcement SEO/perf/EEAT (chantiers faits)** : fil d'Ariane (visuel + `BreadcrumbList`)
   + `Organization`/`WebSite` sur l'accueil ; images **WebP** servies par négociation `.htaccess`
   (fallback JPEG) + `width`/`height` partout (anti-CLS) ; pages **EEAT** `/about/`,
@@ -223,4 +258,5 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Characters/Personnages · Articles · Timeline/Chronologie** + footer nav ; hub
   `/timeline/` + `/fr/chronologie/`. Email contact `contact@red-dead-redemption-3.com`
   (forwarder cPanel à créer).
-- **Cache-buster CSS** actuellement à `?v=20260622s` (cf. §8 : bumper à chaque modif CSS).
+- **Cache-buster CSS** actuellement à `?v=20260708a` (cf. §8 : bumper à chaque modif CSS ;
+  `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20260624e`.
