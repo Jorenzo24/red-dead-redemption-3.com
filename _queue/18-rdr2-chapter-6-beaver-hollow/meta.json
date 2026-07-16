@@ -1,0 +1,13 @@
+{
+  "type": "story",
+  "slug_en": "rdr2-chapter-6-beaver-hollow",
+  "slug_fr": "rdr2-chapitre-6-beaver-hollow",
+  "title_en": "Beaver Hollow",
+  "title_fr": "Beaver Hollow",
+  "timeline_thumb": "beaver-hollow",
+  "nav_label_en": "Chapter 6: Beaver Hollow",
+  "nav_label_fr": "Chapitre 6 : Beaver Hollow",
+  "prev_en": { "slug": "rdr2-chapter-5-guarma", "label": "Chapter 5: Guarma" },
+  "prev_fr": { "slug": "rdr2-chapitre-5-guarma", "label": "Chapitre 5 : Guarma" },
+  "publishDate": "2026-07-19"
+}
