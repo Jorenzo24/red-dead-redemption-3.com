@@ -37,6 +37,12 @@ CHARACTERS = [
     ("edgar-ross",          "Edgar Ross",          "Antagonist &middot; RDR1",               "Antagoniste &middot; RDR1",              "enemies"),
     # --- Other figures ---
     ("mary-linton",         "Mary Linton",         "Arthur's former love &middot; RDR2",     "Ancien amour d'Arthur &middot; RDR2",    "other"),
+    ("bonnie-macfarlane",   "Bonnie MacFarlane",   "Rancher &middot; RDR1",                  "Ranchère &middot; RDR1",                 "other"),
+    ("landon-ricketts",     "Landon Ricketts",     "Gunslinger &middot; RDR1",               "Pistolero &middot; RDR1",                "other"),
+    ("nigel-west-dickens",  "Nigel West Dickens",  "Con-artist &middot; RDR1",               "Escroc &middot; RDR1",                   "other"),
+    ("seth-briars",         "Seth Briars",         "Grave-robber &middot; RDR1",             "Pilleur de tombes &middot; RDR1",        "other"),
+    ("leigh-johnson",       "Leigh Johnson",       "Marshal &middot; RDR1",                  "Marshal &middot; RDR1",                  "other"),
+    ("abraham-reyes",       "Abraham Reyes",       "Revolutionary &middot; RDR1",            "Révolutionnaire &middot; RDR1",          "other"),
 ]
 
 # group key -> (title_en, title_fr, note_en, note_fr)
