@@ -505,4 +505,22 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/histoire/rdr2-chapitre-6-beaver-hollow/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/story/rdr2-chapter-6-beaver-hollow/"/>
     </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/fr/histoire/rdr2-epilogue-partie-1-pronghorn-ranch/</loc>
+        <lastmod>2026-07-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/story/rdr2-epilogue-part-1-pronghorn-ranch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/histoire/rdr2-epilogue-partie-1-pronghorn-ranch/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/story/rdr2-epilogue-part-1-pronghorn-ranch/"/>
+    </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/fr/histoire/rdr2-epilogue-partie-2-beechers-hope/</loc>
+        <lastmod>2026-07-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/story/rdr2-epilogue-part-2-beechers-hope/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/histoire/rdr2-epilogue-partie-2-beechers-hope/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/story/rdr2-epilogue-part-2-beechers-hope/"/>
+    </url>
 </urlset>
