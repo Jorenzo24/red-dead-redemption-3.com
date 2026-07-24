@@ -18,6 +18,18 @@ import json, os, re, html
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CSS_V = "20260708a"
 
+_MONTHS_EN = ["January", "February", "March", "April", "May", "June", "July",
+              "August", "September", "October", "November", "December"]
+_MONTHS_FR = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet",
+              "août", "septembre", "octobre", "novembre", "décembre"]
+
+
+def _fmt_date(iso, lang):
+    """ISO 'YYYY-MM-DD' -> 'July 27, 2026' (en) / '27 juillet 2026' (fr)."""
+    y, m, d = iso.split("-")
+    mi = int(m) - 1
+    return f"{_MONTHS_EN[mi]} {int(d)}, {y}" if lang == "en" else f"{int(d)} {_MONTHS_FR[mi]} {y}"
+
 # Registry used to build "More characters" ccards (role per language).
 REGISTRY = {
     "arthur-morgan":       ("Arthur Morgan",       "Van der Linde gang &middot; RDR2",   "Gang Van der Linde &middot; RDR2"),
@@ -187,9 +199,10 @@ def _page(c, lang):
     rel_label = "More characters" if lang == "en" else "Plus de personnages"
 
     author_url = "/about/joseph-lambert/" if lang == "en" else "/fr/a-propos/joseph-lambert/"
-    byline = (f'By <a href="{author_url}"><span>Joseph Lambert</span></a> &middot; Updated <time datetime="2026-06-23">June 23, 2026</time>'
+    bdate = c.get("publishDate", "2026-06-23")
+    byline = (f'By <a href="{author_url}"><span>Joseph Lambert</span></a> &middot; Updated <time datetime="{bdate}">{_fmt_date(bdate, "en")}</time>'
               if lang == "en" else
-              f'Par <a href="{author_url}"><span>Joseph Lambert</span></a> &middot; Mis à jour le <time datetime="2026-06-23">23 juin 2026</time>')
+              f'Par <a href="{author_url}"><span>Joseph Lambert</span></a> &middot; Mis à jour le <time datetime="{bdate}">{_fmt_date(bdate, "fr")}</time>')
     if lang == "en":
         fnav = ('        <nav class="site-footer__nav" aria-label="Footer">\n'
                 '            <a href="/about/">About</a>\n'
