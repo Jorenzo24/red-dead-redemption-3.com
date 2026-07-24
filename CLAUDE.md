@@ -131,6 +131,13 @@ Design fourni par Joseph dans `assets/` : logo, fond de page d'accueil,
 typo des titres = **« Chinese Rock »** (prévoir `@font-face`, fallback propre,
 et chargement performant — pas de FOIT).
 
+> **PIÈGE Chinese Rock** : les glyphes `«` et `»` sont **mappés mais VIDES** (aucun
+> contour). Dans un titre `h1`-`h6` (police `--serif` = Chinese Rock), les guillemets
+> français disparaissent en laissant un trou. Invisible dans le HTML, visible seulement
+> au rendu. **Ne jamais mettre `« »` dans un titre** : reformuler. Le corps de texte
+> (`--sans` système) n'est pas concerné, les `« »` s'y affichent. `"` droits et `“ ” ‘ ’`
+> ont de vrais contours et passent en titre.
+
 ---
 
 ## 7. CONVENTIONS
@@ -170,7 +177,7 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 
 - [x] Phase 1 : init projet (skill) + design de base + 1-2 articles tests
 - [x] Phase 2 : 1 fiche personnage soignée (stabilise le gabarit) — Arthur Morgan (EN+FR)
-- [x] Phase 3 : objectif dépassé — **25 fiches** (EN+FR) + **story guide RDR2 ch. 1-5** + 16 articles, toujours en dur
+- [x] Phase 3 : objectif dépassé — **25 fiches en ligne + 6 RDR1 en file** (EN+FR), **story guide RDR2 COMPLET** (ch. 1-6 + 2 épilogues), **17 articles**, toujours en dur
 - [ ] Phase 4 (futur) : évaluation migration Astro
 - [ ] Phase 5 (futur) : déploiement langues par vagues
 
@@ -178,8 +185,10 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 
 ### Décisions structurantes actées
 - **Articles : EN primaire + miroir FR** reliés par hreflang réciproque (x-default → EN).
-  16 articles publiés (2022 → mi-2026), index `/articles/` + `/fr/articles/`, fil
-  « Latest news » sur la home. Slugs localisés par langue.
+  17 articles publiés (2022 → mi-2026), index `/articles/` + `/fr/articles/`, fil
+  « Latest news » sur la home (max 3 cartes). Slugs localisés par langue. Dernier en date :
+  « RDR2 Free DLC for July » (débunk de l'event Red Dead Online de juillet 2026 présenté à
+  tort comme un DLC ; factuel + sourcé).
 - **Anciennes URLs FR `/fr/blog/` et `/fr/blog-fr/`** → **301** vers `/fr/articles/`
   (antériorité préservée, voir `.htaccess`).
 - **Images d'articles/fiches** : sourcing web autorisé par Joseph (il vérifie les
@@ -213,28 +222,55 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Les liens contextuels dans l'intro/bio restent des liens inline normaux.
   Portraits : artwork officiel ou capture in-game (rendu wiki, API Red Dead Wiki) ;
   à défaut, `assets/characters/placeholder-avatar.svg` (avatar western).
-- **Fiches personnages : 25 (EN + FR)**, publiées par vagues via le drip (1/jour) :
+- **Fiches personnages : 25 en ligne + 6 en file (EN + FR)**, publiées par vagues via le drip.
+  Cadence libre (une `publishDate` par fiche) : vagues 1-3 à 1/jour, vague 4 à ~1 tous les 3 jours.
   - Phase 2 (8) : Arthur, John, Dutch, Micah, Sadie, Hosea, Bill, Charles.
   - Vague 1 (5) : Abigail/Jack Marston, Sean MacGuire, Lenny Summers, Javier Escuella.
   - Vague 2 (6) : Kieran Duffy, Mary Linton, Leopold Strauss, Susan Grimshaw, Colm O'Driscoll, Edgar Ross.
   - Vague 3 (6, drip 9→14 juil. 2026) : Angelo Bronte, Leviticus Cornwall, Andrew Milton, Josiah Trelawny, Molly O'Shea, Uncle.
-  - Prochaine cible : casting RDR1 (Bonnie MacFarlane, Landon Ricketts, Seth Briars…).
+  - **Vague 4 (6, casting RDR1, en file 27 juil.→11 août 2026)** : Bonnie MacFarlane, Landon Ricketts,
+    Nigel West Dickens, Seth Briars, Marshal Leigh Johnson, Abraham Reyes. **Premières fiches RDR1-natives**
+    (New Austin / Mexique), groupe « Autres figures ». Faits sourcés (guide GOTY, journaux in-game) :
+    5 des 6 survivent à RDR1, seul Landon meurt (vieillesse, rapporté 1914) ; Reyes gagne puis trahit
+    sa révolution.
+  - Prochaine cible : reste du casting mexicain (Allende…), ou guide histoire RDR1.
   Au-delà de 5 persos, « More characters » affiche 4 fiches pertinentes (pas toutes).
-- **RÈGLE ÉDITORIALE IMPÉRATIVE — PAS de prose « poétique »/d'ambiance qui sonne IA.**
-  Bannir les conclusions évocatrices sans info (« this is the chapter that… », « ce qu'il
-  y a de chaleureux… ») et les tics défensifs (« pas du Fandom reformulé »). Écrire
-  **factuel** : événements, missions, noms, dates, recaps scannables. (cf. mémoire feedback.)
-- **Story guide RDR2** (`/story/` + `/fr/histoire/`) : guides chapitre par chapitre, EN+FR,
-  gabarit article `theme-light`. **Ch. 1-5 faits** (Colter, Horseshoe Overlook, Clemens Point,
-  Saint-Denis, Guarma) ; restent **Beaver Hollow (6) + épilogues**. Format factuel : sections
-  + recap « Key events » à puces + nav prev/next, reliés aux fiches ; index `/story/` = frise.
-  **Pages écrites à la main → NE PAS utiliser les tokens `[[slug|Texte]]`** (seul `gen_fiche`
-  les convertit) ; mettre des `<a href>` directs. Images : vraies captures (ch. 4-5) ou
-  cartes-titres placeholder (ch. 3).
-- **Drip publishing** : `_queue/NN-<slug>/` (meta.json + en.html + fr.html), publié **1/jour**
-  par `.github/workflows/daily-publish.yml` → `scripts/publish_next.py` (cron 09:00 UTC). Images
-  requises dans `assets/characters/<slug>/` AVANT publication. Générateurs : `scripts/gen_fiche.py`
-  (fiche data→HTML, tokens `[[slug|Texte]]` + relations rouges), drivers `_wave2.py`/`_wave3.py`.
+- **Liens inter-fiches : JAMAIS de lien « vers l'avant ».** Une fiche ne lie (relations + tokens
+  inline + cartes « More characters ») que des personnages DÉJÀ en ligne à SA `publishDate` ; le
+  sens arrière d'une paire lie (ex. Seth→Nigel, Leigh→Bonnie), le sens avant reste en texte simple.
+  Évite tout lien interne en 404 pendant le déroulé d'une vague. Vérif datée avant merge.
+- **RÈGLE ÉDITORIALE IMPÉRATIVE — ton média neutre, factuel.**
+  1. **PAS de prose « poétique »/d'ambiance qui sonne IA** ni d'analyse à deux sous
+     (« c'est comme appeler la météo une annonce »). Bannir conclusions évocatrices
+     sans info et tics défensifs (« pas du Fandom reformulé »).
+  2. **Une phrase = un fait.** Ne pas être tranché : donner les faits, laisser conclure.
+     Événements, missions, noms, dates, recaps scannables.
+  3. **Citer sources et chiffres** quand c'est pertinent (média + date d'un titre, post
+     Newswire, ventes, dates de sortie) — bon pour le SEO/GEO. Attribution dans le texte,
+     PAS de liens sortants vers les sources (cf. règle EEAT anti-Fandom).
+  4. **Traductions FR rédigées, jamais littérales.** Le FR est réécrit pour l'usage réel
+     de la langue, relu sans l'EN sous les yeux ; bannir les calques (« papier »/« bulletin »
+     pour un article/post). Noms de missions/objets du jeu laissés en anglais tels que Rockstar
+     les publie. Idem futures langues ES/DE/PT-BR.
+  (cf. mémoires feedback.)
+- **Story guide RDR2 — COMPLET** (`/story/` + `/fr/histoire/`) : chapitre par chapitre, EN+FR,
+  gabarit article `theme-light`. **Ch. 1-6 + 2 épilogues faits** (Colter, Horseshoe Overlook,
+  Clemens Point, Saint-Denis, Guarma, Beaver Hollow ; épilogue I Pronghorn Ranch + II Beecher's Hope).
+  Format factuel : sections + recap « Key events » à puces + nav prev/next, reliés aux fiches ;
+  index `/story/` = frise (bloc RDR1 encore « Soon »). **Pages écrites à la main → NE PAS utiliser
+  les tokens `[[slug|Texte]]`** (seul `gen_fiche` les convertit) ; mettre des `<a href>` directs.
+  Prochaine cible story : guide RDR1 (1911). Décisions de contenu notables : ch.6 = 4 fins
+  (choix × honneur) ; détails wiki non vérifiés écartés. Épilogue = mort de Micah en tir partagé
+  (Dutch tire, John achève), pas « Dutch tue Micah ».
+- **Drip publishing** : `_queue/NN-<slug>/` (meta.json + en.html + fr.html), publié par
+  `.github/workflows/daily-publish.yml` → `scripts/publish_next.py` (cron 09:00 UTC ; la plus
+  ancienne échéance due). Gère **DEUX types** via `meta.json` "type" : `character` (défaut) ET
+  `story` (chapitre : bascule le placeholder « Soon » de la frise en entrée liée, repointe la nav
+  du chapitre précédent). **Publication atomique** : tout est calculé/validé AVANT d'écrire ; en
+  cas de dérive du markup, échec bruyant sans rien écrire, file rejouable. Images requises AVANT
+  publication dans `assets/characters/<slug>/` (fiches) ou `assets/story/<slug>/` (chapitres).
+  Générateurs : `scripts/gen_fiche.py` (fiche data→HTML, tokens `[[slug|Texte]]` + relations rouges ;
+  byline = `publishDate` de la fiche), drivers `_wave2.py`…`_wave4.py`.
   **Specs images fiche** : portrait **1000×562**, cover **1600×900**, gallery **1400×787**,
   `rel/` **600×337** (JPEG + WebP).
 - **Page « Personnages » regroupée par faction** (Le gang Van der Linde · La famille Marston ·
