@@ -25,6 +25,11 @@ CHARACTERS = [
     ("josiah-trelawny",     "Josiah Trelawny",     "Van der Linde gang &middot; RDR2",       "Gang Van der Linde &middot; RDR2",       "gang"),
     ("molly-oshea",         "Molly O'Shea",        "Van der Linde gang &middot; RDR2",       "Gang Van der Linde &middot; RDR2",       "gang"),
     ("uncle",               "Uncle",               "Van der Linde gang &middot; RDR1 &amp; 2","Gang Van der Linde &middot; RDR1 &amp; 2","gang"),
+    ("karen-jones",         "Karen Jones",         "Van der Linde gang &middot; RDR2",       "Gang Van der Linde &middot; RDR2",       "gang"),
+    ("tilly-jackson",       "Tilly Jackson",       "Van der Linde gang &middot; RDR2",       "Gang Van der Linde &middot; RDR2",       "gang"),
+    ("mary-beth-gaskill",   "Mary-Beth Gaskill",   "Van der Linde gang &middot; RDR2",       "Gang Van der Linde &middot; RDR2",       "gang"),
+    ("simon-pearson",       "Simon Pearson",       "Gang cook &middot; RDR2",                "Cuisinier du gang &middot; RDR2",        "gang"),
+    ("orville-swanson",     "Orville Swanson",     "Gang chaplain &middot; RDR2",            "Aumônier du gang &middot; RDR2",         "gang"),
     # --- The Marston family ---
     ("john-marston",        "John Marston",        "Van der Linde gang &middot; RDR1",       "Gang Van der Linde &middot; RDR1",       "marston"),
     ("abigail-marston",     "Abigail Marston",     "Marston family &middot; RDR1 &amp; 2",   "Famille Marston &middot; RDR1 &amp; 2",  "marston"),
