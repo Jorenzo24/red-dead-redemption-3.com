@@ -577,4 +577,13 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/articles/red-dead-redemption-2-depasse-87-millions/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/articles/red-dead-redemption-2-passes-87-million/"/>
     </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/characters/abraham-reyes/</loc>
+        <lastmod>2026-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/characters/abraham-reyes/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/personnages/abraham-reyes/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/characters/abraham-reyes/"/>
+    </url>
 </urlset>
