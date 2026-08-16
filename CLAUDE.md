@@ -177,7 +177,7 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 
 - [x] Phase 1 : init projet (skill) + design de base + 1-2 articles tests
 - [x] Phase 2 : 1 fiche personnage soignée (stabilise le gabarit) — Arthur Morgan (EN+FR)
-- [x] Phase 3 : objectif dépassé — **25 fiches en ligne + 6 RDR1 en file** (EN+FR), **story guide RDR2 COMPLET** (ch. 1-6 + 2 épilogues), **17 articles**, toujours en dur
+- [x] Phase 3 : objectif dépassé — **32 fiches en ligne (RDR2 + RDR1) + vague gang en file** (EN+FR), **story guide RDR2 COMPLET** (ch. 1-6 + 2 épilogues), **19 articles**, toujours en dur
 - [ ] Phase 4 (futur) : évaluation migration Astro
 - [ ] Phase 5 (futur) : déploiement langues par vagues
 
@@ -185,10 +185,12 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 
 ### Décisions structurantes actées
 - **Articles : EN primaire + miroir FR** reliés par hreflang réciproque (x-default → EN).
-  17 articles publiés (2022 → mi-2026), index `/articles/` + `/fr/articles/`, fil
-  « Latest news » sur la home (max 3 cartes). Slugs localisés par langue. Dernier en date :
-  « RDR2 Free DLC for July » (débunk de l'event Red Dead Online de juillet 2026 présenté à
-  tort comme un DLC ; factuel + sourcé).
+  19 articles publiés (2022 → mi-2026), index `/articles/` + `/fr/articles/`, fil
+  « Latest news » sur la home (max 3 cartes). Slugs localisés par langue. Derniers en date :
+  « RDR2 passes 87 million » (résultats Take-Two T1 2027 : 87M unités ; extrapole le budget
+  probable de RDR3 en étiquetant fait/estimation/spéculation ; 3e volet de la série ventes
+  63M→70M→87M) ; « RDR2 Free DLC for July » (débunk de l'event Red Dead Online présenté à
+  tort comme un DLC). Registre factuel + sourcé.
 - **Anciennes URLs FR `/fr/blog/` et `/fr/blog-fr/`** → **301** vers `/fr/articles/`
   (antériorité préservée, voir `.htaccess`).
 - **Images d'articles/fiches** : sourcing web autorisé par Joseph (il vérifie les
@@ -222,18 +224,23 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Les liens contextuels dans l'intro/bio restent des liens inline normaux.
   Portraits : artwork officiel ou capture in-game (rendu wiki, API Red Dead Wiki) ;
   à défaut, `assets/characters/placeholder-avatar.svg` (avatar western).
-- **Fiches personnages : 25 en ligne + 6 en file (EN + FR)**, publiées par vagues via le drip.
-  Cadence libre (une `publishDate` par fiche) : vagues 1-3 à 1/jour, vague 4 à ~1 tous les 3 jours.
+- **Fiches personnages : ~32 en ligne + vague gang en file (EN + FR)**, publiées par vagues via le drip.
+  Cadence libre (une `publishDate` par fiche) : vagues 1-3 à 1/jour, vagues 4-5 à ~1 tous les 3 jours.
   - Phase 2 (8) : Arthur, John, Dutch, Micah, Sadie, Hosea, Bill, Charles.
   - Vague 1 (5) : Abigail/Jack Marston, Sean MacGuire, Lenny Summers, Javier Escuella.
   - Vague 2 (6) : Kieran Duffy, Mary Linton, Leopold Strauss, Susan Grimshaw, Colm O'Driscoll, Edgar Ross.
   - Vague 3 (6, drip 9→14 juil. 2026) : Angelo Bronte, Leviticus Cornwall, Andrew Milton, Josiah Trelawny, Molly O'Shea, Uncle.
-  - **Vague 4 (6, casting RDR1, en file 27 juil.→11 août 2026)** : Bonnie MacFarlane, Landon Ricketts,
+  - **Vague 4 (6, casting RDR1, 27 juil.→11 août 2026, FAIT)** : Bonnie MacFarlane, Landon Ricketts,
     Nigel West Dickens, Seth Briars, Marshal Leigh Johnson, Abraham Reyes. **Premières fiches RDR1-natives**
     (New Austin / Mexique), groupe « Autres figures ». Faits sourcés (guide GOTY, journaux in-game) :
     5 des 6 survivent à RDR1, seul Landon meurt (vieillesse, rapporté 1914) ; Reyes gagne puis trahit
     sa révolution.
-  - Prochaine cible : reste du casting mexicain (Allende…), ou guide histoire RDR1.
+  - **Vague 5 (5, complète le gang, en file 14→26 août 2026)** : Karen Jones, Tilly Jackson,
+    Mary-Beth Gaskill, Simon Pearson (cuisinier), Orville Swanson (aumônier). Comble le trou du gang.
+    Les 5 survivent à RDR2 (mort de Karen = spéculation de Tilly, jamais un fait) ; fins d'épilogue
+    incluses (Mary-Beth romancière « Leslie Dupont », Pearson épicerie de Rhodes, Swanson pasteur à NY).
+  - Prochaine cible : arc Wapiti/Guarma (Eagle Flies, Rains Fall, Fussar), reste RDR1 (Allende, Nastas…),
+    ou guide histoire RDR1.
   Au-delà de 5 persos, « More characters » affiche 4 fiches pertinentes (pas toutes).
 - **Liens inter-fiches : JAMAIS de lien « vers l'avant ».** Une fiche ne lie (relations + tokens
   inline + cartes « More characters ») que des personnages DÉJÀ en ligne à SA `publishDate` ; le
@@ -272,7 +279,12 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Générateurs : `scripts/gen_fiche.py` (fiche data→HTML, tokens `[[slug|Texte]]` + relations rouges ;
   byline = `publishDate` de la fiche), drivers `_wave2.py`…`_wave4.py`.
   **Specs images fiche** : portrait **1000×562**, cover **1600×900**, gallery **1400×787**,
-  `rel/` **600×337** (JPEG + WebP).
+  `rel/` **600×337** (JPEG + WebP). Portraits de relation = réutiliser le `portrait.jpeg` déjà en
+  ligne du personnage lié (cohérence, zéro sourcing).
+  **Portraits depuis les rendus « character bio » RDR2** : ces rendus sont des **diptyques**
+  (corps entier + gros plan visage, sur un côté variable selon le perso). NE PAS crop tel quel
+  (coupe le visage). Technique : isoler le gros plan visage, puis **visage net centré sur fond flou**
+  du même plan pour remplir le 16:9 (cf. vague 5). Sinon, capture in-game 16:9 avec visage net.
 - **Page « Personnages » regroupée par faction** (Le gang Van der Linde · La famille Marston ·
   Rivaux et forces de l'ordre · Autres figures), alpha dans chaque groupe. Source unique
   `scripts/characters_registry.py` + `scripts/gen_listing.py` (régénère la zone `@charlist:start/end`,
