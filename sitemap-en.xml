@@ -622,4 +622,13 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/personnages/simon-pearson/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/characters/simon-pearson/"/>
     </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/characters/orville-swanson/</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/characters/orville-swanson/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/personnages/orville-swanson/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/characters/orville-swanson/"/>
+    </url>
 </urlset>
