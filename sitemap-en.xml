@@ -631,4 +631,31 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/personnages/orville-swanson/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/characters/orville-swanson/"/>
     </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/story/rdr1-act-1-new-austin/</loc>
+        <lastmod>2026-09-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/story/rdr1-act-1-new-austin/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/histoire/rdr1-acte-1-new-austin/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/story/rdr1-act-1-new-austin/"/>
+    </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/story/rdr1-act-2-nuevo-paraiso/</loc>
+        <lastmod>2026-09-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/story/rdr1-act-2-nuevo-paraiso/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/histoire/rdr1-acte-2-nuevo-paraiso/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/story/rdr1-act-2-nuevo-paraiso/"/>
+    </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/story/rdr1-act-3-west-elizabeth/</loc>
+        <lastmod>2026-09-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/story/rdr1-act-3-west-elizabeth/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/histoire/rdr1-acte-3-west-elizabeth/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/story/rdr1-act-3-west-elizabeth/"/>
+    </url>
 </urlset>

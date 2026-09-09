@@ -177,7 +177,7 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 
 - [x] Phase 1 : init projet (skill) + design de base + 1-2 articles tests
 - [x] Phase 2 : 1 fiche personnage soignée (stabilise le gabarit) — Arthur Morgan (EN+FR)
-- [x] Phase 3 : objectif dépassé — **32 fiches en ligne (RDR2 + RDR1) + vague gang en file** (EN+FR), **story guide RDR2 COMPLET** (ch. 1-6 + 2 épilogues), **19 articles**, toujours en dur
+- [x] Phase 3 : objectif dépassé — **36 fiches en ligne (RDR2 + RDR1)** (EN+FR), **story guides RDR2 ET RDR1 COMPLETS** (RDR2 ch. 1-6 + 2 épilogues ; RDR1 actes I-III), **19 articles**, toujours en dur
 - [ ] Phase 4 (futur) : évaluation migration Astro
 - [ ] Phase 5 (futur) : déploiement langues par vagues
 
@@ -224,7 +224,7 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Les liens contextuels dans l'intro/bio restent des liens inline normaux.
   Portraits : artwork officiel ou capture in-game (rendu wiki, API Red Dead Wiki) ;
   à défaut, `assets/characters/placeholder-avatar.svg` (avatar western).
-- **Fiches personnages : ~32 en ligne + vague gang en file (EN + FR)**, publiées par vagues via le drip.
+- **Fiches personnages : 36 en ligne (EN + FR), file `_queue/` VIDE**, publiées par vagues via le drip.
   Cadence libre (une `publishDate` par fiche) : vagues 1-3 à 1/jour, vagues 4-5 à ~1 tous les 3 jours.
   - Phase 2 (8) : Arthur, John, Dutch, Micah, Sadie, Hosea, Bill, Charles.
   - Vague 1 (5) : Abigail/Jack Marston, Sean MacGuire, Lenny Summers, Javier Escuella.
@@ -235,12 +235,12 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     (New Austin / Mexique), groupe « Autres figures ». Faits sourcés (guide GOTY, journaux in-game) :
     5 des 6 survivent à RDR1, seul Landon meurt (vieillesse, rapporté 1914) ; Reyes gagne puis trahit
     sa révolution.
-  - **Vague 5 (5, complète le gang, en file 14→26 août 2026)** : Karen Jones, Tilly Jackson,
+  - **Vague 5 (5, complète le gang, publiée 14→26 août 2026, FAIT)** : Karen Jones, Tilly Jackson,
     Mary-Beth Gaskill, Simon Pearson (cuisinier), Orville Swanson (aumônier). Comble le trou du gang.
     Les 5 survivent à RDR2 (mort de Karen = spéculation de Tilly, jamais un fait) ; fins d'épilogue
     incluses (Mary-Beth romancière « Leslie Dupont », Pearson épicerie de Rhodes, Swanson pasteur à NY).
-  - Prochaine cible : arc Wapiti/Guarma (Eagle Flies, Rains Fall, Fussar), reste RDR1 (Allende, Nastas…),
-    ou guide histoire RDR1.
+  - Prochaine cible : arc Wapiti/Guarma (Eagle Flies, Rains Fall, Fussar), ou reste du casting RDR1
+    (Allende, De Santa, Luisa Fortuna, Nastas, MacDougal, Irish…), tous cités par le guide RDR1.
   Au-delà de 5 persos, « More characters » affiche 4 fiches pertinentes (pas toutes).
 - **Liens inter-fiches : JAMAIS de lien « vers l'avant ».** Une fiche ne lie (relations + tokens
   inline + cartes « More characters ») que des personnages DÉJÀ en ligne à SA `publishDate` ; le
@@ -260,15 +260,20 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
      pour un article/post). Noms de missions/objets du jeu laissés en anglais tels que Rockstar
      les publie. Idem futures langues ES/DE/PT-BR.
   (cf. mémoires feedback.)
-- **Story guide RDR2 — COMPLET** (`/story/` + `/fr/histoire/`) : chapitre par chapitre, EN+FR,
-  gabarit article `theme-light`. **Ch. 1-6 + 2 épilogues faits** (Colter, Horseshoe Overlook,
-  Clemens Point, Saint-Denis, Guarma, Beaver Hollow ; épilogue I Pronghorn Ranch + II Beecher's Hope).
+- **Story guides RDR2 ET RDR1 — COMPLETS** (`/story/` + `/fr/histoire/`), EN+FR, gabarit article
+  `theme-light`. **RDR2 : ch. 1-6 + 2 épilogues** (Colter, Horseshoe Overlook, Clemens Point,
+  Saint-Denis, Guarma, Beaver Hollow ; épilogue I Pronghorn Ranch + II Beecher's Hope).
+  **RDR1 : actes I-III** (New Austin, Nuevo Paraíso, West Elizabeth), publiés d'un bloc le 9 sept. 2026 ;
+  l'acte III couvre la mort de John (1911) ET l'épilogue Jack/Ross (1914), la frise n'ayant que 3 blocs RDR1.
   Format factuel : sections + recap « Key events » à puces + nav prev/next, reliés aux fiches ;
-  index `/story/` = frise (bloc RDR1 encore « Soon »). **Pages écrites à la main → NE PAS utiliser
-  les tokens `[[slug|Texte]]`** (seul `gen_fiche` les convertit) ; mettre des `<a href>` directs.
-  Prochaine cible story : guide RDR1 (1911). Décisions de contenu notables : ch.6 = 4 fins
-  (choix × honneur) ; détails wiki non vérifiés écartés. Épilogue = mort de Micah en tir partagé
-  (Dutch tire, John achève), pas « Dutch tue Micah ».
+  index `/story/` = frise, **plus aucun placeholder « Soon »** (la nav enchaîne épilogue RDR2 → acte I RDR1).
+  **Pages écrites à la main → NE PAS utiliser les tokens `[[slug|Texte]]`** (seul `gen_fiche` les
+  convertit) ; mettre des `<a href>` directs. Décisions de contenu notables : RDR2 ch.6 = 4 fins
+  (choix × honneur) ; détails wiki non vérifiés écartés ; épilogue RDR2 = mort de Micah en tir partagé
+  (Dutch tire, John achève), pas « Dutch tue Micah » ; RDR1 = Dutch se laisse tomber de la falaise
+  (pas abattu par John), Javier capturé vivant à El Presidio, Allende et Bill tués à Escalera.
+  Personnages RDR1 sans fiche cités en texte simple : Allende, De Santa, Luisa Fortuna, Nastas,
+  MacDougal, Irish, Archer Fordham.
 - **Drip publishing** : `_queue/NN-<slug>/` (meta.json + en.html + fr.html), publié par
   `.github/workflows/daily-publish.yml` → `scripts/publish_next.py` (cron 09:00 UTC ; la plus
   ancienne échéance due). Gère **DEUX types** via `meta.json` "type" : `character` (défaut) ET
