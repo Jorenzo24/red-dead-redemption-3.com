@@ -177,11 +177,25 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 
 - [x] Phase 1 : init projet (skill) + design de base + 1-2 articles tests
 - [x] Phase 2 : 1 fiche personnage soignée (stabilise le gabarit) — Arthur Morgan (EN+FR)
-- [x] Phase 3 : objectif dépassé — **36 fiches en ligne (RDR2 + RDR1)** (EN+FR), **story guides RDR2 ET RDR1 COMPLETS** (RDR2 ch. 1-6 + 2 épilogues ; RDR1 actes I-III), **19 articles**, toujours en dur
+- [x] Phase 3 : objectif dépassé — **36 fiches en ligne (RDR2 + RDR1) + 7 en file** (EN+FR), **story guides RDR2 ET RDR1 COMPLETS** (RDR2 ch. 1-6 + 2 épilogues ; RDR1 actes I-III), **19 articles**, toujours en dur
 - [ ] Phase 4 (futur) : évaluation migration Astro
 - [ ] Phase 5 (futur) : déploiement langues par vagues
 
 > Quand une phase avance, cocher ici et noter les décisions structurantes prises.
+
+### Point de reprise (au 14 sept. 2026)
+
+- **Le drip tourne tout seul** : 7 fiches en file, publiées 15 sept. → 3 oct. 2026 (une tous
+  les 3 jours), déploiement cPanel automatique dans le quart d'heure qui suit. Rien à faire.
+- **RENDEZ-VOUS DATÉ, après le 3 oct. 2026** : la vague 6 finie, repasser sur les 6 pages
+  `/story/rdr1-act-*/` + `/fr/histoire/rdr1-acte-*/` pour transformer en liens internes les
+  7 mentions laissées en texte simple (Allende, de Santa, Luisa Fortuna, Nastas, MacDougal,
+  Irish, Fordham). Impossible avant : ce seraient des 404.
+- **Quand la file se vide (après le 3 oct.), le site ne publie plus rien.** Un drip à vide
+  affiche `NOTHING_DUE` sans bruit : c'est passé inaperçu du 27 août au 9 sept. 2026.
+  Vérifier `ls _queue/` avant de conclure que tout va bien.
+- Pistes de contenu suivantes : arc Wapiti/Guarma (Eagle Flies, Rains Fall, Fussar),
+  second rôles RDR2 restants, ou guide Undead Nightmare.
 
 ### Décisions structurantes actées
 - **Articles : EN primaire + miroir FR** reliés par hreflang réciproque (x-default → EN).
