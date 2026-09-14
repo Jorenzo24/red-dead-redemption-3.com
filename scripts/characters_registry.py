@@ -40,6 +40,9 @@ CHARACTERS = [
     ("leviticus-cornwall",  "Leviticus Cornwall",  "Industrialist &middot; RDR2",            "Industriel &middot; RDR2",               "enemies"),
     ("andrew-milton",       "Andrew Milton",       "Pinkerton agent &middot; RDR2",          "Agent Pinkerton &middot; RDR2",          "enemies"),
     ("edgar-ross",          "Edgar Ross",          "Antagonist &middot; RDR1",               "Antagoniste &middot; RDR1",              "enemies"),
+    ("agustin-allende",     "Agustin Allende",     "Provincial governor &middot; RDR1",      "Gouverneur de province &middot; RDR1",   "enemies"),
+    ("vincente-de-santa",   "Vincente de Santa",   "Mexican Army captain &middot; RDR1",     "Capitaine de l'armée mexicaine &middot; RDR1", "enemies"),
+    ("archer-fordham",      "Archer Fordham",      "Bureau agent &middot; RDR1 &amp; 2",     "Agent du Bureau &middot; RDR1 &amp; 2",  "enemies"),
     # --- Other figures ---
     ("mary-linton",         "Mary Linton",         "Arthur's former love &middot; RDR2",     "Ancien amour d'Arthur &middot; RDR2",    "other"),
     ("bonnie-macfarlane",   "Bonnie MacFarlane",   "Rancher &middot; RDR1",                  "Ranchère &middot; RDR1",                 "other"),
@@ -48,6 +51,10 @@ CHARACTERS = [
     ("seth-briars",         "Seth Briars",         "Grave-robber &middot; RDR1",             "Pilleur de tombes &middot; RDR1",        "other"),
     ("leigh-johnson",       "Leigh Johnson",       "Marshal &middot; RDR1",                  "Marshal &middot; RDR1",                  "other"),
     ("abraham-reyes",       "Abraham Reyes",       "Revolutionary &middot; RDR1",            "Révolutionnaire &middot; RDR1",          "other"),
+    ("luisa-fortuna",       "Luisa Fortuna",       "Revolutionary &middot; RDR1",            "Révolutionnaire &middot; RDR1",          "other"),
+    ("nastas",              "Nastas",              "Guide &middot; RDR1",                    "Guide &middot; RDR1",                    "other"),
+    ("harold-macdougal",    "Harold MacDougal",    "Anthropologist &middot; RDR1",           "Anthropologue &middot; RDR1",            "other"),
+    ("irish",               "Irish",               "Gunrunner &middot; RDR1",                "Trafiquant d'armes &middot; RDR1",       "other"),
 ]
 
 # group key -> (title_en, title_fr, note_en, note_fr)
