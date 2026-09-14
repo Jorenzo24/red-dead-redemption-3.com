@@ -224,7 +224,7 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Les liens contextuels dans l'intro/bio restent des liens inline normaux.
   Portraits : artwork officiel ou capture in-game (rendu wiki, API Red Dead Wiki) ;
   à défaut, `assets/characters/placeholder-avatar.svg` (avatar western).
-- **Fiches personnages : 36 en ligne (EN + FR), file `_queue/` VIDE**, publiées par vagues via le drip.
+- **Fiches personnages : 36 en ligne (EN + FR) + vague 6 en file (7)**, publiées par vagues via le drip.
   Cadence libre (une `publishDate` par fiche) : vagues 1-3 à 1/jour, vagues 4-5 à ~1 tous les 3 jours.
   - Phase 2 (8) : Arthur, John, Dutch, Micah, Sadie, Hosea, Bill, Charles.
   - Vague 1 (5) : Abigail/Jack Marston, Sean MacGuire, Lenny Summers, Javier Escuella.
@@ -239,8 +239,16 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     Mary-Beth Gaskill, Simon Pearson (cuisinier), Orville Swanson (aumônier). Comble le trou du gang.
     Les 5 survivent à RDR2 (mort de Karen = spéculation de Tilly, jamais un fait) ; fins d'épilogue
     incluses (Mary-Beth romancière « Leslie Dupont », Pearson épicerie de Rhodes, Swanson pasteur à NY).
-  - Prochaine cible : arc Wapiti/Guarma (Eagle Flies, Rains Fall, Fussar), ou reste du casting RDR1
-    (Allende, De Santa, Luisa Fortuna, Nastas, MacDougal, Irish…), tous cités par le guide RDR1.
+  - **Vague 6 (7, second rôles RDR1, en file 15 sept.→3 oct. 2026)** : Agustin Allende, Vincente de Santa,
+    Luisa Fortuna, Nastas, Harold MacDougal, Irish, Archer Fordham. Exactement les 7 personnages que le
+    guide RDR1 cite en texte simple faute de fiche. Prudence factuelle assumée : pas de nom sur le coup
+    fatal d'Allende, rien sur le sort de MacDougal après Yale, aucune cause de mort inventée pour Irish.
+    Fordham apparaît aussi dans l'épilogue RDR2 (il observe Micah avec Ross). Orthographe wiki =
+    « Vincente de Santa » (et non Vicente).
+  - **Une fois la vague 6 publiée (après le 3 oct. 2026)** : repasser sur `/story/rdr1-act-*/` (EN+FR) pour
+    transformer ces 7 mentions en liens internes. Impossible avant : ce seraient des liens en 404.
+  - Prochaine cible : arc Wapiti/Guarma (Eagle Flies, Rains Fall, Fussar), ou guide histoire RDR1 Undead
+    Nightmare, ou second rôles RDR2 restants.
   Au-delà de 5 persos, « More characters » affiche 4 fiches pertinentes (pas toutes).
 - **Liens inter-fiches : JAMAIS de lien « vers l'avant ».** Une fiche ne lie (relations + tokens
   inline + cartes « More characters ») que des personnages DÉJÀ en ligne à SA `publishDate` ; le
@@ -296,10 +304,17 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   **fiches publiées uniquement**). Le drip régénère les 2 pages listing ; la **home garde une grille
   plate** (marqueur `@ccards`). PAS de lede/blurb sur la page (retiré : sonnait IA).
 - **Sourcing images (pipeline)** : via l'**API MediaWiki du Red Dead Wiki**
-  (`reddead.fandom.com/api.php?action=query&generator=images&…` — la page HTML est bloquée
-  Cloudflare, mais l'API + le CDN `static.wikia.nocookie.net` passent en `curl` avec un UA
-  navigateur). Recadrage aux specs ci-dessus ; pour les rendus « bio » verticaux, montage
-  **visage net + fond flou** plutôt qu'un crop qui coupe le visage.
+  (`reddead.fandom.com/api.php?action=query&generator=images&…`). L'API passe avec un simple UA
+  navigateur, mais **depuis sept. 2026 le CDN `static.wikia.nocookie.net` renvoie 403 (Cloudflare)
+  sur un UA seul** : il faut AUSSI `-e https://reddead.fandom.com/` (Referer), un en-tête `Accept:
+  image/...` et les `Sec-Fetch-Dest/Mode/Site`. Le CDN répond alors en **WebP** quel que soit le nom
+  de fichier (Pillow lit, `identify` confirme). Récupérer l'URL exacte via `prop=imageinfo` plutôt que
+  de deviner le hash du chemin. Recadrage aux specs ci-dessus ; pour les rendus « bio » verticaux,
+  montage **visage net + fond flou** plutôt qu'un crop qui coupe le visage.
+  **Vérifier l'image AVANT de l'utiliser** (contact sheet + lecture) : la vague 6 a écarté une carte,
+  deux visuels promo à texte incrusté, un intérieur illisible, et a corrigé un cadrage qui prenait Ross
+  pour Fordham. `prop=fileusage` dit sur quelle page du wiki une image est utilisée : c'est ce qui a
+  confirmé que `Riley_rdr1.png` est bien le portrait de MacDougal.
 - **DÉPLOIEMENT = AUTOMATIQUE** : un **cron cPanel** fait `git reset --hard origin/main` dans
   `public_html` **toutes les ~15 min** (voir `PUBLISHING.md`). **Plus besoin de « Deploy HEAD
   Commit »** : un merge sur `main` part en ligne dans le quart d'heure. (Le workflow ne déploie
