@@ -667,4 +667,13 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/personnages/agustin-allende/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/characters/agustin-allende/"/>
     </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/characters/vincente-de-santa/</loc>
+        <lastmod>2026-09-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/characters/vincente-de-santa/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/personnages/vincente-de-santa/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/characters/vincente-de-santa/"/>
+    </url>
 </urlset>
