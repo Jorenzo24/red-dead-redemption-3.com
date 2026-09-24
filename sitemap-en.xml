@@ -685,4 +685,13 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/personnages/luisa-fortuna/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/characters/luisa-fortuna/"/>
     </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/characters/nastas/</loc>
+        <lastmod>2026-09-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/characters/nastas/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/personnages/nastas/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/characters/nastas/"/>
+    </url>
 </urlset>
