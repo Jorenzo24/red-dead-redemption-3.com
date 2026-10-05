@@ -151,6 +151,15 @@ def _page(c, lang):
     up = "../" * depth
     L = (lambda d: d[lang])
     slug = c["slug"]; name = c["name"]
+    # Encyclopedic <title>: "Name (RDR2): Biography, Story and Relationships".
+    # Game tag derived from the "Games" fact (Red Dead Online ignored).
+    games = next(f["value"]["en"] for f in c["facts"] if f["label"]["en"] == "Games")
+    g = [x.strip() for x in games.split(",")]
+    r1, r2 = "Red Dead Redemption" in g, "Red Dead Redemption 2" in g
+    gtag = ("RDR1" if r1 and not r2 else "RDR2" if r2 and not r1
+            else ("RDR1 and RDR2" if lang == "en" else "RDR1 et RDR2"))
+    page_title = (f"{name} ({gtag}): Biography, Story and Relationships" if lang == "en"
+                  else f"{name} ({gtag}) : biographie, histoire et relations")
     enurl = f"https://red-dead-redemption-3.com/characters/{slug}/"
     frurl = f"https://red-dead-redemption-3.com/fr/personnages/{slug}/"
     canon = enurl if lang == "en" else frurl
@@ -266,7 +275,7 @@ def _page(c, lang):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{name} | Red Dead Redemption 3</title>
+    <title>{page_title}</title>
     <meta name="description" content="{L(c['meta_desc'])}">
     <link rel="canonical" href="{canon}">
 
@@ -278,12 +287,12 @@ def _page(c, lang):
     <meta property="og:locale" content="{locale}">
     <meta property="og:url" content="{canon}">
     <meta property="og:site_name" content="Red Dead Redemption 3">
-    <meta property="og:title" content="{name}">
+    <meta property="og:title" content="{page_title}">
     <meta property="og:description" content="{L(c['og_desc'])}">
     <meta property="og:image" content="{img_og}">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{name}">
+    <meta name="twitter:title" content="{page_title}">
     <meta name="twitter:description" content="{L(c['og_desc'])}">
     <meta name="twitter:image" content="{img_og}">
 
