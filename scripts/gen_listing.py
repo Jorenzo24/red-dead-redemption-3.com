@@ -96,18 +96,15 @@ def _region(img_prefix, link_prefix, lang):
 def _home_region(link_prefix, lang):
     pub = _published()
     out = [HOME_START, '                <ul class="facets">']
-    total = 0
     for key, title_en, title_fr, _ne, _nf in GROUPS:
         n = sum(1 for c in CHARACTERS if c[4] == key and c[0] in pub)
         if not n:
             continue
-        total += n
         title = title_en if lang == "en" else title_fr
         anchor = ANCHORS[key][0 if lang == "en" else 1]
         out.append(f'                    <li><a href="{link_prefix}#{anchor}">{title} <span class="facets__n">{n}</span></a></li>')
     out.append('                </ul>')
-    label = (f"Browse all {total} characters" if lang == "en"
-             else f"Voir les {total} personnages")
+    label = "Browse all characters" if lang == "en" else "Voir tous les personnages"
     out.append(f'                <a class="btn-more" href="{link_prefix}">{label} &rarr;</a>')
     out.append("                " + HOME_END)
     return "\n".join(out)

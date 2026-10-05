@@ -317,9 +317,9 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 - **Accueil = sections courtes qui renvoient vers les pages dédiées (oct. 2026)** : plus de grille
   de tous les personnages. Section **Personnages** = intro + **4 cartes choisies à la main**
   (Arthur, John, Dutch, Micah, jamais touchées par le drip) + liens par faction avec compteurs
-  + bouton « Browse all N characters », ces deux derniers générés par `gen_listing` dans la zone
+  + bouton « Browse all characters » (sans nombre, choix de Joseph), ces deux derniers générés par `gen_listing` dans la zone
   `<!-- @homechars:start/end -->` (le marqueur `@ccards` n'existe plus). Section **Story/Histoire**
-  (bande `.section--alt`) = intro + 2 cartes `.arc` (RDR2 1899-1907, RDR1 1911-1914) listant
+  (fond noir ; c'est Personnages qui porte la bande chaude `.section--alt`, pour trancher avec les actus) = intro + 2 cartes `.arc` (RDR2 1899-1907, RDR1 1911-1914) listant
   chapitres/actes en liens. Nouveau chapitre ou acte = à ajouter à la main dans `.arc__steps`.
 - **Sourcing images (pipeline)** : via l'**API MediaWiki du Red Dead Wiki**
   (`reddead.fandom.com/api.php?action=query&generator=images&…`). L'API passe avec un simple UA
@@ -344,5 +344,5 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Characters/Personnages · Articles · Timeline/Chronologie** + footer nav ; hub
   `/timeline/` + `/fr/chronologie/`. Email contact `contact@red-dead-redemption-3.com`
   (forwarder cPanel à créer).
-- **Cache-buster CSS** actuellement à `?v=20261005a` (cf. §8 : bumper à chaque modif CSS ;
+- **Cache-buster CSS** actuellement à `?v=20261005b` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20260624e`.
