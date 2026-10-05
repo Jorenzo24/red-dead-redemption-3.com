@@ -290,7 +290,7 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   apparaît si SON guide lie la fiche. Zone `<!-- @storystrip:start/end -->`, générée par
   `scripts/gen_storystrip.py` (idempotent, à relancer après toute modif des liens des guides).
 - **Fiches enrichies (chantier oct. 2026, pilote Molly O'Shea)** : biographie réécrite CHAPITRE
-  PAR CHAPITRE, chaque sous-titre « Chapitre N : Lieu » porte un lien « Guide du chapitre → »
+  PAR CHAPITRE, chaque sous-titre « Chapitre N : Lieu » est lui-même le lien vers le guide du chapitre
   (clé `"chapter"` des blocs h3 dans `gen_fiche`). Fait vérifié par agent avant écriture, points
   contestés écartés, 1 phrase = 1 fait. Données dans `scripts/_enrich.py` (remplace les données de
   la vague d'origine), réécriture en place via `build_live()`, champ `updated` = date de la byline.
@@ -380,5 +380,5 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Characters/Personnages · Articles · Timeline/Chronologie** + footer nav ; hub
   `/timeline/` + `/fr/chronologie/`. Email contact `contact@red-dead-redemption-3.com`
   (forwarder cPanel à créer).
-- **Cache-buster CSS** actuellement à `?v=20261005e` (cf. §8 : bumper à chaque modif CSS ;
+- **Cache-buster CSS** actuellement à `?v=20261005f` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20260624e`.

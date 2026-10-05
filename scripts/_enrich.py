@@ -83,7 +83,7 @@ ENRICHED = [
                "Au camp de Shady Belle, Molly partage la chambre principale avec Dutch. Dans \"The Battle of Shady Belle\", elle demande à lui parler et il répond \"Pas maintenant\". En partant à cheval, Dutch confie à Arthur qu'il a des soucis bien plus importants que Molly O'Shea.")},
    ]},
    {"summary": two("Death","Mort"), "blocks": [
-     {"h3": two("That's Murfree Country","That's Murfree Country"), "chapter": CH[6]},
+     {"h3": two("Beaver Hollow","Beaver Hollow"), "chapter": CH[6]},
      {"p": two("After the gang returns from Guarma, it moves to a new camp at Beaver Hollow, in Roanoke Ridge. At the end of \"That's Murfree Country\", Uncle brings Molly back drunk; he says he found her in Saint Denis.",
                "Au retour de Guarma, le gang s'installe dans un nouveau camp à Beaver Hollow, dans le Roanoke Ridge. À la fin de \"That's Murfree Country\", Uncle ramène Molly ivre ; il dit l'avoir trouvée à Saint-Denis.")},
      {"p": two("In front of the camp, she claims she told the Pinkertons about the Saint Denis bank plan so that they would kill Dutch. Dutch draws his revolver, and Arthur tries to stop him. Susan Grimshaw shoots Molly in the stomach with a shotgun.",
