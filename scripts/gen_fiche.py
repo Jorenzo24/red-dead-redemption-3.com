@@ -16,7 +16,7 @@ See CHAR SCHEMA at the bottom for the expected dict shape.
 import json, os, re, html
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CSS_V = "20261005d"
+CSS_V = "20261005e"
 
 _MONTHS_EN = ["January", "February", "March", "April", "May", "June", "July",
               "August", "September", "October", "November", "December"]
@@ -85,7 +85,15 @@ def _accordion(sec, lang, depth, slug):
            '                        <div class="accordion__body">']
     for b in sec["blocks"]:
         if "h3" in b:
-            out.append(f'                            <h3>{L(b["h3"])}</h3>')
+            # optional "chapter" key: (en_slug, fr_slug) of a story guide, rendered as a
+            # small "Chapter guide" link after the heading text
+            ch = b.get("chapter")
+            if ch:
+                href = f"/story/{ch[0]}/" if lang == "en" else f"/fr/histoire/{ch[1]}/"
+                lab = "Chapter guide &rarr;" if lang == "en" else "Guide du chapitre &rarr;"
+                out.append(f'                            <h3>{L(b["h3"])} <a class="chapter-guide" href="{href}">{lab}</a></h3>')
+            else:
+                out.append(f'                            <h3>{L(b["h3"])}</h3>')
         elif "p" in b:
             out.append(f'                            <p>{_links(L(b["p"]), lang)}</p>')
         elif "ul" in b:
@@ -208,7 +216,7 @@ def _page(c, lang):
     rel_label = "More characters" if lang == "en" else "Plus de personnages"
 
     author_url = "/about/joseph-lambert/" if lang == "en" else "/fr/a-propos/joseph-lambert/"
-    bdate = c.get("publishDate", "2026-06-23")
+    bdate = c.get("updated") or c.get("publishDate", "2026-06-23")  # byline shows last update
     byline = (f'By <a href="{author_url}"><span>Joseph Lambert</span></a> &middot; Updated <time datetime="{bdate}">{_fmt_date(bdate, "en")}</time>'
               if lang == "en" else
               f'Par <a href="{author_url}"><span>Joseph Lambert</span></a> &middot; Mis à jour le <time datetime="{bdate}">{_fmt_date(bdate, "fr")}</time>')
@@ -407,3 +415,19 @@ def build_to_queue(c):
     open(os.path.join(folder, "meta.json"), "w", encoding="utf-8").write(
         json.dumps(meta, ensure_ascii=False, indent=2))
     return folder
+
+
+def build_live(c):
+    """Rewrite an already-published fiche in place (EN + FR), e.g. after enriching it.
+    The "In the story" zone is re-added by gen_storystrip afterwards."""
+    reg(c["slug"], c["name"], c["reg_role_en"], c["reg_role_fr"])
+    for lang, rel in (("en", f"characters/{c['slug']}/index.html"),
+                      ("fr", f"fr/personnages/{c['slug']}/index.html")):
+        p = os.path.join(ROOT, rel)
+        if not os.path.isfile(p):
+            raise SystemExit(f"ERROR: {rel} is not live; use build_to_queue for new fiches")
+        open(p, "w", encoding="utf-8").write(_annotate_dims(_page(c, lang), c["slug"]))
+    import gen_storystrip
+    gen_storystrip.regenerate()
+    return c["slug"]
+

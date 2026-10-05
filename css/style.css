@@ -1290,6 +1290,22 @@ main:has(> article.article) > .breadcrumb {
 .accordion__body > * + * {
     margin-top: 0.9rem;
 }
+/* "Chapter guide ->" link next to a chapter subheading in a fiche biography */
+.accordion__body h3 .chapter-guide {
+    margin-left: 0.6rem;
+    font-family: var(--sans);
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: none;
+    color: var(--accent);
+    text-decoration: none;
+    white-space: nowrap;
+}
+.accordion__body h3 .chapter-guide:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
 .accordion__body h3 {
     font-size: 1.15rem;
     margin-top: 1.6rem;
