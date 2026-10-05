@@ -479,31 +479,41 @@ main:has(> article.article) > .breadcrumb {
 }
 .arc__steps {
     list-style: none;
-    margin: 0 0 1.25rem;
+    margin: 0 0 1.4rem;
     padding: 0;
-    counter-reset: arc;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem 1.1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 1.5rem;
     flex-grow: 1;
-    align-content: flex-start;
+    align-content: start;
+}
+.arc__steps--2col {
+    grid-template-columns: repeat(2, 1fr);
 }
 .arc__steps li {
-    counter-increment: arc;
-    font-size: 0.92rem;
-}
-.arc__steps li::before {
-    content: counter(arc) ".";
-    margin-right: 0.3rem;
-    color: var(--accent-warm);
-    font-size: 0.8rem;
+    border-top: 1px solid var(--border);
 }
 .arc__steps a {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    padding: 0.55rem 0;
     color: var(--text);
 }
+.arc__no {
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+.arc__name {
+    font-size: 0.98rem;
+}
 .arc__steps a:hover {
-    color: var(--accent);
     opacity: 1;
+}
+.arc__steps a:hover .arc__name {
+    color: var(--accent-warm);
 }
 .arc__link {
     font-family: var(--serif);

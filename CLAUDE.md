@@ -344,5 +344,5 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Characters/Personnages · Articles · Timeline/Chronologie** + footer nav ; hub
   `/timeline/` + `/fr/chronologie/`. Email contact `contact@red-dead-redemption-3.com`
   (forwarder cPanel à créer).
-- **Cache-buster CSS** actuellement à `?v=20261005b` (cf. §8 : bumper à chaque modif CSS ;
+- **Cache-buster CSS** actuellement à `?v=20261005c` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20260624e`.
