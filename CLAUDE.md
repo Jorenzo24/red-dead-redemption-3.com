@@ -289,6 +289,15 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   cliquables vers les chapitres (1-6, É1, É2 pour RDR2 ; I-III pour RDR1). Règle : un chapitre
   apparaît si SON guide lie la fiche. Zone `<!-- @storystrip:start/end -->`, générée par
   `scripts/gen_storystrip.py` (idempotent, à relancer après toute modif des liens des guides).
+- **Fiches enrichies (chantier oct. 2026, pilote Molly O'Shea)** : biographie réécrite CHAPITRE
+  PAR CHAPITRE, chaque sous-titre « Chapitre N : Lieu » porte un lien « Guide du chapitre → »
+  (clé `"chapter"` des blocs h3 dans `gen_fiche`). Fait vérifié par agent avant écriture, points
+  contestés écartés, 1 phrase = 1 fait. Données dans `scripts/_enrich.py` (remplace les données de
+  la vague d'origine), réécriture en place via `build_live()`, champ `updated` = date de la byline.
+  Molly : 266 → 660 mots, et ERREUR corrigée (elle meurt à Beaver Hollow, pas à Shady Belle).
+  Cible suivante : reste du gang (Karen, Tilly, Mary-Beth, Pearson, Swanson, Kieran, Lenny…).
+  ATTENTION : relancer une vague d'origine (_waveN.py) n'écrit que dans `_queue/`, sans effet sur
+  le live ; mais ne pas re-publier une fiche enrichie depuis l'ancien driver.
 - **Liens inter-fiches : JAMAIS de lien « vers l'avant ».** Une fiche ne lie (relations + tokens
   inline + cartes « More characters ») que des personnages DÉJÀ en ligne à SA `publishDate` ; le
   sens arrière d'une paire lie (ex. Seth→Nigel, Leigh→Bonnie), le sens avant reste en texte simple.
@@ -371,5 +380,5 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Characters/Personnages · Articles · Timeline/Chronologie** + footer nav ; hub
   `/timeline/` + `/fr/chronologie/`. Email contact `contact@red-dead-redemption-3.com`
   (forwarder cPanel à créer).
-- **Cache-buster CSS** actuellement à `?v=20261005d` (cf. §8 : bumper à chaque modif CSS ;
+- **Cache-buster CSS** actuellement à `?v=20261005e` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20260624e`.
