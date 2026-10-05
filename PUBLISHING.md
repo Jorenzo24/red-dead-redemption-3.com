@@ -70,3 +70,13 @@ _queue/NN-<slug>/
 └── fr.html     page FR finale (chemins ../../../ comme à /fr/personnages/<slug>/)
 ```
 + les images dans `assets/characters/<slug>/` (`portrait.jpeg`, `cover.jpeg`, `gallery-*.jpeg`, `rel/*.jpeg`).
+
+## Articles en file (type "article")
+
+Depuis oct. 2026, le drip publie aussi des articles. Dossier `_queue/NN-<slug_en>/` avec
+`meta.json` (`type: "article"`, `slug_en`, `slug_fr`, `asset_dir`, `publishDate`), `en.html`,
+`fr.html` (dates et byline déjà égales à `publishDate`, vérifié par le script) et
+`card_en.html` / `card_fr.html` (la carte `.acard`, image en chemin ABSOLU `/assets/...`).
+Le script met la carte en tête des 2 index d'articles et des 2 fils « Latest news » de
+l'accueil (qui gardent 3 cartes), et ajoute les URLs aux sitemaps. Images à mettre en place
+AVANT dans `assets/articles/<asset_dir>/`.

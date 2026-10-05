@@ -7,7 +7,7 @@ moves it live, regenerates the listing pages + homepage counts + sitemaps with a
 fresh lastmod, and removes it from the queue. Designed to be run once a day by
 .github/workflows/daily-publish.yml (the workflow commits + deploys the result).
 
-Queue layout (one folder per item). Two kinds, keyed by meta.json "type"
+Queue layout (one folder per item). Three kinds, keyed by meta.json "type"
 (absent = "character", so older queue entries keep working):
 
   type "character":
@@ -29,6 +29,19 @@ Queue layout (one folder per item). Two kinds, keyed by meta.json "type"
     timelines to a live entry, and repoints the previous chapter's "next" nav.
     (chapter images must already live in assets/story/<slug_en>/)
 
+  type "article" (a news article, EN + FR mirror):
+    _queue/NN-<slug_en>/
+        meta.json     -> {"type":"article","slug_en","slug_fr","asset_dir",
+                          "publishDate":"YYYY-MM-DD"}
+        en.html       -> final EN page (paths already ../../ as if at /articles/<slug_en>/)
+        fr.html       -> final FR page (paths already ../../../ as if at /fr/articles/<slug_fr>/)
+        card_en.html  -> the EN <article class="acard"> card, image src ABSOLUTE (/assets/...)
+        card_fr.html  -> the FR card, same
+    Publishing puts the card first on both article indexes and both homepage
+    "Latest news" grids (which keep 3 cards: the oldest one drops off).
+    The byline/dates inside the pages must already equal publishDate.
+    (article images must already live in assets/articles/<asset_dir>/)
+
 Exit codes: 0 = published one OR nothing due (no error); 1 = a real error.
 Prints "PUBLISHED <slug>" on success, "NOTHING_DUE" when idle (the workflow keys
 its commit on a real git diff, so an idle run is a harmless no-op).
@@ -49,6 +62,8 @@ def live_path(meta):
     """Where this queue item lands once published (used to skip already-live items)."""
     if meta.get("type") == "story":
         return os.path.join(ROOT, "story", meta["slug_en"], "index.html")
+    if meta.get("type") == "article":
+        return os.path.join(ROOT, "articles", meta["slug_en"], "index.html")
     return os.path.join(ROOT, "characters", meta["slug"], "index.html")
 
 
@@ -208,6 +223,89 @@ def publish_story(d, meta, folder):
     return slug_en
 
 
+CARD_OPEN = '<article class="acard">'
+HOME_NEWS_MAX = 3
+
+
+def card_first(relpath, card, href, home=False):
+    """New content for a listing with `card` inserted as its first article card.
+
+    On a homepage, only the "Latest news" grid is touched and it is trimmed back
+    to HOME_NEWS_MAX cards. Returns None if the card is already there. Pure.
+    """
+    p = os.path.join(ROOT, relpath)
+    s = open(p, encoding="utf-8").read()
+    if f'href="{href}"' in s:
+        return None  # already listed, idempotent
+    start = 0
+    if home:
+        if 'aria-labelledby="news-title"' not in s:
+            die(f"news section not found in {relpath}")
+        start = s.index('aria-labelledby="news-title"')
+    if CARD_OPEN not in s[start:]:
+        die(f"no article card to insert before in {relpath}")
+    i = s.index(CARD_OPEN, start)
+    s = s[:i] + card.strip() + "\n                    " + s[i:]
+    if home:
+        g0 = s.rindex('<div class="card-grid">', 0, i)
+        g1 = s.index("</section>", g0)
+        grid = s[g0:g1]
+        cards = list(re.finditer(r'\s*<article class="acard">.*?</article>', grid, re.S))
+        if len(cards) < 1 or len(cards) > HOME_NEWS_MAX + 1:
+            die(f"unexpected number of news cards ({len(cards)}) in {relpath}")
+        for m in reversed(cards[HOME_NEWS_MAX:]):
+            grid = grid[:m.start()] + grid[m.end():]
+        s = s[:g0] + grid + s[g1:]
+    return s
+
+
+def publish_article(d, meta, folder):
+    for key in ("slug_en", "slug_fr", "asset_dir"):
+        if not meta.get(key):
+            die(f"meta.json missing '{key}' in {folder}")
+    slug_en, slug_fr = meta["slug_en"], meta["slug_fr"]
+    src = {k: os.path.join(d, k) for k in ("en.html", "fr.html", "card_en.html", "card_fr.html")}
+    for k, path in src.items():
+        if not os.path.isfile(path):
+            die(f"{k} missing in {folder}")
+    if not os.path.isfile(os.path.join(ROOT, "assets", "articles", meta["asset_dir"], "hero.jpeg")):
+        die(f"hero.jpeg missing in assets/articles/{meta['asset_dir']} (assets must be in place)")
+    pd = meta["publishDate"]
+    for k in ("en.html", "fr.html"):
+        page = open(src[k], encoding="utf-8").read()
+        if f'datePublished": "{pd}"' not in page:
+            die(f"{k} datePublished does not match publishDate {pd} in {folder}")
+    card_en = open(src["card_en.html"], encoding="utf-8").read()
+    card_fr = open(src["card_fr.html"], encoding="utf-8").read()
+    for name, card in (("card_en.html", card_en), ("card_fr.html", card_fr)):
+        if not card.strip().startswith(CARD_OPEN) or 'src="/assets/' not in card:
+            die(f"{name} must be one acard with an absolute /assets/ image in {folder}")
+
+    href_en, href_fr = f"/articles/{slug_en}/", f"/fr/articles/{slug_fr}/"
+    # Compute every edit before writing anything (same rule as stories).
+    edits = {}
+    for relpath, card, href, home in (
+        ("articles/index.html", card_en, href_en, False),
+        ("fr/articles/index.html", card_fr, href_fr, False),
+        ("index.html", card_en, href_en, True),
+        ("fr/index.html", card_fr, href_fr, True),
+    ):
+        out = card_first(relpath, card, href, home)
+        if out is not None:
+            edits[relpath] = out
+
+    copy_live(src["en.html"], os.path.join(ROOT, "articles", slug_en))
+    copy_live(src["fr.html"], os.path.join(ROOT, "fr", "articles", slug_fr))
+    for relpath, content in edits.items():
+        open(os.path.join(ROOT, relpath), "w", encoding="utf-8").write(content)
+
+    D = "https://red-dead-redemption-3.com"
+    en_url, fr_url = D + href_en, D + href_fr
+    add_to_sitemap("sitemap-en.xml", en_url, en_url, fr_url, "0.7")
+    add_to_sitemap("sitemap-fr.xml", fr_url, en_url, fr_url, "0.6")
+    return slug_en
+
+
 def main():
     nxt = pick_due()
     if not nxt:
@@ -215,8 +313,9 @@ def main():
         return
     _, folder, d, meta = nxt
 
-    if meta.get("type") == "story":
-        published = publish_story(d, meta, folder)
+    if meta.get("type") in ("story", "article"):
+        publish = publish_story if meta["type"] == "story" else publish_article
+        published = publish(d, meta, folder)
         import shutil
         shutil.rmtree(d)
         print(f"PUBLISHED {published}")

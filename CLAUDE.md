@@ -190,6 +190,10 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 - Fait le 5 oct. 2026 : les 7 personnages de la vague 6 sont désormais liés depuis les 6 pages
   `/story/rdr1-act-*/` + `/fr/histoire/rdr1-acte-*/` (1re mention + paragraphe récap des
   personnages, pas dans les puces « Key events ») ; « Vicente » corrigé en « Vincente de Santa ».
+- **File (au 5 oct. 2026) : 1 article**, « RDR2 Next-Gen Update: What Has Actually Been Said
+  in 2026 » (EN+FR), publication le 8 oct. 2026 via le nouveau type `article` du drip.
+  Si Rockstar annonce la version next-gen d'ici là, l'article est périmé : le retirer de la file.
+  Prochaine étape prévue : préparer une vague de fiches personnages.
 - **File vide = rien ne publie.** Un drip à vide
   affiche `NOTHING_DUE` sans bruit : c'est passé inaperçu du 27 août au 9 sept. 2026.
   Vérifier `ls _queue/` avant de conclure que tout va bien.
@@ -298,8 +302,8 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Tous les personnages RDR1 cités ont désormais une fiche et sont liés (depuis le 5 oct. 2026).
 - **Drip publishing** : `_queue/NN-<slug>/` (meta.json + en.html + fr.html), publié par
   `.github/workflows/daily-publish.yml` → `scripts/publish_next.py` (cron 09:00 UTC ; la plus
-  ancienne échéance due). Gère **DEUX types** via `meta.json` "type" : `character` (défaut) ET
-  `story` (chapitre : bascule le placeholder « Soon » de la frise en entrée liée, repointe la nav
+  ancienne échéance due). Gère **TROIS types** via `meta.json` "type" : `character` (défaut),
+  `article` (carte en tête des index + fil d'accueil, cf. PUBLISHING.md) ET `story` (chapitre : bascule le placeholder « Soon » de la frise en entrée liée, repointe la nav
   du chapitre précédent). **Publication atomique** : tout est calculé/validé AVANT d'écrire ; en
   cas de dérive du markup, échec bruyant sans rien écrire, file rejouable. Images requises AVANT
   publication dans `assets/characters/<slug>/` (fiches) ou `assets/story/<slug>/` (chapitres).
