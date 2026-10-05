@@ -55,6 +55,14 @@ CHARACTERS = [
     ("nastas",              "Nastas",              "Guide &middot; RDR1",                    "Guide &middot; RDR1",                    "other"),
     ("harold-macdougal",    "Harold MacDougal",    "Anthropologist &middot; RDR1",           "Anthropologue &middot; RDR1",            "other"),
     ("irish",               "Irish",               "Gunrunner &middot; RDR1",                "Trafiquant d'armes &middot; RDR1",       "other"),
+    # --- Wave 7 (RDR2 story cast, Oct 2026) ---
+    ("catherine-braithwaite","Catherine Braithwaite","Braithwaite matriarch &middot; RDR2", "Matriarche des Braithwaite &middot; RDR2", "enemies"),
+    ("tavish-gray",          "Tavish Gray",          "Gray patriarch &middot; RDR2",        "Patriarche des Gray &middot; RDR2",       "enemies"),
+    ("alberto-fussar",       "Alberto Fussar",       "Governor of Guarma &middot; RDR2",    "Gouverneur de Guarma &middot; RDR2",      "enemies"),
+    ("hercule-fontaine",     "Hercule Fontaine",     "Guarma rebel leader &middot; RDR2",   "Chef rebelle de Guarma &middot; RDR2",    "other"),
+    ("rains-fall",           "Rains Fall",           "Wapiti chief &middot; RDR2",          "Chef wapiti &middot; RDR2",               "other"),
+    ("eagle-flies",          "Eagle Flies",          "Wapiti warrior &middot; RDR2",        "Guerrier wapiti &middot; RDR2",           "other"),
+    ("sister-calderon",      "Sister Calderón",     "Nun &middot; RDR1 &amp; 2",         "Religieuse &middot; RDR1 &amp; 2",        "other"),
 ]
 
 # group key -> (title_en, title_fr, note_en, note_fr)
