@@ -279,6 +279,11 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   - Prochaine cible : arc Wapiti/Guarma (Eagle Flies, Rains Fall, Fussar), ou guide histoire RDR1 Undead
     Nightmare, ou second rôles RDR2 restants.
   Au-delà de 5 persos, « More characters » affiche 4 fiches pertinentes (pas toutes).
+- **Titres des fiches (oct. 2026), ton encyclopédique** : `<title>` + og/twitter =
+  « Nom (RDR2): Biography, Story and Relationships » / « Nom (RDR2) : biographie, histoire et
+  relations ». Jeu déduit du fait « Games » : (RDR1), (RDR2) ou (RDR1 and/et RDR2), Online ignoré.
+  Pas de suffixe « | Red Dead Redemption 3 ». H1 = nom seul, ligne au-dessus du nom inchangée
+  (personnalisée par fiche, choix de Joseph). Généré par `gen_fiche.py`.
 - **Liens inter-fiches : JAMAIS de lien « vers l'avant ».** Une fiche ne lie (relations + tokens
   inline + cartes « More characters ») que des personnages DÉJÀ en ligne à SA `publishDate` ; le
   sens arrière d'une paire lie (ex. Seth→Nigel, Leigh→Bonnie), le sens avant reste en texte simple.
