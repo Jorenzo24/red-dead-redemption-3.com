@@ -177,21 +177,20 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 
 - [x] Phase 1 : init projet (skill) + design de base + 1-2 articles tests
 - [x] Phase 2 : 1 fiche personnage soignée (stabilise le gabarit) — Arthur Morgan (EN+FR)
-- [x] Phase 3 : objectif dépassé — **36 fiches en ligne (RDR2 + RDR1) + 7 en file** (EN+FR), **story guides RDR2 ET RDR1 COMPLETS** (RDR2 ch. 1-6 + 2 épilogues ; RDR1 actes I-III), **19 articles**, toujours en dur
+- [x] Phase 3 : objectif dépassé — **43 fiches en ligne (RDR2 + RDR1), file vide** (EN+FR), **story guides RDR2 ET RDR1 COMPLETS** (RDR2 ch. 1-6 + 2 épilogues ; RDR1 actes I-III), **19 articles**, toujours en dur
 - [ ] Phase 4 (futur) : évaluation migration Astro
 - [ ] Phase 5 (futur) : déploiement langues par vagues
 
 > Quand une phase avance, cocher ici et noter les décisions structurantes prises.
 
-### Point de reprise (au 14 sept. 2026)
+### Point de reprise (au 5 oct. 2026)
 
-- **Le drip tourne tout seul** : 7 fiches en file, publiées 15 sept. → 3 oct. 2026 (une tous
-  les 3 jours), déploiement cPanel automatique dans le quart d'heure qui suit. Rien à faire.
-- **RENDEZ-VOUS DATÉ, après le 3 oct. 2026** : la vague 6 finie, repasser sur les 6 pages
-  `/story/rdr1-act-*/` + `/fr/histoire/rdr1-acte-*/` pour transformer en liens internes les
-  7 mentions laissées en texte simple (Allende, de Santa, Luisa Fortuna, Nastas, MacDougal,
-  Irish, Fordham). Impossible avant : ce seraient des 404.
-- **Quand la file se vide (après le 3 oct.), le site ne publie plus rien.** Un drip à vide
+- **Vague 6 entièrement en ligne (43 fiches). La file `_queue/` est VIDE : le site ne publie
+  plus rien tant qu'une nouvelle vague n'est pas préparée.**
+- Fait le 5 oct. 2026 : les 7 personnages de la vague 6 sont désormais liés depuis les 6 pages
+  `/story/rdr1-act-*/` + `/fr/histoire/rdr1-acte-*/` (1re mention + paragraphe récap des
+  personnages, pas dans les puces « Key events ») ; « Vicente » corrigé en « Vincente de Santa ».
+- **File vide = rien ne publie.** Un drip à vide
   affiche `NOTHING_DUE` sans bruit : c'est passé inaperçu du 27 août au 9 sept. 2026.
   Vérifier `ls _queue/` avant de conclure que tout va bien.
 - Pistes de contenu suivantes : arc Wapiti/Guarma (Eagle Flies, Rains Fall, Fussar),
@@ -238,7 +237,7 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Les liens contextuels dans l'intro/bio restent des liens inline normaux.
   Portraits : artwork officiel ou capture in-game (rendu wiki, API Red Dead Wiki) ;
   à défaut, `assets/characters/placeholder-avatar.svg` (avatar western).
-- **Fiches personnages : 36 en ligne (EN + FR) + vague 6 en file (7)**, publiées par vagues via le drip.
+- **Fiches personnages : 43 en ligne (EN + FR), file vide**, publiées par vagues via le drip.
   Cadence libre (une `publishDate` par fiche) : vagues 1-3 à 1/jour, vagues 4-5 à ~1 tous les 3 jours.
   - Phase 2 (8) : Arthur, John, Dutch, Micah, Sadie, Hosea, Bill, Charles.
   - Vague 1 (5) : Abigail/Jack Marston, Sean MacGuire, Lenny Summers, Javier Escuella.
@@ -253,14 +252,13 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     Mary-Beth Gaskill, Simon Pearson (cuisinier), Orville Swanson (aumônier). Comble le trou du gang.
     Les 5 survivent à RDR2 (mort de Karen = spéculation de Tilly, jamais un fait) ; fins d'épilogue
     incluses (Mary-Beth romancière « Leslie Dupont », Pearson épicerie de Rhodes, Swanson pasteur à NY).
-  - **Vague 6 (7, second rôles RDR1, en file 15 sept.→3 oct. 2026)** : Agustin Allende, Vincente de Santa,
+  - **Vague 6 (7, second rôles RDR1, publiée 15 sept.→3 oct. 2026, FAIT)** : Agustin Allende, Vincente de Santa,
     Luisa Fortuna, Nastas, Harold MacDougal, Irish, Archer Fordham. Exactement les 7 personnages que le
     guide RDR1 cite en texte simple faute de fiche. Prudence factuelle assumée : pas de nom sur le coup
     fatal d'Allende, rien sur le sort de MacDougal après Yale, aucune cause de mort inventée pour Irish.
     Fordham apparaît aussi dans l'épilogue RDR2 (il observe Micah avec Ross). Orthographe wiki =
     « Vincente de Santa » (et non Vicente).
-  - **Une fois la vague 6 publiée (après le 3 oct. 2026)** : repasser sur `/story/rdr1-act-*/` (EN+FR) pour
-    transformer ces 7 mentions en liens internes. Impossible avant : ce seraient des liens en 404.
+  - Les 7 mentions des guides RDR1 sont devenues des liens internes le 5 oct. 2026 (FAIT).
   - Prochaine cible : arc Wapiti/Guarma (Eagle Flies, Rains Fall, Fussar), ou guide histoire RDR1 Undead
     Nightmare, ou second rôles RDR2 restants.
   Au-delà de 5 persos, « More characters » affiche 4 fiches pertinentes (pas toutes).
@@ -294,8 +292,7 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   (choix × honneur) ; détails wiki non vérifiés écartés ; épilogue RDR2 = mort de Micah en tir partagé
   (Dutch tire, John achève), pas « Dutch tue Micah » ; RDR1 = Dutch se laisse tomber de la falaise
   (pas abattu par John), Javier capturé vivant à El Presidio, Allende et Bill tués à Escalera.
-  Personnages RDR1 sans fiche cités en texte simple : Allende, De Santa, Luisa Fortuna, Nastas,
-  MacDougal, Irish, Archer Fordham.
+  Tous les personnages RDR1 cités ont désormais une fiche et sont liés (depuis le 5 oct. 2026).
 - **Drip publishing** : `_queue/NN-<slug>/` (meta.json + en.html + fr.html), publié par
   `.github/workflows/daily-publish.yml` → `scripts/publish_next.py` (cron 09:00 UTC ; la plus
   ancienne échéance due). Gère **DEUX types** via `meta.json` "type" : `character` (défaut) ET
