@@ -195,7 +195,8 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   retirer de la file). Puis vague 7, une fiche tous les 3 jours du 11 au 29 oct. 2026.
 - **RENDEZ-VOUS DATÉ, après le 29 oct. 2026** : repasser sur les guides `/story/` (+ FR) des
   chapitres 3, 5 et 6 pour transformer en liens les mentions en texte simple de Catherine
-  Braithwaite, Alberto Fussar, Hercule Fontaine, Rains Fall et Eagle Flies (fiches de la vague 7).
+  Braithwaite, Alberto Fussar, Hercule Fontaine, Rains Fall et Eagle Flies (fiches de la vague 7),
+  PUIS relancer `python scripts/gen_storystrip.py` pour que leurs réglettes apparaissent.
 - **File vide = rien ne publie.** Un drip à vide
   affiche `NOTHING_DUE` sans bruit : c'est passé inaperçu du 27 août au 9 sept. 2026.
   Vérifier `ls _queue/` avant de conclure que tout va bien.
@@ -284,6 +285,10 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   relations ». Jeu déduit du fait « Games » : (RDR1), (RDR2) ou (RDR1 and/et RDR2), Online ignoré.
   Pas de suffixe « | Red Dead Redemption 3 ». H1 = nom seul, ligne au-dessus du nom inchangée
   (personnalisée par fiche, choix de Joseph). Généré par `gen_fiche.py`.
+- **Réglette « Dans l'histoire » sur les fiches (oct. 2026)** : sous la grille de faits, pastilles
+  cliquables vers les chapitres (1-6, É1, É2 pour RDR2 ; I-III pour RDR1). Règle : un chapitre
+  apparaît si SON guide lie la fiche. Zone `<!-- @storystrip:start/end -->`, générée par
+  `scripts/gen_storystrip.py` (idempotent, à relancer après toute modif des liens des guides).
 - **Liens inter-fiches : JAMAIS de lien « vers l'avant ».** Une fiche ne lie (relations + tokens
   inline + cartes « More characters ») que des personnages DÉJÀ en ligne à SA `publishDate` ; le
   sens arrière d'une paire lie (ex. Seth→Nigel, Leigh→Bonnie), le sens avant reste en texte simple.
@@ -366,5 +371,5 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Characters/Personnages · Articles · Timeline/Chronologie** + footer nav ; hub
   `/timeline/` + `/fr/chronologie/`. Email contact `contact@red-dead-redemption-3.com`
   (forwarder cPanel à créer).
-- **Cache-buster CSS** actuellement à `?v=20261005c` (cf. §8 : bumper à chaque modif CSS ;
+- **Cache-buster CSS** actuellement à `?v=20261005d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20260624e`.

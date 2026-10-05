@@ -1165,6 +1165,62 @@ main:has(> article.article) > .breadcrumb {
     grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
     gap: 0.9rem 1.5rem;
 }
+/* "In the story" chapter strip under the facts grid (scripts/gen_storystrip.py) */
+.storystrip {
+    margin-top: 1rem;
+    padding: 0.9rem 1.4rem;
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+.storystrip__title {
+    margin: 0 0 0.5rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+.storystrip__row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem 0.8rem;
+}
+.storystrip__row + .storystrip__row {
+    margin-top: 0.5rem;
+}
+.storystrip__game {
+    font-size: 0.85rem;
+    min-width: 11.5rem;
+}
+.storystrip__chips {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+}
+.storystrip__chips a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.1rem;
+    height: 2.1rem;
+    padding: 0 0.45rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text);
+    text-decoration: none;
+    transition: border-color 0.2s ease, color 0.2s ease;
+}
+.storystrip__chips a:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    opacity: 1;
+}
 .profile__facts > div {
     min-width: 0;
 }
