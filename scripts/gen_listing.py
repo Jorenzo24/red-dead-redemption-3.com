@@ -2,7 +2,8 @@
 """Regenerate the grouped card region of the Characters listing pages from the
 registry (scripts/characters_registry.py). Renders only characters whose fiche
 is actually published (live dir exists), grouped by faction, alphabetical within
-each group.
+each group. Also refreshes the faction counts on the two homepages
+(<!-- @homechars:start --> / <!-- @homechars:end -->).
 
 Idempotent. Run standalone (`python scripts/gen_listing.py`) or import and call
 regenerate(). The daily drip calls this after moving a fiche live, so new fiches
@@ -26,6 +27,23 @@ FILES = [
 
 START = "<!-- @charlist:start -->"
 END = "<!-- @charlist:end -->"
+
+# Homepages keep a short Characters section (4 hand-picked cards). Only the
+# faction links + counts + "all characters" button below them are generated.
+HOME_FILES = [
+    ("index.html",    "/characters/",     "en"),
+    ("fr/index.html", "/fr/personnages/", "fr"),
+]
+HOME_START = "<!-- @homechars:start -->"
+HOME_END = "<!-- @homechars:end -->"
+
+# group key -> listing anchor, per language
+ANCHORS = {
+    "gang":    ("van-der-linde-gang", "gang-van-der-linde"),
+    "marston": ("marston-family",     "famille-marston"),
+    "enemies": ("rivals-and-the-law", "rivaux-et-loi"),
+    "other":   ("other-figures",      "autres-figures"),
+}
 
 
 def _published():
@@ -61,7 +79,8 @@ def _region(img_prefix, link_prefix, lang):
             continue
         title = title_en if lang == "en" else title_fr
         note = note_en if lang == "en" else note_fr
-        out.append('                <div class="char-group">')
+        anchor = ANCHORS[key][0 if lang == "en" else 1]
+        out.append(f'                <div class="char-group" id="{anchor}">')
         out.append(f'                    <h2 class="char-group__title">{title}</h2>')
         out.append(f'                    <p class="char-group__note">{note}</p>')
         out.append('                    <div class="card-grid card-grid--portraits">')
@@ -74,8 +93,38 @@ def _region(img_prefix, link_prefix, lang):
     return "\n".join(out)
 
 
+def _home_region(link_prefix, lang):
+    pub = _published()
+    out = [HOME_START, '                <ul class="facets">']
+    total = 0
+    for key, title_en, title_fr, _ne, _nf in GROUPS:
+        n = sum(1 for c in CHARACTERS if c[4] == key and c[0] in pub)
+        if not n:
+            continue
+        total += n
+        title = title_en if lang == "en" else title_fr
+        anchor = ANCHORS[key][0 if lang == "en" else 1]
+        out.append(f'                    <li><a href="{link_prefix}#{anchor}">{title} <span class="facets__n">{n}</span></a></li>')
+    out.append('                </ul>')
+    label = (f"Browse all {total} characters" if lang == "en"
+             else f"Voir les {total} personnages")
+    out.append(f'                <a class="btn-more" href="{link_prefix}">{label} &rarr;</a>')
+    out.append("                " + HOME_END)
+    return "\n".join(out)
+
+
 def regenerate():
     changed = []
+    for relpath, link_prefix, lang in HOME_FILES:
+        p = os.path.join(ROOT, relpath)
+        s = open(p, encoding="utf-8").read()
+        if HOME_START not in s or HOME_END not in s:
+            raise SystemExit(f"ERROR: {HOME_START} markers missing in {relpath}")
+        new = re.sub(re.escape(HOME_START) + r".*?" + re.escape(HOME_END),
+                     lambda _m: _home_region(link_prefix, lang), s, count=1, flags=re.S)
+        if new != s:
+            open(p, "w", encoding="utf-8").write(new)
+            changed.append(relpath)
     for relpath, img_prefix, link_prefix, lang in FILES:
         p = os.path.join(ROOT, relpath)
         s = open(p, encoding="utf-8").read()

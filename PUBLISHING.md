@@ -13,7 +13,9 @@ régulier sans rien faire à la main.
    `scripts/publish_next.py`, qui :
    - prend la prochaine fiche **due** (`publishDate <= aujourd'hui`) ;
    - copie les pages EN + FR dans `characters/<slug>/` et `fr/personnages/<slug>/` ;
-   - ajoute la carte aux 2 listings + 2 accueils (au marqueur `<!-- @ccards -->`) ;
+   - régénère les 2 listings groupés par faction (`gen_listing`) et les compteurs
+     par faction des 2 accueils (zone `<!-- @homechars -->`). Les 4 cartes de l'accueil
+     sont choisies à la main et ne bougent pas ;
    - ajoute les URLs aux sitemaps avec un `lastmod` du jour ;
    - retire la fiche de la file.
 3. L'Action **commit + push** le résultat sur `main`.
