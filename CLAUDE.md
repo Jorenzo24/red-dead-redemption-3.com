@@ -177,7 +177,7 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 
 - [x] Phase 1 : init projet (skill) + design de base + 1-2 articles tests
 - [x] Phase 2 : 1 fiche personnage soignée (stabilise le gabarit) — Arthur Morgan (EN+FR)
-- [x] Phase 3 : objectif dépassé — **43 fiches en ligne (RDR2 + RDR1), file vide** (EN+FR), **story guides RDR2 ET RDR1 COMPLETS** (RDR2 ch. 1-6 + 2 épilogues ; RDR1 actes I-III), **20 articles**, toujours en dur
+- [x] Phase 3 : objectif dépassé — **43 fiches en ligne (RDR2 + RDR1) + 7 en file (vague 7)** (EN+FR), **story guides RDR2 ET RDR1 COMPLETS** (RDR2 ch. 1-6 + 2 épilogues ; RDR1 actes I-III), **20 articles**, toujours en dur
 - [ ] Phase 4 (futur) : évaluation migration Astro
 - [ ] Phase 5 (futur) : déploiement langues par vagues
 
@@ -190,10 +190,12 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 - Fait le 5 oct. 2026 : les 7 personnages de la vague 6 sont désormais liés depuis les 6 pages
   `/story/rdr1-act-*/` + `/fr/histoire/rdr1-acte-*/` (1re mention + paragraphe récap des
   personnages, pas dans les puces « Key events ») ; « Vicente » corrigé en « Vincente de Santa ».
-- **File (au 5 oct. 2026) : 1 article**, « RDR2 Next-Gen Update: What Has Actually Been Said
-  in 2026 » (EN+FR), publication le 8 oct. 2026 via le nouveau type `article` du drip.
-  Si Rockstar annonce la version next-gen d'ici là, l'article est périmé : le retirer de la file.
-  Prochaine étape prévue : préparer une vague de fiches personnages.
+- **File (au 5 oct. 2026) : 1 article + 7 fiches.** Article « RDR2 Next-Gen Update: What Has
+  Actually Been Said in 2026 » le 8 oct. (si Rockstar annonce la version next-gen d'ici là, le
+  retirer de la file). Puis vague 7, une fiche tous les 3 jours du 11 au 29 oct. 2026.
+- **RENDEZ-VOUS DATÉ, après le 29 oct. 2026** : repasser sur les guides `/story/` (+ FR) des
+  chapitres 3, 5 et 6 pour transformer en liens les mentions en texte simple de Catherine
+  Braithwaite, Alberto Fussar, Hercule Fontaine, Rains Fall et Eagle Flies (fiches de la vague 7).
 - **File vide = rien ne publie.** Un drip à vide
   affiche `NOTHING_DUE` sans bruit : c'est passé inaperçu du 27 août au 9 sept. 2026.
   Vérifier `ls _queue/` avant de conclure que tout va bien.
@@ -244,7 +246,7 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Les liens contextuels dans l'intro/bio restent des liens inline normaux.
   Portraits : artwork officiel ou capture in-game (rendu wiki, API Red Dead Wiki) ;
   à défaut, `assets/characters/placeholder-avatar.svg` (avatar western).
-- **Fiches personnages : 43 en ligne (EN + FR), file vide**, publiées par vagues via le drip.
+- **Fiches personnages : 43 en ligne (EN + FR) + vague 7 en file (7)**, publiées par vagues via le drip.
   Cadence libre (une `publishDate` par fiche) : vagues 1-3 à 1/jour, vagues 4-5 à ~1 tous les 3 jours.
   - Phase 2 (8) : Arthur, John, Dutch, Micah, Sadie, Hosea, Bill, Charles.
   - Vague 1 (5) : Abigail/Jack Marston, Sean MacGuire, Lenny Summers, Javier Escuella.
@@ -266,6 +268,14 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     Fordham apparaît aussi dans l'épilogue RDR2 (il observe Micah avec Ross). Orthographe wiki =
     « Vincente de Santa » (et non Vicente).
   - Les 7 mentions des guides RDR1 sont devenues des liens internes le 5 oct. 2026 (FAIT).
+  - **Vague 7 (7, casting des chapitres RDR2, en file 11→29 oct. 2026)** : Catherine Braithwaite,
+    Tavish Gray (ch. 3), Alberto Fussar, Hercule Fontaine (ch. 5), Rains Fall, Eagle Flies (ch. 6),
+    Sister Calderón (RDR2 + mère supérieure de Las Hermanas dans RDR1). Ordre de l'histoire pour que
+    chaque fiche lie les précédentes. Faits vérifiés par fiche (agents) ; écartés : tireur de Sean,
+    meurtrier de Gareth/Gerald, cause de la mort de Tavish (non montrée), prénom/origine de Calderón,
+    sort d'Hercule. Fussar EST tué par Arthur au canon ; Eagle Flies meurt dans la réserve (erreur
+    corrigée au passage dans le guide ch. 6). `nationality` du schema Person désormais optionnelle
+    (`None` = non canon). Driver : `scripts/_wave7.py`.
   - Prochaine cible : arc Wapiti/Guarma (Eagle Flies, Rains Fall, Fussar), ou guide histoire RDR1 Undead
     Nightmare, ou second rôles RDR2 restants.
   Au-delà de 5 persos, « More characters » affiche 4 fiches pertinentes (pas toutes).

@@ -232,11 +232,12 @@ def _page(c, lang):
         "@context": "https://schema.org", "@type": "Person", "name": name,
         "description": L(c["schema_desc"]),
         "image": img_og, "gender": c.get("gender", "Male"),
-        "nationality": c.get("nationality", "American"),
         "subjectOf": {"@type": "VideoGame", "name": c["schema_game"],
                       "publisher": {"@type": "Organization", "name": "Rockstar Games"}},
         "mainEntityOfPage": canon, "inLanguage": htmllang,
     }
+    nat = c.get("nationality", "American")  # None = not stated in canon, omit it
+    if nat: schema["nationality"] = nat
     if c.get("birth"): schema["birthDate"] = c["birth"]
     if c.get("death"): schema["deathDate"] = c["death"]
     schema_json = json.dumps(schema, ensure_ascii=False, indent=4)
