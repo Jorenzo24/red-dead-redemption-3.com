@@ -16,7 +16,7 @@ See CHAR SCHEMA at the bottom for the expected dict shape.
 import json, os, re, html
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CSS_V = "20261005e"
+CSS_V = "20261005f"
 
 _MONTHS_EN = ["January", "February", "March", "April", "May", "June", "July",
               "August", "September", "October", "November", "December"]
@@ -85,13 +85,12 @@ def _accordion(sec, lang, depth, slug):
            '                        <div class="accordion__body">']
     for b in sec["blocks"]:
         if "h3" in b:
-            # optional "chapter" key: (en_slug, fr_slug) of a story guide, rendered as a
-            # small "Chapter guide" link after the heading text
+            # optional "chapter" key: (en_slug, fr_slug) of a story guide; the heading
+            # text itself becomes the link to that guide
             ch = b.get("chapter")
             if ch:
                 href = f"/story/{ch[0]}/" if lang == "en" else f"/fr/histoire/{ch[1]}/"
-                lab = "Chapter guide &rarr;" if lang == "en" else "Guide du chapitre &rarr;"
-                out.append(f'                            <h3>{L(b["h3"])} <a class="chapter-guide" href="{href}">{lab}</a></h3>')
+                out.append(f'                            <h3><a class="chapter-link" href="{href}">{L(b["h3"])}</a></h3>')
             else:
                 out.append(f'                            <h3>{L(b["h3"])}</h3>')
         elif "p" in b:
