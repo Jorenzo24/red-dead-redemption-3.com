@@ -1,6 +1,6 @@
 name: Daily drip-publish
 
-# Publishes at most one queued character fiche per day (see scripts/publish_next.py),
+# Publishes at most one queued item (fiche, story chapter or article) per day (see scripts/publish_next.py),
 # commits the result, then triggers the cPanel deployment.
 #
 # ONE-TIME SETUP (see PUBLISHING.md): add these repository secrets in
@@ -37,7 +37,7 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Publish next due fiche
+      - name: Publish next due item
         id: pub
         run: |
           OUT="$(python scripts/publish_next.py)"
@@ -51,7 +51,7 @@ jobs:
             git config user.name "rdr3-drip-bot"
             git config user.email "noreply@red-dead-redemption-3.com"
             git add -A
-            git commit -m "chore: drip-publish scheduled character (${{ steps.pub.outputs.result }})"
+            git commit -m "chore: drip-publish scheduled item (${{ steps.pub.outputs.result }})"
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
