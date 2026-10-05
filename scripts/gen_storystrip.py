@@ -41,8 +41,13 @@ def _mapping():
     return m
 
 
+# Display switched off (Oct 2026): the boxed chip strip read as unclear. Kept so the
+# chapter->fiche mapping can feed a better placement (links inside the biography).
+ENABLED = False
+
+
 def _strip(chs, lang):
-    if not chs:
+    if not chs or not ENABLED:
         return f"                {START}\n                {END}"
     title = "In the story" if lang == "en" else "Dans l'histoire"
     out = [f"                {START}",
