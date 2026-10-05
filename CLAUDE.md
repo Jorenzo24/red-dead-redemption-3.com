@@ -177,7 +177,7 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 
 - [x] Phase 1 : init projet (skill) + design de base + 1-2 articles tests
 - [x] Phase 2 : 1 fiche personnage soignée (stabilise le gabarit) — Arthur Morgan (EN+FR)
-- [x] Phase 3 : objectif dépassé — **43 fiches en ligne (RDR2 + RDR1), file vide** (EN+FR), **story guides RDR2 ET RDR1 COMPLETS** (RDR2 ch. 1-6 + 2 épilogues ; RDR1 actes I-III), **19 articles**, toujours en dur
+- [x] Phase 3 : objectif dépassé — **43 fiches en ligne (RDR2 + RDR1), file vide** (EN+FR), **story guides RDR2 ET RDR1 COMPLETS** (RDR2 ch. 1-6 + 2 épilogues ; RDR1 actes I-III), **20 articles**, toujours en dur
 - [ ] Phase 4 (futur) : évaluation migration Astro
 - [ ] Phase 5 (futur) : déploiement langues par vagues
 
@@ -198,8 +198,11 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 
 ### Décisions structurantes actées
 - **Articles : EN primaire + miroir FR** reliés par hreflang réciproque (x-default → EN).
-  19 articles publiés (2022 → mi-2026), index `/articles/` + `/fr/articles/`, fil
+  20 articles publiés (2022 → oct. 2026), index `/articles/` + `/fr/articles/`, fil
   « Latest news » sur la home (max 3 cartes). Slugs localisés par langue. Derniers en date :
+  « RDR2 Mexico Mod Nuevo Paraíso » (5 oct. 2026 ; mod fan gratuit, Mexique de RDR1 dans RDR2,
+  sorti une semaine après les Mod Guidelines Rockstar du 10 sept. 2026 qui interdisent ce type
+  de mod ; images `assets/articles/rdr2-mexico-mod-nuevo-paraiso/`, captures de la page Nexus) ;
   « RDR2 passes 87 million » (résultats Take-Two T1 2027 : 87M unités ; extrapole le budget
   probable de RDR3 en étiquetant fait/estimation/spéculation ; 3e volet de la série ventes
   63M→70M→87M) ; « RDR2 Free DLC for July » (débunk de l'event Red Dead Online présenté à
