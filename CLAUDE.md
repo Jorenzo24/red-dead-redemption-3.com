@@ -289,15 +289,16 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   cliquables vers les chapitres (1-6, É1, É2 pour RDR2 ; I-III pour RDR1). Règle : un chapitre
   apparaît si SON guide lie la fiche. Zone `<!-- @storystrip:start/end -->`, générée par
   `scripts/gen_storystrip.py` (idempotent, à relancer après toute modif des liens des guides).
-- **Fiches enrichies (chantier oct. 2026, pilote Molly O'Shea)** : biographie réécrite CHAPITRE
-  PAR CHAPITRE, chaque sous-titre « Chapitre N : Lieu » est lui-même le lien vers le guide du chapitre
-  (clé `"chapter"` des blocs h3 dans `gen_fiche`). Fait vérifié par agent avant écriture, points
-  contestés écartés, 1 phrase = 1 fait. Données dans `scripts/_enrich.py` (remplace les données de
-  la vague d'origine), réécriture en place via `build_live()`, champ `updated` = date de la byline.
-  Molly : 266 → 660 mots, et ERREUR corrigée (elle meurt à Beaver Hollow, pas à Shady Belle).
-  Cible suivante : reste du gang (Karen, Tilly, Mary-Beth, Pearson, Swanson, Kieran, Lenny…).
-  ATTENTION : relancer une vague d'origine (_waveN.py) n'écrit que dans `_queue/`, sans effet sur
-  le live ; mais ne pas re-publier une fiche enrichie depuis l'ancien driver.
+- **Fiches enrichies (chantier oct. 2026, pilote Molly O'Shea, format v2)** : modèle des articles
+  « Good Article » de Wikipédia (Arthur Morgan, John Marston) + règles WP:WAF. Biographie = récit
+  CONCIS des seuls événements qui comptent (Origines / rôle / mort ou devenir), PAS de sous-titres
+  par chapitre (ça forçait du remplissage) ; le chapitre est cité dans la phrase avec lien vers
+  son guide. Section « Conception et interprétation » (monde réel : interprète, audition,
+  interviews datées et attribuées, contenu coupé). « Accueil » seulement s'il existe des sources.
+  Longueur = importance du perso. Sources : Wikipédia + sources primaires qu'elle cite (interviews,
+  guide officiel), JAMAIS paraphrasées ni copiées. Données : `scripts/_enrich.py`, `build_live()`.
+  Molly : 266 → 470 mots, erreur corrigée (morte à Beaver Hollow, pas Shady Belle).
+  ATTENTION : ne pas re-publier une fiche enrichie depuis son ancien driver `_waveN.py`.
 - **Liens inter-fiches : JAMAIS de lien « vers l'avant ».** Une fiche ne lie (relations + tokens
   inline + cartes « More characters ») que des personnages DÉJÀ en ligne à SA `publishDate` ; le
   sens arrière d'une paire lie (ex. Seth→Nigel, Leigh→Bonnie), le sens avant reste en texte simple.
