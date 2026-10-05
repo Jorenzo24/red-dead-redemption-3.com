@@ -315,8 +315,15 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 - **Page « Personnages » regroupée par faction** (Le gang Van der Linde · La famille Marston ·
   Rivaux et forces de l'ordre · Autres figures), alpha dans chaque groupe. Source unique
   `scripts/characters_registry.py` + `scripts/gen_listing.py` (régénère la zone `@charlist:start/end`,
-  **fiches publiées uniquement**). Le drip régénère les 2 pages listing ; la **home garde une grille
-  plate** (marqueur `@ccards`). PAS de lede/blurb sur la page (retiré : sonnait IA).
+  **fiches publiées uniquement**). Le drip régénère les 2 pages listing. PAS de lede/blurb sur la page (retiré : sonnait IA).
+  Chaque groupe porte une ancre (`#van-der-linde-gang`… / `#gang-van-der-linde`…).
+- **Accueil = sections courtes qui renvoient vers les pages dédiées (oct. 2026)** : plus de grille
+  de tous les personnages. Section **Personnages** = intro + **4 cartes choisies à la main**
+  (Arthur, John, Dutch, Micah, jamais touchées par le drip) + liens par faction avec compteurs
+  + bouton « Browse all N characters », ces deux derniers générés par `gen_listing` dans la zone
+  `<!-- @homechars:start/end -->` (le marqueur `@ccards` n'existe plus). Section **Story/Histoire**
+  (bande `.section--alt`) = intro + 2 cartes `.arc` (RDR2 1899-1907, RDR1 1911-1914) listant
+  chapitres/actes en liens. Nouveau chapitre ou acte = à ajouter à la main dans `.arc__steps`.
 - **Sourcing images (pipeline)** : via l'**API MediaWiki du Red Dead Wiki**
   (`reddead.fandom.com/api.php?action=query&generator=images&…`). L'API passe avec un simple UA
   navigateur, mais **depuis sept. 2026 le CDN `static.wikia.nocookie.net` renvoie 403 (Cloudflare)
@@ -340,5 +347,5 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Characters/Personnages · Articles · Timeline/Chronologie** + footer nav ; hub
   `/timeline/` + `/fr/chronologie/`. Email contact `contact@red-dead-redemption-3.com`
   (forwarder cPanel à créer).
-- **Cache-buster CSS** actuellement à `?v=20260708a` (cf. §8 : bumper à chaque modif CSS ;
+- **Cache-buster CSS** actuellement à `?v=20261005a` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20260624e`.
