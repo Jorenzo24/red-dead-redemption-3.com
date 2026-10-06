@@ -307,7 +307,10 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Série 3 (6 oct.) : Strauss, Trelawny, Susan, Uncle → GANG SECONDAIRE TERMINÉ. Correction : c'est
   Charles (épilogue 1907), pas Dutch, qui annonce la mort de Strauss en détention. Uncle : 3 interprètes
   (Spider Madison RDR1 ; John O'Creagh, mort en production, puis James McBride RDR2).
-  Reste : principaux (Arthur, John, Dutch, Hosea, Micah, Sadie, Charles, Bill, Javier, Abigail, Jack)
+  Principaux 1 (6 oct.) : Arthur, John, Dutch. Ces fiches de phase 2 étaient écrites À LA MAIN :
+  désormais générées via `_enrich.py` (bloc "video" ajouté à gen_fiche pour l'embed Game Awards).
+  Correction : les cicatrices de John viennent des loups au ch. 1 (l'ancienne fiche disait l'inverse).
+  Reste : principaux (Hosea, Micah, Sadie, Charles, Bill, Javier, Abigail, Jack)
   puis hors-gang (RDR2 et RDR1).
   ATTENTION : ne pas re-publier une fiche enrichie depuis son ancien driver `_waveN.py`.
 - **Liens inter-fiches : JAMAIS de lien « vers l'avant ».** Une fiche ne lie (relations + tokens

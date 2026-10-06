@@ -100,6 +100,15 @@ def _accordion(sec, lang, depth, slug):
             for li in b["ul"]:
                 out.append(f'                                <li>{_links(L(li), lang)}</li>')
             out.append('                            </ul>')
+        elif "video" in b:
+            # privacy-friendly YouTube embed (youtube-nocookie), lazy-loaded
+            v = b["video"]
+            out.append('                            <figure class="media-figure">')
+            out.append('                                <div class="video-embed">')
+            out.append(f'                                    <iframe src="https://www.youtube-nocookie.com/embed/{v["id"]}" title="{L(v["title"])}" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>')
+            out.append('                                </div>')
+            out.append(f'                                <figcaption>{L(v["cap"])}</figcaption>')
+            out.append('                            </figure>')
         elif "figure" in b:
             fg = b["figure"]
             img = ("../" * depth) + f'assets/characters/{slug}/{fg["img"]}'
