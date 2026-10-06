@@ -1058,6 +1058,324 @@ BATCH3 = [
 ]
 ENRICHED += BATCH3
 
+# ---- Main characters 1 (6 Oct 2026): Arthur, John, Dutch ----
+VID_CLARK = {"id": "pl2ZPoevd0I",
+  "title": two("Roger Clark wins Best Performance for Red Dead Redemption 2 at The Game Awards 2018",
+               "Roger Clark reçoit le prix de la meilleure interprétation pour Red Dead Redemption 2 aux Game Awards 2018"),
+  "cap": two("Roger Clark accepting Best Performance at The Game Awards 2018.",
+             "Roger Clark reçoit le prix de la meilleure interprétation aux Game Awards 2018.")}
+BH = "Beecher's Hope"
+MAINS1 = [
+# ============================ ARTHUR MORGAN ============================
+{
+ "slug": "arthur-morgan", "name": "Arthur Morgan",
+ "publishDate": "2026-06-22", "updated": "2026-10-06", "schema_game": "Red Dead Redemption 2",
+ "reg_role_en": "Van der Linde gang &middot; RDR2", "reg_role_fr": "Gang Van der Linde &middot; RDR2",
+ "gender": "Male", "death": "1899", "nationality": "American",
+ "portrait_alt": two("Arthur Morgan in Red Dead Redemption 2", "Arthur Morgan dans Red Dead Redemption 2"),
+ "eyebrow": two("Character &middot; Van der Linde gang", "Personnage &middot; Gang Van der Linde"),
+ "meta_desc": two("Arthur Morgan: protagonist of Red Dead Redemption 2. His story from Colter to the four endings, his tuberculosis, the break with Dutch, Roger Clark's performance and the character's awards.",
+                  "Arthur Morgan : le héros de Red Dead Redemption 2. Son histoire de Colter aux quatre fins, sa tuberculose, la rupture avec Dutch, l'interprétation de Roger Clark et les récompenses du personnage."),
+ "og_desc": two("Dutch's most trusted enforcer, whose illness and break with the gang drive Red Dead Redemption 2.",
+                "Le plus fidèle homme de main de Dutch, dont la maladie et la rupture avec le gang portent Red Dead Redemption 2."),
+ "schema_desc": two("Protagonist of Red Dead Redemption 2 and senior member of the Van der Linde gang.",
+                    "Personnage principal de Red Dead Redemption 2 et pilier du gang Van der Linde."),
+ "chips": [two("Died <strong>1899</strong>", "Mort en <strong>1899</strong>"), two("Deceased", "Décédé"),
+           two("Van der Linde gang", "Gang Van der Linde"), two("Voiced by <strong>Roger Clark</strong>", "Voix de <strong>Roger Clark</strong>")],
+ "facts": [
+   {"label": two("Born","Naissance"), "value": two("Around 1863","Vers 1863")},
+   {"label": two("Died","Mort"), "value": two("1899","1899")},
+   {"label": two("Status","Statut"), "value": two("Deceased","Décédé")},
+   {"label": two("Nationality","Nationalité"), "value": two("American","Américaine")},
+   {"label": two("Affiliation","Affiliation"), "value": two("Van der Linde gang","Gang Van der Linde")},
+   {"label": two("Role","Rôle"), "value": two("Senior enforcer, Dutch's right-hand man","Homme de main, bras droit de Dutch")},
+   {"label": two("Family","Famille"), "value": two("Son Isaac, with Eliza (both killed)","Un fils, Isaac, avec Eliza (tous deux tués)")},
+   {"label": two("Games","Jeux"), "value": two("Red Dead Redemption 2, Red Dead Online","Red Dead Redemption 2, Red Dead Online")},
+   {"label": two("Voiced by","Voix"), "value": two("Roger Clark","Roger Clark")},
+ ],
+ "intro": [
+   two("Arthur Morgan is the protagonist of Red Dead Redemption 2 (2018). Rockstar presents him as \"Dutch's most trusted enforcer\", a member of the Van der Linde gang since his teens.",
+       "Arthur Morgan est le héros de Red Dead Redemption 2 (2018). Rockstar le présente comme l'homme de main le plus fidèle de Dutch, membre du gang Van der Linde depuis l'adolescence."),
+   two("He is played by Roger Clark, whose performance won Best Performance at The Game Awards 2018.",
+       "Il est interprété par Roger Clark, récompensé pour ce rôle par le prix de la meilleure interprétation aux Game Awards 2018."),
+ ],
+ "sections": [
+   {"summary": two("Biography","Biographie"), "open": True, "blocks": [
+     {"h3": two("Origins","Origines")},
+     {"p": two("According to the official guide, Arthur lost his parents young and joined [[dutch-van-der-linde|Dutch van der Linde]]'s gang at 14, becoming Dutch's first protégé alongside [[hosea-matthews|Hosea Matthews]]. With a waitress named Eliza, he had a son, Isaac; he sent them money until both were killed in a robbery. He was once engaged to [[mary-linton|Mary Gillis]], now Mary Linton.",
+               "D'après le guide officiel, Arthur perd ses parents jeune et entre à 14 ans dans le gang de [[dutch-van-der-linde|Dutch van der Linde]], dont il devient le premier protégé aux côtés d'[[hosea-matthews|Hosea Matthews]]. Avec une serveuse nommée Eliza, il a un fils, Isaac ; il leur envoie de l'argent jusqu'à ce que tous deux soient tués lors d'un vol. Il a autrefois été fiancé à [[mary-linton|Mary Gillis]], devenue Mary Linton.")},
+     {"figure": {"img": "gang.jpeg", "alt": two("Dutch van der Linde addresses the Van der Linde gang in the forest","Dutch van der Linde s'adresse au gang Van der Linde dans la forêt"),
+                 "cap": two("The Van der Linde gang, Arthur's family since his teens.","Le gang Van der Linde, la famille d'Arthur depuis l'adolescence.")}},
+     {"h3": two("1899: the gang on the run","1899 : le gang en fuite")},
+     {"p": two(f"After a failed ferry robbery in Blackwater, the gang flees into the snowbound mountains of {cl(1,'chapter 1','en')}, where Arthur and Javier rescue [[john-marston|John Marston]] from wolves. In {cl(2,'chapter 2','en')}, while collecting a debt for [[leopold-strauss|Leopold Strauss]], Arthur beats a sick farmer, Thomas Downes, who coughs blood on him: this is how Arthur contracts tuberculosis.",
+               f"Après un braquage raté sur un ferry à Blackwater, le gang fuit dans les montagnes enneigées du {cl(1,'chapitre 1','fr')}, où Arthur et Javier tirent [[john-marston|John Marston]] des griffes des loups. Au {cl(2,'chapitre 2','fr')}, en recouvrant une dette pour [[leopold-strauss|Leopold Strauss]], Arthur roue de coups un fermier malade, Thomas Downes, qui lui crache du sang au visage : c'est ainsi qu'il contracte la tuberculose.")},
+     {"p": two(f"In {cl(3,'chapter 3','en')}, the gang's double game between the Grays and the Braithwaites ends with [[jack-marston|Jack Marston]] kidnapped and handed to [[angelo-bronte|Angelo Bronte]]. In {cl(4,'chapter 4','en')}, Arthur brings Jack back; Dutch drowns Bronte, an act Arthur finds out of character. The Saint Denis bank robbery turns out to be a Pinkerton trap: Hosea and [[lenny-summers|Lenny]] are killed and John is arrested. The survivors are shipwrecked on {cl(5,'Guarma','en')}.",
+               f"Au {cl(3,'chapitre 3','fr')}, le double jeu du gang entre les Gray et les Braithwaite aboutit à l'enlèvement de [[jack-marston|Jack Marston]], livré à [[angelo-bronte|Angelo Bronte]]. Au {cl(4,'chapitre 4','fr')}, Arthur ramène Jack ; Dutch noie Bronte, un geste qu'Arthur ne lui reconnaît pas. Le braquage de la banque de Saint-Denis se révèle un piège des Pinkerton : Hosea et [[lenny-summers|Lenny]] sont tués, John est arrêté. Les survivants font naufrage à {cl(5,'Guarma','fr')}.")},
+     {"h3": two("Illness and the break with Dutch","La maladie et la rupture avec Dutch")},
+     {"p": two(f"Back on the mainland, Arthur collapses in Saint Denis, and Dr. Joseph R. Barnes diagnoses tuberculosis. In {cl(6,'chapter 6','en')}, he and [[sadie-adler|Sadie Adler]] free John from Sisika Penitentiary against Dutch's wishes, in \"Visiting Hours\". Dutch then leaves Arthur behind at the oil fields in \"My Last Boy\", leaves John for dead after the army payroll robbery in \"Our Best Selves\", and refuses to rescue Abigail. Arthur breaks with him and learns that [[micah-bell|Micah Bell]] is the Pinkertons' informant.",
+               f"De retour sur le continent, Arthur s'effondre à Saint-Denis, et le docteur Joseph R. Barnes lui diagnostique la tuberculose. Au {cl(6,'chapitre 6','fr')}, il libère John du pénitencier de Sisika avec [[sadie-adler|Sadie Adler]], contre l'avis de Dutch, dans \"Visiting Hours\". Dutch l'abandonne ensuite aux champs pétrolifères dans \"My Last Boy\", laisse John pour mort après l'attaque du convoi de la solde de l'armée dans \"Our Best Selves\", et refuse de secourir Abigail. Arthur rompt avec lui et découvre que [[micah-bell|Micah Bell]] est l'informateur des Pinkerton.")},
+     {"h3": two("Death: the four endings","Mort : les quatre fins")},
+     {"p": two("In the final mission, \"Red Dead Redemption\", Arthur chooses on the mountain either to help John escape or to go back for the gang's money. That choice, combined with Arthur's honor, produces four endings:",
+               "Dans la dernière mission, \"Red Dead Redemption\", Arthur choisit sur la montagne d'aider John à fuir ou de retourner chercher l'argent du gang. Ce choix, combiné à son niveau d'honneur, donne quatre fins :")},
+     {"ul": [
+       two("Helping John, high honor: Arthur dies of his illness watching the sunrise.","Aider John, honneur élevé : Arthur meurt de sa maladie face au lever du soleil."),
+       two("Helping John, low honor: Micah shoots him in the head.","Aider John, honneur bas : Micah l'abat d'une balle dans la tête."),
+       two("Going back for the money, high honor: after a knife fight with Micah, Arthur dies at sunrise.","Retourner chercher l'argent, honneur élevé : après un combat au couteau contre Micah, Arthur meurt au lever du soleil."),
+       two("Going back for the money, low honor: Micah stabs him to death.","Retourner chercher l'argent, honneur bas : Micah le poignarde à mort."),
+     ]},
+     {"p": two(f"In every version, Dutch walks away. In the 1907 {cl('E2','epilogue','en')}, John, Sadie and [[charles-smith|Charles]] track Micah down on Mount Hagen, where Dutch and John kill him.",
+               f"Dans toutes les versions, Dutch s'en va. Dans l'{cl('E2','épilogue','fr')} de 1907, John, Sadie et [[charles-smith|Charles]] retrouvent Micah au mont Hagen, où Dutch et John le tuent.")},
+     {"figure": {"img": "ending.jpeg", "alt": two("A lone figure against a still sunrise, echoing Arthur's final dawn","Une silhouette solitaire face à un lever de soleil, écho du dernier matin d'Arthur"),
+                 "cap": two("The high-honor endings close on a sunrise.","Les fins à honneur élevé s'achèvent sur un lever de soleil.")}},
+   ]},
+   {"summary": two("As a playable character","Le personnage jouable"), "blocks": [
+     {"ul": [
+       two("The player controls Arthur for the six chapters of the main story; the epilogue switches to John Marston.",
+           "Le joueur incarne Arthur pendant les six chapitres de l'histoire principale ; l'épilogue passe à John Marston."),
+       two("An honor system tracks his actions. It changes some dialogue and scenes, and decides how his last scene plays out.",
+           "Un système d'honneur suit ses actes. Il modifie certains dialogues et certaines scènes, et décide du déroulement de sa dernière scène."),
+       two("Arthur keeps a journal of sketches and notes, updated as the story advances.",
+           "Arthur tient un journal de croquis et de notes, enrichi au fil de l'histoire."),
+       two("His weight changes with how much the player makes him eat, and his tuberculosis visibly marks his face and body in the later chapters.",
+           "Son poids varie selon ce que le joueur lui fait manger, et sa tuberculose marque visiblement son visage et son corps dans les derniers chapitres."),
+     ]},
+   ]},
+   {"summary": two("Development and performance","Conception et interprétation"), "blocks": [
+     {"p": two("After the three protagonists of Grand Theft Auto V, Rockstar returned to a single lead. \"Sticking with a single character felt more appropriate for the structure and narrative of a Western\", Rockstar's Josh Bass told The Hollywood Reporter in September 2018.",
+               "Après les trois héros de Grand Theft Auto V, Rockstar revient à un personnage principal unique. Un choix plus adapté à la structure et au récit d'un western, explique Josh Bass, de Rockstar, au Hollywood Reporter en septembre 2018.")},
+     {"p": two("Writer Dan Houser told GQ that, instead of the usual arc of a hero who grows stronger, Arthur is strong from the outset and \"is going to be taken on a more intellectual roller coaster when his world view gets taken apart\". He told Vulture that a second love interest for Arthur was written and then cut, as part of about five hours removed from the game. In a 2025 podcast interview, Houser said an early opening in which Arthur's baby died was also cut, because \"it was too tough in some ways\".",
+               "Le scénariste Dan Houser explique à GQ qu'au lieu de l'arc habituel d'un héros qui gagne en puissance, Arthur est fort d'emblée et voit plutôt sa vision du monde démontée pièce par pièce. Il confie à Vulture qu'une seconde histoire d'amour pour Arthur a été écrite puis coupée, parmi environ cinq heures retirées du jeu. Dans un podcast en 2025, Houser évoque aussi une ouverture abandonnée, où le bébé d'Arthur mourait, jugée trop dure.")},
+     {"figure": {"img": "roger-clark.jpeg", "alt": two("Roger Clark, the actor behind Arthur Morgan","Roger Clark, l'interprète d'Arthur Morgan"),
+                 "cap": two("Roger Clark, who played Arthur through performance capture.","Roger Clark, qui a joué Arthur en capture de performance.")}},
+     {"p": two("Arthur is played by Roger Clark, an Irish-American actor born in 1978 who grew up near Sligo, in Ireland. His first day on the project was in August 2013, and he described the role as \"five years of work\", mostly in performance capture rather than in a voice booth. He told The Hollywood Reporter that he drew on Toshiro Mifune and John Wayne for the character.",
+               "Arthur est interprété par Roger Clark, acteur irlando-américain né en 1978, qui a grandi près de Sligo, en Irlande. Son premier jour sur le projet date d'août 2013, et il parle de \"cinq ans de travail\", pour l'essentiel en capture de performance plutôt qu'en cabine. Il explique au Hollywood Reporter s'être inspiré de Toshiro Mifune et de John Wayne.")},
+     {"video": VID_CLARK},
+   ]},
+   {"summary": two("Reception","Accueil"), "blocks": [
+     {"p": two("Roger Clark won Best Performance at The Game Awards 2018. He was nominated for Performer at the 2019 BAFTA Games Awards, and Arthur was nominated for Outstanding Achievement in Character at the 2019 D.I.C.E. Awards; both awards went to God of War.",
+               "Roger Clark remporte le prix de la meilleure interprétation aux Game Awards 2018. Il est nommé aux BAFTA Games Awards 2019 dans la catégorie interprète, et Arthur est nommé aux D.I.C.E. Awards 2019 pour le meilleur personnage ; les deux prix reviennent à God of War.")},
+     {"p": two("Reviewing the game, IGN noted \"an infectious authenticity\" in Clark's voice, and Kotaku wrote that Clark \"brings Arthur to life with uncommon confidence and consistency\". In The New York Times, Peter Suderman described Arthur as \"a bad man with a good heart, because his choices are, in fact, your own\". In an April 2024 BAFTA public poll of more than 4,000 voters, Arthur was voted the 11th most iconic video game character.",
+               "Dans sa critique, IGN salue l'authenticité contagieuse de la voix de Clark, et Kotaku estime que l'acteur donne vie à Arthur avec une assurance et une constance rares. Dans le New York Times, Peter Suderman voit en Arthur un homme mauvais au bon cœur, puisque ses choix sont ceux du joueur. En avril 2024, un sondage public de la BAFTA auprès de plus de 4 000 votants le classe 11e personnage de jeu vidéo le plus emblématique.")},
+   ]},
+ ],
+ "rel_after": 0,
+ "relationships": [
+   {"img": "dutch.jpeg", "slug": "dutch-van-der-linde", "name": "Dutch van der Linde", "text": two(
+     "His mentor since his teens, whom he turns against in 1899.",
+     "Son mentor depuis l'adolescence, contre qui il se retourne en 1899.")},
+   {"img": "hosea.jpeg", "slug": "hosea-matthews", "name": "Hosea Matthews", "text": two(
+     "Raised him in the gang alongside Dutch.",
+     "L'a élevé dans le gang aux côtés de Dutch.")},
+   {"img": "john.jpeg", "slug": "john-marston", "name": "John Marston", "text": two(
+     "The brother-like figure he helps escape at the end.",
+     "Le quasi-frère qu'il aide à fuir à la fin.")},
+   {"img": "mary.jpeg", "slug": "mary-linton", "name": "Mary Linton", "text": two(
+     "His former fiancée.",
+     "Son ancienne fiancée.")},
+   {"img": "micah.jpeg", "slug": "micah-bell", "name": "Micah Bell", "text": two(
+     "The informant he unmasks, and his final opponent.",
+     "L'informateur qu'il démasque, et son dernier adversaire.")},
+   {"img": "sadie.jpeg", "slug": "sadie-adler", "name": "Sadie Adler", "text": two(
+     "Frees John from Sisika with him.",
+     "Libère John de Sisika avec lui.")},
+ ],
+ "gallery": [
+   {"img": "gallery-1.jpeg", "alt": two("Arthur Morgan in his coat and hat","Arthur Morgan, manteau et chapeau"),
+    "cap": two("Arthur in 1899, Red Dead Redemption 2.","Arthur en 1899, Red Dead Redemption 2.")},
+   {"img": "gallery-2.jpeg", "alt": two("Red Dead Redemption 2 cover artwork featuring Arthur Morgan","Jaquette de Red Dead Redemption 2 avec Arthur Morgan"),
+    "cap": two("Arthur on the Red Dead Redemption 2 cover art.","Arthur sur la jaquette de Red Dead Redemption 2.")},
+ ],
+ "related": ["john-marston", "dutch-van-der-linde", "micah-bell", "sadie-adler"],
+},
+# ============================ JOHN MARSTON ============================
+{
+ "slug": "john-marston", "name": "John Marston",
+ "publishDate": "2026-06-23", "updated": "2026-10-06", "schema_game": "Red Dead Redemption",
+ "reg_role_en": "Van der Linde gang &middot; RDR1", "reg_role_fr": "Gang Van der Linde &middot; RDR1",
+ "gender": "Male", "birth": "1873", "death": "1911", "nationality": "American",
+ "portrait_alt": two("John Marston in Red Dead Redemption 2", "John Marston dans Red Dead Redemption 2"),
+ "eyebrow": two("Character &middot; Van der Linde gang", "Personnage &middot; Gang Van der Linde"),
+ "meta_desc": two("John Marston: protagonist of Red Dead Redemption and of the Red Dead Redemption 2 epilogue. His life from the gang to Beecher's Hope, his death in 1911, Rob Wiethoff's performance and awards.",
+                  "John Marston : le héros de Red Dead Redemption et de l'épilogue de Red Dead Redemption 2. Sa vie du gang à Beecher's Hope, sa mort en 1911, l'interprétation de Rob Wiethoff et ses récompenses."),
+ "og_desc": two("The former outlaw forced to hunt his old gang in 1911, and the hero of both Red Dead Redemption games.",
+                "L'ancien hors-la-loi contraint de traquer son ancien gang en 1911, héros des deux Red Dead Redemption."),
+ "schema_desc": two("Protagonist of Red Dead Redemption and of the epilogue of Red Dead Redemption 2.",
+                    "Héros de Red Dead Redemption et de l'épilogue de Red Dead Redemption 2."),
+ "chips": [two("<strong>1873&ndash;1911</strong>", "<strong>1873&ndash;1911</strong>"), two("Deceased", "Décédé"),
+           two("Van der Linde gang", "Gang Van der Linde"), two("Voiced by <strong>Rob Wiethoff</strong>", "Voix de <strong>Rob Wiethoff</strong>")],
+ "facts": [
+   {"label": two("Born","Naissance"), "value": two("1873","1873")},
+   {"label": two("Died","Mort"), "value": two("1911, Beecher's Hope","1911, Beecher's Hope")},
+   {"label": two("Status","Statut"), "value": two("Deceased","Décédé")},
+   {"label": two("Nationality","Nationalité"), "value": two("American","Américaine")},
+   {"label": two("Affiliation","Affiliation"), "value": two("Van der Linde gang (former)","Gang Van der Linde (ancien)")},
+   {"label": two("Family","Famille"), "value": two("[[abigail-marston|Abigail Marston]] (wife), [[jack-marston|Jack Marston]] (son)","[[abigail-marston|Abigail Marston]] (épouse), [[jack-marston|Jack Marston]] (fils)")},
+   {"label": two("Alias","Alias"), "value": two("Jim Milton (1907)","Jim Milton (1907)")},
+   {"label": two("Games","Jeux"), "value": two("Red Dead Redemption, Red Dead Redemption 2, Red Dead Online","Red Dead Redemption, Red Dead Redemption 2, Red Dead Online")},
+   {"label": two("Voiced by","Voix"), "value": two("Rob Wiethoff","Rob Wiethoff")},
+ ],
+ "intro": [
+   two("John Marston is the protagonist of Red Dead Redemption (2010), a major character of Red Dead Redemption 2 (2018) and the playable character of its epilogue. Rockstar describes him as an orphaned street kid taken under Dutch's wing at twelve.",
+       "John Marston est le héros de Red Dead Redemption (2010), un personnage majeur de Red Dead Redemption 2 (2018) et le personnage jouable de son épilogue. Rockstar le présente comme un gamin des rues orphelin, recueilli par Dutch à 12 ans."),
+   two("He is played by Rob Wiethoff, whose performance won Outstanding Character Performance at the 2011 D.I.C.E. Awards.",
+       "Il est interprété par Rob Wiethoff, récompensé aux D.I.C.E. Awards 2011 pour la meilleure interprétation d'un personnage."),
+ ],
+ "sections": [
+   {"summary": two("Biography","Biographie"), "open": True, "blocks": [
+     {"h3": two("Origins","Origines")},
+     {"p": two("John was born in 1873. According to the official guide, his mother died giving birth to him, and his father, a Scottish immigrant, died when John was eight. After a few years in an orphanage, he ran away. At twelve, he was about to be hanged for theft when [[dutch-van-der-linde|Dutch van der Linde]] saved him and took him into the gang. [[abigail-marston|Abigail Roberts]] joined the gang in 1894, and their son [[jack-marston|Jack]] was born the following year.",
+               "John naît en 1873. D'après le guide officiel, sa mère meurt en le mettant au monde, et son père, un immigré écossais, meurt quand John a huit ans. Après quelques années en orphelinat, il s'enfuit. À douze ans, il est sur le point d'être pendu pour vol lorsque [[dutch-van-der-linde|Dutch van der Linde]] le sauve et le fait entrer dans le gang. [[abigail-marston|Abigail Roberts]] rejoint le gang en 1894, et leur fils [[jack-marston|Jack]] naît l'année suivante.")},
+     {"h3": two("Red Dead Redemption 2 (1899)","Red Dead Redemption 2 (1899)")},
+     {"p": two(f"In {cl(1,'chapter 1','en')}, lost in the snow after the Blackwater robbery, John is mauled by wolves, which scar his face; [[arthur-morgan|Arthur]] and [[javier-escuella|Javier]] rescue him in \"Enter, Pursued by a Memory\". In {cl(4,'chapter 4','en')}, he is arrested during the failed Saint Denis bank robbery and sent to Sisika Penitentiary.",
+               f"Au {cl(1,'chapitre 1','fr')}, perdu dans la neige après le braquage de Blackwater, John est attaqué par des loups qui lui balafrent le visage ; [[arthur-morgan|Arthur]] et [[javier-escuella|Javier]] le secourent dans \"Enter, Pursued by a Memory\". Au {cl(4,'chapitre 4','fr')}, il est arrêté lors du braquage raté de la banque de Saint-Denis et envoyé au pénitencier de Sisika.")},
+     {"p": two(f"In {cl(6,'chapter 6','en')}, Arthur and [[sadie-adler|Sadie]] break him out, against Dutch's wishes. Arthur urges him to leave the gang with his family. During the army payroll robbery in \"Our Best Selves\", John is shot and falls from the train, and Dutch leaves him for dead. He returns during the final mission and escapes with Arthur's help; Arthur gives him his hat and satchel.",
+               f"Au {cl(6,'chapitre 6','fr')}, Arthur et [[sadie-adler|Sadie]] le font évader, contre l'avis de Dutch. Arthur le presse de quitter le gang avec sa famille. Lors de l'attaque du convoi de la solde de l'armée, dans \"Our Best Selves\", John est touché et tombe du train, et Dutch le laisse pour mort. Il réapparaît lors de la dernière mission et s'échappe grâce à Arthur, qui lui confie son chapeau et sa sacoche.")},
+     {"h3": two("The epilogue (1907)","L'épilogue (1907)")},
+     {"p": two(f"In 1907, John works at Pronghorn Ranch under the name Jim Milton. Abigail leaves with Jack, and John takes a bank loan to buy land at {cl('E2',BH,'en')}, where [[uncle|Uncle]] and [[charles-smith|Charles]] help him build a house. He proposes to Abigail. In \"American Venom\", he tracks [[micah-bell|Micah Bell]] to Mount Hagen: Dutch shoots Micah first and John finishes him. John takes the gang's money, pays off the loan and marries Abigail. The game ends with Edgar Ross and Archer Fordham watching the ranch.",
+               f"En 1907, John travaille au Pronghorn Ranch sous le nom de Jim Milton. Abigail part avec Jack, et John emprunte à la banque pour acheter un terrain à {cl('E2',BH,'fr')}, où [[uncle|Uncle]] et [[charles-smith|Charles]] l'aident à bâtir la maison. Il demande Abigail en mariage. Dans \"American Venom\", il retrouve [[micah-bell|Micah Bell]] au mont Hagen : Dutch tire le premier et John l'achève. John récupère l'argent du gang, rembourse son emprunt et épouse Abigail. Le jeu se clôt sur Edgar Ross et Archer Fordham, qui observent le ranch.")},
+     {"h3": two("Red Dead Redemption (1911)","Red Dead Redemption (1911)")},
+     {"p": two(f"In 1911, the Bureau of Investigation holds Abigail and Jack to force John to hunt down his former gang. In {cl('A1','New Austin','en')}, he is shot by [[bill-williamson|Bill Williamson]]'s men and saved by [[bonnie-macfarlane|Bonnie MacFarlane]]. In {cl('A2','Mexico','en')}, he works for both [[agustin-allende|Colonel Allende]] and the rebel [[abraham-reyes|Abraham Reyes]] to reach Bill and [[javier-escuella|Javier]]. In {cl('A3','West Elizabeth','en')}, Dutch steps off a cliff rather than be taken.",
+               f"En 1911, le Bureau of Investigation retient Abigail et Jack pour forcer John à traquer son ancien gang. Dans le {cl('A1','New Austin','fr')}, il est blessé par les hommes de [[bill-williamson|Bill Williamson]] et sauvé par [[bonnie-macfarlane|Bonnie MacFarlane]]. Au {cl('A2','Mexique','fr')}, il travaille à la fois pour [[agustin-allende|le colonel Allende]] et pour le rebelle [[abraham-reyes|Abraham Reyes]] afin d'atteindre Bill et [[javier-escuella|Javier]]. Dans le {cl('A3','West Elizabeth','fr')}, Dutch se jette d'une falaise plutôt que d'être pris.")},
+     {"p": two("Back at Beecher's Hope, John is reunited with his family. In \"The Last Enemy That Shall Be Destroyed\", soldiers and agents led by [[edgar-ross|Edgar Ross]] attack the ranch. Uncle is killed; John sends Abigail and Jack away and is shot dead. In 1914, after Abigail's death, Jack kills Ross in a duel. John is also the protagonist of Undead Nightmare (2010), an expansion outside the series' canon.",
+               "De retour à Beecher's Hope, John retrouve sa famille. Dans \"The Last Enemy That Shall Be Destroyed\", des soldats et des agents menés par [[edgar-ross|Edgar Ross]] attaquent le ranch. Uncle est tué ; John met Abigail et Jack à l'abri et tombe sous les balles. En 1914, après la mort d'Abigail, Jack tue Ross en duel. John est aussi le héros d'Undead Nightmare (2010), une extension hors de la continuité officielle.")},
+   ]},
+   {"summary": two("Development and performance","Conception et interprétation"), "blocks": [
+     {"p": two("Rob Wiethoff was cast after a last-minute audition for an \"untitled video game project\", in which he was handed his lines and a basket of laundry: \"Say the lines and fold the laundry\", he recalled to Polygon in 2013. He had spent about ten years in Los Angeles with little acting work, tending bar, and moved back to Seymour, Indiana, after the game.",
+               "Rob Wiethoff décroche le rôle après une audition de dernière minute pour un \"projet de jeu vidéo sans titre\", où on lui remet son texte et un panier de linge : il doit dire ses répliques en pliant le linge, raconte-t-il à Polygon en 2013. Il venait de passer une dizaine d'années à Los Angeles, avec peu de rôles, en travaillant comme barman, et repart à Seymour, dans l'Indiana, après le jeu.")},
+     {"p": two("Rockstar called him back in 2014 for Red Dead Redemption 2. Told the role would take about a year, he used up his leave at a construction job, then quit, and ended up working on the game for nearly four years. For the sequel, producer Rob Nelson told Variety the team \"had to be careful not to John it up too much\".",
+               "Rockstar le rappelle en 2014 pour Red Dead Redemption 2. Annoncé pour un an environ, le rôle l'oblige à épuiser ses congés sur un chantier, puis à démissionner ; il travaillera finalement près de quatre ans sur le jeu. Pour cette suite, le producteur Rob Nelson explique à Variety que l'équipe a pris garde à ne pas trop mettre John en avant.")},
+   ]},
+   {"summary": two("Reception","Accueil"), "blocks": [
+     {"p": two("Rob Wiethoff won Outstanding Character Performance at the 2011 D.I.C.E. Awards. At the 2010 Spike Video Game Awards, he was nominated for Best Performance by a Human Male, and John for Character of the Year.",
+               "Rob Wiethoff remporte le prix de la meilleure interprétation d'un personnage aux D.I.C.E. Awards 2011. Aux Spike Video Game Awards 2010, il est nommé pour la meilleure interprétation masculine, et John pour le personnage de l'année.")},
+     {"p": two("In The New York Times in 2010, Seth Schiesel wrote that \"the leading edge of interactive media has a new face\", belonging to John Marston. GamesRadar ranked him 5th in its 2013 list of the best game characters of the generation, and Game Informer's Javy Gwaltney called him in 2018 \"the best of the best\" among Rockstar's protagonists.",
+               "Dans le New York Times, en 2010, Seth Schiesel écrit que le jeu vidéo a un nouveau visage, celui de John Marston. GamesRadar le classe 5e de sa liste des meilleurs personnages de la génération en 2013, et Javy Gwaltney, dans Game Informer, le juge en 2018 le meilleur des héros de Rockstar.")},
+   ]},
+ ],
+ "rel_after": 0,
+ "relationships": [
+   {"img": "abigail.jpeg", "slug": "abigail-marston", "name": "Abigail Marston", "text": two(
+     "His partner, then his wife from 1907.",
+     "Sa compagne, puis son épouse à partir de 1907.")},
+   {"img": "jack.jpeg", "slug": "jack-marston", "name": "Jack Marston", "text": two(
+     "His son, who avenges him in 1914.",
+     "Son fils, qui le venge en 1914.")},
+   {"img": "arthur.jpeg", "slug": "arthur-morgan", "name": "Arthur Morgan", "text": two(
+     "Saves him twice and helps him escape in 1899.",
+     "Le sauve deux fois et l'aide à fuir en 1899.")},
+   {"img": "dutch.jpeg", "slug": "dutch-van-der-linde", "name": "Dutch van der Linde", "text": two(
+     "Saves him from the gallows at twelve, then leaves him for dead.",
+     "Le sauve de la potence à douze ans, puis le laisse pour mort.")},
+   {"img": "uncle.jpeg", "slug": "uncle", "name": "Uncle", "text": two(
+     "Helps him build Beecher's Hope.",
+     "L'aide à bâtir Beecher's Hope.")},
+   {"img": "sadie.jpeg", "slug": "sadie-adler", "name": "Sadie Adler", "text": two(
+     "Frees him from Sisika, then hunts Micah with him.",
+     "Le fait évader de Sisika, puis traque Micah avec lui.")},
+   {"img": "ross.jpeg", "slug": "edgar-ross", "name": "Edgar Ross", "text": two(
+     "Coerces him in 1911, then leads the attack that kills him.",
+     "Le contraint en 1911, puis mène l'assaut qui le tue.")},
+ ],
+ "gallery": [
+   {"img": "gallery-1.jpeg", "alt": two("Official Red Dead Redemption artwork of John Marston","Artwork officiel de Red Dead Redemption représentant John Marston"),
+    "cap": two("Official Red Dead Redemption key art.","Artwork officiel de Red Dead Redemption.")},
+   {"img": "gallery-2.jpeg", "alt": two("John Marston on horseback at dusk","John Marston à cheval au crépuscule"),
+    "cap": two("John on the trail.","John sur les pistes.")},
+ ],
+ "related": ["arthur-morgan", "abigail-marston", "jack-marston", "dutch-van-der-linde"],
+},
+# ============================ DUTCH VAN DER LINDE ============================
+{
+ "slug": "dutch-van-der-linde", "name": "Dutch van der Linde",
+ "publishDate": "2026-06-24", "updated": "2026-10-06", "schema_game": "Red Dead Redemption 2",
+ "reg_role_en": "Gang leader &middot; RDR1 &amp; 2", "reg_role_fr": "Chef de gang &middot; RDR1 &amp; 2",
+ "gender": "Male", "death": "1911", "nationality": "American",
+ "portrait_alt": two("Dutch van der Linde in Red Dead Redemption 2", "Dutch van der Linde dans Red Dead Redemption 2"),
+ "eyebrow": two("Character &middot; Van der Linde gang", "Personnage &middot; Gang Van der Linde"),
+ "meta_desc": two("Dutch van der Linde: founder and leader of the Van der Linde gang in Red Dead Redemption 2 and Red Dead Redemption. His ideals, his fall in 1899, his death in 1911, and Benjamin Byron Davis's performance.",
+                  "Dutch van der Linde : fondateur et chef du gang Van der Linde dans Red Dead Redemption 2 et Red Dead Redemption. Ses idéaux, sa chute en 1899, sa mort en 1911, et l'interprétation de Benjamin Byron Davis."),
+ "og_desc": two("The charismatic leader whose plans hold the gang together, then tear it apart.",
+                "Le chef charismatique dont les plans soudent le gang, puis le détruisent."),
+ "schema_desc": two("Founder and leader of the Van der Linde gang in Red Dead Redemption 2 and Red Dead Redemption.",
+                    "Fondateur et chef du gang Van der Linde dans Red Dead Redemption 2 et Red Dead Redemption."),
+ "chips": [two("Died <strong>1911</strong>", "Mort en <strong>1911</strong>"), two("Deceased", "Décédé"),
+           two("Gang leader", "Chef de gang"), two("Voiced by <strong>Benjamin Byron Davis</strong>", "Voix de <strong>Benjamin Byron Davis</strong>")],
+ "facts": [
+   {"label": two("Born","Naissance"), "value": two("Around 1855","Vers 1855")},
+   {"label": two("Died","Mort"), "value": two("1911, Cochinay","1911, Cochinay")},
+   {"label": two("Status","Statut"), "value": two("Deceased","Décédé")},
+   {"label": two("Nationality","Nationalité"), "value": two("American","Américaine")},
+   {"label": two("Affiliation","Affiliation"), "value": two("Van der Linde gang (founder and leader)","Gang Van der Linde (fondateur et chef)")},
+   {"label": two("Games","Jeux"), "value": two("Red Dead Redemption, Red Dead Redemption 2, Red Dead Online","Red Dead Redemption, Red Dead Redemption 2, Red Dead Online")},
+   {"label": two("Voiced by","Voix"), "value": two("Benjamin Byron Davis","Benjamin Byron Davis")},
+ ],
+ "intro": [
+   two("Dutch van der Linde is the founder and leader of the Van der Linde gang, in Red Dead Redemption 2 (2018) and Red Dead Redemption (2010). The official guide describes him as radically opposed to government control and valuing individual liberty above all else.",
+       "Dutch van der Linde est le fondateur et le chef du gang Van der Linde, dans Red Dead Redemption 2 (2018) et Red Dead Redemption (2010). Le guide officiel le décrit comme farouchement opposé au contrôle de l'État et attaché par-dessus tout à la liberté individuelle."),
+   two("He is played by Benjamin Byron Davis in both games.",
+       "Il est interprété par Benjamin Byron Davis dans les deux jeux."),
+ ],
+ "sections": [
+   {"summary": two("Biography","Biographie"), "open": True, "blocks": [
+     {"h3": two("Origins and the gang","Origines et fondation du gang")},
+     {"p": two("Dutch was born around 1855. He says his father \"died in a field in Pennsylvania\", fighting in the Civil War. He founded the gang with [[hosea-matthews|Hosea Matthews]] and took in orphans and street children, teaching them to read: [[arthur-morgan|Arthur Morgan]] at fourteen, then [[john-marston|John Marston]] at twelve.",
+               "Dutch naît vers 1855. Il raconte que son père est mort \"dans un champ de Pennsylvanie\", pendant la guerre de Sécession. Il fonde le gang avec [[hosea-matthews|Hosea Matthews]] et recueille des orphelins et des enfants des rues, à qui il apprend à lire : [[arthur-morgan|Arthur Morgan]] à quatorze ans, puis [[john-marston|John Marston]] à douze.")},
+     {"p": two(f"In 1899, a ferry robbery in Blackwater, planned with [[micah-bell|Micah Bell]], goes wrong and forces the gang to flee into the mountains of {cl(1,'chapter 1','en')}. Several characters say Dutch shot an unarmed young woman during the robbery; the scene itself is never shown. Dutch speaks of buying land in Tahiti once he has enough money.",
+               f"En 1899, un braquage sur un ferry à Blackwater, préparé avec [[micah-bell|Micah Bell]], tourne mal et contraint le gang à fuir dans les montagnes du {cl(1,'chapitre 1','fr')}. Plusieurs personnages affirment que Dutch y a abattu une jeune femme désarmée ; la scène n'est jamais montrée. Dutch parle d'acheter une terre à Tahiti une fois l'argent réuni.")},
+     {"h3": two("The fall (1899)","La chute (1899)")},
+     {"p": two(f"In {cl(4,'chapter 4','en')}, Dutch drowns [[angelo-bronte|Angelo Bronte]] in Saint Denis. The bank robbery he leads in the city is a Pinkerton trap: Hosea is killed by Agent Milton, [[lenny-summers|Lenny]] dies, John is arrested, and the survivors are shipwrecked on Guarma.",
+               f"Au {cl(4,'chapitre 4','fr')}, Dutch noie [[angelo-bronte|Angelo Bronte]] à Saint-Denis. Le braquage de banque qu'il mène dans la ville est un piège des Pinkerton : Hosea est tué par l'agent Milton, [[lenny-summers|Lenny]] meurt, John est arrêté, et les survivants font naufrage à Guarma.")},
+     {"p": two(f"In {cl(6,'chapter 6','en')}, Dutch refuses to rescue John from prison. He kills [[leviticus-cornwall|Leviticus Cornwall]] in Annesburg, leaves Arthur behind at the oil fields in \"My Last Boy\", then leaves John for dead and abandons Abigail on Micah's advice in \"Our Best Selves\". In the final mission, he sides with Micah against Arthur, then walks away in silence.",
+               f"Au {cl(6,'chapitre 6','fr')}, Dutch refuse de faire évader John. Il tue [[leviticus-cornwall|Leviticus Cornwall]] à Annesburg, abandonne Arthur aux champs pétrolifères dans \"My Last Boy\", puis laisse John pour mort et abandonne Abigail sur les conseils de Micah dans \"Our Best Selves\". Lors de la dernière mission, il prend le parti de Micah contre Arthur, puis s'en va sans un mot.")},
+     {"p": two(f"In the 1907 {cl('E2','epilogue','en')}, John finds Micah on Mount Hagen, with Dutch. Dutch shoots Micah, letting John finish him off, and leaves.",
+               f"Dans l'{cl('E2','épilogue','fr')} de 1907, John retrouve Micah au mont Hagen, en compagnie de Dutch. Dutch tire sur Micah, laisse John l'achever, puis s'en va.")},
+     {"h3": two("Death (1911)","Mort (1911)")},
+     {"p": two(f"In Red Dead Redemption, Dutch leads a band of young Native Americans from a hideout at Cochinay, in {cl('A3','West Elizabeth','en')}, and robs the Blackwater bank. In \"And the Truth Will Set You Free\", John corners him on a cliff. Dutch tells him that the government will always need an enemy (\"they'll just find another monster\") and that \"our time is passed\", then lets himself fall.",
+               f"Dans Red Dead Redemption, Dutch mène une bande de jeunes Amérindiens depuis un repaire à Cochinay, dans le {cl('A3','West Elizabeth','fr')}, et braque la banque de Blackwater. Dans \"And the Truth Will Set You Free\", John l'accule au bord d'une falaise. Dutch le prévient que le gouvernement aura toujours besoin d'un ennemi et que leur temps est révolu, puis se laisse tomber.")},
+   ]},
+   {"summary": two("Development and performance","Conception et interprétation"), "blocks": [
+     {"p": two("Benjamin Byron Davis plays Dutch in both games. For Red Dead Redemption 2, he told GQ in April 2019 that scheduling began in the summer of 2013, that capture sessions ran in 2014, 2016 and 2017, and that playing Dutch \"in his prime\" for almost a year before his decline was \"entirely heartbreaking\". At six feet six inches tall, he needed his size adjusted by the animators.",
+               "Benjamin Byron Davis interprète Dutch dans les deux jeux. Pour Red Dead Redemption 2, il raconte à GQ, en avril 2019, que le planning a démarré à l'été 2013, que les séances de capture se sont étalées sur 2014, 2016 et 2017, et que jouer Dutch au sommet de sa forme pendant près d'un an avant son déclin a été déchirant. Avec ses 1,98 m, sa taille a dû être ajustée par les animateurs.")},
+     {"p": two("Senior creative writer Michael Unsworth told Variety that \"Dutch has always viewed himself less as a criminal, and more as someone fighting back against a corrupt system of power\". Davis told Twinfinite that he saw Dutch as \"a principled man\" and \"a dreamer\" for whom \"the journey was more important than any arrival\".",
+               "Le scénariste Michael Unsworth explique à Variety que Dutch se voit moins comme un criminel que comme un homme qui résiste à un système de pouvoir corrompu. Davis confie à Twinfinite voir en lui un homme de principes et un rêveur, pour qui le voyage comptait plus que l'arrivée.")},
+   ]},
+   {"summary": two("Reception","Accueil"), "blocks": [
+     {"p": two("Twinfinite named Dutch its best character of 2018 and Davis its best voice actor of the year. In Polygon's list of the 70 best video game characters of the decade (2019), Cass Marshall wrote that Dutch \"started his career as a folk hero and revolutionary and ended it as a sad, broken man\". Polygon's Colin Campbell was more critical, calling him \"a manipulative blowhard\".",
+               "Twinfinite désigne Dutch meilleur personnage de 2018 et Davis meilleur comédien de doublage de l'année. Dans la liste de Polygon des 70 meilleurs personnages de jeu vidéo de la décennie (2019), Cass Marshall écrit que Dutch a commencé en héros populaire et révolutionnaire, et fini en homme triste et brisé. Colin Campbell, dans Polygon également, se montre plus sévère et le qualifie de fanfaron manipulateur.")},
+   ]},
+ ],
+ "rel_after": 0,
+ "relationships": [
+   {"img": "hosea.jpeg", "slug": "hosea-matthews", "name": "Hosea Matthews", "text": two(
+     "Co-founder of the gang and his oldest partner.",
+     "Cofondateur du gang et son plus vieux complice.")},
+   {"img": "arthur.jpeg", "slug": "arthur-morgan", "name": "Arthur Morgan", "text": two(
+     "His first protégé, who turns against him in 1899.",
+     "Son premier protégé, qui se retourne contre lui en 1899.")},
+   {"img": "john.jpeg", "slug": "john-marston", "name": "John Marston", "text": two(
+     "Saved by him at twelve; corners him on the cliff in 1911.",
+     "Sauvé par lui à douze ans ; l'accule au bord de la falaise en 1911.")},
+   {"img": "micah.jpeg", "slug": "micah-bell", "name": "Micah Bell", "text": two(
+     "The adviser whose influence grows as the gang falls apart.",
+     "Le conseiller dont l'influence grandit à mesure que le gang se délite.")},
+   {"img": "molly.jpeg", "slug": "molly-oshea", "name": "Molly O'Shea", "text": two(
+     "His companion, whom he grows to neglect.",
+     "Sa compagne, qu'il finit par délaisser.")},
+   {"img": "bill.jpeg", "slug": "bill-williamson", "name": "Bill Williamson", "text": two(
+     "A loyal gunman, who follows him to the end of 1899.",
+     "Un homme de main fidèle, qui le suit jusqu'au bout de 1899.")},
+ ],
+ "gallery": [
+   {"img": "gallery-1.jpeg", "alt": two("Dutch van der Linde portrait in Red Dead Redemption 2","Portrait de Dutch van der Linde dans Red Dead Redemption 2"),
+    "cap": two("The leader of the Van der Linde gang.","Le chef du gang Van der Linde.")},
+   {"img": "gallery-2.jpeg", "alt": two("Dutch van der Linde mid-speech","Dutch van der Linde en plein discours"),
+    "cap": two("Dutch in full flow.","Dutch dans son élément.")},
+ ],
+ "related": ["arthur-morgan", "john-marston", "hosea-matthews", "micah-bell"],
+},
+]
+ENRICHED += MAINS1
+
 
 if __name__ == "__main__":
     from characters_registry import CHARACTERS as REG
