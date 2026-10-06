@@ -300,7 +300,10 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Molly : 266 → 470 mots, erreur corrigée (morte à Beaver Hollow, pas Shady Belle).
   Série 1 (6 oct. 2026) : Karen, Tilly, Mary-Beth, Pearson (≈ 350-450 mots chacune, sections
   Conception sourcées GamesRadar/Fuzzable mars 2019 ; Accueil pour Mary-Beth via Game Informer).
-  Reste du gang à faire : Swanson, Kieran, Lenny, Strauss, Trelawny, Sean, Uncle, Susan…
+  Série 2 (6 oct.) : Sean, Lenny, Kieran, Swanson. Corrections : Sean tué par une embuscade des Gray
+  (pas un chasseur de primes) ; interprète de Lenny = Harron ATKINS (pas « Alexander », erreur
+  introduite dans Tilly et corrigée) ; Kieran = Pico Alexander ; Swanson = Sean Haberle ; Bill =
+  Steve J. Palmer. Reste : Strauss, Trelawny, Uncle, Susan, puis principaux et hors-gang.
   ATTENTION : ne pas re-publier une fiche enrichie depuis son ancien driver `_waveN.py`.
 - **Liens inter-fiches : JAMAIS de lien « vers l'avant ».** Une fiche ne lie (relations + tokens
   inline + cartes « More characters ») que des personnages DÉJÀ en ligne à SA `publishDate` ; le
