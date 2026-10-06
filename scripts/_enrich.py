@@ -21,6 +21,11 @@ CH = {  # (en guide slug, fr guide slug)
  4: ("rdr2-chapter-4-saint-denis", "rdr2-chapitre-4-saint-denis"),
  5: ("rdr2-chapter-5-guarma", "rdr2-chapitre-5-guarma"),
  6: ("rdr2-chapter-6-beaver-hollow", "rdr2-chapitre-6-beaver-hollow"),
+ "E1": ("rdr2-epilogue-part-1-pronghorn-ranch", "rdr2-epilogue-partie-1-pronghorn-ranch"),
+ "E2": ("rdr2-epilogue-part-2-beechers-hope", "rdr2-epilogue-partie-2-beechers-hope"),
+ "A1": ("rdr1-act-1-new-austin", "rdr1-acte-1-new-austin"),
+ "A2": ("rdr1-act-2-nuevo-paraiso", "rdr1-acte-2-nuevo-paraiso"),
+ "A3": ("rdr1-act-3-west-elizabeth", "rdr1-acte-3-west-elizabeth"),
 }
 
 ENRICHED = [
@@ -738,6 +743,320 @@ BATCH2 = [
 },
 ]
 ENRICHED += BATCH2
+
+# ---- Batch 3 (6 Oct 2026): Strauss, Trelawny, Susan Grimshaw, Uncle ----
+BATCH3 = [
+# ============================ LEOPOLD STRAUSS ============================
+{
+ "slug": "leopold-strauss", "name": "Leopold Strauss",
+ "publishDate": "2026-07-03", "updated": "2026-10-06", "schema_game": "Red Dead Redemption 2",
+ "reg_role_en": "Van der Linde gang &middot; RDR2", "reg_role_fr": "Gang Van der Linde &middot; RDR2",
+ "gender": "Male", "death": "1899", "nationality": "Austrian",
+ "portrait_alt": two("Leopold Strauss in Red Dead Redemption 2", "Leopold Strauss dans Red Dead Redemption 2"),
+ "eyebrow": two("Character &middot; Van der Linde gang", "Personnage &middot; Gang Van der Linde"),
+ "meta_desc": two("Leopold Strauss: the Van der Linde gang's money lender in Red Dead Redemption 2. His past in Vienna, the debt collections, the Downes debt behind Arthur's tuberculosis, and his fate.",
+                  "Leopold Strauss : l'usurier du gang Van der Linde dans Red Dead Redemption 2. Son passé à Vienne, les recouvrements de dettes, la dette Downes à l'origine de la tuberculose d'Arthur, et son sort."),
+ "og_desc": two("The gang's loan shark, whose debt collections give Arthur tuberculosis.",
+                "L'usurier du gang, dont les recouvrements de dettes valent à Arthur sa tuberculose."),
+ "schema_desc": two("Austrian bookkeeper and money lender of the Van der Linde gang in Red Dead Redemption 2.",
+                    "Comptable et usurier autrichien du gang Van der Linde dans Red Dead Redemption 2."),
+ "chips": [two("Died <strong>1899</strong>", "Mort en <strong>1899</strong>"), two("Deceased", "Décédé"),
+           two("Van der Linde gang", "Gang Van der Linde"), two("Money lender", "Usurier")],
+ "facts": [
+   {"label": two("Origin","Origine"), "value": two("Vienna, Austria","Vienne, Autriche")},
+   {"label": two("Died","Mort"), "value": two("1899, in Pinkerton custody","1899, détenu par les Pinkerton")},
+   {"label": two("Status","Statut"), "value": two("Deceased","Décédé")},
+   {"label": two("Affiliation","Affiliation"), "value": two("Van der Linde gang","Gang Van der Linde")},
+   {"label": two("Role","Rôle"), "value": two("Bookkeeper and money lender","Comptable et usurier")},
+   {"label": two("Voiced by","Voix"), "value": two("Howard Pinhasik","Howard Pinhasik")},
+   {"label": two("Games","Jeux"), "value": two("Red Dead Redemption 2","Red Dead Redemption 2")},
+ ],
+ "intro": [
+   two("Leopold Strauss is the bookkeeper of the Van der Linde gang in Red Dead Redemption 2, and runs its money-lending business. He sends [[arthur-morgan|Arthur Morgan]] to collect the debts.",
+       "Leopold Strauss est le comptable du gang Van der Linde dans Red Dead Redemption 2, et gère son activité de prêt d'argent. C'est lui qui envoie [[arthur-morgan|Arthur Morgan]] recouvrer les dettes."),
+   two("One of those collections is how Arthur catches tuberculosis.",
+       "C'est lors de l'un de ces recouvrements qu'Arthur contracte la tuberculose."),
+ ],
+ "sections": [
+   {"summary": two("Biography","Biographie"), "open": True, "blocks": [
+     {"h3": two("Origins","Origines")},
+     {"p": two("According to the official guide, Strauss grew up poor in Vienna and was often ill as a child. He was sent to America by boat at 17, spent years as a swindler, and joined [[dutch-van-der-linde|Dutch]]'s gang for protection.",
+               "D'après le guide officiel, Strauss grandit pauvre à Vienne et souffre de problèmes de santé dans l'enfance. Envoyé en Amérique par bateau à 17 ans, il vit plusieurs années d'escroqueries, puis rejoint le gang de [[dutch-van-der-linde|Dutch]] pour s'assurer une protection.")},
+     {"h3": two("The debt collections","Les recouvrements")},
+     {"p": two(f"From {cl(2,'chapter 2','en')} onwards, Strauss gives Arthur a series of missions titled \"Money Lending and Other Sins\", in which Arthur collects debts from borrowers across the map. In the third, Arthur beats a sick farmer, Thomas Downes, who coughs blood on him. This is where Arthur contracts tuberculosis. After Downes dies, Strauss passes the debt on to his widow, Edith.",
+               f"À partir du {cl(2,'chapitre 2','fr')}, Strauss confie à Arthur une série de missions intitulées \"Money Lending and Other Sins\", où Arthur recouvre des dettes aux quatre coins de la carte. Dans la troisième, Arthur roue de coups un fermier malade, Thomas Downes, qui lui crache du sang au visage. C'est ainsi qu'Arthur contracte la tuberculose. À la mort de Downes, Strauss reporte la dette sur sa veuve, Edith.")},
+     {"p": two(f"In {cl(4,'chapter 4','en')}, Strauss takes part in the gang's robbery aboard the riverboat Grand Korrigan, with Arthur, Javier and [[josiah-trelawny|Josiah Trelawny]].",
+               f"Au {cl(4,'chapitre 4','fr')}, Strauss participe au braquage du bateau à aubes Grand Korrigan, avec Arthur, Javier et [[josiah-trelawny|Josiah Trelawny]].")},
+     {"h3": two("Expulsion and fate","Exclusion et sort")},
+     {"p": two(f"In {cl(6,'chapter 6','en')}, Arthur throws Strauss out of the camp for ruining lives with his loans, and gives him money as he leaves. In the 1907 epilogue, [[charles-smith|Charles Smith]] tells John Marston that Strauss was arrested by the Pinkertons, interrogated, and died in custody without giving up the gang. His death is reported, not shown.",
+               f"Au {cl(6,'chapitre 6','fr')}, Arthur chasse Strauss du camp pour avoir brisé des vies avec ses prêts, et lui donne de l'argent avant son départ. Dans l'épilogue de 1907, [[charles-smith|Charles Smith]] apprend à John Marston que Strauss a été arrêté par les Pinkerton, interrogé, et qu'il est mort en détention sans livrer le gang. Sa mort est rapportée, pas montrée.")},
+   ]},
+   {"summary": two("Development and performance","Conception et interprétation"), "blocks": [
+     {"p": two("Strauss is played by Howard Pinhasik.",
+               "Strauss est interprété par Howard Pinhasik.")},
+   ]},
+   {"summary": two("Reception","Accueil"), "blocks": [
+     {"p": two("Game Informer's December 2018 ranking of the gang placed Strauss 23rd, noting that \"it's his cruel business that results in Arthur getting infected with tuberculosis\". In Polygon, Colin Campbell described him as \"a slightly sinister money lender complete with a German accent and a taste for cruelty\".",
+               "Le classement du gang publié par Game Informer en décembre 2018 place Strauss 23e, en rappelant que c'est son commerce cruel qui vaut à Arthur sa tuberculose. Dans Polygon, Colin Campbell voit en lui un usurier vaguement inquiétant, à l'accent germanique et au goût prononcé pour la cruauté.")},
+   ]},
+ ],
+ "rel_after": 0,
+ "relationships": [
+   {"img": "arthur.jpeg", "slug": "arthur-morgan", "name": "Arthur Morgan", "text": two(
+     "Collects his debts, catches tuberculosis doing it, then throws him out.",
+     "Recouvre ses dettes, y contracte la tuberculose, puis le chasse du camp.")},
+   {"img": "dutch.jpeg", "slug": "dutch-van-der-linde", "name": "Dutch van der Linde", "text": two(
+     "Gives him the gang's protection and its books.",
+     "Lui offre la protection du gang et lui confie ses comptes.")},
+   {"img": "trelawny.jpeg", "slug": "josiah-trelawny", "name": "Josiah Trelawny", "text": two(
+     "Plans the riverboat robbery he takes part in.",
+     "Monte le braquage du bateau à aubes auquel il participe.")},
+   {"img": "charles.jpeg", "slug": "charles-smith", "name": "Charles Smith", "text": two(
+     "Tells John in 1907 that Strauss died in custody.",
+     "Apprend à John, en 1907, que Strauss est mort en détention.")},
+ ],
+ "gallery": [
+   {"img": "gallery-1.jpeg", "alt": two("Strauss at the Horseshoe Overlook camp","Strauss au camp de Horseshoe Overlook"),
+    "cap": two("Strauss at the gang's Horseshoe Overlook camp.","Strauss au camp de Horseshoe Overlook.")},
+ ],
+ "related": ["arthur-morgan", "dutch-van-der-linde", "josiah-trelawny", "charles-smith"],
+},
+# ============================ JOSIAH TRELAWNY ============================
+{
+ "slug": "josiah-trelawny", "name": "Josiah Trelawny",
+ "publishDate": "2026-07-12", "updated": "2026-10-06", "schema_game": "Red Dead Redemption 2",
+ "reg_role_en": "Van der Linde gang &middot; RDR2", "reg_role_fr": "Gang Van der Linde &middot; RDR2",
+ "gender": "Male", "death": None, "nationality": None,
+ "portrait_alt": two("Josiah Trelawny in Red Dead Redemption 2", "Josiah Trelawny dans Red Dead Redemption 2"),
+ "eyebrow": two("Character &middot; Van der Linde gang", "Personnage &middot; Gang Van der Linde"),
+ "meta_desc": two("Josiah Trelawny: conman and magician associated with the Van der Linde gang in Red Dead Redemption 2 and Red Dead Online. His schemes, the riverboat heist, his family, and his departure.",
+                  "Josiah Trelawny : escroc et magicien associé au gang Van der Linde dans Red Dead Redemption 2 et Red Dead Online. Ses combines, le braquage du bateau à aubes, sa famille, et son départ."),
+ "og_desc": two("The gang's well-dressed conman and magician, who comes and goes as he pleases and leaves for good in chapter 6.",
+                "L'escroc et magicien tiré à quatre épingles du gang, qui va et vient à sa guise et part pour de bon au chapitre 6."),
+ "schema_desc": two("Conman and magician associated with the Van der Linde gang in Red Dead Redemption 2.",
+                    "Escroc et magicien associé au gang Van der Linde dans Red Dead Redemption 2."),
+ "chips": [two("Van der Linde gang", "Gang Van der Linde"), two("Con man", "Escroc"),
+           two("Fate unknown", "Sort inconnu"), two("RDR2 &amp; Online", "RDR2 et Online")],
+ "facts": [
+   {"label": two("Affiliation","Affiliation"), "value": two("Van der Linde gang (associate)","Gang Van der Linde (associé)")},
+   {"label": two("Role","Rôle"), "value": two("Conman and magician","Escroc et magicien")},
+   {"label": two("Family","Famille"), "value": two("Wife and two sons, in Saint Denis","Une épouse et deux fils, à Saint-Denis")},
+   {"label": two("Status","Statut"), "value": two("Leaves the gang in 1899","Quitte le gang en 1899")},
+   {"label": two("Voiced by","Voix"), "value": two("Stephen Gevedon","Stephen Gevedon")},
+   {"label": two("Games","Jeux"), "value": two("Red Dead Redemption 2, Red Dead Online","Red Dead Redemption 2, Red Dead Online")},
+ ],
+ "intro": [
+   two("Josiah Trelawny is a conman and magician associated with the Van der Linde gang in Red Dead Redemption 2. According to the official guide, he is allowed to come and go from Dutch's gang as he pleases.",
+       "Josiah Trelawny est un escroc et magicien associé au gang Van der Linde dans Red Dead Redemption 2. D'après le guide officiel, il est libre d'aller et venir dans le gang de Dutch à sa guise."),
+   two("He leaves for good in chapter 6, and also appears in Red Dead Online.",
+       "Il part pour de bon au chapitre 6, et apparaît aussi dans Red Dead Online."),
+ ],
+ "sections": [
+   {"summary": two("Biography","Biographie"), "open": True, "blocks": [
+     {"h3": two("The gang's fixer","L'homme des combines")},
+     {"p": two(f"In {cl(2,'chapter 2','en')}, Trelawny brings Dutch word that bounty hunters are holding [[sean-macguire|Sean MacGuire]]. In \"The First Shall Be Last\", he fakes a fit to distract the guards while [[arthur-morgan|Arthur]] and Javier move in, and Sean is freed.",
+               f"Au {cl(2,'chapitre 2','fr')}, Trelawny apprend à Dutch que des chasseurs de primes retiennent [[sean-macguire|Sean MacGuire]]. Dans \"The First Shall Be Last\", il simule un malaise pour distraire les gardes pendant qu'[[arthur-morgan|Arthur]] et Javier approchent, et Sean est libéré.")},
+     {"p": two(f"In {cl(3,'chapter 3','en')}, he twice ends up in the hands of others: in a prison wagon in \"The New South\", then held by bounty hunters until Arthur and Charles free him in \"Magicians for Sport\". In \"Friends in Very Low Places\", he distracts an opera singer while Arthur opens a strongbox, on a tip from a Rhodes postal clerk.",
+               f"Au {cl(3,'chapitre 3','fr')}, il tombe deux fois entre de mauvaises mains : dans un fourgon cellulaire dans \"The New South\", puis aux mains de chasseurs de primes jusqu'à ce qu'Arthur et Charles le libèrent dans \"Magicians for Sport\". Dans \"Friends in Very Low Places\", il distrait un chanteur d'opéra pendant qu'Arthur ouvre un coffre, sur un tuyau d'un employé des postes de Rhodes.")},
+     {"p": two(f"In {cl(4,'chapter 4','en')}, in \"A Fine Night of Debauchery\", he plans the robbery of the riverboat Grand Korrigan. He has Arthur shaved and dressed for the occasion. The job, with Arthur, Javier and [[leopold-strauss|Strauss]], ends in a shootout and a swim to shore.",
+               f"Au {cl(4,'chapitre 4','fr')}, dans \"A Fine Night of Debauchery\", il monte le braquage du bateau à aubes Grand Korrigan. Il fait raser et habiller Arthur pour l'occasion. Le coup, mené avec Arthur, Javier et [[leopold-strauss|Strauss]], finit en fusillade et en retour à la nage.")},
+     {"h3": two("Family and departure","Famille et départ")},
+     {"p": two(f"Trelawny has a wife and two sons in Saint Denis, who know nothing of his criminal life. At the start of \"The Fine Art of Conversation\", in {cl(6,'chapter 6','en')}, he leaves the gang for good, with Arthur's blessing. His fate afterwards is not shown.",
+               f"Trelawny a une épouse et deux fils à Saint-Denis, qui ignorent tout de ses activités criminelles. Au début de \"The Fine Art of Conversation\", au {cl(6,'chapitre 6','fr')}, il quitte le gang pour de bon, avec la bénédiction d'Arthur. La suite de son histoire n'est pas montrée.")},
+     {"h3": two("Red Dead Online","Red Dead Online")},
+     {"p": two("In Red Dead Online, Trelawny lives in a caravan near Rhodes. He introduces himself by faking a suicide, the gun turning into a bird, then gives the player a series of jobs, starting with the theft of one of Catherine Braithwaite's horses.",
+               "Dans Red Dead Online, Trelawny vit dans une roulotte près de Rhodes. Il se présente en simulant un suicide, son arme se changeant en oiseau, puis confie au joueur une série de missions, à commencer par le vol d'un cheval de Catherine Braithwaite.")},
+   ]},
+   {"summary": two("Development and performance","Conception et interprétation"), "blocks": [
+     {"p": two("Trelawny is played by Stephen Gevedon, an American actor who co-wrote and starred in the film Session 9 (2001) and appeared in the series Oz and The Deuce.",
+               "Trelawny est interprété par Stephen Gevedon, acteur américain, coscénariste et interprète du film Session 9 (2001), vu aussi dans les séries Oz et The Deuce.")},
+     {"p": two("In an October 2019 podcast interview with ComiCulture, Gevedon said he did not know at casting that the project was a game, and expected about a week of recording. He described the character's accent as a \"bad Katharine Hepburn\", chosen in part to keep Trelawny mysterious. Rockstar later expanded the role, adding his wife and children in the final years of development.",
+               "Dans un entretien en podcast avec ComiCulture, en octobre 2019, Gevedon raconte avoir ignoré au casting qu'il s'agissait d'un jeu, et s'attendre à une semaine d'enregistrement. Il compare l'accent du personnage à une \"mauvaise Katharine Hepburn\", un choix fait en partie pour garder Trelawny mystérieux. Rockstar a ensuite étoffé le rôle, en ajoutant sa femme et ses enfants dans les dernières années du développement.")},
+   ]},
+   {"summary": two("Reception","Accueil"), "blocks": [
+     {"p": two("In Polygon, in November 2018, Colin Campbell described Trelawny as \"an affectatious dandy, a gentleman thief with swell togs and a crisp English accent\".",
+               "Dans Polygon, en novembre 2018, Colin Campbell voit en Trelawny un dandy maniéré, un gentleman cambrioleur élégamment vêtu à l'accent anglais impeccable.")},
+   ]},
+ ],
+ "rel_after": 0,
+ "relationships": [
+   {"img": "arthur.jpeg", "slug": "arthur-morgan", "name": "Arthur Morgan", "text": two(
+     "His partner on most of his schemes, who lets him leave in peace.",
+     "Son partenaire dans la plupart de ses combines, qui le laisse partir en paix.")},
+   {"img": "sean.jpeg", "slug": "sean-macguire", "name": "Sean MacGuire", "text": two(
+     "Rescued with his help in chapter 2.",
+     "Libéré avec son aide au chapitre 2.")},
+   {"img": "strauss.jpeg", "slug": "leopold-strauss", "name": "Leopold Strauss", "text": two(
+     "Part of his riverboat robbery.",
+     "Participe à son braquage du bateau à aubes.")},
+   {"img": "dutch.jpeg", "slug": "dutch-van-der-linde", "name": "Dutch van der Linde", "text": two(
+     "Lets him come and go from the gang as he pleases.",
+     "Le laisse aller et venir dans le gang à sa guise.")},
+ ],
+ "gallery": [
+   {"img": "gallery-1.jpeg", "alt": two("Josiah Trelawny","Josiah Trelawny"),
+    "cap": two("Trelawny, the gang's conman and magician.","Trelawny, l'escroc et magicien du gang.")},
+ ],
+ "related": ["arthur-morgan", "sean-macguire", "leopold-strauss", "dutch-van-der-linde"],
+},
+# ============================ SUSAN GRIMSHAW ============================
+{
+ "slug": "susan-grimshaw", "name": "Susan Grimshaw",
+ "publishDate": "2026-07-04", "updated": "2026-10-06", "schema_game": "Red Dead Redemption 2",
+ "reg_role_en": "Van der Linde gang &middot; RDR2", "reg_role_fr": "Gang Van der Linde &middot; RDR2",
+ "gender": "Female", "death": "1899", "nationality": "American",
+ "portrait_alt": two("Susan Grimshaw in Red Dead Redemption 2", "Susan Grimshaw dans Red Dead Redemption 2"),
+ "eyebrow": two("Character &middot; Van der Linde gang", "Personnage &middot; Gang Van der Linde"),
+ "meta_desc": two("Susan Grimshaw: the camp's enforcer in the Van der Linde gang in Red Dead Redemption 2. Her past with Dutch, Tilly's rescue, Molly's death, her stand against Micah, and Kaili Vernoff's performance.",
+                  "Susan Grimshaw : l'autorité du camp du gang Van der Linde dans Red Dead Redemption 2. Son passé avec Dutch, le sauvetage de Tilly, la mort de Molly, son face-à-face avec Micah, et l'interprétation de Kaili Vernoff."),
+ "og_desc": two("The camp's iron-willed matriarch, who sides with Arthur against Micah and is killed for it.",
+                "La matriarche intraitable du camp, qui se range du côté d'Arthur contre Micah et le paie de sa vie."),
+ "schema_desc": two("Camp matriarch of the Van der Linde gang in Red Dead Redemption 2.",
+                    "Matriarche du camp du gang Van der Linde dans Red Dead Redemption 2."),
+ "chips": [two("Died <strong>1899</strong>", "Morte en <strong>1899</strong>"), two("Deceased", "Décédée"),
+           two("Van der Linde gang", "Gang Van der Linde"), two("Camp matriarch", "Matriarche du camp")],
+ "facts": [
+   {"label": two("Died","Mort"), "value": two("1899","1899")},
+   {"label": two("Status","Statut"), "value": two("Deceased","Décédée")},
+   {"label": two("Nationality","Nationalité"), "value": two("American","Américaine")},
+   {"label": two("Affiliation","Affiliation"), "value": two("Van der Linde gang","Gang Van der Linde")},
+   {"label": two("Role","Rôle"), "value": two("Runs the camp","Dirige le camp")},
+   {"label": two("Voiced by","Voix"), "value": two("Kaili Vernoff","Kaili Vernoff")},
+   {"label": two("Games","Jeux"), "value": two("Red Dead Redemption 2","Red Dead Redemption 2")},
+ ],
+ "intro": [
+   two("Susan Grimshaw runs the camp of the Van der Linde gang in Red Dead Redemption 2. Rockstar describes her as \"the undisputed boss and arbiter of justice in the camp\".",
+       "Susan Grimshaw dirige le camp du gang Van der Linde dans Red Dead Redemption 2. Rockstar la présente comme la patronne incontestée du camp, celle qui y fait la loi."),
+   two("She is killed by Micah Bell in 1899, after taking Arthur's side against him.",
+       "Elle est tuée par Micah Bell en 1899, après avoir pris le parti d'Arthur contre lui."),
+ ],
+ "sections": [
+   {"summary": two("Biography","Biographie"), "open": True, "blocks": [
+     {"h3": two("The camp's authority","L'autorité du camp")},
+     {"p": two("According to the official guide, Grimshaw was once in a relationship with [[dutch-van-der-linde|Dutch]]; after it ended, she remained his loyal partner. She has been in the gang as long as [[arthur-morgan|Arthur]]. With [[simon-pearson|Pearson]], she sets up each new camp, and she makes sure everyone does their share of the work, especially the younger women.",
+               "D'après le guide officiel, Grimshaw a eu une liaison avec [[dutch-van-der-linde|Dutch]] ; une fois celle-ci terminée, elle est restée sa fidèle alliée. Elle fait partie du gang depuis aussi longtemps qu'[[arthur-morgan|Arthur]]. Avec [[simon-pearson|Pearson]], elle installe chaque nouveau camp, et veille à ce que chacun fasse sa part, à commencer par les plus jeunes femmes.")},
+     {"h3": two("Tilly's rescue","Le sauvetage de Tilly")},
+     {"p": two(f"In {cl(4,'chapter 4','en')}, in \"No, No and Thrice, No\", the Foreman Brothers kidnap [[tilly-jackson|Tilly Jackson]]. Grimshaw and Arthur free her at Radley's House; Grimshaw kills a guard with a knife. Whether to kill or spare the captured Anthony Foreman is left to Arthur.",
+               f"Au {cl(4,'chapitre 4','fr')}, dans \"No, No and Thrice, No\", les frères Foreman enlèvent [[tilly-jackson|Tilly Jackson]]. Grimshaw et Arthur la libèrent à Radley's House ; Grimshaw poignarde un garde. Le sort d'Anthony Foreman, capturé, est laissé au choix d'Arthur.")},
+     {"h3": two("Molly O'Shea","Molly O'Shea")},
+     {"p": two(f"At the new camp at {cl(6,'Beaver Hollow','en')}, a drunk [[molly-oshea|Molly O'Shea]] claims she told the Pinkertons about the Saint Denis bank job. Grimshaw shoots her dead with a shotgun, saying Molly \"knew the rules\", and has the body burned. Molly's claim later turns out to be false.",
+               f"Au nouveau camp de {cl(6,'Beaver Hollow','fr')}, une [[molly-oshea|Molly O'Shea]] ivre affirme avoir renseigné les Pinkerton sur le braquage de Saint-Denis. Grimshaw l'abat d'un coup de fusil, en expliquant que Molly connaissait les règles, et fait brûler le corps. L'aveu de Molly se révèle faux par la suite.")},
+     {"h3": two("Death","Mort")},
+     {"p": two("In the final mission of chapter 6, \"Red Dead Redemption\", Arthur names [[micah-bell|Micah Bell]] as the gang's traitor. Grimshaw is the only one to side openly with Arthur and John, and turns her shotgun on Micah. Distracted by the arrival of the Pinkertons, she is shot dead by Micah. [[charles-smith|Charles Smith]] later buries her.",
+               "Dans la dernière mission du chapitre 6, \"Red Dead Redemption\", Arthur désigne [[micah-bell|Micah Bell]] comme le traître du gang. Grimshaw est la seule à se ranger ouvertement du côté d'Arthur et de John, et braque son fusil sur Micah. Distraite par l'arrivée des Pinkerton, elle est abattue par Micah. [[charles-smith|Charles Smith]] l'enterre plus tard.")},
+   ]},
+   {"summary": two("Development and performance","Conception et interprétation"), "blocks": [
+     {"p": two("Grimshaw is played by Kaili Vernoff. Speaking to Forbes in February 2019, she said she worked on the game \"for about four and a half years, off and on\", and that it was both the first video game she had worked on and the first she had ever played. She had previously voiced a minor character in Grand Theft Auto V.",
+               "Grimshaw est interprétée par Kaili Vernoff. Auprès de Forbes, en février 2019, elle explique avoir travaillé sur le jeu environ quatre ans et demi, par intermittence, et que c'était à la fois le premier jeu vidéo sur lequel elle travaillait et le premier auquel elle jouait. Elle avait auparavant prêté sa voix à un personnage secondaire de Grand Theft Auto V.")},
+     {"p": two("In the same interview, she described Susan's code: \"Everyone must earn their keep; she cannot abide hangers on or laziness; and she values loyalty above all.\" Speaking to GameFragger the same month, she said she wanted Susan's vulnerability to come through as she came to understand the character, and that \"Susan dies defending her family and she wouldn't have it any other way.\"",
+               "Dans le même entretien, elle résume le code de Susan : chacun doit mériter sa place, elle ne supporte ni les parasites ni la paresse, et place la loyauté au-dessus de tout. Auprès de GameFragger, le même mois, elle dit avoir voulu faire ressortir la vulnérabilité du personnage à mesure qu'elle le comprenait, et estime que Susan meurt en défendant sa famille, comme elle l'aurait voulu.")},
+   ]},
+   {"summary": two("Reception","Accueil"), "blocks": [
+     {"p": two("In Polygon, in November 2018, Colin Campbell called Grimshaw \"literally a walking cliché\", comparing her to frontier matriarchs of classic westerns and television, such as Ma Ingalls in Little House on the Prairie.",
+               "Dans Polygon, en novembre 2018, Colin Campbell voit en Grimshaw un cliché ambulant, et la rapproche des matriarches de la Frontière des westerns classiques et de la télévision, comme Ma Ingalls dans La Petite Maison dans la prairie.")},
+   ]},
+ ],
+ "rel_after": 0,
+ "relationships": [
+   {"img": "dutch.jpeg", "slug": "dutch-van-der-linde", "name": "Dutch van der Linde", "text": two(
+     "Her former partner, to whom she stays loyal until Micah's betrayal.",
+     "Son ancien compagnon, à qui elle reste fidèle jusqu'à la trahison de Micah.")},
+   {"img": "tilly.jpeg", "slug": "tilly-jackson", "name": "Tilly Jackson", "text": two(
+     "Rescued by her and Arthur from the Foreman Brothers.",
+     "Libérée par Arthur et elle des frères Foreman.")},
+   {"img": "molly.jpeg", "slug": "molly-oshea", "name": "Molly O'Shea", "text": two(
+     "Shot by Grimshaw after her false confession.",
+     "Abattue par Grimshaw après son faux aveu.")},
+   {"img": "micah.jpeg", "slug": "micah-bell", "name": "Micah Bell", "text": two(
+     "The traitor she confronts, and who kills her.",
+     "Le traître qu'elle affronte, et qui la tue.")},
+   {"img": "arthur.jpeg", "slug": "arthur-morgan", "name": "Arthur Morgan", "text": two(
+     "The one she sides with at the end.",
+     "Celui dont elle prend le parti à la fin.")},
+ ],
+ "gallery": [
+   {"img": "gallery-1.jpeg", "alt": two("Susan Grimshaw at the camp","Susan Grimshaw au camp"),
+    "cap": two("Susan keeping the camp's younger members in line.","Susan tient les plus jeunes du camp.")},
+ ],
+ "related": ["tilly-jackson", "molly-oshea", "micah-bell", "dutch-van-der-linde"],
+},
+# ============================ UNCLE ============================
+{
+ "slug": "uncle", "name": "Uncle",
+ "publishDate": "2026-07-14", "updated": "2026-10-06", "schema_game": "Red Dead Redemption 2",
+ "reg_role_en": "Van der Linde gang &middot; RDR1 &amp; 2", "reg_role_fr": "Gang Van der Linde &middot; RDR1 &amp; 2",
+ "gender": "Male", "death": "1911", "nationality": "American",
+ "portrait_alt": two("Uncle in Red Dead Redemption 2", "Uncle dans Red Dead Redemption 2"),
+ "eyebrow": two("Character &middot; Van der Linde gang", "Personnage &middot; Gang Van der Linde"),
+ "meta_desc": two("Uncle: the oldest drinker of the Van der Linde gang in Red Dead Redemption 2 and the Marstons' companion at Beecher's Hope in Red Dead Redemption. Biography, his death in 1911, and his three actors.",
+                  "Uncle : le vieux buveur du gang Van der Linde dans Red Dead Redemption 2 et le compagnon des Marston à Beecher's Hope dans Red Dead Redemption. Biographie, sa mort en 1911, et ses trois interprètes."),
+ "og_desc": two("The gang's work-shy old drinker, who follows the Marstons to Beecher's Hope and dies defending it in 1911.",
+                "Le vieux buveur fainéant du gang, qui suit les Marston à Beecher's Hope et meurt en le défendant en 1911."),
+ "schema_desc": two("Aging member of the Van der Linde gang and companion of the Marston family in Red Dead Redemption and Red Dead Redemption 2.",
+                    "Vieux membre du gang Van der Linde et compagnon de la famille Marston dans Red Dead Redemption et Red Dead Redemption 2."),
+ "chips": [two("Died <strong>1911</strong>", "Mort en <strong>1911</strong>"), two("Deceased", "Décédé"),
+           two("Van der Linde gang", "Gang Van der Linde"), two("RDR1 &amp; 2", "RDR1 et 2")],
+ "facts": [
+   {"label": two("Real name","Vrai nom"), "value": two("Never given","Jamais révélé")},
+   {"label": two("Died","Mort"), "value": two("1911, Beecher's Hope","1911, Beecher's Hope")},
+   {"label": two("Status","Statut"), "value": two("Deceased","Décédé")},
+   {"label": two("Affiliation","Affiliation"), "value": two("Van der Linde gang, Marston ranch","Gang Van der Linde, ranch des Marston")},
+   {"label": two("Voiced by","Voix"), "value": two("Spider Madison (RDR1); John O'Creagh and James McBride (RDR2)","Spider Madison (RDR1) ; John O'Creagh et James McBride (RDR2)")},
+   {"label": two("Games","Jeux"), "value": two("Red Dead Redemption, Red Dead Redemption 2","Red Dead Redemption, Red Dead Redemption 2")},
+ ],
+ "intro": [
+   two("Uncle is one of the oldest members of the Van der Linde gang. His real name is never given. Rockstar describes him as \"always around when the whiskey is open and never around when there's any work to be done\".",
+       "Uncle est l'un des plus vieux membres du gang Van der Linde. Son vrai nom n'est jamais donné. Rockstar le décrit comme toujours là quand le whisky est ouvert, et jamais quand il y a du travail."),
+   two("He appears in Red Dead Redemption 2 and in Red Dead Redemption, where he dies defending the Marston ranch in 1911.",
+       "Il apparaît dans Red Dead Redemption 2 et dans Red Dead Redemption, où il meurt en défendant le ranch des Marston en 1911."),
+ ],
+ "sections": [
+   {"summary": two("Biography","Biographie"), "open": True, "blocks": [
+     {"h3": two("In the gang","Au sein du gang")},
+     {"p": two("According to the official guide, Uncle is a heavy drinker who claims to have had several wives, travelled widely, and been a gifted gunslinger in his youth. He blames his reluctance to work on \"terminal lumbago\". He introduced [[abigail-marston|Abigail]] to the gang around 1894.",
+               "D'après le guide officiel, Uncle est un gros buveur qui affirme avoir eu plusieurs épouses, beaucoup voyagé et été un pistolero doué dans sa jeunesse. Il met son peu d'empressement au travail sur le compte d'un \"lumbago en phase terminale\". C'est lui qui a fait entrer [[abigail-marston|Abigail]] dans le gang, vers 1894.")},
+     {"p": two(f"In {cl(2,'chapter 2','en')}, he takes part in the outing to Valentine with [[arthur-morgan|Arthur]], Karen, Mary-Beth and Tilly. In {cl(3,'chapter 3','en')}, in \"An Honest Mistake\", his tip about an unguarded Cornwall coach leads Arthur, Bill, Charles and Uncle into a fight with Cornwall's men, which they escape from a barn.",
+               f"Au {cl(2,'chapitre 2','fr')}, il participe à la sortie à Valentine avec [[arthur-morgan|Arthur]], Karen, Mary-Beth et Tilly. Au {cl(3,'chapitre 3','fr')}, dans \"An Honest Mistake\", son tuyau sur une diligence de Cornwall prétendument sans escorte entraîne Arthur, Bill, Charles et Uncle dans un affrontement avec les hommes de Cornwall, dont ils s'échappent depuis une grange.")},
+     {"p": two(f"At {cl(6,'Beaver Hollow','en')}, he brings a drunk [[molly-oshea|Molly O'Shea]] back from Saint Denis, on the night she is killed. He leaves the gang shortly afterwards; Dutch announces that he, Pearson and Mary-Beth have run away.",
+               f"À {cl(6,'Beaver Hollow','fr')}, il ramène de Saint-Denis une [[molly-oshea|Molly O'Shea]] ivre, le soir où elle est tuée. Il quitte le gang peu après ; Dutch annonce que Pearson, Mary-Beth et lui ont pris la fuite.")},
+     {"h3": two("Beecher's Hope (1907)","Beecher's Hope (1907)")},
+     {"p": two(f"In the {cl('E1','epilogue','en')}, Uncle meets [[john-marston|John Marston]] in Blackwater as John buys the land at Beecher's Hope, and insists on helping. He tells John that [[charles-smith|Charles]] is in Saint Denis, and the three build the ranch, Uncle mostly giving orders. After a celebration, the Skinner Brothers kidnap him and burn his back; John and Charles rescue him. He stays on the ranch with the Marstons.",
+               f"Dans l'{cl('E1','épilogue','fr')}, Uncle retrouve [[john-marston|John Marston]] à Blackwater au moment où John achète le terrain de Beecher's Hope, et insiste pour l'aider. Il lui apprend que [[charles-smith|Charles]] est à Saint-Denis, et tous trois bâtissent le ranch, Uncle se contentant surtout de donner des ordres. Après une soirée de fête, les frères Skinner l'enlèvent et lui brûlent le dos ; John et Charles le délivrent. Il reste au ranch avec les Marston.")},
+     {"h3": two("Death (1911)","Mort (1911)")},
+     {"p": two(f"In Red Dead Redemption, Uncle looks after the ranch, badly, while John is away hunting his former gang. In {cl('A3','the third act','en')}, in \"The Last Enemy That Shall Be Destroyed\", soldiers and agents led by Edgar Ross attack Beecher's Hope. Uncle helps defend the ranch and is shot dead.",
+               f"Dans Red Dead Redemption, Uncle veille sur le ranch, tant bien que mal, pendant que John traque son ancien gang. Dans {cl('A3','le troisième acte','fr')}, au cours de \"The Last Enemy That Shall Be Destroyed\", des soldats et des agents menés par Edgar Ross attaquent Beecher's Hope. Uncle participe à la défense du ranch et y est abattu.")},
+   ]},
+   {"summary": two("Development and performance","Conception et interprétation"), "blocks": [
+     {"p": two("In Red Dead Redemption (2010), Uncle is played by Spider Madison. For Red Dead Redemption 2, the role first went to John O'Creagh, who died during production; James McBride took over, while O'Creagh's singing lines were kept in the game. A lake in Ambarino, O'Creagh's Run, is named after him.",
+               "Dans Red Dead Redemption (2010), Uncle est interprété par Spider Madison. Pour Red Dead Redemption 2, le rôle revient d'abord à John O'Creagh, mort pendant la production ; James McBride lui succède, tandis que les passages chantés enregistrés par O'Creagh sont conservés dans le jeu. Un lac de l'Ambarino, O'Creagh's Run, porte son nom.")},
+   ]},
+ ],
+ "rel_after": 0,
+ "relationships": [
+   {"img": "john.jpeg", "slug": "john-marston", "name": "John Marston", "text": two(
+     "Builds Beecher's Hope with him, and loses him in 1911.",
+     "Bâtit Beecher's Hope avec lui, et le perd en 1911.")},
+   {"img": "charles.jpeg", "slug": "charles-smith", "name": "Charles Smith", "text": two(
+     "Helps build the ranch and rescues him from the Skinner Brothers.",
+     "Aide à bâtir le ranch et le tire des griffes des frères Skinner.")},
+   {"img": "abigail.jpeg", "slug": "abigail-marston", "name": "Abigail Marston", "text": two(
+     "Brought into the gang by Uncle around 1894.",
+     "Entrée dans le gang par son intermédiaire, vers 1894.")},
+   {"img": "molly.jpeg", "slug": "molly-oshea", "name": "Molly O'Shea", "text": two(
+     "Brought back drunk by him on the night she dies.",
+     "Ramenée ivre par lui le soir de sa mort.")},
+   {"img": "arthur.jpeg", "slug": "arthur-morgan", "name": "Arthur Morgan", "text": two(
+     "Rides with him to Valentine and on the Cornwall coach job.",
+     "L'accompagne à Valentine et lors de l'attaque de la diligence de Cornwall.")},
+ ],
+ "gallery": [
+   {"img": "gallery-1.jpeg", "alt": two("Uncle at the camp","Uncle au camp"),
+    "cap": two("Uncle, the gang's work-shy old survivor.","Uncle, le vieux rescapé fainéant du gang.")},
+ ],
+ "related": ["john-marston", "charles-smith", "abigail-marston", "molly-oshea"],
+},
+]
+ENRICHED += BATCH3
 
 
 if __name__ == "__main__":

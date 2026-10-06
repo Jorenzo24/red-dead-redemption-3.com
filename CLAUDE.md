@@ -303,7 +303,12 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Série 2 (6 oct.) : Sean, Lenny, Kieran, Swanson. Corrections : Sean tué par une embuscade des Gray
   (pas un chasseur de primes) ; interprète de Lenny = Harron ATKINS (pas « Alexander », erreur
   introduite dans Tilly et corrigée) ; Kieran = Pico Alexander ; Swanson = Sean Haberle ; Bill =
-  Steve J. Palmer. Reste : Strauss, Trelawny, Uncle, Susan, puis principaux et hors-gang.
+  Steve J. Palmer.
+  Série 3 (6 oct.) : Strauss, Trelawny, Susan, Uncle → GANG SECONDAIRE TERMINÉ. Correction : c'est
+  Charles (épilogue 1907), pas Dutch, qui annonce la mort de Strauss en détention. Uncle : 3 interprètes
+  (Spider Madison RDR1 ; John O'Creagh, mort en production, puis James McBride RDR2).
+  Reste : principaux (Arthur, John, Dutch, Hosea, Micah, Sadie, Charles, Bill, Javier, Abigail, Jack)
+  puis hors-gang (RDR2 et RDR1).
   ATTENTION : ne pas re-publier une fiche enrichie depuis son ancien driver `_waveN.py`.
 - **Liens inter-fiches : JAMAIS de lien « vers l'avant ».** Une fiche ne lie (relations + tokens
   inline + cartes « More characters ») que des personnages DÉJÀ en ligne à SA `publishDate` ; le
