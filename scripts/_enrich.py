@@ -241,8 +241,8 @@ BATCH1 = [
                "En 1907, Tilly vit à Saint-Denis et a épousé un avocat originaire d'Haïti. John peut la croiser sur un banc de la ville ; elle est enceinte. Dans une lettre envoyée plus tard à John et Abigail, signée \"Tilly Pierre\", elle annonce la naissance de sa fille, dit voir toujours Mary-Beth, et écrit que Hosea avait été comme un père pour elle.")},
    ]},
    {"summary": two("Development and performance","Conception et interprétation"), "blocks": [
-     {"p": two("Tilly is played by Meeya Davis, an actress from Detroit who moved to New Jersey in 2012 to study acting. She provided the voice and the motion capture. Speaking to Fuzzable in March 2019, she said she was first called in for what was presented as a commercial audition, and only learned about the character on her shooting days. She also said she went to high school with Harron Alexander, who plays Lenny Summers.",
-               "Tilly est interprétée par Meeya Davis, actrice originaire de Detroit, installée dans le New Jersey en 2012 pour étudier le jeu. Elle assure la voix et la capture de mouvement. Auprès de Fuzzable, en mars 2019, elle raconte avoir été convoquée pour ce qu'on lui présentait comme une audition pour une publicité, et n'avoir découvert le personnage qu'aux jours de tournage. Elle y précise aussi avoir fréquenté le même lycée que Harron Alexander, l'interprète de Lenny Summers.")},
+     {"p": two("Tilly is played by Meeya Davis, an actress from Detroit who moved to New Jersey in 2012 to study acting. She provided the voice and the motion capture. Speaking to Fuzzable in March 2019, she said she was first called in for what was presented as a commercial audition, and only learned about the character on her shooting days. She also said she went to high school with Harron Atkins, who plays Lenny Summers.",
+               "Tilly est interprétée par Meeya Davis, actrice originaire de Detroit, installée dans le New Jersey en 2012 pour étudier le jeu. Elle assure la voix et la capture de mouvement. Auprès de Fuzzable, en mars 2019, elle raconte avoir été convoquée pour ce qu'on lui présentait comme une audition pour une publicité, et n'avoir découvert le personnage qu'aux jours de tournage. Elle y précise aussi avoir fréquenté le même lycée que Harron Atkins, l'interprète de Lenny Summers.")},
      {"p": two("In the GamesRadar interview with the gang's actresses (March 2019), Davis said the scene where Tilly tells how she killed Anthony Foreman's cousin made her emotional on set. She was seven or eight months pregnant when she shot Tilly's pregnancy scene, which she called \"art imitating life\".",
                "Dans l'entretien croisé de GamesRadar avec les actrices du gang (mars 2019), Meeya Davis confie que la scène où Tilly raconte le meurtre du cousin d'Anthony Foreman l'a émue sur le plateau. Elle était enceinte de sept ou huit mois lorsqu'elle a tourné la scène de grossesse de Tilly, un cas où \"l'art imite la vie\", dit-elle.")},
    ]},
@@ -424,6 +424,320 @@ BATCH1 = [
 },
 ]
 ENRICHED += BATCH1
+
+# ---- Batch 2 (6 Oct 2026): Sean, Lenny, Kieran, Swanson ----
+BATCH2 = [
+# ============================ SEAN MACGUIRE ============================
+{
+ "slug": "sean-macguire", "name": "Sean MacGuire",
+ "publishDate": "2026-06-26", "updated": "2026-10-06", "schema_game": "Red Dead Redemption 2",
+ "reg_role_en": "Van der Linde gang &middot; RDR2", "reg_role_fr": "Gang Van der Linde &middot; RDR2",
+ "gender": "Male", "death": "1899", "nationality": "Irish",
+ "portrait_alt": two("Sean MacGuire in Red Dead Redemption 2", "Sean MacGuire dans Red Dead Redemption 2"),
+ "eyebrow": two("Character &middot; Van der Linde gang", "Personnage &middot; Gang Van der Linde"),
+ "meta_desc": two("Sean MacGuire: young Irish thief of the Van der Linde gang in Red Dead Redemption 2. His rescue, the Gray feud, his death in Rhodes, and Michael Mellamphy's performance.",
+                  "Sean MacGuire : jeune voleur irlandais du gang Van der Linde dans Red Dead Redemption 2. Son sauvetage, la guerre des Gray, sa mort à Rhodes, et l'interprétation de Michael Mellamphy."),
+ "og_desc": two("The gang's Irish stick-up man, rescued in chapter 2 and shot dead in the Rhodes ambush.",
+                "Le braqueur irlandais du gang, sauvé au chapitre 2 et abattu dans l'embuscade de Rhodes."),
+ "schema_desc": two("Irish thief and member of the Van der Linde gang in Red Dead Redemption 2.",
+                    "Voleur irlandais, membre du gang Van der Linde dans Red Dead Redemption 2."),
+ "chips": [two("Died <strong>1899</strong>", "Mort en <strong>1899</strong>"), two("Deceased", "Décédé"),
+           two("Van der Linde gang", "Gang Van der Linde"), two("Irish", "Irlandais")],
+ "facts": [
+   {"label": two("Origin","Origine"), "value": two("Irish","Irlandais")},
+   {"label": two("Died","Mort"), "value": two("1899, Rhodes","1899, Rhodes")},
+   {"label": two("Status","Statut"), "value": two("Deceased","Décédé")},
+   {"label": two("Affiliation","Affiliation"), "value": two("Van der Linde gang","Gang Van der Linde")},
+   {"label": two("Role","Rôle"), "value": two("Thief and stick-up man","Voleur et braqueur")},
+   {"label": two("Voiced by","Voix"), "value": two("Michael Mellamphy","Michael Mellamphy")},
+   {"label": two("Games","Jeux"), "value": two("Red Dead Redemption 2","Red Dead Redemption 2")},
+ ],
+ "intro": [
+   two("Sean MacGuire is a young Irish thief in the Van der Linde gang in Red Dead Redemption 2. Rockstar describes him as coming from \"a long line of criminals and political dissidents\".",
+       "Sean MacGuire est un jeune voleur irlandais du gang Van der Linde dans Red Dead Redemption 2. Rockstar le présente comme l'héritier d'une longue lignée de criminels et de dissidents politiques."),
+   two("He is shot dead in Rhodes in 1899, in an ambush set up by the Gray family.",
+       "Il est abattu à Rhodes en 1899, dans une embuscade montée par la famille Gray."),
+ ],
+ "sections": [
+   {"summary": two("Biography","Biographie"), "open": True, "blocks": [
+     {"h3": two("Origins","Origines")},
+     {"p": two("According to the official guide, Sean's father was wanted by the government; he fled to America with his son and was caught and killed there. Sean joined the gang after failing to steal [[dutch-van-der-linde|Dutch]]'s pocket watch in an alley.",
+               "D'après le guide officiel, le père de Sean était recherché par les autorités ; il s'est réfugié en Amérique avec son fils, où il a été rattrapé et tué. Sean entre dans le gang après avoir raté le vol de la montre de gousset de [[dutch-van-der-linde|Dutch]] dans une ruelle.")},
+     {"h3": two("Capture and return","Capture et retour")},
+     {"p": two(f"Separated from the gang after the failed Blackwater robbery, Sean is captured by bounty hunters. In {cl(2,'chapter 2','en')}, in \"The First Shall Be Last\", [[arthur-morgan|Arthur]], [[charles-smith|Charles]] and [[javier-escuella|Javier]] free him, with [[josiah-trelawny|Josiah Trelawny]] creating a diversion. The camp throws a party for his return, during which he and [[karen-jones|Karen Jones]] begin an affair.",
+               f"Séparé du gang après le braquage raté de Blackwater, Sean est capturé par des chasseurs de primes. Au {cl(2,'chapitre 2','fr')}, dans \"The First Shall Be Last\", [[arthur-morgan|Arthur]], [[charles-smith|Charles]] et [[javier-escuella|Javier]] le libèrent, pendant que [[josiah-trelawny|Josiah Trelawny]] fait diversion. Le camp fête son retour, et c'est ce soir-là qu'il entame une liaison avec [[karen-jones|Karen Jones]].")},
+     {"p": two("He then joins Arthur, John and Charles on the gang's train robbery, in \"Pouring Forth Oil IV\".",
+               "Il participe ensuite avec Arthur, John et Charles à l'attaque de train du gang, dans \"Pouring Forth Oil IV\".")},
+     {"h3": two("The Gray feud and his death","La guerre des Gray et sa mort")},
+     {"p": two(f"In {cl(3,'chapter 3','en')}, the gang works both sides of the feud between the Grays and the Braithwaites. In \"The Fine Joys of Tobacco\", Sean and Arthur burn the Grays' tobacco fields for Catherine Braithwaite.",
+               f"Au {cl(3,'chapitre 3','fr')}, le gang joue sur les deux tableaux de la guerre entre les Gray et les Braithwaite. Dans \"The Fine Joys of Tobacco\", Sean et Arthur incendient les champs de tabac des Gray pour le compte de Catherine Braithwaite.")},
+     {"p": two("In \"A Short Walk in a Pretty Town\", the Grays offer the gang a job in Rhodes. It is a trap. As Sean walks down the street with Arthur, [[bill-williamson|Bill]] and [[micah-bell|Micah]], a sniper shoots him in the head and he dies instantly. After his death, Karen starts drinking heavily.",
+               "Dans \"A Short Walk in a Pretty Town\", les Gray proposent un travail au gang à Rhodes. C'est un piège. Alors que Sean remonte la rue avec Arthur, [[bill-williamson|Bill]] et [[micah-bell|Micah]], un tireur embusqué l'atteint à la tête et le tue sur le coup. Après sa mort, Karen se met à boire.")},
+   ]},
+   {"summary": two("Development and performance","Conception et interprétation"), "blocks": [
+     {"p": two("Sean is played by Michael \"Mick\" Mellamphy, who provided the voice and the motion capture. According to a cast panel at SacAnime in June 2019, Mellamphy was the second actor cast in the role, replacing another actor during production.",
+               "Sean est interprété par Michael \"Mick\" Mellamphy, qui assure la voix et la capture de mouvement. Selon une table ronde de la distribution à la SacAnime, en juin 2019, Mellamphy est le second acteur à avoir tenu le rôle, en remplacement d'un premier interprète en cours de production.")},
+     {"p": two("In January 2021, Mellamphy, Roger Clark (Arthur) and Penny O'Brien (Molly O'Shea) took part in an online panel organised by Origin Theatre's First Irish Festival, reported by TheGamer. He recalled asking Benjamin Byron Davis, who plays Dutch, whether Sean was really part of the gang, and being told: \"Mick, my man. Sean's part of the gang.\" On the accent, he said: \"There was just something very Dublin about [Sean] - working class, a bit of fun.\"",
+               "En janvier 2021, Mellamphy, Roger Clark (Arthur) et Penny O'Brien (Molly O'Shea) participent à une table ronde en ligne du First Irish Festival de l'Origin Theatre, rapportée par TheGamer. Il raconte avoir demandé à Benjamin Byron Davis, l'interprète de Dutch, si Sean faisait vraiment partie du gang, et s'être vu répondre qu'il en faisait bien partie. Sur l'accent, il explique que Sean lui a paru d'emblée très dublinois, issu du peuple et blagueur.")},
+     {"p": two("He also said that, as a player, he missed the party celebrating Sean's return, because he went hunting with Arthur and came back to a hungover camp the next morning.",
+               "Il confie aussi avoir manqué, en tant que joueur, la fête organisée pour le retour de Sean : parti chasser avec Arthur, il est revenu au camp le lendemain matin, au milieu d'une troupe gueule de bois.")},
+   ]},
+   {"summary": two("Reception","Accueil"), "blocks": [
+     {"p": two("In November 2018, Eurogamer published an article by Cian Maher titled \"Why Red Dead Redemption 2's Sean MacGuire is the best Irish character in a video game yet\". It ranks Sean above earlier Irish characters from Rockstar, including Irish in Red Dead Redemption and the McReary family in Grand Theft Auto IV, and praises the historical grounding of his background.",
+               "En novembre 2018, Eurogamer publie un article de Cian Maher qui fait de Sean le meilleur personnage irlandais de l'histoire du jeu vidéo. Il le place au-dessus des précédents personnages irlandais de Rockstar, dont Irish dans Red Dead Redemption et la famille McReary dans Grand Theft Auto IV, et salue l'ancrage historique de son passé.")},
+   ]},
+ ],
+ "rel_after": 0,
+ "relationships": [
+   {"img": "karen.jpeg", "slug": "karen-jones", "name": "Karen Jones", "text": two(
+     "Begins an affair with him after his rescue.",
+     "Entame une liaison avec lui après son sauvetage.")},
+   {"img": "arthur.jpeg", "slug": "arthur-morgan", "name": "Arthur Morgan", "text": two(
+     "Rescues him, then burns the Gray fields with him.",
+     "Le libère, puis incendie avec lui les champs des Gray.")},
+   {"img": "lenny.jpeg", "slug": "lenny-summers", "name": "Lenny Summers", "text": two(
+     "A fellow young member of the gang.",
+     "Autre jeune membre du gang.")},
+   {"img": "dutch.jpeg", "slug": "dutch-van-der-linde", "name": "Dutch van der Linde", "text": two(
+     "Takes him in after Sean fails to steal his watch.",
+     "L'accueille après que Sean a raté le vol de sa montre.")},
+ ],
+ "gallery": [
+   {"img": "gallery-1.jpeg", "alt": two("Sean MacGuire","Sean MacGuire"), "cap": two("Sean MacGuire.","Sean MacGuire.")},
+ ],
+ "related": ["karen-jones", "lenny-summers", "arthur-morgan", "bill-williamson"],
+},
+# ============================ LENNY SUMMERS ============================
+{
+ "slug": "lenny-summers", "name": "Lenny Summers",
+ "publishDate": "2026-06-27", "updated": "2026-10-06", "schema_game": "Red Dead Redemption 2",
+ "reg_role_en": "Van der Linde gang &middot; RDR2", "reg_role_fr": "Gang Van der Linde &middot; RDR2",
+ "gender": "Male", "birth": "1880", "death": "1899", "nationality": "American",
+ "portrait_alt": two("Lenny Summers in Red Dead Redemption 2", "Lenny Summers dans Red Dead Redemption 2"),
+ "eyebrow": two("Character &middot; Van der Linde gang", "Personnage &middot; Gang Van der Linde"),
+ "meta_desc": two("Lenny Summers: young gunman of the Van der Linde gang in Red Dead Redemption 2. His past, the Valentine bar night with Arthur, the Shady Belle raid, and his death in Saint Denis.",
+                  "Lenny Summers : jeune tireur du gang Van der Linde dans Red Dead Redemption 2. Son passé, la soirée au saloon de Valentine avec Arthur, l'attaque de Shady Belle, et sa mort à Saint-Denis."),
+ "og_desc": two("The gang's youngest gunman, Arthur's drinking partner in \"A Quiet Time\", killed during the Saint Denis bank job.",
+                "Le plus jeune tireur du gang, compagnon de beuverie d'Arthur dans \"A Quiet Time\", tué lors du braquage de Saint-Denis."),
+ "schema_desc": two("Young gunman of the Van der Linde gang in Red Dead Redemption 2.",
+                    "Jeune tireur du gang Van der Linde dans Red Dead Redemption 2."),
+ "chips": [two("1880&ndash;1899", "1880&ndash;1899"), two("Deceased", "Décédé"),
+           two("Van der Linde gang", "Gang Van der Linde"), two("Gunman", "Tireur")],
+ "facts": [
+   {"label": two("Full name","Nom complet"), "value": two("Leonard Summers","Leonard Summers")},
+   {"label": two("Born","Naissance"), "value": two("1880","1880")},
+   {"label": two("Died","Mort"), "value": two("1899, Saint Denis","1899, Saint-Denis")},
+   {"label": two("Status","Statut"), "value": two("Deceased","Décédé")},
+   {"label": two("Affiliation","Affiliation"), "value": two("Van der Linde gang","Gang Van der Linde")},
+   {"label": two("Voiced by","Voix"), "value": two("Harron Atkins","Harron Atkins")},
+   {"label": two("Games","Jeux"), "value": two("Red Dead Redemption 2","Red Dead Redemption 2")},
+ ],
+ "intro": [
+   two("Lenny Summers is the youngest gunman of the Van der Linde gang in Red Dead Redemption 2. Born in 1880 to former slaves, he is educated and close to [[arthur-morgan|Arthur Morgan]].",
+       "Lenny Summers est le plus jeune tireur du gang Van der Linde dans Red Dead Redemption 2. Né en 1880 de parents anciens esclaves, il est instruit et proche d'[[arthur-morgan|Arthur Morgan]]."),
+   two("He is killed in 1899 during the Saint Denis bank robbery.",
+       "Il est tué en 1899 pendant le braquage de la banque de Saint-Denis."),
+ ],
+ "sections": [
+   {"summary": two("Biography","Biographie"), "open": True, "blocks": [
+     {"h3": two("Origins","Origines")},
+     {"p": two("Lenny's father, an educated man, taught him to read and write. When Lenny was 15, his father was killed by drunken men; Lenny took a gun and shot them. He spent three years on the run before joining the gang.",
+               "Le père de Lenny, un homme instruit, lui apprend à lire et à écrire. Quand Lenny a 15 ans, son père est tué par des hommes ivres ; Lenny prend une arme et les abat. Il passe trois ans en fuite avant de rejoindre le gang.")},
+     {"h3": two("In the gang","Au sein du gang")},
+     {"p": two(f"In {cl(1,'chapter 1','en')}, Lenny takes part in the raid on the O'Driscoll camp. In {cl(2,'chapter 2','en')}, he scouts Strawberry with [[micah-bell|Micah Bell]]; Micah is arrested and Lenny rides back to camp alone. In \"A Quiet Time\", he and Arthur spend a night drinking at a saloon in Valentine.",
+               f"Au {cl(1,'chapitre 1','fr')}, Lenny participe à l'attaque du camp des O'Driscoll. Au {cl(2,'chapitre 2','fr')}, il part en reconnaissance à Strawberry avec [[micah-bell|Micah Bell]] ; Micah est arrêté et Lenny regagne seul le camp. Dans \"A Quiet Time\", Arthur et lui passent une nuit à boire dans un saloon de Valentine.")},
+     {"p": two(f"In {cl(3,'chapter 3','en')}, in \"Preaching Forgiveness as He Went\", a tip from Black residents of Rhodes leads Lenny and Arthur to the Lemoyne Raiders hiding at Shady Belle, whom they kill before seizing their weapons. Lenny also robs the Valentine bank with Arthur, Bill and [[karen-jones|Karen]].",
+               f"Au {cl(3,'chapitre 3','fr')}, dans \"Preaching Forgiveness as He Went\", un renseignement d'habitants noirs de Rhodes conduit Lenny et Arthur jusqu'aux Lemoyne Raiders retranchés à Shady Belle, qu'ils éliminent avant de s'emparer de leurs armes. Lenny braque aussi la banque de Valentine avec Arthur, Bill et [[karen-jones|Karen]].")},
+     {"h3": two("Death","Mort")},
+     {"p": two(f"In {cl(4,'chapter 4','en')}, during \"Banking, The Old American Art\", the robbery of the Saint Denis bank goes wrong. Lenny is shot by Pinkertons during the escape across the rooftops. [[hosea-matthews|Hosea Matthews]] is killed the same day.",
+               f"Au {cl(4,'chapitre 4','fr')}, dans \"Banking, The Old American Art\", le braquage de la banque de Saint-Denis tourne mal. Lenny est abattu par les Pinkerton pendant la fuite sur les toits. [[hosea-matthews|Hosea Matthews]] est tué le même jour.")},
+   ]},
+   {"summary": two("Development and performance","Conception et interprétation"), "blocks": [
+     {"p": two("Lenny is played by Harron Atkins, who provided the voice and the motion capture.",
+               "Lenny est interprété par Harron Atkins, qui assure la voix et la capture de mouvement.")},
+     {"p": two("Interviewed by Twinfinite in February 2019, Roger Clark, who plays Arthur, said the saloon scene was shot over \"two or three days\" and that by then he knew Atkins \"very well\". Rockstar told him the scene would use \"really frenetic editing\", unlike the rest of the game, to convey drunkenness.",
+               "Interrogé par Twinfinite en février 2019, Roger Clark, l'interprète d'Arthur, explique que la scène du saloon a été tournée sur deux ou trois jours, à un moment où il connaissait déjà très bien Harron Atkins. Rockstar lui avait annoncé un montage volontairement frénétique, à l'opposé du reste du jeu, pour rendre l'ivresse.")},
+   ]},
+   {"summary": two("Reception","Accueil"), "blocks": [
+     {"p": two("In February 2019, Game Informer's Jason Guisao described Lenny as \"a vocal reminder of the heightened racial tensions that plagued the wild frontier\" and called \"Preaching Forgiveness as He Went\" \"particularly striking\". The same month, Slate's Jonathan S. Jones cited Lenny, Arthur's \"protégé\", as part of the game's \"overt commentary about the brutality of life under slavery and Jim Crow\".",
+               "En février 2019, Jason Guisao, dans Game Informer, voit en Lenny un rappel explicite des tensions raciales de la Frontière et juge la mission \"Preaching Forgiveness as He Went\" particulièrement marquante. Le même mois, Jonathan S. Jones, dans Slate, cite Lenny, le protégé d'Arthur, parmi les éléments par lesquels le jeu commente ouvertement la brutalité de l'esclavage et des lois Jim Crow.")},
+   ]},
+ ],
+ "rel_after": 0,
+ "relationships": [
+   {"img": "arthur.jpeg", "slug": "arthur-morgan", "name": "Arthur Morgan", "text": two(
+     "His closest friend in the gang, from the Valentine saloon to Shady Belle.",
+     "Son ami le plus proche dans le gang, du saloon de Valentine à Shady Belle.")},
+   {"img": "micah.jpeg", "slug": "micah-bell", "name": "Micah Bell", "text": two(
+     "Scouts Strawberry with him before being arrested.",
+     "Part en reconnaissance avec lui à Strawberry avant d'être arrêté.")},
+   {"img": "hosea.jpeg", "slug": "hosea-matthews", "name": "Hosea Matthews", "text": two(
+     "Killed on the same day, during the Saint Denis bank job.",
+     "Tué le même jour, lors du braquage de Saint-Denis.")},
+   {"img": "sean.jpeg", "slug": "sean-macguire", "name": "Sean MacGuire", "text": two(
+     "A fellow young member of the gang.",
+     "Autre jeune membre du gang.")},
+   {"img": "dutch.jpeg", "slug": "dutch-van-der-linde", "name": "Dutch van der Linde", "text": two(
+     "Leads the Saint Denis robbery that costs Lenny his life.",
+     "Mène le braquage de Saint-Denis qui coûte la vie à Lenny.")},
+ ],
+ "gallery": [
+   {"img": "gallery-1.jpeg", "alt": two("Lenny Summers","Lenny Summers"), "cap": two("Lenny Summers.","Lenny Summers.")},
+ ],
+ "related": ["arthur-morgan", "hosea-matthews", "micah-bell", "sean-macguire"],
+},
+# ============================ KIERAN DUFFY ============================
+{
+ "slug": "kieran-duffy", "name": "Kieran Duffy",
+ "publishDate": "2026-07-01", "updated": "2026-10-06", "schema_game": "Red Dead Redemption 2",
+ "reg_role_en": "Van der Linde gang &middot; RDR2", "reg_role_fr": "Gang Van der Linde &middot; RDR2",
+ "gender": "Male", "death": "1899", "nationality": "American",
+ "portrait_alt": two("Kieran Duffy in Red Dead Redemption 2", "Kieran Duffy dans Red Dead Redemption 2"),
+ "eyebrow": two("Character &middot; Van der Linde gang", "Personnage &middot; Gang Van der Linde"),
+ "meta_desc": two("Kieran Duffy: former O'Driscoll who joins the Van der Linde gang in Red Dead Redemption 2. His capture, how he earns his place, and his murder by the O'Driscolls at Shady Belle.",
+                  "Kieran Duffy : ancien O'Driscoll qui rejoint le gang Van der Linde dans Red Dead Redemption 2. Sa capture, comment il gagne sa place, et son assassinat par les O'Driscoll à Shady Belle."),
+ "og_desc": two("The captured O'Driscoll who changes sides, and whose murder opens the attack on Shady Belle.",
+                "L'O'Driscoll capturé qui change de camp, et dont l'assassinat ouvre l'attaque de Shady Belle."),
+ "schema_desc": two("Former O'Driscoll Boys member who joins the Van der Linde gang in Red Dead Redemption 2.",
+                    "Ancien membre des O'Driscoll Boys devenu membre du gang Van der Linde dans Red Dead Redemption 2."),
+ "chips": [two("Died <strong>1899</strong>", "Mort en <strong>1899</strong>"), two("Deceased", "Décédé"),
+           two("Van der Linde gang", "Gang Van der Linde"), two("Former O'Driscoll", "Ancien O'Driscoll")],
+ "facts": [
+   {"label": two("Died","Mort"), "value": two("1899","1899")},
+   {"label": two("Status","Statut"), "value": two("Deceased","Décédé")},
+   {"label": two("Affiliation","Affiliation"), "value": two("O'Driscoll Boys (former), Van der Linde gang","O'Driscoll Boys (ancien), gang Van der Linde")},
+   {"label": two("Role","Rôle"), "value": two("Stable hand","Palefrenier")},
+   {"label": two("Voiced by","Voix"), "value": two("Pico Alexander","Pico Alexander")},
+   {"label": two("Games","Jeux"), "value": two("Red Dead Redemption 2","Red Dead Redemption 2")},
+ ],
+ "intro": [
+   two("Kieran Duffy is a former low-ranking member of the O'Driscoll Boys who joins the Van der Linde gang after being captured, in Red Dead Redemption 2.",
+       "Kieran Duffy est un ancien sous-fifre des O'Driscoll Boys qui rejoint le gang Van der Linde après avoir été capturé, dans Red Dead Redemption 2."),
+   two("He is murdered by the O'Driscolls in 1899, and his body is sent back to the gang's camp at Shady Belle.",
+       "Il est assassiné par les O'Driscoll en 1899, et son corps est renvoyé au camp du gang à Shady Belle."),
+ ],
+ "sections": [
+   {"summary": two("Biography","Biographie"), "open": True, "blocks": [
+     {"h3": two("Prisoner","Prisonnier")},
+     {"p": two(f"In {cl(1,'chapter 1','en')}, in \"Old Friends\", the gang raids an O'Driscoll camp. [[arthur-morgan|Arthur]] chases Kieran down, ropes him and brings him back to the Colter camp as a prisoner. At Horseshoe Overlook, he is kept tied to a tree.",
+               f"Au {cl(1,'chapitre 1','fr')}, dans \"Old Friends\", le gang attaque un camp des O'Driscoll. [[arthur-morgan|Arthur]] rattrape Kieran, le prend au lasso et le ramène prisonnier au camp de Colter. À Horseshoe Overlook, il reste attaché à un arbre.")},
+     {"p": two(f"In {cl(2,'chapter 2','en')}, in \"Paying a Social Call\", [[dutch-van-der-linde|Dutch]] orders [[bill-williamson|Bill]] to castrate him. Under the threat, Kieran reveals an O'Driscoll safehouse, Six Point Cabin, and leads Arthur, John and Bill there. [[colm-odriscoll|Colm O'Driscoll]] is not there. When an O'Driscoll jumps Arthur at the door, Kieran shoots him and saves Arthur's life. Arthur then lets him join the gang.",
+               f"Au {cl(2,'chapitre 2','fr')}, dans \"Paying a Social Call\", [[dutch-van-der-linde|Dutch]] ordonne à [[bill-williamson|Bill]] de le castrer. Sous la menace, Kieran livre une planque des O'Driscoll, Six Point Cabin, et y conduit Arthur, John et Bill. [[colm-odriscoll|Colm O'Driscoll]] n'y est pas. Quand un O'Driscoll se jette sur Arthur à la porte, Kieran l'abat et lui sauve la vie. Arthur accepte alors qu'il rejoigne le gang.")},
+     {"h3": two("In the gang","Au sein du gang")},
+     {"p": two("Kieran works with the horses at camp. According to the official guide, several members of the gang never fully accept him.",
+               "Kieran s'occupe des chevaux au camp. D'après le guide officiel, plusieurs membres du gang ne l'acceptent jamais vraiment.")},
+     {"h3": two("Death","Mort")},
+     {"p": two(f"In {cl(4,'chapter 4','en')}, Kieran disappears. In \"Horsemen, Apocalypses\", his body rides into the Shady Belle camp on his horse: he has been beheaded and his eyes gouged out. The O'Driscolls attack the camp immediately afterwards. Dutch has him buried by Charles, Pearson and Reverend Swanson.",
+               f"Au {cl(4,'chapitre 4','fr')}, Kieran disparaît. Dans \"Horsemen, Apocalypses\", son corps arrive au camp de Shady Belle sur son cheval : il a été décapité et a les yeux crevés. Les O'Driscoll attaquent le camp dans la foulée. Dutch le fait enterrer par Charles, Pearson et le révérend Swanson.")},
+   ]},
+   {"summary": two("Development and performance","Conception et interprétation"), "blocks": [
+     {"p": two("Kieran is played by Pico Alexander, an American actor born in New York in 1991, who provided the voice and the motion capture.",
+               "Kieran est interprété par Pico Alexander, acteur américain né à New York en 1991, qui assure la voix et la capture de mouvement.")},
+   ]},
+   {"summary": two("Reception","Accueil"), "blocks": [
+     {"p": two("In its December 2018 ranking of the gang's members, Game Informer placed Kieran 20th out of 24, noting \"a lot of pathos in his struggle for acceptance\", a journey \"cut short just as everyone starts to warm up to him\".",
+               "Dans son classement des membres du gang publié en décembre 2018, Game Informer place Kieran 20e sur 24, en soulignant ce que sa quête d'acceptation a de poignant, et un parcours interrompu au moment même où le camp commence à l'adopter.")},
+   ]},
+ ],
+ "rel_after": 0,
+ "relationships": [
+   {"img": "arthur.jpeg", "slug": "arthur-morgan", "name": "Arthur Morgan", "text": two(
+     "Captures him, then owes him his life at Six Point Cabin.",
+     "Le capture, puis lui doit la vie à Six Point Cabin.")},
+   {"img": "bill.jpeg", "slug": "bill-williamson", "name": "Bill Williamson", "text": two(
+     "Ordered by Dutch to castrate him, before Kieran talks.",
+     "Chargé par Dutch de le castrer, avant que Kieran ne parle.")},
+   {"img": "colm.jpeg", "slug": "colm-odriscoll", "name": "Colm O'Driscoll", "text": two(
+     "The leader of the gang he leaves, and whose men kill him.",
+     "Le chef du gang qu'il quitte, dont les hommes le tuent.")},
+   {"img": "dutch.jpeg", "slug": "dutch-van-der-linde", "name": "Dutch van der Linde", "text": two(
+     "Has him interrogated, then buried.",
+     "Le fait interroger, puis enterrer.")},
+ ],
+ "gallery": [
+   {"img": "gallery-1.jpeg", "alt": two("Kieran Duffy in the mountains","Kieran Duffy dans les montagnes"),
+    "cap": two("Kieran during the gang's time in the mountains.","Kieran pendant le séjour du gang dans les montagnes.")},
+ ],
+ "related": ["colm-odriscoll", "bill-williamson", "arthur-morgan", "dutch-van-der-linde"],
+},
+# ============================ ORVILLE SWANSON ============================
+{
+ "slug": "orville-swanson", "name": "Orville Swanson",
+ "publishDate": "2026-08-26", "updated": "2026-10-06", "schema_game": "Red Dead Redemption 2",
+ "reg_role_en": "Gang chaplain &middot; RDR2", "reg_role_fr": "Aumônier du gang &middot; RDR2",
+ "gender": "Male", "death": None, "nationality": "American",
+ "portrait_alt": two("Reverend Orville Swanson in Red Dead Redemption 2", "Le révérend Orville Swanson dans Red Dead Redemption 2"),
+ "eyebrow": two("Character &middot; Van der Linde gang", "Personnage &middot; Gang Van der Linde"),
+ "meta_desc": two("Reverend Orville Swanson: the former clergyman of the Van der Linde gang in Red Dead Redemption 2. His addictions, his rescue by Arthur, his sobriety, and his New York church in 1907.",
+                  "Le révérend Orville Swanson : l'ancien homme d'Église du gang Van der Linde dans Red Dead Redemption 2. Ses addictions, son sauvetage par Arthur, sa sobriété retrouvée, et son église new-yorkaise en 1907."),
+ "og_desc": two("The gang's fallen reverend, who gets sober after Guarma and leads a New York church by 1907.",
+                "Le révérend déchu du gang, qui retrouve la sobriété après Guarma et dirige une église new-yorkaise en 1907."),
+ "schema_desc": two("Former clergyman and member of the Van der Linde gang in Red Dead Redemption 2.",
+                    "Ancien homme d'Église, membre du gang Van der Linde dans Red Dead Redemption 2."),
+ "chips": [two("Van der Linde gang", "Gang Van der Linde"), two("Alive in 1907", "Vivant en 1907"),
+           two("Reverend", "Révérend"), two("RDR2", "RDR2")],
+ "facts": [
+   {"label": two("Affiliation","Affiliation"), "value": two("Van der Linde gang","Gang Van der Linde")},
+   {"label": two("Role","Rôle"), "value": two("Former clergyman","Ancien homme d'Église")},
+   {"label": two("In 1907","En 1907"), "value": two("Minister of the First Congregational Church of New York","Pasteur de la First Congregational Church de New York")},
+   {"label": two("Status","Statut"), "value": two("Alive in 1907","Vivant en 1907")},
+   {"label": two("Voiced by","Voix"), "value": two("Sean Haberle","Sean Haberle")},
+   {"label": two("Games","Jeux"), "value": two("Red Dead Redemption 2","Red Dead Redemption 2")},
+ ],
+ "intro": [
+   two("Reverend Orville Swanson is a former clergyman and a member of the Van der Linde gang in Red Dead Redemption 2. Rockstar's description notes that, had he not once saved Dutch's life, the gang would probably not have kept him around.",
+       "Le révérend Orville Swanson est un ancien homme d'Église, membre du gang Van der Linde dans Red Dead Redemption 2. Selon la présentation de Rockstar, s'il n'avait pas jadis sauvé la vie de Dutch, le gang ne l'aurait sans doute pas gardé si longtemps."),
+   two("He gets sober, leaves the gang before its collapse, and leads a church in New York by 1907.",
+       "Il retrouve la sobriété, quitte le gang avant sa chute, et dirige une église à New York en 1907."),
+ ],
+ "sections": [
+   {"summary": two("Biography","Biographie"), "open": True, "blocks": [
+     {"h3": two("A fallen reverend","Un révérend déchu")},
+     {"p": two("Swanson says he lost his vocation, his faith and his family. He is addicted to morphine and alcohol. He once saved [[dutch-van-der-linde|Dutch]]'s life, which is why the gang keeps him; the game never explains how.",
+               "Swanson dit avoir perdu sa vocation, sa foi et sa famille. Il est dépendant à la morphine et à l'alcool. Il a autrefois sauvé la vie de [[dutch-van-der-linde|Dutch]], ce qui explique que le gang le garde ; le jeu ne dit jamais dans quelles circonstances.")},
+     {"p": two("He speaks the game's first line, in the snowstorm of the opening mission, about the dying Davey Callahan: \"Abigail says he's dying, Dutch. We'll have to stop someplace.\"",
+               "C'est lui qui prononce la toute première réplique du jeu, dans la tempête de neige de la mission d'ouverture, au sujet de Davey Callahan, mourant : Abigail dit qu'il va mourir et qu'il faut s'arrêter quelque part.")},
+     {"h3": two("Who is Not Without Sin","Who is Not Without Sin")},
+     {"p": two(f"In {cl(2,'chapter 2','en')}, in \"Who is Not Without Sin\", [[arthur-morgan|Arthur]] finds him drunk at Flatneck Station, playing poker. Arthur saves him from a beating, then pulls him off the Bard's Crossing railway bridge, where his foot is stuck in the tracks, just before a train passes, and brings him back to camp.",
+               f"Au {cl(2,'chapitre 2','fr')}, dans \"Who is Not Without Sin\", [[arthur-morgan|Arthur]] le retrouve ivre à Flatneck Station, en pleine partie de poker. Il le tire d'une bagarre, puis le dégage du pont ferroviaire de Bard's Crossing, où son pied est coincé dans les rails, juste avant le passage d'un train, et le ramène au camp.")},
+     {"h3": two("Sobriety and departure","Sobriété et départ")},
+     {"p": two(f"In {cl(4,'chapter 4','en')}, after the O'Driscoll attack on Shady Belle, Dutch has him bury [[kieran-duffy|Kieran Duffy]] with [[charles-smith|Charles]] and [[simon-pearson|Pearson]]. After the gang's return from Guarma, Swanson is sober. He leaves the gang at {cl(6,'Beaver Hollow','en')}.",
+               f"Au {cl(4,'chapitre 4','fr')}, après l'attaque des O'Driscoll sur Shady Belle, Dutch le charge d'enterrer [[kieran-duffy|Kieran Duffy]] avec [[charles-smith|Charles]] et [[simon-pearson|Pearson]]. Après le retour de Guarma, Swanson est sobre. Il quitte le gang à {cl(6,'Beaver Hollow','fr')}.")},
+     {"p": two("At the end of \"The Fine Art of Conversation\", if Arthur's honor is low or he has not completed \"Of Men and Angels\", Swanson is the one Arthur meets at Emerald Station, boarding a train. Otherwise, Arthur meets Sister Calderón there.",
+               "À la fin de \"The Fine Art of Conversation\", si l'honneur d'Arthur est bas ou s'il n'a pas fait \"Of Men and Angels\", c'est Swanson qu'Arthur croise à Emerald Station, sur le point de prendre un train. Sinon, il y rencontre sœur Calderón.")},
+     {"h3": two("1907","1907")},
+     {"p": two("An in-game newspaper article, \"Reverend Swanson Leads NY Church\", reports that he has become minister of the First Congregational Church of New York, after preaching on street corners and serving as an assistant pastor in Ohio.",
+               "Un article de presse du jeu, \"Reverend Swanson Leads NY Church\", annonce qu'il est devenu pasteur de la First Congregational Church de New York, après avoir prêché au coin des rues puis servi comme pasteur adjoint dans l'Ohio.")},
+   ]},
+   {"summary": two("Development and performance","Conception et interprétation"), "blocks": [
+     {"p": two("Swanson is played by Sean Haberle, an American actor who provided the voice and the motion capture.",
+               "Swanson est interprété par Sean Haberle, acteur américain qui assure la voix et la capture de mouvement.")},
+   ]},
+   {"summary": two("Reception","Accueil"), "blocks": [
+     {"p": two("Game Informer's December 2018 ranking of the gang placed Swanson 17th, describing a character who \"bounces back and forth between a wise man and fool\". Polygon's Colin Campbell called him \"the drunken, self-loathing padre\" in November 2018. In April 2019, GamesRadar cited Swanson and Uncle as addicts the camp protects and shelters.",
+               "Le classement du gang publié par Game Informer en décembre 2018 place Swanson 17e, un personnage qui oscille selon le magazine entre le sage et le fou. Dans Polygon, en novembre 2018, Colin Campbell voit en lui le prêtre ivrogne qui se méprise. En avril 2019, GamesRadar cite Swanson et Uncle comme des dépendants que le camp protège et héberge.")},
+   ]},
+ ],
+ "rel_after": 0,
+ "relationships": [
+   {"img": "dutch.jpeg", "slug": "dutch-van-der-linde", "name": "Dutch van der Linde", "text": two(
+     "Owes him his life, which is why the gang keeps Swanson.",
+     "Lui doit la vie, raison pour laquelle le gang garde Swanson.")},
+   {"img": "arthur.jpeg", "slug": "arthur-morgan", "name": "Arthur Morgan", "text": two(
+     "Rescues him at Flatneck Station and on the Bard's Crossing bridge.",
+     "Le sauve à Flatneck Station et sur le pont de Bard's Crossing.")},
+   {"img": "charles.jpeg", "slug": "charles-smith", "name": "Charles Smith", "text": two(
+     "Buries Kieran Duffy with him.",
+     "Enterre Kieran Duffy avec lui.")},
+ ],
+ "gallery": [
+   {"img": "gallery-1.jpeg", "alt": two("Swanson's bible box","La bible de Swanson"),
+    "cap": two("Swanson's \"bible\", a box in which he hides his addictions.","La \"bible\" de Swanson, une boîte où il cache ses addictions.")},
+ ],
+ "related": ["dutch-van-der-linde", "arthur-morgan", "charles-smith", "molly-oshea"],
+},
+]
+ENRICHED += BATCH2
 
 
 if __name__ == "__main__":
