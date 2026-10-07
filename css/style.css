@@ -1378,6 +1378,24 @@ main:has(> article.article) > .breadcrumb {
     color: var(--accent);
     opacity: 1;
 }
+.accordion__body h4 {
+    font-family: var(--sans);
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1.3rem 0 0.4rem;
+    color: var(--text);
+}
+.accordion__body h4 .chapter-link {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+.accordion__body h4 .chapter-link:hover {
+    color: var(--accent);
+    opacity: 1;
+}
 .accordion__body h3 {
     font-size: 1.15rem;
     margin-top: 1.6rem;
