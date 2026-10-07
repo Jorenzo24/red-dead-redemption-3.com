@@ -315,9 +315,9 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   ATTENTION : ne pas re-publier une fiche enrichie depuis son ancien driver `_waveN.py`.
 - **GABARIT COMPLET « référence » (pilote John Marston, 7 oct. 2026, validé dans le principe)** : objectif
   = être la source la plus exhaustive ET la plus fiable (agrégation façon Red Dead Wiki + monde réel façon
-  Wikipédia). Ordre : intro, encadré « L'essentiel » (clé `essentials`), faits, Origines, puis un accordéon
-  par jeu/période avec sous-titres par chapitre liés au guide (clé `chapter`), Undead Nightmare (hors
-  canon), Relations, Missions (blocs `table`), Apparence et compétences, Citations (bloc `quotes`, VO +
+  Wikipédia). Ordre : intro, encadré « L'essentiel » (clé `essentials`), faits, puis UN SEUL accordéon « Biographie »
+  (h3 = périodes : Origines, RDR2 1899, épilogue 1907, RDR1, Undead Nightmare hors canon ; h4 = chapitres liés
+  au guide via la clé `chapter`), puis rubriques indépendantes : Relations, Missions (blocs `table`), Apparence et compétences, Citations (bloc `quotes`, VO +
   « Traduction » en FR), Conception et interprétation, Accueil, Autres médias, Anecdotes.
   Variantes : COMPLÈTE (majeurs), MOYENNE (secondaires à vrai rôle), COURTE (rôles brefs) ; jamais de
   section vide. Données longues dans `scripts/fiches/<slug>.py` (fonction `build(cl, CH)`).
@@ -409,5 +409,5 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Characters/Personnages · Articles · Timeline/Chronologie** + footer nav ; hub
   `/timeline/` + `/fr/chronologie/`. Email contact `contact@red-dead-redemption-3.com`
   (forwarder cPanel à créer).
-- **Cache-buster CSS** actuellement à `?v=20261007a` (cf. §8 : bumper à chaque modif CSS ;
+- **Cache-buster CSS** actuellement à `?v=20261007b` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20260624e`.

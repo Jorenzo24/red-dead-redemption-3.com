@@ -19,7 +19,7 @@ def two(en, fr): return {"en": en, "fr": fr}
 
 def build(cl, CH):
     BH = "Beecher's Hope"
-    def ch(n, en, fr): return {"h3": two(en, fr), "chapter": CH[n]}
+    def ch(n, en, fr): return {"h4": two(en, fr), "chapter": CH[n]}
     R2 = lambda mission, chap, en, fr: [mission, chap, two(en, fr)]
     return {
  "slug": "john-marston", "name": "John Marston",
@@ -65,17 +65,17 @@ def build(cl, CH):
    two("Rob Wiethoff's performance won Outstanding Character Performance at the 2011 D.I.C.E. Awards.",
        "Le jeu de Rob Wiethoff remporte le prix de la meilleure interprétation d'un personnage aux D.I.C.E. Awards 2011."),
  ],
- "rel_after": 4,
+ "rel_after": 0,
  "sections": [
    # ---------------------------------------------------------------- origins
-   {"summary": two("Origins","Origines"), "open": True, "blocks": [
+   {"summary": two("Biography","Biographie"), "open": True, "blocks": [
+     {"h3": two("Origins","Origines")},
      {"p": two("John was born in 1873, the year carved on his grave. In Red Dead Redemption, he tells Bonnie MacFarlane that his mother, a prostitute, died giving birth to him, and that his father, \"an illiterate Scot, born on the boat into New York\", was blinded in a bar fight and died when John was eight. Sent to an orphanage, he ran away.",
                "John naît en 1873, l'année gravée sur sa tombe. Dans Red Dead Redemption, il raconte à Bonnie MacFarlane que sa mère, une prostituée, est morte en le mettant au monde, et que son père, un Écossais illettré né sur le bateau qui l'amenait à New York, a été aveuglé dans une bagarre de bar avant de mourir quand John avait huit ans. Placé dans un orphelinat, il s'en enfuit.")},
      {"p": two("According to the official guide, he was about to be hanged for theft at twelve when [[dutch-van-der-linde|Dutch]] saved him. Dutch raised him in his gang alongside [[arthur-morgan|Arthur Morgan]] and taught him to read. [[abigail-marston|Abigail Roberts]] later joined the gang, and their son [[jack-marston|Jack]] was born. In Red Dead Redemption, John also mentions a daughter who died.",
                "D'après le guide officiel, il va être pendu pour vol à douze ans lorsque [[dutch-van-der-linde|Dutch]] le sauve. Dutch l'élève dans son gang aux côtés d'[[arthur-morgan|Arthur Morgan]] et lui apprend à lire. [[abigail-marston|Abigail Roberts]] rejoint ensuite le gang, et leur fils [[jack-marston|Jack]] voit le jour. Dans Red Dead Redemption, John évoque aussi une fille, morte.")},
-   ]},
-   # ---------------------------------------------------------------- RDR2 1899
-   {"summary": two("Red Dead Redemption 2 (1899)","Red Dead Redemption 2 (1899)"), "blocks": [
+     # ------------------------------------------------------------ RDR2 1899
+     {"h3": two("Red Dead Redemption 2 (1899)","Red Dead Redemption 2 (1899)")},
      ch(1, "Chapter 1: Colter", "Chapitre 1 : Colter"),
      {"p": two("After the failed ferry robbery in Blackwater, the gang flees into the snow. John, sent ahead to scout, goes missing for two days. In \"Enter, Pursued by a Memory\", Arthur and [[javier-escuella|Javier]] find his dead horse, then John himself on a ledge, wounded and surrounded by wolves, which have scarred his face. Bedridden, he stays out of the train robbery against [[leviticus-cornwall|Leviticus Cornwall]], and leaves Colter on a stretcher in a wagon.",
                "Après le braquage raté du ferry de Blackwater, le gang fuit dans la neige. Parti en éclaireur, John disparaît deux jours. Dans \"Enter, Pursued by a Memory\", Arthur et [[javier-escuella|Javier]] retrouvent son cheval mort, puis John lui-même sur une corniche, blessé et cerné par les loups, qui lui ont lacéré le visage. Alité, il ne participe pas à l'attaque du train de [[leviticus-cornwall|Leviticus Cornwall]], et quitte Colter sur une civière, dans un chariot.")},
@@ -93,9 +93,8 @@ def build(cl, CH):
                "Dans \"Visiting Hours\", Arthur et [[sadie-adler|Sadie]] font sortir John de Sisika en l'échangeant contre un gardien capturé, au grand déplaisir de Dutch. Avec Arthur, il fait sauter le pont de Bacchus ; Arthur le presse de partir avec sa famille. Lors de l'attaque du convoi de la solde de l'armée, dans \"Our Best Selves\", John est touché et tombe du train, et Dutch affirme qu'il n'a pas survécu.")},
      {"p": two("In the final mission, \"Red Dead Redemption\", John returns to Beaver Hollow (\"You left me... you left me to die!\") and sides with Arthur and [[susan-grimshaw|Susan Grimshaw]] against Micah. The Pinkertons attack and the two men flee. Whatever Arthur's last choice, he gives John his hat and satchel and stays behind; John rejoins Abigail and Jack.",
                "Lors de la dernière mission, \"Red Dead Redemption\", John revient à Beaver Hollow, reprochant à Dutch de l'avoir laissé mourir, et se range avec Arthur et [[susan-grimshaw|Susan Grimshaw]] contre Micah. Les Pinkerton attaquent et les deux hommes s'enfuient. Quel que soit le dernier choix d'Arthur, celui-ci confie à John son chapeau et sa sacoche et reste en arrière ; John rejoint Abigail et Jack.")},
-   ]},
-   # ---------------------------------------------------------------- RDR2 epilogue 1907
-   {"summary": two("Red Dead Redemption 2: the epilogue (1907)","Red Dead Redemption 2 : l'épilogue (1907)"), "blocks": [
+     # ------------------------------------------------------------ RDR2 epilogue 1907
+     {"h3": two("Red Dead Redemption 2: the epilogue (1907)","Red Dead Redemption 2 : l'épilogue (1907)")},
      ch("E1", "Epilogue I: Pronghorn Ranch", "Épilogue I : Pronghorn Ranch"),
      {"p": two("In 1907, the player controls John, who works at Pronghorn Ranch under the name Jim Milton. He recovers a stolen wagon from the Laramie Gang, then the ranch's cattle at Hanging Dog Ranch, where he kills the gang's leader. In Strawberry, he gives his real name at the post office. On the way back, three riders, one of them the brother of a man John killed earlier in Roanoke Ridge, attack him in front of Jack, and John kills them. Abigail leaves with Jack. John borrows money from a banker to buy land at Beecher's Hope, and [[uncle|Uncle]] joins him.",
                "En 1907, le joueur incarne John, qui travaille au Pronghorn Ranch sous le nom de Jim Milton. Il reprend un chariot volé au gang Laramie, puis le bétail du ranch à Hanging Dog Ranch, où il tue le chef du gang. À Strawberry, il donne son vrai nom au bureau de poste. Sur le chemin du retour, trois cavaliers, dont le frère d'un homme que John a tué plus tôt dans le Roanoke Ridge, l'attaquent sous les yeux de Jack, et John les abat. Abigail part avec Jack. John emprunte à un banquier pour acheter un terrain à Beecher's Hope, où [[uncle|Uncle]] le rejoint.")},
@@ -104,9 +103,8 @@ def build(cl, CH):
                "John retrouve [[charles-smith|Charles]] à Saint-Denis, accepte des primes avec Sadie, et bâtit une maison à Beecher's Hope avec Charles et Uncle. Abigail et Jack reviennent. En capturant un fugitif, il est attaqué par un grizzly, puis confie à Sadie vouloir épouser Abigail ; il la demande en mariage sur une barque.")},
      {"p": two("In \"American Venom\", John, Sadie and Charles track Micah to Mount Hagen, where Dutch is with him. Dutch shoots Micah in the chest and John finishes him. John takes the gang's money, pays off his debts and marries Abigail. The game ends with Edgar Ross and Archer Fordham watching the ranch.",
                "Dans \"American Venom\", John, Sadie et Charles retrouvent Micah au mont Hagen, où Dutch se trouve aussi. Dutch tire sur Micah, en pleine poitrine, et John l'achève. John récupère l'argent du gang, rembourse ses dettes et épouse Abigail. Le jeu se clôt sur Edgar Ross et Archer Fordham, qui observent le ranch.")},
-   ]},
-   # ---------------------------------------------------------------- RDR1
-   {"summary": two("Red Dead Redemption (1911-1914)","Red Dead Redemption (1911-1914)"), "blocks": [
+     # ------------------------------------------------------------ RDR1
+     {"h3": two("Red Dead Redemption (1911-1914)","Red Dead Redemption (1911-1914)")},
      ch("A1", "Act I: New Austin", "Acte I : New Austin"),
      {"p": two("In 1911, the Bureau of Investigation holds Abigail and Jack. Agents [[edgar-ross|Edgar Ross]] and [[archer-fordham|Archer Fordham]] put John on a train in Blackwater, sending him to New Austin to hunt down [[bill-williamson|Bill Williamson]]. At Fort Mercer, Bill refuses to surrender and one of his men shoots John, who is left for dead. [[bonnie-macfarlane|Bonnie MacFarlane]] takes him in, and he works on her ranch. He recruits [[leigh-johnson|Marshal Leigh Johnson]], [[nigel-west-dickens|Nigel West Dickens]], [[seth-briars|Seth Briars]] and [[irish|Irish]], then storms Fort Mercer from Dickens's wagon with a Gatling gun. Bill has already fled to Mexico.",
                "En 1911, le Bureau of Investigation retient Abigail et Jack. Les agents [[edgar-ross|Edgar Ross]] et [[archer-fordham|Archer Fordham]] mettent John dans un train à Blackwater, direction le New Austin, pour traquer [[bill-williamson|Bill Williamson]]. À Fort Mercer, Bill refuse de se rendre et l'un de ses hommes tire sur John, laissé pour mort. [[bonnie-macfarlane|Bonnie MacFarlane]] le recueille, et il travaille dans son ranch. Il recrute [[leigh-johnson|le marshal Leigh Johnson]], [[nigel-west-dickens|Nigel West Dickens]], [[seth-briars|Seth Briars]] et [[irish|Irish]], puis prend Fort Mercer d'assaut depuis le chariot de Dickens, armé d'une mitrailleuse Gatling. Bill s'est déjà enfui au Mexique.")},
@@ -118,12 +116,11 @@ def build(cl, CH):
                "Ross exige ensuite Dutch. Aidé du [[harold-macdougal|professeur MacDougal]] et de [[nastas|Nastas]], John le retrouve dans son repaire de Cochinay. Acculé au bord d'une falaise, Dutch lui dit que leur temps est révolu et se laisse tomber. Ross tire sur le corps, jugeant que \"ça fait mieux dans le rapport\".")},
      {"p": two("John returns to Beecher's Hope, to Abigail, Jack and Uncle. He works the ranch and saves Jack from a bear. In \"The Last Enemy That Shall Be Destroyed\", soldiers and agents led by Ross attack the ranch. Uncle is killed. John sends Abigail and Jack away on horseback, steps out of the barn alone and is shot dead. He is buried on the hill beside Uncle.",
                "John retrouve Beecher's Hope, Abigail, Jack et Uncle. Il travaille au ranch et sauve Jack d'un ours. Dans \"The Last Enemy That Shall Be Destroyed\", des soldats et des agents menés par Ross attaquent le ranch. Uncle est tué. John fait fuir Abigail et Jack à cheval, sort seul de la grange et tombe sous les balles. Il est enterré sur la colline, près d'Uncle.")},
-     {"h3": two("1914","1914")},
+     {"h4": two("1914","1914")},
      {"p": two("Three years later, Abigail dies and Jack buries her beside John. In \"Remember My Family\", Jack finds the retired Ross and kills him in a duel.",
                "Trois ans plus tard, Abigail meurt et Jack l'enterre près de John. Dans \"Remember My Family\", Jack retrouve Ross, à la retraite, et le tue en duel.")},
-   ]},
-   # ---------------------------------------------------------------- Undead Nightmare
-   {"summary": two("Undead Nightmare","Undead Nightmare"), "blocks": [
+     # ------------------------------------------------------------ Undead Nightmare
+     {"h3": two("Undead Nightmare (outside the canon)","Undead Nightmare (hors continuité)")},
      {"p": two("Undead Nightmare (2010) is an expansion outside the series' canon. A plague turns the dead into zombies: a zombified Uncle bites Abigail, who bites Jack. John ties them up and sets out to find a cure. His search leads him to Mexico, where he kills an undead Abraham Reyes and learns that the rebel leader had stolen an Aztec mask. Returning the mask to its catacomb ends the plague. In the last mission, Seth steals the mask again, and John rises from his grave as an undead man who has kept his soul.",
                "Undead Nightmare (2010) est une extension hors de la continuité officielle. Une épidémie relève les morts : Uncle, devenu zombie, mord Abigail, qui mord Jack. John les ligote et part chercher un remède. Sa quête le mène au Mexique, où il abat Reyes, devenu mort-vivant, et apprend que le chef rebelle avait volé un masque aztèque. Remettre le masque dans sa crypte met fin à l'épidémie. Dans la dernière mission, Seth vole de nouveau le masque, et John sort de sa tombe en mort-vivant qui a gardé son âme.")},
    ]},
