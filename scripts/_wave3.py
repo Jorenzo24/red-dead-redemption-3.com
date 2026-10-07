@@ -48,8 +48,8 @@ CHARS = [
      {"p": two("Bronte rules Saint Denis through bribery, intimidation and political connections. When the Braithwaites sell him [[jack-marston|Jack Marston]], the gang comes to his mansion to get the boy back, and Bronte returns Jack in exchange for a job.",
                "Bronte règne sur Saint-Denis par la corruption, l'intimidation et ses appuis politiques. Quand les Braithwaite lui vendent [[jack-marston|Jack Marston]], le gang se rend à son manoir pour récupérer l'enfant, et Bronte rend Jack en échange d'un service.")},
      {"h3": two("Alliance and betrayal","Alliance et trahison")},
-     {"p": two("Bronte and the gang work together briefly, but neither side trusts the other. In \"Revenge is a Dish Best Eaten\", the gang abducts him from his mansion, and [[dutch-van-der-linde|Dutch]] drowns him and feeds his body to an alligator.",
-               "Bronte et le gang collaborent brièvement, mais aucun des deux camps ne fait confiance à l'autre. Dans « Revenge is a Dish Best Eaten », le gang l'enlève de son manoir, et [[dutch-van-der-linde|Dutch]] le noie avant de livrer son corps à un alligator.")},
+     {"p": two("Bronte and the gang work together briefly, but neither side trusts the other. In \"Revenge is a Dish Best Eaten\", the gang abducts him from his mansion, and [[dutch-van-der-linde|Dutch]] kills him and throws his body to the alligators.",
+               "Bronte et le gang collaborent brièvement, mais aucun des deux camps ne fait confiance à l'autre. Dans « Revenge is a Dish Best Eaten », le gang l'enlève de son manoir, et [[dutch-van-der-linde|Dutch]] le tue et jette son corps aux alligators.")},
    ]},
    {"summary": two("Personality","Personnalité"), "blocks": [
      {"p": two("Charming, theatrical and cruel, Bronte plays the part of a refined aristocrat of crime. Beneath the manners he is a brutal operator who treats violence as ordinary business.",
@@ -67,7 +67,7 @@ CHARS = [
      {"ul": [
        two("He buys the kidnapped Jack Marston from the Braithwaites.","Il achète Jack Marston, enlevé, aux Braithwaite."),
        two("He calls himself a man of honour.","Il se présente comme un homme d'honneur."),
-       two("He is drowned and killed by Dutch.","Il est noyé et tué par Dutch."),
+       two("He is killed by Dutch.","Il est tué par Dutch."),
      ]},
    ]},
  ],
