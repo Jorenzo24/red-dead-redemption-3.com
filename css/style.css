@@ -1165,6 +1165,82 @@ main:has(> article.article) > .breadcrumb {
     grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
     gap: 0.9rem 1.5rem;
 }
+/* "Key facts" box under a fiche intro */
+.essentials {
+    margin-top: 1.25rem;
+    padding: 1rem 1.4rem 1.1rem;
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 8px;
+}
+.essentials__title {
+    font-size: 1.05rem;
+    margin: 0 0 0.5rem;
+}
+.essentials ul {
+    margin: 0;
+    padding-left: 1.2rem;
+    list-style: disc;
+}
+.essentials li + li {
+    margin-top: 0.3rem;
+}
+
+/* Data tables in fiches (missions...) */
+.table-wrap {
+    overflow-x: auto;
+    margin: 1rem 0 1.25rem;
+}
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+}
+.data-table th,
+.data-table td {
+    text-align: left;
+    vertical-align: top;
+    padding: 0.5rem 0.65rem;
+    border-bottom: 1px solid var(--border);
+}
+.data-table th {
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+.data-table td:first-child {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* In-game quotes */
+.quotes,
+.accordion__body .quotes {
+    list-style: none;
+    padding-left: 0;
+    margin: 0.5rem 0 0;
+    padding: 0;
+}
+.quotes li {
+    padding: 0.7rem 0 0.7rem 1rem;
+    border-left: 3px solid var(--accent);
+    margin-bottom: 0.8rem;
+}
+.quotes blockquote {
+    margin: 0;
+    font-style: italic;
+}
+.quotes cite {
+    display: block;
+    margin-top: 0.3rem;
+    font-size: 0.82rem;
+    font-style: normal;
+    color: var(--text-muted);
+}
+
 /* "In the story" chapter strip under the facts grid (scripts/gen_storystrip.py) */
 .storystrip {
     margin-top: 1rem;

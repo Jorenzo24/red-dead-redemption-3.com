@@ -1377,6 +1377,10 @@ MAINS1 = [
 ENRICHED += MAINS1
 
 
+# Full-template fiches (one module each in scripts/fiches/), replacing earlier entries.
+from fiches import john_marston as _jm
+ENRICHED = [c for c in ENRICHED if c["slug"] != "john-marston"] + [_jm.build(cl, CH)]
+
 if __name__ == "__main__":
     from characters_registry import CHARACTERS as REG
     for s, n, en, fr, _g in REG:

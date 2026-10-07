@@ -313,6 +313,20 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Reste : principaux (Hosea, Micah, Sadie, Charles, Bill, Javier, Abigail, Jack)
   puis hors-gang (RDR2 et RDR1).
   ATTENTION : ne pas re-publier une fiche enrichie depuis son ancien driver `_waveN.py`.
+- **GABARIT COMPLET « référence » (pilote John Marston, 7 oct. 2026, validé dans le principe)** : objectif
+  = être la source la plus exhaustive ET la plus fiable (agrégation façon Red Dead Wiki + monde réel façon
+  Wikipédia). Ordre : intro, encadré « L'essentiel » (clé `essentials`), faits, Origines, puis un accordéon
+  par jeu/période avec sous-titres par chapitre liés au guide (clé `chapter`), Undead Nightmare (hors
+  canon), Relations, Missions (blocs `table`), Apparence et compétences, Citations (bloc `quotes`, VO +
+  « Traduction » en FR), Conception et interprétation, Accueil, Autres médias, Anecdotes.
+  Variantes : COMPLÈTE (majeurs), MOYENNE (secondaires à vrai rôle), COURTE (rôles brefs) ; jamais de
+  section vide. Données longues dans `scripts/fiches/<slug>.py` (fonction `build(cl, CH)`).
+  **Protocole de vérification obligatoire** : (1) collecte sourcée par agents (wiki EN+FR + transcriptions
+  de missions, Wikipédia + sources primaires, walkthroughs), tags CONFIRMÉ (2 sources indépendantes ou
+  texte primaire) / WIKI-ONLY ; (2) seuls les CONFIRMÉS sont affirmés ; (3) CONTRE-VÉRIFICATION par un agent
+  indépendant qui relit le brouillon phrase par phrase pour le prendre en défaut ; on corrige TOUT avant
+  publication (pilote John : 11 problèmes trouvés, dont 3 erreurs) ; (4) cohérence avec guides et autres
+  fiches ; (5) registre des sources en docstring du module.
 - **Liens inter-fiches : JAMAIS de lien « vers l'avant ».** Une fiche ne lie (relations + tokens
   inline + cartes « More characters ») que des personnages DÉJÀ en ligne à SA `publishDate` ; le
   sens arrière d'une paire lie (ex. Seth→Nigel, Leigh→Bonnie), le sens avant reste en texte simple.
@@ -395,5 +409,5 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Characters/Personnages · Articles · Timeline/Chronologie** + footer nav ; hub
   `/timeline/` + `/fr/chronologie/`. Email contact `contact@red-dead-redemption-3.com`
   (forwarder cPanel à créer).
-- **Cache-buster CSS** actuellement à `?v=20261005f` (cf. §8 : bumper à chaque modif CSS ;
+- **Cache-buster CSS** actuellement à `?v=20261007a` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20260624e`.

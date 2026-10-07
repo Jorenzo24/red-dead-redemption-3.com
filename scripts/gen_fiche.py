@@ -16,7 +16,7 @@ See CHAR SCHEMA at the bottom for the expected dict shape.
 import json, os, re, html
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CSS_V = "20261005f"
+CSS_V = "20261007a"
 
 _MONTHS_EN = ["January", "February", "March", "April", "May", "June", "July",
               "August", "September", "October", "November", "December"]
@@ -99,6 +99,25 @@ def _accordion(sec, lang, depth, slug):
             out.append('                            <ul>')
             for li in b["ul"]:
                 out.append(f'                                <li>{_links(L(li), lang)}</li>')
+            out.append('                            </ul>')
+        elif "table" in b:
+            # data table, e.g. a character's missions: {"head": [two..], "rows": [[two|str, ..], ..]}
+            t = b["table"]
+            cell = (lambda x: _links(L(x) if isinstance(x, dict) else x, lang))
+            out.append('                            <div class="table-wrap">')
+            out.append('                            <table class="data-table">')
+            out.append('                                <thead><tr>' + "".join(f'<th scope="col">{cell(h)}</th>' for h in t["head"]) + '</tr></thead>')
+            out.append('                                <tbody>')
+            for row in t["rows"]:
+                out.append('                                    <tr>' + "".join(f'<td>{cell(x)}</td>' for x in row) + '</tr>')
+            out.append('                                </tbody>')
+            out.append('                            </table>')
+            out.append('                            </div>')
+        elif "quotes" in b:
+            # [{"q": two, "src": two}]: short in-game quotes with their mission
+            out.append('                            <ul class="quotes">')
+            for q in b["quotes"]:
+                out.append(f'                                <li><blockquote>{L(q["q"])}</blockquote><cite>{_links(L(q["src"]), lang)}</cite></li>')
             out.append('                            </ul>')
         elif "video" in b:
             # privacy-friendly YouTube embed (youtube-nocookie), lazy-loaded
@@ -206,6 +225,15 @@ def _page(c, lang):
         f'                    <div><dt>{L(f["label"])}</dt><dd>{_links(L(f["value"]), lang)}</dd></div>'
         for f in c["facts"])
     intro = "\n".join(f'                    <p>{_links(L(p), lang)}</p>' for p in c["intro"])
+    ess = c.get("essentials") or []
+    essentials = ""
+    if ess:
+        etitle = "Key facts" if lang == "en" else "L'essentiel"
+        items = "\n".join(f'                        <li>{_links(L(e), lang)}</li>' for e in ess)
+        essentials = (f'\n                <aside class="essentials" aria-label="{etitle}">\n'
+                      f'                    <h2 class="essentials__title">{etitle}</h2>\n'
+                      f'                    <ul>\n{items}\n                    </ul>\n'
+                      f'                </aside>\n')
 
     # accordions: bio + extra sections, relationships, gallery (relationships placed
     # at the position requested by data via c["rel_after"], default after section idx 1)
@@ -354,7 +382,7 @@ def _page(c, lang):
                 <div class="profile__intro">
 {intro}
                 </div>
-
+{essentials}
                 <dl class="profile__facts">
 {facts}
                 </dl>
