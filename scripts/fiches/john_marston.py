@@ -17,7 +17,7 @@ daughter's cause of death, who fires at Bill/Allende, "holy water", outfit names
 
 def two(en, fr): return {"en": en, "fr": fr}
 
-def build(cl, CH):
+def _build_v2(cl, CH):
     BH = "Beecher's Hope"
     def ch(n, en, fr): return {"h4": two(en, fr), "chapter": CH[n]}
     R2 = lambda mission, chap, en, fr: [mission, chap, two(en, fr)]
@@ -62,8 +62,8 @@ def build(cl, CH):
        "1907 : s'installe à Beecher's Hope avec Abigail et Jack, et tue [[micah-bell|Micah Bell]] avec Dutch au mont Hagen."),
    two("1911: forced by the Bureau of Investigation to hunt Bill Williamson, Javier Escuella and Dutch, then killed at his ranch by [[edgar-ross|Edgar Ross]]'s men.",
        "1911 : contraint par le Bureau of Investigation de traquer Bill Williamson, Javier Escuella et Dutch, puis tué dans son ranch par les hommes d'[[edgar-ross|Edgar Ross]]."),
-   two("Rob Wiethoff's performance won Outstanding Character Performance at the 2011 D.I.C.E. Awards.",
-       "Le jeu de Rob Wiethoff remporte le prix de la meilleure interprétation d'un personnage aux D.I.C.E. Awards 2011."),
+   two("Rob Wiethoff's performance won Outstanding Character Performance at the 14th Annual Interactive Achievement Awards, in February 2011 (now the D.I.C.E. Awards).",
+       "Le jeu de Rob Wiethoff remporte le prix de la meilleure interprétation d'un personnage aux 14th Annual Interactive Achievement Awards, en février 2011 (aujourd'hui D.I.C.E. Awards)."),
  ],
  "rel_after": 0,
  "sections": [
@@ -112,8 +112,8 @@ def build(cl, CH):
      {"p": two("In Mexico, John works both for the government side, [[agustin-allende|Colonel Allende]] and [[vincente-de-santa|Captain de Santa]], and for the rebels of [[abraham-reyes|Abraham Reyes]] and [[luisa-fortuna|Luisa Fortuna]]; [[landon-ricketts|Landon Ricketts]] trains him. Betrayed by the army, he joins the rebels. During the attack on El Presidio, [[javier-escuella|Javier Escuella]] escapes on horseback; at the end of the chase, the player chooses whether to capture him alive or kill him. Allende and Bill flee Escalera by stagecoach; once John stops it, each is shot by John or by Reyes, depending on the player's choices.",
                "Au Mexique, John travaille à la fois pour le camp gouvernemental, [[agustin-allende|le colonel Allende]] et [[vincente-de-santa|le capitaine de Santa]], et pour les rebelles d'[[abraham-reyes|Abraham Reyes]] et de [[luisa-fortuna|Luisa Fortuna]] ; [[landon-ricketts|Landon Ricketts]] l'entraîne. Trahi par l'armée, il rejoint les rebelles. Lors de l'attaque d'El Presidio, [[javier-escuella|Javier Escuella]] s'enfuit à cheval ; au terme de la poursuite, le joueur choisit de le capturer vivant ou de le tuer. Allende et Bill fuient Escalera en diligence ; une fois la voiture arrêtée, chacun est abattu par John ou par Reyes, selon les choix du joueur.")},
      ch("A3", "Act III: West Elizabeth and the return home", "Acte III : West Elizabeth et le retour"),
-     {"p": two("Ross then demands Dutch. Helped by [[harold-macdougal|Professor MacDougal]] and [[nastas|Nastas]], John tracks him to his hideout at Cochinay. Cornered on a cliff, Dutch tells him \"Our time is passed, John\" and lets himself fall. Ross shoots the body, saying \"it looks better in the report that way\".",
-               "Ross exige ensuite Dutch. Aidé du [[harold-macdougal|professeur MacDougal]] et de [[nastas|Nastas]], John le retrouve dans son repaire de Cochinay. Acculé au bord d'une falaise, Dutch lui dit que leur temps est révolu et se laisse tomber. Ross tire sur le corps, jugeant que \"ça fait mieux dans le rapport\".")},
+     {"p": two("Ross then demands Dutch. Helped by [[harold-macdougal|Professor MacDougal]] and [[nastas|Nastas]], John tracks him to his hideout at Cochinay. Cornered on a cliff, Dutch tells him \"Our time is passed, John\" and lets himself fall. Ross borrows John's gun and shoots the body: \"It looks better on the report that way.\"",
+               "Ross exige ensuite Dutch. Aidé du [[harold-macdougal|professeur MacDougal]] et de [[nastas|Nastas]], John le retrouve dans son repaire de Cochinay. Acculé au bord d'une falaise, Dutch lui dit que leur temps est révolu et se laisse tomber. Ross emprunte l'arme de John et tire sur le corps, parce que ça fera mieux dans le rapport.")},
      {"p": two("John returns to Beecher's Hope, to Abigail, Jack and Uncle. He works the ranch and saves Jack from a bear. In \"The Last Enemy That Shall Be Destroyed\", soldiers and agents led by Ross attack the ranch. Uncle is killed. John sends Abigail and Jack away on horseback, steps out of the barn alone and is shot dead. He is buried on the hill beside Uncle.",
                "John retrouve Beecher's Hope, Abigail, Jack et Uncle. Il travaille au ranch et sauve Jack d'un ours. Dans \"The Last Enemy That Shall Be Destroyed\", des soldats et des agents menés par Ross attaquent le ranch. Uncle est tué. John fait fuir Abigail et Jack à cheval, sort seul de la grange et tombe sous les balles. Il est enterré sur la colline, près d'Uncle.")},
      {"h4": two("1914","1914")},
@@ -202,8 +202,8 @@ def build(cl, CH):
      {"h3": two("Red Dead Redemption","Red Dead Redemption")},
      {"p": two("Rob Wiethoff, from Seymour, Indiana, lived in Los Angeles for about ten years, tending bar between rare acting jobs. He told Polygon in 2013 that his agent called him one night in December for an audition for an \"untitled video game project\", where he was handed his lines and a basket of laundry; he got the part a few days later. Recording ran for a couple of weeks at a time, followed by a month or two off, over two years, and he kept bartending throughout. \"The storyline was still being written as we were shooting\", he said.",
                "Rob Wiethoff, originaire de Seymour, dans l'Indiana, a vécu une dizaine d'années à Los Angeles, barman entre de rares rôles. Il raconte à Polygon en 2013 que son agent l'a appelé un soir de décembre pour une audition pour un \"projet de jeu vidéo sans titre\", où on lui a remis son texte et un panier de linge à plier ; il a obtenu le rôle quelques jours plus tard. Les enregistrements s'enchaînaient par périodes de deux semaines, entrecoupées d'un ou deux mois de pause, pendant deux ans, et il a continué à servir derrière le bar. L'histoire s'écrivait encore pendant le tournage, précise-t-il.")},
-     {"p": two("According to producer Rob Nelson, the very first cutscene shot was John finding Nigel West Dickens injured on the prairie. The game's manual credits Wiethoff together with three other performers for John's motion capture. Technical director Ted Carson told GameSpot in 2010 that John \"has a foot in both the old world and the world that was to come\", and that the team wanted \"a nuanced character, as opposed to a straightforward hero or villain\". Dan Houser told USA Today: \"John is a family man.\"",
-               "D'après le producteur Rob Nelson, la toute première cinématique tournée est celle où John trouve Nigel West Dickens blessé dans la prairie. Le manuel du jeu crédite Wiethoff et trois autres interprètes pour la capture de mouvement de John. Le directeur technique Ted Carson explique à GameSpot en 2010 que John a un pied dans l'ancien monde et un dans celui qui vient, et que l'équipe voulait un personnage nuancé plutôt qu'un héros ou un méchant tout d'une pièce. Dan Houser résume à USA Today : John est un père de famille.")},
+     {"p": two("According to producer Rob Nelson, the very first cutscene shot was John finding Nigel West Dickens injured on the prairie. The game's manual credits Wiethoff together with three other performers for John's motion capture. Technical director Ted Carson told GameSpot in 2010 that John \"has a foot in both the old world and the world that was to come\", and that the team wanted \"a nuanced character, as opposed to a straightforward hero or villain\". Dan Houser told USA Today in May 2010 that the game has no brothels for John because he is \"a family man\".",
+               "D'après le producteur Rob Nelson, la toute première cinématique tournée est celle où John trouve Nigel West Dickens blessé dans la prairie. Le manuel du jeu crédite Wiethoff et trois autres interprètes pour la capture de mouvement de John. Le directeur technique Ted Carson explique à GameSpot en 2010 que John a un pied dans l'ancien monde et un dans celui qui vient, et que l'équipe voulait un personnage nuancé plutôt qu'un héros ou un méchant tout d'une pièce. Dan Houser explique à USA Today, en mai 2010, que le jeu ne propose pas de maison close à John, parce qu'il est un père de famille.")},
      {"h3": two("Red Dead Redemption 2","Red Dead Redemption 2")},
      {"p": two("Rockstar called Wiethoff back in 2014. Told he would be needed for about a year and would not be the playable character, he used up his leave at a construction job, then quit, and ended up working on the game for nearly four years, according to a 2021 feature by Indiana University. Producer Rob Nelson told Variety the writers \"had to be careful not to John it up too much\". Wiethoff told The Hollywood Reporter he drew on the older friends of his sister to play a younger John.",
                "Rockstar rappelle Wiethoff en 2014. Annoncé pour un an environ, et pas comme personnage jouable, le rôle l'oblige à épuiser ses congés sur un chantier, puis à démissionner ; il travaillera finalement près de quatre ans sur le jeu, selon un portrait publié par l'université de l'Indiana en 2021. Le producteur Rob Nelson explique à Variety que les scénaristes ont pris garde à ne pas trop mettre John en avant. Wiethoff confie au Hollywood Reporter s'être inspiré des amis plus âgés de sa sœur pour jouer un John plus jeune.")},
@@ -211,8 +211,8 @@ def build(cl, CH):
    # ---------------------------------------------------------------- reception
    {"summary": two("Reception","Accueil"), "blocks": [
      {"ul": [
-       two("2011 D.I.C.E. Awards: won Outstanding Character Performance (Rob Wiethoff).",
-           "D.I.C.E. Awards 2011 : prix de la meilleure interprétation d'un personnage (Rob Wiethoff)."),
+       two("14th Interactive Achievement Awards (February 2011, now D.I.C.E.): won Outstanding Character Performance (Rob Wiethoff).",
+           "14th Interactive Achievement Awards (février 2011, aujourd'hui D.I.C.E.) : prix de la meilleure interprétation d'un personnage (Rob Wiethoff)."),
        two("2010 Spike Video Game Awards: nominated for Best Performance by a Human Male (Wiethoff) and for Character of the Year (John Marston).",
            "Spike Video Game Awards 2010 : nommé pour la meilleure interprétation masculine (Wiethoff) et pour le personnage de l'année (John Marston)."),
      ]},
@@ -260,3 +260,50 @@ def build(cl, CH):
  ],
  "related": ["arthur-morgan", "abigail-marston", "jack-marston", "dutch-van-der-linde"],
 }
+
+
+# ---------------------------------------------------------------------------
+# v3 (8 Oct 2026): exhaustive version. The body comes from five drafted parts
+# (scripts/fiches/parts/john_A..E.py), written against the Red Dead Wiki page
+# under scripts/coverage.py's spec; Development and Reception are kept from v2.
+def build(cl, CH):
+    import importlib
+    P = {k: importlib.import_module(f"fiches.parts.john_{k}") for k in "ABCDE"}
+    d = _build_v2(cl, CH)
+    keep = {sec["summary"]["en"]: sec for sec in d["sections"]}
+
+    def fix(blocks):
+        out = []
+        for b in blocks:
+            b = dict(b)
+            if "chapter" in b and not isinstance(b["chapter"], tuple):
+                b["chapter"] = CH[b["chapter"]]
+            out.append(b)
+        return out
+
+    def sec(en, fr, blocks, open_=False):
+        blocks = fix(blocks)
+        # drop a leading h3 that only repeats the section title
+        if blocks and "h3" in blocks[0] and blocks[0]["h3"]["en"].strip().lower().startswith(en.lower()[:10]):
+            blocks = blocks[1:]
+        x = {"summary": {"en": en, "fr": fr}, "blocks": blocks}
+        if open_:
+            x["open"] = True
+        return x
+
+    d["sections"] = [
+        sec("Biography", "Biographie", P["A"].BLOCKS + P["B"].BLOCKS + P["C"].BLOCKS_UN, open_=True),
+        sec("Personality", "Personnalité", P["D"].BLOCKS_PERSONALITY),
+        sec("Appearance", "Apparence", P["D"].BLOCKS_APPEARANCE),
+        sec("Skills, weapons and horses", "Compétences, armes et chevaux", P["D"].BLOCKS_SKILLS),
+        sec("Relationships in detail", "Relations en détail", P["D"].BLOCKS_RELATIONSHIPS),
+        sec("Missions", "Missions", P["C"].BLOCKS_MISSIONS),
+        sec("Quotes", "Citations", P["E"].BLOCKS_QUOTES),
+        keep["Development and performance"],
+        keep["Reception"],
+        sec("Other media and legacy", "Autres médias et postérité", P["E"].BLOCKS_MEDIA),
+        sec("Trivia", "Anecdotes", P["E"].BLOCKS_TRIVIA),
+    ]
+    d["rel_after"] = 4   # relationship cards right after "Relationships in detail"
+    d["updated"] = "2026-10-08"
+    return d
