@@ -294,9 +294,7 @@ def build(cl, CH):
     d["sections"] = [
         sec("Biography", "Biographie", P["A"].BLOCKS + P["B"].BLOCKS + P["C"].BLOCKS_UN, open_=True),
         sec("Personality", "Personnalité", P["D"].BLOCKS_PERSONALITY),
-        sec("Appearance", "Apparence", P["D"].BLOCKS_APPEARANCE),
         sec("Skills, weapons and horses", "Compétences, armes et chevaux", P["D"].BLOCKS_SKILLS),
-        sec("Relationships in detail", "Relations en détail", P["D"].BLOCKS_RELATIONSHIPS),
         sec("Missions", "Missions", P["C"].BLOCKS_MISSIONS),
         sec("Quotes", "Citations", P["E"].BLOCKS_QUOTES),
         keep["Development and performance"],
@@ -304,6 +302,56 @@ def build(cl, CH):
         sec("Other media and legacy", "Autres médias et postérité", P["E"].BLOCKS_MEDIA),
         sec("Trivia", "Anecdotes", P["E"].BLOCKS_TRIVIA),
     ]
-    d["rel_after"] = 4   # relationship cards right after "Relationships in detail"
+    # One illustrated "Relationships" section (portrait + detailed text per person)
+    # replaces the short cast list and the former "Relationships in detail".
+    d["relationships"] = P["D"].RELATIONSHIPS
+    d["rel_after"] = 1   # right after Personality
+    d["gallery"] = GALLERY
     d["updated"] = "2026-10-08"
     return d
+
+# Gallery: in-game captures and official renders sourced from the Red Dead Wiki
+# (rights checked by Joseph before publication), chronological order.
+def _g(n, alt_en, alt_fr, cap_en, cap_fr):
+    return {"img": f"gallery-{n}.jpeg", "alt": two(alt_en, alt_fr), "cap": two(cap_en, cap_fr)}
+
+GALLERY = [
+    _g(1, "Official Red Dead Redemption artwork of John Marston", "Artwork officiel de Red Dead Redemption représentant John Marston",
+       "Official Red Dead Redemption key art.", "Artwork officiel de Red Dead Redemption."),
+    _g(3, "John Marston lying wounded in the snow after the wolf attack", "John Marston blessé dans la neige après l'attaque des loups",
+       "1899, chapter 1: John found in the snow after the wolf attack, in \"Enter, Pursued by a Memory\".", "1899, chapitre 1 : John retrouvé dans la neige après l'attaque des loups, dans \"Enter, Pursued by a Memory\"."),
+    _g(4, "Close-up of John Marston's scarred face in 1899", "Gros plan sur le visage balafré de John Marston en 1899",
+       "1899: the stitched scars from chapter 2 onwards.", "1899 : les cicatrices recousues, à partir du chapitre 2."),
+    _g(5, "John Marston walking through the Lemoyne countryside", "John Marston marchant dans la campagne du Lemoyne",
+       "1899: John in Lemoyne, in his usual grey coat and gambler hat.", "1899 : John dans le Lemoyne, avec son manteau gris et son chapeau de joueur."),
+    _g(6, "John Marston firing a revolver in a town street", "John Marston tirant au revolver dans une rue",
+       "1899: John in a street gunfight.", "1899 : John dans une fusillade en ville."),
+    _g(7, "John Marston aiming a gun inside a barn", "John Marston braquant une arme dans une grange",
+       "1907, \"Jim Milton Rides, Again?\": the barn at Hanging Dog Ranch, where the Laramie gang leader ambushes him.", "1907, \"Jim Milton Rides, Again?\" : la grange de Hanging Dog Ranch, où le chef du gang Laramie lui tend une embuscade."),
+    _g(8, "John and Abigail Marston standing side by side", "John et Abigail Marston côte à côte",
+       "1907: John and Abigail at Pronghorn Ranch.", "1907 : John et Abigail au Pronghorn Ranch."),
+    _g(9, "John Marston drawing his Cattleman Revolver", "John Marston dégainant son Cattleman Revolver",
+       "1907: John with his own Cattleman Revolver, blackened steel and bone grip.", "1907 : John avec son Cattleman Revolver personnel, acier noirci et crosse en os."),
+    _g(10, "Sepia photograph of the Marston family beside a wagon", "Photographie sépia de la famille Marston près d'un chariot",
+       "1907: the Marston family photograph.", "1907 : la photographie de la famille Marston."),
+    _g(11, "John Marston walking through the snow on Mount Hagen", "John Marston dans la neige du mont Hagen",
+       "1907, \"American Venom\": the climb of Mount Hagen to reach Micah.", "1907, \"American Venom\" : l'ascension du mont Hagen pour atteindre Micah."),
+    _g(12, "Edgar Ross and Archer Fordham escorting John Marston through Blackwater", "Edgar Ross et Archer Fordham escortant John Marston à Blackwater",
+       "1911, \"Exodus in America\": Ross and Fordham walk John through Blackwater to his train.", "1911, \"Exodus in America\" : Ross et Fordham escortent John à travers Blackwater jusqu'à son train."),
+    _g(13, "John Marston firing a Gatling gun from a wagon", "John Marston tirant à la mitrailleuse Gatling depuis un chariot",
+       "1911, \"The Assault on Fort Mercer\": John at the Gatling gun hidden in Dickens's wagon.", "1911, \"The Assault on Fort Mercer\" : John à la Gatling cachée dans le chariot de Dickens."),
+    _g(14, "John Marston riding through a New Austin town", "John Marston à cheval dans une ville du New Austin",
+       "1911: John on horseback in New Austin.", "1911 : John à cheval dans le New Austin."),
+    _g(15, "Close-up of John Marston in Chuparosa", "Gros plan sur John Marston à Chuparosa",
+       "1911: John in Chuparosa, Nuevo Paraíso.", "1911 : John à Chuparosa, au Nuevo Paraíso."),
+    _g(16, "John Marston aboard a train at night, lantern in hand", "John Marston à bord d'un train, de nuit, une lanterne à la main",
+       "1911: John aboard a train.", "1911 : John à bord d'un train."),
+    _g(17, "John Marston facing soldiers at Beecher's Hope", "John Marston face aux soldats à Beecher's Hope",
+       "1911, \"The Last Enemy That Shall Be Destroyed\": the final stand at Beecher's Hope.", "1911, \"The Last Enemy That Shall Be Destroyed\" : le dernier affrontement à Beecher's Hope."),
+    _g(18, "Abigail and Jack Marston standing at John's grave", "Abigail et Jack Marston devant la tombe de John",
+       "Abigail and Jack at John's grave, on the hill above Beecher's Hope. The epitaph reads \"Blessed are the peacemakers\".", "Abigail et Jack devant la tombe de John, sur la colline de Beecher's Hope. L'épitaphe : \"Blessed are the peacemakers\"."),
+    _g(19, "John Marston facing a horde of undead in Blackwater", "John Marston face à une horde de morts-vivants à Blackwater",
+       "Undead Nightmare: John against the undead in Blackwater.", "Undead Nightmare : John face aux morts-vivants à Blackwater."),
+    _g(20, "John Marston on horseback at dusk", "John Marston à cheval au crépuscule",
+       "John on the trail.", "John sur les pistes."),
+]

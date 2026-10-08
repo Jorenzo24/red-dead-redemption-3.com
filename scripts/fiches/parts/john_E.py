@@ -195,6 +195,8 @@ BLOCKS_TRIVIA = [
             "Dans l'épilogue, revenir sur un ancien campement déclenche des réminiscences : John entend des répliques des membres du gang tirées du chapitre qui s'y déroulait."),
         two("Antagonized at Beecher's Hope, Abigail sometimes snaps back with his full name, which the subtitles misspell as \"John Martson\".",
             "Quand John la provoque à Beecher's Hope, Abigail lui répond parfois en l'appelant par son nom complet, que les sous-titres écrivent \"John Martson\"."),
+        two("By 1907 the wolf scars have closed into two lines across one cheek and one on the upper lip, where his beard no longer grows. Micah and Sean call him \"Scarface\" because of them.",
+            "En 1907, les cicatrices laissées par les loups se sont refermées en deux traits sur une joue et un sur la lèvre supérieure, où la barbe ne repousse plus. Micah et Sean l'appellent \"Scarface\" à cause d'elles."),
     ]},
     {"h4": two("Red Dead Online", "Red Dead Online")},
     {"ul": [

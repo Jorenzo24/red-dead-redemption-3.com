@@ -2,7 +2,48 @@ document.addEventListener('DOMContentLoaded', () => {
     const yearEl = document.getElementById('year');
     if (yearEl) yearEl.textContent = new Date().getFullYear();
     initNav();
+    initYearChip();
 });
+
+/* Sticky year chip on long biographies: reads data-year from the section
+   headings and shows the one the reader is currently under. */
+function initYearChip() {
+    const heads = Array.from(document.querySelectorAll('.accordion__body [data-year]'));
+    if (!heads.length) return;
+    const chip = document.createElement('div');
+    chip.className = 'year-chip';
+    chip.setAttribute('aria-hidden', 'true');
+    document.body.appendChild(chip);
+    const header = document.querySelector('.site-header');
+    let shown = '';
+    let queued = false;
+    const update = () => {
+        queued = false;
+        const top = header ? header.offsetHeight : 0;
+        const line = top + 28;
+        let cur = null;
+        for (const h of heads) {
+            if (!h.offsetParent) continue;                 // inside a closed <details>
+            if (h.getBoundingClientRect().top <= line) cur = h; else break;
+        }
+        let year = cur ? cur.dataset.year : '';
+        if (cur) {
+            const body = cur.closest('.accordion__body');
+            if (body && body.getBoundingClientRect().bottom < line + 40) year = '';
+        }
+        if (year !== shown) {
+            shown = year;
+            if (year) chip.textContent = year;
+            chip.classList.toggle('is-on', !!year);
+        }
+        chip.style.setProperty('--header-h', top + 'px');
+    };
+    const schedule = () => { if (!queued) { queued = true; requestAnimationFrame(update); } };
+    window.addEventListener('scroll', schedule, { passive: true });
+    window.addEventListener('resize', schedule);
+    document.querySelectorAll('details.accordion').forEach(d => d.addEventListener('toggle', schedule));
+    update();
+}
 
 function initNav() {
     const header = document.querySelector('.site-header');
