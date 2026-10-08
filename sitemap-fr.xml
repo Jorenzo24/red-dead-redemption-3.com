@@ -730,4 +730,13 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/articles/mod-mexique-rdr2-nuevo-paraiso/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/articles/rdr2-mexico-mod-nuevo-paraiso/"/>
     </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/fr/articles/mise-a-jour-next-gen-rdr2-ce-qui-a-ete-dit/</loc>
+        <lastmod>2026-10-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/articles/rdr2-next-gen-update-what-has-been-said/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/articles/mise-a-jour-next-gen-rdr2-ce-qui-a-ete-dit/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/articles/rdr2-next-gen-update-what-has-been-said/"/>
+    </url>
 </urlset>
