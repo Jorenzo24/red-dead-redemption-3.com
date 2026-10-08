@@ -321,6 +321,13 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   « Traduction » en FR), Conception et interprétation, Accueil, Autres médias, Anecdotes.
   Variantes : COMPLÈTE (majeurs), MOYENNE (secondaires à vrai rôle), COURTE (rôles brefs) ; jamais de
   section vide. Données longues dans `scripts/fiches/<slug>.py` (fonction `build(cl, CH)`).
+  **v3 (8 oct. 2026, validé par Joseph) : le Red Dead Wiki (Fandom) est la BASE de structure.** On couvre
+  TOUT ce qu'il dit de non spéculatif, puis on AJOUTE (Wikipédia, interviews, accueil, sources). Longueur
+  ≥ page du wiki. Le contenu de jeu décrit par le wiki (missions, dialogues, tenues, objets) est admis s'il
+  n'est pas contredit ; on écarte interprétations, théories, spéculation. Outil : `python scripts/coverage.py
+  <slug> <Page_Wiki> [--save DIR]` (compare section par section). Rédaction des fiches majeures répartie
+  entre agents selon une spec commune (style, format des blocs, liens), puis assemblage, contre-vérification
+  ET contrôle de couverture. À appliquer à TOUTES les fiches, existantes et nouvelles.
   **Protocole de vérification obligatoire** : (1) collecte sourcée par agents (wiki EN+FR + transcriptions
   de missions, Wikipédia + sources primaires, walkthroughs), tags CONFIRMÉ (2 sources indépendantes ou
   texte primaire) / WIKI-ONLY ; (2) seuls les CONFIRMÉS sont affirmés ; (3) CONTRE-VÉRIFICATION par un agent
