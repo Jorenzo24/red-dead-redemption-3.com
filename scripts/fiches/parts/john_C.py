@@ -2,7 +2,7 @@ def two(en, fr): return {"en": en, "fr": fr}
 
 # ============================================================== UNDEAD NIGHTMARE
 BLOCKS_UN = [
-    {"h3": two("Undead Nightmare (outside the canon)", "Undead Nightmare (hors continuité)")},
+    {"h3": two("Undead Nightmare (outside the canon)", "Undead Nightmare (hors continuité)"), "year": ""},
     {"p": two("Undead Nightmare is a single-player expansion for Red Dead Redemption, released in October 2010. Its events are not part of the series' canon and have no effect on the main story. The expansion is set at a point where John, Abigail, Jack and Uncle are all alive at Beecher's Hope: after \"The Outlaw's Return\" and before \"The Last Enemy That Shall Be Destroyed\". A plague raises the dead across the whole map. John crosses West Elizabeth, New Austin and Nuevo Paraíso in search of a cure. The game splits its content into eight main missions and six side missions, several of them given by characters from the main game.",
               "Undead Nightmare est une extension solo de Red Dead Redemption, sortie en octobre 2010. Ses événements ne font pas partie de la continuité officielle et ne changent rien à l'histoire principale. L'action se situe à un moment où John, Abigail, Jack et Uncle vivent tous à Beecher's Hope : après \"The Outlaw's Return\" et avant \"The Last Enemy That Shall Be Destroyed\". Une épidémie relève les morts sur toute la carte. John traverse West Elizabeth, le New Austin et le Nuevo Paraíso en quête d'un remède. Le contenu se répartit en huit missions principales et six missions secondaires, dont plusieurs confiées par des personnages du jeu de base.")},
 

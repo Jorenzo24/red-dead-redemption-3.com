@@ -16,7 +16,8 @@ See CHAR SCHEMA at the bottom for the expected dict shape.
 import json, os, re, html
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CSS_V = "20261007b"
+CSS_V = "20261008a"
+JS_V = "20261008a"
 
 _MONTHS_EN = ["January", "February", "March", "April", "May", "June", "July",
               "August", "September", "October", "November", "December"]
@@ -88,18 +89,18 @@ def _accordion(sec, lang, depth, slug):
             ch = b.get("chapter")
             if ch:
                 href = f"/story/{ch[0]}/" if lang == "en" else f"/fr/histoire/{ch[1]}/"
-                out.append(f'                            <h4><a class="chapter-link" href="{href}">{L(b["h4"])}</a></h4>')
+                out.append(f'                            <h4{_year(b)}><a class="chapter-link" href="{href}">{L(b["h4"])}</a></h4>')
             else:
-                out.append(f'                            <h4>{L(b["h4"])}</h4>')
+                out.append(f'                            <h4{_year(b)}>{L(b["h4"])}</h4>')
         elif "h3" in b:
             # optional "chapter" key: (en_slug, fr_slug) of a story guide; the heading
             # text itself becomes the link to that guide
             ch = b.get("chapter")
             if ch:
                 href = f"/story/{ch[0]}/" if lang == "en" else f"/fr/histoire/{ch[1]}/"
-                out.append(f'                            <h3><a class="chapter-link" href="{href}">{L(b["h3"])}</a></h3>')
+                out.append(f'                            <h3{_year(b)}><a class="chapter-link" href="{href}">{L(b["h3"])}</a></h3>')
             else:
-                out.append(f'                            <h3>{L(b["h3"])}</h3>')
+                out.append(f'                            <h3{_year(b)}>{L(b["h3"])}</h3>')
         elif "p" in b:
             out.append(f'                            <p>{_links(L(b["p"]), lang)}</p>')
         elif "ul" in b:
@@ -146,6 +147,12 @@ def _accordion(sec, lang, depth, slug):
     return "\n".join(out)
 
 
+def _year(b):
+    """Optional "year" key on h3/h4 blocks -> data-year, read by the sticky year
+    chip (js/main.js) while scrolling a long biography. "" hides the chip."""
+    return f' data-year="{b["year"]}"' if "year" in b else ""
+
+
 def _relationships(rels, lang, depth, slug):
     L = (lambda d: d[lang])
     base = "/characters/" if lang == "en" else "/fr/personnages/"
@@ -164,7 +171,8 @@ def _relationships(rels, lang, depth, slug):
                 f'                                <img class="rel__img" src="{img}" alt="{r["name"]}" loading="lazy"{style}>',
                 '                                <div class="rel__body">',
                 f'                                    {head}',
-                f'                                    <p>{_links(L(r["text"]), lang)}</p>',
+                *[f'                                    <p>{_links(L(p), lang)}</p>'
+                  for p in (r["text"] if isinstance(r["text"], list) else [r["text"]])],
                 '                                </div>',
                 '                            </div>']
     out += ['                        </div>', '                    </details>']
@@ -414,7 +422,7 @@ def _page(c, lang):
 {footer}
     </footer>
 
-    <script src="{up}js/main.js?v=20260624e"></script>
+    <script src="{up}js/main.js?v={JS_V}"></script>
 </body>
 </html>
 """

@@ -1,7 +1,7 @@
 def two(en, fr): return {"en": en, "fr": fr}
 BLOCKS = [
     # ------------------------------------------------------------------ Origins
-    {"h3": two("Origins", "Origines")},
+    {"h3": two("Origins", "Origines"), "year": ""},
     {"p": two(
         "John Marston was born in 1873, the year carved on his gravestone. In 1907, he tells Hamish Sinclair that he was born \"further north\" and spent a lot of time out west. His mother, a prostitute, died giving birth to him. In Red Dead Redemption, he describes his father to [[bonnie-macfarlane|Bonnie MacFarlane]] as \"an illiterate Scot, born on the boat into New York\". The father never saw Scotland but talked about it constantly. He also hated the English for what had been done to his great-grandparents. To his son Jack, John later says his father drank heavily and that he barely knew him.",
         "John Marston naît en 1873, l'année gravée sur sa tombe. En 1907, il explique à Hamish Sinclair qu'il est né \"plus au nord\" et qu'il a passé beaucoup de temps dans l'Ouest. Sa mère, une prostituée, meurt en le mettant au monde. Dans Red Dead Redemption, il décrit son père à [[bonnie-macfarlane|Bonnie MacFarlane]] comme un Écossais illettré, né sur le bateau qui arrivait à New York. Cet homme n'a jamais vu l'Écosse, mais en parlait sans cesse. Il détestait aussi les Anglais pour ce qu'ils avaient fait subir à ses arrière-grands-parents. Des années plus tard, John confie à son fils Jack que son père buvait beaucoup et qu'il l'a à peine connu.")},
@@ -22,7 +22,7 @@ BLOCKS = [
         "En 1899, le gang compte de nouvelles recrues, dont [[micah-bell|Micah Bell]] et [[charles-smith|Charles Smith]], et s'est installé un temps à Blackwater, une ville portuaire de West Elizabeth. John fait partie de l'équipe qui braque un ferry dans le port, quelques semaines avant le début de Red Dead Redemption 2. Les agents de la Pinkerton surgissent alors que le gang tient l'argent, et le coup tourne à la fusillade. Pendant le braquage, Dutch tue une jeune femme, Heidi McCourt. Selon Javier, Davey Callander, Mac Callander et John sont tous les trois touchés par balle. Jenny Kirk est tuée et [[sean-macguire|Sean MacGuire]] porté disparu. Le gang cache l'argent à Blackwater et fuit vers le nord, dans les montagnes.")},
 
     # ------------------------------------------------------------------ RDR2
-    {"h3": two("Red Dead Redemption 2 (1899)", "Red Dead Redemption 2 (1899)")},
+    {"h3": two("Red Dead Redemption 2 (1899)", "Red Dead Redemption 2 (1899)"), "year": "1899"},
 
     {"h4": two("Chapter 1: Colter", "Chapitre 1 : Colter"), "chapter": 1},
     {"p": two(

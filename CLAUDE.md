@@ -416,5 +416,20 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Characters/Personnages · Articles · Timeline/Chronologie** + footer nav ; hub
   `/timeline/` + `/fr/chronologie/`. Email contact `contact@red-dead-redemption-3.com`
   (forwarder cPanel à créer).
-- **Cache-buster CSS** actuellement à `?v=20261007b` (cf. §8 : bumper à chaque modif CSS ;
-  `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20260624e`.
+- **Gabarit complet, ajustements validés par Joseph le 8 oct. 2026 (après lecture de John v3)** :
+  (1) **PAS de section « Apparence »** : décrire des tenues en texte sans image n'apporte rien
+  (liberté assumée sur l'exhaustivité du wiki) ; les tenues deviennent les **légendes de la galerie**
+  (John : 20 images sourcées via l'API du wiki, planche contact vérifiée, visuels à texte/logo écartés).
+  (2) **« Personnalité » = court (~450 mots)** : descriptions officielles (Rockstar, guides), traits
+  observables, sous-titre « Dans ses propres mots » (répliques VO + trad entre parenthèses en FR),
+  surnoms, ce qu'en disent les créateurs. **Jamais une seconde biographie triée par année.**
+  (3) **UNE SEULE section « Relations »** (plus de « Relations en détail ») : même composant `.rel`
+  (portrait + texte) sur toutes les fiches, texte long sur les fiches complètes (clé `relationships`
+  = liste `{img, slug, name, text}` ; `text` peut être une liste de paragraphes). Portraits de relation
+  = `portrait.jpeg` du perso redimensionné en 600 px de large. John : 30 entrées, `rel_after = 1`.
+  (4) **Année flottante (« year chip »)** sur les longues biographies : clé `"year"` sur un bloc
+  h3/h4 → `data-year` (`""` = masquer, ex. Origines et Undead Nightmare) ; `js/main.js`
+  `initYearChip()` + CSS `.year-chip` (fixe, sous le header ; dans la marge gauche ≥ 1200 px).
+  Essai sur John, à généraliser si Joseph valide.
+- **Cache-buster CSS** actuellement à `?v=20261008a` (cf. §8 : bumper à chaque modif CSS ;
+  `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261008a` (`JS_V` dans `gen_fiche.py`).
