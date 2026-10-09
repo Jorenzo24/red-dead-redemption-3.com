@@ -427,9 +427,11 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   (portrait + texte) sur toutes les fiches, texte long sur les fiches complètes (clé `relationships`
   = liste `{img, slug, name, text}` ; `text` peut être une liste de paragraphes). Portraits de relation
   = `portrait.jpeg` du perso redimensionné en 600 px de large. John : 30 entrées, `rel_after = 1`.
-  (4) **Année flottante (« year chip »)** sur les longues biographies : clé `"year"` sur un bloc
-  h3/h4 → `data-year` (`""` = masquer, ex. Origines et Undead Nightmare) ; `js/main.js`
-  `initYearChip()` + CSS `.year-chip` (fixe, sous le header ; dans la marge gauche ≥ 1200 px).
-  Essai sur John, à généraliser si Joseph valide.
-- **Cache-buster CSS** actuellement à `?v=20261008a` (cf. §8 : bumper à chaque modif CSS ;
-  `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261008a` (`JS_V` dans `gen_fiche.py`).
+  (4) **Bandeau d'année (« year chip »)** sur les longues biographies : clé `"year"` sur un bloc
+  h3 → `data-year` (`""` = masquer, ex. Origines et Undead Nightmare) ; les h4 héritent de l'année.
+  `js/main.js` `initYearChip()` + CSS `.year-chip` : bandeau FIXE sous le header, **aligné sur la
+  colonne de texte** (left/width recalculés en JS), dégradé blanc → transparent, « année · titre du
+  chapitre ». Retour Joseph 9 oct. : dans le header ça ressemblait à un menu, dans la marge c'était
+  illisible ; il doit être au niveau du contenu. À généraliser si Joseph valide.
+- **Cache-buster CSS** actuellement à `?v=20261009a` (cf. §8 : bumper à chaque modif CSS ;
+  `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).

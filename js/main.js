@@ -5,36 +5,60 @@ document.addEventListener('DOMContentLoaded', () => {
     initYearChip();
 });
 
-/* Sticky year chip on long biographies: reads data-year from the section
-   headings and shows the one the reader is currently under. */
+/* Sticky year strip on long biographies: a fixed band under the header,
+   aligned with the text column, showing the year (data-year on the period
+   headings) and the chapter heading currently being read. */
 function initYearChip() {
-    const heads = Array.from(document.querySelectorAll('.accordion__body [data-year]'));
-    if (!heads.length) return;
+    const marked = document.querySelectorAll('.accordion__body [data-year]');
+    if (!marked.length) return;
+    // every h3/h4 of the bodies that carry years, each with its inherited year
+    const heads = [];
+    const bodies = new Set(Array.from(marked, h => h.closest('.accordion__body')));
+    bodies.forEach(body => {
+        let year = '';
+        body.querySelectorAll('h3, h4').forEach(h => {
+            if (h.hasAttribute('data-year')) year = h.getAttribute('data-year');
+            heads.push({ el: h, year, title: h.tagName === 'H4' ? h.textContent.trim() : '' });
+        });
+    });
     const chip = document.createElement('div');
     chip.className = 'year-chip';
     chip.setAttribute('aria-hidden', 'true');
+    chip.innerHTML = '<span class="year-chip__year"></span><span class="year-chip__title"></span>';
     document.body.appendChild(chip);
+    const yearEl = chip.firstChild, titleEl = chip.lastChild;
     const header = document.querySelector('.site-header');
     let shown = '';
     let queued = false;
     const update = () => {
         queued = false;
         const top = header ? header.offsetHeight : 0;
-        const line = top + 28;
+        const line = top + 36;
         let cur = null;
         for (const h of heads) {
-            if (!h.offsetParent) continue;                 // inside a closed <details>
-            if (h.getBoundingClientRect().top <= line) cur = h; else break;
+            if (!h.el.offsetParent) continue;              // inside a closed <details>
+            if (h.el.getBoundingClientRect().top <= line) cur = h; else break;
         }
-        let year = cur ? cur.dataset.year : '';
+        let year = cur ? cur.year : '';
         if (cur) {
-            const body = cur.closest('.accordion__body');
+            const body = cur.el.closest('.accordion__body');
             if (body && body.getBoundingClientRect().bottom < line + 40) year = '';
         }
-        if (year !== shown) {
-            shown = year;
-            if (year) chip.textContent = year;
+        const key = year ? year + '|' + cur.title : '';
+        if (key !== shown) {
+            shown = key;
+            if (year) {
+                yearEl.textContent = year;
+                titleEl.textContent = cur.title;
+                titleEl.hidden = !cur.title;
+            }
             chip.classList.toggle('is-on', !!year);
+        }
+        if (cur) {
+            // align the strip with the text column
+            const r = cur.el.getBoundingClientRect();
+            chip.style.left = r.left + 'px';
+            chip.style.width = r.width + 'px';
         }
         chip.style.setProperty('--header-h', top + 'px');
     };
