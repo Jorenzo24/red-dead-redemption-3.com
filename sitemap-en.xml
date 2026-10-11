@@ -739,4 +739,13 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/articles/mise-a-jour-next-gen-rdr2-ce-qui-a-ete-dit/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/articles/rdr2-next-gen-update-what-has-been-said/"/>
     </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/characters/catherine-braithwaite/</loc>
+        <lastmod>2026-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/characters/catherine-braithwaite/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/personnages/catherine-braithwaite/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/characters/catherine-braithwaite/"/>
+    </url>
 </urlset>
