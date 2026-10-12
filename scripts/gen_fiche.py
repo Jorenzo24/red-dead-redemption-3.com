@@ -160,7 +160,10 @@ def _relationships(rels, lang, depth, slug):
            f'                        <summary>{"Relationships" if lang=="en" else "Relations"}</summary>',
            '                        <div class="accordion__body">']
     for r in rels:
-        img = ("../" * depth) + f'assets/characters/{slug}/rel/{r["img"]}'
+        if r.get("img"):
+            img = ("../" * depth) + f'assets/characters/{slug}/rel/{r["img"]}'
+        else:
+            img = ("../" * depth) + 'assets/characters/placeholder-avatar.svg'
         op = r.get("pos", "center")
         style = f' style="object-position:{op}"' if op else ''
         if r.get("slug"):
@@ -299,7 +302,10 @@ def _page(c, lang):
     schema = {
         "@context": "https://schema.org", "@type": "Person", "name": name,
         "description": L(c["schema_desc"]),
-        "image": img_og, "gender": c.get("gender", "Male"),
+        # portrait first, then the gallery (Google Images / Discover pick from this list)
+        "image": [img_og] + [f"https://red-dead-redemption-3.com/assets/characters/{slug}/{g['img']}"
+                             for g in c.get("gallery", []) if g["img"] != "portrait.jpeg"],
+        "gender": c.get("gender", "Male"),
         "subjectOf": {"@type": "VideoGame", "name": c["schema_game"],
                       "publisher": {"@type": "Organization", "name": "Rockstar Games"}},
         "mainEntityOfPage": canon, "inLanguage": htmllang,
