@@ -2008,7 +2008,7 @@ body.drawer-open { overflow: hidden; }
     width: 100%;
     z-index: 9;
     box-sizing: border-box;
-    padding: 0.5rem 0 1.5rem;
+    padding: 0.2rem 0 1.8rem;   /* same height; text centred in the opaque part */
     background: linear-gradient(to bottom, #fff 0%, #fff 58%, rgba(255, 255, 255, 0) 100%);
     white-space: nowrap;
     overflow: hidden;

@@ -433,5 +433,5 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   colonne de texte** (left/width recalculés en JS), dégradé blanc → transparent, « année · titre du
   chapitre ». Retour Joseph 9 oct. : dans le header ça ressemblait à un menu, dans la marge c'était
   illisible ; il doit être au niveau du contenu. À généraliser si Joseph valide.
-- **Cache-buster CSS** actuellement à `?v=20261009a` (cf. §8 : bumper à chaque modif CSS ;
+- **Cache-buster CSS** actuellement à `?v=20261012a` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
