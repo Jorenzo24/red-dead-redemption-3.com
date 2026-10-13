@@ -7,7 +7,7 @@ Sources (internal register): Red Dead Wiki EN + ~90 mission pages and
 Redemption 2", PowerPyx mission list and walkthroughs, THR (Shanley, 7 Sep 2018
 Josh Bass; 8 Nov 2018 cast), Variety (Crecente, 24 Oct 2018; 10 Jan and 14 Mar
 2019), GQ UK (White, 24 Oct 2018), Vulture (Goldberg, 14 Oct 2018), GamesRadar+
-(Serin, 8 Nov 2025; Weber, 9 Nov 2021), Irish Times (Gorman, 15 Apr 2019),
+(Serin, 8 Nov 2025; Weber, 9 Nov 2021), TheGamer (Clark interview),
 VG247 (McKeand, 6 Feb 2019), Shacknews (1 Feb 2019), Twinfinite (Madsen,
 19 Feb 2019), Polygon (6 Dec 2018), IGN (Reilly, 25 Oct 2018), Kotaku
 (Hamilton, 26 Oct 2018), Game Informer (Gwaltney, 7 Nov 2018), NYT (Suderman,
@@ -20,7 +20,7 @@ Fixes vs the earlier fiche: Arthur is NOT in Red Dead Online.
 
 def two(en, fr): return {"en": en, "fr": fr}
 
-def build(cl, CH):
+def _build_v2(cl, CH):
     def ch(n, en, fr): return {"h4": two(en, fr), "chapter": CH[n]}
     M = lambda mission, chap, en, fr: [mission, chap, two(en, fr)]
     VID = {"id": "pl2ZPoevd0I",
@@ -48,9 +48,9 @@ def build(cl, CH):
    {"label": two("Died","Mort"), "value": two("1899","1899")},
    {"label": two("Status","Statut"), "value": two("Deceased","Décédé")},
    {"label": two("Nationality","Nationalité"), "value": two("American","Américaine")},
-   {"label": two("Affiliation","Affiliation"), "value": two("Van der Linde gang","Gang Van der Linde")},
-   {"label": two("Role","Rôle"), "value": two("Dutch's senior enforcer","Principal homme de main de Dutch")},
-   {"label": two("Family","Famille"), "value": two("Son Isaac, with Eliza (both killed)","Un fils, Isaac, avec Eliza (tous deux tués)")},
+   {"label": two("Affiliation","Affiliation"), "value": two("Van der Linde gang; briefly the Grays, the Braithwaites, the Guarma rebels and the Wapiti","Gang Van der Linde ; brièvement les Gray, les Braithwaite, les rebelles de Guarma et les Wapitis")},
+   {"label": two("Role","Rôle"), "value": two("Outlaw, Dutch's senior enforcer; bounty hunter and deputy on occasion","Hors-la-loi, principal homme de main de Dutch ; chasseur de primes et adjoint à l'occasion")},
+   {"label": two("Family","Famille"), "value": two("Parents Lyle and Beatrice; son Isaac, with Eliza (both killed); Mary Linton, former fiancée","Parents Lyle et Beatrice ; un fils, Isaac, avec Eliza (tous deux tués) ; Mary Linton, ancienne fiancée")},
       {"label": two("Games","Jeux"), "value": two("Red Dead Redemption 2","Red Dead Redemption 2")},
    {"label": two("Voiced by","Voix"), "value": two("Roger Clark","Roger Clark")},
  ],
@@ -259,8 +259,8 @@ def build(cl, CH):
      {"h3": two("Roger Clark","Roger Clark")},
      {"figure": {"img": "roger-clark.jpeg", "alt": two("Roger Clark, the actor behind Arthur Morgan","Roger Clark, l'interprète d'Arthur Morgan"),
                  "cap": two("Roger Clark, who played Arthur through performance capture.","Roger Clark, qui a joué Arthur en capture de performance.")}},
-     {"p": two("Roger Clark was born in the United States in 1978 to an Irish mother and an Irish-American father, moved at twelve to just outside Sligo, in Ireland, and studied drama in Wales. He auditioned cold, without the script in advance, and was asked to wear cowboy boots. \"My first day on the project was in August of 2013\", he told The Hollywood Reporter; director of performance capture Rod Edge added that \"the first scenes we did were with Roger\". Clark describes the role as five years of work, \"predominantly performance capture\" rather than voice work in a booth.",
-               "Roger Clark naît aux États-Unis en 1978, d'une mère irlandaise et d'un père irlando-américain, s'installe à douze ans près de Sligo, en Irlande, et étudie le théâtre au pays de Galles. Il passe l'audition sans avoir reçu le texte à l'avance, en bottes de cowboy, comme on le lui a demandé. Son premier jour sur le projet date d'août 2013, raconte-t-il au Hollywood Reporter ; le directeur de la capture de performance, Rod Edge, précise que les toutes premières scènes tournées l'ont été avec lui. Clark parle de cinq ans de travail, pour l'essentiel en capture de performance plutôt qu'en cabine.")},
+     {"p": two("Roger Clark was born in the United States in 1978 to an Irish mother and an Irish-American father, moved at twelve to Sligo, in Ireland, and studied drama in Wales. He has said, in an interview with TheGamer, that he auditioned without the script in advance and was asked to wear cowboy boots. \"My first day on the project was in August of 2013\", he told The Hollywood Reporter; director of performance capture Rod Edge added that \"the first scenes we did were with Roger\". Clark describes the role as five years of work, \"predominantly performance capture\" rather than voice work in a booth.",
+               "Roger Clark naît aux États-Unis en 1978, d'une mère irlandaise et d'un père irlando-américain, s'installe à douze ans à Sligo, en Irlande, et étudie le théâtre au pays de Galles. Il raconte à TheGamer avoir passé l'audition sans avoir reçu le texte à l'avance, en bottes de cowboy, comme on le lui avait demandé. Son premier jour sur le projet date d'août 2013, raconte-t-il au Hollywood Reporter ; le directeur de la capture de performance, Rod Edge, précise que les toutes premières scènes tournées l'ont été avec lui. Clark parle de cinq ans de travail, pour l'essentiel en capture de performance plutôt qu'en cabine.")},
      {"p": two("His inspirations, he told The Hollywood Reporter, were Toshiro Mifune, John Wayne and John Marston, rather than Clint Eastwood's Man With No Name, because Arthur \"needed to be a little more talkative\". He told Twinfinite the aim was \"a character who makes sense whether he's a complete bastard or if the player decides to choose the honorable path\".",
                "Ses modèles, explique-t-il au Hollywood Reporter, sont Toshiro Mifune, John Wayne et John Marston, plutôt que l'Homme sans nom de Clint Eastwood, car Arthur devait être un peu plus bavard. Il confie à Twinfinite que l'objectif était un personnage cohérent, qu'il soit un parfait salaud ou que le joueur choisisse la voie de l'honneur.")},
      {"video": VID},
@@ -281,8 +281,8 @@ def build(cl, CH):
      {"h3": two("Critics and rankings","Critiques et classements")},
      {"p": two("IGN noted \"an infectious authenticity\" in Clark's voice. Kotaku's Kirk Hamilton wrote that Arthur first struck him as \"deliberately unremarkable\", but that by the end he had become \"a character in his own right\". In Game Informer, Javy Gwaltney called Arthur's arc \"a fantastic take on memento mori and how ruthlessly messy and complex redemption can be\". In The New York Times, Peter Suderman described \"a bad man with a good heart, because his choices are, in fact, your own\".",
                "IGN salue l'authenticité contagieuse de la voix de Clark. Kirk Hamilton, chez Kotaku, trouve d'abord Arthur volontairement quelconque, avant d'y voir à la fin un personnage à part entière. Dans Game Informer, Javy Gwaltney voit dans le parcours d'Arthur une méditation réussie sur la mort, et sur ce que la rédemption a de désordonné et de complexe. Dans le New York Times, Peter Suderman décrit un homme mauvais au bon cœur, puisque ses choix sont ceux du joueur.")},
-     {"p": two("GamesRadar+ ranked Arthur 29th among the 50 most iconic video game characters in 2021. In an April 2024 BAFTA public poll of more than 4,000 voters, he was voted the 11th most iconic video game character. According to The Irish Times, Arthur was \"slow to warm to\" for some players but has become one of Rockstar's best-received characters.",
-               "GamesRadar+ classe Arthur 29e des 50 personnages de jeu vidéo les plus emblématiques en 2021. En avril 2024, un sondage public de la BAFTA auprès de plus de 4 000 votants le place 11e. Selon l'Irish Times, certains joueurs ont mis du temps à l'adopter, mais il est devenu l'un des personnages les mieux accueillis de Rockstar.")},
+     {"p": two("GamesRadar+ ranked Arthur 29th among the 50 most iconic video game characters in 2021. In an April 2024 BAFTA public poll of more than 4,000 voters, he was voted the 11th most iconic video game character.",
+               "GamesRadar+ classe Arthur 29e des 50 personnages de jeu vidéo les plus emblématiques en 2021. En avril 2024, un sondage public de la BAFTA auprès de plus de 4 000 votants le place 11e.")},
    ]},
    # ================================================================ TRIVIA
    {"summary": two("Trivia","Anecdotes"), "blocks": [
@@ -320,3 +320,104 @@ def build(cl, CH):
  ],
  "related": ["john-marston", "dutch-van-der-linde", "micah-bell", "sadie-adler"],
 }
+
+
+# ---------------------------------------------------------------------------
+# v3 (12 Oct 2026): exhaustive version on the John Marston model. The body
+# comes from six drafted parts (scripts/fiches/parts/arthur_A..F.py) written
+# against the Red Dead Wiki page under scripts/coverage.py's spec, then
+# fact-checked; Development and Reception are kept from v2.
+def build(cl, CH):
+    import importlib
+    P = {k: importlib.import_module(f"fiches.parts.arthur_{k}") for k in "ABCDEF"}
+    d = _build_v2(cl, CH)
+    keep = {sec["summary"]["en"]: sec for sec in d["sections"]}
+
+    def fix(blocks):
+        out = []
+        for b in blocks:
+            b = dict(b)
+            if "chapter" in b and not isinstance(b["chapter"], tuple):
+                b["chapter"] = CH[b["chapter"]]
+            out.append(b)
+        return out
+
+    def sec(en, fr, blocks, open_=False):
+        blocks = fix(blocks)
+        # drop a leading h3 that only repeats the section title
+        if blocks and "h3" in blocks[0] and blocks[0]["h3"]["en"].strip().lower().startswith(en.lower()[:10]):
+            blocks = blocks[1:]
+        x = {"summary": {"en": en, "fr": fr}, "blocks": blocks}
+        if open_:
+            x["open"] = True
+        return x
+
+    d["sections"] = [
+        sec("Biography", "Biographie", P["A"].BLOCKS + P["B"].BLOCKS + P["C"].BLOCKS, open_=True),
+        sec("Personality", "Personnalité", P["D"].BLOCKS_PERSONALITY),
+        sec("Skills, weapons and horses", "Compétences, armes et chevaux", P["D"].BLOCKS_SKILLS),
+        sec("Missions", "Missions", P["E"].BLOCKS_MISSIONS),
+        sec("Quotes", "Citations", P["F"].BLOCKS_QUOTES),
+        keep["Development and performance"],
+        keep["Reception"],
+        sec("Other media and legacy", "Autres médias et postérité", P["F"].BLOCKS_MEDIA),
+        sec("Trivia", "Anecdotes", P["F"].BLOCKS_TRIVIA),
+    ]
+    d["relationships"] = P["D"].RELATIONSHIPS
+    d["rel_after"] = 1          # right after Personality
+    d["gallery"] = GALLERY
+    d["updated"] = "2026-10-12"
+    return d
+
+
+# Gallery: official renders and in-game captures sourced from the Red Dead Wiki
+# (rights checked by Joseph before publication). Loosely chronological.
+def _g(n, alt_en, alt_fr, cap_en, cap_fr):
+    return {"img": f"gallery-{n}.jpeg", "alt": two(alt_en, alt_fr), "cap": two(cap_en, cap_fr)}
+
+GALLERY = [
+    _g(1, "Arthur Morgan in his coat and hat", "Arthur Morgan, manteau et chapeau",
+       "Arthur in 1899, Red Dead Redemption 2.", "Arthur en 1899, Red Dead Redemption 2."),
+    _g(2, "Red Dead Redemption 2 key art with Arthur Morgan drawing his revolver", "Artwork de Red Dead Redemption 2 : Arthur Morgan dégaine son revolver",
+       "Official Red Dead Redemption 2 key art.", "Artwork officiel de Red Dead Redemption 2."),
+    _g(3, "The Van der Linde gang riding through deep snow", "Le gang Van der Linde chevauchant dans la neige",
+       "Chapter 1: the gang in the snow of the Grizzlies, around Colter.", "Chapitre 1 : le gang dans la neige des Grizzlies, autour de Colter."),
+    _g(4, "Arthur Morgan's face under his hat, inside a wooden building", "Le visage d'Arthur Morgan sous son chapeau, dans un bâtiment en bois",
+       "Arthur indoors, from the gameplay footage.", "Arthur en intérieur, extrait des vidéos de gameplay."),
+    _g(5, "Close-up of Arthur Morgan at dusk", "Gros plan sur Arthur Morgan au crépuscule",
+       "Arthur at dusk.", "Arthur au crépuscule."),
+    _g(6, "Close-up of Arthur Morgan smiling slightly", "Gros plan sur Arthur Morgan, un léger sourire aux lèvres",
+       "Close-up from a trailer.", "Gros plan tiré d'une bande-annonce."),
+    _g(7, "The Van der Linde gang riding together across a meadow", "Le gang Van der Linde à cheval dans une prairie",
+       "The gang on the move, Dutch on his white horse at the front.", "Le gang en déplacement, Dutch en tête sur son cheval blanc."),
+    _g(8, "Arthur, Dutch and gang members walking through a town street", "Arthur, Dutch et des membres du gang dans la rue d'une ville",
+       "From the third trailer (May 2018): the gang in town.", "Extrait de la troisième bande-annonce (mai 2018) : le gang en ville."),
+    _g(9, "Dutch van der Linde talking to Arthur Morgan", "Dutch van der Linde parlant à Arthur Morgan",
+       "Dutch and Arthur, third trailer.", "Dutch et Arthur, troisième bande-annonce."),
+    _g(10, "Sadie Adler and Arthur Morgan talking in the woods", "Sadie Adler et Arthur Morgan discutant dans les bois",
+       "Arthur and Sadie Adler, third trailer.", "Arthur et Sadie Adler, troisième bande-annonce."),
+    _g(11, "Old photograph of a young Arthur with Dutch and Hosea", "Photographie ancienne d'un jeune Arthur avec Dutch et Hosea",
+       "The photograph of young Arthur with Dutch and Hosea, seen in camp.", "La photographie du jeune Arthur avec Dutch et Hosea, visible au camp."),
+    _g(12, "Old photograph of Arthur and Mary", "Photographie ancienne d'Arthur et Mary",
+       "The photograph of Arthur and Mary Gillis from their engagement years.", "La photographie d'Arthur et Mary Gillis, du temps de leurs fiançailles."),
+    _g(13, "Arthur beside a horse carrying Sadie Adler and Abigail", "Arthur près d'un cheval qui porte Sadie Adler et Abigail",
+       "The parting at Van Horn in the final mission: Sadie and Abigail ride off, Arthur stays.", "La séparation à Van Horn dans la dernière mission : Sadie et Abigail partent à cheval, Arthur reste."),
+    _g(14, "Arthur Morgan hunting with a bow in a forest", "Arthur Morgan chassant à l'arc dans une forêt",
+       "Arthur hunting with the bow.", "Arthur à la chasse, arc en main."),
+    _g(15, "Arthur with a full beard and a flat cap aiming a revolver", "Arthur, barbe fournie et casquette plate, visant au revolver",
+       "Arthur with a full beard and a flat cap: the player chooses his hair, beard and clothes.", "Arthur avec une barbe fournie et une casquette plate : le joueur choisit sa coiffure, sa barbe et ses vêtements."),
+    _g(16, "Arthur Morgan firing two revolvers at once", "Arthur Morgan tirant avec deux revolvers à la fois",
+       "Dual-wielding revolvers in a gunfight.", "Deux revolvers en main dans une fusillade."),
+    _g(17, "Arthur playing poker at a saloon table", "Arthur jouant au poker à une table de saloon",
+       "A poker game.", "Une partie de poker."),
+    _g(18, "Arthur and his horse looking over a mountain valley", "Arthur et son cheval devant une vallée de montagne",
+       "Arthur and his horse above a valley.", "Arthur et son cheval au-dessus d'une vallée."),
+    _g(19, "The gang gathered around a campfire at night", "Le gang réuni autour d'un feu de camp, la nuit",
+       "Camp at night.", "Le camp, la nuit."),
+    _g(20, "Arthur Morgan aiming an engraved Volcanic Pistol", "Arthur Morgan visant avec un Volcanic Pistol gravé",
+       "Arthur aims a Volcanic Pistol.", "Arthur vise avec un Volcanic Pistol."),
+    _g(21, "Arthur lying on the ground facing the sunrise", "Arthur allongé au sol face au lever du soleil",
+       "The last scene, at sunrise, in the high-honor ending.", "La dernière scène, au lever du soleil, dans la fin à honneur élevé."),
+    _g(22, "Arthur Morgan's grave, a stone cross with flowers", "La tombe d'Arthur Morgan, une croix de pierre fleurie",
+       "Arthur's grave in its high-honor version, with flowers, as seen in the epilogue.", "La tombe d'Arthur dans sa version à honneur élevé, fleurie, telle qu'on la voit dans l'épilogue."),
+]
