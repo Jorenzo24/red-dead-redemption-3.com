@@ -433,11 +433,16 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   colonne de texte** (left/width recalculés en JS), dégradé blanc → transparent, « année · titre du
   chapitre ». Retour Joseph 9 oct. : dans le header ça ressemblait à un menu, dans la marge c'était
   illisible ; il doit être au niveau du contenu. À généraliser si Joseph valide.
+- **Blocs de lecture « tabac » sur TOUTES les fiches (14 oct. 2026, validé par Joseph)** : la page garde son fond
+  crème ; accordéons, « L'essentiel » et grille de faits passent en brun tabac (#1d1712), texte parchemin, liens
+  rouge brique #ee6b55 (contraste 5,8:1 ; l'ambre faisait trop Fandom). Classe `read-dark` sur `<body>`, mise
+  par défaut par `gen_fiche` (désactivable par fiche : `"reading_dark": False`). Fil d'Ariane aligné sur la
+  colonne qui le suit (`:has(+ .profile)` / `:has(+ .article)`).
 - **Arthur Morgan v3 (13 oct. 2026)** : 2e fiche au standard complet, même pipeline que John (6 rédacteurs
   `parts/arthur_A..F.py`, 4 relectures contradictoires ≈ 1 150 affirmations, contrôle de couverture, 4 correcteurs).
   33 350 mots EN (195 % du wiki). 38 relations (avatar de remplacement pour les persos sans fiche, `img: None`),
   galerie 22 images. Le wiki se trompe sur sa page Arthur (Bronte assommé par John, Sadie annonce Sisika, barque
   vers le bateau de l'armée, arme prise au garde à Guarma) : les pages de mission font foi.
   Schema `Person.image` = portrait + toute la galerie (gen_fiche, oct. 2026).
-- **Cache-buster CSS** actuellement à `?v=20261014c` (cf. §8 : bumper à chaque modif CSS ;
+- **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
