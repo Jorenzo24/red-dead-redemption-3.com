@@ -2087,3 +2087,11 @@ body.drawer-open { overflow: hidden; }
 .read-dark main .essentials {
     border-left-color: #c8201e;
 }
+
+/* Breadcrumb aligned with the column that follows it (fiche profile, article). */
+.breadcrumb:has(+ .profile) {
+    max-width: 60rem;
+}
+.breadcrumb:has(+ .article) {
+    max-width: var(--article-max);
+}

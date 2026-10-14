@@ -439,5 +439,5 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   galerie 22 images. Le wiki se trompe sur sa page Arthur (Bronte assommé par John, Sadie annonce Sisika, barque
   vers le bateau de l'armée, arme prise au garde à Guarma) : les pages de mission font foi.
   Schema `Person.image` = portrait + toute la galerie (gen_fiche, oct. 2026).
-- **Cache-buster CSS** actuellement à `?v=20261014b` (cf. §8 : bumper à chaque modif CSS ;
+- **Cache-buster CSS** actuellement à `?v=20261014c` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
