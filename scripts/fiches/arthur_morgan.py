@@ -367,6 +367,7 @@ def build(cl, CH):
     d["rel_after"] = 1          # right after Personality
     d["gallery"] = GALLERY
     d["updated"] = "2026-10-12"
+    d["reading_dark"] = True   # trial of the dark reading theme (Oct 2026)
     return d
 
 
