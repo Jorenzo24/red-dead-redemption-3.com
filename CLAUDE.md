@@ -444,5 +444,14 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   galerie 22 images. Le wiki se trompe sur sa page Arthur (Bronte assommé par John, Sadie annonce Sisika, barque
   vers le bateau de l'armée, arme prise au garde à Guarma) : les pages de mission font foi.
   Schema `Person.image` = portrait + toute la galerie (gen_fiche, oct. 2026).
+- **Dutch van der Linde v3 (14 oct. 2026)** : 3e fiche complète (4 rédacteurs `parts/dutch_A..D.py`, 3 relectures
+  ≈ 900 affirmations, couverture, correcteurs). 21 060 mots EN (181 % du wiki). Module `fiches/dutch_van_der_linde.py`
+  avec `build(cl, CH, base)` : la base (méta, Conception, Accueil) reste l'entrée v2 de `_enrich.py`, passée en
+  argument. Dutch n'est PAS dans Red Dead Online (fait « Jeux » corrigé). Réplique de Ross, transcription :
+  « Oh trust me, it looks better in the report that way » (le wiki dit « on », à tort ; corrigé chez John).
+  Coffre de la gare de tramways : 15 dollars et un quart chacun ; le « 90 dollars » de la page Arthur du wiki
+  est écarté (retiré d'Arthur). **La spec de rédaction vit désormais dans `scripts/fiches/SPEC.md`** (le scratchpad
+  a été purgé une fois). À reprendre : passe de reformulation sur arthur_B/C (tournures encore proches du wiki,
+  signalé par la relecture Dutch) ; fiches Nastas/Fordham à revérifier (affirmations sans source).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
