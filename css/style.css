@@ -2040,7 +2040,7 @@ body.drawer-open { overflow: hidden; }
    Dark reading theme (trial, Oct 2026): body class "read-dark", added to a fiche
    with "reading_dark": True in its data. The page keeps its cream ground; only
    the reading blocks (accordions, key facts, fact grid) turn tobacco brown with
-   parchment text and amber links. Remove the flag to go back to the light theme.
+   parchment text and brick-red links (#ee6b55, contrast 5.8:1). Remove the flag to go back to the light theme.
    ============================================ */
 .read-dark main .accordion,
 .read-dark main .essentials,
@@ -2059,11 +2059,11 @@ body.drawer-open { overflow: hidden; }
 }
 .read-dark main .accordion__body a,
 .read-dark main .essentials a {
-    color: #e39a4f;
+    color: #ee6b55;
 }
 .read-dark main .accordion__body a:hover,
 .read-dark main .essentials a:hover {
-    color: #f2b878;
+    color: #f7a08f;
 }
 .read-dark main .accordion__body p,
 .read-dark main .accordion__body li {
