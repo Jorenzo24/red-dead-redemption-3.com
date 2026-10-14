@@ -16,7 +16,7 @@ See CHAR SCHEMA at the bottom for the expected dict shape.
 import json, os, re, html
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CSS_V = "20261012a"
+CSS_V = "20261014a"
 JS_V = "20261009a"
 
 _MONTHS_EN = ["January", "February", "March", "April", "May", "June", "July",
@@ -299,6 +299,7 @@ def _page(c, lang):
                   '        <p>&copy; <span id="year">2026</span> red-dead-redemption-3.com &middot; Tous droits réservés.</p>\n'
                   '        <p>Site de fans. Sans aucune affiliation avec Rockstar Games ou Take-Two Interactive, ni leur approbation.</p>')
 
+    body_extra = " read-dark" if c.get("reading_dark") else ""  # trial dark reading theme
     schema = {
         "@context": "https://schema.org", "@type": "Person", "name": name,
         "description": L(c["schema_desc"]),
@@ -369,7 +370,7 @@ def _page(c, lang):
 {schema_json}
     </script>
 {bc_jsonld}</head>
-<body class="theme-light">
+<body class="theme-light{body_extra}">
     <header class="site-header">
         <div class="site-header__inner">
             <a href="{logo_href}" class="site-header__logo" aria-label="{logo_aria}">
