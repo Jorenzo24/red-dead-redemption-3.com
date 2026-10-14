@@ -2038,27 +2038,30 @@ body.drawer-open { overflow: hidden; }
 
 /* ============================================
    Dark reading theme (trial, Oct 2026): body class "read-dark", added to a fiche
-   with "reading_dark": True in its data. Tobacco-brown ground, parchment text,
-   amber links. Remove the class to go back to the light theme.
+   with "reading_dark": True in its data. The page keeps its cream ground; only
+   the reading blocks (accordions, key facts, fact grid) turn tobacco brown with
+   parchment text and amber links. Remove the flag to go back to the light theme.
    ============================================ */
-.theme-light.read-dark {
-    background: #120e0b;
-}
-.read-dark main {
-    --bg:         #120e0b;
+.read-dark main .accordion,
+.read-dark main .essentials,
+.read-dark main .profile__facts {
     --bg-elev:    #1d1712;
     --border:     #3a2e23;
     --text:       #e9dfcc;
     --text-muted: #a99b84;
     --accent:     #e0483a;
+    background: var(--bg-elev);
+    border-color: var(--border);
+    color: var(--text);
+}
+.read-dark main .accordion > summary {
+    color: var(--text);
 }
 .read-dark main .accordion__body a,
-.read-dark main .profile__intro a,
 .read-dark main .essentials a {
     color: #e39a4f;
 }
 .read-dark main .accordion__body a:hover,
-.read-dark main .profile__intro a:hover,
 .read-dark main .essentials a:hover {
     color: #f2b878;
 }
@@ -2081,10 +2084,6 @@ body.drawer-open { overflow: hidden; }
 .read-dark .year-chip__title {
     color: #a99b84;
 }
-.read-dark main .acard {
-    background: #1d1712;
-    border-color: #3a2e23;
-}
-.read-dark main .acard__thumb {
-    background: #241c16;
+.read-dark main .essentials {
+    border-left-color: #c8201e;
 }
