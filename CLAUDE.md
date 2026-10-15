@@ -281,8 +281,8 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     Nightmare, ou second rôles RDR2 restants.
   Au-delà de 5 persos, « More characters » affiche 4 fiches pertinentes (pas toutes).
 - **Titres des fiches (oct. 2026), ton encyclopédique** : `<title>` + og/twitter =
-  « Nom (RDR2): Biography, Story and Relationships » / « Nom (RDR2) : biographie, histoire et
-  relations ». Jeu déduit du fait « Games » : (RDR1), (RDR2) ou (RDR1 and/et RDR2), Online ignoré.
+  « Nom: Biography, Story and Relationships » / « Nom : biographie, histoire et relations ».
+  **Plus d'étiquette de jeu (RDR1/RDR2) dans le titre** (Joseph, 16 oct. 2026 : abréviations inutiles).
   Pas de suffixe « | Red Dead Redemption 3 ». H1 = nom seul, ligne au-dessus du nom inchangée
   (personnalisée par fiche, choix de Joseph). Généré par `gen_fiche.py`.
 - **Réglette « Dans l'histoire » sur les fiches (oct. 2026)** : sous la grille de faits, pastilles
