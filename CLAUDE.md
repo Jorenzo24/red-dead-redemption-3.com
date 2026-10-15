@@ -469,5 +469,11 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   EN (≈ 300 % du wiki). Peu de sources réelles (pas d'article Wikipédia sur Curzon Dobell) : Conception courte
   mais sourcée (Bristol Old Vic, mai 2025). Rappels : Milton n'offre PAS de grâce à Clemens Point mais trois jours
   pour fuir ; Davey arrive mort à Colter ; « Horsemen, Apocalypses » précède « Urban Pleasures ».
+- **Charles Smith v3 (15 oct. 2026)** : 7e fiche complète (base reconstruite, `parts/charles_D.py`). 12 760 mots
+  EN (330 % du wiki), 29 relations, galerie 8. Corrections : au mont Hagen, Charles reste à couvert puis abat
+  l'agresseur de Sadie (aussi corrigé dans `john_D.py`) ; c'est Taima, Eagle Flies assis derrière Charles, qui
+  sert à la fuite ; Karen et Javier amènent Eagle Flies à Beaver Hollow ; la mort au machete d'un O'Driscoll
+  est dans « Horsemen, Apocalypses ». Faits wiki-only attribués dans le texte : nom de ring « Lone Wolf »,
+  surnom « Sulky », race Nokota de Falmouth.
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
