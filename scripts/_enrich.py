@@ -1378,9 +1378,9 @@ ENRICHED += MAINS1
 
 
 # Full-template fiches (one module each in scripts/fiches/), replacing earlier entries.
-from fiches import john_marston as _jm, arthur_morgan as _am, dutch_van_der_linde as _dv
+from fiches import john_marston as _jm, arthur_morgan as _am, dutch_van_der_linde as _dv, sadie_adler as _sa
 _BASE = {c["slug"]: c for c in ENRICHED}
-_FULL = [_jm.build(cl, CH), _am.build(cl, CH), _dv.build(cl, CH, _BASE["dutch-van-der-linde"])]
+_FULL = [_jm.build(cl, CH), _am.build(cl, CH), _dv.build(cl, CH, _BASE["dutch-van-der-linde"]), _sa.build(cl, CH)]
 ENRICHED = [c for c in ENRICHED if c["slug"] not in {f["slug"] for f in _FULL}] + _FULL
 
 if __name__ == "__main__":

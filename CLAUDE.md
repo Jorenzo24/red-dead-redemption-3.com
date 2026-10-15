@@ -453,5 +453,11 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   est écarté (retiré d'Arthur). **La spec de rédaction vit désormais dans `scripts/fiches/SPEC.md`** (le scratchpad
   a été purgé une fois). À reprendre : passe de reformulation sur arthur_B/C (tournures encore proches du wiki,
   signalé par la relecture Dutch) ; fiches Nastas/Fordham à revérifier (affirmations sans source).
+- **Sadie Adler v3 (15 oct. 2026)** : 4e fiche complète. Sa page de phase 2 était du HTML écrit à la main sans
+  données : la base (méta, faits, intro, Conception, Accueil) est reconstruite dans `parts/sadie_D.py` (`BASE`),
+  module `fiches/sadie_adler.py` avec `build(cl, CH)`. 13 350 mots EN (315 % du wiki), 26 relations, galerie 15.
+  Corrections reportées chez John : UN SEUL télégramme de Sadie, adressé « JIM MILTON », « IF YOURE THE JM I KNOW »
+  (pas « ses télégrammes signent JM ») ; Sadie ne « se moque » PAS de l'alias (la page de mission dit qu'ils
+  évoquent le passé). Le wiki se trompe sur la page Sadie (« lettre » au lieu de télégramme dans Motherhood).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).

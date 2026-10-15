@@ -1,0 +1,341 @@
+"""Sadie Adler, reference fiche, PART C: Missions, Quotes, Trivia, Other media.
+
+Sources (internal register, fetched 14-15 Oct 2026 via the MediaWiki API, saved in
+scratchpad cov/sadie/, cov/arthur/m/ and cov/dutch/):
+- Red Dead Wiki EN "Sadie Adler" (Mission appearances, Notable Murders Committed,
+  Quotes, Trivia) and FR "Sadie Adler" (Apparitions dans les missions; the FR page
+  has no trivia section).
+- Mission pages: Outlaws from the West, Enter Pursued by a Memory, Further Questions
+  of Female Suffrage, The Battle of Shady Belle, Horsemen Apocalypses, Dear Uncle
+  Tacitus, Fleeting Joy, That's Murfree Country, Icarus and Friends, Visiting Hours,
+  Goodbye Dear Friend, Mrs. Sadie Adler Widow (I and II), My Last Boy, Our Best
+  Selves, Red Dead Redemption (mission), Gainful Employment, An Honest Day's Labors,
+  A Quick Favor for an Old Friend, A Really Big Bastard, American Venom, Ending Credits.
+- Transcripts "/dialogues": Outlaws from the West, Red Dead Redemption (mission),
+  American Venom. No transcript exists on the wiki for Further Questions of Female
+  Suffrage or Mrs. Sadie Adler, Widow: their quotes come from the quote boxes of the
+  character page, the mission page and the Jake Adler page.
+- Other wiki pages: Tom (RDR2), Cleet, Jake Adler, Adler Ranch, Bob, Hera, Bubba,
+  Doors of Iron Down, Notorious Bad Man Alive, Letter from 'Caroline', Five Finger
+  Fillet, Journal (RDR 2), Honor, Red Dead Redemption 2 Cut Content, The Music of Red
+  Dead Redemption 2: Original Score, Red Dead Online free roam missions (Rescue, On
+  The Hunt, Recovery, Delivery), Alex McKenna.
+- Real world: Wikipedia "List of Red Dead Redemption 2 characters" (Sadie section,
+  Piggyback Complete Official Guide of 26 Oct 2018, p. 357; SacAnime Summer 2019
+  panel); Wikipedia "Alex McKenna" (NAVGTR nomination); NAVGTR 2018 nominee list;
+  GamesRadar+, Rachel Weber, 7 Mar 2019 (two features); Rockstar Newswire, 19 Jul 2019
+  (Original Score announcement, via the wiki).
+Excluded: how Sadie knew that Tom killed Jake (wiki's own guess), the "revenge is a
+fool's game" and "only character not to seek redemption" readings, the Abigail "role
+reversal" analysis, the Hera / goddess symbolism, the claim that she is no longer
+wanted in 1907 (inferred), the "Evil Hair Leak" and the love-interest rumour, the cut
+epilogue take recounted without a named source, the exact wording of the two honor
+lines of "Mrs. Sadie Adler, Widow II" (the wiki gives two different versions).
+"""
+
+
+def two(en, fr): return {"en": en, "fr": fr}
+
+
+M = lambda mission, chap, en, fr: [mission, chap, two(en, fr)]
+K = lambda name, mission, en, fr: [name, mission, two(en, fr)]
+
+C1 = two("1. Colter", "1. Colter")
+C3 = two("3. Clemens Point", "3. Clemens Point")
+C4 = two("4. Saint Denis", "4. Saint-Denis")
+C5 = two("5. Guarma", "5. Guarma")
+C6 = two("6. Beaver Hollow", "6. Beaver Hollow")
+E1 = two("Epilogue, part 1", "Épilogue, partie 1")
+E2 = two("Epilogue, part 2", "Épilogue, partie 2")
+
+BLOCKS_MISSIONS = [
+    {"h3": two("Missions", "Missions")},
+    {"p": two("The Red Dead Wiki lists 21 missions of Red Dead Redemption 2 in which Sadie appears, one of them by voice only, plus four types of free roam missions in Red Dead Online; the French edition gives the same list, without the voice-only mission. The table below follows the order of the story. Sadie is never playable: in chapters 1 to 6 the player controls [[arthur-morgan|Arthur Morgan]], and in the epilogue [[john-marston|John Marston]]. She gives several of these missions herself, from \"Further Questions of Female Suffrage\" in chapter 3 to the bounty jobs of 1907.",
+              "Le Red Dead Wiki recense 21 missions de Red Dead Redemption 2 où apparaît Sadie, dont une où l'on n'entend que sa voix, ainsi que quatre types de missions en monde libre dans Red Dead Online ; l'édition française donne la même liste, sans la mission où elle n'est qu'une voix. Le tableau suit l'ordre du récit. Sadie n'est jamais jouable : aux chapitres 1 à 6, le joueur incarne [[arthur-morgan|Arthur Morgan]], et dans l'épilogue [[john-marston|John Marston]]. Elle confie elle-même plusieurs de ces missions, de \"Further Questions of Female Suffrage\" au chapitre 3 jusqu'aux contrats de chasse à la prime de 1907.")},
+    {"h4": two("Red Dead Redemption 2", "Red Dead Redemption 2")},
+    {"table": {"head": [two("Mission", "Mission"), two("Chapter", "Chapitre"), two("Sadie's role", "Rôle de Sadie")], "rows": [
+        M("Outlaws from the West", C1,
+          "Hidden in the cellar of her ranch after the O'Driscoll raid, she comes out after the shootout, fights off [[micah-bell|Micah]] with a bottle and a knife, and is led out of the burning house by [[dutch-van-der-linde|Dutch]] and Arthur. She rides back to Colter on Dutch's horse and gives her name on the way.",
+          "Cachée dans la cave de son ranch depuis le raid des O'Driscoll, elle en sort après la fusillade, repousse [[micah-bell|Micah]] avec une bouteille et un couteau, puis quitte la maison en flammes avec [[dutch-van-der-linde|Dutch]] et Arthur. Elle rejoint Colter sur le cheval de Dutch et donne son nom en chemin."),
+        M("Enter, Pursued by a Memory", C1,
+          "One of the gang members sheltering in a cabin at Colter when [[abigail-marston|Abigail]] asks Arthur to look for John.",
+          "Fait partie des membres du gang réfugiés dans une cabane de Colter quand [[abigail-marston|Abigail]] demande à Arthur de partir à la recherche de John."),
+        M("Further Questions of Female Suffrage", C3,
+          "Argues with [[simon-pearson|Pearson]] because she is tired of cutting vegetables, rides to Rhodes with Arthur, buys supplies and new clothes, then starts and wins a fight with Lemoyne Raiders on the way back. She joins the camp guard afterwards.",
+          "Se dispute avec [[simon-pearson|Pearson]], lasse de couper des légumes, part pour Rhodes avec Arthur, achète des vivres et de nouveaux vêtements, puis déclenche et remporte au retour un combat contre des Lemoyne Raiders. Elle monte ensuite la garde au camp."),
+        M("The Battle of Shady Belle", C3,
+          "At Clemens Point when agents [[andrew-milton|Milton]] and [[edgar-ross|Ross]] offer the gang a deal; the whole gang refuses it and moves to Shady Belle.",
+          "Présente à Clemens Point quand les agents [[andrew-milton|Milton]] et [[edgar-ross|Ross]] proposent un marché au gang ; tout le gang le refuse et part s'installer à Shady Belle."),
+        M("Horsemen, Apocalypses", C4,
+          "Talks with Arthur about her place in the gang before the O'Driscoll attack on Shady Belle. She refuses to take shelter in the house and kills three attackers with a knife outside.",
+          "Parle à Arthur de sa place dans le gang avant l'attaque des O'Driscoll sur Shady Belle. Elle refuse de s'abriter dans la maison et tue trois assaillants au couteau, dehors."),
+        M("Dear Uncle Tacitus", C5,
+          "Voice only. The letter signed \"Caroline\" that Arthur finds at Shady Belle, addressed to \"Uncle Tacitus\", tells him the others have gone to Lakay.",
+          "Voix seulement. La lettre signée \"Caroline\" qu'Arthur trouve à Shady Belle, adressée à \"Uncle Tacitus\", lui apprend que les autres sont partis à Lakay."),
+        M("Fleeting Joy", C5,
+          "Tells Arthur that John is held at Sisika. [[leopold-strauss|Strauss]] tells Dutch the gang owes its survival mostly to her. During the Pinkerton attack she leads Arthur through a trapdoor to flank the agents, then agrees with Arthur to free John against Dutch's wishes.",
+          "Apprend à Arthur que John est détenu à Sisika. [[leopold-strauss|Strauss]] explique à Dutch que le gang lui doit surtout sa survie. Pendant l'attaque des Pinkerton, elle entraîne Arthur par une trappe pour prendre les agents de flanc, puis décide avec lui de libérer John contre l'avis de Dutch."),
+        M("That's Murfree Country", C5,
+          "Listed by the Red Dead Wiki among the characters of the mission, which moves the gang from Lakay to Beaver Hollow; the mission page gives her no specific action.",
+          "Citée par le Red Dead Wiki parmi les personnages de la mission, qui fait passer le gang de Lakay à Beaver Hollow ; la page de la mission ne lui prête aucune action précise."),
+        M("Icarus and Friends", C6,
+          "Arranges the hot air balloon of Arturo Bullard to scout Sisika. Chased by O'Driscolls near Annesburg, she is pulled into the basket by Arthur after Bullard is shot dead, survives the crash and plans the prison break. She also tells Arthur that [[colm-odriscoll|Colm O'Driscoll]] is to hang.",
+          "Organise le vol en montgolfière d'Arturo Bullard pour repérer Sisika. Poursuivie par des O'Driscoll près d'Annesburg, elle est hissée dans la nacelle par Arthur après la mort de Bullard, abattu, survit à l'écrasement et prépare l'évasion. Elle annonce aussi à Arthur que [[colm-odriscoll|Colm O'Driscoll]] va être pendu."),
+        M("Visiting Hours", C6,
+          "Refuses to take Abigail along, rows to Sisika with Arthur, is held at gunpoint by the guard Milliken until Arthur takes him hostage, then fights her way off the island with Arthur and John.",
+          "Refuse d'emmener Abigail, rame jusqu'à Sisika avec Arthur, se retrouve tenue en joue par le gardien Milliken jusqu'à ce qu'Arthur le prenne en otage, puis quitte l'île les armes à la main avec Arthur et John."),
+        M("Goodbye, Dear Friend", C6,
+          "Attends Colm's hanging in Saint Denis dressed as a society lady. She and Dutch each hold an O'Driscoll at gunpoint; once Colm is hanged, she kills both hostages, which starts a shootout.",
+          "Assiste à la pendaison de Colm à Saint-Denis en tenue de dame de la bonne société. Dutch et elle tiennent chacun un O'Driscoll en joue ; une fois Colm pendu, elle abat les deux otages, ce qui déclenche une fusillade."),
+        M("Mrs. Sadie Adler, Widow I", C6,
+          "Asks Arthur to help her wipe out the last O'Driscolls. If he accepts, she promises in return to help John, Abigail and Jack when the time comes; if he refuses, she rides off alone.",
+          "Demande à Arthur de l'aider à exterminer les derniers O'Driscoll. S'il accepte, elle promet en échange d'aider John, Abigail et Jack le moment venu ; s'il refuse, elle part seule."),
+        M("Mrs. Sadie Adler, Widow II", C6,
+          "Attacks Hanging Dog Ranch with Arthur, takes the house while he clears the barn, and kills Tom, the man who murdered her husband, with a knife.",
+          "Attaque Hanging Dog Ranch avec Arthur, prend la maison pendant qu'il nettoie la grange, et tue au couteau Tom, l'assassin de son mari."),
+        M("My Last Boy", C6,
+          "Rides with Arthur, [[charles-smith|Charles]] and a few Wapiti to reach Eagle Flies at the oil fields. She offers to help carry the wounded Eagle Flies back to his father; Arthur declines.",
+          "Accompagne Arthur, [[charles-smith|Charles]] et quelques Wapiti pour rejoindre Eagle Flies aux champs pétrolifères. Elle propose d'aider à ramener Eagle Flies, blessé, à son père ; Arthur refuse."),
+        M("Our Best Selves", C6,
+          "Boards the Army payroll train with Arthur, John and Cleet, then holds off the pursuing soldiers with Arthur, Bill and Cleet.",
+          "Monte à bord du train de la paie de l'armée avec Arthur, John et Cleet, puis tient en respect les soldats lancés à leur poursuite avec Arthur, Bill et Cleet."),
+        M("Red Dead Redemption", C6,
+          "Rides with Arthur to Van Horn to free Abigail, sends him to the lighthouse with her rifle and is captured by Milton's men. Abigail kills Milton with Sadie's revolver. Sadie then takes Abigail to Jack at Copperhead Landing.",
+          "Part avec Arthur à Van Horn pour libérer Abigail, l'envoie au phare avec son fusil et se fait capturer par les hommes de Milton. Abigail tue Milton avec le revolver de Sadie. Sadie conduit ensuite Abigail auprès de Jack, à Copperhead Landing."),
+        M("Gainful Employment", E1,
+          "Meets John again in a Valentine saloon, stabs Bubba's hand and smashes a glass into Jeb's face, then takes John to Strawberry to catch the embezzler Nathan Kirk.",
+          "Retrouve John dans un saloon de Valentine, plante un couteau dans la main de Bubba et écrase un verre sur le visage de Jeb, puis emmène John à Strawberry capturer l'escroc Nathan Kirk."),
+        M("An Honest Day's Labors", E2,
+          "Takes back the bounty Shane Finley from her rival James Langton in Pike's Basin, then collects $400 in Blackwater and splits it with John.",
+          "Reprend à son rival James Langton le fugitif Shane Finley, à Pike's Basin, puis touche 400 dollars à Blackwater et partage avec John."),
+        M("A Quick Favor for an Old Friend", E2,
+          "Hunts the Del Lobo member Ramón Cortez with John at Painted Sky, guards him in the Rhodes jail, and recaptures him after his gang breaks him out.",
+          "Traque avec John Ramón Cortez, membre du gang Del Lobo, à Painted Sky, le garde dans la prison de Rhodes et le reprend après que sa bande l'a fait évader."),
+        M("A Really Big Bastard", E2,
+          "Visits Beecher's Hope and gets Abigail's permission to take John bounty hunting. In Tall Trees she drives off a grizzly bear with a shot and knocks out the bounty, Marshall Thurwell.",
+          "Rend visite à Beecher's Hope et obtient d'Abigail la permission d'emmener John chasser la prime. À Tall Trees, elle fait fuir un grizzly d'un coup de feu et assomme le fugitif, Marshall Thurwell."),
+        M("American Venom", E2,
+          "Finds Cleet in Strawberry with John and Charles and gets Micah's location from him on the gallows. On Mount Hagen she is stabbed in the stomach, then holds Micah at gunpoint before he takes her hostage. She returns to Beecher's Hope for the wedding.",
+          "Retrouve Cleet à Strawberry avec John et Charles et lui arrache, sur la potence, l'endroit où se cache Micah. Au mont Hagen, elle est poignardée au ventre, puis tient Micah en joue avant qu'il ne la prenne en otage. Elle rentre à Beecher's Hope pour le mariage."),
+    ]}},
+    {"h4": two("Red Dead Online", "Red Dead Online")},
+    {"p": two("In 1898, a year before the story mode, Sadie and her husband Jake are strangers who give free roam missions at Adler Ranch, in Ambarino. Jake gives them during the day and Sadie at night. The wiki lists four types under their names: \"Rescue\", \"On The Hunt\", \"Recovery\" and \"Delivery\". The hunt targets a bear, one rescue involves bear trappers attacked by a grizzly near the ranch, and the introductory recovery job sends the player after a cart held by the Skinner Brothers near Lake Isabella. All of them give positive honor.",
+              "En 1898, un an avant le mode histoire, Sadie et son mari Jake sont des inconnus qui confient des missions en monde libre à Adler Ranch, en Ambarino. Jake donne les siennes le jour, Sadie la nuit. Le wiki en recense quatre types à leur nom : \"Rescue\", \"On The Hunt\", \"Recovery\" et \"Delivery\". La chasse vise un ours, un sauvetage concerne des trappeurs attaqués par un grizzly près du ranch, et la récupération d'introduction lance le joueur sur la trace d'une charrette retenue par les Skinner Brothers près du lac Isabella. Toutes rapportent de l'honneur positif.")},
+
+    # ---------------------------------------------------------- notable kills
+    {"h3": two("Notable people Sadie kills", "Personnages notables tués par Sadie")},
+    {"p": two("The Red Dead Wiki names three entries: the O'Driscoll Boys as a group, Tom and, depending on the player, Cleet. The table adds two cases taken from the mission pages: the Lemoyne Raiders of chapter 3, the first men she is shown shooting, and James Langton, whose killer may be Sadie or John. Unnamed enemies killed in the other shootouts (Pinkertons at Lakay and Van Horn, Sisika guards, Army soldiers, Micah's men) are not listed.",
+              "Le Red Dead Wiki retient trois entrées : les O'Driscoll en tant que bande, Tom et, selon le choix du joueur, Cleet. Le tableau y ajoute deux cas tirés des pages de missions : les Lemoyne Raiders du chapitre 3, premiers hommes qu'on la voit abattre, et James Langton, dont le meurtrier peut être Sadie ou John. Les ennemis anonymes tués lors des autres fusillades (Pinkerton à Lakay et à Van Horn, gardiens de Sisika, soldats, hommes de Micah) ne figurent pas ici.")},
+    {"table": {"head": [two("Name", "Nom"), two("Mission", "Mission"), two("Circumstances", "Circonstances")], "rows": [
+        K("Lemoyne Raiders", "Further Questions of Female Suffrage",
+          "Two Raiders order the wagon to stop on the road back from Rhodes. Sadie refuses, shoots one and runs the other down with the wagon; she and Arthur then kill the rest of the group, up to ten men.",
+          "Deux Raiders ordonnent au chariot de s'arrêter sur la route du retour de Rhodes. Sadie refuse, abat l'un et renverse l'autre avec le chariot ; Arthur et elle tuent ensuite le reste du groupe, jusqu'à dix hommes."),
+        K(two("O'Driscoll Boys", "Les O'Driscoll"), two("Several missions", "Plusieurs missions"),
+          "She kills O'Driscolls at Shady Belle (three with a knife in \"Horsemen, Apocalypses\"), near Annesburg in \"Icarus and Friends\" and at Hanging Dog Ranch. At Colm's hanging in \"Goodbye, Dear Friend\", she shoots her hostage and Dutch's once Colm is dead.",
+          "Elle tue des O'Driscoll à Shady Belle (trois au couteau dans \"Horsemen, Apocalypses\"), près d'Annesburg dans \"Icarus and Friends\" et à Hanging Dog Ranch. Lors de la pendaison de Colm, dans \"Goodbye, Dear Friend\", elle abat son otage et celui de Dutch une fois Colm mort."),
+        K("Tom", "Mrs. Sadie Adler, Widow II",
+          "The heavy, bearded O'Driscoll who killed Jake Adler and led the last of the gang after Colm's death. Sadie asks Arthur to leave him to her, corners him upstairs in the ranch house and stabs him to death. His death ends the O'Driscoll gang.",
+          "L'O'Driscoll gros et barbu qui a tué Jake Adler et mené les derniers membres de la bande après la mort de Colm. Sadie demande à Arthur de le lui laisser, l'accule à l'étage de la maison du ranch et le tue à coups de couteau. Sa mort met fin à la bande des O'Driscoll."),
+        K("James Langton", "An Honest Day's Labors",
+          "Possible: a rival bounty hunter who stole Shane Finley from her. He dies in the shootout at Pike's Basin, killed by John or by Sadie depending on how the fight goes. Sadie then tells Police Chief Oswald Dunbar that Langton died trying to rob her.",
+          "Possible : un chasseur de primes rival qui lui avait volé Shane Finley. Il meurt dans la fusillade de Pike's Basin, tué par John ou par Sadie selon le déroulement du combat. Sadie raconte ensuite au chef de la police Oswald Dunbar que Langton est mort en tentant de la voler."),
+        K("Cleet", "American Venom",
+          "Depends on the player: after Cleet gives up Micah's hideout on Mount Hagen, Sadie tells John to hang him. If John hangs him, she thanks him; if John spares him, she shoots Cleet in the head herself.",
+          "Dépend du joueur : une fois que Cleet a livré la cachette de Micah au mont Hagen, Sadie demande à John de le pendre. Si John le pend, elle le remercie ; s'il l'épargne, elle abat elle-même Cleet d'une balle dans la tête."),
+    ]}},
+]
+
+BLOCKS_QUOTES = [
+    {"h3": two("Quotes", "Citations")},
+    {"p": two("The lines below are given as spoken in the game, in the original English, with the mission and the person addressed.",
+              "Les répliques ci-dessous sont reproduites telles qu'elles sont prononcées dans le jeu, en anglais, avec la mission et la personne à qui elles s'adressent.")},
+    {"h4": two("Red Dead Redemption 2, chapters 1 to 3", "Red Dead Redemption 2, chapitres 1 à 3")},
+    {"quotes": [
+        {"q": two("They came three days ago... and my husband, they...",
+                  "They came three days ago... and my husband, they..."),
+         "src": two("Outlaws from the West (RDR2, chapter 1), to Dutch, outside her burning house",
+                    "Outlaws from the West (RDR2, chapitre 1), à Dutch, devant sa maison en flammes. Traduction : « Ils sont venus il y a trois jours... et mon mari, ils... »")},
+        {"q": two("Sadie Adler. Mrs... I... he....he was my husband.",
+                  "Sadie Adler. Mrs... I... he....he was my husband."),
+         "src": two("Outlaws from the West (RDR2, chapter 1), to Dutch, who asks her name on the ride to Colter",
+                    "Outlaws from the West (RDR2, chapitre 1), à Dutch, qui lui demande son nom sur la route de Colter. Traduction : « Sadie Adler. Madame... je... c'était... c'était mon mari. »")},
+        {"q": two("I ain't afraid of dying.",
+                  "I ain't afraid of dying."),
+         "src": two("Further Questions of Female Suffrage (RDR2, chapter 3), to Arthur, who warns her that the gang is hunted by armed men",
+                    "Further Questions of Female Suffrage (RDR2, chapitre 3), à Arthur, qui la prévient que le gang est traqué par des hommes armés. Traduction : « J'ai pas peur de mourir. »")},
+        {"q": two("Nobody's taking nothing from me ever again.",
+                  "Nobody's taking nothing from me ever again."),
+         "src": two("Further Questions of Female Suffrage (RDR2, chapter 3), to Arthur, on the road back from Rhodes",
+                    "Further Questions of Female Suffrage (RDR2, chapitre 3), à Arthur, sur la route du retour de Rhodes. Traduction : « Plus personne ne me prendra rien, jamais. »")},
+    ]},
+    {"h4": two("Red Dead Redemption 2, chapters 4 to 6", "Red Dead Redemption 2, chapitres 4 à 6")},
+    {"quotes": [
+        {"q": two("You're the only one of these fools that I trust.",
+                  "You're the only one of these fools that I trust."),
+         "src": two("Mrs. Sadie Adler, Widow I (RDR2, chapter 6), to Arthur, when he hesitates to go after the O'Driscolls",
+                    "Mrs. Sadie Adler, Widow I (RDR2, chapitre 6), à Arthur, qui hésite à partir contre les O'Driscoll. Traduction : « T'es le seul de ces imbéciles en qui j'ai confiance. »")},
+        {"q": two("He was a good man, my Jakey. We was always sweet on one another. I miss him every day... every moment. They turned me into a monster, Arthur. But my memories of him... they still pure.",
+                  "He was a good man, my Jakey. We was always sweet on one another. I miss him every day... every moment. They turned me into a monster, Arthur. But my memories of him... they still pure."),
+         "src": two("Mrs. Sadie Adler, Widow II (RDR2, chapter 6), to Arthur, after killing Tom",
+                    "Mrs. Sadie Adler, Widow II (RDR2, chapitre 6), à Arthur, après avoir tué Tom. Traduction : « C'était un homme bien, mon Jakey. On a toujours été fous l'un de l'autre. Il me manque chaque jour... à chaque instant. Ils ont fait de moi un monstre, Arthur. Mais mes souvenirs de lui... ils sont restés purs. »")},
+        {"q": two("Come on, Arthur... let's go get her. You and me is all we need.",
+                  "Come on, Arthur... let's go get her. You and me is all we need."),
+         "src": two("Red Dead Redemption (RDR2, chapter 6), to Arthur, after Dutch refuses to rescue Abigail",
+                    "Red Dead Redemption (RDR2, chapitre 6), à Arthur, après le refus de Dutch de secourir Abigail. Traduction : « Allez, Arthur... on va la chercher. Toi et moi, ça suffit. »")},
+        {"q": two("Micah's a goddamn sickness.",
+                  "Micah's a goddamn sickness."),
+         "src": two("Red Dead Redemption (RDR2, chapter 6), to Arthur, on the ride to Van Horn (low honor)",
+                    "Red Dead Redemption (RDR2, chapitre 6), à Arthur, en route pour Van Horn (honneur bas). Traduction : « Micah, c'est une foutue maladie. »")},
+        {"q": two("Sure... guess he began to believe he was God, or something.",
+                  "Sure... guess he began to believe he was God, or something."),
+         "src": two("Red Dead Redemption (RDR2, chapter 6), to Arthur, about Dutch, on the ride to Van Horn (high honor)",
+                    "Red Dead Redemption (RDR2, chapitre 6), à Arthur, à propos de Dutch, en route pour Van Horn (honneur élevé). Traduction : « C'est sûr... j'imagine qu'il a fini par se prendre pour Dieu, ou un truc du genre. »")},
+        {"q": two("Listen, if you hadn't shown up at my house that night, I'd be dead. And even this bullshit beats dead.",
+                  "Listen, if you hadn't shown up at my house that night, I'd be dead. And even this bullshit beats dead."),
+         "src": two("Red Dead Redemption (RDR2, chapter 6), to Arthur, who apologizes for dragging her into the gang's troubles (high honor)",
+                    "Red Dead Redemption (RDR2, chapitre 6), à Arthur, qui s'excuse de l'avoir entraînée dans les ennuis du gang (honneur élevé). Traduction : « Écoute, si t'étais pas venu chez moi ce soir-là, je serais morte. Et même ce merdier, ça vaut mieux que d'être morte. »")},
+        {"q": two("Like I said, Arthur, we don't need them. We're gonna make this right, me and you together, what's left of it. Now come on.",
+                  "Like I said, Arthur, we don't need them. We're gonna make this right, me and you together, what's left of it. Now come on."),
+         "src": two("Red Dead Redemption (RDR2, chapter 6), to Arthur, on the ride to Van Horn",
+                    "Red Dead Redemption (RDR2, chapitre 6), à Arthur, en route pour Van Horn. Traduction : « Comme je disais, Arthur, on n'a pas besoin d'eux. On va arranger ça, toi et moi, avec ce qu'il en reste. Allez, viens. »")},
+        {"q": two("I know, Arthur. But, just... do it my way, honey. It's for the best. Get up some place high, like... the lighthouse or something... and cover me. Please.",
+                  "I know, Arthur. But, just... do it my way, honey. It's for the best. Get up some place high, like... the lighthouse or something... and cover me. Please."),
+         "src": two("Red Dead Redemption (RDR2, chapter 6), to Arthur, at Van Horn, after hearing him cough",
+                    "Red Dead Redemption (RDR2, chapitre 6), à Arthur, à Van Horn, après l'avoir entendu tousser. Traduction : « Je sais, Arthur. Mais fais... fais comme je dis, mon grand. C'est mieux comme ça. Monte quelque part en hauteur, genre... le phare... et couvre-moi. S'il te plaît. »")},
+    ]},
+    {"h4": two("Red Dead Redemption 2, epilogue (1907)", "Red Dead Redemption 2, épilogue (1907)")},
+    {"quotes": [
+        {"q": two("Charles. I found him... I found Micah.",
+                  "Charles. I found him... I found Micah."),
+         "src": two("American Venom (RDR2, epilogue), to Charles, at Beecher's Hope",
+                    "American Venom (RDR2, épilogue), à Charles, à Beecher's Hope. Traduction : « Charles. Je l'ai trouvé... J'ai trouvé Micah. »")},
+        {"q": two("The little bastard with the rat face, then.",
+                  "The little bastard with the rat face, then."),
+         "src": two("American Venom (RDR2, epilogue), to John and Charles, about Cleet, on the road to Strawberry, before they find him",
+                    "American Venom (RDR2, épilogue), à John et Charles, à propos de Cleet, sur la route de Strawberry, avant de le trouver. Traduction : « Le petit salaud à tête de rat, alors. »")},
+        {"q": two("You're damn right he will. We owe this to Arthur.",
+                  "You're damn right he will. We owe this to Arthur."),
+         "src": two("American Venom (RDR2, epilogue), to Charles, who says Cleet will talk",
+                    "American Venom (RDR2, épilogue), à Charles, qui assure que Cleet parlera. Traduction : « Tu parles qu'il va parler. On doit bien ça à Arthur. »")},
+        {"q": two("Well, nowadays I'm almost always killing old friends. Old friends and new. Ain't that right, John?",
+                  "Well, nowadays I'm almost always killing old friends. Old friends and new. Ain't that right, John?"),
+         "src": two("American Venom (RDR2, epilogue), to Charles, who says he kills old friends when he is not building houses",
+                    "American Venom (RDR2, épilogue), à Charles, qui dit tuer de vieux amis quand il ne construit pas de maisons. Traduction : « Ben moi, ces temps-ci, je tue presque que de vieux amis. Des vieux et des nouveaux. Pas vrai, John ? »")},
+        {"q": two("John, you given him the family bug.",
+                  "John, you given him the family bug."),
+         "src": two("American Venom (RDR2, epilogue), to John, after Charles says he wants to go to Canada and start a family",
+                    "American Venom (RDR2, épilogue), à John, après que Charles a parlé de partir au Canada fonder une famille. Traduction : « John, tu lui as refilé le virus de la famille. »")},
+        {"q": two("You know, I been thinking I might get outta here too. Down South America, maybe. It's wild, but... less mean, I guess. I'd run protection for a gold mine, or... take up with a handsome revolutionary... I don't know. Something. See something else, at least.",
+                  "You know, I been thinking I might get outta here too. Down South America, maybe. It's wild, but... less mean, I guess. I'd run protection for a gold mine, or... take up with a handsome revolutionary... I don't know. Something. See something else, at least."),
+         "src": two("American Venom (RDR2, epilogue), to John and Charles, on the road to Strawberry",
+                    "American Venom (RDR2, épilogue), à John et Charles, sur la route de Strawberry. Traduction : « Tu sais, je me dis que je pourrais partir d'ici, moi aussi. En Amérique du Sud, peut-être. C'est sauvage, mais... moins méchant, j'imagine. Je pourrais assurer la protection d'une mine d'or, ou... me mettre avec un beau révolutionnaire... je sais pas. Un truc. Voir autre chose, au moins. »")},
+        {"q": two("Hey, you know what... I'm bored of this. Let's hang the bastard.",
+                  "Hey, you know what... I'm bored of this. Let's hang the bastard."),
+         "src": two("American Venom (RDR2, epilogue), to John, while he beats Cleet in Strawberry",
+                    "American Venom (RDR2, épilogue), à John, pendant qu'il passe Cleet à tabac à Strawberry. Traduction : « Tu sais quoi... ça m'ennuie. On pend ce salaud. »")},
+        {"q": two("Come on out, Micah. At least die like a man.",
+                  "Come on out, Micah. At least die like a man."),
+         "src": two("American Venom (RDR2, epilogue), to Micah, whom she has flanked on Mount Hagen",
+                    "American Venom (RDR2, épilogue), à Micah, qu'elle a pris à revers au mont Hagen. Traduction : « Sors de là, Micah. Meurs au moins comme un homme. »")},
+        {"q": two("I ain't dying, just... go get him, I'll be fine I just... need a rest.",
+                  "I ain't dying, just... go get him, I'll be fine I just... need a rest."),
+         "src": two("American Venom (RDR2, epilogue), to John, after being stabbed on Mount Hagen",
+                    "American Venom (RDR2, épilogue), à John, après avoir été poignardée au mont Hagen. Traduction : « Je meurs pas, va juste... va le chercher, ça ira, j'ai juste... besoin de souffler. »")},
+        {"q": two("Hurry up. I got a wedding I wanna go to.",
+                  "Hurry up. I got a wedding I wanna go to."),
+         "src": two("American Venom (RDR2, epilogue), to John, who goes to search Micah's cabin after his death",
+                    "American Venom (RDR2, épilogue), à John, qui part fouiller la cabane de Micah après sa mort. Traduction : « Dépêche-toi. J'ai un mariage où je veux aller. »")},
+    ]},
+]
+
+BLOCKS_TRIVIA = [
+    {"h3": two("Trivia", "Anecdotes")},
+    {"h4": two("Story and characters", "Histoire et personnages")},
+    {"ul": [
+        two("In \"Further Questions of Female Suffrage\", Sadie tells Arthur she used to play the harmonica when her husband was alive. If the player brings her a new one, she thanks Arthur but says she will not play it, because she only ever played for Jake.",
+            "Dans \"Further Questions of Female Suffrage\", Sadie raconte à Arthur qu'elle jouait de l'harmonica du vivant de son mari. Si le joueur lui en offre un neuf, elle le remercie mais refuse d'en jouer : elle ne jouait que pour Jake."),
+        two("When she starts the gunfight with the Lemoyne Raiders, Arthur remarks that a new pair of pants has her thinking she is [[landon-ricketts|Landon Ricketts]], the gunslinger of Red Dead Redemption. When Arthur returns to the store later, the clerk may comment on her new clothes but still calls her Arthur's friend.",
+            "Quand elle déclenche la fusillade contre les Lemoyne Raiders, Arthur lui lance qu'un pantalon neuf suffit à la faire se prendre pour [[landon-ricketts|Landon Ricketts]], le pistolero de Red Dead Redemption. Si Arthur revient plus tard au magasin, le commis peut commenter sa nouvelle tenue, mais l'appelle toujours l'amie d'Arthur."),
+        two("In Arthur's journal, after \"Horsemen, Apocalypses\", the high honor entry praises the bravery Mrs. Adler showed in the fight, which Arthur believes is driven by love.",
+            "Dans le journal d'Arthur, après \"Horsemen, Apocalypses\", l'entrée en honneur élevé salue le courage dont Mrs. Adler a fait preuve pendant le combat, un courage qu'Arthur croit nourri par l'amour."),
+        two("Her closing words to Arthur in \"Mrs. Sadie Adler, Widow II\" depend on honor. With high honor she says that, apart from her Jake, he is the best man she has known; with low honor, that he is a confusing man but the best friend she has.",
+            "Ses derniers mots à Arthur dans \"Mrs. Sadie Adler, Widow II\" dépendent de l'honneur. En honneur élevé, elle lui dit qu'à part son Jake, il est le meilleur homme qu'elle ait connu ; en honneur bas, qu'il est un homme déroutant mais le meilleur ami qu'elle ait."),
+        two("Turning down her request in \"Mrs. Sadie Adler, Widow I\" lowers Arthur's honor and closes part II. After part II, the O'Driscolls no longer appear in free roam, and Micah's associates Cleet and Joe show up at camp; if the request is refused, they only appear from \"My Last Boy\".",
+            "Refuser sa demande dans \"Mrs. Sadie Adler, Widow I\" fait baisser l'honneur d'Arthur et ferme la seconde partie. Après la seconde partie, les O'Driscoll disparaissent du monde libre, et Cleet et Joe, les acolytes de Micah, se montrent au camp ; en cas de refus, ils n'apparaissent qu'à partir de \"My Last Boy\"."),
+        two("Before stabbing Tom at Hanging Dog Ranch, Sadie reminds him that she had told him he would see her again. The game does not show how she learned that he was Jake's killer.",
+            "Avant de poignarder Tom à Hanging Dog Ranch, Sadie lui rappelle qu'elle lui avait promis qu'il la reverrait. Le jeu ne montre pas comment elle a su qu'il était l'assassin de Jake."),
+        two("Arthur's journal contains a drawing of Sadie.",
+            "Le journal d'Arthur contient un dessin de Sadie."),
+        two("In Arthur's journal, the \"Gang Savings\" entry for the oil field job reads \"A, D, C, B & S\" and the one for the Army payroll train \"A, D, B, JE, S, M, Joe & Cleet\". In both, \"S\" stands for Sadie.",
+            "Dans le journal d'Arthur, la rubrique \"Gang Savings\" du coup des champs pétrolifères indique \"A, D, C, B & S\", et celle du train de la paie de l'armée \"A, D, B, JE, S, M, Joe & Cleet\". Dans les deux cas, \"S\" désigne Sadie."),
+        two("Sadie is never named in the game's newspapers. \"Doors of Iron Down\", the article on the Sisika breakout, only mentions a man and a woman who helped one convict escape by boat, and recalls a balloon seen over the prison a few days earlier. The 1907 article \"Notorious Bad Man Alive\" lists Bill Williamson, Micah Bell, John Marston and [[charles-smith|Charles Smith]] as gang members still at large, but not her.",
+            "Sadie n'est jamais nommée dans les journaux du jeu. \"Doors of Iron Down\", l'article sur l'évasion de Sisika, parle seulement d'un homme et d'une femme qui ont aidé un détenu à fuir en bateau, et rappelle qu'un ballon avait survolé la prison quelques jours plus tôt. L'article de 1907 \"Notorious Bad Man Alive\" cite Bill Williamson, Micah Bell, John Marston et [[charles-smith|Charles Smith]] parmi les membres du gang encore en fuite, mais pas elle."),
+        two("Micah and Sadie come face to face at two points of the story: in \"Outlaws from the West\", when they first meet, and in \"American Venom\", when they meet for the last time. On each occasion Micah threatens her and Dutch intervenes: he pushes Micah away in her burning house, and eight years later he shoots Micah while Micah holds her hostage.",
+            "Micah et Sadie se retrouvent face à face à deux moments du récit : lors de leur première rencontre, dans \"Outlaws from the West\", et lors de la dernière, dans \"American Venom\". Chaque fois, Micah la menace et Dutch s'interpose : il repousse Micah dans la maison en flammes, puis, huit ans plus tard, tire sur Micah alors que celui-ci la tient en otage."),
+        two("In the first weeks at camp, Abigail is one of the women who comfort Sadie after Jake's death. In chapter 6, Sadie helps free John from Sisika, takes Abigail to Jack after the Van Horn rescue, and in 1907 her bounty jobs help John pay the loan on Beecher's Hope.",
+            "Pendant les premières semaines au camp, Abigail fait partie des femmes qui consolent Sadie après la mort de Jake. Au chapitre 6, Sadie aide à faire sortir John de Sisika, conduit Abigail auprès de Jack après le sauvetage de Van Horn, et en 1907, ses contrats de chasse à la prime aident John à rembourser l'emprunt de Beecher's Hope."),
+        two("In \"An Honest Day's Labors\", the only story mission set in New Austin, Sadie never names the state: she calls it the desert down south. If Shane Finley is brought in dead, Police Chief Dunbar pays less and John's share drops from $200 to $150.",
+            "Dans \"An Honest Day's Labors\", seule mission de l'histoire située à New Austin, Sadie ne nomme jamais l'État : elle parle du désert, plus au sud. Si Shane Finley est ramené mort, le chef de la police Dunbar paie moins, et la part de John passe de 200 à 150 dollars."),
+        two("In \"Icarus and Friends\", Sadie speaks of Strauss's nerves as if he were still in the gang, even if Arthur has already thrown him out; she has not been back to camp since \"Fleeting Joy\". In the end credits, she watches John and Abigail's wedding with Charles, then leaves Beecher's Hope on horseback once healed.",
+            "Dans \"Icarus and Friends\", Sadie évoque la nervosité de Strauss comme s'il faisait encore partie du gang, même si Arthur l'en a déjà chassé ; elle n'est pas revenue au camp depuis \"Fleeting Joy\". Dans le générique de fin, elle assiste avec Charles au mariage de John et Abigail, puis quitte Beecher's Hope à cheval une fois guérie."),
+    ]},
+    {"h4": two("Gameplay", "Jeu")},
+    {"ul": [
+        two("Only four characters in Red Dead Redemption 2 are given a recurring musical theme of their own; besides Sadie, they are [[john-marston|John Marston]], [[colm-odriscoll|Colm O'Driscoll]] and [[angelo-bronte|Angelo Bronte]]. Hers returns in several of her missions, including part II of \"Mrs. Sadie Adler, Widow\" and \"Gainful Employment\".",
+            "Dans Red Dead Redemption 2, seuls quatre personnages ont droit à un thème musical récurrent : Sadie, [[john-marston|John Marston]], [[colm-odriscoll|Colm O'Driscoll]] et [[angelo-bronte|Angelo Bronte]]. Celui de Sadie revient dans plusieurs de ses missions, dont la seconde partie de \"Mrs. Sadie Adler, Widow\" et \"Gainful Employment\"."),
+        two("After \"Further Questions of Female Suffrage\", she takes turns on camp guard duty, walking the perimeter with her Carbine Repeater. She becomes available as an opponent at Five Finger Fillet in camp: the character page dates this from \"Blessed are the Peacemakers\" (chapter 3), the minigame page from chapter 4.",
+            "Après \"Further Questions of Female Suffrage\", elle prend des tours de garde au camp, sa Carbine Repeater à la main. Elle devient une adversaire possible au Five Finger Fillet du camp : la page du personnage situe ce changement après \"Blessed are the Peacemakers\" (chapitre 3), celle du mini-jeu au chapitre 4."),
+        two("Pushed too far by Arthur at camp, Sadie can slap him, and she can do the same to John in the epilogue. No other woman of the gang reacts to provocation with her hands: the only other one who slaps Arthur, Susan Grimshaw, does so solely when he needs a bath.",
+            "Poussée à bout par Arthur au camp, Sadie peut le gifler, et elle peut faire de même avec John dans l'épilogue. Aucune autre femme du gang ne répond aux provocations par la main : la seule autre à gifler Arthur, Susan Grimshaw, ne le fait que lorsqu'il a besoin d'un bain."),
+        two("In \"Icarus and Friends\", if the player fails to pull her up into the balloon, she can be seen falling from the rope to her death. In \"Horsemen, Apocalypses\", she can be set on fire with a fire bottle and has dedicated voice lines for it.",
+            "Dans \"Icarus and Friends\", si le joueur ne parvient pas à la hisser dans le ballon, on peut la voir lâcher la corde et tomber. Dans \"Horsemen, Apocalypses\", on peut l'enflammer avec une bouteille incendiaire, et elle a des répliques prévues pour ce cas."),
+        two("In \"My Last Boy\", if Arthur does not pull the soldier off Eagle Flies, Sadie does it. In \"Our Best Selves\", using volatile dynamite on the armored car can kill Sadie or Cleet if they stand too close, which fails the mission.",
+            "Dans \"My Last Boy\", si Arthur ne débarrasse pas Eagle Flies du soldat qui l'attaque, Sadie s'en charge. Dans \"Our Best Selves\", utiliser de la dynamite instable sur le wagon blindé peut tuer Sadie ou Cleet s'ils se tiennent trop près, ce qui fait échouer la mission."),
+        two("In \"Gainful Employment\", following Sadie instead of questioning the townsfolk leads to a man at the stables who tells her where Nathan Kirk is staying, which skips the search. Catching up with her after the mission can trigger a glitch that makes her a free roam companion, with Kirk still on her horse.",
+            "Dans \"Gainful Employment\", suivre Sadie au lieu d'interroger les habitants mène à un homme des écuries qui lui indique où loge Nathan Kirk, ce qui permet de sauter la recherche. La rattraper après la mission peut provoquer un bug qui en fait une compagne de route en monde libre, Kirk toujours sur son cheval."),
+        two("With speaker names shown in the subtitles, Sadie appears as \"Stranger\" whenever one of her missions is replayed after the end of the game.",
+            "Si les sous-titres affichent le nom des personnages, Sadie y apparaît sous le nom \"Stranger\" chaque fois qu'on rejoue l'une de ses missions après la fin du jeu."),
+        two("Her engagement ring is visible on her bare hand throughout the game, with two exceptions: \"A Really Big Bastard\" and Red Dead Online. In \"American Venom\", the ring only appears on her finger at John and Abigail's wedding.",
+            "Sa bague de fiançailles est visible à sa main nue tout au long du jeu, à deux exceptions près : \"A Really Big Bastard\" et Red Dead Online. Dans \"American Venom\", la bague n'apparaît à son doigt qu'au mariage de John et Abigail."),
+    ]},
+    {"h4": two("Development and cut content", "Conception et contenu coupé")},
+    {"ul": [
+        two("The game files contain unused clothing for Sadie: two pairs of pants, a hat, a shirt, a shawl, a belt and a coat, along with an unused head model and hair. They also hold a \"kidnapped\" outfit, identical to her early chapter 3 clothes without the dress, and a barefoot version of her 1907 model.",
+            "Les fichiers du jeu contiennent des vêtements inutilisés de Sadie : deux pantalons, un chapeau, une chemise, un châle, une ceinture et un manteau, ainsi qu'un modèle de tête et une coiffure non utilisés. On y trouve aussi une tenue \"kidnapped\" (enlevée), identique à ses vêtements du début du chapitre 3 sans la robe, et une version pieds nus de son modèle de 1907."),
+        two("Several pre-release screenshots show Sadie with horses that do not appear in the final game. One of them shows Arthur, Sadie and Bob during \"Red Dead Redemption\" in an earlier version of Van Horn, without its lighthouse.",
+            "Plusieurs captures publiées avant la sortie montrent Sadie avec des chevaux absents du jeu final. L'une d'elles montre Arthur, Sadie et Bob pendant \"Red Dead Redemption\" dans une version antérieure de Van Horn, sans son phare."),
+        two("In the second trailer, Bubba, the man Sadie stabs through the hand in the Valentine saloon, has a beard and a hat. His model was redesigned before release.",
+            "Dans la deuxième bande-annonce, Bubba, l'homme dont Sadie transperce la main au saloon de Valentine, porte une barbe et un chapeau. Son modèle a été refait avant la sortie."),
+    ]},
+    {"h4": two("Red Dead Online", "Red Dead Online")},
+    {"ul": [
+        two("In Red Dead Online, set in 1898, Sadie first meets the player at Adler Ranch on her return from a supply run. She holds the newcomer at gunpoint and warns that she will kill them if they betray her or Jake.",
+            "Dans Red Dead Online, qui se déroule en 1898, Sadie rencontre le joueur à Adler Ranch en revenant d'une course de ravitaillement. Elle tient le nouveau venu en joue et le prévient qu'elle le tuera s'il les trahit, Jake ou elle."),
+        two("Four members of the Van der Linde gang appear in Red Dead Online: Sadie, [[josiah-trelawny|Josiah Trelawny]], Joe and [[sean-macguire|Sean MacGuire]]. Of the four, only Sadie gives missions that earn positive honor. Neither she nor Joe has joined the gang in 1898.",
+            "Quatre membres du gang Van der Linde apparaissent dans Red Dead Online : Sadie, [[josiah-trelawny|Josiah Trelawny]], Joe et [[sean-macguire|Sean MacGuire]]. Parmi eux, seule Sadie confie des missions qui rapportent de l'honneur positif. En 1898, ni elle ni Joe n'ont encore rejoint le gang."),
+        two("\"The Cordell\", an outfit sold in Red Dead Online, is based on Sadie's 1907 bounty hunter clothes.",
+            "\"The Cordell\", une tenue vendue dans Red Dead Online, s'inspire des vêtements de chasseuse de primes que Sadie porte en 1907."),
+    ]},
+    {"h4": two("Name and references", "Nom et références")},
+    {"ul": [
+        two("According to the Red Dead Wiki, Sadie married Jake Adler on September 7, 1896. Their wedding photograph sits on the mantelpiece of the ranch in Red Dead Online, and Arthur can point it out while searching the house in \"Outlaws from the West\".",
+            "D'après le Red Dead Wiki, Sadie a épousé Jake Adler le 7 septembre 1896. Leur photo de mariage trône sur la cheminée du ranch dans Red Dead Online, et Arthur peut la remarquer en fouillant la maison dans \"Outlaws from the West\"."),
+        two("Her 1907 horse, Hera, shares its name with the Greek goddess of marriage.",
+            "Son cheval de 1907, Hera, porte le nom de la déesse grecque du mariage."),
+    ]},
+]
+
+BLOCKS_MEDIA = [
+    {"h3": two("Other media and legacy", "Autres médias et postérité")},
+    {"h4": two("Marketing", "Promotion")},
+    {"p": two("Rockstar's character description of Sadie is quoted in the Personality section above. The second trailer, released on September 28, 2017, includes the Valentine saloon scene from \"Gainful Employment\" in which she stabs a man through the hand. The third trailer, released on May 2, 2018, shows the opening scene of \"Mrs. Sadie Adler, Widow\", with Arthur still looking healthy. The screenshots posted on Rockstar's website before release include Sadie back to back with John, a group shot of the gang and a scene of her with Arthur at Van Horn; one more photo of Sadie in Van Horn was published only on Rockstar's Twitter account. On September 6, 2018, according to Game Informer and rdr2.org, Rockstar released portraits of the 23 members of the gang, Sadie among them.",
+              "La description officielle du personnage par Rockstar est citée plus haut, dans la partie consacrée à sa personnalité. La deuxième bande-annonce, publiée le 28 septembre 2017, reprend la scène du saloon de Valentine, tirée de \"Gainful Employment\", où elle transperce la main d'un homme. La troisième, sortie le 2 mai 2018, montre la scène d'ouverture de \"Mrs. Sadie Adler, Widow\", avec un Arthur encore en bonne santé. Parmi les captures mises en ligne sur le site de Rockstar avant la sortie figurent Sadie dos à dos avec John, une photo de groupe du gang et une scène avec Arthur à Van Horn ; une autre photo de Sadie à Van Horn n'a été publiée que sur le compte Twitter de Rockstar. Le 6 septembre 2018, selon Game Informer et rdr2.org, Rockstar dévoile les portraits des 23 membres du gang, dont celui de Sadie.")},
+    {"p": two("Red Dead Redemption 2: The Complete Official Guide, published by Piggyback on October 26, 2018, gives her a profile (page 357) that describes her upbringing in the mountains, where she learned to ride, shoot and hunt, and the life she shared with Jake on their farm.",
+              "Le guide officiel de Piggyback, Red Dead Redemption 2: The Complete Official Guide, paru le 26 octobre 2018, lui consacre une fiche (page 357) qui retrace son enfance dans les montagnes, où elle a appris à monter, à tirer et à chasser, et la vie qu'elle partageait avec Jake dans leur ferme.")},
+    {"h4": two("Music", "Musique")},
+    {"p": two("\"Mrs. Sadie Adler, Widow\", composed by Woody Jackson and 4 minutes 24 seconds long, is the fourth track of The Music of Red Dead Redemption 2: Original Score. Rockstar announced the album on its Newswire on July 19, 2019, and released it on August 9, 2019. Sadie is the only character with a track of the score named after her.",
+              "\"Mrs. Sadie Adler, Widow\", composé par Woody Jackson et long de 4 minutes 24, est le quatrième titre de l'album The Music of Red Dead Redemption 2: Original Score. Rockstar l'annonce sur son Newswire le 19 juillet 2019 et le publie le 9 août 2019. Sadie est le seul personnage à avoir donné son nom à un titre de la bande originale.")},
+    {"h4": two("Press and appearances", "Presse et apparitions")},
+    {"p": two("On March 7, 2019, GamesRadar+ published two features by Rachel Weber on the character: \"The making of Red Dead Redemption 2's incredible Mrs. Adler\", with McKenna and motion capture director Rod Edge, and \"Sisterhood, shotguns and slapping\", a round table with the actresses of the gang's women. McKenna also appeared with Roger Clark, Rob Wiethoff, Curzon Dobell, Peter Blomquist and Steve J. Palmer, among others, on the Red Dead Redemption II cast panel at SacAnime Summer 2019.",
+              "Le 7 mars 2019, GamesRadar+ publie deux articles de Rachel Weber sur le personnage : \"The making of Red Dead Redemption 2's incredible Mrs. Adler\", avec McKenna et le directeur de la capture de mouvement Rod Edge, et \"Sisterhood, shotguns and slapping\", une table ronde réunissant les interprètes des femmes du gang. McKenna participe aussi, avec Roger Clark, Rob Wiethoff, Curzon Dobell, Peter Blomquist et Steve J. Palmer, entre autres, à la table ronde des acteurs de Red Dead Redemption II à la SacAnime de l'été 2019.")},
+]
