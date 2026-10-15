@@ -465,5 +465,9 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   d'Amos, articles de 1907 (Blackwater Ledger n° 75, etc.). Navire de Saint-Denis : nommé (Antenor) sans
   destination (sources divergentes). Leçon : les fiches complètes génèrent beaucoup de DOUBLONS entre Conception,
   Anecdotes, Citations et Relations ; la relecture doit les chercher explicitement (catégorie DUPLICATE).
+- **Hosea Matthews v3 (16 oct. 2026)** : 6e fiche complète (base reconstruite, `parts/hosea_D.py`). ~12 000 mots
+  EN (≈ 300 % du wiki). Peu de sources réelles (pas d'article Wikipédia sur Curzon Dobell) : Conception courte
+  mais sourcée (Bristol Old Vic, mai 2025). Rappels : Milton n'offre PAS de grâce à Clemens Point mais trois jours
+  pour fuir ; Davey arrive mort à Colter ; « Horsemen, Apocalypses » précède « Urban Pleasures ».
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
