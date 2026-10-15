@@ -459,5 +459,11 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Corrections reportées chez John : UN SEUL télégramme de Sadie, adressé « JIM MILTON », « IF YOURE THE JM I KNOW »
   (pas « ses télégrammes signent JM ») ; Sadie ne « se moque » PAS de l'alias (la page de mission dit qu'ils
   évoquent le passé). Le wiki se trompe sur la page Sadie (« lettre » au lieu de télégramme dans Motherhood).
+- **Micah Bell v3 (16 oct. 2026)** : 5e fiche complète (base reconstruite dans `parts/micah_D.py`, même schéma
+  que Sadie). 15 100 mots EN (195 % du wiki), 36 relations, galerie 13. Nouveaux faits sourcés : coupure de 1877
+  (Micah Bell, 38 ans, et son fils, 17 ans, soupçonnés du meurtre des Briggs, comté de Crawford, Ohio), lettre
+  d'Amos, articles de 1907 (Blackwater Ledger n° 75, etc.). Navire de Saint-Denis : nommé (Antenor) sans
+  destination (sources divergentes). Leçon : les fiches complètes génèrent beaucoup de DOUBLONS entre Conception,
+  Anecdotes, Citations et Relations ; la relecture doit les chercher explicitement (catégorie DUPLICATE).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
