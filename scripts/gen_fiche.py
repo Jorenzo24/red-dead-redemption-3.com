@@ -207,7 +207,7 @@ def _page(c, lang):
     # Encyclopedic <title>: "Name (RDR2): Biography, Story and Relationships".
     # Game tag derived from the "Games" fact (Red Dead Online ignored).
     games = next(f["value"]["en"] for f in c["facts"] if f["label"]["en"] == "Games")
-    g = [x.strip() for x in games.split(",")]
+    g = [x.strip() for x in re.split(r"[,;]", games)]   # "RDR2; mentioned in Red Dead Online" too
     r1, r2 = "Red Dead Redemption" in g, "Red Dead Redemption 2" in g
     gtag = ("RDR1" if r1 and not r2 else "RDR2" if r2 and not r1
             else ("RDR1 and RDR2" if lang == "en" else "RDR1 et RDR2"))
