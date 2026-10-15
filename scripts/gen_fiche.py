@@ -204,15 +204,10 @@ def _page(c, lang):
     up = "../" * depth
     L = (lambda d: d[lang])
     slug = c["slug"]; name = c["name"]
-    # Encyclopedic <title>: "Name (RDR2): Biography, Story and Relationships".
-    # Game tag derived from the "Games" fact (Red Dead Online ignored).
-    games = next(f["value"]["en"] for f in c["facts"] if f["label"]["en"] == "Games")
-    g = [x.strip() for x in re.split(r"[,;]", games)]   # "RDR2; mentioned in Red Dead Online" too
-    r1, r2 = "Red Dead Redemption" in g, "Red Dead Redemption 2" in g
-    gtag = ("RDR1" if r1 and not r2 else "RDR2" if r2 and not r1
-            else ("RDR1 and RDR2" if lang == "en" else "RDR1 et RDR2"))
-    page_title = (f"{name} ({gtag}): Biography, Story and Relationships" if lang == "en"
-                  else f"{name} ({gtag}) : biographie, histoire et relations")
+    # Encyclopedic <title>: "Name: Biography, Story and Relationships". No game tag
+    # (Joseph, 16 Oct 2026: abbreviations such as RDR2 add nothing to the title).
+    page_title = (f"{name}: Biography, Story and Relationships" if lang == "en"
+                  else f"{name} : biographie, histoire et relations")
     enurl = f"https://red-dead-redemption-3.com/characters/{slug}/"
     frurl = f"https://red-dead-redemption-3.com/fr/personnages/{slug}/"
     canon = enurl if lang == "en" else frurl
