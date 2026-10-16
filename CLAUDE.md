@@ -475,5 +475,12 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   sert à la fuite ; Karen et Javier amènent Eagle Flies à Beaver Hollow ; la mort au machete d'un O'Driscoll
   est dans « Horsemen, Apocalypses ». Faits wiki-only attribués dans le texte : nom de ring « Lone Wolf »,
   surnom « Sulky », race Nokota de Falmouth.
+- **Bill Williamson v3 (16 oct. 2026)** : 8e fiche complète (base reconstruite, `parts/bill_D.py`). 14 280 mots EN
+  (250 % du wiki), 32 relations, galerie 14. Corrections : mort « près d'Escalera » (sur la route, pas dans la
+  ville) ; aucune date de naissance canon (1866 écarté, estimation du wiki 1869-1872 attribuée) ; c'est Uncle qui
+  évoque le braquage près du Canada ; à « My Last Boy », Bill est avec le groupe de Dutch, pas à l'entrepôt ; à
+  Fort Mercer, c'est Jonah qui rapporte la fuite au Mexique. Bill n'est PAS dans Red Dead Online (seule la tenue
+  « The Dedham » s'en inspire). Erreur corrigée au passage dans le guide ch. 4 (EN+FR) : John est arrêté à
+  Saint-Denis, c'est Micah qui fait naufrage avec Arthur, Dutch, Bill et Javier.
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
