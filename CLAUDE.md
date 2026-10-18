@@ -363,7 +363,7 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   convertit) ; mettre des `<a href>` directs. Décisions de contenu notables : RDR2 ch.6 = 4 fins
   (choix × honneur) ; détails wiki non vérifiés écartés ; épilogue RDR2 = mort de Micah en tir partagé
   (Dutch tire, John achève), pas « Dutch tue Micah » ; RDR1 = Dutch se laisse tomber de la falaise
-  (pas abattu par John), Javier capturé vivant à El Presidio, Allende et Bill tués à Escalera.
+  (pas abattu par John), Javier tué OU capturé à El Presidio (choix du joueur), Allende et Bill tués à Escalera, où Luisa meurt aussi (« An Appointed Time », pas El Presidio).
   Tous les personnages RDR1 cités ont désormais une fiche et sont liés (depuis le 5 oct. 2026).
 - **Drip publishing** : `_queue/NN-<slug>/` (meta.json + en.html + fr.html), publié par
   `.github/workflows/daily-publish.yml` → `scripts/publish_next.py` (cron 09:00 UTC ; la plus
@@ -482,5 +482,13 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Fort Mercer, c'est Jonah qui rapporte la fuite au Mexique. Bill n'est PAS dans Red Dead Online (seule la tenue
   « The Dedham » s'en inspire). Erreur corrigée au passage dans le guide ch. 4 (EN+FR) : John est arrêté à
   Saint-Denis, c'est Micah qui fait naufrage avec Arthur, Dutch, Bill et Javier.
+- **Javier Escuella v3 (18 oct. 2026)** : 9e fiche complète (base reconstruite, `parts/javier_D.py` ; l'ancienne
+  venait de `_wave1.py`). 13 900 mots EN (245 % du wiki), 33 relations, galerie 13. Sources primaires lues sur image :
+  avis de recherche de Shady Belle (« asesinato y traición », Punta Orgullo, 1 000 $) et biographie du guide
+  Collector's (il a tué « a high-ranking army officer over a woman »). Sort en 1911 = choix du joueur partout
+  (tué ou capturé et livré au Bureau). Erreurs corrigées au passage : guide RDR1 acte 2 (Reyes n'est pas libéré
+  à El Presidio lors de la capture de Javier ; Luisa meurt à Escalera dans « An Appointed Time ») ; fiche Luisa
+  (même erreur, HTML + `_wave6.py`) ; fiche Arthur (c'est Uncle qui évoque le braquage près du Canada ; Arthur
+  évoque seul celui de Tucson).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
