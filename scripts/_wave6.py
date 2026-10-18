@@ -164,8 +164,8 @@ CHARS = [
  "portrait_alt": two("Luisa Fortuna and John Marston in Red Dead Redemption",
                      "Luisa Fortuna et John Marston dans Red Dead Redemption"),
  "eyebrow": two("Character &middot; Nuevo Paraiso", "Personnage &middot; Nuevo Paraíso"),
- "meta_desc": two("Luisa Fortuna: the young revolutionary devoted to Abraham Reyes in Red Dead Redemption. Biography, her family, and her death at El Presidio.",
-                  "Luisa Fortuna : la jeune révolutionnaire dévouée à Abraham Reyes dans Red Dead Redemption. Biographie, sa famille, et sa mort à El Presidio."),
+ "meta_desc": two("Luisa Fortuna: the young revolutionary devoted to Abraham Reyes in Red Dead Redemption. Biography, her family, and her death in Escalera.",
+                  "Luisa Fortuna : la jeune révolutionnaire dévouée à Abraham Reyes dans Red Dead Redemption. Biographie, sa famille, et sa mort à Escalera."),
  "og_desc": two("A farm girl who joins the revolution for Abraham Reyes, and does not live to see it win.",
                 "Une paysanne qui rejoint la révolution par amour pour Abraham Reyes, et ne vit pas assez pour la voir gagner."),
  "schema_desc": two("Young Mexican revolutionary and follower of Abraham Reyes in Red Dead Redemption.",
@@ -175,7 +175,7 @@ CHARS = [
  "facts": [
    {"label": two("Affiliation","Affiliation"), "value": two("Mexican rebels","Rebelles mexicains")},
    {"label": two("Family","Famille"), "value": two("The Fortuna family, Nuevo Paraiso","La famille Fortuna, Nuevo Paraíso")},
-   {"label": two("Status","Statut"), "value": two("Killed at El Presidio in 1911","Tuée à El Presidio en 1911")},
+   {"label": two("Status","Statut"), "value": two("Killed in Escalera in 1911","Tuée à Escalera en 1911")},
    {"label": two("Nationality","Nationalité"), "value": two("Mexican","Mexicaine")},
    {"label": two("Games","Jeux"), "value": two("Red Dead Redemption","Red Dead Redemption")},
  ],
@@ -194,9 +194,9 @@ CHARS = [
      {"p": two("Luisa's family are ordinary farmers caught between the army and the rebels. She asks John to intervene on their behalf, and her sister's situation is one of the errands he takes on in Nuevo Paraiso.",
                "La famille de Luisa, de simples paysans, se retrouve prise entre l'armée et les rebelles. Elle demande à John d'intervenir en leur faveur, et le sort de sa sœur fait partie des missions qu'il accepte au Nuevo Paraíso.")},
    ]},
-   {"summary": two("Death at El Presidio","Sa mort à El Presidio"), "blocks": [
-     {"p": two("Reyes is captured and held at El Presidio. Luisa takes part in the attack to free him and is shot during the assault. She dies there, before the revolution she believed in takes the province. Reyes goes on to win and to govern.",
-               "Reyes est capturé et détenu à El Presidio. Luisa participe à l'attaque menée pour le libérer et y est touchée. Elle meurt sur place, avant que la révolution en laquelle elle croyait ne s'empare de la province. Reyes, lui, l'emporte et gouverne.")},
+   {"summary": two("Death in Escalera","Sa mort à Escalera"), "blocks": [
+     {"p": two("In \"An Appointed Time\", the army captures Reyes and prepares to execute him in Escalera. Luisa tries to save him and is shot dead by the soldiers guarding him. John kills two of them, beats the third, Major Raul Zubieta, in a duel and frees Reyes. She dies before the revolution she believed in takes the province. Reyes goes on to win and to govern.",
+               "Dans \"An Appointed Time\", l'armée capture Reyes et s'apprête à le fusiller à Escalera. Luisa tente de le sauver et tombe sous les balles des soldats qui le gardent. John abat deux d'entre eux, bat le troisième, le major Raul Zubieta, en duel et libère Reyes. Elle meurt avant que la révolution en laquelle elle croyait ne s'empare de la province. Reyes, lui, l'emporte et gouverne.")},
    ]},
    {"summary": two("Behind the scenes","Coulisses"), "blocks": [
      {"p": two("Luisa Fortuna appears in Red Dead Redemption (2010), in the Nuevo Paraiso chapter of the story.",
@@ -211,8 +211,8 @@ CHARS = [
     "text": two("The American she brings into the rebellion's errands, and who helps her family.",
                 "L'Américain qu'elle entraîne dans les missions de la rébellion, et qui aide sa famille.")},
    {"name": "Agustin Allende", "slug": "agustin-allende", "img": "allende.jpeg",
-    "text": two("The governor whose forces hold Reyes at El Presidio.",
-                "Le gouverneur dont les forces détiennent Reyes à El Presidio.")},
+    "text": two("The governor whose army captures Reyes in Escalera.",
+                "Le gouverneur dont l'armée capture Reyes à Escalera.")},
  ],
  "gallery": [
    {"img": "gallery-1.jpeg", "alt": two("A rebel wagon on the roads of Nuevo Paraiso","Un chariot rebelle sur les routes du Nuevo Paraíso"),
