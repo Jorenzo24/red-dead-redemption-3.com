@@ -512,5 +512,15 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   au passage : guide RDR2 ch. 2 (« Polite Society » = Arthur, Uncle, Karen, Mary-Beth, Tilly ; pas Hosea), guide RDR1
   acte 3 (Uncle repousse la première vague avec John avant d'être touché ; Abigail et Jack sur UN cheval).
   NB : la réglette « Dans l'histoire » est DÉSACTIVÉE (`ENABLED = False` dans `gen_storystrip.py`).
+- **Format MOYEN v3 (19 oct. 2026) pour les secondaires du gang** (wiki de 1 300 à 2 900 mots) : mêmes sections et
+  règles, 2 rédacteurs (A+C, B+D), 2 relecteurs + couverture, 1 correcteur ; outils dans le scratchpad `cov/`
+  (`setup_medium.py`, `galfetch.py`, `galbuild.py`, `mkmodule.py`, `mkrel.py`, `split2.py`). Le navire de Saint-Denis
+  n'a JAMAIS de destination (retirée d'Arthur, Charles, Micah).
+  - **Sean MacGuire v3** : 7 900 mots EN, 17 relations, galerie 16. Sauvetage = « The First Shall Be Last » (pas « Who
+    is Not Without Sin »). Père Darragh : nom sur la coupure de presse en jeu, lien de parenté = wiki. Présent dans Red
+    Dead Online (missions Blood Money, 13 juil. 2021).
+  - **Lenny Summers v3** : 7 900 mots EN, 17 relations, galerie 14. Arthur l'appelle « Leonard » une fois (« Preaching
+    Forgiveness as He Went »). « Fils d'anciens esclaves » = wiki, attribué. Lenny n'a pas rejoint le gang adolescent
+    (phrase retirée d'Arthur).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
