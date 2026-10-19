@@ -498,5 +498,12 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   (tué à Van Horn, pas Beaver Hollow ; HTML + `_wave3.py`), fiche Bonnie (rencontre Abigail chez elle dans « Old
   Friends, New Problems », livraison de maïs ; HTML + `_wave4.py`), Hosea (Abigail a caché l'explosif seule), Micah
   (lieu des avances à Abigail disputé entre wikis, plus de « Clemens Point »).
+- **Jack Marston v3 (19 oct. 2026)** : 11e fiche complète, FIN DES PRINCIPAUX DU GANG (base reconstruite,
+  `parts/jack_D.py`). 15 300 mots EN (336 % du wiki), 28 relations, galerie 18. Nom crédité (manuel RDR1) : John
+  « Jack » Marston Jr. Interprètes : Josh Blaylock (RDR1), Marissa Buccianti (1899) et Ted Sutherland (1907) ;
+  Rob Wiethoff fait la capture du duel contre Ross. Jack n'apparaît à l'écran dans RDR1 qu'au retour à Beecher's
+  Hope (acte III). Arme de Ross : fusil (rifle) en 1899, fusil de chasse en 1914. Erreur corrigée au passage :
+  guide RDR1 acte 3 (1914 : un homme à la gare de Blackwater, Emily à la cabane du lac Don Julio, Phillip à son
+  camp au Mexique ; pas « la femme à Blackwater, le frère à Thieves' Landing »).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
