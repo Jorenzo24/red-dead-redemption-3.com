@@ -505,5 +505,12 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   Hope (acte III). Arme de Ross : fusil (rifle) en 1899, fusil de chasse en 1914. Erreur corrigée au passage :
   guide RDR1 acte 3 (1914 : un homme à la gare de Blackwater, Emily à la cabane du lac Don Julio, Phillip à son
   camp au Mexique ; pas « la femme à Blackwater, le frère à Thieves' Landing »).
+- **Uncle v3 (19 oct. 2026)** : 12e fiche complète (base reconstruite, `parts/uncle_D.py`, l'entrée v2 d'`_enrich.py`
+  est remplacée). 12 500 mots EN (245 % du wiki), 21 relations, galerie 18. Aucun vrai nom (le jeu n'en donne pas).
+  Trois interprètes : Spider Madison (RDR1), John O'Creagh (mort le 30 oct. 2016, ses chants restent), James McBride.
+  « An Honest Mistake » : Lowe et Cooperforth meurent dans la grange (corrigé aussi chez Charles). Erreurs corrigées
+  au passage : guide RDR2 ch. 2 (« Polite Society » = Arthur, Uncle, Karen, Mary-Beth, Tilly ; pas Hosea), guide RDR1
+  acte 3 (Uncle repousse la première vague avec John avant d'être touché ; Abigail et Jack sur UN cheval).
+  NB : la réglette « Dans l'histoire » est DÉSACTIVÉE (`ENABLED = False` dans `gen_storystrip.py`).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
