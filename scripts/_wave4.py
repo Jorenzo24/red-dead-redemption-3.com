@@ -57,8 +57,8 @@ CHARS = [
                "Bonnie est pragmatique, endurante et fière du ranch bâti par sa famille. Elle est la seule personne à qui John raconte de son plein gré son passé de hors-la-loi.")},
    ]},
    {"summary": two("Fate","Destin"), "blocks": [
-     {"p": two("Bonnie survives the events of Red Dead Redemption. After [[dutch-van-der-linde|Dutch]] is dealt with, John buys cattle from her and she helps herd them toward Beecher's Hope, where she meets [[abigail-marston|Abigail]]. Her fate is left open; the ranch is still operating in 1914.",
-               "Bonnie survit aux événements de Red Dead Redemption. Une fois [[dutch-van-der-linde|Dutch]] réglé, John lui achète du bétail et elle l'aide à le mener vers Beecher's Hope, où elle rencontre [[abigail-marston|Abigail]]. Son destin reste ouvert ; le ranch fonctionne toujours en 1914.")},
+     {"p": two("Bonnie survives the events of Red Dead Redemption. After [[dutch-van-der-linde|Dutch]] is dealt with, John brings her a load of corn in \"Old Friends, New Problems\", and on her ranch she meets [[abigail-marston|Abigail]]. Her fate is left open; the ranch is still operating in 1914.",
+               "Bonnie survit aux événements de Red Dead Redemption. Une fois [[dutch-van-der-linde|Dutch]] réglé, John lui apporte une cargaison de maïs dans \"Old Friends, New Problems\", et elle rencontre chez elle [[abigail-marston|Abigail]]. Son destin reste ouvert ; le ranch fonctionne toujours en 1914.")},
    ]},
    {"summary": two("Behind the scenes","Coulisses"), "blocks": [
      {"p": two("Bonnie MacFarlane appears in Red Dead Redemption (2010) and its 2024 remaster, and returns as a Stranger in Red Dead Online, set in 1898. She is voiced by Kimberly Irion.",

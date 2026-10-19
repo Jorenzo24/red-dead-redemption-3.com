@@ -490,5 +490,13 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   à El Presidio lors de la capture de Javier ; Luisa meurt à Escalera dans « An Appointed Time ») ; fiche Luisa
   (même erreur, HTML + `_wave6.py`) ; fiche Arthur (c'est Uncle qui évoque le braquage près du Canada ; Arthur
   évoque seul celui de Tucson).
+- **Abigail Marston v3 (19 oct. 2026)** : 10e fiche complète (base reconstruite, `parts/abigail_D.py`). 15 180 mots
+  EN (420 % du wiki), 29 relations, galerie 16. Tombe : « Abigail Marston, 1877-1914, Always in our hearts », aucune
+  cause de mort. Une fille morte avant 1911 est attestée par John (« Women and Cattle », « Father Abraham »), sans
+  plus. Undead Nightmare : guérie par le masque remis en place (« A Civilized Man »), pas par une fontaine.
+  Enlèvement 1899 : saisie DEVANT le camp par les hommes de Milton. Erreurs corrigées au passage : fiche Milton
+  (tué à Van Horn, pas Beaver Hollow ; HTML + `_wave3.py`), fiche Bonnie (rencontre Abigail chez elle dans « Old
+  Friends, New Problems », livraison de maïs ; HTML + `_wave4.py`), Hosea (Abigail a caché l'explosif seule), Micah
+  (lieu des avances à Abigail disputé entre wikis, plus de « Clemens Point »).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).

@@ -205,16 +205,16 @@ CHARS = [
      {"p": two("Backed by [[leviticus-cornwall|Leviticus Cornwall]] and the state, Milton and his partner Agent Ross track the gang across the country, confronting [[arthur-morgan|Arthur]] and Dutch several times and slowly tightening the net.",
                "Soutenus par [[leviticus-cornwall|Leviticus Cornwall]] et l'État, Milton et son coéquipier, l'agent Ross, traquent le gang à travers le pays, confrontant plusieurs fois [[arthur-morgan|Arthur]] et Dutch et resserrant peu à peu l'étau.")},
      {"h3": two("Killing Hosea, and the end","La mort de Hosea, et la fin")},
-     {"p": two("During the botched Saint Denis bank robbery, Milton executes [[hosea-matthews|Hosea]] in the street. He keeps up the pursuit to Beaver Hollow, where he is shot dead by [[abigail-marston|Abigail Marston]].",
-               "Pendant le braquage raté de la banque de Saint-Denis, Milton exécute [[hosea-matthews|Hosea]] en pleine rue. Il poursuit sa traque jusqu'à Beaver Hollow, où il est abattu par [[abigail-marston|Abigail Marston]].")},
+     {"p": two("During the botched Saint Denis bank robbery, Milton executes [[hosea-matthews|Hosea]] in the street. In chapter 6 he captures Abigail and holds her at Van Horn Trading Post, where he is shot dead by [[abigail-marston|Abigail Marston]].",
+               "Pendant le braquage raté de la banque de Saint-Denis, Milton exécute [[hosea-matthews|Hosea]] en pleine rue. Au chapitre 6, il capture Abigail et la retient à Van Horn Trading Post, où il est abattu par [[abigail-marston|Abigail Marston]].")},
    ]},
    {"summary": two("Personality","Personnalité"), "blocks": [
      {"p": two("Milton is composed and moralizing, convinced he stands for civilization against savagery. His calm certainty makes him more chilling than any hot-headed lawman.",
                "Milton est posé et moralisateur, convaincu d'incarner la civilisation face à la sauvagerie. Sa certitude tranquille le rend plus glaçant que n'importe quel représentant de la loi au sang chaud.")},
    ]},
    {"summary": two("Death and fate","Mort et destin"), "blocks": [
-     {"p": two("Milton is killed at Beaver Hollow in 1899. Cornered by the gang, he is shot by [[abigail-marston|Abigail Marston]], but not before his words help expose the traitor within the gang.",
-               "Milton est tué à Beaver Hollow en 1899. Acculé par le gang, il est abattu par [[abigail-marston|Abigail Marston]], mais pas avant que ses paroles n'aident à démasquer le traître au sein du gang.")},
+     {"p": two("Milton is killed at Van Horn Trading Post in 1899, in the mission \"Red Dead Redemption\". During his struggle with Arthur, he is shot by [[abigail-marston|Abigail Marston]], but not before his words help expose the traitor within the gang.",
+               "Milton est tué à Van Horn Trading Post en 1899, dans la mission \"Red Dead Redemption\". Pendant sa lutte avec Arthur, il est abattu par [[abigail-marston|Abigail Marston]], mais pas avant que ses paroles n'aident à démasquer le traître au sein du gang.")},
    ]},
    {"summary": two("Behind the scenes","Coulisses"), "blocks": [
      {"p": two("Milton appears throughout Red Dead Redemption 2 (2018) as the gang's chief pursuer. He is the recurring, patient antagonist who represents the law itself rather than a personal vendetta.",
@@ -224,7 +224,7 @@ CHARS = [
      {"ul": [
        two("He works for the Pinkerton National Detective Agency.","Il travaille pour l'agence de détectives Pinkerton."),
        two("He kills Hosea Matthews during the Saint Denis bank robbery.","Il tue Hosea Matthews pendant le braquage de Saint-Denis."),
-       two("He is killed by Abigail Marston at Beaver Hollow.","Il est tué par Abigail Marston à Beaver Hollow."),
+       two("He is killed by Abigail Marston at Van Horn Trading Post.","Il est tué par Abigail Marston à Van Horn Trading Post."),
      ]},
    ]},
  ],
@@ -239,8 +239,8 @@ CHARS = [
      "The gang elder Milton executes in the street during the Saint Denis bank robbery.",
      "L'ancien du gang que Milton exécute en pleine rue lors du braquage de Saint-Denis.")},
    {"img": "abigail.jpeg", "slug": "abigail-marston", "name": "Abigail Marston", "text": two(
-     "The woman who finally kills Milton at Beaver Hollow.",
-     "La femme qui finit par tuer Milton à Beaver Hollow.")},
+     "The woman he takes hostage at Van Horn, and who shoots him dead there.",
+     "La femme qu'il prend en otage à Van Horn, et qui l'y abat.")},
  ],
  "gallery": [
    {"img": "gallery-1.jpeg", "alt": two("Agent Milton confronting the gang","L'agent Milton face au gang"),
