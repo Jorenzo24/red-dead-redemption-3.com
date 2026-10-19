@@ -1378,9 +1378,9 @@ ENRICHED += MAINS1
 
 
 # Full-template fiches (one module each in scripts/fiches/), replacing earlier entries.
-from fiches import john_marston as _jm, arthur_morgan as _am, dutch_van_der_linde as _dv, sadie_adler as _sa, micah_bell as _mb, hosea_matthews as _hm, charles_smith as _cs, bill_williamson as _bw, javier_escuella as _je, abigail_marston as _ab
+from fiches import john_marston as _jm, arthur_morgan as _am, dutch_van_der_linde as _dv, sadie_adler as _sa, micah_bell as _mb, hosea_matthews as _hm, charles_smith as _cs, bill_williamson as _bw, javier_escuella as _je, abigail_marston as _ab, jack_marston as _jk
 _BASE = {c["slug"]: c for c in ENRICHED}
-_FULL = [_jm.build(cl, CH), _am.build(cl, CH), _dv.build(cl, CH, _BASE["dutch-van-der-linde"]), _sa.build(cl, CH), _mb.build(cl, CH), _hm.build(cl, CH), _cs.build(cl, CH), _bw.build(cl, CH), _je.build(cl, CH), _ab.build(cl, CH)]
+_FULL = [_jm.build(cl, CH), _am.build(cl, CH), _dv.build(cl, CH, _BASE["dutch-van-der-linde"]), _sa.build(cl, CH), _mb.build(cl, CH), _hm.build(cl, CH), _cs.build(cl, CH), _bw.build(cl, CH), _je.build(cl, CH), _ab.build(cl, CH), _jk.build(cl, CH)]
 ENRICHED = [c for c in ENRICHED if c["slug"] not in {f["slug"] for f in _FULL}] + _FULL
 
 if __name__ == "__main__":
