@@ -537,5 +537,9 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     rattachée à une partie précise de l'épilogue). C'est à Karen, pas à Mary-Beth, que Trelawny parle de son livre.
   - **Simon Pearson v3** : 6 700 mots EN, 23 relations, galerie 14. A servi « brièvement » dans la marine (jamais
     « cuisinier de la marine », corrigé chez Dutch). Interprète : Jim Santangeli.
+  - **Orville Swanson v3** : 5 850 mots EN, 24 relations, galerie 2 (peu d'images exploitables). Scène de la gare
+    d'Emerald SANS transcription : seuls deux répliques attestées et le départ en train ; le reste est retiré.
+  - **Leopold Strauss v3** : 6 000 mots EN, 19 relations, galerie 10. Il quitte le gang à Beaver Hollow, chassé par
+    Arthur OU de lui-même selon le joueur. Mort en détention Pinkerton entre 1899 et 1907 (rapportée par Charles).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
