@@ -533,5 +533,9 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   - **Tilly Jackson v3** : 7 000 mots EN, 21 relations, galerie 7. Elle cache Jack quand les hommes de Milton saisissent
     Abigail DEVANT le camp (pas pendant le raid sur Beaver Hollow). Lettre de 1907 signée « Yours, Tilly » ; elle s'y
     présente comme Tilly Pierre (corrigé chez Hosea et Abigail). Arthur conduit Susan chez les Radley.
+  - **Mary-Beth Gaskill v3** : 6 300 mots EN, 17 relations, galerie 8. Rencontre de 1907 à la gare de Valentine (non
+    rattachée à une partie précise de l'épilogue). C'est à Karen, pas à Mary-Beth, que Trelawny parle de son livre.
+  - **Simon Pearson v3** : 6 700 mots EN, 23 relations, galerie 14. A servi « brièvement » dans la marine (jamais
+    « cuisinier de la marine », corrigé chez Dutch). Interprète : Jim Santangeli.
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
