@@ -575,5 +575,14 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     Social Call » (ch. 6, quais d'Annesburg). Le recrutement des Pinkerton n'est jamais montré. Cornwall Kerosene & Tar
     est dans les Heartlands, pas à Annesburg. Aucune scène de Cornwall n'a de transcription : ses répliques viennent de
     la liste de citations du wiki. Les documents (lettres, journaux, Malvina, devise) vivent dans « Un empire industriel ».
+  - **Mary Linton v3** (clé `linton`, PAS `mary` = Mary-Beth) : 4 000 mots EN, 15 relations, galerie 4, pas de section
+    Compétences ni Accueil. Missions « We Loved Once and True I-III » (ch. 2) et « Fatherhood and Other Dreams » (ch. 4,
+    théâtre optionnel, refus possible). Seules les 2e et 3e lettres varient selon les choix. Arthur donne à John son
+    chapeau et sa sacoche ; on ne voit jamais l'anneau changer de mains. Scène de la tombe au générique : fleurs si honneur
+    élevé en fin de ch. 6 ; Roger Clark a fait la capture de Mary (Vida Extra, 26 nov. 2024, d'après IGN).
+  - **Angelo Bronte v3** : 5 270 mots EN, 16 relations, galerie 8. Aucune transcription de ses missions. Bronte rend Jack
+    à Dutch SEUL (Arthur et John au cimetière). John l'assomme dans « Revenge is a Dish Best Eaten » (pas Arthur). Coup
+    de la gare de tramways : 15 dollars et un quart chacun. Martelli : sous-chef en 1898 (Red Dead Online), aux commandes en
+    1907 (« Bare Knuckle Friendships »).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
