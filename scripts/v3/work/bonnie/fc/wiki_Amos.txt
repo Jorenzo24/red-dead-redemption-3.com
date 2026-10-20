@@ -1,0 +1,93 @@
+Amos
+{{User/characterbox
+|image = <gallery>
+Amos_RDO.jpg|1898
+Rdr amos.jpg|1911
+</gallery>
+|caption       = 
+|aka           = 
+|gender        = Male
+|location      = Settlement of [[MacFarlane's Ranch]] in [[Hennigan's Stead]], [[New Austin]]
+|affiliations  = [[Drew MacFarlane]]<br />[[Bonnie MacFarlane]]<br />[[John Marston]]
+|family        = 
+|weapon        = [[Cattleman Revolver]]
+|voice actor   = [https://www.imdb.com/name/nm3941756/ Dan Campbell]
+|voice         = Dan Campbell
+|game          = ''[[Red Dead Redemption]]<br>[[Red Dead Online]]''
+|nationality   = [[File:Flag of the United States (1912-1959).svg|border|20px]] American
+|occupation    = Ranch foreman
+}}
+{{quote|If you'll excuse me, I got chores to attend to.|Amos in "[[The Burning]]"
+}}
+'''Amos''' is a recurring character in the ''[[Red Dead]]'' series, appearing as a [[Characters_in_Redemption#Supporting characters|supporting character]] in ''[[Red Dead Redemption]]'' and making a [[Characters in Online|cameo appearance]] in ''[[Red Dead Online]]''.
+
+==History==
+===Background===
+As of 1911, Amos is the head ranch hand at the [[MacFarlane's Ranch]], and a good friend to [[Bonnie MacFarlane]] and [[John Marston]].
+
+===Events of ''Red Dead Online''===
+Amos briefly appears during Bonnie's introduction, informing her that a wagon has gone missing. After this, he is not seen again. 
+
+===Events of ''Red Dead Redemption''===
+Amos is first seen with [[Bonnie MacFarlane]] during the mission "[[Exodus in America]]". After John Marston is shot at [[Fort Mercer]], Amos and Bonnie carry John, who is unconscious, to the wagon. They subsequently take him to [[Doctor's Office|Doctor]] [[Nathanial Johnston]] in [[Armadillo]] for [[Medicine|medical]] treatment. Afterward, Amos can be seen working around the ranch and will greet Marston as he walks by.
+
+Later on, he is seen taking care of the newly broken wild horses, moving them into the corral when Marston and Bonnie return to the ranch after breaking a few more. Before they got back, Amos told [[Drew MacFarlane]] about some horses he had seen outside [[Armadillo]].
+
+His first speaking appearance is in the mission "[[A Tempest Looms]]". The storm begins, while he gets the horses inside the barn for safety. Bonnie then arrives, and Amos tells her that the horses and the chickens are secure. Bonnie says that she is worried about the cowherd and they need to get them back, but Amos says that it is too dangerous and that the men will all die. Bonnie calls him a 'stupid man', saying that they will all die if they are left without a livelihood. Marston agrees with Bonnie and tells Amos to round up the men.
+
+After the barn has caught on fire and Marston saves the horses within, Amos comes to see John and expresses his gratitude.
+
+He is not seen again until John and his wife [[Abigail Marston]] deliver some corn to the ranch after MacFarlanes' whole supply was eaten by pests. He is only seen briefly, greeting Bonnie after the wagon has left. Three years later, in 1914, Amos can still be seen working on the ranch.
+
+Amos is also an avid [[poker]] player, attending a poker game with his fellow ranch hands, other ranch residents and visitors after his ranching duties are complete. Marston can play alongside him if he so chooses. As with all poker players, getting caught cheating will cause Amos to challenge Marston to a duel.
+
+==Mission appearances==
+;''Red Dead Redemption''
+* [[Exodus in America|"Exodus in America"]]
+* [[Wild Horses, Tamed Passions|"Wild Horses, Tamed Passions"]]
+* [[A Tempest Looms|"A Tempest Looms"]]
+* [[The Burning|"The Burning"]]
+* [[Old Friends, New Problems|"Old Friends, New Problems"]]
+
+;''Red Dead Online''
+* Recovery <small>(cutscene)</small>
+
+==Quotes==
+{{quote|Get 'em in there, c'mon, c'mon!|Amos}}
+{{quote|Hey, miss. I've got most of the horses secure, and the chickens.|Amos}}
+{{quote|The weather is coming in real fast.|Amos}}
+{{quote|Dang!|Amos}}
+{{quote|You sure know how to handle yourself. Thanks, Marston.|Amos}}
+{{quote|Hey, hold on a second over there!|Amos}}
+{{quote|Ma'am.|Amos to Bonnie. This is also his last storyline line in the game}}
+
+==Trivia==
+*He can be heard saying to fellow NPCs that he aspires to have his own ranch someday.
+*His outfit in ''Redemption'' is identical to [[Uncle|Uncle's]], but with a different hat and neckerchief position.
+**In ''Red Dead Online'', his shirt and vest is identical to the one [[Dutch van der Linde]] wears while on [[Guarma]] and his hat is identical to [[Tom Dickens|Tom Dickens']].
+*His mother can be found buried in the [[Blackwater]] cemetery.
+*If the player shoots Amos in the face with most revolvers, strangely, he will survive. This is due to the fact that he somehow has slightly more health than most NPCs. This is the same for Bonnie after her only mission in ''Undead Nightmare''.
+*He is the only supporting character who can be encountered in normal play outside of missions (with the partial exception of the [[American Army Captain]], who can be seen wandering around [[Fort Mercer]] in ''[[Undead Nightmare]]''.)
+*If caught cheating by Amos and challenged to a duel by him, if the player looks at the gun at his side, there will be no gun holster; his revolver will just be floating on his side. Killing him in the duel (as well as in free roam) will make him disappear for quite some time in-game, but nevertheless, he will return. This is similar to how shopkeepers store are unavailable for 5 days if they are killed.
+*Sometimes, Amos can be heard saying, "Don't tell anyone I said this, but [[Bonnie MacFarlane|Ms. MacFarlane]] is sweet on that [[John Marston|Marston]] fella."
+*Sometimes, Amos can be heard talking about John's achievements during the storyline, such as [[A Continual Feast|saving the herd from the storm]], [[The Burning|saving the animals in the barn]] and [[The Assault on Fort Mercer|clearing out the Williamson gang]]. Additionally, he can also be heard saying, "I like that Marston fella" or "I would be proud to call Marston my friend".
+*During the cutscene Amos appears in at the end of [[Exodus in America|"Exodus in America"]], no dialogue can be heard when he urges Bonnie to leave John, presuming that he is dead, and then again when he carries John to the wagon.
+*He is internally called "Hans" in ''Red Dead Online''.
+
+==Gallery==
+<gallery widths="200" captionalign="center" spacing="small">
+File:Rdr_tempest_looms04.jpg
+File:Rdr_burning15.jpg
+Amos2.png
+</gallery>
+
+==Related Content==
+{{Related Content}}
+{{Characters}}
+
+[[de:Amos]]
+[[es:Amos]]
+[[fr:Amos]]
+[[Category:Characters in Redemption]]
+[[Category:Characters in Online]]
+[[ru:Эймос]]

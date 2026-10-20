@@ -1,0 +1,31 @@
+{{Letter_infobox
+|image = Lostlettertobonnierdr2.png
+|to = 
+|from = 
+|locations =
+}}
+'''Lost Letter to Bonnie''' is a letter found in ''[[Red Dead Redemption 2]].''
+
+It can be obtained during a [[Random encounters/Red Dead Redemption 2|random encounter]] on the shoreline near [[Flatneck Station]] or outside of [[Van Horn Trading Post|Van Horn.]] The player will find a shipwreck and when looting [[Bonnie MacFarlane|Bonnie]]'s suitor, who is not quite dead, the man will wake up to give the letter to the player before falling unconscious again.
+
+==Content==
+''Dear Miss MacFarlane,''
+
+''I'm sorry. I said it. I'm sorry. You're right. I do let things get out of control in my head. I always have. I see that but I love you. We are meant to be together. It is our destiny. I know it is. I saw us in a dream, raising kids. You were very happy as my wife and I was proud to be your husband. Dreams don't lie and neither do I.''
+
+''I'm heading off to make my fortune and when I come back a rich man, you'll see what a fine husband I will make you, and a father to our children. And no, I won't grow up. On that subject you're wrong. I've got so many things to say to you. I'm going to continue with the writing of this letter later, but believe me when I say, we are destined for a long, happy life together. Even your [[Drew MacFarlane|father]] will come to believe it and accept me, no matter how humble my birth.''
+
+==Gallery==
+<gallery hideaddbutton="true" position="center" captionalign="center">
+Red dead 2 letter to Bonnie MacFarlane text.png
+</gallery>
+
+== Trivia ==
+
+* When the player finds a shipwreck when looting Bonnie's suitor, Arthur's response will be, "Whoa, I thought you was already gone!" while John's response will be, "Jesus! I thought you were dead..."
+
+[[ru:Письмо для Бонни]]
+[[fr:Lettre perdue pour Bonnie]]
+[[Category:Documents in Redemption 2]]
+[[Category:Letters in Redemption 2]]
+[[Category:Missable Content]]

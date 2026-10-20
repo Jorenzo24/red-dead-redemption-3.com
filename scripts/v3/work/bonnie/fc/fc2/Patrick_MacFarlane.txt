@@ -1,0 +1,33 @@
+{{User/characterbox
+|game          = ''[[Red Dead Redemption]]'' <small>(mentioned)</small>
+|image         = [[File:Rdr_unseen_character.jpg|300px]]
+|caption       = 
+|aka           = 
+|location       = New York
+|affiliations  = [[MacFarlane's Ranch|MacFarlane family]]
+|family        = [[Drew MacFarlane]] <small>(father)</small><br />[[Bonnie MacFarlane]] <small>(sister)</small><br />[[MacFarlane Brothers|Five other brothers]]
+|occupation    = Banker
+|weapon        = 
+}}
+
+
+{{quotebox|He left for the East and never came back. Must be getting on for 10 years ago now. He's a high-and-mighty banker in New York, according to his last letter.|'''[[Bonnie MacFarlane]]''' to [[John Marston]]}}
+'''Patrick MacFarlane''' is a [[Characters in Redemption#Unseen/Deceased|minor, unseen character]] featured in ''[[Red Dead Redemption]]''.
+
+==Background==
+Patrick was born as one of the [[MacFarlane brothers]], the sons of [[Drew MacFarlane]]. By 1911, he is the only surviving male child of Drew, and his only child besides [[Bonnie MacFarlane|Bonnie]].
+
+In the early 1900s Patrick left [[MacFarlane's Ranch]] and moved to [[wikipedia:New York City|New York]], where he became, according to one of his latest letters to his sister, a successful banker.
+
+==Interactions==
+As he is located in another state by the time of ''Redemption'', Patrick is never encountered by [[Marston]]. He is, however, mentioned by his sister in the [[Missions in Redemption|mission]] [[The Burning|"The Burning"]]. He is also mentioned and referenced by residents of [[Warthington Ranch]] and [[Armadillo]].
+
+{{clr}}
+==Related content==
+{{Characters}}
+{{DEFAULTSORT:MacFarlane, Patrick}}
+[[de:Patrick MacFarlane]]
+[[ru:Патрик МакФарлейн]]
+[[Category:Characters in Redemption]]
+[[Category:Mentioned characters in Redemption]]
+[[fr:Patrick_MacFarlane]]

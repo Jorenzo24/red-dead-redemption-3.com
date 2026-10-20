@@ -1,0 +1,241 @@
+This is a list of content cut from ''[[Red Dead Redemption]]'' during development.
+
+==Characters==
+
+=== Existing Character Changes ===
+* [[John Marston|John]] and [[Abigail Marston|Abigail]]{{Citation needed}} appeared much younger than in the final version.
+*[[Bonnie MacFarlane|Bonnie]] and her family's original surname were ''MacFarling''.{{Citation needed}}
+*Many cut bounty posters were left over in the game files for characters including [[Enepay]], [[Helaku]], [[Kosumi]], [[Nashoba]], and [[Hassun]] from [[Dutch's Gang]], [[Diego Bocanegra]] (which features his unused hat model), [[Francisco Aragon]], [[Rafael Vallerino]], [[Victor Ortega]] from the [[Mexican Federales]], [[Outlaw on Horse]], Outlaw in Blue, and Outlaw in Brown of [[Williamson gang|Bill Williamson's gang]], [[The Tudisco Kid]], and John Marston as well as Abraham Reyes who sports an unused goatee.
+**[[Julius Grimes]] and [[Slink Bradshaw]], despite appearing as bounties in the final game, have unused versions of their posters leftover in the files. The poster that was used for Slink in earlier versions of the game depicts him with an unused beard, very closely resembling [[Bill Williamson]].
+*The Tudisco Kid was supposed to be a member of Williamson's gang, yet is never used as such and only ever appears in multiplayer.
+*[[Victor Makepeace]] had an unused tuxedo model that he would wear while playing the High Stakes [[Poker]].
+**He shares this with [[Clyde Garrison]] and [[Danphus Mosley]].
+*[[Lillie Killbane]] was originally a madame at the [[Armadillo]] [[saloon]].
+*[[Hank Bellamy]] was originally a random citizen rather than a lawman.
+*[[Grover Boone]] had an unused secondary model with a different-colored suit and a bit different face.
+*[[Pericles Tenerton]] was originally a doctor, probably replacing [[Everett Knox]].
+*[[Aldous Worthington]]'s original name was Alan Worthington.
+*[[E.H. Kretzschmar]]'s original name was Sherman Fyre.
+*[[Juan de la Vara]]'s original name was Juan Norton.
+*[[Roy Twaddle]] has an unused model with a recolored outfit. However, he appears with this specific outfit during the opening sequence of the mission "[[You Shall Not Give False Testimony, Except for Profit]]".
+*[[Carnelious Wolfe]] wore a slightly different outfit in the beta, more similar to that of the [[Rancher Outfit]].
+*[[Noah Greenup]] originally wore [[Herman Bishop]]'s outfit.
+*[[Lewis Shelton]] originally wore an outfit very similar to that of [[Morris Snead]], except with a blue kerchief instead of red.
+*A beta version of [[Nastas]] can be found in the files under "NativeAmericanContact", sharing the same belt and shirt. However, the high resolution textures for this version of him were deleted.
+
+=== Cut Characters ===
+*There was originally supposed to exist a blind beggar character, whose model seems to be either incomplete or had no legs as well. It is unknown what role he would play in the game, but it could be similar to that of [[Blind Man Cassidy]] in ''[[Red Dead Redemption 2]]''.
+*A wealthy socialite, Gwyn Philips, was originally supposed to play a role in the game. However, what his purpose in the game was is unknown.
+
+==Story==
+*Originally, the main character was meant to be the son of [[Red Harlow]].
+
+==Missions==
+
+===Cut Missions===
+*There is a cut Stranger mission called rcm10 where [[John Marston]] comes across a little person somewhere in the world and he remarks at how he doesn't have any friends, so John decides to go find a friend for him. He comes across a drunk man who tells him that there is an ugly woman and a giant somewhere in the hills. John decides to go after the latter. When John encounters the giant, he says he doesn't want any visitors and John fights him. John wins and convinces the giant to go and find the little person. John goes back to the little person and finds that the giant has killed a woman. The little person wants John to kill the giant, at which point John is left with the choice to kill the giant or not. It appears that the concept of this mission was remade and turned into a Stranger mission "[[The Smell of the Grease Paint]]" featured in ''Red Dead Redemption 2''.<ref>https://youtu.be/mM6R2pXxmbg</ref>
+*[[Mother Superior]] had her own stranger mission called rcm18 in which the player would retrieve four missing relics and return them to her. Although the mission is not in the game, the dialogue files for it can be accessed in the game files.<ref>https://youtu.be/0rBNHLYuKUM</ref>
+*Leftover in the game files is a cutscene for a mission called fbi03, the dialogue for it was as follows:
+**<small>[[Edgar Ross|'''''Edgar Ross''''']]: "Can you believe this? Who would believe this poppycock! Yeah but I guess it keeps people happy.. Women wanting to vote, have you ever heard such nonsense? Women don't want to vote."</small>
+**<small>[[Archer Fordham|'''''Archer Fordham''''']]: "My Bessie does, sir."</small>
+**<small>'''''Ross''''': "Well make sure she remains your Bessie and you don't become hers! You young people will ruin this world at this rate. Come in Mr. Marston!"</small>
+**<small>'''''John Marston''''': "You wanted to see me?"</small>
+**<small>'''''Ross''''': "Well not personally dear boy, but this line of work necessitates it.</small>
+**<small>'''''John''''': "You seem to be working ''real'' hard."</small>
+**<small>'''''Ross''''': "Yeah, I'm overdoing it.. I may need a vacation soon, was thinking getting a holiday home down at Beecher's Hope. I hear there's some property in market."</small>
+**<small>'''''John''''': "Savages down there, sir. They'll tear a little city boy like you limb from limb, feed your remains to the wolves."</small>
+**<small>'''''Ross''''': "Hm, I'd say that sounds like a lot of fun.. But I don't think the federal government will allow me such privileges while on duty, yeah.. I think I'm gonna have to have a little military assistance in the pursuit of justice."</small>
+**<small>'''''John''''': "I thought your master plan was to have me take the public acclaim for killing Dutch."</small>
+**<small>'''''Ross''''': "Oh it is.. And you'll kill him, alright. But to have a little disturbance between the army and some unruly savages may go a long way."</small>
+**<small>'''''John''''': "Those Indians have lived peacefully down here for more than 20 years."</small>
+**<small>'''''Ross''''': "I know that, and you know that. But the great American public doesn't need to know that, now come come, we can't keep Uncle Sam waiting."</small>
+**'''''<small>The scene with [[Nigel West Dickens]] from "[[Bear One Another's Burdens]]" would then play out.</small>'''''
+
+===Existing Mission Changes===
+*As evidenced by text leftover in the subtitles for the mission, it seems that originally in "[[The Last Enemy That Shall Be Destroyed]]" Abigail was going to be kidnapped by one of the members of the army, leading to John having to rescue her. John would also grab his rifle from the kitchen and was given the choice to run away, fight, or surrender which may have resulted in a mission failure. [[Edgar Ross]] also has unused lines for the mission and [[Rufus]] would be killed by Fordham.
+
+==Locations==
+*[[MacFarlane's Ranch]] was called "Hennigan's Ranch" at one point and also "''MacFarling's'' Ranch", as the original family name was "MacFarling".
+*The wall sign for [[Rathskeller Fork]] calls it "Rathskellars Fork", implying that was its original name.
+*A much earlier version of [[Armadillo]] can be seen in a short video shown at E3 2005 for the game. Another version more similar to the final cut can be seen in a trailer for the game, where the train station is completely absent.
+*In [[Blackwater]], there were a few buildings along the east shore and one located just next to the saloon, which can still be viewed from afar if one mods the game. It's unknown what these buildings did, but one appears to be a factory based on the smokestacks as seen in a trailer. The first building outside of Blackwater also had a different color at one point.
+*The ''[[Steamboat|Morningstar]]'' steamboat was originally intended to serve as a floating casino. Evidence of this can be seen in the "Life in the West" pre-release trailer, as well as in the dialogue exchanged between Marston and [[Elizabeth Thornton]] during the Stranger mission "[[The Wronged Woman]]", wherein she says "''I knew his frequenting that gambling boat would be the death of him.''" and a sign on the Blackwater general store that directs towards gambling on the ferry.  In the final game, the boat disappears before the player gains access to West Elizabeth.
+*The [[Chuparosa]] [[Doctor's Office|doctor]] and [[General Store|general store]] were mistakenly swapped at some point later in development. The doctor's stand has ammunition, fruits, vegetables, and poultry while the general store's stand has bottles and crates of medicine.
+*[[El Presidio]] is internally named "[[Fort Diego]]", after the location in ''Red Dead Revolver''.
+*There are text mentions of models for buildings labeled "tlj", "sis_prison", "van", and "wah" in the original release version of the game. It is believed they stand for "Tallulah Jetty", "Sisika", Van Horn", and "Wakhanknee" as these are all street names in Blackwater, most of which would later be introduced as locations in the game's prequel. Tlj in particular appears to have been a full town as it featured a saloon, ticket office, general store, and other miscellaneous buildings.
+*Blackwater's city hall has remnants of unfinished collision for the interior, suggesting that it would've been fully modeled at one point.
+
+==Animals== 
+*In the original ''Red Dead Redemption'', [[bats]] were meant to be able to be hunted and skinned as bat wings remain leftover in the files. The bats seen in Tumbleweed and Thieves' Landing are particle effects, meaning the actual 3D model for the bat goes unused. They were eventually repurposed into the huntable [[Undead Bat|Undead Bats]] seen in ''Undead Nightmare''.
+*The [[Sasquatch]] could be found in the original ''[[Red Dead Redemption]]'', just like in ''[[Undead Nightmare]].''{{Citation needed}}
+*Cows, Buffaloes, and Bulls were intended to be rideable at one point in development; this functionality ended up being reused for [[Bonzo]], [[Super Bull]], the [[American Buffalo]] and [[Albino Buffalo]] in Multiplayer.
+*Some mounts can only be ridden using mods, with a notable instance of this being the [[Dead Horse]] in "[[Spare the Love, Spoil the Child]]" as the horse was given infinite stamina in ''[[Undead Nightmare]]''. Another instance is the male horse who appears at the end of "[[We Shall Be Together in Paradise]]" as the horse is replaced with another after the cutscene ends.
+*A cut horse can be seen in a pre-release screenshot for the game; it also appears that they had lower quality textures originally for performance reasons.
+*The horse holster's position on Marston's saddle was originally in the same spot as it is in the game's prequel.
+*The [[Dead Horse]] features an unused eye texture in addition to the bloodied one seen on the model; this differs from the final game quite significantly as it features distinct, non-dilated pupils. Additionally, this horse also features horseshoes as part of the horse's base texture which was likely removed to accommodate wild horses; and the black hair texture features orange, sun-bleached tips.
+*In the [[First Congregational Church of Tumbleweed|Tumbleweed Church]], there is an inscription on the podium that reads "The devil has got into that beast". This is labeled as a cheat code in the files, but cannot be used as such. The name would likely imply that this cheat was originally going to be able to spawn the [[Dark Horse]].
+*The male horse in "[[We Shall Be Together in Paradise|We Shall be Together in Paradise]]" was created because of an improvisation on behalf of Irish's actor, which the developers decided to keep in the game. The horse gets switched out as soon as the cutscene ends despite having a fully functioning model, albeit with eyes that are shaded differently than regular horses.
+
+==Weapons==
+* Some weapons were supposed to appear but were left out of the game or unused. These weapons include the "Walker Revolver" (its model better resembling the Colt Dragoon), "Top Break Revolver" (modeled after the S&W Schofield Model 3), a shovel melee, weaker version of the Cattleman, a "Creedmoor Rifle", "Flintlock Rifle",<ref>[[:File:Reference for creedmor rifle, flintlock rifle, and a weaker cattleman.png]]</ref> bow, and a lantern that would have been both holdable and used as a throwable explosive. The shovel is assumed to have been reused for treasure hunting and digging in general instead of being used as an actual weapon. The lantern weapon itself was repurposed as a fake weapon in a mission at least according to game scripts. It can also be assumed it had another purpose throughout the game; being the moveable lanterns that can explode when shot.
+*Dual-wielding appears to have also been cut from the game, as no character ever uses two guns at once aside from Leigh Johnson, in cutscenes.
+* The Explosive Rifle was originally called the "Anti-tank Rifle".<ref>[[:File:Anti-Tank original explosive rifle..png]]</ref> The weapon still uses that as the code name for it, however, the Anti-Tank Rifle was never finished and in later updates and DLC it was replaced with the Explosive Rifle.
+* All weapons have unused gold models that are similar to the [[Golden Guns]], albeit with various differences to the final game.
+**The model for the unused golden [[Henry Repeater]] features a forearm piece despite the normal version of the gun lacking one. This oddity can also be noticed on the icon for the weapon.
+**The unused golden [[Winchester Repeater]] is modeled after a Winchester Model 1873 instead of the retail game's 1894.
+
+==Outfits==
+*John is unable to obtain the [[US Marshal Uniform]] and [[Bureau Uniform]] but these outfits do still exist for him and can be seen in pre-release screenshots,<ref>[[:File:Rdr john marston07.jpg]]</ref> alongside his Military Uniform<ref>[[:File:Rdr u.s. military00.jpg]]</ref> which was reused for ''Undead Nightmare''.
+*The US Marshal and Bureau Uniforms originally had sheriff's badges as can be seen in the icons,<ref>[[:File:Jackoutfit12.png]]</ref> a texture,<ref>[[:File:Jacks marshall outift.png]]</ref> and some pre-release screenshots.<ref>[[:File:Rdr leigh johnson01.jpg]]</ref>
+*The [[Bandito Outfit]] was supposed to sport the double bandolier, as shown on its model and icon.
+*In trailers and pre-release images, John can be seen without his signature hat. This is possibly due to it being removable at some point in the game's development, although this is unconfirmed. It should be noted that in the original inventory icon for the Elegant Suit and a pre-release screenshot,<ref>[[:File:Red-dead-redemption1.jpg]]</ref> the hat is not present although this was changed in an update.<ref>[[:File:RDR Outfits ES.jpg]]</ref>
+
+==Items & Provisions==
+
+===Cut Items===
+* Double Bandolier - As the name implies, the player could have had two bandoliers instead of one. There is a glitch in the game to obtain this item, however.
+* Horse Lantern - This would have likely been placed on a saddle to provide light.<ref>[[:File:Horse Lantern Reference Code - Accessory For Horse.png]]</ref> Its model does not exist in the game, however there is another unused horse lantern model in the RDR2's files that is thought to have been intended for RDR.
+* Bat Wings - It was originally possible to hunt and skin bats to get this provision.
+* Sacred Relic - Intended to feature in Mother Superior's cut mission.
+* Train Ticket - It is possible this item was intended to be used in order to board trains.
+* Sheriff Badge - It is completely unknown what this item would have done, but it may have allowed Marston to be treated like a lawman when wearing it.
+* Gold Pan and Gold Nugget - Marston may have been intended to pan for gold at some point.
+* Penny Dreadful - It is completely unknown what the purpose of this novel was, but Bonnie mentions it during the mission "[[New Friends, Old Problems]]".
+* Scripture Book - Possibly had something to do with Mother Superior's mission.
+* Adrenaline - May have given the player boosts in energy or deadeye.
+* Tequila - A bottle of Tequila the player could store in their satchel.
+* Horse Deed - Every horse in the game is either one, two, or three stars. This deed, however, features no stars at all.
+* Treasure Box - Unknown, but may have been involved with treasure hunting.
+* Whiskey - A bottle of Whiskey the player could store in their satchel.
+
+=== Existing Item Changes ===
+
+* Bait originally used meat for its icon picture.
+* The Nosalida Package appears to have originally been a bottle of opium.
+
+== Vehicles ==
+* The [[Automobile]] and [[Armored Truck]] were programmed as drivable by the player but that feature was cut in the final game. It may have been removed due to the fact it would make little sense for John Marston to drive and be interested in modern technology during the game's era however.
+*There are three rafts and a canoe in the game which feature limited functionality to be driven by the player. The first raft is marked as a vehicle but lacks any drive functionality. The second raft is Irish's used in "We Shall be Together in Paradise", albeit on a scripted path. It lacks a proper seat and thus will drive off without the player. The third raft is used in Multiplayer co-op missions on a scripted path, while the canoe seems to be entirely unused and only has an enter prompt for the passenger seat.
+*A few wagons in the game, whether they can be accessed by normal means or not, have back seats that could have been accessed by the player but were cut from the final game.
+
+==Multiplayer==
+
+* There are a good bit of cut multiplayer titles still left in the game, they can be seen alongside some more info [https://pastebin.com/KddfDifs here].
+*There are some cut killfeed strings for when the player is killed by animals. Some of these are never supposed to be seen, but some can actually occur albeit only under extremely specific conditions. You can view the killfeed strings [https://pastebin.com/bRf0DxRE here].
+*With the release of the [[Hunting and Trading Outfits|Hunting & Trading Outfits]] DLC, some files were added containing a few beta Undead Multiplayer models. Very few players ever saw these original models, as in order to see them it is required that one player has Undead Nightmare installed, while the other does not. Selecting either Zombie Marston, Poe Boll, or Sarah Reese while owning ''Undead Nightmare'' will allow these beta models to be viewable by players who do not have ''Undead Nightmare''.
+*[[Wesley Allen]], [[Zebedee Nash]], [[Mateo Clisante]] and [[Easter Durdon]] originally had multiplayer counterparts.
+
+==Test Objects & Development==
+
+*There are remnants of development still left in the games files,<ref>[[:File:Test Models, Scripts, Animations.png]]</ref> such as missions tester, test missions, test animation files, test objects,<ref>[[:File:One of a few test models p gen testbox001x.jpg]]</ref> strings for the debug menu, developer keyboard binds, test races for multiplayer, etc. Most of the test scripts cannot be used because they contain cut code that the game executable no longer supports in the game.
+
+==HUD==
+*Upon receiving a [[bounty]], the black paint splash was not behind the reward. Also, it would mention what the player was charged with.
+*[[Dead Eye Targeting]] had a different reticle after being activated.
+*Originally, the weapon wheel was not present, only the weapon icon next to the Heads-up Display.
+*Many of the game's font was changed at some point in development.
+*The UI for Dead Eye looked different in the beta.
+*Originally the HUD had a different design, along with different fonts shown for dialogue, and [[Poker]].
+**When Wanted, the HUD would show what the player is charged with.
+**The map radar had a rough design and was bigger.
+
+==Characters Gallery==
+
+===Existing Character Changes===
+<gallery position="center" captionalign="center" hideaddbutton="true">
+File:Detail (11).jpg|Younger-looking John
+File:Beta Sarah Reese.png|Beta Zombie Sarah Reese Multiplayer Model
+File:Beta Zombie Poe Boll.png|Beta Zombie Poe Boll Multiplayer model
+File:BetaNastas-Photoroom.png|Beta model and textures for Nastas
+File:Beta Zombie John Marston.png|Beta Zombie John Marston Multiplayer Model
+File:Makepiss.jpg|Victor Makepeace's unused poker Tuxedo
+File:Bellamy suite.jpg|Hank Bellamy in his civilian suit.
+File:Grover alt.jpg|Grover Boone's unused attire.
+File:Ray Twaddle.jpg|Roy Twaddle's recolored outfit.
+File:Garrison tuxedo.jpg|Clyde Garrison's unused poker tuxedo.
+File:Duel.jpg|Beta Carnelious Wolfe with an unused horse holster position resembling RDR2's in the background.
+File:Rdr slink bradshaw.jpg|[[Slink Bradshaw]]'s beta appearance resembling Bill, seen on his 1.00 bounty poster.
+File:Noah, Lewis and Jon playing carts.png|John Marston playing poker with beta Noah and Lewis Shelton.
+</gallery>
+[[File:CombinedUnusedPosters.PNG|center|300px]]<center><small>Unused Bounty Poster Graphics</small></center>
+===Cut Characters===
+<gallery position="center" captionalign="center" hideaddbutton="true">
+File:Blind Beggar.jpg|The model of the Blind Beggar.
+File:Gwyn Philips.jpg|The unused character known as Gwyn Philips.
+</gallery>
+
+
+==Outfits Gallery==
+<gallery position="center" captionalign="center" hideaddbutton="true">
+File:RDR unlocksFBIBureauOutfit.jpg|John's Unused Bureau Uniform
+File:RDR unlocksUSMarshalOutfit.jpg|John's Unused US Marshal Outfit, featuring the Sheriff's Badge
+</gallery>
+
+==Locations Gallery==
+<gallery position="center" captionalign="center" hideaddbutton="true">
+File:Beta-Armadillo.png|Armadillo town in early trailers, showing the saloon and hotel
+File:Beta-Armadillo2.png|Armadillo in early trailers as seen from the west
+File:Armadillotown.PNG|A few differences in Armadillo can be spotted in this photo, most notably, the train station is missing
+File:Betavsfinal.PNG|This photo features buildings that were cut from the final game, while the house on the right features a different coat of paint.
+File:RDR-Life in the West poker room.png|Cut interior of the ''Morningstar'' riverboat.
+File:Blackater beta saloon.jpg|The removed building right besides the Blackwater saloon.
+</gallery>
+
+==Animals Gallery==
+<gallery position="center" captionalign="center" hideaddbutton="true">
+File:Rideable cow mount.png|Ridable cow mount
+File:Nuevo paraiso.jpg|John riding a cut horse in Nuevo Paraíso
+File:Gunit.jpg|Another image of this cut horse
+File:RDRBetaHorseEyes.PNG|Beta eyes for horses
+File:UnusedBatModel.PNG|Unused 3D Bat Model
+</gallery>
+
+==Weapons Gallery==
+<gallery position="center" captionalign="center" hideaddbutton="true">
+File:WalkerRevolverCombined.PNG|Unused Walker Revolver and Gold Variation
+File:TopBreakRevolverCombined.PNG|Unused Top Break Revolver and Gold Variation
+Lantern Inventory Item - Weapon.png|Lantern Item (Weapon or Accessory) for the player
+Melee shovel.png|Melee based shovel weapon wheel icon
+</gallery>
+[[File:GoldenGunsCombined.PNG|center|750px]]<center><small>Unused models for the Golden Guns, some of the designs differ completely from the final game</small></center>
+==Items & Provisions Gallery==
+[[File:Itemiconscombined.PNG|center|500px]]<center><small>Unused Item Icons</small></center>
+<gallery position="center" captionalign="center" hideaddbutton="true">
+File:Doublebandolier.PNG|John wearing the Double Bandolier via a glitch
+File:Horselantern.png|The Horse Lantern model found unused in RDR2's files
+</gallery>
+
+==Vehicles Gallery==
+<gallery position="center" captionalign="center" hideaddbutton="true">
+Diveable car.png|Drivable car
+Driveable truck.png|Drivable Truck
+Raft02 vehicle - driveable but no noticeable drive string.png|Raft03 - Drivable Raft
+Raft01 non driveable vehicle.png|Raft01 Vehicle - Non Drivable
+Canoe with enter seat strings.png|Canoe - Drivable canoe
+</gallery>
+
+==Miscellaneous Gallery ==
+<gallery position="center" captionalign="center" hideaddbutton="true">
+Redemption-Logos-Beta.png|Evolution of Redemption logo
+File:Pokerhud1.PNG|Beta Poker HUD
+File:Pokerhud2.PNG|Beta Poker Prompts
+File:Betahud1.PNG|Early HUD Design
+File:Betapausemenu.PNG|Beta Pause Menu
+File:Betafonts.PNG|Beta Fonts
+File:Betaweaponwheel.PNG|Cut Weapon UI above the HUD
+File:Betadeadeye.PNG|Beta Dead Eye
+</gallery>
+
+==Videos==
+<gallery widths="200" captionalign="center" spacing="small" position="center" hideaddbutton="true">
+The History of Red Dead Redemption & Beta Version
+Red Dead Redemption E3 2005 Tech Demo Trailer|E3 2005 Demo
+</gallery>
+
+==References==
+<references />
+
+[[Category:Terminology]]
+[[Category:Cut Content]]
+[[ru:Бета-релиз]]
+[[it:Contenuti rimossi di Red Dead Redemption]]
