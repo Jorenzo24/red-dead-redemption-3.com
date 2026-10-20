@@ -1,0 +1,32 @@
+Exodus in America	scripts/v3/work/_m/Exodus_in_America.txt
+Exodus in America/dialogues	scripts/v3/work/_m/Exodus_in_America_dialogues.txt
+New Friends, Old Problems	scripts/v3/work/_m/New_Friends_Old_Problems.txt
+New Friends, Old Problems/dialogues	scripts/v3/work/_m/New_Friends_Old_Problems_dialogues.txt
+Obstacles in Our Path	scripts/v3/work/_m/Obstacles_in_Our_Path.txt
+Obstacles in Our Path/dialogues	scripts/v3/work/_m/Obstacles_in_Our_Path_dialogues.txt
+This is Armadillo, USA	scripts/v3/work/_m/This_is_Armadillo_USA.txt
+This is Armadillo, USA/dialogues	scripts/v3/work/_m/This_is_Armadillo_USA_dialogues.txt
+Women and Cattle	scripts/v3/work/_m/Women_and_Cattle.txt
+Women and Cattle/dialogues	scripts/v3/work/_m/Women_and_Cattle_dialogues.txt
+Wild Horses, Tamed Passions	scripts/v3/work/_m/Wild_Horses_Tamed_Passions.txt
+Wild Horses, Tamed Passions/dialogues	scripts/v3/work/_m/Wild_Horses_Tamed_Passions_dialogues.txt
+A Tempest Looms	scripts/v3/work/_m/A_Tempest_Looms.txt
+A Tempest Looms/dialogues	scripts/v3/work/_m/A_Tempest_Looms_dialogues.txt
+The Burning	scripts/v3/work/_m/The_Burning.txt
+The Burning/dialogues	scripts/v3/work/_m/The_Burning_dialogues.txt
+Hanging Bonnie MacFarlane	scripts/v3/work/_m/Hanging_Bonnie_MacFarlane.txt
+Hanging Bonnie MacFarlane/dialogues	scripts/v3/work/_m/Hanging_Bonnie_MacFarlane_dialogues.txt
+The Outlaw's Return	scripts/v3/work/_m/The_Outlaw_s_Return.txt
+The Outlaw's Return/dialogues	scripts/v3/work/_m/The_Outlaw_s_Return_dialogues.txt
+Old Friends, New Problems	scripts/v3/work/_m/Old_Friends_New_Problems.txt
+Old Friends, New Problems/dialogues	scripts/v3/work/_m/Old_Friends_New_Problems_dialogues.txt
+Paternal Pride	scripts/v3/work/_m/Paternal_Pride.txt
+Paternal Pride/dialogues	MISSING (no such wiki page)
+Caravan Escort	scripts/v3/work/_m/Caravan_Escort.txt
+Caravan Escort/dialogues	MISSING (no such wiki page)
+Delivery	scripts/v3/work/_m/Delivery.txt
+Delivery/dialogues	MISSING (no such wiki page)
+On The Hunt	scripts/v3/work/_m/On_The_Hunt.txt
+On The Hunt/dialogues	MISSING (no such wiki page)
+Recovery	scripts/v3/work/_m/Recovery.txt
+Recovery/dialogues	MISSING (no such wiki page)

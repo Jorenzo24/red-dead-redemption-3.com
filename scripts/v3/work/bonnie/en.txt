@@ -1,0 +1,237 @@
+{{User/characterbox
+|name = Bonnie MacFarlane
+|image = <gallery>
+File:Bonnierdo2.jpg|1898
+File:Rdr_bonnie_macfarlane_square.jpg|1911
+</gallery>
+|game = ''[[Red Dead Redemption]]''<br>''[[Red Dead Redemption 2]]'' <small>(mentioned)</small><br>''[[Red Dead Online]]''
+|gender = Female
+|location = Settlement of [[MacFarlane's Ranch]] in [[Hennigan's Stead]], State of [[New Austin]]
+|affiliations = [[Red Dead Online protagonist|''Red Dead Online'' protagonist]]<br />[[John Marston]]<br />[[Amos]]
+|family = [[Drew MacFarlane]] <small>(father)</small><br />[[MacFarlane Brothers|Hank MacFarlane]] <small>(brother)</small> {{icon|dead}}<br />[[MacFarlane Brothers|Owen MacFarlane]] <small>(brother)</small> {{icon|dead}}<br />[[MacFarlane Brothers|Gus MacFarlane]] <small>(brother)</small> {{icon|dead}}<br />[[MacFarlane Brothers|Ethan MacFarlane]] <small>(brother)</small> {{icon|dead}}<br />[[MacFarlane Brothers|Cole MacFarlane]] <small>(brother)</small> {{icon|dead}}<br />[[Patrick MacFarlane]] <small>(brother)</small>
+|weapon = [[Cattleman Revolver]]<br />[[Repeater Carbine]]<br />[[Double-barreled Shotgun]]
+|voice= [https://www.imdb.com/name/nm2244529/ Kimberly Irion]
+|nationality = [[File:Flag of the United States (1908–1912).svg|border|20px]] American
+|occupation = Rancher
+|mount = [[Painted Quarter Horse]]<br>[[Standardbred Pinto]]<br>[[Painted Standardbred]]
+}}
+{{Quote|After my brother left, it was up to me to become the man of the ranch.|Bonnie MacFarlane}}
+
+'''Bonnie MacFarlane''' is a recurring character in the ''[[Red Dead]]'' series, appearing as a [[Characters in Redemption#Major characters|major character]] in ''[[Red Dead Redemption]]'', and as a [[Characters in Online|stranger]] in ''[[Red Dead Online]]''. She is also referenced in ''[[Red Dead Redemption 2]]''.
+
+With the addition of the ''[[Liars and Cheats]]'' [[DLC]] pack for ''Redemption'', '''Bonnie MacFarlane''' is also a [[Multiplayer Characters|multiplayer character]] model that may be selected in the "Redemption" section of the [[Outfitter]].
+
+==History==
+=== Background===
+{{Quote|Bonnie is the 27-year-old daughter of a prominent rancher. She is unmarried, educated, and a kind-hearted proto feminist. At one point, she takes a romantic interest in Marston, and this evolves into a solid friendship. Some day in the future, she expects to inherit and run the MacFarlane ranch.|''Red Dead Redemption: Game of the Year Edition Guide''}}
+Bonnie is the daughter of [[Drew MacFarlane]], the owner of [[MacFarlane's Ranch]], and has spent her whole life working on the ranch with her father. She was born circa 1884.<ref>She says she is 27 in "[[This is Armadillo, USA]]" which takes place in 1911.</ref><ref name="GOTY">''[[Brady Games Official Guide#Game of the Year (GOTY) Edition|Red Dead Redemption: Game of the Year Edition Guide]]''</ref> When she was young, her father briefly employed a "French" governess (who Bonnie suspected of not being truly French, due to the fact she spoke Russian) to teach her the etiquette expected of a lady.<ref name="Armadillo conversation">Mentioned in a conversation with [[John Marston]] in "This is Armadillo, USA":<br>'''Bonnie:''' ''"You look like a man who's been through the mill."''<br>'''John:''' ''"Ahh, thank you."''<br>'''Bonnie:''' ''"I mean you've lived some life. I'm 27 years old and I have rarely left Hennigan's Stead, although many years ago, we did briefly employ a French governess. Well, I think she was French. She said she was French but she spoke Russian. That was when Pa thought I would become a lady."''<br>'''John:''' ''"A change of pasture doesn't always make for a fatter calf."''<br>'''Bonnie:''' ''"I know. And I wouldn't change my life for all the money in the world. I'm just saying... sometimes I wish I'd been... well, braver. Been to more places, seen more things."''</ref> This would be the first of multiple governesses that Drew would hire in order to raise her standards and improve her diction.<ref name="Bonnie's suitors">Mentioned in a conversation with John Marston in "[[Wild Horses, Tamed Passions]]":<br>'''John:''' ''"You never did tell me why you were never married. Aside from the snobbery, that is."''<br>'''Bonnie:''' ''"You sure ask a lot."''<br>'''John:''' ''"I'm just surprised, that's all. You must've been quite a catch."''<br>'''Bonnie:''' ''"The fact that you're talking in the past, say it all."''<br>'''John:''' ''"No... that's not what I mean. You must a had some suitors, that's all I'm sayin'."''<br>'''Bonnie:''' ''"Some, I suppose... here and there. A ranch in the middle of Hennigan's Stead ain't really a place to find a husband. Amos, he's a little... well, you know, countrified."''<br>'''John:''' ''"Where did you get your airs and graces, Miss MacFarlane?"''<br>'''Bonnie:''' ''"From a couple of cheap governesses Pa hired to save us from being savages. I'd like to talk about more than just cattle and chicken sometimes, that's all."''</ref>
+
+Although Bonnie had six brothers, five of them died from either illness or accidents. Her sole surviving brother, [[Patrick MacFarlane]], moved to New York around 1901, where he would work as a banker in Manhattan.<ref>Mentioned in a conversation with John Marston in "[[The Burning]]":<br>'''Bonnie:''' ''"I had six brothers. But five of them died, either from sickness or foolish choices."''<br>'''John:''' ''"And the other one?"''<br>'''Bonnie:''' ''"He left for the East and never came back. Must be getting on for 10 years ago now. He's a high-and-mighty banker in New York, according to his last letter."''</ref> With the majority of her generation deceased and the only other surviving male child leaving the family, Bonnie felt it was up to her to become the man of their family's ranch.
+
+Bonnie would spend her adult years hard at work helping her father maintain the ranch, rarely ever leaving [[Hennigan's Stead]].<ref name="Armadillo conversation"/> Although she had many suitors, she found them to be too "countrified" to form a connection with.<ref name="Bonnie's suitors"/> Compounded by her increasing age, work ethic and the lack of appealing suitors, she would remain unmarried.<ref>Mentioned in a conversation with John Marston in "[[Women and Cattle]]":<br>'''John:''' ''"If you don't mind me asking, why ain't you married, Miss MacFarlane?"''<br>'''Bonnie:''' ''"Clearly you haven't met too many of the local men. A woman would have to have taken leave of all her senses to find them suitable matches. I guess I'm married to this ranch, for better or worse. And I'm too old now."''</ref>
+
+As [[New Austin]] became increasingly violent and unstable between 1907 and 1911, Bonnie would have to take precautionary measures to keep herself and the ranch safe from outlaws. No longer feeling safe in her own bed,<ref>Mentioned in a conversation with John Marston in "[[A Tempest Looms]]":<br>'''John:''' ''"You're talking like this ranch is already buried. You're surviving. Thing's aren't that bad."''<br>'''Bonnie:''' ''"Rustlers, smugglers and thieves don't make for the best neighbors. I don't feel safe in my own bed any more."''</ref> Bonnie would spend her nights patrolling her property.<ref>Mentioned in a conversation with John Marston in "[[New Friends, Old Problems]]":<br>'''Bonnie:''' ''"It's a sad state of affairs when a rancher has to spend her nights patrolling the perimeter."''<br>'''John:''' ''"Are things really that bad?"''<br>'''Bonnie:''' ''"It's gotten so bad in the last couple of years, everyone round here is armed."''</ref>
+
+By October of 1911,<ref>The timeline of events in ''Red Dead Redemption'' is deduced from the timing of release of the weekly [[Newspapers|newspaper]] ''[[Blackwater Ledger|The Blackwater Ledger]]''. The article "[[Nate Johns Elected Governor]]" in the [[Blackwater Ledger No. 57|57th issue]] describes the American gubernatorial election as having recently concluded, meaning it must have been published between November 1 and November 8 inclusive. The [[Blackwater Ledger No. 53|53rd issue]] is released after the mission "[[Political Realities in Armadillo]]", which takes place shortly after the beginning of the game. This confirms that John arrives in Armadillo around five weeks prior to the election of Governor [[Nate Johns]] in early November, meaning it must be set around early October of 1911.</ref> Bonnie is apprehensive about the future. Due to the region's rampant crime, mounting debts, increased competition brought by railway companies and industrialization as well as her father's declining health, Bonnie is uncertain if the ranch will survive another five years.<ref>Mentioned in a conversation with John Marston in "This is Armadillo, USA":<br>'''John:''' ''"Yeah, New Austin, the last real outlaw country. Where the old ways still hold true. You do a man wrong, he'll shoot you for it. You do a man right... well, he still may shoot you for it. But at least you have an idea of what's right and what's wrong here."''<br>'''Bonnie:''' ''"Dear oh dear, Mr. Marston. What dreadful novel did you get that romanticized drivel out of? Those days are long gone, if they were ever here at all. According to Pa, those days were just people shooting each other because they lost at cards. We'll be lucky if our ranch survives another 5 years. Businessmen are the new cowboys."''</ref>
+
+===Events of ''Red Dead Online''===
+In 1898, the [[Red Dead Online protagonist|protagonist]] can encounter Bonnie on the porch of her home at MacFarlane's Ranch. She will initially mistake them for a robber, but soon deduces that they are actually looking for work, and proceeds to explain that she and her father are planning on packing up and moving for a while to avoid the outbreak that has swept through [[Armadillo]]. [[Amos]] then interrupts their conversation to reveal that one of their wagons has gone missing, leading to Bonnie sending the protagonist to retrieve it, promising to pay them on their return.
+
+Afterward, Bonnie can be found again at MacFarlane's Ranch, and will offer recovery, delivery, escort, and hunting missions to the player. Accepting her missions will increase the player's [[honor]].
+
+===Events of ''Red Dead Redemption 2'' ===
+As early as 1899, the player can come across a possible suitor of hers, south of [[Van Horn Trading Post]]. The player finds him near-death and obtains a letter from him titled "[[Letter to Bonnie MacFarlane]]". The letter details her father's disapproval of him, leading him to leave to "make his fortune" in an effort to gain his approval and return to her. He can also be found on a beach south of [[Flatneck Station]] and slightly north-east of Annesburg.
+
+====Epilogue====
+In 1907, Bonnie is mentioned along with her father Drew having to flee [[New Austin]] temporarily due to a cholera outbreak afflicting the populace in the territory.
+
+===Events of ''Red Dead Redemption''===
+====New Austin====
+She is first seen on the train from Blackwater. The next morning, Bonnie rescues [[John Marston|John]] by the road after he is shot and left to die in the initial confrontation with [[Bill Williamson]] at [[Fort Mercer]]. Bonnie pays a doctor $15 for Marston's treatment and provides lodging in return for assistance with duties on the ranch. John does several [[Missions in Redemption|missions]] at the ranch. After finding out that John is at the ranch, Bill Williamson's men [[The Burning|set the ranch's barn on fire]] and John risks his life to rescue the horses out of the burning barn.
+
+Bonnie is later [[Hanging Bonnie MacFarlane|taken hostage]] by members of Bill Williamson's gang, looking to exchange her for [[Norman Deek]] from the [[Armadillo]] jail, greatly worrying her father. After traveling to the ghost town of [[Tumbleweed]] and attempting to hand the man over, it is revealed to be an ambush. The gang attempts to hang a brutally beaten Bonnie, but the rope tightens around the side of her throat, preventing her neck from being broken. After an intense battle, John then cuts the rope (provided that he hadn’t previously severed it by shooting it) and [[Marshal Johnson|Marshal Leigh Johnson]] then takes her back to Armadillo after all of Williamson's bandits are killed.
+
+====West Elizabeth====
+After the [[And The Truth Will Set You Free|death]] of [[Dutch van der Linde]], John returns to [[MacFarlane's Ranch]] with [[Jack Marston|Jack]] and visits Bonnie to purchase [[cattle]]. She helps them to herd the cattle back to [[Beecher's Hope]], accompanying them to just beyond the outskirts of the ranch. Shortly after, Bonnie calls upon John by telegraph to [[Old Friends, New Problems|bring the ranch some corn]] to make up for crops lost to pests at their ranch.
+
+Her request is received, so John and [[Abigail Marston]] visit the ranch. Miss MacFarlane has a friendly conversation with Abigail, who later states that she liked Bonnie. Afterward, the Marston couple leaves the ranch; Bonnie gazes longingly after the couple, shuffling her feet as she watches the wagon leave. She then turns to [[Amos]] as he walks into the general store and then follows him in, marking her last appearance in the main storyline. It is suggested by Abigail that Bonnie had developed feelings for John, who claims that he has that effect on women. The way in which she stared at the two as they left also supports this.
+
+It is unknown if she ever learns of [[The Last Enemy That Shall Be Destroyed|Marston's death]].
+
+====Epilogue====
+Bonnie's fate is unspecified. In spite of her reservations about the ranch's longevity, it is still operative as of November 1914.<ref>The [[Blackwater Ledger]] article "[[Europe at War]]" mentions that Great Britain is at war with the Ottoman Empire, narrowing the date down to November 1914.</ref> Jack Marston is still welcomed at the property and is able to use the [[MacFarlane's Ranch Safehouse|cabin]] his father once recovered in. Bonnie is never seen by Jack, although the ranch residents discuss her presence just as they did three years prior.
+
+== Events of ''Undead Nightmare''==
+'''Note:''' ''The events of Undead Nightmare are not considered part of the same canon as Red Dead Redemption. The following description is therefore not contiguous with the preceding section on Red Dead Redemption.''
+[[File:Rdr_bonnie_macfarlane_undead_nightmare.jpg|300px|right]]
+
+Bonnie appears at the ranch, seemingly unfazed by the zombie epidemic, but seems mentally disturbed from her words. She nonchalantly tells John that her father [[Drew MacFarlane]] was rounding up the undead in the barn and was there since the day before, and asks John to check on him, which begins the [[Missions in Redemption#Side-missions|side-mission]] "[[Paternal Pride]]". After John tells her the fate of her father, she states she is glad that he fought protecting those he loved and walks back into the house after bidding farewell to John. After that, she isn't seen for the rest of the game.
+
+==Character==
+===Personality===
+{{Quote|I wouldn't change my life for all the money in the world. I'm just saying... sometimes I wish I'd been... well, braver. Been to more places, seen more things.|Bonnie MacFarlane}}
+Bonnie is a compassionate and no-nonsense individual. With the loss of most of her brothers and departure of her sole surviving one, she viewed the responsibility of maintaining her family's ranch to fall onto her. As such, she helps out the farm and her father in any way as she can. Bonnie's selflessness can be seen when she ventures to Fort Mercer and saves a grievously injured John, at great risk to her own safety.
+
+Bonnie is more than willing to get her hands dirty, maintaining the ranch in spite of increasingly difficult circumstance and spending her nights patrolling her property.
+
+=== Appearance ===
+In 1898, Bonnie has dirty blonde hair tied back in a bun, and blue green eyes. She wears a red and white striped shirt with a blue vest over it, tan trousers and brown boots. Bonnie also wears a turquoise necklace with a metal charm.
+
+In 1911, Bonnie has aged and looks older. Her hair is now in a loosely tied bun. Bonnie wears a white shirt and a brown vest. Much like in 1898, she still wears tan trousers, brown boots, and a turquoise necklace.
+
+==Mission appearances==
+;''Red Dead Redemption''
+*"[[Exodus in America]]"
+*"[[New Friends, Old Problems]]"
+*"[[Obstacles in Our Path]]"
+*"[[This is Armadillo, USA]]"
+*"[[Women and Cattle]]"
+*"[[Wild Horses, Tamed Passions]]"
+*"[[A Tempest Looms]]"
+*"[[The Burning]]"
+*"[[Hanging Bonnie MacFarlane]]"
+*"[[The Outlaw's Return]]"
+*"[[Old Friends, New Problems]]"
+
+;''Undead Nightmare''
+*"[[Paternal Pride]]"
+
+;''Red Dead Online''
+*[[Caravan Escort]]
+*[[Delivery]]
+*[[On The Hunt]]
+*[[Recovery]]
+
+==Quotes==
+===''Red Dead Redemption''===
+{{quote|If you think I'm going to lower myself by making a joke about being 'all tied up' - you've got another thing comin'.|Bonnie MacFarlane after nearly being hanged}}
+{{quote|Change is only good when it makes things better.|Bonnie MacFarlane}}
+{{quote|With your trigger itch and my feminine intuition, we should make quite a team.|Bonnie MacFarlane patrolling the ranch with Marston}}
+{{quote|Call me Bonnie, you dolt! Call me Bonnie.|Bonnie MacFarlane}}
+{{quote|You do so love to talk in riddles, Mr. Marston.|Bonnie MacFarlane after Marston told her about his life}}
+{{quote|Do my eyes decieve me? A devil walks among us.|Bonnie MacFarlane}}
+{{quote|Stupid is the word we use around here.|Bonnie MacFarlane to John Marston}}
+{{quote|We all have to look for answers somewhere. Some in big ol' books, others in big ol' bottles of whiskey.|Bonnie MacFarlane discussing faith}}
+{{quote|He switched his saddle for a tie, and that's fine. I just never met a man in a tie that I could trust.|Bonnie MacFarlane referring to her only living brother}}
+
+===''Undead Nightmare''===
+{{Quote|Daddy, stop teasing me!|Bonnie MacFarlane calling to her father}}
+
+
+===Multiplayer===
+*''"You disgust me!"''
+*''"You're not a real man."''
+*''"Put it back in your pants Mr!"''
+*''"You don't scare me."''
+*''"You ain't gettin away that easily!"''
+*''"Are you afraid of losing to a woman?"''
+*''"This sure beats milking cows!"''
+*''"What are you trying to prove?!"''
+*''"I'll show you how to treat a woman!"''
+*''"Come on, are you givin up already?!"''
+*''"Lets go, what are you waiting for?!"''
+*''"What? You think you're a cowboy now?!"''
+*''"You're not much good at this, are you?!"''
+*''"Look at that male pride go!"''
+*''"I'll teach ya some respect!"''
+*''"Call yourself a man?!"''
+*''"What the hell's wrong with you?!"''
+*''"You're an idiot!"''
+*''"Coward!"''
+*''"You are really showing off, aren't you?!"''
+*''"Are you trying to impress me?!"''
+*''"That's it, I'm done being nice!"''
+*''"Come on, don't make me kill you!"''
+*''"Leave now, or never leave at all!"''
+*''"This is your last chance to put down the gun!"''
+*''"You need to learn some manners!"''
+*''"Where do you think you're going?!"''
+*''"I pity you, I really do."''
+
+===''Red Dead Online''===
+* ''"You really helped me out last time, thank you."''
+* ''"Good to see you, that last thing worked out well."''
+* ''"Nice work on those previous jobs."''
+* ''"Hey!"''
+* ''"I won’t tell you again."''
+* ''"Watch it."''
+* ''"What are you doing?"''
+* ''"You stop that right now!"''
+
+== Trivia==
+*Bonnie shares a few similarities to [[Annie Stoakes]] from the previous game ''[[Red Dead Revolver]]'': both are ranchers with blonde hair and similar outfits, both become allies to the main protagonist and they both face similar threats during the games.
+*Bonnie's age is discussed in the first issue of the ''Blackwater Ledger'' after the mission to free Bonnie from the hanging noose. The article, found in the lower left hand corner, suggests her kidnapping was a crime of passion perpetuated by the Bill Williamson gang and goes on to describe Bonnie as "a spinster of 29 years".<ref>Stated to be 29 in [[Blackwater Ledger No. 55]] article, "Kidnapped Woman Found Alive".</ref> This contradicts Bonnie's own statement in "[[This is Armadillo, USA]]" that she is 27, as well as the ''Red Dead Redemption'' GOTY Guidebook, which also lists her as being 27.<ref name="GOTY"/> This may be an oversight on Rockstar's part, though it's also plausibly an in-story misreporting.
+**Another inconsistency regarding her age can be found in the epilogue of ''Red Dead Redemption 2'', where the Ranch's barn has yet to be constructed. In the first game, Bonnie tells John that it was constructed when she was a little girl; the epilogue of ''Red Dead Redemption 2'' takes place in 1907, when Bonnie would be 23 years old.
+**Bonnie's appearance in ''Red Dead Online'' can also be seen as an inconsistency with her age: although the game take place in 1898, when she would be 14 years old, she looks to be in her early 20s.
+*Bonnie MacFarlane is named after the aunt of former Rockstar San Diego designer Rob Hanson. He renamed the ranch he designed "MacFarlane's Ranch" and named the rancher's daughter Bonnie MacFarlane just before he resigned.
+*Bonnie appears on the back of the fold-out map provided with the game.
+*Her outfit used to be able to be bought and worn within PlayStation Home.
+*In the ''Undead Nightmare'' DLC, a graffito will appear on a wall in Blackwater reads "You do so love to talk in riddles". This quotes Bonnie's statement to John. Another quote from Bonnie found scrawled on the walls of Blackwater is "Civilization is truly a beautiful thing".
+*She was #29 on ''Game Informer''<nowiki />'s ''The 30 Characters Who Defined a Decade.''
+*On close examination, it can be seen that she wears two belts like most male characters: a regular belt and a gunbelt.
+*John only calls her 'Bonnie' twice in the game; the rest of the time, he refers to her as 'Miss MacFarlane'.
+*She can be seen wielding a [[Winchester Repeater]] in artwork, but in the actual game, she never had one.
+*Bonnie appears to wear a Native American themed necklace.
+*For the scene where she appears on the train in the beginning of ''Red Dead Redemption'', her motion-capture was executed by [[Steve J. Palmer]].
+*Bonnie is the only character in ''Red Dead Redemption'' whom John willingly opens up to about his past outlaw life.
+
+==Gallery==
+===''Red Dead Redemption''===
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+File:Bonniemacfarlane.jpg|Promotional image
+Bonnie Wallpaper.jpg|Promotional artwork
+File:Rdr_twscreen_bonnie.jpg
+File:Bonnie.jpg|Bonnie on the train from Blackwater
+BM.jpg
+HEY.jpg|Miss MacFarlane meets John for the first time
+rdr_0064.jpg|Bonnie conversing with Marston
+rdr_0024.jpg
+Rdr hanging bonnie macfarlane23.jpg|After being saved by Marston
+</gallery>
+
+===''Undead Nightmare''===
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+Bonnie Macfarlane.png|John Marston and Bonnie MacFarlane hugging in the ''Undead Nightmare'' trailer.
+RDRUN1.jpg|Bonnie and John in ''Undead Nightmare''
+</gallery>
+
+===''Red Dead Redemption 2''===
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+red dead 2 letter to Bonnie MacFarlane text.png|Letter to Bonnie MacFarlane
+Bonnie's suitor before the encounter with vultures and crabs all over him.jpg|Bonnie's suitor before the encounter, surrounded by vultures and crabs
+Bonnie's suitor giving the letter to Arthur Morgan.jpg|Bonnie's suitor giving his letter to Arthur Morgan before passing out 
+Bonnie's suitor after the encounter has been completed.jpg|Bonnie's suitor after passing out. Reticle will still show him being alive.
+</gallery>
+
+===''Red Dead Online''===
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+RDRO_Bonnie McFarlane.png|Bonnie in ''Red Dead Online''
+bonnie_mcfarlane_1898.jpg
+</gallery>
+
+==Videos==
+<gallery widths="200" spacing="small" captionalign="center" hideaddbutton="true" position="center">
+Red Dead Redemption 2 - Finding a letter to Bonnie MacFarlane
+</gallery>
+
+==References==
+{{References}}
+
+==Related Content==
+{{Related Content}}
+{{Characters}}
+{{Characters 2}}
+{{DEFAULTSORT:MacFarlane, Bonnie}}
+
+[[Category:Characters in Redemption]]
+[[Category:Characters in Undead Nightmare]]
+[[Category:Multiplayer characters in Redemption]]
+[[Category:Characters in Online]]
+[[Category:Mentioned characters in Redemption 2]]
+
+[[de:Bonnie MacFarlane]]
+[[es:Bonnie MacFarlane]]
+[[fr:Bonnie MacFarlane]]
+[[ru:Бонни МакФарлейн]]
+[[nl:Bonnie_MacFarlane]]
+[[pt-br:Bonnie MacFarlane]]

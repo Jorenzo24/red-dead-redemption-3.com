@@ -1,0 +1,200 @@
+{{User/characterbox
+|image = [[File:PS5 Landon Ricketts.png|thumb]]
+|gender = Male
+|location = Town of [[Chuparosa]] in<br>[[Perdido]], [[Nuevo Paraíso]]
+|status = Deceased <small>(''[[Red Dead Redemption]]'')</small><br> Unknown <small>(''[[Undead Nightmare]]'')</small>
+|affiliations = [[John Marston]]<br>[[Luisa Fortuna]]
+|weapon = [[Cattleman Revolver]]<br>[[Schofield Revolver]]<br>[[Volcanic Pistol]]<br>[[Semi-automatic Pistol]]<br>[[High Power Pistol]]
+|family = Unnamed wife {{icon|dead}} 
+|voice = [[Ross Hagen]]
+|game = ''[[Red Dead Redemption]]''<br>''[[Red Dead Redemption 2]]'' <small>(mentioned)</small>
+|nationality = [[File:Flag of the United States (1908–1912).svg|border|20px]] American}}
+{{Quote|I was the fastest in my time. I must've been - I'm the only one left.|Landon Ricketts to [[John Marston]]
+}}
+'''Landon Ricketts''' is a [[Characters in Redemption#Major characters|major character]] featured in ''[[Red Dead Redemption]]''.
+
+With the addition of the ''[[Undead Nightmare]]'' [[DLC]] pack, an [[undead]] version of him, known as '''Zombie Ricketts''', is a [[Multiplayer Characters|multiplayer character]] model that may be selected in the "Zombies" section of the [[Outfitter]].
+
+With the addition of the ''[[Myths and Mavericks]]'' DLC pack, '''Landon Ricketts''' is also a multiplayer character model that may be selected in the "Revolution" section of the Outfitter.
+
+== History ==
+=== Background ===
+{{Quote|Landon is a 50-year-old former star gunslinger, but now he is past his prime. Holed up in Mexico and awaiting death, he is tough and powerful. But he is also vain and somewhat pretentious.|Description of Ricketts in the GOTY guidebook}}
+Born circa 1861,<ref>''Red Dead Redemption'' GOTY Guidebook</ref> Landon Ricketts was a renowned gunslinger during the height of the American West, and stories of his adventures and fights were commonplace during [[John Marston]]'s childhood. He was purportedly involved in many gunfights, including one wherein he killed [[the Butcher Brothers]] in 1896. He was also rumored to have been involved in the infamous [[Blackwater Massacre]] of 1899, which Marston and the [[Van der Linde gang]] were also involved in. While newspapers mentioned him as a survivor of the incident, it’s unclear whether he fought on the side of law enforcement or acted independently. 
+
+The massacre was allegedly part of the reason Ricketts chose to move to [[Chuparosa]], sometime after a gunfight in eastern California in 1902, for a more "quiet" lifestyle. As an experienced gunman, he functions as an unofficial lawman or vigilante for the town. Ricketts was also married, though his wife died at some point prior to 1911 from unknown causes.
+
+=== Events of ''Red Dead Redemption'' ===
+==== Nuevo Paraíso ====
+John first meets Ricketts in Chuparosa after Ricketts witnesses Marston killing three bandits who try to rob him. He gives him a [[Schofield Revolver]] to replace his less powerful [[Cattleman Revolver]] and then teaches him the third level of [[Dead Eye Targeting|Dead Eye]] by targeting glass bottles followed by shooting numerous birds in mid-flight. Marston then displays his newly taught skills by accompanying Ricketts in retrieving a wagon stolen from the bank by bandits and by rescuing a hostage.
+
+Marston meets Landon Ricketts later discussing with [[Emilio Fortuna]] and his companion about the whereabouts of [[Javier Escuella]], although they are not certain if the Escuella they are talking about is Javier or not. Marston and Ricketts then go on a mission to retrieve Emilio's sister, [[Luisa Fortuna]], from the government jail. They are able to get past the guards with the help of [[Carlos]], a butcher in [[El Matadero]], who distracts them so Marston and Ricketts can enter. The pair of gunslingers shoot their way towards Luisa's cell. Ricketts rigs the locked door with [[Dynamite|dynamite]] while Marston keeps watch. The two find Luisa barely alive in her cell, after which Ricketts carries Luisa as he and Marston shoot their way out. They escape on horseback only to be pursued by more Mexican soldiers which are quickly eliminated. They then regroup with Carlos who takes Luisa for medical attention.
+
+Marston meets Ricketts again at the bar in Chuparosa where he is playing [[Poker|poker]] with [[Andreas Müller]], a German silver prospector, and two Mexican men, [[Manolo Santander]] and [[The Stranger|Sanchez]]. Ricketts invites Marston to join them. After a couple of hands, Müller accuses Marston of cheating, which he denies. Angry, Müller draws his gun, prompting the others to do likewise, resulting in an impasse. Müller subsequently challenges Marston to a [[Duel]] outside, which he accepts. While walking to the dueling point, Ricketts gives Marston a few tips. Marston successfully kills Müller and then shares a drink with Ricketts using Müller's money. A few moments later, they are interrupted by Sanchez, who holds a knife to a girl's throat. He challenges John to a duel, and Marston manages to shoot Sanchez in the head, killing him without harming the girl. Four accomplices arrive who start shooting at Ricketts and Marston; the two of them prevail and part ways.
+
+The two meet once again in the bar in Chuparosa, where Marston asks him if he has any further information on Javier Escuella but Ricketts has none. Marston tells him his history of the gang he used to run in, they share a few drinks as they discuss their lives. Luisa enters the bar pleading for their help as innocent people are being sentenced to death on [[Agustin Allende|Colonel Allende]]'s orders without trial. Ricketts and Marston ride out to ambush the convoy of wagons holding the prisoners. The pair have a heated discussion about Marston's recent activity, shortly before they each take control of a wagon, killing the Mexican soldiers who try stopping them. They reach the borderline to America where they are safe from the army and the prisoners are released. With Marston needing to return to continue his search for Javier Escuella, he and Ricketts say their final farewells and Ricketts is not seen again.
+
+==== Epilogue ====
+In the final 1914 issue of the ''[[Blackwater Ledger]]'', an article reveals that Landon Ricketts passed away quietly in his sleep, a week before the events of "[[Remember My Family]]". The paper says that he had returned to the United States in 1911 (presumably after rescuing the hostages in "[[The Mexican Wagon Train]]") after living for many years in Mexico. The paper also stated that with his passing, another piece of the Old West was lost.
+
+== Events of ''Undead Nightmare'' ==
+'''Note:''' ''The events of Undead Nightmare are not considered part of the same canon as Red Dead Redemption. The following description is therefore not contiguous with the preceding section on Red Dead Redemption.''
+[[File:Rdr_biographies_lies07.jpg|250px|right]]
+
+Ricketts is now living in [[Casa Madrugada]], apparently single-handedly defending the town from the [[Undead]] hordes, making it a permanent safe zone. He will ask Marston to get some [[Undead Bait]] and some [[Dynamite]] for him, which he combines to make [[Boom Bait]], which lures zombies over, then explodes.
+
+== Mission appearances ==
+;''Red Dead Redemption''
+*"[[The Gunslinger's Tragedy]]"
+*"[[Landon Ricketts Rides Again]]"
+*"[[Lucky in Love]]"
+*"[[The Mexican Wagon Train]]"
+
+;''Undead Nightmare''
+*"[[Biographies and Lies]]"
+
+==Quotes==
+{{quote|I spent twenty-five years killing men. Look at me now, sitting around here like some low rent would-be messiah. We're relics.|Landon Ricketts}}
+{{quote|An impasse, sir. An impasse. We could all die here and now.|Landon Ricketts}}
+{{quote|Killing men is a strange kind of fame.|Landon Ricketts}}
+{{quote|I'm a fighter sir, and I'll fight to the end.|Landon Ricketts}}
+{{quote|I was the fastest in my time, I must've been, I'm the only one left.|Landon Ricketts}}
+{{quote|It's a terrible thing, getting older... Your looks have gone, your back hurts, and your pecker isn't working like it's supposed to.|Landon Ricketts}}
+{{quote|If they lay a finger on [[Luisa Fortuna|Luisa]], I swear I'll feed those bastards their balls.|Landon Ricketts}}
+{{quote|Let's hang up our self-pity and go shoot ourselves some bad guys.|Landon Ricketts}}
+{{quote|You kill peasants, you become a peasant.|Landon Ricketts}}
+{{quote|You keep jumping from one side of the fence to the other, you might just get impaled on it.|Landon Ricketts}}
+{{quote|It's as good a place as any to call home. Warm sun, cheap liquor, and beautiful women.|Landon Ricketts, regarding Mexico}}
+{{quote|Chuparosa is my town!|Landon Ricketts during a shootout}}
+{{quote|It doesn't feel good getting executed, does it?|Landon Ricketts while fighting the Mexican Army}}
+{{quote|Manolo is sure getting lucky in the ass today.|Landon Ricketts when [[Manolo Santander]] wins chips in [[poker]]}}
+{{quote|I am not gonna give you a second chance to put that down, partner.|Landon Ricketts if the player aims their weapon at him.}}
+
+=== Multiplayer ===
+*''"Don't worry, this'll be all over soon."''
+*''"You have no idea who you're up against, do you?"''
+*''"This ends right now!"''
+*''"Just let me know when you've had enough."''
+*''"You've gone all kinds of wrongs, partner."''
+*''"I've been through the mill, but you're somethin' else."''
+*''"Why don't you just shoot yourself and save us all some time."''
+*''"You're as crazy as a sheep herder."''
+*''"Do I have to show you where the trigger is?"''
+*''"This can only end badly for you."''
+
+=== Undead Nightmare ===
+*''"I've killed all that can be killed."''
+*''"Truth is long dead."''
+*''"If you see me when I was so fast, you couldn't see me."''
+*''"We got sunshine, sand and a plague that makes people eat each other."''
+
+== Notable Murders Committed ==
+
+* [[The Butcher Brothers]]
+
+== Trivia ==
+=== General ===
+* Ricketts appears to be modeled after one of real-life America's well-known gunmen, [[wikipedia:Wyatt Earp|Wyatt Earp]]. Both Ricketts and Earp gained fame from a major shootout: Ricketts from the [[Blackwater Massacre]] and Earp from the [[wikipedia:Gunfight at the O.K. Corral|O.K. Corral Shootout]]. Both shootouts were blurred as both shootouts were unknown who started the attacks. This is also further implied as Ricketts was writing an autobiography before his death while Earp was also releasing a biography by Stuart Lake but did not complete as Earp passed away before finishing the book.
+* Landon also bears some resemblance to famed gunslinger [[wikipedia:Wild Bill Hickok|Wild Bill Hickok]]. His use of a red sash with his clothing is also remarkably similar, alongside his mustache and shoulder-length hair.
+* It is also possible that Ricketts is named after actor [[wikipedia:Michael Landon|Michael Landon]], who starred in famous Western tv shows such as ''[[wikipedia:Bonanza|Bonanza]]'' (1959 - 73) and ''[[wikipedia:Little House on the Prairie (TV series)|Little House on the Prairie]]'' (1974 - 83). 
+* Ricketts' role and attire in the game are directly inspired by ruthless gunslinger Frank Talby ([[wikipedia:Lee Van Cleef|Lee Van Cleef]]), from the 1967 Spaghetti-Western film ''[[wikipedia:Day of Anger|Day of Anger]]''. 
+
+=== ''Red Dead Redemption'' ===
+* If the player looks under the table when the shot widens as Marston sits down, on Ricketts' right thigh is what seems to be a few playing cards. It is a secret card since moments before, Ricketts is seen to be winning a lot of chips and later states he has already beaten [[Andreas Müller|Müller]].
+* In "[[The Gunslinger's Tragedy]]", Landon claims that he has never been married. This is likely an oversight.
+* Despite expressing his preference for the [[Schofield Revolver]], Landon is seen using a Cattleman Revolver in most instances.
+* In "[[We Shall Be Together in Paradise]]", [[Irish]] mentions to John that he met an American man who he witnessed kill someone in [[Chuparosa]]. This man is heavily implied to be Ricketts.
+* Landon Ricketts is considered to have been one of the fastest draws among prominent gunslingers, though he was also dogged by rumors that one of his most famous victories, when he shot and killed Johnny West, was won by shooting his opponent in the back.
+* In the Xbox LIVE Marketplace and the PSN Store, Landon is shown as a promo for the ''[[Legends and Killers]]'' [[DLC]] pack, although he is not in it.
+
+=== ''Undead Nightmare'' ===
+* In the official trailer for ''Undead Nightmare,'' Landon Ricketts' quote from the beginning of the mission "[[Biographies and Lies]]" is heard. It is, however, shortened. He can be heard saying ''"I have never seen anything quite like this."''
+* He mentions a man in Chicago was writing a biography on him, and a man in Pittsburgh painted his portrait.
+* In ''Undead Nightmare'', if the undead were to somehow enter Casa Madrugada, through a Missing Persons mission or otherwise, they will not engage in combat with him nor will Landon focus on  them as a threat. No matter how close they are in the vicinity towards him.
+* Landon Ricketts can be killed following the completion of his mission. While Ricketts is sitting on a chair, if the player shoots a bottle near him or shoots off his hat, this will prompt him to attack. The player can then kill him, and the story won't be affected at all, and Casa Madrugada will remain safe. Like [[Amos]] in the main game, he can survive a shot to the face with a [[Cattleman Revolver]].
+* In addition, Ricketts returns as an Undead. Ricketts uses the same model in Multiplayer minus his hat and behaves as a Bolter Undead would. He has a 1/4th chance appearing alongside zombies in regular hordes and can spawn anywhere in the game world at any given time. This can happen even before he appears alive in "[[Biographies and Lies]]".
+* If the player rescues Merche Coronado for the [[Missing Persons]] side quest before starting "Biographies and Lies", and then returns the game will spawn two Landons; one that cycles his idle animations, and one that uses his cutscene animations. After the cutscene ends, the two Landons will both cycle idle animations at different intervals.
+
+=== ''Red Dead Redemption 2'' ===
+* Ricketts is referenced several times in ''[[Red Dead Redemption 2]]'':
+** He appears on a [[Cigarette Cards|cigarette card]], part of the ''Famous Gunslingers'' set.
+** He is mentioned by a [[Valentine]] deputy at the start of the [[Missions in Redemption II|mission]] "[[Good, Honest, Snake Oil]]".
+** [[Arthur Morgan]] facetiously compares [[Sadie Adler]] to Ricketts during the mission "[[Further Questions of Female Suffrage]]".
+** He is featured in the book, ''[[Wild West Heroes, No. 132]]'', where he has an encounter with the gunslinger [[Jim "Boy" Calloway]], who is trying to infiltrate a Mexican Army fort. He notably says to Calloway "Keep jumping from one side of the fence to the other, you might just get impaled on it," which is the same line he says to [[John Marston]] in the mission "[[The Mexican Wagon Train]]".
+** He is mentioned by [[John Marston|John]] during a [[poker]] game in the camp.
+
+=== ''Red Dead Online'' ===
+* While not seen or mentioned in-game, a reference to Ricketts is present in the form of "Landon's Patience", one of the passive [[Red Dead Online Ability Cards|ability cards]] available to the player.
+
+== Gallery ==
+=== ''Red Dead Redemption'' ===
+==== Promotional ====
+<gallery position="center" spacing="small" widths="200" captionalign="center" hideaddbutton="true">
+Landon Ricketts Wallpaper.jpg|Artwork for ''Red Dead Redemption''.
+Marston.vultures.jpg|Promotional screenshot depicting Ricketts and Marston.
+Myths mavericks placeholder.jpg|Ricketts on a promotional art for ''Myths and Mavericks''.
+</gallery>
+
+==== In-game screenshots ====
+<gallery widths="200" spacing="small" captionalign="center" hideaddbutton="true" position="center">
+39793 110909028964543 100001363399267 72229 4180847 n.jpg|Close-up of Ricketts.
+Rdr gunslinger's tragedy33.jpg
+Rdr gunslinger's tragedy37.jpg
+Rdr gunslinger's tragedy40.jpg
+Rdr gunslinger's tragedy44.jpg
+Rdr gunslinger's tragedy51.jpg
+Rdr gunslinger's tragedy54.jpg
+Rdr gunslinger's tragedy56.jpg
+Rdr gunslinger's tragedy62.jpg
+Rdr ricketts in chuparosa.jpg
+Rdr lucky love03.jpg
+Rdr lucky love08.jpg
+Rdr lucky love12.jpg
+Rdr lucky love21.jpg
+</gallery>
+
+=== ''Undead Nightmare'' ===
+==== Promotional ====
+<gallery position="center" widths="200" spacing="small" captionalign="center" hideaddbutton="true">
+Reddeadredemption undead ricketts 1024x768.jpg|Artwork for ''Undead Nightmare'', depicting an undead Ricketts.
+</gallery>
+
+==== In-game screenshots ====
+<gallery position="center" spacing="small" widths="200" captionalign="center" hideaddbutton="true">
+Rdr landon ricketts undead nightmare.jpg
+Rdr landon ricketts undead nightmare02.jpg
+Rdr biographies lies.jpg
+DSC00052.jpg|Undead Ricketts found in the single-player mode.
+</gallery>
+
+=== ''Redemption'' multiplayer ===
+<gallery position="center" spacing="small" widths="200" captionalign="center" hideaddbutton="true">
+Multi110.png|Ricketts as a playable character in ''Red Dead Redemption's'' multiplayer mode.
+Landonzombie.png|Undead Ricketts, dubbed "Zombie Ricketts", as a playable character in ''Redemption's'' multiplayer mode.
+Mythsandmavericks4-640.jpg|Promotional screenshot of Ricketts killing Javier Escuella.
+Mythsandmavericks2-640.jpg|Promotional screenshot depicting Ricketts, [[Uncle]] and [[Nastas]].
+Mythsandmavericks5-640.jpg|Promotional screenshot depicting Ricketts, Uncle, [[Eli]] and [[Jonah]].
+</gallery>
+
+=== ''Red Dead Redemption 2'' ===
+<gallery position="center" spacing="small" widths="200" captionalign="center" hideaddbutton="true">
+Landonricketts.jpg|Cigarette Card portraying a younger Landon Ricketts, part of the [[Famous Gunslingers Card Set]]
+RDR2-Wild West Heroes 132.jpg|Dime novel cover depicting Ricketts holding Jim Calloway at gunpoint, from [[Wild West Heroes, No. 132]]
+</gallery>
+
+== Navigation ==
+{{Characters}}
+{{Characters 2}}
+{{Related Content}}
+{{DEFAULTSORT:Ricketts, Landon}}
+
+[[Category:Characters in Redemption]]
+[[Category:Characters in Undead Nightmare]]
+[[Category:Multiplayer characters in Redemption]]
+[[Category:Mentioned characters in Redemption 2]]
+
+[[fr:Landon Ricketts]]
+[[de:Landon_Ricketts]]
+[[es:Landon_Ricketts]]
+[[ru:Лэндон Рикетс]]
+[[pt-br:Landon Ricketts]]
