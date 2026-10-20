@@ -442,8 +442,8 @@ CHARS = [
  "intro": [
    two("Archer Fordham is an agent of the Bureau of Investigation in Red Dead Redemption, and [[edgar-ross|Edgar Ross]]'s partner on the case against the Van der Linde gang.",
        "Archer Fordham est agent du Bureau of Investigation dans Red Dead Redemption, et le coéquipier d'[[edgar-ross|Edgar Ross]] sur le dossier du gang Van der Linde."),
-   two("He is present at nearly every step of [[john-marston|John Marston]]'s coerced hunt, from the initial blackmail to the attack on Beecher's Hope.",
-       "Il est présent à presque chaque étape de la traque imposée à [[john-marston|John Marston]], du chantage initial jusqu'à l'attaque de Beecher's Hope."),
+   two("He is present at nearly every step of [[john-marston|John Marston]]'s coerced hunt, from the initial blackmail to the death of Dutch van der Linde.",
+       "Il est présent à presque chaque étape de la traque imposée à [[john-marston|John Marston]], du chantage initial jusqu'à la mort de Dutch van der Linde."),
  ],
  "sections": [
    {"summary": two("Biography","Biographie"), "open": True, "blocks": [
@@ -451,8 +451,8 @@ CHARS = [
      {"p": two("Fordham and Ross take John's wife and son into government custody and send him west to bring in his former associates. Fordham handles much of the practical side of the operation: the paperwork, the transport, the coordination with the army and the local law.",
                "Fordham et Ross placent la femme et le fils de John sous la garde du gouvernement et l'envoient dans l'Ouest livrer ses anciens complices. Fordham assure une bonne part du côté pratique de l'opération : les dossiers, les transports, la coordination avec l'armée et les forces de l'ordre locales.")},
      {"h3": two("Alongside Ross","Aux côtés de Ross")},
-     {"p": two("Fordham is the more measured of the two agents. He raises objections to Ross's methods and questions how far the operation should go, but he carries out the orders. He is with Ross in West Elizabeth for the hunt through Tall Trees, and at Beecher's Hope when the army moves on the ranch.",
-               "Fordham est le plus mesuré des deux agents. Il émet des objections sur les méthodes de Ross et s'interroge sur les limites à donner à l'opération, mais il exécute les ordres. Il accompagne Ross dans West Elizabeth pour la traque dans Tall Trees, et se trouve à Beecher's Hope quand l'armée fond sur le ranch.")},
+     {"p": two("Fordham is the more measured of the two agents. He raises objections to Ross's methods and questions how far the operation should go, but he carries out the orders. He is with Ross in West Elizabeth for the hunt through Tall Trees. According to the Red Dead Wiki, he is among the men facing John at the barn of Beecher's Hope, although he does not appear in the cutscene that follows.",
+               "Fordham est le plus mesuré des deux agents. Il émet des objections sur les méthodes de Ross et s'interroge sur les limites à donner à l'opération, mais il exécute les ordres. Il accompagne Ross dans West Elizabeth pour la traque dans Tall Trees. Selon le Red Dead Wiki, il fait partie des hommes qui attendent John devant la grange de Beecher's Hope, même s'il n'apparaît pas dans la cinématique qui suit.")},
    ]},
    {"summary": two("In Red Dead Redemption 2","Dans Red Dead Redemption 2"), "blocks": [
      {"p": two("Fordham appears in the epilogue of Red Dead Redemption 2, alongside Ross, in the sequence where the two agents take an interest in [[micah-bell|Micah Bell]]. The appearance places both men on the gang's trail years before the events of the first game.",
@@ -476,7 +476,7 @@ CHARS = [
  ],
  "gallery": [
    {"img": "gallery-1.jpeg", "alt": two("Agents Fordham and Ross at Beecher's Hope","Les agents Fordham et Ross à Beecher's Hope"),
-    "cap": two("Fordham and Ross at Beecher's Hope in 1911.","Fordham et Ross à Beecher's Hope en 1911.")},
+    "cap": two("Fordham and Ross at Beecher's Hope in 1907.","Fordham et Ross à Beecher's Hope en 1907.")},
  ],
 },
 ]

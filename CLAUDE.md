@@ -550,5 +550,16 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     fin argent honneur bas, « Not Molly… not Miss Grimshaw… not even Colm » vient APRÈS que Dutch arrive et arrête Micah
     (corrigé chez Dutch, Arthur, Susan). Miroir : récompense = un cigare, ch. 3 seulement ; la réplique « aucun ne vivra
     sept ans » n'existe pas (retirée d'Arthur).
+- **Hors gang, format MOYEN v3 (20 oct. 2026)** :
+  - **Colm O'Driscoll v3** : 5 600 mots EN, 14 relations, galerie 7. Parlementage, capture et évasion d'Arthur = tous
+    dans « Blessed are the Peacemakers » (Lone Mule Stead) ; pendaison = « Goodbye, Dear Friend » (ch. 6). Mort du
+    frère de Colm : deux versions attribuées (Dutch, transcription : il tue le frère puis Colm tue Annabelle ; page wiki
+    « Old Friends » : ordre inverse), racontée UNE fois (relation Dutch). Aucune source ne lie Milton à Colm (« the law »).
+    Scène de prononciation Sean/Kieran = Clemens Point. Andrew Berg (capture de mouvement attribuée au wiki).
+  - **Edgar Ross v3** : 8 600 mots EN, 19 relations, galerie 11. Prénom et chef du Bureau : journal de 1907 ; Emily :
+    journal de 1914 (Blackwater Ledger n° 213) ; Phillip : transcription (« Philip »). « This is your fault, Marston! »
+    est de Hopkins, pas de Ross. À Beecher's Hope (1911), Ross apparaît au peloton de la grange, pas en tête de colonne.
+    Jack tire le premier. Générique 1907 : Ross et Fordham examinent le corps de Micah. Erreurs corrigées au passage :
+    fiche Fordham (présence à Beecher's Hope attribuée au wiki ; légende galerie-1 = 1907, pas 1911 ; HTML + `_wave6.py`).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
