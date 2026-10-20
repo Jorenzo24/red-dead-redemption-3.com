@@ -61,12 +61,14 @@ def _g(n, alt_en, alt_fr, cap_en, cap_fr):
     return {"img": f"gallery-{n}.jpeg", "alt": two(alt_en, alt_fr), "cap": two(cap_en, cap_fr)}
 
 GALLERY = [
-    _g(1, "Close-up of Mary Linton in a teal dress", "Gros plan de Mary Linton en robe bleu-vert",
-       "Mary Linton in 1899.", "Mary Linton en 1899."),
+    _g(1, "Close-up of Mary Linton in a teal blouse", "Gros plan de Mary Linton en chemisier bleu-vert",
+       "Mary at Chadwick Farm, in chapter 2 (1899).", "Mary à Chadwick Farm, au chapitre 2 (1899)."),
     _g(2, "Old photograph of a young man and woman", "Vieille photographie d'un jeune homme et d'une jeune femme",
-       "A photograph of Arthur and Mary when they were young.", "Une photographie d'Arthur et de Mary dans leur jeunesse."),
+       "The \"Young Mary & Arthur Photograph\", which comes with her goodbye letter.",
+       "La photographie \"Young Mary & Arthur Photograph\", jointe à sa lettre d'adieu."),
     _g(3, "Mary in a black hat on a hillside", "Mary en chapeau noir sur une colline",
-       "Mary at Arthur's grave.", "Mary sur la tombe d'Arthur."),
-    _g(4, "Mary standing beside a grave marker", "Mary debout près d'une croix de tombe",
-       "Mary visits Arthur's grave.", "Mary se recueille sur la tombe d'Arthur."),
+       "Mary in mourning, during the end credits.", "Mary en deuil, pendant le générique de fin."),
+    _g(4, "Mary standing beside a flower-covered grave cross", "Mary debout près d'une croix de tombe couverte de fleurs",
+       "Mary at Arthur's grave in the end credits; the flowers appear when Arthur finished chapter 6 with high honor.",
+       "Mary devant la tombe d'Arthur, dans le générique de fin ; la tombe n'est fleurie que si Arthur a terminé le chapitre 6 avec un honneur élevé."),
 ]
