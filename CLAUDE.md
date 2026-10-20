@@ -561,5 +561,14 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     est de Hopkins, pas de Ross. À Beecher's Hope (1911), Ross apparaît au peloton de la grange, pas en tête de colonne.
     Jack tire le premier. Générique 1907 : Ross et Fordham examinent le corps de Micah. Erreurs corrigées au passage :
     fiche Fordham (présence à Beecher's Hope attribuée au wiki ; légende galerie-1 = 1907, pas 1911 ; HTML + `_wave6.py`).
+  - **Andrew Milton v3** : 5 780 mots EN, 15 relations, galerie 6. Première apparition = « A Fisher of Men », CHAPITRE 2
+    (rivière Dakota près de Horseshoe Overlook), pas le ch. 3 : erreur corrigée dans les guides ch. 2 et ch. 3 (EN+FR).
+    Mac Callander : « a mercy killing » selon Milton (corrigé chez Hosea). Dernière réplique : « You're losing your
+    strength, Mr. Morgan. » Ross aux côtés de Milton : rivière, Clemens Point, banque (wiki), Annesburg ; pas à Lakay ni
+    Van Horn. Galerie-6 = image de bande-annonce.
+  - **Leviticus Cornwall v3** : 5 950 mots EN, 20 relations, galerie 7. Train = ch. 1 ; tué par Dutch dans « Just a
+    Social Call » (ch. 6, quais d'Annesburg). Le recrutement des Pinkerton n'est jamais montré. Cornwall Kerosene & Tar
+    est dans les Heartlands, pas à Annesburg. Aucune scène de Cornwall n'a de transcription : ses répliques viennent de
+    la liste de citations du wiki. Les documents (lettres, journaux, Malvina, devise) vivent dans « Un empire industriel ».
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
