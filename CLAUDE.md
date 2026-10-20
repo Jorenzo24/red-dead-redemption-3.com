@@ -175,6 +175,11 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
 
 ## 10. ÉTAT D'AVANCEMENT (à tenir à jour par Claude Code)
 
+> **Reprise multi-appareils (fiches v3)** : lire `scripts/v3/STATUS.md` (qui fait quoi, compteur, branche WIP)
+> et `scripts/v3/PROCEDURE.md` (méthode pas à pas, outils, prompts, règles maison). Toute la chaîne v3 vit dans
+> `scripts/v3/` (plus rien dans un scratchpad local) : `git pull`, lire STATUS, reprendre la branche `wip/v3-<key>`.
+> Jamais la même fiche sur deux appareils à la fois.
+
 - [x] Phase 1 : init projet (skill) + design de base + 1-2 articles tests
 - [x] Phase 2 : 1 fiche personnage soignée (stabilise le gabarit) — Arthur Morgan (EN+FR)
 - [x] Phase 3 : objectif dépassé — **43 fiches en ligne (RDR2 + RDR1) + 7 en file (vague 7)** (EN+FR), **story guides RDR2 ET RDR1 COMPLETS** (RDR2 ch. 1-6 + 2 épilogues ; RDR1 actes I-III), **20 articles**, toujours en dur
@@ -513,8 +518,8 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   acte 3 (Uncle repousse la première vague avec John avant d'être touché ; Abigail et Jack sur UN cheval).
   NB : la réglette « Dans l'histoire » est DÉSACTIVÉE (`ENABLED = False` dans `gen_storystrip.py`).
 - **Format MOYEN v3 (19 oct. 2026) pour les secondaires du gang** (wiki de 1 300 à 2 900 mots) : mêmes sections et
-  règles, 2 rédacteurs (A+C, B+D), 2 relecteurs + couverture, 1 correcteur ; outils dans le scratchpad `cov/`
-  (`setup_medium.py`, `galfetch.py`, `galbuild.py`, `mkmodule.py`, `mkrel.py`, `split2.py`). Le navire de Saint-Denis
+  règles, 2 rédacteurs (A+C, B+D), 2 relecteurs + couverture, 1 correcteur ; outils, prompts et règles dans `scripts/v3/`
+  (`setup_medium.py`, `galfetch.py`, `galbuild.py`, `mkmodule.py`, `mkrel.py`, `split2.py` ; voir `scripts/v3/PROCEDURE.md`). Le navire de Saint-Denis
   n'a JAMAIS de destination (retirée d'Arthur, Charles, Micah).
   - **Sean MacGuire v3** : 7 900 mots EN, 17 relations, galerie 16. Sauvetage = « The First Shall Be Last » (pas « Who
     is Not Without Sin »). Père Darragh : nom sur la coupure de presse en jeu, lien de parenté = wiki. Présent dans Red
