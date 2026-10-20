@@ -541,5 +541,14 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     d'Emerald SANS transcription : seuls deux répliques attestées et le départ en train ; le reste est retiré.
   - **Leopold Strauss v3** : 6 000 mots EN, 19 relations, galerie 10. Il quitte le gang à Beaver Hollow, chassé par
     Arthur OU de lui-même selon le joueur. Mort en détention Pinkerton entre 1899 et 1907 (rapportée par Charles).
+  - **Josiah Trelawny v3** : 6 600 mots EN, 16 relations, galerie 16. Libéré à « The New South » une fois qu'Arthur a
+    ramené Anders Anderson (aucune promesse du shérif à l'écran). « He ain't Trelawny » se dit à l'ALLER vers la chasse à
+    l'ours (« Exit, Pursued by a Bruised Ego ») ; la réplique sur Sean est optionnelle, comme celles de la pêche. Origine :
+    Cornouailles selon ses propres dires à Uncle. Après le ch. 6, on l'entend seulement à son appartement de Saint-Denis.
+  - **Molly O'Shea v3** : 5 200 mots EN, 13 relations, galerie 8. Elle PRÉTEND venir d'une famille aisée de Dublin
+    (le guide le dit, à attribuer). Gifle de Karen à Clemens Point (camp events ; sa page wiki dit Shady Belle). Dans la
+    fin argent honneur bas, « Not Molly… not Miss Grimshaw… not even Colm » vient APRÈS que Dutch arrive et arrête Micah
+    (corrigé chez Dutch, Arthur, Susan). Miroir : récompense = un cigare, ch. 3 seulement ; la réplique « aucun ne vivra
+    sept ans » n'existe pas (retirée d'Arthur).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
