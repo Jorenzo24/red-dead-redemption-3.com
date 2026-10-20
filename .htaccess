@@ -140,6 +140,10 @@ RedirectMatch 404 /\.git
 # ---- Block access to _templates (canonical templates, never publicly served) ----
 RedirectMatch 404 /_templates
 
+# ---- Block internal working files (docs, scripts, drip queue): never public ----
+RedirectMatch 404 ^/(scripts|_queue|\.github|\.vscode)(/|$)
+RedirectMatch 404 \.(md|py)$
+
 # ---- Disable directory browsing ----
 Options -Indexes
 
