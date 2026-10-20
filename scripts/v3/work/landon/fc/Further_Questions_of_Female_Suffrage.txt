@@ -1,0 +1,78 @@
+{{infobox quest
+| game       = Red Dead Redemption 2
+| image      = File:Further-questions-of-female-suffrage_RDRII.jpg
+| imagewidth = 100
+| start      = [[Clemens Point]]
+| end        = [[Clemens Point]]
+| prereqs    = 
+| giver      = [[Sadie Adler]]
+| location   = [[Rhodes]], [[Scarlett Meadows]]
+| mo         =
+* Drive to the <span style="color:#FFFF66">store</span>.
+* Go to the <span style="color:#FFFF66">Post Office</span>.
+* Get back on the <span style="color:#FFFF66">wagon</span>.
+* Wait for <span style="color:#FFFF66">Sadie</span>.
+* Fend off the <span style="color:red">outlaws</span>.
+* Deal with the remaining <span style="color:red">outlaws</span>.
+* Get back on the <span style="color:#FFFF66">wagon</span>.
+* Go back to <span style="color:#FFFF66">Clemens Point</span>.
+| rewards    = N/A
+| previous   = [[A Strange Kindness|"A Strange Kindness"]]
+| next       = [[Blessed are the Peacemakers|"Blessed are the Peacemakers"]]
+|chapter=[[Missions in Redemption 2#Chapter 3: Clemens Point|Chapter 3 - Clemens Point]]}}
+{{QuoteTalk|Arthur|You wanna head out there? Run with the men? So be it... but we do more than just hunting... we're hunted. And them things hunting us... well, they got guns of their own.|Sadie|I ain't afraid of dying.|[[Arthur Morgan]] and [[Sadie Adler]]}}
+
+'''Further Questions of Female Suffrage''' is a mission in ''[[Red Dead Redemption 2]]''.
+
+==Mission Overview==
+To get her out of camp for a while, [[Arthur Morgan|Arthur]] takes [[Sadie Adler|Sadie]] into [[Rhodes]] to collect supplies.
+
+==Story==
+Arthur comes across [[Simon Pearson|Pearson]] and Sadie having a heated argument. Sadie is discontent with having to stay in camp all day and do nothing but cook, stating that when her [[Jake Adler|husband]] was alive, they shared the chores around their ranch. Arthur decides to take her into Rhodes to buy more supplies for Pearson. Before they leave, Pearson gives Arthur a letter to post for him. 
+
+On their way, Sadie cheekily reads Pearson's letter (which is for his aunt Cathy) while mockingly imitating him, which amuses Arthur. Upon arriving, Sadie wants to rob the store, but Arthur tells her they are not meant to cause any trouble. Sadie enters the store while Arthur goes to the post office to mail Pearson's letter. When returning to the wagon, Sadie is seen with new attire and bickering at the store clerk, who is loading boxes into the back of the wagon.  
+
+As they are heading back to the camp, Sadie expresses her sadness of how both her home and possessions were destroyed and how she used to enjoy playing the harmonica. Arthur apologizes and offers to find a new harmonica for her. Sadie just tells him to treat her like everyone else and firmly declares that no one will ever ruin her life again. Suddenly, two members of the [[Lemoyne Raiders]] approach them and order them to stop. Sadie refuses, shoots one of them and runs down another with the wagon, resulting in more members attacking. 
+
+After Arthur and Sadie fight them off, they drive the wagon back into camp, and Arthur decides to not tell [[Dutch van der Linde|Dutch]] about their encounter. Upon arriving, they help Pearson unload the supplies from the wagon. Sadie thanks Arthur for taking her out and Arthur replies that he would be happy to ride with her again.
+
+==Gold Medal Objectives==
+*Fend off the [[Lemoyne Raiders]] in less than 1 minute.
+*Get 5 headshots.
+*Complete with at least 85% accuracy.
+*Complete the mission without taking any health items.
+
+==Deaths==
+* Up to 10 Lemoyne Raiders - Killed by Arthur Morgan and Sadie Adler.
+
+==Mission Failure==
+The mission will fail if the player:
+*Assaults, kills, or abandons Sadie;
+*Allows Sadie to be killed;
+*Alerts the law;
+*Annoys the Shop Owner;<ref>https://youtu.be/hS0cghMZGXc</ref>
+*Abandons Rhodes;
+*Destroys or disables the wagon;
+*"Annoys" the camp inhabitants, e.g. running them over while returning;
+*Dies.
+
+==Trivia==
+*During the mission, Sadie and Arthur act like a married couple if the player decides to follow her into the [[general store]]. She will use an alias under the name of Mrs. Kilgore when speaking to the [[A.J. Banks|store clerk]].
+*When revisiting the store after the mission, the clerk may comment on Sadie's new choice of clothes. However, he will still refer to her as "Arthur's friend."
+*[[Landon Ricketts]] is mentioned in this mission. After Sadie starts the gunfight with the Lemoyne Raiders, Arthur remarks, "A new pair of pants and you think you're Landon Ricketts".
+*Starting with the missions completion, Sadie will taking part in camp guard duty, seen walking around camp equipped with an [[Carbine Repeater]].
+
+==Video Walkthroughs==
+{{#ev:youtube|TNVt6Hrxyb4|300px|center|'''PS4 Version'''}}
+{{#ev:youtube|54fdXNeCMBo|300px|center|'''PC Version'''}}
+
+==References==
+<references />
+
+==Navigation==
+{{Chapter 3 missions}}
+[[de:Weitere Fragen zum Wahlrecht für Frauen]] 
+[[es:Más cuestiones del sufragio femenino]] 
+[[fr:De l'importance du suffrage féminin]]
+[[ru:Новые вопросы о правах женщин]]
+[[Category:Redemption II Missions]]

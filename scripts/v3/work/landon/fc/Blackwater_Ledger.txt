@@ -1,0 +1,71 @@
+{{Quote|THE VOICE OF WEST ELIZABETH AND BEYOND.|The paper's slogan in 1899}}{{Infobox_business
+|name         = Blackwater Ledger
+|image        = Blackwater_Ledger.png
+|industry     = Newspaper Publisher
+|products     = [[Newspapers]]
+|locations    = 
+*[[Blackwater]]
+*[[Strawberry]]
+|game         = 
+''[[Red Dead Redemption]]'' 
+''[[Red Dead Redemption 2]]''
+|leader       = A. H. McInlay
+|headquarters = Building No. 26, [[Main Street]], [[Blackwater]]
+}}
+The '''Blackwater Ledger''' is a [[Newspapers|newspaper]] publisher in ''[[Red Dead Redemption]]'' and ''[[Red Dead Redemption 2]]''.
+
+==Description==
+The Blackwater Ledger is the primary newspaper source in ''Red Dead Redemption'', and one of three newspapers in ''Red Dead Redemption 2'', alongside the [[New Hanover Gazette]] and [[Saint Denis Times|Saint Denis Times Tribune]], that reports of various events actively taking place throughout the games' stories. The player can often find articles about events they were involved in, such as a robbery or disaster. Posting Mondays and Fridays, vendors can be seen selling these newspapers in local towns, such as [[Blackwater]] and [[Armadillo]] in ''Red Dead Redemption'', or Blackwater and [[Strawberry]] in ''Red Dead Redemption 2''.
+
+The Blackwater Ledger is headquartered in the Blackwater Ledger Local News Printing & Publishing building in Blackwater. The company is owned by newspaper tycoon A. H. McInlay. 
+
+In ''Red Dead Redemption'', the newspaper is published weekly.<ref>The article "Federal Government Increases Taxes, Extends Reach Further" in Blackwater Ledger No. 60 refers to the article "Tax Increase Necessary to Fund Government Expansion" from Blackwater Ledger No. 59 as having occurred "last week".</ref>
+
+==List of Issues==
+===''Red Dead Redemption 2''===
+* [[Blackwater Ledger No. 62]] - Available after "[[Eastward Bound]]"
+* [[Blackwater Ledger No. 63]] - Available after "[[Pouring Forth Oil IV]]"
+* [[Blackwater Ledger No. 64]] - Available after "[[The Sheep and the Goats]]"
+* [[Blackwater Ledger No. 65]] - Available after "[[Magicians for Sport]]"
+* [[Blackwater Ledger No. 66]] - Available after "[[The Joys of Civilization]]"
+* [[Blackwater Ledger No. 67]] - Available after "[[Urban Pleasures]]"
+* [[Blackwater Ledger No. 68]] - Available after "[[Dear Uncle Tacitus]]"
+* [[Blackwater Ledger No. 69]] - Available after "[[Visiting Hours]]"
+* [[Blackwater Ledger No. 70]] - Available after "[[The Bridge to Nowhere]]"
+* [[Blackwater Ledger No. 71]] - Available after "[[The King's Son]]"
+* [[Blackwater Ledger No. 72]] - Available after "[[The Wheel]]"
+* [[Blackwater Ledger No. 73]] - Available after "[[The Landowning Classes]]"
+* [[Blackwater Ledger No. 74]] - Available after "[[Uncle's Bad Day]]"
+* [[Blackwater Ledger No. 75]] - Available after "[[American Venom]]"
+
+===''Red Dead Redemption''===
+* [[Blackwater Ledger No. 53]] - Available after "[[Political Realities in Armadillo]]"
+* [[Blackwater Ledger No. 54]] - Available after "[[The Sport of Kings, and Liars]]"
+* [[Blackwater Ledger No. 55]] - Available after "[[Hanging Bonnie MacFarlane]]"
+* [[Blackwater Ledger No. 56]] - Available after "[[Civilization, at Any Price]]"
+* [[Blackwater Ledger No. 57]] - Available after "[[My Sister's Keeper]]"
+* [[Blackwater Ledger No. 58]] - Available after "[[An Appointed Time]]"
+* [[Blackwater Ledger No. 59]] - Available after "[[The Prodigal Son Returns (To Yale)]]"
+* [[Blackwater Ledger No. 60]] - Available after "[[Great Men are Not Always Wise]]"
+* [[Blackwater Ledger No. 213]] - Available after "[[The Last Enemy That Shall Be Destroyed]]"
+
+==Gallery==
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+File:BlackwaterLedgerBuilding.png|Headquarters
+File:BlackwaterLedgerLogo.png|Logo
+</gallery>
+
+==Trivia==
+* In ''Red Dead Redemption'', the last issue is considerably different from the others. It is called ''The Blackwater Ledger and Sentinel'' instead of simply ''The Ledger'', and generally has a different format.
+* In ''Red Dead Redemption 2'', the player can purchase a maximum of 40 newspapers. Of the three 14th newspaper issues, only one can be purchased. For example, if the player purchases [[Saint Denis Times No. 56]], the other two 14th issues, Blackwater Ledger No. 75 and [[New Hanover Gazette No. 40]], will no longer be available for purchase.<ref>https://www.youtube.com/watch?v=exO9duy2EOQ</ref>
+* In ''Red Dead Redemption 2'', once a newspaper has been purchased and read, the other versions of that issue will no longer be available for purchase from newspaper vendors. For example, if the player purchases and reads [[Saint Denis Times No. 43]], the other two versions of the same issue, Blackwater Ledger No. 62 and [[New Hanover Gazette No. 27]], will no longer be available for purchase from newspaper vendors. This was presumably intended to limit the player to owning only 14 newspaper issues.
+* In ''Red Dead Redemption 2'', if the player purchases and reads every available newspaper up to the latest issue at that point in the story, newspaper vendors will temporarily disappear from the game. They will reappear once a new issue becomes available. As a result, if the player purchases and reads all 14 newspaper issues, newspaper vendors will no longer appear for the remainder of the game. Although newspaper vendor icons may still appear in various towns after all 14 issues have been purchased and read, these icons will disappear as the player approaches the respective town.
+
+==References==
+<references/>
+
+[[ru:Blackwater Ledger]]
+[[Category:Features]]
+[[Category:Items in Redemption]]
+[[Category:Items in Redemption 2]]
+[[Category:Items]]
