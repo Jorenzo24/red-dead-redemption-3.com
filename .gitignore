@@ -7,3 +7,9 @@ Thumbs.db
 node_modules/
 *.bak
 *.old
+__pycache__/
+# v3 pipeline: shared wiki cache and raw gallery downloads are re-fetchable (scripts/v3/PROCEDURE.md)
+scripts/v3/work/_m/
+scripts/v3/work/*/gal/*
+!scripts/v3/work/*/gal/captions.json
+!scripts/v3/work/*/gal/spec.txt

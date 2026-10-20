@@ -1,0 +1,7 @@
+Read {{KD}}/FC_PROMPT.md (repo root on this device: {{R}}) and follow it exactly.
+Your chunk: {{KD}}/<half1.txt | half2.txt> (the lead names which one). The full fiche text, for DUPLICATE checks, is
+{{KD}}/{{KEY}}_full_en.txt. The source files behind the text are scripts/fiches/parts/{{KEY}}_A.py .. {{KEY}}_D.py
+(their docstrings list the sources each drafter used: check those first, then look further).
+Write your report to {{KD}}/fc_report<1|2>.md: a title naming the chunk, the sources you used, a short "Verified OK"
+paragraph, then "## Problems" (numbered, one item per problem: category, draft excerpt, source says (file/page), fix),
+then the count per category. Reply with the counts only.
