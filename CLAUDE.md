@@ -528,5 +528,10 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   - **Susan Grimshaw v3** : 7 300 mots EN, 23 relations, galerie 8. Molly tuée à la FIN du ch. 5 ; Susan tuée par Micah
     au ch. 6, enterrée par Charles à Roanoke Ridge. Shady Belle nettoyée de Lemoyne Raiders (pas d'O'Driscoll). Selon
     le guide officiel, elle est dans le gang depuis aussi longtemps qu'Arthur (corrigé chez Arthur).
+  - **Karen Jones v3** : 6 650 mots EN, 22 relations, galerie 8. Son alcoolisme commence au chapitre de Clemens Point
+    (Camp Events), PAS après la mort de Sean. Seul indice d'âge en jeu : « Mid twenties, blonde » (Arthur, Polite Society).
+  - **Tilly Jackson v3** : 7 000 mots EN, 21 relations, galerie 7. Elle cache Jack quand les hommes de Milton saisissent
+    Abigail DEVANT le camp (pas pendant le raid sur Beaver Hollow). Lettre de 1907 signée « Yours, Tilly » ; elle s'y
+    présente comme Tilly Pierre (corrigé chez Hosea et Abigail). Arthur conduit Susan chez les Radley.
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
