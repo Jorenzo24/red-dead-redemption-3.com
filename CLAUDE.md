@@ -522,5 +522,11 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   - **Lenny Summers v3** : 7 900 mots EN, 17 relations, galerie 14. Arthur l'appelle « Leonard » une fois (« Preaching
     Forgiveness as He Went »). « Fils d'anciens esclaves » = wiki, attribué. Lenny n'a pas rejoint le gang adolescent
     (phrase retirée d'Arthur).
+  - **Kieran Duffy v3** : 6 100 mots EN, 20 relations, galerie 11. Capturé au ch. 1 (« Old Friends », corrigé dans le
+    guide ch. 3). Pico Alexander : seule la voix est sourcée (pas de « motion capture » affirmée). Aucune description
+    Rockstar 2018 pour lui.
+  - **Susan Grimshaw v3** : 7 300 mots EN, 23 relations, galerie 8. Molly tuée à la FIN du ch. 5 ; Susan tuée par Micah
+    au ch. 6, enterrée par Charles à Roanoke Ridge. Shady Belle nettoyée de Lemoyne Raiders (pas d'O'Driscoll). Selon
+    le guide officiel, elle est dans le gang depuis aussi longtemps qu'Arthur (corrigé chez Arthur).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
