@@ -13,7 +13,12 @@ Sources (internal register, fetched Oct 2026 via the MediaWiki API, saved in scr
   Events (activities and events unlocked after "Angelo Bronte, A Man of Honor"). Leitmotif: fact-checked sadie_C,
   colm_C, john_E. Blood Money release date July 13, 2021, as in sean_C.
 - No transcript exists on the wiki for Bronte's three missions (API missingtitle, Oct 2026). Quoted lines come only
-  from quote boxes and quote lists of the wiki pages named above, with the speaker and mission they give.
+  from quote boxes, quote lists and story text of the wiki pages named above, with the speaker and mission they give
+  (this sourcing note is kept out of the public text).
+Fix pass (20 Oct 2026): the Wapiti line and Dutch's "worst crook in town" removed from Quotes (quoted in part B);
+Trivia items on the mansion doors/guards (part B + part D cut content) and "a lizard in a suit" (part B) removed;
+the Javier echo reworded (John's own line, as in dutch_D); Martelli in Online = underboss (Blood Money is set in 1898);
+the second Missions table retitled "Other missions linked to Bronte" (Bare Knuckle Friendships never names him).
 Ownership: narrative events are in part A (one line per mission here). Bronte's lines from the character page's quote
 list ("You are nothing...", "So, you walk into my city...", "You ask me to show compassion?", "You twist words...",
 "The law will find you!") are left to part B "In his own words" and not repeated here; the Quotes block keeps lines
@@ -37,8 +42,8 @@ EP2 = two("Epilogue 2: Beecher's Hope", "Épilogue 2 : Beecher's Hope")
 
 BLOCKS_MISSIONS = [
     {"h3": two("Missions", "Missions")},
-    {"p": two("Bronte appears in person in three missions of Red Dead Redemption 2, all in chapter 4. Other missions bring up his name, his tip or his mansion, from the raid on Braithwaite Manor to the 1907 epilogue; they are listed in the second table. The events themselves are told in the Biography.",
-              "Bronte apparaît en personne dans trois missions de Red Dead Redemption 2, toutes au chapitre 4. D'autres missions évoquent son nom, son tuyau ou sa demeure, de l'assaut contre Braithwaite Manor à l'épilogue de 1907 ; elles figurent dans le second tableau. Le déroulé des événements se trouve dans la Biographie.")},
+    {"p": two("Bronte appears in person in three missions of Red Dead Redemption 2, all in chapter 4. Other missions bring up his name, his tip, his mansion or his former organization, from the raid on Braithwaite Manor to the 1907 epilogue; they are listed in the second table. The events themselves are told in the Biography.",
+              "Bronte apparaît en personne dans trois missions de Red Dead Redemption 2, toutes au chapitre 4. D'autres missions évoquent son nom, son tuyau, sa demeure ou son ancienne organisation, de l'assaut contre Braithwaite Manor à l'épilogue de 1907 ; elles figurent dans le second tableau. Le déroulé des événements se trouve dans la Biographie.")},
     {"h4": two("Appearances", "Apparitions")},
     {"table": {"head": [two("Mission", "Mission"), two("Chapter", "Chapitre"), two("Bronte's role", "Rôle de Bronte")], "rows": [
         M("Angelo Bronte, A Man of Honor", C4,
@@ -51,7 +56,7 @@ BLOCKS_MISSIONS = [
           "Captured in his mansion, knocked out by John and drowned by Dutch from the skiff.",
           "Capturé dans sa demeure, assommé par John et noyé par Dutch depuis la barque."),
     ]}},
-    {"h4": two("Missions in which he is mentioned", "Missions où il est évoqué")},
+    {"h4": two("Other missions linked to Bronte", "Autres missions liées à Bronte")},
     {"table": {"head": [two("Mission", "Mission"), two("Chapter", "Chapitre"), two("Link with Bronte", "Lien avec Bronte")], "rows": [
         M("Blood Feuds, Ancient and Modern", C3,
           "[[catherine-braithwaite|Catherine Braithwaite]] reveals that her sons gave Jack to Bronte; her letter to him lies in the manor.",
@@ -72,33 +77,25 @@ BLOCKS_MISSIONS = [
           "John reminds Jack how far he now is from Bronte's mansion.",
           "John rappelle à Jack combien il est loin, désormais, de la demeure de Bronte."),
         M("Bare Knuckle Friendships", EP2,
-          "[[charles-smith|Charles]] and John fight off the men of Guido Martelli, Bronte's successor.",
-          "[[charles-smith|Charles]] et John repoussent les hommes de Guido Martelli, le successeur de Bronte."),
+          "[[charles-smith|Charles]] and John fight off the men of Guido Martelli, once Bronte's underboss, who now runs things in Saint Denis.",
+          "[[charles-smith|Charles]] et John repoussent les hommes de Guido Martelli, jadis bras droit de Bronte, qui fait désormais la loi à Saint-Denis."),
     ]}},
 ]
 
 
 BLOCKS_QUOTES = [
     {"h3": two("Quotes", "Citations")},
-    {"p": two("The wiki has no transcript of Bronte's missions. The lines below are given in the original English as they appear in the Red Dead Wiki's quote boxes for the missions and characters named. Bronte's exchanges with Dutch are quoted under Personality.",
-              "Le wiki ne propose aucune transcription des missions de Bronte. Les répliques ci-dessous sont citées dans leur version originale anglaise, telles qu'elles figurent dans les encadrés de citations du Red Dead Wiki consacrés aux missions et aux personnages indiqués. Les échanges de Bronte avec Dutch sont cités dans la rubrique Personnalité.")},
+    {"p": two("The lines below are given in the original English. Bronte's own exchanges with Dutch, and his remark on Rains Fall and Eagle Flies, are quoted under Personality.",
+              "Les répliques ci-dessous sont citées en version originale. Les échanges de Bronte avec Dutch, ainsi que sa remarque sur Rains Fall et Eagle Flies, figurent dans la rubrique Personnalité.")},
     {"h4": two("At the mayor's party", "À la réception du maire")},
     {"quotes": [
         {"q": two("See that wretch? He's the mayor! He'll do anything for a dollar, and I mean anything.",
                   "See that wretch? He's the mayor! He'll do anything for a dollar, and I mean anything."),
          "src": two("Bronte to Dutch and Arthur, describing Henri Lemieux, The Gilded Cage (RDR2, chapter 4)",
                     "Bronte à Dutch et Arthur, à propos d'Henri Lemieux, The Gilded Cage (RDR2, chapitre 4). Traduction : « Vous voyez ce misérable ? C'est le maire ! Il ferait n'importe quoi pour un dollar, et je dis bien n'importe quoi. »")},
-        {"q": two("Yes, hand a letter to the mayor. Oh yeah, that will save you.",
-                  "Yes, hand a letter to the mayor. Oh yeah, that will save you."),
-         "src": two("Bronte, watching Rains Fall and Eagle Flies, The Gilded Cage (RDR2, chapter 4)",
-                    "Bronte, en regardant Rains Fall et Eagle Flies, The Gilded Cage (RDR2, chapitre 4). Traduction : « C'est ça, remettez une lettre au maire. Ah oui, ça va vous sauver. »")},
     ]},
     {"h4": two("About Bronte", "Au sujet de Bronte")},
     {"quotes": [
-        {"q": two("We'll find what we can. All I know for sure is we are going to a party at the mayor's house... and the guest of honor is the worst crook in town! I'm sure that we will find something.",
-                  "We'll find what we can. All I know for sure is we are going to a party at the mayor's house... and the guest of honor is the worst crook in town! I'm sure that we will find something."),
-         "src": two("Dutch to Arthur, Bill and Hosea, on the way to the party, The Gilded Cage (RDR2, chapter 4)",
-                    "Dutch à Arthur, Bill et Hosea, en route pour la réception, The Gilded Cage (RDR2, chapitre 4). Traduction : « On trouvera ce qu'on pourra. Tout ce que je sais, c'est qu'on va à une fête chez le maire... et que l'invité d'honneur est le pire escroc de la ville ! Je suis sûr qu'on trouvera quelque chose. »")},
         {"q": two("You'll damn us all...", "You'll damn us all..."),
          "src": two("Hosea to Dutch, after Arthur backs the plan to kill Bronte, Country Pursuits (RDR2, chapter 4)",
                     "Hosea à Dutch, après qu'Arthur a soutenu le projet de tuer Bronte, Country Pursuits (RDR2, chapitre 4). Traduction : « Tu vas tous nous perdre... »")},
@@ -128,22 +125,18 @@ BLOCKS_TRIVIA = [
             "L'alligator qui emporte le corps de Bronte est déjà visible quand la bande arrive à l'arrière de la demeure, au début de \"Revenge is a Dish Best Eaten\"."),
         two("Dutch calls Bronte a \"repulsive little maggot\" as he drowns him. [[simon-pearson|Pearson]] uses the same insult against [[uncle|Uncle]] in a camp scene, after Uncle criticizes his cooking.",
             "Dutch traite Bronte de \"repulsive little maggot\" (répugnant petit asticot) en le noyant. [[simon-pearson|Pearson]] lance la même insulte à [[uncle|Uncle]] dans une scène de camp, quand celui-ci critique sa cuisine."),
-        two("Dutch's words to John after the drowning return in Red Dead Redemption, when John confronts [[javier-escuella|Javier Escuella]] in 1911: \"It's you or me, the way I see it, it might as well be you.\"",
-            "Les mots de Dutch à John après la noyade reviennent dans Red Dead Redemption, quand John affronte [[javier-escuella|Javier Escuella]] en 1911 : \"It's you or me, the way I see it, it might as well be you.\" (c'est toi ou moi, et à mon avis, autant que ce soit toi)."),
+        two("In Red Dead Redemption, John himself uses nearly the same words as Dutch when he confronts [[javier-escuella|Javier Escuella]] in 1911: \"It's you or me, the way I see it, it might as well be you.\"",
+            "Dans Red Dead Redemption, c'est John qui reprend presque mot pour mot la phrase de Dutch quand il affronte [[javier-escuella|Javier Escuella]] en 1911 : \"It's you or me, the way I see it, it might as well be you.\" (c'est toi ou moi, et à mon avis, autant que ce soit toi)."),
         two("Hosea's warning in \"Country Pursuits\" comes back to Arthur during his last ride to camp in the mission \"Red Dead Redemption\", if his honor is low.",
             "L'avertissement d'Hosea dans \"Country Pursuits\" revient à l'esprit d'Arthur lors de sa dernière chevauchée vers le camp, dans la mission \"Red Dead Redemption\", si son honneur est bas."),
         two("Among the gold medal objectives of \"Revenge is a Dish Best Eaten\" are searching every room of the mansion and carrying Bronte to the skiff within 1 minute and 30 seconds.",
             "Parmi les objectifs de la médaille d'or de \"Revenge is a Dish Best Eaten\" figurent la fouille de toutes les pièces de la demeure et le transport de Bronte jusqu'à la barque en moins d'une minute et trente secondes."),
-        two("Outside of cutscenes and \"Revenge is a Dish Best Eaten\", the mansion's doors stay locked. In free roam, its guards turn hostile if the player enters the grounds, and help the police if the player is wanted there. According to the Red Dead Wiki, dialogue in the PC files shows they were first meant to flee when the law arrived.",
-            "En dehors des cinématiques et de \"Revenge is a Dish Best Eaten\", les portes de la demeure restent fermées. En monde libre, ses gardes deviennent hostiles si le joueur pénètre sur la propriété, et prêtent main-forte à la police s'il y est recherché. D'après le Red Dead Wiki, des dialogues présents dans les fichiers de la version PC montrent qu'ils devaient d'abord prendre la fuite à l'arrivée de la loi."),
         two("Susan's conversation with Arthur on the ride in \"No, No and Thrice, No\" depends on whether Jack has been brought back from Bronte's: before, she lists the gang's recent kidnappings; after, she remarks that Kieran has not been seen for a while.",
             "La conversation entre Susan et Arthur pendant le trajet de \"No, No and Thrice, No\" dépend du retour de Jack : avant, elle fait le compte des enlèvements récents qui ont frappé la bande ; après, elle note que Kieran n'a pas été vu depuis un moment."),
         two("Several companion activities at Shady Belle, among them \"Go Rustling\" with Uncle and a coach robbery with Lenny, only become available once \"Angelo Bronte, A Man of Honor\" is complete.",
             "Plusieurs activités de compagnon à Shady Belle, dont \"Go Rustling\" avec Uncle et une attaque de diligence avec Lenny, ne se débloquent qu'une fois \"Angelo Bronte, A Man of Honor\" terminée."),
         two("Bronte is one of only four characters in Red Dead Redemption 2 with a recurring musical theme of his own, with [[john-marston|John Marston]], [[sadie-adler|Sadie Adler]] and [[colm-odriscoll|Colm O'Driscoll]].",
             "Bronte fait partie des quatre seuls personnages de Red Dead Redemption 2 dotés d'un thème musical récurrent, avec [[john-marston|John Marston]], [[sadie-adler|Sadie Adler]] et [[colm-odriscoll|Colm O'Driscoll]]."),
-        two("According to the Red Dead Wiki, Arthur's journal describes Bronte as a lizard in a suit.",
-            "Selon le Red Dead Wiki, Arthur le décrit dans son journal comme un lézard en costume."),
     ]},
 ]
 
@@ -151,6 +144,6 @@ BLOCKS_TRIVIA = [
 BLOCKS_MEDIA = [
     {"h3": two("Other media and legacy", "Autres médias et postérité")},
     {"h4": two("Red Dead Online", "Red Dead Online")},
-    {"p": two("Bronte does not appear in Red Dead Online, but the French edition of the Red Dead Wiki lists him among the characters mentioned there. His organization survives him. The Blood Money update, released on July 13, 2021, centers on Guido Martelli, his former underboss, who sends the player after Capitale. Rockstar's Newswire, as quoted by the Red Dead Wiki, describes Capitale as a system of exchange designed for the Bronte family's more sensitive business, whose value depends on its scarcity. The wiki names the Flavian Street mansion Guido Martelli's mansion after Bronte's death, and says it is easier to enter in Online than in the story mode. Members of the Saint Denis mob can also attack the player during deliveries of goods to Saint Denis for Cripps's trading company, in the Frontier Pursuits update.",
-              "Bronte n'apparaît pas dans Red Dead Online, mais l'édition française du Red Dead Wiki le compte parmi les personnages qui y sont mentionnés. Son organisation lui survit. La mise à jour Blood Money, sortie le 13 juillet 2021, tourne autour de Guido Martelli, son ancien bras droit, qui lance le joueur à la recherche du Capitale. Le Newswire de Rockstar, cité par le Red Dead Wiki, présente le Capitale comme un moyen d'échange conçu pour les affaires les plus délicates de la famille Bronte, et dont la valeur tient à sa rareté. Le wiki rebaptise la demeure de Flavian Street demeure de Guido Martelli après la mort de Bronte, et indique qu'elle est plus facile d'accès dans Online que dans le mode histoire. Des membres de la pègre de Saint-Denis peuvent aussi attaquer le joueur lors des livraisons de marchandises à Saint-Denis pour le comptoir de Cripps, dans la mise à jour Frontier Pursuits.")},
+    {"p": two("Bronte does not appear in Red Dead Online, but the French edition of the Red Dead Wiki lists him among the characters mentioned there. The Blood Money update, released on 13 July 2021, centers on Guido Martelli, Bronte's underboss (Red Dead Online is set in 1898, while Bronte is alive), who sends the player after Capitale. Rockstar's Newswire, as quoted by the Red Dead Wiki, describes Capitale as a system of exchange designed for the Bronte family's more sensitive business, whose value depends on its scarcity. The Red Dead Wiki adds that getting back into his Flavian Street mansion, which normally takes a glitch, is easier in Online. Members of the Saint Denis mob can also attack the player during deliveries of goods to Saint Denis for Cripps's trading company, in the Frontier Pursuits update.",
+              "Bronte n'apparaît pas dans Red Dead Online, mais l'édition française du Red Dead Wiki le compte parmi les personnages qui y sont mentionnés. La mise à jour Blood Money, sortie le 13 juillet 2021, tourne autour de Guido Martelli, le bras droit de Bronte (Red Dead Online se déroule en 1898, du vivant de Bronte), qui lance le joueur à la recherche du Capitale. Le Newswire de Rockstar, cité par le Red Dead Wiki, présente le Capitale comme un moyen d'échange conçu pour les affaires les plus délicates de la famille Bronte, et dont la valeur tient à sa rareté. Le Red Dead Wiki ajoute qu'on ne peut retourner dans sa demeure de Flavian Street qu'à la faveur d'un bug, et que c'est bien plus simple dans Online. Des membres de la pègre de Saint-Denis peuvent aussi attaquer le joueur lors des livraisons de marchandises à Saint-Denis pour le comptoir de Cripps, dans la mise à jour Frontier Pursuits.")},
 ]
