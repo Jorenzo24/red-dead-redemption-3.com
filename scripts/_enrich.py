@@ -242,8 +242,8 @@ BATCH1 = [
      {"p": two(f"During the Pinkerton raid on {cl(6,'Beaver Hollow','en')}, Tilly hides Jack Marston. When the gang returns, she tells them that Agent Milton has taken Abigail. Arthur gives her money and sends her with Jack to Copperhead Landing, where Abigail and [[sadie-adler|Sadie]] later join them.",
                f"Pendant le raid des Pinkerton sur {cl(6,'Beaver Hollow','fr')}, Tilly cache Jack Marston. Au retour du gang, elle annonce que l'agent Milton a enlevé Abigail. Arthur lui remet de l'argent et l'envoie avec Jack à Copperhead Landing, où Abigail et [[sadie-adler|Sadie]] les rejoignent plus tard.")},
      {"h3": two("1907","1907")},
-     {"p": two("By 1907, Tilly lives in Saint Denis and has married a lawyer from Haiti. John can meet her on a bench in the city; she is pregnant. In a later letter to John and Abigail, signed \"Tilly Pierre\", she writes that she has had a daughter, that she still sees Mary-Beth, and that Hosea had been \"like a father\" to her.",
-               "En 1907, Tilly vit à Saint-Denis et a épousé un avocat originaire d'Haïti. John peut la croiser sur un banc de la ville ; elle est enceinte. Dans une lettre envoyée plus tard à John et Abigail, signée \"Tilly Pierre\", elle annonce la naissance de sa fille, dit voir toujours Mary-Beth, et écrit que Hosea avait été comme un père pour elle.")},
+     {"p": two("By 1907, Tilly lives in Saint Denis and has married a lawyer from Haiti. John can meet her on a bench in the city; she is pregnant. In a later letter to John and Abigail, in which she introduces herself as Tilly Pierre, she writes that she has had a daughter, that she still sees Mary-Beth, and that Hosea had been \"like a father\" to her.",
+               "En 1907, Tilly vit à Saint-Denis et a épousé un avocat originaire d'Haïti. John peut la croiser sur un banc de la ville ; elle est enceinte. Dans une lettre envoyée plus tard à John et Abigail, où elle se présente comme Tilly Pierre, elle annonce la naissance de sa fille, dit voir toujours Mary-Beth, et écrit que Hosea avait été comme un père pour elle.")},
    ]},
    {"summary": two("Development and performance","Conception et interprétation"), "blocks": [
      {"p": two("Tilly is played by Meeya Davis, an actress from Detroit who moved to New Jersey in 2012 to study acting. She provided the voice and the motion capture. Speaking to Fuzzable in March 2019, she said she was first called in for what was presented as a commercial audition, and only learned about the character on her shooting days. She also said she went to high school with Harron Atkins, who plays Lenny Summers.",
@@ -1378,9 +1378,9 @@ ENRICHED += MAINS1
 
 
 # Full-template fiches (one module each in scripts/fiches/), replacing earlier entries.
-from fiches import john_marston as _jm, arthur_morgan as _am, dutch_van_der_linde as _dv, sadie_adler as _sa, micah_bell as _mb, hosea_matthews as _hm, charles_smith as _cs, bill_williamson as _bw, javier_escuella as _je, abigail_marston as _ab, jack_marston as _jk, uncle as _un, sean_macguire as _sm, lenny_summers as _ls, kieran_duffy as _kd, susan_grimshaw as _sg
+from fiches import john_marston as _jm, arthur_morgan as _am, dutch_van_der_linde as _dv, sadie_adler as _sa, micah_bell as _mb, hosea_matthews as _hm, charles_smith as _cs, bill_williamson as _bw, javier_escuella as _je, abigail_marston as _ab, jack_marston as _jk, uncle as _un, sean_macguire as _sm, lenny_summers as _ls, kieran_duffy as _kd, susan_grimshaw as _sg, karen_jones as _kj, tilly_jackson as _tj
 _BASE = {c["slug"]: c for c in ENRICHED}
-_FULL = [_jm.build(cl, CH), _am.build(cl, CH), _dv.build(cl, CH, _BASE["dutch-van-der-linde"]), _sa.build(cl, CH), _mb.build(cl, CH), _hm.build(cl, CH), _cs.build(cl, CH), _bw.build(cl, CH), _je.build(cl, CH), _ab.build(cl, CH), _jk.build(cl, CH), _un.build(cl, CH), _sm.build(cl, CH), _ls.build(cl, CH), _kd.build(cl, CH), _sg.build(cl, CH)]
+_FULL = [_jm.build(cl, CH), _am.build(cl, CH), _dv.build(cl, CH, _BASE["dutch-van-der-linde"]), _sa.build(cl, CH), _mb.build(cl, CH), _hm.build(cl, CH), _cs.build(cl, CH), _bw.build(cl, CH), _je.build(cl, CH), _ab.build(cl, CH), _jk.build(cl, CH), _un.build(cl, CH), _sm.build(cl, CH), _ls.build(cl, CH), _kd.build(cl, CH), _sg.build(cl, CH), _kj.build(cl, CH), _tj.build(cl, CH)]
 ENRICHED = [c for c in ENRICHED if c["slug"] not in {f["slug"] for f in _FULL}] + _FULL
 
 if __name__ == "__main__":
