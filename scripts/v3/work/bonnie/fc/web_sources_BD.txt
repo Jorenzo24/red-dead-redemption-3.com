@@ -1,0 +1,22 @@
+Web sources gathered by the B/D drafter, 20 Oct 2026.
+
+1. Wikipedia "Red Dead Redemption" (wikitext via API): plot summary "Rescued and nursed back to health by local rancher
+   Bonnie MacFarlane (Kimberly Irion)". Analysis section: "Female representation is mixed; Bonnie is presented as
+   "insightful and resourceful" instead of simply "a woman masquerading as a male figure", though still defers to simple
+   domestic tasks in her father's presence {{sfn|Humphreys|2012|pp=207-208}} and on one occasion becomes a damsel in
+   distress {{sfn|Margini|2020|p=56}}." Refs: Sara Humphreys, "Rejuvenating 'Eternal Inequality' on the Digital Frontiers",
+   Western American Literature 47(2), 2012, pp. 200-215 (University of Nebraska Press); Matt Margini, Red Dead Redemption,
+   Boss Fight Books, 2020. See wp_rdr_refs.txt.
+2. Game Informer, "December Cover Revealed", 5 Nov 2010 (Game Informer editorial): cover art commissioned for the
+   "30 Characters Who Defined a Decade" feature; "and Bonnie's hand rests on John Marston's shoulder to bring in the third."
+3. Nintendo Everything, 13 Nov 2010, reproduces the Game Informer list: 2. John Marston ... 29. Bonnie MacFarlane
+   (Red Dead Redemption), 30. King of All Cosmos.
+4. Game Informer, Javy Gwaltney, "A Surprising, Familiar Face Returns In Red Dead Online", 28 Nov 2018: MacFarlane Ranch
+   deserted in the RDR2 story, "no Bonnie or her father in sight"; in Red Dead Online "there sat Bonnie MacFarlane herself,
+   years before meeting John Marston, ready to give me a mission to help her find a wagon."
+5. RDR2.org, Matt Gibbs, 28 Nov 2018 (updated 9 Jan 2023): Bonnie gives a Stranger mission in Red Dead Online (fan site, not cited).
+6. PC Games (Germany), Olaf Bleich, Benedikt Plass-Flessenkaemper, Maria Beyer-Fistrich, "10 Jahre Red Dead Redemption",
+   4 Apr 2020: "Bonnie MacFarlane rettete John Marston zu Beginn des Spiels das Leben und brachte ihn auf der Farm ihrer
+   Familie unter. Bonnie ist eine moderne Frau: durchsetzungsstark und direkt."
+Not found: any interview with Kimberly Irion about the role; any source for the Rob Hanson naming anecdote (wiki trivia only).
+Blocked: GamePro.de (403), Washington Times review (403).
