@@ -3,24 +3,24 @@
 Last update: 2026-10-20. Counter: run `python3 scripts/v3/counter.py` (done = build( entries in _FULL of
 scripts/_enrich.py; total = characters/*/ folders + _queue/ items).
 
-**Counter: 37 done / 50 total, 13 remaining.**
+**Counter: 38 done / 50 total, 12 remaining.**
 
 ## In progress (one line per fiche: key, step, device, WIP branch)
 | Fiche | key | Step | Where | WIP branch |
 |---|---|---|---|---|
-| Vincente de Santa | desanta | setup done, drafting | Mac session | wip/v3-desanta |
+| (none) | | | | |
 
 A fiche listed here with a WIP branch can be resumed from any device: check out the branch first.
 
-## Done (37, in _FULL order)
+## Done (38, in _FULL order)
 Full tier: John Marston, Arthur Morgan, Dutch van der Linde, Sadie Adler, Micah Bell, Hosea Matthews, Charles Smith,
 Bill Williamson, Javier Escuella, Abigail Marston, Jack Marston, Uncle.
 Medium tier, gang: Sean MacGuire, Lenny Summers, Kieran Duffy, Susan Grimshaw, Karen Jones, Tilly Jackson,
 Simon Pearson, Mary-Beth Gaskill, Orville Swanson, Leopold Strauss, Molly O'Shea, Josiah Trelawny.
-Medium tier, outside the gang: Colm O'Driscoll, Edgar Ross, Andrew Milton, Leviticus Cornwall, Mary Linton, Angelo Bronte, Bonnie MacFarlane, Landon Ricketts, Nigel West Dickens, Seth Briars, Leigh Johnson, Abraham Reyes, Agustin Allende.
+Medium tier, outside the gang: Colm O'Driscoll, Edgar Ross, Andrew Milton, Leviticus Cornwall, Mary Linton, Angelo Bronte, Bonnie MacFarlane, Landon Ricketts, Nigel West Dickens, Seth Briars, Leigh Johnson, Abraham Reyes, Agustin Allende, Vincente de Santa.
 
-## Remaining (13)
-Live, not v3 yet (10): alberto-fussar, archer-fordham,
+## Remaining (12)
+Live, not v3 yet (9): alberto-fussar, archer-fordham,
 catherine-braithwaite, harold-macdougal, hercule-fontaine, irish, leigh-johnson,
 luisa-fortuna, nastas, tavish-gray, vincente-de-santa.
 Queued in _queue/, not published yet (3): rains-fall, eagle-flies, sister-calderon. Do them after the drip has published them

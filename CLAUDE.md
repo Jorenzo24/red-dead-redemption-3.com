@@ -626,5 +626,10 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     l'exécution de John (attribué au wiki). Dans « An Appointed Time », la diligence est arrêtée, Allende livre Bill,
     puis les deux sont abattus par John ou par Reyes. Voix : Gary Carlos Cervantes. Corrigé chez John : gouverneur
     « provincial », mort sur la route d'Escalera (Allende et Bill).
+  - **Vincente de Santa v3** : 7 980 mots EN, 11 relations, galerie 7 (dernière = Undead Nightmare). Vie privée : uniquement
+    ses répliques et celles des autres, verbatim, sans aucune lecture (les insinuations du wiki sont écartées). Ordre de
+    l'échange de « Cowards Die Many Times » respecté. Avis de décès : Blackwater Ledger n° 58 (« Vicente », 34 ans). Tombe
+    de Sepulcro (1877-1911) selon le wiki. Voix : Hector Luis Bustamante. Accueil : LGBTQ Video Game Archive (24 juin
+    2016), attribué. Guide acte II : la mort à Sepulcro est déplacée en fin de paragraphe (clarté).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
