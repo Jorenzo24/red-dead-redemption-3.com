@@ -1,0 +1,295 @@
+{{for|the [[Red Dead Redemption]] variant|Sawed-off Shotgun}}
+{{Infobox Weapon
+| name       = Peeters & Janssens Sawed-Off Shotgun
+| image      = Sawed-Off.png
+| caption    = 
+| type       = [[Shotguns|Shotgun]]
+| games      = ''[[Red Dead Redemption 2]]''<br>''[[Red Dead Online]]''
+| power      = High
+| range      = Low
+| rof        = Moderate
+| rldspd     = Moderate
+| accuracy   = Low
+| ammocap    = 2
+| ammomax    = 120
+| ammotype   = [[Ammo in Redemption 2|Shotgun Ammo]]
+| baseprice  = $85.00<br>$111.00 <small>(''Online'')</small>
+}}
+
+The '''Sawed-Off Shotgun''' is a [[Weapons in Redemption 2|weapon]] featured in ''[[Red Dead Redemption 2]]'' and ''[[Red Dead Online]]''.
+
+== Description ==
+The [[Peeters & Janssens]] Sawed-Off is a versatile shotgun that can be used easily with one hand or dual wielded to great effect. Rough and deadly, but widely inaccurate, this weapon is ideal for close quarter combat on foot or on horseback. This gun has an ammo capacity of two rounds and can use Regular Buckshot, Incendiary Buckshot, Slug and Explosive Slug shotgun ammo.<ref>In-game Description.</ref>
+
+[[Dual-wielding]] it with another Sawed-Off shotgun is highly effective, allowing the quick and brutal elimination of anything that stands in your way, man or beast.
+
+== Acquisition ==
+In ''Redemption 2'', it is provided by [[Javier Escuella]] during the mission "[[Enter, Pursued by a Memory]]". A second one can be bought from any [[Gunsmith]], for the price of $85.
+
+Alternatively, a second shotgun can be acquired from the bartender at [[Keane's Saloon]] in [[Valentine]]. There is a bottle of gin on one of the tables, and if the player picks it up, the bartender will attack the player, meaning that the player can obtain the weapon from him after defeating him.
+
+In ''Online'', this shotgun is available for purchase at all gunsmiths after reaching rank 19. A unique skin is also available for online players in the [[Moonshiner (Red Dead Online)|Moonshiner]] [[Roles (Red Dead Online)|role]].
+
+==Components & Styles==
+===Components===
+{|class="article-table mw-collapsible mw-collapsed" style="width:100%;"
+!style="background-color:#38090A; width:67%"|Iron Sights
+!style="background-color:#38090A; width:33%"|Cost ($)
+|-
+|Stock Sights
+|Default
+|-
+|Improved Sights
+|5.00
+|}
+{|class="article-table mw-collapsible mw-collapsed" style="width:100%;"
+!style="background-color:#38090A; width:67%"|Stock
+!style="background-color:#38090A; width:33%"|Cost ($)
+|-
+|Basic Grain
+|Default
+|-
+|Straight Grain
+|14.00
+|-
+|Wide Grain
+|12.00
+|}
+{|class="article-table mw-collapsible mw-collapsed" style="width:100%;"
+!style="background-color:#38090A; width:67%"|Wrap
+!style="background-color:#38090A; width:33%"|Cost ($)
+|-
+|No Wrap
+|Default
+|-
+|Wrap
+|10.00
+|}
+
+=== Styles===
+{|class="article-table mw-collapsible mw-collapsed" style="width:100%;"
+!rowspan="2" style="background-color:#38090A; width:15%"|Metals
+!colspan="5" style="background-color:#38090A; text-align:center; width:85%"|Components - Cost ($)
+|-
+|style="background-color:#38090A; width:17%"|Barrel,<br>Trigger Guard
+|style="background-color:#38090A; width:17%"|Frame
+|style="background-color:#38090A; width:17%"|Hammer
+|style="background-color:#38090A; width:17%"|Sight
+|style="background-color:#38090A; width:17%"|Trigger
+|-
+!style="background-color:#38090A;"|Iron
+|5.00
+|7.50
+|4.00
+|2.50
+|3.50
+|-
+!style="background-color:#38090A;"|Nickel
+|5.50
+|8.25
+|4.50
+|2.75
+|4.00
+|-
+!style="background-color:#38090A;"|Blued Steel
+|6.00
+|9.00
+|5.00
+|3.00
+|4.25
+|-
+!style="background-color:#38090A;"|Blackened Steel
+|7.00
+|10.50
+|5.50
+|3.50
+|5.00
+|-
+!style="background-color:#38090A;"|Browned Steel
+|7.50
+|11.25
+|6.00
+|3.75
+|5.50
+|-
+!style="background-color:#38090A;"|Brass
+|8.00
+|12.00
+|6.50
+|4.00
+|5.75
+|-
+!style="background-color:#38090A;"|Silver
+|9.00
+|13.50
+|7.00
+|4.50
+|6.50
+|-
+!style="background-color:#38090A;"|Gold
+|10.00
+|15.00
+|8.00
+|5.00
+|7.00
+|}
+{|class="article-table mw-collapsible mw-collapsed" style="width:100%;"
+!style="background-color:#38090A; width:34%"|Engravings
+!style="background-color:#38090A; width:33%"|Option
+!style="background-color:#38090A; width:33%"|Cost (S)
+|-
+|rowspan="5"|Engraving Style<br><small>(Applicable to the Barrel, Frame and Trigger Guard each)</small>
+|None/Remove
+|0.30
+|-
+|Baroque
+|6.50
+|-
+|Art Nouveau
+|8.25
+|-
+|Victorian
+|10.50
+|-
+|Ornamental
+|12.00
+|-
+|rowspan="8"|Inlay Metals
+|Iron
+|1.50
+|-
+|Nickel
+|2.25
+|-
+|Blued Steel
+|3.00
+|-
+|Blackened Steel
+|3.75
+|-
+|Browned Steel
+|5.25
+|-
+|Brass
+|6.00
+|-
+|Silver
+|7.50
+|-
+|Gold
+|9.00
+|}
+{|class="article-table mw-collapsible mw-collapsed" style="width:100%;"
+!style="background-color:#38090A; width:34%"|Stock/Wrap Customzations
+!style="background-color:#38090A; width:33%"|Option
+!style="background-color:#38090A; width:33%"|Cost ($)
+|-
+|rowspan="7"|Carvings
+|None/Remove
+|1.00
+|-
+|Rattlesnake
+|12.00
+|-
+|Scorpion
+|12.50
+|-
+|Puma
+|13.75
+|-
+|Deer
+|14.50
+|-
+|Eagle
+|15.00
+|-
+|Buck
+|15.25
+|-
+|rowspan="8"|Leather<br><small>(Wrap must be applied)</small>
+|Hazelnut
+|1.50
+|-
+|Chestnut
+|2.00
+|-
+|Olive
+|2.50
+|-
+|Walnut
+|3.00
+|-
+|Brick Red
+|3.50
+|-
+|Tobacco
+|4.00
+|-
+|Chocolate
+|4.50
+|-
+|Pebble
+|5.00
+|-
+|rowspan="8"|Varnish
+|Birch/Mahogany
+|1.50
+|-
+|Black Walnut/Maple
+|2.00
+|-
+|Bocote/Mesquite
+|2.50
+|-
+|Dark Rosewood/Myrtle
+|3.00
+|-
+|Bubinga/Rosewood
+|3.50
+|-
+|Cocobolo/Wild Cherry
+|4.00
+|-
+|Ebony/Bright Maple
+|4.50
+|-
+|Walnut/Dark Walnut
+|5.00
+|}
+
+==Letter from a customer ==
+''"My poor old mama and papa are afflicted by rheumatism, and while I was away a year at school happened to come across a medicine man by the name of [[Nigel West Dickens| Nigel Dickens]]. They received an earful about all manner of wonderful cures that his bottles of dopes would cure and accomplish. Every penny they had in that house went to his nostrums. I suspect laudanum or opium was the base of that tincture, for they were suddenly rabid in possessing more of the cure. I returned home in the autumn to find them taking more and more doses of that vile concoction, mama pounding the hymnal with her crooked hands and singing to the ceiling Psalms of one kind or the other. When that foul medicine man came around the next week with crates of the stuff and a big smile on his face, I revealed your sawed off wonder from underneath my knitting and boy did he holler out like a chicken stuffed in a flour bag headed for the butcher's block, and that's right where I was about to take him. Thanks to you and your families for your hard work making such fine instruments that outdo in strength and quality of shooting any other gun I have ever used."''
+
+'''''Yours, T. Bernadette Moncrief, [[Annesburg]].'''''
+
+== Trivia ==
+* This is notably the weapon of choice for [[Charles Smith]]. He has a custom model, featuring a white varnish and a black, steel barrel. Additionally, Charles is the only member of the [[Van der Linde gang|gang]] to wield a shotgun as their primary weapon in place of a revolver.
+** [[Sadie Adler]] is also seen owning one in the epilogue, though she is almost never seen using it.
+* Unlike other shotguns, this one occupies a holster/handgun slot, in contrast with the previous game's version.
+* [[John Marston]] uses this shotgun in a reference to the ''[[Red Dead Redemption]]'' cover image in the mission "[[Jim Milton Rides, Again?]]"
+
+== Special Variants ==
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true" bordersize="none">
+Charles Sawed-Off.png|[[Charles Smith|Charles']] Sawed-Off
+</gallery>
+
+== Gallery ==
+<gallery position="center" widths="200" captionalign="center" hideaddbutton="true">
+File:Sawed off shotgun - Red Dead 2.png|On the counter
+File:Sawedoffshotguncompendium.jpg|Photo shown in the compendium
+File:Sawedoffshotgunhudicon.jpg|Sawed-Off Shotgun HUD icon
+File:Sawed-Off Shotgun - Red Dead Redemption 2.jpg|Sawed-Off Shotgun advert
+File:SAWED-OFF SHOTGUN RDR2 Wheeler Rawson and Co.png|Shown in the Wheeler Rawson and Co. Catalog
+File:John executing Laramie gang leader.jpg|John with the shotgun in a reference to ''Red Dead Redemption'''s cover image
+File:RDR16.jpg|John aiming the Sawed-off Shotgun in Free Roam
+</gallery>
+
+== References ==
+<references />
+
+== Navigation ==
+{{Redemption 2 Weapons}}
+[[de:Abgesägte Flinte]][[fr:Fusil_à_canon_scié_(RDR2)]]
+[[Category:Shotguns]]
+[[Category:Weapons in Redemption 2]]
+[[Category:Weapons in Red Dead Online]]

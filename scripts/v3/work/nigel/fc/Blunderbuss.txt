@@ -1,0 +1,83 @@
+{{Undead weaponbox 
+|image = File:Iconotrabuco.png
+|imagewidth = 300
+|type = [[Shotguns|Shotgun]]
+|games = [[Red Dead Redemption]] - [[Undead Nightmare]]
+|power = Very high <small>(against undead)</small><br>High <small>(against living NPCs)</small>
+|range = Moderate
+|rof = Low
+|ammocap = 1
+|ammomax = 19
+|ammotype = [[Blunderbuss Ammo]]
+|rldspd = Low}}
+
+The '''Blunderbuss''' is a [[Weapons in Undead Nightmare|weapon]] featured in the ''[[Undead Nightmare]]'' [[DLC|expansion pack]] for ''[[Red Dead Redemption]]''.
+
+==Description==
+The Blunderbuss is a short, muzzle-loading firearm, commonly considered to be an early predecessor to the more modern [[shotgun]], and is classified in-game as one. By the year of 1911 and final stage of the Wild West, it is considered a fairly outdated weapon.
+
+Unlike other DLC weapons such as the [[Tomahawk]] or the [[Explosive Rifle]], the Blunderbuss is exclusive to ''Undead Nightmare'' and cannot be used in the base game's single-player mode. Excluding the aforementioned Explosive Rifle, the Blunderbuss is the most powerful and effective firearm against the [[undead]].
+
+Its stopping power and scale can vaporize any type of undead in one shot. In return, the Blunderbuss' range is average and its reloading time is slow in comparison to other available weapons; as using the Blunderbuss destroy the corpse, [[Marston]] cannot [[loot]] the weapon's victims. It works like a normal shotgun against living NPCs, rendering its usefulness in such scenario moot.
+
+The Blunderbuss' [[Blunderbuss Ammo|ammunition]] is created by using different body parts of the undead, including ribs, eyes, ears and tongues salvaged from undead Marston put down; each round requires ten undead parts. The Blunderbuss can hold up to 20 rounds; following completion of the [[Undead Treasure Hunter]] [[Undead Nightmare Challenges|Challenge]], the Blunderbuss's ammo capacity will increase.
+
+In the additional modes added to ''Red Dead Redemption's'' [[Redemption Multiplayer|multiplayer]], the Blunderbuss' stopping power against the undead is significantly decreased, and it is incapable of completely obliterating undead bodies.
+
+==Acquisition==
+===''Undead Nightmare''===
+*Rewarded to the player after completing "[[A Cure for Most of What Ails You]]".
+
+===Multiplayer mode===
+*Can be found in a random [[Weapons in Redemption|weapon]] drop.
+
+==Tips and Tricks==
+*The Blunderbuss can destroy several [[zombies]] at once, as long as they are either arranged in a straight line or closely bunched together.
+*When reloading, the player travels at a walking pace, unable to run, and will not change weapons until the reloading is complete, so escaping from the [[Undead]] becomes much more difficult and shots should be planned accordingly.
+*While reloading, [[Marston]] can still rifle butt his enemies or roll away at a slightly faster speed than walking. Sometimes when the player rifle butts an enemy while reloading, it will initiate an execution animation, sticking the blunderbuss under the chin of the enemy and pulling the trigger. It will not use up any ammo and will not vaporize the target, which will result in the same results of a lethal rifle butt (provided the player is still in the process of reloading).
+*The Blunderbuss reloading animation can be skipped by holstering the Blunderbuss, then re-equipping it.
+*The Blunderbuss can also be blind-fired behind cover.
+
+==Trivia==
+*In the teaser trailer for the Undead Nightmare downloadable content, John Marston is seen holding the Blunderbuss with two hands, as it is intended to be used. Contrarywise, the promotional art for the DLC shows a Marston holding it with one hand, like the [[Sawed-Off Shotgun]].
+**This is likely because the DLC's promotional art was designed around the original, and redrawing an additional arm onto the [[Weapons in Redemption|gun]] would break the similarity.
+**It is also possible that the promotional art gun is a ''blunderbuss pistol'', or dragoon, which is a shorter variant meant to be held with one hand, although no such weapon is present in-game.
+* The Blunderbuss' presence in [[Red Dead Redemption|Redemption]] is altogether extremely odd, as the gun was discarded commercially in the mid 1800s, well before the events of the game, as commented by [[Marston]] when the gun is given to him by [[West Dickens]].
+**This is true in the storyline in that [[John]] could not have bought it anywhere, but traded scrap metal parts for it, though at first did not know what he was receiving in return. A rather disgruntled John points out the gun's antiquity, exclaiming "A Blunderbuss? What is this, 1850?" This shows that as the scarcity of weapons and conventional ammunition increases, trading of the former and latter for services is becoming the common economic system of trade. This also shows in the fact that the Blunderbuss, as [[West Dickens]] said, can be loaded with just about anything, removing the need for conventional ammunition and so improving its usefulness despite its age.
+**While actually firing objects not intended for use as ammunition from a blunderbuss could damage the weapon, there is some truth in [[Marston|Marston's]] use of undead parts as ammunition- there are accounts of improvised ammunition such as nails or even rocks being used as ammunition in blunderbusses.
+*Blunderbuss comes from the Dutch word 'donderbus" which means "thunder gun" or "thunder pipe."
+*The Blunderbuss acts very similar to the [[Explosive Rifle]] from the [[Liars and Cheats]] [[DLC]] as it completely pulverizes zombies that are hit, turning them into a fine red mist and leaving a red streak where they were standing.
+*The blunderbuss is the only weapon in Redemption which is a muzzleloader.
+*The reloading animation of [[John Marston|John]] packing down the Undead body parts along with the gunpowder with the ramrod stays true to the same way a real Blunderbuss is reloaded, except that he does not prime the flash pan with powder, something that would need to be done in order to make the weapon fire.
+*Because it is a muzzle loader, the Blunderbuss requires a black-powder charge to propel the shot; however, Marston never loots black powder from dead zombies or out of ammo chests, but somehow he always manages to never run out of it.
+*The Blunderbuss, when shot at humans, functions like an ordinary shotgun, not blowing up the hit target, but causes a large amount of damage or instantly kills, even at further ranges and with shots landing on limbs.
+*Oddly, the player can only use [[undead]] parts as ammo, and not [[Undead Animals|undead animal]] parts. 
+*The Blunderbuss appears to have a similar gunstock to the [[Repeater Carbine]].
+*There is a real world saying that it is impossible to hit anything further then 50 yards with a Blunderbuss, and impossible to miss anything closer. However this is not the case in ''[[Undead Nightmare]], ''as the effective range of the Blunderbuss seems to vary depending on the player's aim.
+
+== Glitches==
+*When playing Undead Overrun, a glitch can occur where a Bruiser takes hits from it but will keep coming as if it were just as powerful as any normal bullet.
+*Sometimes after the player gets the weapon, they will be able to keep making ammo even if they don't have any Undead body parts.
+*When returning [[Missing Persons]], the Blunderbuss will not vaporize [[zombies]] but will behave like a normal shotgun. It will still leave a red blood streak; however, the corpses will also be able to be looted.
+*Oddly, when reloading the Blunderbuss while running on horseback, [[John Marston]] makes a bizarre animation of reloading the weapon with one hand.
+*Commonly, when executing an [[Undead]] with the Blunderbuss, the player will reload the gun without the reload animation playing.
+*Being close to an [[undead]] [[Animals|animal]] (for example an [[Undead]] [[Bear]], [[Cougar]] etc.) may sometimes cause a [[Glitches in Redemption|glitch]] in which the Blunderbuss behaves like a normal shotgun, doing almost no damage to the [[Undead]] [[Animals|animal]]. This has been repeatedly reported while on horseback.
+*While on horseback, the Blunderbuss will sometimes clip through [[John Marston|John Marston's]] hand.
+
+==Gallery==
+<gallery widths="180">
+Rdr_blunderbuss.jpg
+File:Rdr_blunderbuss02.jpg|Marston aiming the blunderbuss
+File:Rdr_marston_receives_blunderbuss.jpg|[[Nigel West Dickens]] presents the Blunderbuss to an unimpressed [[John Marston]] at the end of the [[Missions in Redemption#Undead Nightmare|mission]] [[A Cure for Most of What Ails You|"A Cure for Most of What Ails You"]].
+Trabuconegro.png
+Zombie81.jpg|John after getting the Blunderbuss
+</gallery>
+
+==Related Content==
+{{Related Content}}
+{{Weapons}}
+
+[[es:Trabuco]]
+[[Category:Weapons in Undead Nightmare]]
+[[Category:Shotguns]]
+[[fr:Tromblon]]

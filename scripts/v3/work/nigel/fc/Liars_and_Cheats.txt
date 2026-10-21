@@ -1,0 +1,89 @@
+{{/infobox}}
+{{Featured Past|1=September 2010}}
+[[File:LiarsandCheats-DLC.jpg|center|400px]]
+The '''Liars and Cheats''' Pack is the third downloadable content pack for ''[[Red Dead Redemption]]''. It was released on Tuesday, September 21, 2010.
+
+==Contents==
+The pack includes:<ref name="new-rdr-dlc">[http://www.rockstargames.com/newswire/article/6781/announcing_new_downloadable_content_plans_for_red_dead_redemption.article Rockstar News Wire - Announcing New Downloadable Content Plans for Red Dead Redemption ]</ref><ref name="dlc-update">[http://www.rockstargames.com/newswire/article/8041/red_dead_redemption_dlc_update_liars_and_cheats_pack_coming_9_21_with_expanded_free_roam_content_&_new_details_on_undead_nightmare_pack.article Rockstar News Wire - Red Dead Redemption DLC Update: Liars and Cheats Pack Coming 9/21 with Expanded Free Roam Content & New Details on Undead Nightmare Pack]</ref>
+*[[Multiplayer]] [[Poker]] and [[Liar's Dice]] Games.
+*Multiplayer horse races ([[Grand Prix]]).
+*The [[Explosive Rifle]]: A new weapon with its own new single-player and multiplayer challenges
+*7 New [[Gang Hideouts]].
+*4 New [[Hunting Grounds]]: New Hunting Grounds are now visible on the map for all to see.
+*[[Stronghold]] Competitive Multiplayer Mode: Teams take turns in attack and defense in multi-tiered Competitive games.
+*[[Posse]] Scoring and Leaderboards.
+*15 additional [[Multiplayer Characters|multiplayer characters]] from the Red Dead Redemption storyline.
+*New [[Achievements/Trophies]]
+*Pricing: $9.99 (PlayStation Network), 800 microsoft points (Xbox LIVE)
+
+==Multiplayer Characters==
+Listed below are all of the playable multiplayer characters that [[Outfitter|can be unlocked]], followed by the category in the [[Outfitter]] in which they can be found.
+===Redemption===
+*[[Abigail Marston]]
+*[[Bonnie MacFarlane]]
+*[[Jack Marston]]
+*[[John Marston]]
+*[[Leigh Johnson]]
+*[[Luisa Fortuna]]
+*[[Nigel West Dickens]]
+*[[Seth Briars]]
+
+===Damnation===
+*[[Abraham Reyes]]
+*[[Agustin Allende]]
+*[[Bill Williamson]]
+*[[Dutch van der Linde]]
+*[[Edgar Ross]]
+*[[Harold MacDougal]]
+*[[Irish]]
+The division of the characters into "Redemption" and "Damnation" categories may indicate Rockstar's views on the path the characters have taken through the story.
+
+==Hunting Grounds==
+Listed below are the 4 new hunting grounds available in the pack, all of which are the locations of a legendary animal:[http://www.rockstargames.com/reddeadredemption/news/article/8531/first_screenshots_from_the_red_dead_redemption_liars_and_cheats_pack][http://www.rockstargames.com/reddeadredemption/news/article/8851/red_dead_redemption_liars_and_cheats_pack_official_trailer_now_live_at_gametrailers]
+*[[Broken Tree]]
+*[[Roca de Madera]]
+*[[Rio del Lobo]]
+*[[Silent Stead]]
+
+==Gang Hideouts==
+Listed below are 7 new gang hideouts available in the pack:[http://www.rockstargames.com/reddeadredemption/news/article/8531/first_screenshots_from_the_red_dead_redemption_liars_and_cheats_pack]
+*[[Venter's Place]]
+*[[Critchley's Ranch]]
+*[[Warthington Ranch]]
+*[[Crooked Toes]]
+*[[Rancho Polvo]]
+*[[Cueva Seca]]
+*[[The Scratching Post]]
+Getting the high score in one of these Gang Hideouts will reward the player with the [[Explosive Rifle]] and 5 Explosive rounds. To gain more ammo one needs to complete another one of these hideouts.
+
+==Stronghold Mode Maps==
+Listed below are the four maps of the new Stronghold Mode: [http://www.rockstargames.com/reddeadredemption/news/article/8741/screenshots_and_details_from_the_all-new_stronghold_mode_in_the_red_dead_redemption_liars_and_cheats_pack]
+*[[Blackwater]]
+*[[Escalera]]
+*[[Thieves' Landing]]
+*[[Fort Mercer]]
+
+==Free Roam Pack==
+The Free Roam Pack was intended be a free DLC pack including posse scoring and additional [[Free Roam]] challenges. However, due to a restriction on how many pieces of downloadable content a game may give away for free, the Free Roam Pack's contents have been added into the Liars and Cheats Pack.<ref name="dlc-update"/>
+
+==Gallery==
+
+<gallery spacing="small" captionalign="left">
+Rdr liars and cheaters poker.jpg|Playing poker in with the ''Liars & Cheats'' pack.
+RDR Multiplayer 362.jpg
+</gallery>
+
+== Videos ==
+<gallery>
+Red Dead Redemption Liars and Cheats DLC trailer!
+</gallery>
+
+==References==
+<references/>
+{{RDR}}
+{{RDR series}}
+{{Related Content}}
+[[es:Red Dead Redemption: Mentirosos y Tramposos]][[de:Lügner und Betrüger DLC]][[fr:Pack menteurs et tricheurs]]
+[[Category:Multiplayer]]
+[[Category:Redemption DLC]]
+[[nl:Liars and Cheats]]
