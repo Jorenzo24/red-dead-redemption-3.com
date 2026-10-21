@@ -1,0 +1,6 @@
+Source: ireddead.com newspaper guide, cached in scripts/v3/work/reyes/fc/ireddead_newspapers.txt (lines ~360-402).
+Blackwater Ledger No. 58, available for purchase after "An Appointed Time" (RDR1, end of Act II).
+MISCELLANY section, verbatim:
+"Captain Vicente De Santa of the Mexican Army has been reported deceased, age 34 years."
+(Same section: "Wanted outlaw, William "Bill" Williamson, has been found dead in the town of Escalera, Mexico.")
+Main article of the same issue: "TYRANNICAL" GOVERNOR OVERTHROWN. IS SANCHEZ NEXT? (told in allende_A).

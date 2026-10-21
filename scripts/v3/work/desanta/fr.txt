@@ -1,0 +1,144 @@
+{{InfoboxPersonnages
+| theme = Red Dead Redemption: Multijoueur
+| title1 = Vincente De Santa
+| image1 = Vincente De Santa02.png
+| apparition = ''[[Red Dead Redemption]]''
+| caption1 = 
+| naissance = 1877
+| dapparition = 
+| décès = 
+| genre = Masculin
+| nationalité = Mexicaine
+| ldv = [[Escalera]]
+| surnom = Capitaine De Santa
+| activité = Capitaine dans l'[[Armée mexicaine]]
+| famille = 
+| allié = [[Agustin Allende]]<br/>[[Espinoza]]<br/>[[Raul Zubieta]]<br/>[[Quique Montemayor]]<br/>[[Armée mexicaine]]
+| ennemi = [[Rebelles]]
+| statut = Décédé (1911)
+| faction = 
+| arme = [[Pistolet Volcanic (RDR)|Pistolet Volcanic]]
+| monture = 
+| véhicule = 
+| acteur = [[Hector Luis Bustamante]]
+| motion capture = 
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+'''Vincente de Santa''' est un [[Personnages dans Red Dead Redemption|personnage majeur]] de ''[[Red Dead Redemption]]''.
+
+== Histoire ==
+Vincente de Santa est un homme déterminé, ambitieux ; il sait que son pays traverse une période de guerre et fait tout pour la gagner. Sa colère le pousse à tuer quiconque tente de lui mettre des bâtons dans les roues. Contrairement à [[l'Irlandais]] ou à [[Nigel West Dickens]], De Santa est beaucoup présent sur le terrain en compagnie de ses soldats. Il est le bras droit du [[Agustin Allende|Colonel Allende]] et le soutient dans ses actes contre le peuple.
+
+== Interactions ==
+=== ''Red Dead Redemption'' ===
+[[Fichier:Chariot03.jpg|150px|left]][[Les routes du Paradis|Après son arrivée]] au [[Nuevo Paraíso|Mexique]], [[John Marston]] fait sa connaissance à [[Escalera]]. Le Capitaine lui propose de l'aider à combattre les [[Rebelles]], en échange de quoi, l'[[Armée mexicaine]] aidera Marston à trouver [[Bill Williamson|Williamson]] et [[Javier Escuella|Escuella]].
+
+Dans un premier temps, John aide l'Armée à [[La civilisation à tout prix|tendre un piège]] aux Rebelles, puis quand Vincente s'est rendu compte que Marston était un fin tireur, il lui demande encore plusieurs fois son aide afin de vaincre les oppresseurs.
+
+Un peu plus tard dans le jeu, [[Les lâches meurent plusieurs fois|De Santa trahit John]] ; un acte qu'il avait en tête depuis un long moment. Mais le protagoniste parvient à s'en sortir grâce à [[Abraham Reyes]], et se [[La chute du capitaine De Santa|venge du Capitaine]].
+
+=== ''Undead Nightmare'' ===
+[[Fichier:Vincente De Santa01.jpg|thumb|220px]]Dans les cauchemars d'outre-tombe, la mère supérieur demande à John de [[La croix et la bannière|purifier]] le [[Cimetières|cimetière]] de [[Sepulcro]] pendant qu'elle essaye de trouver un remède à l'épidémie. Marston se rend donc au [[Cimetières|cimetière]] situé à quelques mètres du [[Las Hermanas|couvent]] et, liquide les (nombreux) [[morts-vivants]] présents sur les lieux.
+
+== Apparitions dans les missions ==
+=== ''Red Dead Redemption'' ===
+* "[[La civilisation à tout prix]]"
+* "[[La boisson du diable]]"
+* "[[Vaines promesses]]"
+* "[[Le César mexicain]]"
+* "[[Les lâches meurent plusieurs fois]]"
+* "[[La chute du capitaine De Santa]]"
+=== ''Undead Nightmare'' ===
+* "[[La croix et la bannière]]"
+
+== Citations ==
+{{Citation
+| citation = Ici ce n'est pas l'Amérique, Señor Marston. Nous sommes pauvres. La bonté doit s'exprimer d'une manière différente.
+| auteur = Vincente de Santa
+| cible = 
+| plus = 
+| source = 
+| url = 
+| archive = 
+| motion capture = 
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+{{Citation
+| citation = Le Mexique vous aime, Mr Marston.
+| auteur = Vincente de Santa
+| cible = 
+| plus = 
+| source = 
+| url = 
+| archive = 
+| motion capture = 
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+{{Citation
+| citation = Abraham Reyes est un traître, un menteur, un lâche et un pêcheur. Un héros qui n'a rien accompli. J'ai plus de respect pour la merde que j'ai chié ce matin que pour cette vermine.
+| auteur = Vincente de Santa
+| cible = 
+| plus = 
+| source = 
+| url = 
+| archive = 
+| motion capture = 
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+
+== Anecdotes ==
+* De Santa porte un uniforme différent d'[[Espinoza]] et d'autres soldats, mais assez similaire à celui d'Allende, ce qui prouve que c'est un homme gradé dans l'armée.
+* De Santa est inspiré de Tony Montana, protagoniste du film Scarface de Brian De Palma, tant au niveau du visage que de l'allure.
+* On le voit souvent en compagnie d'un serveur efféminé et par rapport à comment le décris Abraham Reyes, on peut en conclure qu'il entretient une relation avec le serveur.
+* Pour confirmer le fait que De Santa est probablement homosexuel, on peut entendre ceci lors d'un dialogue entre Marston et Reyes :
+"- Je veux juste retrouver deux hommes.<br/>
+- Hm. Vous avez passé trop de temps avec le capitaine De Santa.<br/>
+- Très drôle. Pas pour ça, je vous expliquerai."<br/>
+:Ce qui laisse supposer que De Santa aime la compagnie des hommes.
+
+== Navigation ==
+{{Personnages RDR}}
+[[de:Vincente de Santa]]
+[[en:Vincente de Santa]]
+[[es:Vicente De Santa]]
+
+[[Catégorie:Personnages dans Red Dead Redemption]]
+[[Catégorie:Personnages dans Undead Nightmare]]
+[[en:Vincente de Santa]]
+[[Catégorie:Personnages dans Red Dead Redemption: Multijoueur]]
+[[Catégorie:Personnages Révolution]]
+[[Catégorie:Personnages]]
+[[Catégorie:Armée mexicaine]]
+[[Catégorie:Relecture]]
