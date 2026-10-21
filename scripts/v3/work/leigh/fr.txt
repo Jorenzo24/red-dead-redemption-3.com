@@ -1,0 +1,120 @@
+{{InfoboxPersonnages
+| theme = 
+| title1 = Leigh Johnson
+| image1 = Leigh Johnson04.jpg
+| apparition = ''[[Red Dead Redemption]]<br/>[[Undead Nightmare]]''
+| caption1 = 
+| naissance = 1861
+| dapparition = 
+| décès = 
+| genre = Masculin
+| nationalité = Américain
+| ldv = Bureau du shérif d'[[Armadillo]]
+| surnom = Marshal<br/>Marshal Johnson
+| activité = Marshal
+| famille = [[Priscilla Johnson]] (Femme, décédée)
+| allié = [[United States Marshals Service]]<br/>[[John Marston]]<br/>[[Jonah]]<br/>[[Eli]]<br/>[[Nigel West Dickens]]<br/>[[Drew MacFarlane]]<br/>[[Bonnie MacFarlane]]<br/>[[Seth Briars]]<br/>[[L'Irlandais]]
+| ennemi = Bandits présents dans [[Cholla Springs]]
+| statut = Vivant (1914)
+| faction = 
+| arme = Deux [[Revolver Cattleman (RDR)|Revolver Cattleman]]<br/>[[Fusil à double canon (RDR)|Fusil à double canon]]<br/>[[Carabine à répétition (RDR)|Carabine à répétition]]
+| monture = 
+| véhicule = 
+| acteur = [[Anthony De Longis]]
+| motion capture = 
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+Le Marshal '''Leigh Johnson''' est un [[Personnages dans Red Dead Redemption|personnage]] présent dans ''[[Red Dead Redemption]]'' et son extension ''[[Undead Nightmare]]''.
+
+== Histoire ==
+Leigh Johnson est âgé de 50 ans en 1911. Il est le Marshal d'[[Armadillo]], une ville dans l'état de [[New Austin]]. C'est un [[Représentants de la loi|représentant de la loi]] démodé, aux méthodes diablement efficaces mais très archaïques ; avec un sens éthique très subtil.
+
+Il est caractérisé par son air dur, allant toujours droit au but, et n'a surtout pas peur de paraître agressif, tout cela en restant conforme à la loi, et à son travail.
+
+Le Marshal fait de son mieux pour maintenir en Armadillo l'idée d'un havre de paix et protéger les habitants de [[Cholla Springs]] ; alors que le monde continue de progresser peu à peu vers la modernité.
+
+Il a plusieurs adjoints : [[Jonah]] et [[Eli]] sont ses deux compères et l'accompagnent en toutes circonstances. Il a enfin un dernier collègue, dont le nom reste inconnu, mais qui apparaît dans la [[Missions dans Red Dead Redemption|mission]] "[[L'attaque de Fort Mercer]]".
+
+== Interactions ==
+=== ''Red Dead Redemption'' ===
+Quand [[John Marston]] arrive à Armadillo pour trouver de l'aide afin de retrouver [[Bill Williamson]], c'est le Marshal Johnson qui l'accueille. Avec le hors-la-loi en voie de rédemption, il part faire différentes missions dans la région de Cholla Springs. En échange, le Marshal lui-même et ses hommes aident Marston à retrouver l'ancien frère d'armes de ce dernier, à [[Fort Mercer]].
+
+Une fois la forteresse nettoyée, aucune trace de Williamson. Marston interroge alors un prisonnier ennemi, qui lui dit que son chef est parti à [[Nuevo Paraíso]]. John en déduit qu'il est parti retrouver un autre ancien frère d'arme, [[Javier Escuella]].
+
+La mission de Johnson s'arrête là, n'ayant plus de comptes à rendre pour Marston, si ce n'est de lui souhaiter bonne chance.
+==== Épilogue ====
+Dans un journal de la fin du jeu, il est possible de lire un article disant que le Marshal Leigh Johnson a prit sa retraite après une longue vie passée à défendre sa région.
+
+=== ''Undead Nightmare'' ===
+Dans cette extension de ''Red Dead Redemption'', Johnson est dans le bureau du shérif, toujours à Armadillo. Mais la ville est envahie par des [[Morts-vivants]]. Pour la défendre, le Marshal a envoyé ses adjoints éliminer les hordes de zombies. Mais il n'a aucune nouvelle depuis assez de temps pour qu'il s'en inquiète ; il demande à John Marston de retrouver ses adjoints pour lui. Il donne le [[Fusil à canon scié (RDR)|Fusil à canon scié]] de [[Jonah]] au cow-boy, et, une fois la mission complétée, il n'est plus jamais revu.
+
+=== Multijoueur de ''Red Dead Redemption'' ===
+Avec l'addition du [[Pack menteurs et tricheurs]], il est un modèle de personnage en mode [[Red Dead Redemption: Multijoueur|Multijoueur]] de ''[[Red Dead Redemption]]''. 
+
+== Apparitions dans les missions ==
+=== ''Red Dead Redemption'' ===
+* "[[Politique à Armadillo]]"
+* "[[Règlement de comptes à Pike's Basin]]"
+* "[[Qui aime bien descend bien]]"
+* "[[La pendaison de Bonnie MacFarlane]]"
+* "[[L'attaque de Fort Mercer]]"
+
+=== ''Undead Nightmare'' ===
+* "[[Dîner en tête à tête]]"
+
+== Anecdotes ==
+* Le Marshal Johnson fait partie du [[United States Marshals Service]], qui est la plus vieille agence fédérale de toute l'histoire des Etats-Unis, ayant été créée en 1789.
+* Avec 17 années de service, il a rejoint les rangs des Marshals en 1897.
+* Sa barbe semble blonde par moments. Cela soulève peut-être la possibilité qu'il ait été blond avant d'avoir des cheveux blancs, comme [[l'Oncle]].
+* Il n'est pas rare d'entendre [[Baxter Deaton]], à Armadillo, dire que Johnson "a enterré de bonnes personnes à [[Río del Lobo Rock|Río del Lobo]]", et comment "il s'est attiré des ennuis avec la [[Bandes dans Red Dead Redemption|bande]] de [[Twin Rocks]]". Il parle même du Marshal battant les femmes locales.
+* A [[MacFarlane's Ranch]], un PNJ dit que Johnson "a le monde entier sur ses épaules".
+* Il est veuf. Sa femme, [[Priscilla Johnson]], est enterrée au cimetière de [[Coot's Chapel]]. Les écritures sur sa tombe révèlent qu'elle est morte le 23 Avril 1903, de cause non mentionnée.
+* Il possède un [[Tersk]], mais d'après la mission "L'attaque de Fort Mercer", il possède aussi un [[Cheval du Kentucky (RDR)|Cheval du Kentucky]].
+* Il n'apparaît pas à [[Beecher's Hope]], durant la dernière mission du jeu, "[[Le dernier ennemi à abattre]]". Il a gagné du respect envers John et a sans doute refusé de s'allier à [[Edgar Ross]].
+* Dans Undead Nightmare, si le joueur regarde à travers la vitre du bureau du shérif d'Armadillo, et après avoir complété la mission "Un dîner pour deux", il verra Johnson toujours à l'intérieur. Un tir dans la tête avec n'importe quelle arme le tue.
+* Il a certains cheveux clairs, blonds, si l'on regarde bien.
+* Il n'a pas l'air de comprendre la modernité et la technologie.
+* Alors que Johnson défend fièrement Armadillo, il semble en réalité detester cette ville, comme vu dans l'article de jounal parlant de sa prise de retraite, allant "aussi loin d'Armadillo qu'il le pourra".
+
+== Galerie ==
+<gallery>
+Leigh Johnson01.jpg
+Leigh Johnson02.jpg|Avatar
+Leigh Johnson03.jpg
+Leigh Johnson05.jpg
+Leigh Johnson11.jpg
+Leigh Johnson10.jpg
+Leigh Johnson09.jpg
+Leigh Johnson08.jpg
+Leigh Johnson07.jpg|Image promotionnelle
+Leigh Johnson06.jpg|Image promotionnelle
+Règlement de comptes à Pike's Basin01.jpg
+Qui aime bien descend bien01.jpg
+</gallery>
+
+== Navigation ==
+{{Personnages RDR}}
+[[en:Leigh Johnson]]
+[[de:Leigh Johnson]]
+[[es:Leigh Johnson]]
+[[ru:Ли Джонсон]]
+[[nl:Leigh Johnson]]
+[[it:Leigh Johnson]]
+[[Catégorie:Personnages]]
+[[Catégorie:Personnages dans Red Dead Redemption]]
+[[Catégorie:Personnages dans Undead Nightmare]]
+[[Catégorie:Personnages dans Red Dead Redemption: Multijoueur]]
+[[Catégorie:Personnages Redemption]]
+[[Catégorie:Personnages masculins]]
+[[Catégorie:Personnages masculins dans Red Dead Redemption]]
+[[Catégorie:Représentants de la loi]]
+[[Catégorie:Représentants de la loi dans Red Dead Redemption]]
+[[Catégorie:Relecture]]

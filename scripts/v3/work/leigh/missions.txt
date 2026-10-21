@@ -1,0 +1,12 @@
+Political Realities in Armadillo	scripts/v3/work/_m/Political_Realities_in_Armadillo.txt
+Political Realities in Armadillo/dialogues	scripts/v3/work/_m/Political_Realities_in_Armadillo_dialogues.txt
+Justice in Pike's Basin	scripts/v3/work/_m/Justice_in_Pike_s_Basin.txt
+Justice in Pike's Basin/dialogues	scripts/v3/work/_m/Justice_in_Pike_s_Basin_dialogues.txt
+Spare the Rod, Spoil the Bandit	scripts/v3/work/_m/Spare_the_Rod_Spoil_the_Bandit.txt
+Spare the Rod, Spoil the Bandit/dialogues	scripts/v3/work/_m/Spare_the_Rod_Spoil_the_Bandit_dialogues.txt
+Hanging Bonnie MacFarlane	scripts/v3/work/_m/Hanging_Bonnie_MacFarlane.txt
+Hanging Bonnie MacFarlane/dialogues	scripts/v3/work/_m/Hanging_Bonnie_MacFarlane_dialogues.txt
+The Assault on Fort Mercer	scripts/v3/work/_m/The_Assault_on_Fort_Mercer.txt
+The Assault on Fort Mercer/dialogues	scripts/v3/work/_m/The_Assault_on_Fort_Mercer_dialogues.txt
+Dinner for Two	scripts/v3/work/_m/Dinner_for_Two.txt
+Dinner for Two/dialogues	MISSING (no such wiki page)
