@@ -7,7 +7,7 @@ scripts/v3/work/bonnie/):
 - Mission pages (infobox position, rewards, trivia): Exodus in America (first mission; Bonnie on the train); New Friends,
   Old Problems (second; rewards; barn line; subtitle discrepancies); Obstacles in Our Path (third; 20 Fame win or lose);
   This is Armadillo, USA (fourth); Women and Cattle (fifth); Wild Horses, Tamed Passions (sixth; lasso, Kentucky Saddler);
-  A Tempest Looms (seventh); The Burning (22nd; the only Bonnie mission that unlocks no Stranger side mission); Hanging
+  A Tempest Looms (seventh); The Burning (22nd; its "only mission without a Stranger unlock" trivia is dropped: Hanging Bonnie MacFarlane unlocks none either); Hanging
   Bonnie MacFarlane (23rd); The Outlaw's Return (49th, first of the Homestead chapter); Old Friends, New Problems (53rd;
   Amos subtitle fixed in the GOTY edition); Paternal Pride (Undead Nightmare; quote box; Winchester Repeater reward);
   Red Dead Online free roam pages Recovery, Delivery, Caravan Escort, On The Hunt (Bonnie's start and end points).
@@ -25,6 +25,9 @@ Bonnie, you fool" are left to part B (Names); the GOTY guide description and "I 
 money in the world" (wiki only, no transcript) to part B. If part B quotes any line below, the fixer keeps it in one
 place. Real-world material (Kimberly Irion, Rob Hanson naming, Steve J. Palmer motion capture on the train, Game
 Informer's list) goes to part D. Appearance details (two belts, necklace) and "John calls her Bonnie only twice" go to B.
+Fix pass (20 Oct 2026): Quotes no longer repeat part B's "In her own words" lines (Burning quote trimmed to its first sentences);
+"Stupid is the word..." added (New Friends transcript); trivia items on rewards, 20 Fame, the Winchester artwork and the
+Stranger unlock cut (told in part B or wrong); the Red Dead Online paragraph of Other media cut (told in A, B and the table).
 Excluded: the Annie Stoakes comparison (interpretation); "Bonnie is the only character John willingly opens up to"
 (interpretation, left to B if sourced); "plausibly an in-story misreporting" for the age conflict (speculation); the
 "Paternal Pride" Walking Dead references (wiki speculation, "appears to be"); the "$15 never taken from John's account"
@@ -48,8 +51,8 @@ R2 = two("Red Dead Redemption 2", "Red Dead Redemption 2")
 
 BLOCKS_MISSIONS = [
     {"h3": two("Missions", "Missions")},
-    {"p": two("Bonnie gives John the first missions of Red Dead Redemption after \"Exodus in America\": her strand runs from \"New Friends, Old Problems\" to \"Hanging Bonnie MacFarlane\" and teaches the basics of the game (shooting, riding, driving a wagon, herding, the lasso, climbing). She returns in two missions of the Homestead chapter and in one side mission of Undead Nightmare. In Red Dead Online she gives free roam missions. The events are told in the Biography.",
-              "Bonnie confie à John les premières missions de Red Dead Redemption après \"Exodus in America\" : sa série va de \"New Friends, Old Problems\" à \"Hanging Bonnie MacFarlane\" et sert à apprendre les bases du jeu (tir, équitation, conduite d'un chariot, conduite de troupeau, lasso, escalade). Elle revient dans deux missions du chapitre de Beecher's Hope et dans une mission secondaire d'Undead Nightmare. Dans Red Dead Online, elle propose des missions en monde libre. Le déroulé des événements se trouve dans la Biographie.")},
+    {"p": two("Bonnie gives John the first missions of Red Dead Redemption after \"Exodus in America\": her strand runs from \"New Friends, Old Problems\" to \"Hanging Bonnie MacFarlane\" and teaches the basics of the game (shooting, riding, driving a wagon, herding, the lasso, climbing). She returns in two missions of Act III and in one side mission of Undead Nightmare. In Red Dead Online she gives free roam missions. The events are told in the Biography.",
+              "Bonnie confie à John les premières missions de Red Dead Redemption après \"Exodus in America\" : sa série va de \"New Friends, Old Problems\" à \"Hanging Bonnie MacFarlane\" et sert à apprendre les bases du jeu (tir, équitation, conduite d'un chariot, conduite de troupeau, lasso, escalade). Elle revient dans deux missions de l'acte III et dans une mission secondaire d'Undead Nightmare. Dans Red Dead Online, elle propose des missions en monde libre. Le déroulé des événements se trouve dans la Biographie.")},
     {"h4": two("Red Dead Redemption and Undead Nightmare", "Red Dead Redemption et Undead Nightmare")},
     {"table": {"head": [two("Mission", "Mission"), two("Act", "Acte"), two("Bonnie's role", "Rôle de Bonnie")], "rows": [
         M("Exodus in America", A1,
@@ -71,8 +74,8 @@ BLOCKS_MISSIONS = [
           "Mission giver. Introduces her father, gives John a lasso, breaks horses with him and gives him the stallion.",
           "Donneuse de mission. Présente son père, remet un lasso à John, dresse des chevaux avec lui et lui offre l'étalon."),
         M("A Tempest Looms", A1,
-          "Mission giver. Overrules Amos and brings the herd home through the storm with John.",
-          "Donneuse de mission. Passe outre l'avis d'Amos et ramène le troupeau à travers l'orage avec John."),
+          "Mission giver. Argues with Amos, then brings the herd home through the storm with John.",
+          "Donneuse de mission. Se dispute avec Amos, puis ramène le troupeau à travers l'orage avec John."),
         M("The Burning", A1,
           "Mission giver. Searches for her father with John, then watches him save the horses from the burning barn.",
           "Donneuse de mission. Cherche son père avec John, puis le voit sauver les chevaux de la grange en feu."),
@@ -116,6 +119,9 @@ BLOCKS_QUOTES = [
               "Les répliques ci-dessous sont citées dans leur version originale anglaise.")},
     {"h4": two("Red Dead Redemption", "Red Dead Redemption")},
     {"quotes": [
+        {"q": two("I do. \"Stupid\" is the word we use around here.", "I do. \"Stupid\" is the word we use around here."),
+         "src": two("When John cannot find a polite word for how he feels, New Friends, Old Problems (RDR1, Act I)",
+                    "Quand John ne trouve pas de mot poli pour dire comment il se sent, New Friends, Old Problems (RDR1, acte I). Traduction : « Moi, si. Ici, on dit \"stupide\". »")},
         {"q": two("Next time, Mr. Marston, I strongly recommend you don't try to lose it quite so earnestly.", "Next time, Mr. Marston, I strongly recommend you don't try to lose it quite so earnestly."),
          "src": two("To John, about his life, New Friends, Old Problems (RDR1, Act I)",
                     "À John, à propos de sa vie, New Friends, Old Problems (RDR1, acte I). Traduction : « La prochaine fois, Mr. Marston, je vous recommande vivement de ne pas chercher à la perdre avec autant d'application. »")},
@@ -140,9 +146,6 @@ BLOCKS_QUOTES = [
         {"q": two("You're not bad with the herd. Ranching might be your true calling, Mr. Marston. Either that or you were a cow in a past life.", "You're not bad with the herd. Ranching might be your true calling, Mr. Marston. Either that or you were a cow in a past life."),
          "src": two("Women and Cattle (RDR1, Act I)",
                     "Women and Cattle (RDR1, acte I). Traduction : « Vous vous débrouillez avec le troupeau. L'élevage est peut-être votre vraie vocation, Mr. Marston. Ou alors vous étiez une vache dans une vie antérieure. »")},
-        {"q": two("There's certain things in this country a woman could do much better, if you ask me.", "There's certain things in this country a woman could do much better, if you ask me."),
-         "src": two("Wild Horses, Tamed Passions (RDR1, Act I)",
-                    "Wild Horses, Tamed Passions (RDR1, acte I). Traduction : « Il y a des choses, dans ce pays, qu'une femme ferait bien mieux, si vous voulez mon avis. »")},
         {"q": two("I think you could be a fine rancher someday. If you can bear to stop killing people for a living.", "I think you could be a fine rancher someday. If you can bear to stop killing people for a living."),
          "src": two("Wild Horses, Tamed Passions (RDR1, Act I)",
                     "Wild Horses, Tamed Passions (RDR1, acte I). Traduction : « Je crois que vous pourriez faire un bon éleveur un jour. Si vous arrivez à renoncer à tuer des gens pour gagner votre vie. »")},
@@ -155,18 +158,15 @@ BLOCKS_QUOTES = [
         {"q": two("He switched his saddle for a tie, and that's fine. I just never met a man in a tie I could trust.", "He switched his saddle for a tie, and that's fine. I just never met a man in a tie I could trust."),
          "src": two("About her surviving brother, The Burning (RDR1, Act I)",
                     "À propos de son seul frère encore en vie, The Burning (RDR1, acte I). Traduction : « Il a troqué sa selle contre une cravate, c'est son affaire. Simplement, je n'ai jamais rencontré d'homme en cravate à qui je puisse faire confiance. »")},
-        {"q": two("The outlaw with a code? How wonderfully romantic! The reluctant murderer, the noble criminal. There's nothing more depressing than a man who's found a way to think the bad into good.", "The outlaw with a code? How wonderfully romantic! The reluctant murderer, the noble criminal. There's nothing more depressing than a man who's found a way to think the bad into good."),
+        {"q": two("The outlaw with a code? How wonderfully romantic! The reluctant murderer, the noble criminal.", "The outlaw with a code? How wonderfully romantic! The reluctant murderer, the noble criminal."),
          "src": two("To John, The Burning (RDR1, Act I)",
-                    "À John, The Burning (RDR1, acte I). Traduction : « Le hors-la-loi qui a un code ? Comme c'est romantique ! L'assassin malgré lui, le noble criminel. Rien n'est plus déprimant qu'un homme qui a trouvé le moyen de faire passer le mal pour le bien. »")},
+                    "À John, The Burning (RDR1, acte I). Traduction : « Le hors-la-loi qui a un code ? Comme c'est romantique ! L'assassin malgré lui, le noble criminel. »")},
         {"q": two("If you think I'm going to lower myself by making a joke about being \"all tied up,\" you've got another thing coming.", "If you think I'm going to lower myself by making a joke about being \"all tied up,\" you've got another thing coming."),
          "src": two("To John, after he cuts her down, Hanging Bonnie MacFarlane (RDR1, Act I)",
                     "À John, qui vient de la décrocher, Hanging Bonnie MacFarlane (RDR1, acte I). Traduction : « Si vous croyez que je vais m'abaisser à plaisanter sur le fait d'être \"ficelée\", vous vous trompez lourdement. »")},
         {"q": two("Good Lord, do my eyes deceive me? A devil walks among us.", "Good Lord, do my eyes deceive me? A devil walks among us."),
          "src": two("Greeting John at the corral, The Outlaw's Return (RDR1, Act III)",
                     "En accueillant John à l'enclos, The Outlaw's Return (RDR1, acte III). Traduction : « Seigneur, mes yeux me jouent-ils des tours ? Un démon marche parmi nous. »")},
-        {"q": two("I didn't teach him anything. I knew better than to try to change a man.", "I didn't teach him anything. I knew better than to try to change a man."),
-         "src": two("To Abigail, Old Friends, New Problems (RDR1, Act III)",
-                    "À Abigail, Old Friends, New Problems (RDR1, acte III). Traduction : « Je ne lui ai rien appris. Je sais bien qu'il ne faut pas essayer de changer un homme. »")},
     ]},
     {"h4": two("Undead Nightmare", "Undead Nightmare")},
     {"quotes": [
@@ -209,20 +209,12 @@ BLOCKS_TRIVIA = [
             "D'après les dates du Red Dead Wiki, Bonnie aurait environ 14 ans dans Red Dead Online, qui se déroule en 1898 ; son modèle y a l'allure d'une femme d'une vingtaine d'années."),
         two("When the shipwreck survivor of Red Dead Redemption 2 wakes up to hand over his letter, Arthur exclaims \"Whoa, I thought you was already gone!\" and John \"Jesus! I thought you were dead...\".",
             "Quand le rescapé du naufrage de Red Dead Redemption 2 se réveille pour tendre sa lettre, Arthur s'exclame \"Whoa, I thought you was already gone!\" (je te croyais déjà parti) et John \"Jesus! I thought you were dead...\" (je te croyais mort)."),
-        two("\"New Friends, Old Problems\" rewards John with a Repeater Carbine, a horse (a Cleveland Bay in the original version, a War Horse in the Game of the Year Edition) and the first level of Dead Eye. \"Wild Horses, Tamed Passions\" gives him the lasso and the Kentucky Saddler, and \"Paternal Pride\" a Winchester Repeater.",
-            "\"New Friends, Old Problems\" rapporte à John une Repeater Carbine, un cheval (un Cleveland Bay dans la version d'origine, un War Horse dans l'édition Game of the Year) et le premier niveau du Dead Eye. \"Wild Horses, Tamed Passions\" lui vaut le lasso et le Kentucky Saddler, et \"Paternal Pride\" une Winchester Repeater."),
         two("The $15 Bonnie paid the doctor is never deducted from John's money during the game.",
             "Les 15 $ que Bonnie a payés au médecin ne sont jamais prélevés sur l'argent de John au cours du jeu."),
-        two("Winning or losing the race in \"Obstacles in Our Path\" makes no difference: the reward is 20 Fame either way.",
-            "Gagner ou perdre la course de \"Obstacles in Our Path\" ne change rien : la récompense est de 20 points de Fame dans les deux cas."),
-        two("\"The Burning\" is the only mission of Bonnie's strand that does not unlock a Stranger side mission.",
-            "\"The Burning\" est la seule mission de la série de Bonnie qui ne débloque aucune mission d'inconnu."),
         two("In the original release, when Amos passes Bonnie at the end of \"Old Friends, New Problems\", he says \"Ma'am\" while the subtitles read \"Howdy, miss\". The Game of the Year Edition fixed it.",
             "Dans la version d'origine, quand Amos croise Bonnie à la fin de \"Old Friends, New Problems\", il dit \"Ma'am\" alors que les sous-titres affichent \"Howdy, miss\". L'édition Game of the Year a corrigé l'erreur."),
         two("In Undead Nightmare, two of her lines are written as graffiti on walls in Blackwater: \"You do so love to talk in riddles\" and \"Civilization is truly a beautiful thing\".",
             "Dans Undead Nightmare, deux de ses répliques sont peintes en graffiti sur des murs de Blackwater : \"You do so love to talk in riddles\" et \"Civilization is truly a beautiful thing\"."),
-        two("Artwork shows her holding a Winchester Repeater, a weapon she never uses in the game.",
-            "Des illustrations la montrent avec une Winchester Repeater, une arme qu'elle n'utilise jamais dans le jeu."),
     ]},
 ]
 
@@ -235,7 +227,7 @@ BLOCKS_MEDIA = [
     {"h4": two("Marketing and merchandise", "Promotion et produits dérivés")},
     {"p": two("Rockstar released promotional images and artwork of Bonnie for Red Dead Redemption, and she appears on the back of the fold-out map packaged with the game. According to the Red Dead Wiki, her outfit could be bought for avatars in PlayStation Home, Sony's former online space on PlayStation 3. According to a Red Dead Wiki gallery caption, the Undead Nightmare trailer includes a shot of John and Bonnie embracing.",
               "Rockstar a diffusé des images promotionnelles et des illustrations de Bonnie pour Red Dead Redemption, et elle figure au dos de la carte dépliante fournie avec le jeu. D'après le Red Dead Wiki, sa tenue pouvait être achetée pour les avatars de PlayStation Home, l'ancien espace en ligne de Sony sur PlayStation 3. D'après une légende de la galerie du Red Dead Wiki, la bande-annonce d'Undead Nightmare contient un plan où John et Bonnie s'étreignent.")},
-    {"h4": two("Red Dead Online and Red Dead Redemption 2", "Red Dead Online et Red Dead Redemption 2")},
-    {"p": two("Bonnie is one of the strangers of Red Dead Online, set in 1898, where she gives free roam missions at MacFarlane's Ranch (see Biography and Missions). In Red Dead Redemption 2 she is only mentioned, through the letter of the shipwreck survivor.",
-              "Bonnie fait partie des inconnus de Red Dead Online, qui se déroule en 1898 : elle y confie des missions en monde libre au MacFarlane's Ranch (voir la Biographie et les Missions). Dans Red Dead Redemption 2, elle n'est qu'évoquée, à travers la lettre du rescapé du naufrage.")},
+    {"h4": two("Red Dead Redemption 2", "Red Dead Redemption 2")},
+    {"p": two("In Red Dead Redemption 2 she is only mentioned: in the shipwreck survivor's letter and, in the 1907 epilogue, as away from her ranch (see Biography).",
+              "Red Dead Redemption 2 ne fait que l'évoquer : dans la lettre du rescapé du naufrage et, pendant l'épilogue de 1907, par son absence du ranch (voir la biographie).")},
 ]

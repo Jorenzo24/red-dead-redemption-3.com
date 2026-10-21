@@ -261,7 +261,7 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   - **Vague 4 (6, casting RDR1, 27 juil.→11 août 2026, FAIT)** : Bonnie MacFarlane, Landon Ricketts,
     Nigel West Dickens, Seth Briars, Marshal Leigh Johnson, Abraham Reyes. **Premières fiches RDR1-natives**
     (New Austin / Mexique), groupe « Autres figures ». Faits sourcés (guide GOTY, journaux in-game) :
-    5 des 6 survivent à RDR1, seul Landon meurt (vieillesse, rapporté 1914) ; Reyes gagne puis trahit
+    5 des 6 survivent à RDR1, seul Landon meurt (dans son sommeil, rapporté en 1914 ; « vieillesse » non sourcé) ; Reyes gagne puis trahit
     sa révolution.
   - **Vague 5 (5, complète le gang, publiée 14→26 août 2026, FAIT)** : Karen Jones, Tilly Jackson,
     Mary-Beth Gaskill, Simon Pearson (cuisinier), Orville Swanson (aumônier). Comble le trou du gang.
@@ -584,5 +584,16 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     à Dutch SEUL (Arthur et John au cimetière). John l'assomme dans « Revenge is a Dish Best Eaten » (pas Arthur). Coup
     de la gare de tramways : 15 dollars et un quart chacun. Martelli : sous-chef en 1898 (Red Dead Online), aux commandes en
     1907 (« Bare Knuckle Friendships »).
+  - **Bonnie MacFarlane v3** : 6 900 mots EN, 14 relations, galerie 6 (3 Red Dead Online, 3 RDR1). Après le tir de
+    « Exodus in America », Bonnie et Amos le mettent dans un chariot (aucun conducteur nommé, jamais Drew) ; le docteur
+    d'Armadillo, Nathanial Johnston (orthographe du panneau en jeu ; corrigé chez John et Bill), lui sauve la vie, il se
+    réveille au ranch. Grange incendiée par les hommes de Williamson (selon les pages du wiki). Absente en 1907 (Game
+    Informer, 28 nov. 2018). John l'appelle « Bonnie » aussi dans « Women and Cattle » et « Hanging Bonnie MacFarlane ».
+    Guide RDR1 acte I corrigé (pas de cultures brûlées, patrouilles de nuit, docteur).
+  - **Landon Ricketts v3** : 6 800 mots EN, 14 relations, galerie 7 (2 dernières = Undead Nightmare, hors canon). Mort en
+    1914 « dans son sommeil, la semaine dernière » (Blackwater Ledger n° 213) : jamais « de vieillesse ». Né vers 1861 selon
+    le wiki citant le guide. RDR2 ne montre pas le braquage du ferry. Le Stranger de « Lucky in Love » = Sanchez, second
+    de Müller, selon le wiki. Erreur corrigée chez John : ils combattent les soldats aux grottes près d'El Matadero puis
+    sur la route d'Escalera (pas des « patrouilles »).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).

@@ -119,3 +119,8 @@ Hierarchy everywhere: transcripts > mission pages > character pages of the wiki.
 - Tram station safe (Dutch): 15 dollars and a quarter each; the wiki Arthur page's "90 dollars" is dropped.
 - Mission title: "Who is Not Without Sin". Mission names stay in English, as Rockstar titles them.
 - Currency written consistently ("100 dollars").
+
+- RDR1 Exodus in America: Bonnie and Amos put John on a wagon (no driver named, never Drew); the Armadillo doctor Nathanial Johnston (in-game sign spelling) saves his life; he wakes at MacFarlane's Ranch.
+- Bonnie is absent in the RDR2 epilogue (1907); the wiki's reasons conflict (cholera vs a death in the family).
+- Landon Ricketts dies in his sleep, reported in 1914 (Blackwater Ledger No. 213); never "of old age".
+- Ricketts and John fight Mexican soldiers in the caves near El Matadero (Luisa) and on the road near Escalera (prison convoy).

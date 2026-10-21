@@ -70,7 +70,7 @@ GALLERY = [
     _g(4, "Close-up of Bonnie with her hair tied back", "Gros plan de Bonnie, cheveux attachés",
        "Bonnie in Red Dead Redemption (1911).", "Bonnie dans Red Dead Redemption (1911)."),
     _g(5, "Bonnie talking indoors", "Bonnie parlant dans une pièce",
-       "Bonnie at MacFarlane's Ranch.", "Bonnie au ranch MacFarlane."),
+       "Bonnie inside the ranch house at night.", "Bonnie dans la maison du ranch, de nuit."),
     _g(6, "Bonnie and John Marston leaning on a porch rail", "Bonnie et John Marston accoudés à une rambarde",
        "Bonnie and John Marston at MacFarlane's Ranch.", "Bonnie et John Marston au ranch MacFarlane."),
 ]
