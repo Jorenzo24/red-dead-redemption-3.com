@@ -1,0 +1,12 @@
+Exhuming and Other Fine Hobbies	scripts/v3/work/_m/Exhuming_and_Other_Fine_Hobbies.txt
+Exhuming and Other Fine Hobbies/dialogues	scripts/v3/work/_m/Exhuming_and_Other_Fine_Hobbies_dialogues.txt
+A Gentle Drive with Friends	scripts/v3/work/_m/A_Gentle_Drive_with_Friends.txt
+A Gentle Drive with Friends/dialogues	MISSING (no such wiki page)
+Let the Dead Bury Their Dead	scripts/v3/work/_m/Let_the_Dead_Bury_Their_Dead.txt
+Let the Dead Bury Their Dead/dialogues	scripts/v3/work/_m/Let_the_Dead_Bury_Their_Dead_dialogues.txt
+The Assault on Fort Mercer	scripts/v3/work/_m/The_Assault_on_Fort_Mercer.txt
+The Assault on Fort Mercer/dialogues	scripts/v3/work/_m/The_Assault_on_Fort_Mercer_dialogues.txt
+Get Back in that Hole, Partner	scripts/v3/work/_m/Get_Back_in_that_Hole_Partner.txt
+Get Back in that Hole, Partner/dialogues	MISSING (no such wiki page)
+On a Pale Horse	scripts/v3/work/_m/On_a_Pale_Horse.txt
+On a Pale Horse/dialogues	MISSING (no such wiki page)

@@ -124,6 +124,7 @@ Hierarchy everywhere: transcripts > mission pages > character pages of the wiki.
 - Bonnie is absent in the RDR2 epilogue (1907); the wiki's reasons conflict (cholera vs a death in the family).
 - Landon Ricketts dies in his sleep, reported in 1914 (Blackwater Ledger No. 213); never "of old age".
 - Ricketts and John fight Mexican soldiers in the caves near El Matadero (Luisa) and on the road near Escalera (prison convoy).
-- Fort Mercer assault (RDR1): posse = Johnson, Eli, Jonah, Dickens, Seth; Irish supplied the Gatling gun but misses the fight. Seth is already inside, dancing on the wall; Dickens raps on the wagon as the signal; Bill left for Mexico "yesterday morning".
+- Seth Briars, 1914 (Blackwater Ledger & Sentinel No. 213, "Treasure Found"): he "walked out of the mountains in Tall Trees and into Blackwater" with gold and precious stones; never "found in" Tall Trees, never a "return"; nothing about his family. Surname printed only there.
+- Fort Mercer assault (RDR1): posse = Johnson, Eli, Jonah, Dickens, Seth; Irish supplied the Gatling gun but misses the fight. Seth is already inside, dancing on the wall, and welcomes Dickens's wagon at the gate (who opens the gate is not stated: never "Seth opens the gate" or "lets the wagon through"); Dickens raps on the wagon as the signal; Bill left for Mexico "yesterday morning".
 - John meets Landon Ricketts on arriving in Chuparosa; Dickens never points him there.
 - "First cutscene shot = John finding Dickens": Rob Nelson (co-head of Rockstar North), quoted by IGN, May 2020.

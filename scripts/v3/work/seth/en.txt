@@ -1,0 +1,199 @@
+{{User/characterbox
+|image = Seth Briars PS5.jpg
+|aka = Seth of the Dead {{addendum|by Nigel West Dickens|<small>(?)</small>}}<br />Freak with the Glass Eye {{addendum|by Lucille Billingsgate|<small>(?)</small>}}
+|gender = Male
+|location = Transitory
+|affiliations = [[John Marston]]<br />[[Williamson gang]] <small>(formerly)</small><br />[[Nigel West Dickens]]<br />[[Moses Forth]] <small> (formerly)</small><br />[[Aiden O'Leary]] <small> (formerly)</small>
+|family =  Unnamed mother {{icon|dead}}<br />Unnamed wife<br />Unnamed children
+|status = Alive 
+|birth = 
+|weapon = [[Knife]]<br />[[Cattleman Revolver]]<br />[[Repeater Carbine]]
+|voice = [[Kevin Glikmann]]
+|game = ''[[Red Dead Redemption]]''
+|nationality = [[File:Flag of the United States (1908–1912).svg|border|20px]] American
+|occupation = Grave robber<br>Treasure hunter<br> Businessman <small> (formerly) </small>}}
+{{quote|Oh, I've lost it all partner. My wife, my children, my business. Good riddance to them all. I don't eat, I don't sleep, I don't wash, and I don't care.|Seth Briars}}
+[[File:Seth Briars IDontEatIDontSleep.ogg|noicon|center]]
+
+'''Seth Briars''' is a [[Characters in Redemption#Major characters|major character]] featured in ''[[Red Dead Redemption]]''.
+
+With the addition of the ''[[Liars and Cheats]]'' [[DLC]] pack, '''Seth Briars''' is also a [[Multiplayer Characters|multiplayer character]] model that may be selected in the 'Redemption' section of the [[Outfitter]].
+
+==History==
+
+=== Background ===
+{{Quote|Seth is an American male in his late thirties. He is certifiably insane. He is not unlike an opium addict, only his addiction is money and he has been utterly consumed by it. His gold prospecting partner died on him, with the map to vast riches, and now he digs up graves in search of treasures.|Description of Seth in the GOTY Edition guide of ''Red Dead Redemption''.}}
+
+Born in the early 1870s,<ref>''[[Red Dead Redemption]]'' - Game of the Year guidebook.</ref> little is known about his past. When he was a child, his father killed a [[Pig|piglet]] against Seth's will whom he ate and described as "the only thing he ever loved". Later, he'd go on to marry a wife and have children, starting a treasure hunting business with [[Moses Forth]] who betrayed him by stealing part of a [[Treasure Map|treasure map]] which he became completely obsessed with, leading to him losing his wife, children, and job. At some point, he started routinely digging up corpses for treasure and developed a strange obsession towards them.
+
+Briars has a history of working with [[Bill Williamson]], but is largely uninvolved with the gang lifestyle due to his pursuit of treasure.
+
+===Events of ''Red Dead Redemption''===
+====New Austin====
+[[John Marston]] first encounters Seth at [[Coot's Chapel]] as instructed by an old friend of his, [[Nigel West Dickens]]. Marston asks for his help in infiltrating [[Fort Mercer]], but Seth demonstrates an acute lack of interest, until the conversation leads to story of his former treasure-hunting partner, [[Moses Forth]], stealing half of his treasure map. Marston agrees to help Seth recover his map in return for helping him. They set out to [[Benedict Point]] where Moses is being held by the law after being arrested for grave robbery. Marston distracts the deputies guarding the jail by stealing one of their [[Horse]]s, and leads them away before returning to Seth. Seth knocks on the door of the shack before Moses slams the door in his face and tries to run away. Marston catches him and brings Moses back hogtied. Seth threatens Moses with a [[Knife]] for the location of his map. Moses tells Seth that it is in [[Odd Fellow's Rest]], panic-stricken, causing himself to urinate. Marston and Seth leave him tied up on the ground and clear John's bounty with a [[Pardon Letter]].
+
+John finds Seth again at Coot's Chapel with a wagon load of corpses from [[Odd Fellow's Rest]]. He says he requires Marston's assistance in bringing the bodies to a desolate location, [[Tumbleweed]], to be searched. On the way, they are ambushed by [[Treasure Hunters]] who are also trying to obtain the treasure map. Marston then tries to outrun them in the wagon, killing any that come too close while Seth searches the bodies on the way. They finally arrive safely, with Seth having found the other half of the map in one of the corpses. By chance, the treasure map said that the treasure was in [[Tumbleweed]]. Seth tells John that he will help him as soon as he finds his treasure.
+
+John later returns to Tumbleweed to find Seth robbing a grave and talking to the deceased corpse at the old church cemetery. They head over to the mansion where the [[treasure]] is supposed to be. Unknown to them the center of town is filled with Treasure Hunters who then launch a surprise attack on the pair. They push towards the mansion, with Marston killing any enemies in their path. When they come to the room with the treasure chest, Seth opens it but all he finds is a glass eye. Seth is devastated and angry, but still agrees to help Marston as promised.
+
+At the [[The Assault on Fort Mercer|assault]] on [[Fort Mercer]], Seth gains entry beforehand. The [[Williamson Gang]] then let in Nigel West Dickens' stage coach. Following the massacre of Williamson's gang and with [[Bill Williamson]] being nowhere to be found, Seth parts ways with Marston and is not seen again.
+
+====Epilogue====
+In 1914, a newspaper article reveals that Seth hauled a big sack of valuable jewels and gold into Blackwater that he found in an unmentioned location deep in [[Tall Trees]]. 
+
+== Events of ''Undead Nightmare'' ==
+'''Note:''' ''The events of Undead Nightmare are not considered part of the same canon as Red Dead Redemption. The following description is therefore not contiguous with the preceding section on Red Dead Redemption.''
+
+Seth appears during ''[[Undead Nightmare]]'' relaxing at [[The Old Bacchus Place]] 'playing cards' with his friend, the newly [[undead]] [[Moses Forth]]. He suggests that Marston cleanse the three [[New Austin]] cemeteries in hopes to end the plague in the [[Missions in Redemption#Undead Nightmare|mission]] [[Get Back in That Hole, Partner|"Get Back in That Hole, Partner"]]. After the cemeteries have been cleared, Marston returns to The Old Bacchus Place to inform Seth that the job has been completed. Upon his return, Marston finds that Seth has thrown a 'party' with a number of undead guests; [[Mary Lou|"Mary Lou"]] and [[Francine|"Francine"]], as well as a fourth undead that plays the fiddle. Marston is initially upset that clearing the graveyards did not end the curse, but Seth directs him towards Mexico, saying that the cause of the infection may have originated there.
+
+[[File:Rdr_get_back_hole02.jpg|300px|right]]
+Seth makes another appearance after the completion of [[A Civilized Man|"A Civilized Man"]]. After Marston has eliminated the undead [[Abraham Reyes]], ventured through the [[Escalera Catacombs]], and returned the mask to its rightful spot, Seth is seen stealing the mask a few months later. This revives Marston from the dead, as well as reignites the infection.
+
+== Character ==
+
+=== Personality ===
+Seth is characterized as an unhygienic and antisocial prospector who has resorted to grave-robbing in his pursuit of treasure. He is obsessed with an unspecified [[Treasure]] and the map that will lead him to it. Seth seems to have previously been sane and had a family based on his claims that he lost them all because of his greed for the treasure. Along with his sanity, his morality is all but lost and he has no problem desecrating the sacred resting places of those who've passed on. His personality can also be characterized as a bit of misanthropic, as he states to [[John Marston]] that he doesn't like or trust the living, dislikes women and during the events of ''Undead Nightmare'', actually seems to prefer the [[Undead]] over his fellow humans.
+
+=== Appearance ===
+Seth is a very scrawny and dirty man. He is also wearing clothing of questionable quality and he is so skinny that his belt is replaced with a small rope. With what little hair he has, he seems to be dirty blonde and is seen to be balding if his hat is removed.
+
+==Mission Appearances==
+;''Red Dead Redemption''
+*"[[Exhuming and Other Fine Hobbies]]"
+*"[[A Gentle Drive with Friends]]"
+*"[[Let the Dead Bury Their Dead]]"
+*"[[The Assault on Fort Mercer]]"
+
+;''Undead Nightmare''
+*"[[Get Back in that Hole, Partner]]"
+*"[[On a Pale Horse]]"
+
+==Quotes==
+{{quote|I hate people.|Seth Briars ("[[Exhuming and Other Fine Hobbies]]")}}[[File:Seth Briars IHatePeople.ogg|noicon|center]]
+
+{{quote|Well, look at me! Look! Scramblin' around, lookin' for maps, half insane! I ain't washed in six months. My hair's fallin' out and my mind's goin'!|Seth Briars ("Exhuming and Other Fine Hobbies")}}
+[[File:Seth Briars MyMindsGoing.ogg|noicon|center]]
+
+{{quote|Have you ever looked in the cave, Seth? ''(High pitched voice)'' No, it's very dark.| Seth Briars conversing with himself ("Exhuming and Other Fine Hobbies")}}
+[[File:Seth Briars HaveYouLookedInTheCave.ogg|noicon|center]]
+
+{{quote|Then I'm going to cut you up piece by piece, 'til ya find your tongue!|Seth Briars threatening [[Moses Forth]] at [[Benedict Point]] ("Exhuming and Other Fine Hobbies")}}
+[[File:Seth Briars FindYourTongue.ogg|noicon|center]]
+
+{{quote|Looks like you've gone and pissed yourself, Moses.|Seth Briars ("Exhuming and Other Fine Hobbies")}}
+[[File:Seth Briars PissedYourself.ogg|noicon|center]]
+
+{{Quote|I needs the map, partner... I needs it...|Seth Briars to [[John Marston]]}}
+{{quote|I hate the living.|Seth Briars}}
+{{Quote|Put me on a cross and paint my picture.|Seth Briars (in the [[Red Dead Redemption: The Man from Blackwater|movie]])}}
+{{Quote|I'm gonna make you a nose check.|Seth Briars (in the [[Red Dead Redemption: The Man from Blackwater|movie]])}}
+{{Quote|Moses wouldn't hurt a fly, would you darling?|Seth Briars to John in Undead Nightmare}}
+{{Quote|Folks? Folks! Folks! Damn them folks, John Marston! Damn them! And damn you!|Seth Briars' rage after John Marston tells him that people in [[Blackwater]] blame the Undead plague on his glass eye}}
+{{Quote|Fly! Fly!|Seth Briars when riding his horse}}
+{{Quote|Moses weren't no liar! The issue was [[Aiden O'Leary]], who said he had the body!|Seth Briars explaining to Marston that Aiden was the real enemy, not Moses}}
+
+{{Quote|Stupid liars. With their stupid, chicken-shit maps! Making a damn fool of me...|Seth Briars on the miners he took the maps from}}
+
+{{Quote|'S a glass eye! 'S a glass eye!|Seth Briars crying to John when finding just the glass eye in the chest at Tumbleweed}}
+
+==Trivia==
+* Seth is [[Rob Wiethoff]]'s favorite character in ''Red Dead Redemption''.<ref>https://www.youtube.com/watch?v=n05-xQxgnEE</ref>
+* Seth doesn't like living people, especially women. He has been driven to lose all faith in others because of his obsession with treasure and Moses' betrayal. You can gain insight into this by what he says during your first mission with him, [[Exhuming and Other Fine Hobbies|&quot;Exhuming and Other Fine Hobbies&quot;]], which was, ''"I don't have the facility to tell you, what I would have done for that man",'' Of course referring to Moses, and ''"I don't like women partner, I don't, Not since mammy died."'' Although Seth mentions that he dislikes women, he appears to be very emotional about the death of his mother. It is possible that his hatred originated at the time of her death that and his wife leaving him as well. His dialogue suggests that he dislikes women because of their ability to die and leaving him.
+* The ''[[Blackwater Ledger]]'' repeatedly reports on Briars' actions as a serial grave robber, noting public outrage at the desecration of local graveyards. However, the paper credits [[Moses Forth]] as the perpetrator of these crimes.
+**Ironically, when interviewed about his discovery of the treasure in [[Tall Trees]], Seth claimed that he has no connections to Moses.
+* Some of Seth's dialogue seems to indicate that he suffers from some sort of split-personality disorder.
+* Ironically, during Seth's last mission he walks right by the actual treasure in the basement. He passes right by the third treasure of the [[Treasure Hunter challenges|Treasure Hunter Challenge]], unless the player has already acquired that treasure, then he passes over nothing of value.
+* In the short film ''[[Red Dead Redemption: The Man from Blackwater|The Man From Blackwater]]'', Seth finds his treasure (a glass eye) in [[Fort Mercer]] as opposed to finding it in [[Tumbleweed]] while doing the mission [[Let the Dead Bury Their Dead|"Let the Dead Bury Their Dead"]].
+* It is implied in the GameStop ''Undead Nightmare'' preview that Seth may have unintentionally caused the [[Undead]] plague by stealing the Glass Eye in his last mission [[Let the Dead Bury Their Dead|&quot;Let the Dead Bury Their Dead&quot;]]. However, this is later proven to be incorrect.
+**The same reason is assumed to why the undead never attack Seth. It is a theory amongst fans that the glass eye gives Seth immunity to attacks from the undead.
+* At the end of Seth's mission in ''Undead Nightmare'' [[Get Back in that Hole, Partner|&quot;Get Back in that Hole, Partner&quot;]], although it is not possible to shoot the undead Seth is dancing with, you can shoot the lantern above them which will set one on fire causing the others to attack.
+**The same is true with Undead Bait. It will cause Moses to attack Seth, who will then shoot him. If you try and shoot Moses, Seth will end up shooting you, and is then killable. Also, if you run over the zombies mounted on [[War]], they will start burning and Seth will run away; then, you can shoot him.
+* When John Marston searches the corpses of undead he will sometimes say "Seth, I'm sorry about all the insults". He may also say "Seth, finally I've joined you", or "Seth, how do you enjoy this?".
+* In the ''Red Dead Redemption'' artwork of Seth, he appears to be slightly more healthy - he has longer and thicker hair.
+* While sitting at a campfire, John can hear a story about an entire family gunned down at Tumbleweed (possibly by police or federal agents). The man at the fire mentions that all of their possessions were destroyed, except for a glass eye. This is likely the same glass eye found by Seth at Tumbleweed, and would also explain its mystical connection to the undead in the non-canon DLC.
+* Despite his insanity, in ''Undead Nightmare'' he is the first one to inform Marston of what really caused the plague while everyone else just comes up with random theories. Also, he seems to have figured out a way to tame the Undead, such as having them dance or play the violin.
+* In ''Undead Nightmare'', when Seth is playing cards, the player can make his chair fall on the ground by walking into him. Going into his shack and then get out of it, Seth will be sitting in the air.
+* Although Seth states he would end his obsession with the dead in his final mission of the regular game, Seth shows much affection and attachment to the zombies in ''Undead Nightmare.'' However, this was to be expected in a way since Seth doesn't bother to change his clothes or wash at all after completing "[[Get Back in That Hole, Partner]]".
+* Seth and [[West Dickens]] are the only un-infected major characters in ''[[Undead Nightmare]]'' who do not combat the [[undead]] in any way.
+* If the player fails enough times during the ride in "[[Exhuming and Other Fine Hobbies]]", Seth will talk about how the only thing he has eaten in several days is a dead [[crow]], and how it (and everything else) tasted like the piglet that his father killed when he was a kid.
+* His nickname, Seth of the Dead, is presumably a reference to the movie [[Wikipedia:Shaun of the Dead|''Shaun of the Dead'']].
+* In Ancient Egypt, Seth was the name of the god associated with (among other things) desert and disorder, traits found also in the grave robber; Nigel West Dickens also mentions, during "[[Liars, Cheats and Other Proud Americans]]", that his friend would have been respected in that period.
+* Like most other major characters in ''Undead Nightmare'', after the story is completed, Seth cannot be found anywhere.
+* His last name is never mentioned at all in either games.
+* There is an unused PED model for Seth for ''Red Dead Online'' found in the game files.<ref>https://www.pcgamesn.com/red-dead-redemption-2/online-seth-npc here</ref> It shares a face model with [[John Marston]], albeit, slightly altered.
+*He seems to resemble Gollum from the ''Lord of the Rings'' franchise in personality and appearance to some extent.
+
+==Gallery==
+=== ''Red Dead Redemption'' ===
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+File:RDR sethbriars.jpg
+Rdr seth briars square.jpg|Seth in "[[A Gentle Drive with Friends]]"
+rdr_seth_grave.jpg|Seth looking for "treasure".
+File:Rdr_seth.jpg|Seth speaking to John from a grave he is searching.
+Seth_Briars.png
+Seth_2.png
+Ahh_scary.jpg|Seth's creepy face
+Seth_dead.jpg
+rdr_seth_briars_cut.jpg|''"I'm gonna cut you up, piece by piece, 'til you find your tongue!!"''
+rdr_seth_briars_angry.jpg|Seth showing his anger.
+Reddeadredemption seth 1280x720.jpg|Rockstar's official artwork of Seth.
+Rdr_seth_stars.jpg|"''I'm here to paint my picture.""''
+Rdr exhuming other fine hobbies02.jpg
+Rdr exhuming other fine hobbies03.jpg
+Rdr exhuming other fine hobbies05.jpg|''"Goodbye, [[John Marston]], it's been a great pleasure."''
+Rdr exhuming other fine hobbies06.jpg|"''I hate people. It was people who got me in this mess in the first place.''"
+Rdr exhuming other fine hobbies07.jpg|"''What happened? My partner! He stole half my map! I never would have done that to him. Never. Look at me.''"
+Rdr exhuming other fine hobbies09.jpg|"''Don't make me tell, partner. It's mine! It's mine! All mine!''"
+Rdr exhuming other fine hobbies25.jpg|"''Shut up, Marston! I've only ever cut into a bonified flesh before, ain't never cut a live one!"''
+File:Rdr_gentle_drive_friends02.jpg|Seth loading a coffin onto a wagon
+File:Rdr_gentle_drive_friends03.jpg
+File:Rdr_gentle_drive_friends06.jpg|"''Moses was a liar and I imagined myself doing all kinds of unpleasant things to his corpse and then i realized... Moses weren't no liar.''"
+File:Rdr_gentle_drive_friends08.jpg|"''The issue was Aiden O'Leary.. who said he had the body... Aiden died in that flu epidemic and the bodies weren't even buried yet.''"
+File:Rdr_gentle_drive_friends09.jpg|"''You're not even going to wait until they're buried before you...''"
+File:Rdr_gentle_drive_friends10.jpg|"''Honest folk, off to a better place. Apart from that Aiden O'Leary fella. I never liked him.''"
+File:Rdr_gentle_drive_friends11.jpg|"''I don't like women, partner. I don't. Not since mammy died.''"
+File:Rdr_gentle_drive_friends12.jpg|"''I needs the map, partner. I needs it.''"
+File:Rdr_let_dead_bury_dead01.jpg|"''Oh, it's like that, is it? Huh, not talking to Seth today? The old silent treatment!''"
+File:Rdr_let_dead_bury_dead03.jpg|"''Oh... That's quite a stench.''"
+File:Rdr_let_dead_bury_dead05.jpg|"''Oh hey, partner, I was just looking for ya.''"
+File:Rdr_let_dead_bury_dead06.jpg|"''Okay, nowhere wouldn't happen to be where that thing you're looking for is kept, would it?''"
+File:Rdr_let_dead_bury_dead13.jpg|Seth finds the "treasure".
+File:Rdr_let_dead_bury_dead14.jpg|Seth breaks the chest open.
+File:Rdr_let_dead_bury_dead16.jpg|"''What the god-damn hell is this?! A glass eye?!''"
+File:Rdr_let_dead_bury_dead19.jpg|"''A glass eye!! It's a glass eye!!''"
+File:Rdr_assault_fort_mercer05.jpg|Seth inside Fort Mercer
+File:Rdr_assault_fort_mercer13.jpg|Seth inviting West Dicken's coach inside the fort
+File:Rdr_assault_fort_mercer23.jpg
+</gallery>
+
+===''Undead Nightmare''===
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+Rdr seth undead moses pals.jpg|''Moses is having a tough time right now. Ain't ya, pal?''
+File:Rdr_seth_steals_mask.jpg
+</gallery>
+
+===''Red Dead Online''===
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+File:RDO Seth.jpg|A generic model for Seth in ''Red Dead Online''
+File:Seth Briars RDO.jpg|Seth's cut model up close
+File:Sethbriarsunused.PNG|The incomplete model for Seth in ''Red Dead Online''
+</gallery>
+
+== References ==
+<references />
+
+==Navigation==
+{{characters}}
+{{Related Content}}
+{{DEFAULTSORT:Briars, Seth}}
+
+[[Category:Characters in Redemption]]
+[[Category:Characters in Undead Nightmare]]
+[[Category:Multiplayer characters in Redemption]]
+
+[[pl:Seth_Briars]]
+[[de:Seth Briars]]
+[[es:Seth Briars]]
+[[fr:Seth Briars]]
+[[ru:Сет Брайерс]]
+[[pt-br:Seth Briars]]
