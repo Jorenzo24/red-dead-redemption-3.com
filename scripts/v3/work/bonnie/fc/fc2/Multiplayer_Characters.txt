@@ -1,0 +1,565 @@
+[[File:Rdr_christy_weller.jpg|thumb|300px|right|Christy Weller, a multiplayer character unlocked by achieving the highest possible rank.]]
+
+'''Multiplayer characters''' are playable characters that the player can unlock and use in [[Redemption Multiplayer|multiplayer]] in ''[[Red Dead Redemption]]''.
+
+==Description==
+Each multiplayer character has a unique appearance and a set of quotes that are used during play (and can be triggered by the player). A few characters are provided upon first starting multiplayer while the rest need to be unlocked through achieving higher ranks or completing [[Multiplayer Challenges]]. Additional characters are provided through various DLC, as noted in the tables that follow.
+
+Most of the multiplayer characters provided with the original game are either characters from the single player campaign or renamed look-alikes. There are four multiplayer characters that do not otherwise appear in the game: [[Alice Thayer]], [[Sarah Grace]], [[Christy Weller]] and [[The Tudisco Kid]].
+
+Players can review and select from the available characters in the [[Outfitter]].
+
+==Characters==
+*
+
+===[[Miners]]===
+{| class="wikitable" style="width: 75%"
+! Character Name
+! style="width: 20%;" | Unlocked
+|-
+| [[Earle Martin]]
+| style="text-align: center;"| Level 1
+|-
+|[[Jarred Vaughan]]
+| style="text-align: center;"|Level 2
+|-
+|[[Guy Percival]]
+| style="text-align: center;"|Level 10
+|-
+|[[Tony Gallows]]
+| style="text-align: center;"| Level 14
+|-
+|[[Quick Tom Candle]]
+| style="text-align: center;"|Level 19
+|-
+|[[Gerald Conway]]
+| style="text-align: center;"|Level 25
+|-
+|[[D.R. Gosset]]
+| style="text-align: center;"|Level 33
+|-
+|[[Harvard Coskie]]
+| style="text-align: center;"|Level 39
+|}
+
+===[[Rebeldes]]===
+{| class="wikitable" style="width: 75%"
+! Character Name
+! style="width: 20%;" | Unlocked
+|-
+| [[Alfredo Castaneda]]
+| style="text-align: center;"| Level 1
+|-
+| [[Ramon Paradiso]]
+| style="text-align: center;"|Level 2
+|-
+| [[Jaime Garcia]]
+| style="text-align: center;"|Level 10
+|-
+| [[Cristoban Borracha]]
+| style="text-align: center;"|Level 12
+|-
+| [[Jesus Eccheveria]]
+| style="text-align: center;"|Level 21
+|-
+| [[Michael Sustantivo]]
+| style="text-align: center;"|Level 25
+|-
+| [[Juan Sierra]]
+| style="text-align: center;"|Level 33
+|-
+|[[Ramon Dominguez]]
+| style="text-align: center;"|Level 42
+|}
+
+===[[Dutch's Gang (Multiplayer)|Dutch's Gang]]===
+{| class="wikitable" style="width: 75%"
+! Character Name
+! style="width: 20%;" | Unlocked
+|-
+| [[Al Wolfscreed]]
+| style="text-align: center;"| Level 1
+|-
+| [[Mala Yawetch]]
+| style="text-align: center;"|Level 4
+|-
+| [[Hank Shiyani]]
+| style="text-align: center;"|Level 12
+|-
+| [[Sanisuni Wagi]]
+| style="text-align: center;"| Level 16
+|-
+| [[Kintan Tageyutsi]]
+| style="text-align: center;"|Level 19
+|-
+| [[Jeevan Guni]]
+| style="text-align: center;"|Level 23
+|-
+| [[Jay Sheeyah]]
+| style="text-align: center;"|Level 27
+|-
+| [[Chief Mangan]]
+| style="text-align: center;"|Level 42
+|}
+
+===[[Walton's Gang (Multiplayer)|Walton's Gang]]===
+{| class="wikitable" style="width: 75%"
+! Character Name
+! style="width: 20%;" | Unlocked
+|-
+| [[Pat O'Flanagan]]
+| style="text-align: center;"| Level 1
+|-
+| [[Benjamin Earl]]
+| style="text-align: center;"| Level 4
+|-
+| [[Mac Backman]]
+| style="text-align: center;"|Level 12
+|-
+| [[Knobby Tom Alwin]]
+| style="text-align: center;"|Level 19
+|-
+| [[Markus Barnes]]
+| style="text-align: center;"|Level 27
+|-
+| [[David Anthony]]
+| style="text-align: center;"|Level 36
+|-
+| [[Tricky Pat Dempson]]
+| style="text-align: center;"|Level 42
+|-
+| [[TJ Laubach]]
+| style="text-align: center;"|Level 44
+|}
+
+===[[Cattle Rustlers]]===
+{| class="wikitable" style="width: 75%"
+! Character Name
+! style="width: 20%;" | Unlocked
+|-
+| [[John Kelby]]
+| style="text-align: center;"| Level 1
+|-
+| [[Ian Connors]]
+| style="text-align: center;"|Level 6
+|-
+| [[Wayne Daniels]]
+| style="text-align: center;"| Level 14
+|-
+| [[Michael Reese]]
+| style="text-align: center;"|Level 21
+|-
+| [[Bo Schram]]
+| style="text-align: center;"|Level 29
+|-
+| [[Shep Thomas]]
+| style="text-align: center;"|Level 36
+|-
+| [[L.S. Roberts]]
+| style="text-align: center;"|Level 45
+|-
+| [[The Tudisco Kid]]
+| style="text-align: center;"|Level 50
+|}
+
+===[[American Army]]===
+{| class="wikitable" style="width: 75%"
+! Character Name
+! style="width: 20%;" | Unlocked
+|-
+| [[Slick Nick Funtz]]
+| style="text-align: center;"| Level 1
+|-
+| [[Tall Trees Ty]]
+| style="text-align: center;"|Level 6
+|-
+| [[Gaptooth McGee]]
+| style="text-align: center;"| Level 14
+|-
+| [[Big Bob Moorcock]]
+| style="text-align: center;"|Level 21
+|-
+| [[Frederick Littlefield]]
+| style="text-align: center;"|Level 29
+|-
+| [[Stephen Paul]]
+| style="text-align: center;"|Level 36
+|-
+| [[Jan Booth]]
+| style="text-align: center;"|Level 45
+|-
+| [[Eric Morganson]]
+| style="text-align: center;"|Level 48
+|}
+
+===[[Federales]]===
+{| class="wikitable" style="width: 75%"
+! Character Name
+! style="width: 20%;" | Unlocked
+|-
+| [[Jose Falotico]]
+| style="text-align: center;"| Level 1
+|-
+| [[Gustavo Andares]]
+| style="text-align: center;"|Level 7
+|-
+| [[Cristo Francisco]]
+| style="text-align: center;"|Level 16
+|-
+| [[Ramon Zapata]]
+| style="text-align: center;"|Level 23
+|-
+| [[Mark Rafael]]
+| style="text-align: center;"|Level 31
+|-
+| [[Juan Diaz]]
+| style="text-align: center;"|Level 39
+|-
+| [[Jefe Bautista]]
+| style="text-align: center;"|Level 48
+|-
+| [[Raudel Diaz]]
+| style="text-align: center;"|Level 50
+|}
+
+===[[Law Enforcement|Lawmen]]===
+{| class="wikitable" style="width: 75%"
+! Character Name
+! style="width: 20%;" | Unlocked
+|-
+| [[Seth LaValley]]
+| style="text-align: center;"| Level 1
+|-
+| [[RJ Peart]]
+| style="text-align: center;"|Level 7
+|-
+| [[Fred Everts]]
+| style="text-align: center;"|Level 16
+|-
+| [[Rowan Babcock]]
+| style="text-align: center;"|Level 23
+|-
+| [[Heath Michaels]]
+| style="text-align: center;"|Level 31
+|-
+| [[Robert Daniels]]
+| style="text-align: center;"|Level 39
+|-
+| [[Conor Callahan]]
+| style="text-align: center;"|Level 48
+|-
+| [[Sean Cobbler]]
+| style="text-align: center;"|Level 50
+|}
+
+===[[U.S. Marshals|Marshals]]===
+{| class="wikitable" style="width: 75%"
+! Character Name
+! style="width: 20%;" | Unlocked
+|-
+| [[Hank Sutter]]
+| style="text-align: center;"| Level 1
+|-
+| [[David Darwinson]]
+| style="text-align: center;"| Level 1
+|-
+| [[Leon Cornwell]]
+| style="text-align: center;"| Level 1
+|-
+| [[Derek Fulton]]
+| style="text-align: center;"| Level 1
+|-
+| [[Daren Ward]]
+| style="text-align: center;"| Level 1
+|-
+| [[Colby Oats]]
+| style="text-align: center;"| Level 1
+|-
+| [[Charley Burg]]
+| style="text-align: center;"| Level 1
+|-
+| [[Dillon Metzen ]]
+| style="text-align: center;"| Level 1
+|}
+
+===[[Miscellaneous Women|Misc Women]]===
+{| class="wikitable" style="width: 75%"
+! Character Name
+! style="width: 20%;" | Unlocked
+|-
+| [[Madam Hernandez]]
+| style="text-align: center;"| Level 1
+|-
+| [[Carrie Boudicca]]
+| style="text-align: center;"| Level 23
+|-
+| [[Nicole Louise]]
+| style="text-align: center;"| Level 25
+|-
+| [[Melissa Rose]]
+| style="text-align: center;"| Level 27
+|-
+| [[Arlene Dunn]]
+| style="text-align: center;"| Level 29
+|-
+| [[Allie Dickey]]
+| style="text-align: center;"| Level 31
+|-
+| [[Alice Thayer]]
+| style="text-align: center;"| Level 33
+|-
+| [[Sarah Grace]]
+| style="text-align: center;"| Level 50
+|}
+
+===[[Miscellaneous Mexicans|Misc Mexicans]]===
+{| class="wikitable" style="width: 75%"
+! Character Name
+! style="width: 20%;" | Unlocked
+|-
+| [[Alejandro Cruz]]
+| style="text-align: center;"| Level 1
+|-
+| [[Jefe Rocha]]
+| style="text-align: center;"|Level 1
+|-
+| [[Roberto Gatos]]
+| style="text-align: center;"|Level 1
+|-
+| [[Antonio Xavier]]
+| style="text-align: center;"|Level 1
+|-
+| [[Esteban Morales]]
+| style="text-align: center;"|Level 1
+|-
+| [[Juan Vargas]]
+| style="text-align: center;"|Level 1
+|-
+| [[Jose Rodriguez]]
+| style="text-align: center;"|Level 1
+|-
+| [[Billy Sanchez]]
+| style="text-align: center;"|Level 4
+|-
+| [[Fernando Naranjo]]
+| style="text-align: center;"|Level 7
+|}
+
+===[[Miscellaneous Criminals|Misc Criminals]]===
+{| class="wikitable" style="width: 75%"
+! Character Name
+! style="width: 20%;" | Unlocked
+|-
+| [[Jason M. Bright]]
+| style="text-align: center;"| Level 1
+|-
+| [[Garett Comstock]]
+| style="text-align: center;"|Level 1
+|-
+| [[Dr. Lane Davies]]
+| style="text-align: center;"|Level 1
+|-
+| [[Stuart B. Wilson III]]
+| style="text-align: center;"|Level 1
+|-
+| [[Charley Bullock]]
+| style="text-align: center;"|Level 1
+|-
+| [[Dirty Dan Pister]]
+| style="text-align: center;"|Level 1
+|-
+| [[Nick Klein]]
+| style="text-align: center;"|Level 1
+|-
+| [[Abraham Marsh]]
+| style="text-align: center;"|Level 3
+|-
+| [[Jesse Lange]]
+| style="text-align: center;"|Level 6
+|-
+| [[Nick Robbins]]
+| style="text-align: center;"|Level 10
+|}
+
+===[[Legend]]ary===
+{| class="wikitable" style="width: 75%"
+! Character Name
+! style="width: 20%;" | Unlocked
+|-
+| [[Kyle McGinty]]
+| style="text-align: center;"|Legend 1
+|-
+| [[Ezekiel Hogey]]
+| style="text-align: center;"|Legend 2
+|-
+| [[Mescalero Mike]]
+| style="text-align: center;"|Legend 3
+|-
+| [[Theo Crenshaw]]
+| style="text-align: center;"|Legend 4
+|-
+| [[Christy Weller]]
+| style="text-align: center;"|Legend 5
+|}
+
+==DLC Characters==
+===[[Red Dead Revolver]]===
+{| class="wikitable" style="width: 75%"
+! Character Name
+! style="width: 20%;" | Unlocked
+|-
+| [[Red Harlow]]
+| style="text-align: center;"|[[Legends and Killers]]
+|-
+| [[Jack Swift]]
+| style="text-align: center;"|[[Legends and Killers]]
+|-
+| [[Buffalo Soldier|Buffalo Soldier ]]
+| style="text-align: center;"|[[Legends and Killers]]
+|-
+| [[Shadow Wolf]]
+| style="text-align: center;"|[[Legends and Killers]]
+|-
+| [[Pig Josh]]
+| style="text-align: center;"|[[Legends and Killers]]
+|-
+| [[Annie Stoakes]]
+| style="text-align: center;"|[[Legends and Killers]]
+|-
+| [[Ugly Chris]]
+| style="text-align: center;"|[[Legends and Killers]]
+|-
+| [[Kelley|Mr. Kelley]]
+| style="text-align: center;"|[[Legends and Killers]]
+|}
+
+===Redemption===
+{| class="wikitable" style="width: 75%"
+! Character Name
+! style="width: 20%;" | Unlocked
+|-
+|[[Abigail Marston]]
+| style="text-align: center;"|[[Liars and Cheats]]
+|-
+|[[Bonnie MacFarlane]]
+| style="text-align: center;"|[[Liars and Cheats]]
+|-
+|[[Jack Marston]]
+| style="text-align: center;"|[[Liars and Cheats]]
+|-
+|[[John Marston]]
+| style="text-align: center;"|[[Liars and Cheats]]
+|-
+|[[Leigh Johnson]]
+| style="text-align: center;"|[[Liars and Cheats]]
+|-
+|[[Luisa Fortuna]]
+| style="text-align: center;"|[[Liars and Cheats]]
+|-
+|[[Nigel West Dickens]]
+| style="text-align: center;"|[[Liars and Cheats]]
+|-
+|[[Seth Briars]]
+| style="text-align: center;"|[[Liars and Cheats]]
+|}
+===Damnation===
+{| class="wikitable" style="width: 75%"
+! Character Name
+! style="width: 20%;" | Unlocked
+|-
+|[[Abraham Reyes]]
+| style="text-align: center;"|[[Liars and Cheats]]
+|-
+|[[Agustin Allende]]
+| style="text-align: center;"|[[Liars and Cheats]]
+|-
+|[[Bill Williamson]]
+| style="text-align: center;"|[[Liars and Cheats]]
+|-
+|[[Dutch van der Linde]]
+| style="text-align: center;"|[[Liars and Cheats]]
+|-
+|[[Edgar Ross]]
+| style="text-align: center;"|[[Liars and Cheats]]
+|-
+|[[Harold MacDougal]]
+| style="text-align: center;"|[[Liars and Cheats]]
+|-
+|[[Irish]]
+| style="text-align: center;"|[[Liars and Cheats]]
+|}
+
+===[[Zombies]]===
+{| class="wikitable" style="width: 75%"
+! Character Name
+! style="width: 20%;" | Unlocked
+|-
+|[[Poe Boll|Poe Boll]]
+| style="text-align: center;"|[[Undead Nightmare]]
+|-
+|[[Magic Jackson]]
+| style="text-align: center;"|[[Undead Nightmare]]
+|-
+|[[Landon Ricketts|Zombie Ricketts]]
+| style="text-align: center;"|[[Undead Nightmare]]
+|-
+|[[John Marston#Undead Nightmare|Zombie Marston]]
+| style="text-align: center;"|[[Undead Nightmare]]
+|-
+|[[Viper Craven]]
+| style="text-align: center;"|[[Undead Nightmare]]
+|-
+|[[Ishmael Raimi]]
+| style="text-align: center;"|[[Undead Nightmare]]
+|-
+|[[Sarah Reese]]
+| style="text-align: center;"|[[Undead Nightmare]]
+|-
+|[[Paco Romero]]
+| style="text-align: center;"|[[Undead Nightmare]]
+|}
+
+===[[Myths and Mavericks|Revolution]]===
+{| class="wikitable" style="width: 75%"
+! Character Name
+! style="width: 20%;" | Unlocked
+|-
+|[[Landon Ricketts]]
+| style="text-align: center;"|[[Myths and Mavericks]]
+|-
+|[[Vicente de Santa]]
+| style="text-align: center;"|[[Myths and Mavericks]]
+|-
+|[[Javier Escuella]]
+| style="text-align: center;"|[[Myths and Mavericks]]
+|-
+|[[Jonah]]
+| style="text-align: center;"|[[Myths and Mavericks]]
+|-
+|[[Eli]]
+| style="text-align: center;"|[[Myths and Mavericks]]
+|-
+|[[Drew MacFarlane]]
+| style="text-align: center;"|[[Myths and Mavericks]]
+|-
+|[[Uncle]]
+| style="text-align: center;"|[[Myths and Mavericks]]
+|-
+|[[Nastas]]
+| style="text-align: center;"|[[Myths and Mavericks]]
+|}
+
+==Video==
+;A video shows all multiplayer characters.
+[[File:Red Dead Redemption Multiplayer all Characters & Mounts|425px|left]]
+{{clear}}
+==Related Content==
+{{Related Content}}
+{{Navbox Redemption Multiplayer}}
+{{Multiplayer Characters}}
+[[de:Multiplayer-Charaktere]]
+[[fr:Personnages dans multijoueur]]
+[[es:Personajes Multijugador]]
+[[it:Personaggi di Redemption Multiplayer]]
+[[Category:Multiplayer]]
+[[Category:Multiplayer characters in Redemption| ]]

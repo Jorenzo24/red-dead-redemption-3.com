@@ -1,0 +1,55 @@
+{{User/characterbox
+|image        =Rdr unseen dead character.jpg
+|gender       = Male
+|location     = [[Coot's Chapel]] graveyard <br>New York <small>(Patrick only)</small> 
+|affiliations = 
+|family       = [[Drew MacFarlane]] <small>(father)</small><br>Unnamed mother<br>[[Bonnie MacFarlane]] <small>(sister)</small>
+|nationality = American
+}}
+
+{{Quote|I've buried more of my children than I've raised. I've seen strong men wither and die under that unforgiving sun. I've had whole herds of cattle take sick and die... But I've never once doubted my life here.|[[Drew MacFarlane]]}}
+
+The '''MacFarlane brothers''' are several [[Characters in Redemption#Unseen/Deceased|minor, deceased characters]] mentioned in ''[[Red Dead Redemption]]''.
+
+==Background==
+All of them are children of [[Drew MacFarlane]] and his unnamed wife, and are hence brothers of [[Bonnie MacFarlane]]. Their names are Hank, Owen, Gus, Ethan, Cole and Patrick. 
+
+Cole's age and birth date were not on his grave; however, the death date reads 1899. Hank was the first born of the deceased MacFarlane brothers and was also the first to die. Owen was the second born and the second to die. Gus was the third born son, and Ethan the last. Ethan and Bonnie were born in the same year, which implies the possibility of the two being fraternal twins. All of the deceased brothers are buried at [[Coot's Chapel]].
+
+==Interactions==
+Because most of the brothers are dead, they are not seen or interacted with in-game.
+
+However, one brother is apparently still alive and is mentioned by Bonnie as being a banker in New York. She does not give his name, although people in the [[Warthington Ranch]] and [[Armadillo]] can be heard speaking of "the success of [[Patrick MacFarlane]], working in New York," which suggests that is his name.
+
+==Birth Years==
+*Hank was born in the year 1881.
+*Owen was born on March 17th, 1882.
+*Gus was born in the year 1883.
+*Ethan was born in the year 1884. According to Bonnie and the Newspapers, this is also her birth year, making them likely to be fraternal twins.
+*Cole and Patrick are the only two sons whose birth dates are unknown.
+
+==Deaths==
+*Hank died at the age of twelve from Tuberculosis on December 8th, 1893.
+*Owen died due to chronic diarrhea at the age of fourteen on June 23rd, 1896.
+*Cole died from a gunshot wound to the head on July 26th, 1899.
+*Ethan died from misadventure in the year 1903 at the age of nineteen, after attempting to milk a bull.
+*Gus was killed in a bar-fight on August 4th, 1905. At twenty-two, he was the eldest of the five brothers who died.
+
+==Trivia==
+*A worker at the train station in [[MacFarlane's Ranch]] can be overheard saying, "One of those MacFarlane boys is gonna come off the train from [[Blackwater]] one of these days."
+*In ''[[Undead Nightmare]]'', zombies rise from some of the brothers' graves while cleansing Coot's Chapel.
+*In ''Undead Nightmare'', Owen MacFarlane's grave is replaced with that of [[Alma Horlick]].
+*Bonnie MacFarlane mentions that one of the brothers used to read [[wikipedia:Penny_dreadful|Penny dreadful]] comics during the mission "[[New Friends, Old Problems]]".
+*Sometimes, the player can see people digging up one of their graves and, at other times, crying by it.
+*Coincidentally, Cole died the same year that ''[[Red Dead Redemption 2]]'' is primarily set. Moreover, at the time of writing the main chapters, he is even alive, since the actions take place in May-June 1899.
+
+==Gallery==
+<gallery widths="200" captionalign="left" spacing="small">
+Coots-Chapel-Gravestones-Hank-MacFarlane.jpg|Hank MacFarlane's gravestone in Coot's Chapel's cemetery
+</gallery>
+
+{{Characters}}
+{{Related Content}}
+[[Category:Characters in Redemption]]
+[[Category:Mentioned characters in Redemption]]
+[[fr:Frères MacFarlane]]

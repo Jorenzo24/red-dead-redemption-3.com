@@ -1,0 +1,55 @@
+Nathanial Johnston
+{{User/characterbox
+|name = Nathanial Johnston, M.D.
+|image = [[File:Rdr nathanial johnston.jpg|300px]]
+|game = ''[[Red Dead Redemption]]''
+|aka = 
+|nationality = [[File:Flag of the United States (1908–1912).svg|border|20px]] American
+|gender = Male
+|location = Town of [[Armadillo]] in [[Cholla Springs]], State of [[New Austin]]
+|family = Judith Johnston {{icon|dead}}
+|occupation = Physician
+}}
+{{Quote|Most important thing for you right now is getting yourself into Doctor Johnston's office to purchase some medicine.|[[Bonnie MacFarlane]] to [[John Marston]]}}
+
+'''Dr. Nathanial Johnston''' is a [[Characters in Redemption#Shopkeepers|minor character]] featured in ''[[Red Dead Redemption]]''.
+
+==History==
+===Background===
+Nathanial Johnston is a qualified physician. He owns the [[Doctor's Office]] in [[Armadillo]], where he sells numerous medical items. He has a relative, Judith Johnston, buried in [[Coot's Chapel]].
+
+===Events of ''Red Dead Redemption''===
+When [[John Marston]] is shot in the ribs by one of [[Bill Williamson]]'s men, Bonnie MacFarlane, along with [[Amos]], take him to Doctor Johnston in Armadillo. Johnston removes the bullet from John and bandages the wound. According to Bonnie MacFarlane, he said John would be fine as soon as he saw he wasn't dead.
+
+Sometime after John Marston had recovered, John and Bonnie returned to Armadillo. There, Johnston gave John some [[medicine]], previously paid for by Bonnie. Hereafter, Doctor Johnston is always available in Armadillo, where Marston can purchase medical supplies.
+
+
+== Quotes ==
+{{Quote|[[Rattlesnake]] fest is next month. Guess that means I’ll be busy.|Nathanial Johnston}}
+{{Quote|[[Southwestern Railroad Company|Southwestern Railroad]] says more trains coming through.|Nathanial Johnston}}
+{{Quote|That was a hell of a storm, last month. Hell of a storm!|Nathanial Johnston}}
+{{Quote|I heard Half-ton Hank’s travelling circus puts on a hell of a show!|Nathanial Johnston}}
+{{Quote|Yesterday Old Smithfield found two people dead in his barn!|Nathanial Johnston}}
+{{Quote|You hear, [[Jeb Murphy]] at the gun shop, lost his son to [[Cholera Epidemic Rages|cholera]]?|Nathanial Johnston}}
+
+==Trivia==
+*He has exactly the same character model as [[Clyde Garrison]], but with two exceptions: Johnston's hat is black instead of white, and he sports a string tie instead of a necktie.
+*Nathanial shares a head model with [[Clyde Garrison]], [[Ralph Bagley]], [[Harvey Skaggs]], [[Tripp Lockley]], [[Trent Oxley]], [[Barney Nugent]], [[Lawrence Baxter]], [[Shelby Goodwin]].
+*He may comment while John walks into his store about getting a bullet removed from his leg, despite the fact that John walks perfectly and suffers from no wounds as far as anyone can tell.
+*According to an ad in ''The Blackwater Ledger'', Johnston claims that [[Chewing Tobacco]] has ''"wonderful health benefits."'' This is only confirmed with John Marston, although this was most likely a sales scam.
+*[[Nigel West Dickens]] gets treated for his wounds by Johnston. It is implied Johnston is highly skeptical, if not outright dismissive, of West Dickens's "miracle cures". This makes Dickens angry, and he never wants anything to do with him again.
+*He sometimes remarks "I've got one of them electric belts if you wanna lose weight." This is a reference to electric abdominal muscle stimulators, which were a popular trend in the early 20th century.
+
+==Gallery==
+<gallery widths="180" captionalign="left">
+File:Rdr_armadillo_doctor's_office.jpg
+File:Rdr nathanial johnston sign.jpg
+rdr_nathanial_johnston_store_counter.jpg
+</gallery>
+
+==Navigation==
+{{Characters}}
+{{DEFAULTSORT:Johnston, Nathaniel}}
+[[Category:Characters in Redemption]]
+[[Category:Shopkeepers]]
+[[fr:{{PAGENAME}}]]

@@ -1,0 +1,26 @@
+{{User/characterbox
+|image = Butcher Bros.jpg
+|game = ''[[Red Dead Redemption]]'' <small>(mentioned)</small><br>''[[Red Dead Redemption 2]]'' <small>(mentioned)</small>
+|gender = Male
+|affiliations =
+|status = Deceased
+}}'''The Butcher Brothers''' are minor characters mentioned in ''[[Red Dead Redemption]]'' and ''[[Red Dead Redemption 2]]''.
+
+==History==
+===Background===
+The Butcher Brothers renowned gunslingers and outlaws of the Old West. In 1896, both of them were shot and killed by [[Landon Ricketts]]<ref>[[Landon Ricketts Rumored Alive]]</ref>. The circumstances of their deaths aside from this are unknown.
+
+===Events of ''Red Dead Redemption 2''===
+The player can find a cigarette card depicting the Butcher Brothers, as part of the [[Famous Gunslingers Card Set]]. They are mentioned in the [[Newspapers/Red Dead Redemption 2|newspaper]] articles "Cigarette Cards Give Fame To Murderers" and "Mongrel Gang Terrorizing Area".<ref>[[Cigarette Cards Give Fame to Murderers]]</ref><ref>[[Mongrel Gang Terrorizing Area]]</ref>
+
+== References ==
+<references />
+
+{{Clear}}
+==Navigation==
+{{Characters}}
+{{Characters 2}}
+{{DEFAULTSORT:Butcher Brothers}}
+[[Category:Mentioned characters in Redemption 2]]
+[[Category:Mentioned characters in Redemption]]
+[[fr:Frères Butcher]]

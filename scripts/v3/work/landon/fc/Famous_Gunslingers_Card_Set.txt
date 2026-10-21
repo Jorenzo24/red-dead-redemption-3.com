@@ -1,0 +1,69 @@
+The '''Famous Gunslingers Card Set''' is a collectible set of [[Cigarette Cards]] players may put together in ''[[Red Dead Redemption 2]]''. Mailing the set to [[Phineas T. Ramsbottom]] awards Special Snake Oil and $50.
+
+== Locations ==
+<table-progress-tracking table-id="1" unique-column-index="1">
+{|class="wikitable sortable" style="text-align: center; width:100%;"
+! style="background-color:#38090A" |Name
+! style="background-color:#38090A" |Location
+! style="background-color:#38090A" |State
+! style="background-color:#38090A" |Notes
+|-
+| [[Frank Heck]] || [[Valentine]]
+|[[New Hanover]]|| On a gravestone to the northeast.
+|-
+| [[Otis Miller]] Boys || [[Six Point Cabin]]
+|[[New Hanover]]|| Southeast of the rope bridge at the Grizzlies West/Cumberland Forest is Six Point Cabin. Can be found in the back of the blue wagon slightly to the east.
+|-
+| [[Jack Hall Gang]] || [[Chez Porter]]
+|[[Ambarino]]|| On the windowsill inside the western shack.
+|-
+| [[The Butcher Brothers|Butcher Brothers]] || [[Butcher Creek]]
+|[[New Hanover]]|| On a barrel on the front porch of the southeastern-most house. The house is red, but very dirty, and there are many animal skins hanging on one side of it.
+|-
+| [[Flaco Hernández|Flaco Hernandez]] || [[Rhodes]]
+|[[Lemoyne]]|| South of the Butcher is the bank. The card can be found on the edge of the roof, accessible by ladder around back.
+|-
+| [[Slim Grant]] || [[Fairvale Shanty]]
+|[[Ambarino]]|| On a barrel.
+|-
+| [[Landon Ricketts]] || [[Armadillo]]
+|[[New Austin]]|| Behind the house that faces the undertaker. On a barrel next to a discarded green shelf.
+|-
+| [[Black Belle]] || [[Blackwater]]
+|[[West Elizabeth]]|| On a barrel at the river boat company. Facing the pier, look to your right, walk past a parkbench and some crates.
+|-
+| [[Billy Midnight]] || [[Tumbleweed]]
+|[[New Austin]]|| On the platform of the windmill to the east.
+|-
+|  [[Emmet Granger]]
+| [[Fort Wallace]] & [[Bluewater Marsh]]
+|[[New Hanover]] & [[Lemoyne]]
+| On the table in the lean-to on the western side of the Fort. Can only be obtained from [[The King's Son|"The King's Son"]] until the start of [[Our Best Selves|"Our Best Selves"]].
+
+On a table inside the abandoned house of [[Canebreak Manor]]
+|-
+| [[Jim "Boy" Calloway]] || [[Saint Denis]]
+|[[Lemoyne]]|| In a mausoleum in the northwest quarter of the cemetery. On the map it is "hollow". The mausoleum has a wrought iron gate, and has small pointy trees around it.
+|-
+| [[Bart Love]] || [[Hanging Dog Ranch]]
+|[[West Elizabeth]]|| On  a combined wall-shelf next to the couch inside the house.
+|}</table-progress-tracking>
+
+== Gallery ==
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+Frank Heck.jpg|Frank Heck
+Otis Miller Boys.png|Otis Miller Boys
+Jack Hall Gang.png|Jack Hall Gang
+Butcher Bros.jpg|Butcher Brothers
+FlacoHernandez RDR2 CigaretteCard-3426-1600.jpg|Flaco Hernandez
+Slim Grant - Redemption 2 - Portrait.jpg|Slim Grant
+Landonricketts.jpg|Landon Ricketts
+Black Belle - Redemption 2 - Portrait.jpg|Black Belle
+Billy Midnight - Redemeption 2 - Portrait.jpg|Billy Midnight
+Emmetgranger.jpg|Emmet Granger
+Jimboycalloway.jpg|Jim "Boy" Calloway
+Bart Love.png|Bart Love
+</gallery>
+[[Category:Red Dead Redemption II]]
+[[Category:Collectible]]
+[[fr:As de la gâchette célèbres]]

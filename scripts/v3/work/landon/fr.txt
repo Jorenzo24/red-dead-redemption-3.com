@@ -1,0 +1,114 @@
+{{InfoboxPersonnages
+| theme = 
+| title1 = Landon Ricketts
+| image1 = Landon Ricketts01.jpg
+| apparition = ''[[Red Dead Redemption]]<br/>[[Undead Nightmare]]''
+| caption1 = 
+| naissance = 1861
+| dapparition = 
+| décès = 
+| genre = Masculin
+| nationalité = Américaine
+| ldv = [[Chuparosa]] <small>(RDR)</small><br/>[[Casa Madrugada]] <small>(UN)</small>
+| surnom = [[Ricketts infecté]] <small>(''[[Undead Nightmare]]'')</small>
+| activité = 
+| famille = Femme décédée
+| allié = [[John Marston]]<br/>[[Luisa Fortuna]]<br/>[[Emilio Fortuna]]<br/>[[Carlos]]<br/>[[Andreas Müller]]<br/>[[L'étranger]]<br/>[[Manolo Santander]]<br/>[[Ramon]]<br/>[[L'Irlandais]] <small>(anciennement)</small>
+| statut = Décédé (1914)
+| ennemi = 
+| faction = 
+| arme = [[Revolver Schofield (RDR)|Revolver Schofield]]<br/>[[Revolver Cattleman (RDR)|Revolver Cattleman]]<br/>[[Pistolet semi-automatique (RDR)|Pistolet semi-automatique]]
+| monture = 
+| véhicule = 
+| acteur = [[Ross Hagen]]
+| motion capture = 
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+'''Landon Ricketts''' est un [[Personnages dans Red Dead Redemption|personnage majeur]] de ''[[Red Dead Redemption]]''.
+
+Il apparaît aussi dans ''[[Undead Nightmare]]'' sous le nom de '''Zombie Ricketts'''.
+
+== Histoire ==
+Landon est un ancien pistolero de 50 ans, ayant vécu dans le vieux Far West américain. La plupart de ses aventures de jeunesse ont pris place durant l'enfance de [[John Marston]], qui l'admirait beaucoup à cette époque. Il apparut dans de nombreuses batailles, notamment au moment où il tua les Frères Butcher en 1896, et aussi lors du tristement célèbre "[[Massacre de Blackwater]]" en 1899.
+
+Le massacre de cette ville aurait été la raison ayant poussé Ricketts à partir au [[Nuevo Paraíso|Mexique]], après avoir passé un temps en Californie de l'Est. Depuis, il vit à [[Chuparosa]] et s'est donné pour mission de faire régner le calme en ville à tout prix. Landon est un [[Représentants de la loi|représentant de la loi]] non-officiel, justifiant ce statut par son expérience de pistolero.
+
+== Interactions ==
+=== ''Red Dead Redemption II'' ===
+Même s'il n'est pas présent physiquement, Landon Ricketts est présent sur une [[Cartes de paquets de cigarettes|carte]] de la collection [[As de la gâchette célèbres]]. Il est aussi mentionné par [[Arthur Morgan]] lors d'une conversation avec [[Sadie Adler]], par [[John Marston]] lors de parties de poker au camp et par un adjoint à [[Valentine]]. 
+=== ''Red Dead Redemption'' ===
+John Marston le rencontre lors de son arrivée à [[Chuparosa]]. Trois bandits le provoquent, John les abat et Landon Ricketts voit la scène. Il lui offre un [[Revolver Schofield (RDR)|Revolver Schofield]] à la place du [[Revolver Cattleman (RDR)|Revolver Cattleman]] de John, qu'il juge trop inefficace. Il lui apprend ensuite à viser juste et donne au joueur le pouvoir d'utiliser le troisième niveau de [[Sang-froid]].
+
+Marston prouve sa bonne écoute en allant récupérer un chariot de la banque des mains de bandits, en allant par la même occasion à la rescousse d'un otage.
+
+Plus tard, le protagoniste voit Ricketts discuter avec [[Emilio Fortuna]] et son ami, sûrement en train de parler de [[Javier Escuella]]. Landon et Marston se rendent alors non loin d'une prison gardée par l'armée mexicaine, afin de libérer la sœur d'Emilio Fortuna, [[Luisa Fortuna|Luisa]]. Avec l'aide d'un certain [[Carlos]], un boucher d'[[El Matadero]], qui distrait les gardes à l'entrée de la prison, John et Landon progressent ensemble vers la cellule de Luisa en abattant tout le monde sur leur passage.
+
+Ricketts sort alors la [[Dynamite (RDR)|Dynamite]] pour détruire la porte de la cellule. Mais cela prend du temps pour préparer l'explosif, et John doit couvrir l'ancien pistolero. Une fois la porte de la cellule détruite, Ricketts hisse Luisa sur son épaule et doit, toujours avec Marston, qui le couvre, sortir de la prison en éliminant les derniers militaires. Carlos intervient ensuite pour récupérer Luisa.
+
+John renconte de nouveau Landon Ricketts à une table de [[Poker]] dans Chuparosa, jouant avec deux autres mexicains : [[Manolo Santander]] et [[l'étranger]], ainsi qu'avec un allemand répondant au nom d'[[Andreas Müller]]. Landon invite le protagoniste à se joindre à eux. Après quelques mains, Müller accuse Marston de tricher, celui-ci répondant qu'il ne le fait absolument pas. Provoqué en [[duel]], John tue Müller. Ricketts et le protagoniste retournent donc au bar de la ville pour boire un verre - avec l'argent de Müller. Ils sont alors interrompus par l'Etranger qui tient en otage une femme, un [[Couteau de chasse (RDR)|Couteau de chasse]] sous la gorge. Nouveau duel, John doit viser juste et abattre le mexicain, chose qu'il réussit.
+
+Enfin, il se rencontrent une dernière fois, toujours au bar de Chuparosa. Marston commence à s'impatienter et il demande à Ricketts s'il a des informations sur Escuella. L'ancien pistolero répond qu'il n'en a pas encore. John raconte alors à Landon sa vie passée, notamment dans le [[Bande de Dutch van der Linde|gang]] où il a évolué.
+
+Tous deux échangent à propos de leurs vies, lorsque Luisa, sauvée précédemment de la prison mexicaine, vient les voir. Elle implore aux deux compères de l'aider ; des prisonniers sont transportés dans des [[Chariots]] pour être exécutés par le [[Agustin Allende|Colonel Allende]]. Acceptant de l'aider, Marston et Ricketts préparent l'embuscade du convoi de prisonniers, tuant tous les soldats mexicains et prenant chacun le contrôle d'un chariot, afin de rejoindre la frontière américaine et de libérer tout le monde.
+
+Landon Ricketts et John Marston se disent alors adieu, le premier souhaitant bonne chance au second dans sa quête de la rédemption.
+==== Épilogue ====
+Dans le journal de Blackwater, il est dit que Landon Ricketts est mort paisiblement en 1914, durant son sommeil une semaine avant les évènements de l'épilogue de Red Dead Redemption "[[Souvenez-vous de ma famille]]". Il est aussi dit que Ricketts était en train d'écrire sa biographie, mais que la mort l'aurait arrêté dans son projet.
+
+Une nouvelle légende de l'Ouest s'est éteinte.
+=== ''Undead Nightmare'' ===
+[[Fichier:Landon Ricketts02.jpg|thumb|180px|Ricketts dans Undead Nightmare]]Dans'' [[Undead Nightmare]]'', Ricketts est apparemment reclus à [[Casa Madrugada]], tentant de défendre la villa de l'assaut des [[morts-vivants]]. Il demande de l'aide à John : ce dernier doit renforcer la défense avec de l'[[Appât à morts-vivants]] et de la Dynamite, que Ricketts combine permettant de créer un véritable appât explosif, tuant les morts-vivants.
+
+Après l'avoir aidé à [[Casa Madrugada]], Landon Ricketts est assis sur une chaise. Si le joueur tire sur une bouteille près de lui, il l'attaquera. Il faudra alors abattre ce Ricketts zombifié. Cela ne change en rien la continuation de l'histoire. A noter cependant que Landon peut survivre à un tir de Revolver Cattleman dans la tête, tout comme [[Amos]] dans la trame principale de ''Red Dead Redemption''.
+
+== Apparitions dans les missions ==
+=== ''Red Dead Redemption'' ===
+* "[[La tragédie du pistolero]]"
+* "[[Landon Ricketts remonte en selle]]"
+* "[[Heureux en amour]]"
+* "[[Le convoi mexicain]]"
+=== ''Undead Nightmare'' ===
+* "[[Biographies et fabulations]]"
+
+== Anecdotes ==
+* Dans la mission "[[Les routes du Paradis]]", [[l'Irlandais]] mentionne qu'il a rencontré un homme américain à Chuparosa qui avait tué quelqu'un. Cela prouve que l'alcoolique et l'ancien pistolero se sont connus à un certain moment.
+* Il a déjà été marié. Dans la mission "Heureux en amour", il dit clairement : "Heureusement que ma femme est morte".
+* John Marston mentionne que Ricketts était l'homme le plus rapide de l'Ouest.
+* Utilisant par habitude le [[Revolver Schofield (RDR)|Revolver Schofield]], il a déjà utilisé lui-même un Revolver Cattleman (disant pourtant à Marston que cette arme n'en est pas une vraie), et même un [[Pistolet semi-automatique (RDR)|Pistolet semi-automatique]].
+* Dans certaines missions, il utilise parfois le [[Pistolet GP]].
+* Dans ''Undead Nightmare'', il dit qu'un homme à Chicago écrit la biographie de Ricketts et qu'un autre à Pittshburg peint son portrait.
+* [[wikipedia:fr:Ross Hagen|Ross Hagen]], l'acteur l'interprétant, est décédé tragiquement le 7 Mai 2011 des suites d'un cancer.
+* Il a apparemment un bon niveau d'espagnol puisqu'il le parle dans la plupart des missions où il apparaît.
+
+== Galerie ==
+<gallery>
+Landon Ricketts06.jpg
+Landon Ricketts05.jpg|Avatar
+Chuparosa02.jpg
+Landon Ricketts04.jpg|Avatar (UN)
+Landon Ricketts03.jpg|Artwork officiel (UN)
+As de la gâchette célèbres08.jpg|Carte de la collection [[As de la gâchette célèbres]]
+</gallery>
+
+== Navigation ==
+{{Personnages RDR}}
+[[de:Landon Ricketts]]
+[[en:Landon Ricketts]]
+[[es:Landon Ricketts]]
+[[ru:Лэндон Рикетс]]
+
+[[Catégorie:Représentants de la loi]]
+[[Catégorie:Personnages dans Red Dead Redemption]]
+[[Catégorie:Personnages dans Undead Nightmare]]
+[[Catégorie:Personnages dans Red Dead Redemption: Multijoueur]]
+[[Catégorie:Personnages Révolution]]
+[[Catégorie:Personnages]]
+[[Catégorie:Relecture]]

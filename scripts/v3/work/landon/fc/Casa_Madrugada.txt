@@ -1,0 +1,156 @@
+{{Infobox location
+|subtitle    =The House of the Rising Sun
+|image       =Image:Rdr_casa_madrugada000.jpg
+|imagewidth  =300
+|name        =Casa Madrugada
+|game        =''[[Red Dead Redemption]]''
+|type        =[[Settlement]]
+|territory   =[[Nuevo Paraíso]]
+|region      =[[Diez Coronas]]
+|inhabitants =[[Eva Cortes]] <small>(prostitute)</small> <br /> [[Mario Alcalde]] <small>(pimp)</small> <br /> [[Julian Coronado]]<br />[[Jesus Quintero]] <small>(blacksmith)</small><br /> [[Damacio Guzman]]  <small>(preacher)</small><br /> [[Miguel Riosflores]]  <small>(station clerk)</small><br /> [[Emilio Cardinez]] <small>(bartender)</small> <br /> [[Damacio Villaverde]] <br /> [[Carnelious Wolfe]] <br /> [[Lewis Eddins]] <br /> [[Delfino Zayas]] <br /> [[Cruz Del Valle]] <br /> [[Banditos]] <br /> [[Chelo Agramonte]] <small>(prostitute)</small>
+|image2      =Image:Rdr_casamadrugada_map.jpg
+}}
+
+'''Casa Madrugada''' (Spanish for '''Dawn House''', or colloquially '''The House of the Rising Sun''') is a [[brothel]] and [[settlement]] in ''[[Red Dead Redemption]]'' in the [[Diez Coronas]] region of the [[Nuevo Paraíso]] territory. It is a lawless location.
+
+==Background==
+===''Red Dead Redemption''===
+A portion of both the [[Vincente de Santa]] [[Missions in Redemption#Vincente de Santa|missions]] "[[Civilization, at Any Price]]" and "[[Mexican Caesar]]", and the [[Landon Ricketts]] [[Missions in Redemption#Landon Ricketts|mission]] "[[Landon Ricketts Rides Again]]" take place in this location, and the [[Luisa Fortuna]] [[Missions in Redemption#Luisa Fortuna|mission]] "[[Captain De Santa's Downfall]]" and the [[Abraham Reyes]] [[Missions in Redemption#Abraham Reyes|mission]] "[[The Great Mexican Train Robbery]]" both end here.
+
+The [[Strangers|Stranger]] [[Missions in Redemption#Stranger Side-missions|side-mission]] "[[Eva in Peril]]" begins in this location.
+
+===''Undead Nightmare''===
+During ''[[Undead Nightmare]]'', Casa Madrugada is a safe zone. But unlike the other safe zones, Casa Madrugada is not blocked off or protected by an army, and seems to be single-handedly protected by [[Landon Ricketts]]. Also, unlike the other safe zones, Casa Madrugada does have undead within its borders when Marston first arrives.
+
+The [[Missions in Redemption#Undead Nightmare|mission]] "[[Biographies and Lies]]" begins and ends in this location.
+
+This is also the location of [[Merche Coronado]], the sixth and final missing person to be rescued in the [[El Presidio]] segment of the [[Missing Souls]] [[Missions in Redemption#Side-missions|Side-missions]].
+
+=== Mission appearances ===
+'''''Red Dead Redemption'''''
+* "[[Civilization, at Any Price]]"
+* "[[Mexican Caesar]]"
+* "[[Landon Ricketts Rides Again]]"
+* "[[Captain De Santa's Downfall]]"
+* "[[The Great Mexican Train Robbery]]"
+
+'''''Red Dead Redemption/Stranger Side Missions'''''
+
+* "[[Eva in Peril]]"
+
+==Amenities==
+*[[Casa Madrugada Safehouse]] <small>(purchase for $250)</small>
+*[[Saloon]] 
+*[[Stagecoaches|Stagecoach]]
+*[[Telegraph Office]]
+*[[Trains|Train station]] <small>(red line stop between [[Las Hermanas]] and [[MacFarlane's Ranch]] - last stop in [[Nuevo Paraíso]])</small>
+
+==Activities==
+*[[Liar's Dice]] - winning a game here is the requirement for the third scrap of the [[Bandito Outfit]].
+*[[Poker]]
+
+==Crime==
+Casa Madrugada is no stranger when it comes to crime. Just like [[Thieves' Landing]], it too is a lawless town where anything goes, with the only cop in town (assuming he spawns there) being crooked. That's not to say if going about causing trouble, that there won't be repercussions. Most residents will stand up and fight if provoked, except for the local priest and the prostitutes/waitresses. Casa Madrugada also has its fair share of criminal acts such as:
+* Men pulling knives on prostitutes with [[Random Encounters#Damsel In Distress|threats of cutting their throats]] and eventually killing them.
+* Occasionally a [[Random Encounters#Wild Posse|wild posse]] of [[banditos]] on horseback come charging through the town, shooting their guns into the air, dragging a lassoed victim behind them for extra laughs.
+* [[Dueling|Duels]]: Sometimes out of the blue, a man will challenge the player to a duel. However, sometimes they will challenge them and said they killed his close one.
+
+==Tips==
+*After completing the story mission "Captain de Santa's Downfall", the town will be deserted until completion of "[[An Appointed Time]]", meaning that the requirements for the Bandito Outfit cannot be completed. Even after completion of "An Appointed Time", Liar's Dice and Poker do not occur as frequently as before. Therefore, it is advisable to at least get the scrap required from Casa Madrugada before finishing the mission. However, it's been noted that killing the priest, outside the bar preaching, will bring people back, including the gamblers.
+*Players can gain the [[Dastardly]] achievement easily here. Simply wait for a train to pull into the station, lasso a woman, and carry her the short distance to the waiting train.
+
+== Trivia ==
+=== ''Red Dead Redemption'' ===
+*A [[Federales|Mexican Lawman]], [[Salvador Vegas]], can commonly be seen in the saloon playing poker or drinking. Even if criminal activities are done there, he will not become hostile, unless he is attacked or provoked directly. Fighting him will also not give the player a bounty or a wanted level.
+**However, it is possible to start a small shootout between him and the criminals in town. Sometimes, albeit rarely, if the player fights one of the [[Unaffiliated criminals]] or the [[Banditos]] in town, and the said outlaw is close to Vegas, he might pull out one of his weapons and start shooting at him. However, the other criminal elements usually return fire and kill Salvador on spot or even after taking cover.
+*Sometimes in Casa Madrugada, wolves, coyotes, and bobcats will be found inside the town's walls, attacking the inhabitants. Snakes can also be found slithering around as well. Most residents will shoot back at them if they are attacked.
+*Even though the icon for the telegraph office does not appear, Marston can pay off his bounties there.
+*The name "Casa Madrugada" may be a reference to the song "[[Wikipedia:The House of the Rising Sun|The House of the Rising Sun]]", which refers to a brothel and/or an underground casino in New Orleans, and both prostitution and gambling are also prevalent in Casa Madrugada.
+*A poster of [[Abraham Reyes]] can be found in the alley leading to the shooting gallery at the back of the building.
+*If the player walks over to the shooting gallery, which is down the alley behind the building, there is a piece of rope with no object hanging from it. If the player touches it, it will connect to his head.
+*If the player is on the upper corridor of the house and the player starts shooting people, NPCs in the lower level of the house may shoot the player through the ceiling.
+*On rare occasions wolves have been known to spawn inside the lower rooms of the main building. However, they are usually killed by the residents.
+*Casa Madrugada seems to be one of the poorest locations in Mexico.
+*Casa Madrugada and [[Chuparosa]] are the only cantinas or [[saloon]]s in the game with a fireplace. At nights, the fireplace will usually be turned on and a NPC may stand besides it or smoke.
+*[[Carnelious Wolfe]] and a few other NPCs have a room rented here as they can always be found sleeping on beds during nighttime or a certain time of the day.
+*If the player hogties and brings a [[Bollard Twins gang]] member to this location, the [[Banditos]] and [[Unaffiliated criminals]] will start shooting at him once he cuts him free. The same will happen if the player brings a Mexican outlaw to [[Thieves' Landing]]. This would assume, even if far apart from each other, the two gangs share some sort of rivalry.
+*Oddly, unlike with the Chuparosa cantina, [[Sergio Abelda]] is the only Bandito to never spawn here. On the contrary, [[Yago Alejandres]] and [[Mateo Clisante]] spawn here frequently, but never in Chuparosa.
+
+=== ''Undead Nightmare'' ===
+*Casa Madrugada is one of three locations in ''Undead Nightmare'' that has a safehouse, but no permanent survivors in the area. The other two locations are [[Beecher's Hope]] and [[The Old Bacchus Place]].
+**Casa Madrugada is the only one out of the three locations that has a town status, it being a safe zone.
+*Casa Madrugada does not have the same weather patterns as other areas that can be saved, or safe zones. Instead, it shares the same weather patterns with the ones in the wilderness. As such, green moons, rain, and any other weather pattern unique to only occurring outside of safe areas, are common here.
+
+==Gallery==
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+Casa-Madrugada-view-after-duel.jpg|Casa Madrugada
+Casamadrugada.jpg|Casa Madrugada
+Rdr casa madrugada01.jpg
+Casa_Madrugada_3.jpg|The Cantina at Casa Madrugada
+CasaMadrugada1.jpg|Casa Madrugada seen from bird's eye
+Casa Madrugada in Red Dead Redemption 2.jpg|Casa Madrugada absent in ''Red Dead Redemption 2''
+</gallery>
+
+==Achievements/Trophies==
+===''Red Dead Redemption''===
+The discovery of this [[Locations in Redemption|location]] in ''[[Red Dead Redemption]]'' counts towards the following [[Trophies/Achievements]]:
+
+{{Achievement
+|Image = Onthetrail.png
+|Title = On the Trail of de Vaca
+|Score = 10
+|Trophy = <font COLOR="#CD7F32">Bronze</font>
+|Desc = Uncover every [[Locations in Redemption|location]] on the map in Single Player.
+}}----
+
+{{Achievement
+|Image = Fightin'aroundtheworldachievement.jpg
+|Title = Fightin' Around the World
+|Score = 5
+|Trophy = <font COLOR="#CD7F32">Bronze</font>
+|Desc = Knock someone out in melee in every [[saloon]] in the game in Single Player.
+}}----
+
+{{Achievement
+|Image  = Redeemed.png
+|Title  = Redeemed
+|Score  = 100
+|Trophy = <font COLOR="#D4AF37">Gold</font>
+|Desc   = Attain 100% List in the singleplayer game completion list.
+}}----
+
+===''Undead Nightmare''===
+Keeping this location free of [[Undead]] infestation during the ''[[Undead Nightmare]]'' contributes toward the following Achievements/Trophies:
+
+{{Undead Achievement
+|Image  = Rdr_spinning_plates.jpg
+|Title  = Spinning Plates
+|Score  = 10
+|Trophy = <font COLOR="#CD7F32">Bronze</font>
+|Desc   = Have every territory saved at the same time during the Undead Nightmare
+}}----
+Completing "[[Biographies and Lies]]" and rescuing the [[Missing Persons|missing person]] at this location also contribute toward the following Trophy/Achievement:
+
+{{Undead Achievement
+|Image  = Rdr_zed's_dead_baby.jpg
+|Title  = Zed's Dead, Baby
+|Score  = 40
+|Trophy = <font COLOR="#C0C0C0">Silver</font>
+|Desc   = Attain 100% Game Completion statistic in Undead Nightmare.
+}}
+
+==Navigation==
+{{Redemption Locations}}
+{{100% Completion}}
+{{Related Content}}
+
+[[de:Casa Madrugada]]
+[[es:Casa Madrugada]]
+[[fr:Casa Madrugada]]
+[[ru:Каса-Мадругада]]
+[[pt-br:Casa Madrugada]]
+
+[[Category:Redemption Locations]]
+[[Category:Nuevo Paraiso]]
+[[Category:Settlements]]
+[[Category:Locations]]

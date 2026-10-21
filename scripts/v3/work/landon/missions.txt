@@ -1,0 +1,10 @@
+The Gunslinger's Tragedy	scripts/v3/work/_m/The_Gunslinger_s_Tragedy.txt
+The Gunslinger's Tragedy/dialogues	scripts/v3/work/_m/The_Gunslinger_s_Tragedy_dialogues.txt
+Landon Ricketts Rides Again	scripts/v3/work/_m/Landon_Ricketts_Rides_Again.txt
+Landon Ricketts Rides Again/dialogues	scripts/v3/work/_m/Landon_Ricketts_Rides_Again_dialogues.txt
+Lucky in Love	scripts/v3/work/_m/Lucky_in_Love.txt
+Lucky in Love/dialogues	scripts/v3/work/_m/Lucky_in_Love_dialogues.txt
+The Mexican Wagon Train	scripts/v3/work/_m/The_Mexican_Wagon_Train.txt
+The Mexican Wagon Train/dialogues	scripts/v3/work/_m/The_Mexican_Wagon_Train_dialogues.txt
+Biographies and Lies	scripts/v3/work/_m/Biographies_and_Lies.txt
+Biographies and Lies/dialogues	MISSING (no such wiki page)

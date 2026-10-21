@@ -1,0 +1,72 @@
+{{User/characterbox
+|name = Norman Deek
+|image = [[File:Rdr_norman_deek_(better).jpg|300px]]
+|aka = *Norm
+*{{addendum|by Jonah|Bessie}}
+*{{addendum|by John|Mr. Deek}}
+|status = Deceased
+|gender = Male
+|affiliations = [[Williamson gang]]
+|weapon = [[Cattleman Revolver]]<br />[[Winchester Repeater]]
+|voice actor = [[James Carroll]]
+|game = ''[[Red Dead Redemption]]''
+|location = [[Fort Mercer]] in [[Río Bravo]], State of [[New Austin]]
+|voice = [[James Carroll]]
+|nationality = American
+|occupation = Outlaw
+}}
+{{Quote|Go to hell!|Norman Deek}}
+'''Norman Deek''' is a [[Characters in Redemption#Supporting characters|supporting character]] and a minor antagonist featured in ''[[Red Dead Redemption]]''.
+
+==History==
+===Background===
+Born in 1877,<ref>Stated to be 34 years in issue no. 55 of ''[[Blackwater Ledger|The Blackwater Ledger]]'', which was published in 1911.</ref>  Norman Deek is the second-in-command of the [[Williamson gang]], holed up at [[Fort Mercer]].
+
+===Events of ''Red Dead Redemption''===
+Deek is first encountered in the mission [[Spare the Rod, Spoil the Bandit|"Spare the Rod, Spoil the Bandit"]]. He is situated along with Williamson on the escarpment, holding a gun on [[John Marston]] and Marshal [[Leigh Johnson]]'s posse. Deek then leads the assault immediately after this encounter. Deek survives, having only minor wounds, and is arrested by Johnson.
+
+Johnson intends to interrogate Deek and exploit him to assist Marston's planned assault on Fort Mercer. Several days after his capture, the Williamson gang kidnaps [[Bonnie MacFarlane]] from [[Hennigan's Stead]], and holds her under threat of rape and murder. A Williamson [[Outlaw on Horse|gang member]] rides to Armadillo to deliver the ultimatum to Johnson, initiating the mission [[Hanging Bonnie MacFarlane|"Hanging Bonnie MacFarlane"]].
+
+Johnson pragmatically accepts the exchange, carrying a restrained Deek to [[Tumbleweed]] alongside Marston, [[Eli]] and [[Jonah]]. The gang members, awaiting their arrival, ambush them during the exchange and Deek is unceremoniously gunned down by his own gang while being in front of Marston. His death is announced in the ''[[Blackwater Ledger]].''
+
+==Mission appearances==
+;''Red Dead Redemption''
+*[[Spare the Rod, Spoil the Bandit|"Spare the Rod, Spoil the Bandit"]]
+*[[Hanging Bonnie MacFarlane|"Hanging Bonnie MacFarlane"]]
+
+==Quotes==
+{{Quote|I'm sure it's been nice for the boys to have a whore to play with. I hear those rancher girls like it in the rear. Maybe she won't wanna go home, she's been fucked so good.|Norman Deek, referring to [[Bonnie MacFarlane]] and her abduction}}
+{{Quote|You wait, Marshal. I'll be back for you.|Norman Deek to [[Leigh Johnson]]}}
+{{Quote|We already filled you with lead once, you ugly bastard.|Norman Deek to [[John Marston]]}}
+{{Quote|I can't wait for you to meet the boys. Stop spurrin' so hard, dammnit! Only a coward hides behind a badge.|Norman Deek}}
+{{Quote|It'd be my pleasure.|Norman Deek to John Marston after the latter said he'll use Norman as a shield}}
+{{Quote|What you waiting for? Untie me fellas!|Norman Deek's last words}}
+
+==Trivia==
+* When [[Jonah]] captures Norman in "[[Spare the Rod, Spoil the Bandit]]" he does not have his hat on. In [[Hanging Bonnie MacFarlane]], he does have his hat on. This most likely a developer oversight.
+* Norman Deek is one of the few characters to say the word "fuck" more than once.
+* Norman's gun belt has 2 gun holsters. This is something that only three other characters in the game have: Marshal [[Leigh Johnson]], [[Enepay]], and [[Benton Manning]].
+
+==Gallery==
+<gallery widths="206" spacing="small" position="center" captionalign="center">
+Rdr spare rod spoil bandit22.jpg|Norman standing next to Bill.
+Rdr spare rod spoil bandit23.jpg|Norman pointing his gun at Marston and his allies.
+File:Rdr_spare_rod_spoil_bandit25.jpg|[[Jonah]] riding on Norman's back.
+File:Rdr_spare_rod_spoil_bandit26.jpg|Deek being kicked by Leigh Johnson.
+File:Rdr_spare_rod_spoil_bandit27.jpg|Leigh arrests Norman.
+Rdr hanging bonnie macfarlane13.jpg|Norman, moments before his demise.
+Savvy Merchant.jpg|Promotional image for the [[Savvy Merchant Outfit]], featuring Norman.
+</gallery>
+
+==References==
+{{References}}
+
+==Related Content==
+{{Related Content}}
+{{Characters}}
+{{DEFAULTSORT:Deek, Norman}}
+[[de:Norman Deek]]
+[[es:Norman Deek]]
+[[Category:Characters in Redemption]]
+[[Category:Antagonists]]
+[[fr:Norman_Deek]]

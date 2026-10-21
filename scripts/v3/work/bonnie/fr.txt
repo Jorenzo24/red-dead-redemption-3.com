@@ -1,0 +1,147 @@
+{{InfoboxPersonnages
+| theme = 
+| title1 = Bonnie MacFarlane
+| image1 = <gallery>
+Bonnie MacFarlane08.png|1898
+Bonnie MacFarlane01.jpg|1911
+</gallery>
+| caption1 = 
+| naissance = 1884
+| statut = Vivante
+| dapparition = 1914
+| décès = 
+| genre = Féminin
+| nationalité = Américaine
+| ldv = [[MacFarlane's Ranch]]
+| surnom = Miss MacFarlane
+| activité = Rancher
+| famille = [[Drew MacFarlane]] <small>(Père)</small><br/>Mère non-nommée <small>(probablement morte)</small><br/>[[Frères MacFarlane|4 frères décédés]]<br/>[[Patrick MacFarlane]] <small>(Frère)</small>
+| allié = [[John Marston]]<br/>[[Amos]]
+| ennemi = [[Bill Williamson]]<br/>[[Bande de Williamson]]
+| faction = 
+| arme = [[Revolver Cattleman (RDR)|Revolver Cattleman]]<br/>[[Carabine à répétition (RDR)|Carabine à répétition]]
+| monture = 
+| véhicule = 
+| acteur = [[Kimberly Irion]]
+| motion capture = 
+| apparition = ''[[Red Dead Redemption]]<br/>[[Undead Nightmare]]<br/>[[Red Dead Redemption II]]'' <small>(Mentionnée)</small><br/>''[[Red Dead Online]]''
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+'''Bonnie MacFarlane''' est un [[Personnages dans Red Dead Redemption|personnage majeur]] présent dans ''[[Red Dead Redemption]]'' et un [[Personnages dans Red Dead Online|étranger]] présent dans ''[[Red Dead Online]]''.
+
+== Histoire ==
+Bonnie est née en 1884. Agée donc de 27 ans en 1911, elle est la fille de [[Drew MacFarlane]], le propriétaire de [[MacFarlane's Ranch]]. Elle a d'ailleurs passé toute sa vie à y travailler avec son père.
+
+Elle a eu six [[Frères MacFarlane|frères]], mais cinq parmi eux sont morts. Le seul restant est [[Patrick MacFarlane|Patrick]], qui lui est parti pour New York, où il est supposément employé en tant que [[Banques|banquier]]. Avec la mort de pratiquement toute sa génération, Bonnie s'impose elle-même comme "l'homme" du ranch.
+
+== Interaction ==
+=== ''Red Dead Online'' ===
+En 1898, Bonnie propose des missions au [[protagoniste de Red Dead Online]]. Elle a besoin d'aide pour récupérer des biens, livrer des colis et escorter des voyageurs.
+=== ''Red Dead Redemption II'' ===
+En 1899, près de [[Annesburg]], le [[Arthur Morgan]] peut trouver un naufragé sur la plage, si il est fouillé, le naufragé lui passera une lettre pour Bonnie.
+
+Lorsque [[John Marston]] arrive à [[MacFarlane's Ranch]], un inconnu interpelle [[John Marston|John]] et lui parle du voyage que Bonnie fait actuellement avec son [[Drew MacFarlane|père]].
+=== ''Red Dead Redemption'' ===
+Elle est vue pour la première fois dans le train en partance de [[Blackwater]]. La raison pour laquelle elle est sur ce train est inconnue, mais il est possible qu'elle aille chercher du matériel pour le ranch.
+
+Lorsque [[John Marston]] se fait tirer dessus par [[Bill Williamson]] à [[Fort Mercer]], elle le ramasse sur le bord de la route, accompagné d'un ami, [[Amos]]. Elle paie un [[Cabinet du docteur|médecin]] $15 afin qu'il soigne Marston. Celui-ci remis sur pied, il effectuera quelques [[Missions dans Red Dead Redemption|missions]] pour Bonnie, comme [[Veilleur de nuit|veiller sur le ranch]], dresser des [[Chevaux dans Red Dead Redemption|chevaux]], et bien d'autres choses.
+
+Mais les choses se corsent lorsque la [[bande de Williamson]] incendie la grange du ranch. John doit alors évacuer les chevaux à l'intérieur. John part alors pour [[Armadillo]] pour rencontrer le [[Leigh Johnson|Marshal Johnson]].
+
+Une fois quelques missions pour le Marshal effectuées, Bonnie est prise en otage par des membres de la bande de Williamson. Menacée de [[La pendaison de Bonnie MacFarlane|pendaison]], les hommes de Bill veulent un de leurs lieutenants en prison à Armadillo, [[Norman Deek]], en échange de Bonnie. Le Marshal, ses [[Jonah|adj]][[Eli|oints]] et Marston se rendent à [[Tumbleweed]]. L'échange a lieu, mais c'est une embuscade. Deek est abattu par ses propres hommes et la pendaison de Bonnie débute. Le compte à rebours a commencé : elle commence à manquer d'oxygène et frôle la mort. John arrive finalement à couper la corde où a tirer dessus pour empêcher la mort de Bonnie, qui survit. Le Marshal Johnson et ses adjoints la ramènent en lieu sûr une fois que tous les hommes de Williamson sont morts.
+
+Après la mort de [[Dutch van der Linde]], John retourne dans sa ferme, [[Beecher's Hope]], et y retrouve sa [[Abigail Marston|femme]] et son [[Jack Marston|fils]]. Avec Abigail, John part pour le MacFarlane's Ranch. Bonnie, surprise de le revoir en vie après tant de temps, est tout de même heureuse de le voir de nouveau auprès de sa famille, en paix. John lui emprunte un [[vache|troupeau de vaches]] pour le ramener à Beecher's Hope. Elle entre ensuite sur les talons d'Amos dans le [[magasin général]] de [[MacFarlane's Ranch]], marquant alors sa dernière apparition dans la trame principale.
+==== Épilogue ====
+En 1914, Bonnie MacFarlane est mariée. Jack Marston est toujours le bienvenu à MacFarlane's Ranch, pouvant utiliser la [[Planque de MacFarlane's Ranch|cabane]] où son père s'était réveillé, bien vivant, trois années plus tôt. Cependant, Jack ne voit jamais Bonnie.
+=== ''Undead Nightmare'' ===
+Dans ''[[Undead Nightmare]]'', Bonnie est toujours à [[MacFarlane's Ranch]], restant de marbre face à l'épidémie de [[morts-vivants]] qui ravage la région. Mais dans ses mots, un grand ton d'inquiétude est soulevé. Elle explique à John que son père, Drew, est parti chasser les zombies autour du ranch, et qu'elle ne l'a plus revue depuis la veille. Marston va vérifier. John lui révèle ce qui est arrivé à son père. Elle se dit contente qu'il ait eu le cran d'aller se battre, avant de rentrer chez elle.
+=== Multijoueur de ''Red Dead Redemption'' ===
+Avec l'addition du [[Pack menteurs et tricheurs]], il est un modèle de personnage en mode [[Red Dead Redemption: Multijoueur|Multijoueur]] de ''[[Red Dead Redemption]]''.
+
+== Apparitions dans les missions ==
+=== ''Red Dead Redemption'' ===
+* "[[Exode en Amérique]]
+* "[[Nouveaux amis, vieux ennuis]]"
+* "[[Une route semée d'embûches]]"
+* "[[Bienvenue à Armadillo, USA]]"
+* "[[Des femmes et du bétail]]"
+* "[[Chevaux sauvages et passions domptées]]"
+* "[[Le calme avant la tempête]]"
+* "[[L'incendie]]"
+* "[[La pendaison de Bonnie MacFarlane]]"
+* "[[Le retour du hors-la-loi]]"
+* "[[Vieux amis, nouveaux ennuis]]"
+=== ''Undead Nightmare'' ===
+* "[[La gloire de son père]]"
+
+== Anecdotes ==
+=== Red Dead ===
+* Bonnie partage plusieurs similitudes avec [[Annie Stoakes]], un personnage féminin du précédent opus, ''[[Red Dead Revolver]]''. Les deux femmes sont des ranchers aux cheveux blonds, à l'accoutrement similaire et vivants des histoires similaires avec le protagoniste.
+* L'âge de Bonnie est confu. Dans un [[Une femme enlevée retrouvée vivante|article]] du [[Journaux dans Red Dead Redemption|journal]] [[The Blackwater Ledger 000055]], il est dit que "''mademoiselle MacFarlane étant une vieille fille de 29 ans''", suggérant donc qu'elle est née en 1882, ce qui est contradictoire avec l'âge que Bonnie donne dans la mission "[[Bienvenue à Armadillo, USA]]" qui est 27, indiquant donc qu'elle serait née en 1884. 
+** Une autre incohérences à propos de son âge se situe dans ''Red Dead Redemption II'', où la grange du ranch est toujours en construction alors que Bonnie affirme qu'elle a été construite lorsqu'elle était petite. Le jeu se déroulant en 1899, elle a 15 ans au moment des évènements.
+** Bonnie apparaît dans ''Red Dead Online'', soit en 1898, ce qui est incohérent avec son âge. Lors de cette année-là, elle n'a que 14 ans bien qu'elle ait l'apparence d'une jeune femme d'une vingtaine d'années.
+* Bonnie MacFarlane est nommée en référence à la tante de Rob Hanson, l'ancien designer de [[Rockstar San Diego]]. IL nomme le ranch qu'il design "MacFarlane's Ranch" et la fille du propriétaire Bonnie juste avant de démissionner.
+=== ''Red Dead Redemption'' ===
+* Bonnie apparaît au dos de la carte présente dans la boite du jeu.
+* Sa tenue est achetable pour personnaliser le personnage PlayStation Home ou l'avatar Xbox.
+* John n'appelle Bonnie que deux fois par son prénom. Le reste du temps, il l'appelle "miss MacFarlane".
+* Sur les artworks, elle a une [[carabine Winchester]] bien qu'elle n'en a pas dans le jeu.
+* Il est impossible de savoir si Bonnie a appris la [[Le dernier ennemi à abattre|mort]] de John.
+* [[Norman Deek]], le lieutenant de la [[Bande de Williamson|bande]] de [[Bill Williamson]], dit que Bonnie a été violée après avoir été prise en otage. Elle affirme cependant que rien n'est arrivé, or, sa ceinture a été enlevée et sa chemise a été déchirée.
+* En regardant bien, elle porte deux ceintures comme la plupart des [[:Catégorie:Personnages masculins dans Red Dead Redemption|personnages masculins]]. Elle porte une ceinture normale et une ceinture à munitions.
+* Bonnie porte un collier [[amérindiens]].
+
+=== ''Undead Nightmare'' ===
+* Dans le contenu téléchargeable ''Undead Nightmare'', un graffiti apparaît sur un mur de [[Blackwater]] et dit "You do so love to talk in riddles". C'est une citation que Bonnie dit lors d'une mission. Il existe aussi une autre citation écrite sur un autre mur.
+
+== Galerie ==
+=== ''Red Dead Redemption'' ===
+<gallery>
+Bonnie MacFarlane06.jpg
+Bonnie MacFarlane03.jpg
+Bonnie MacFarlane02.jpg
+Bonnie MacFarlane05.jpg
+Nouveaux amis, vieux ennuis01.jpg
+Nouveaux amis, vieux ennuis02.jpg
+</gallery>
+=== ''Red Dead Redemption: Multijoueur'' ===
+<gallery>
+Abraham Reyes06.jpg|Bonnie, [[Seth Briars]] et [[Abraham Reyes]]
+</gallery>
+
+== Navigation ==
+{{Personnages RDR}}
+{{Personnages RDO}}
+[[de:Bonnie MacFarlane]]
+[[en:Bonnie MacFarlane]]
+[[es:Bonnie MacFarlane]]
+[[nl:Bonnie MacFarlane]]
+[[ru:Бонни МакФарлейн]]
+
+[[Catégorie:Personnages]]
+[[Catégorie:Personnages dans Red Dead Redemption]]
+[[Catégorie:Personnages présents dans Red Dead Redemption]]
+[[Catégorie:Personnages dans Undead Nightmare]]
+[[Catégorie:Personnages dans Red Dead Redemption: Multijoueur]]
+[[Catégorie:Personnages dans Red Dead Redemption II]]
+[[Catégorie:Personnages mentionnés dans Red Dead Redemption II]]
+[[Catégorie:Personnages dans Red Dead Online]]
+[[Catégorie:Personnages présents dans Red Dead Online]]
+
+[[Catégorie:Personnages féminins]]
+[[Catégorie:Personnages féminins dans Red Dead Redemption]]
+[[Catégorie:Personnages féminins dans Red Dead Redemption II]]
+[[Catégorie:Personnages féminins dans Red Dead Online]]
+
+[[Catégorie:Famille MacFarlane]]
+
+[[Catégorie:Personnages Redemption]]
+[[Catégorie:Relecture]]

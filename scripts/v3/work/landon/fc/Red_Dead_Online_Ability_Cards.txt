@@ -1,0 +1,220 @@
+'''Ability Cards''' are special cards in [[Red Dead Online|''Red Dead Online'']] that provide the [[Red Dead Online protagonist|''Red Dead Online'' protagonist]] with attributes that affect the damage they deal, and how it is dealt.
+
+== Description ==
+There are four slots available for abilities: 1 slot for Dead Eye, granting an ability activated during [[Dead Eye]], and 3 slots for Passive Abilities, which affect the player persistently. There is '''one Active slot''', and '''three Passive slots''' to fill.   
+
+The Dead Eye slot unlocks at Rank 2. The three passives unlock at ranks 10, 20, and 40.    
+
+Abilities can be found in the Abilities section of the Pause menu or accessed via the Weapon Wheel.
+
+While ranking up, Ability Cards will unlock and become available to buy with cash. Similarly, upgrade the cards already owned by unlocking upgrades from gaining XP. Each card has three tiers to unlock, greatly enhancing the abilities whilst increasing in price. The 3rd tier gives the best stats for the card.
+
+For all cards it costs '''$50''' to buy (except the player's first Dead Eye card), '''$350''' to upgrade to Level 2, and '''$500''' to upgrade to level 3.
+
+== '''Dead Eye Abilities''' ==
+{| class="article-table"
+!Ability
+!Unlocks
+!Description
+!Card
+|-
+|A Moment To Recuperate
+|Rank 2
+|While Dead Eye is active you regenerate health. Taking any damage will cancel Dead Eye.
+|[[File:A_Moment_To_Recuperate.png|thumb|100px]]
+|-
+|Focus Fire I
+|Rank 2
+|While Dead Eye is active you and your allies deal a little more damage. If more than one member of your team has this ability active, the effects do not stack.
+|[[File:Focus_Fire_I.png|thumb|100px]]
+|-
+|Paint it Black
+|Rank 2
+|While Dead Eye is active you can paint targets onto enemies. Fire your weapon to shoot all marked targets. Each shot drains Dead Eye.
+|[[File:Paint_it_Black.png|thumb|100px]]
+|-
+|Slow and Steady I
+|Rank 24
+|While Dead Eye is active you take a little less damage and headshots do not kill you outright. You cannot run or sprint.
+|[[File:Slow_and_Steady_I.png|thumb|100px]]
+|-
+|Quite An Inspiration I
+|Rank 44
+|While Dead Eye is active you and your allies regenerate health. If more than one member of your team has this ability active, the effects do not stack.
+|[[File:Quite_An_Inspiration_I.png|thumb|100px]]
+|-
+|Slippery Bastard I
+|Rank 50
+|While Dead Eye is active enemy players cannot lock onto you, and you cannot lock onto them. Other enemies are a little less accurate when shooting at you. The rate at which your Dead Eye drains is dramatically increased.
+|[[File:Slippery_Bastard.png|thumb|100px]]
+|}
+
+== Passive Ability Cards  ==
+There are three different types of Passive Ability Cards: Combat Abilities, Recover Abilities, and Defense Abilities. Passive Card effects are always working while in the player's loadout.
+
+* The 1st Passive Ability Card slot unlocks at Rank 10
+* The 2nd Passive Ability Card slot unlocks at Rank 20
+* The 3rd Passive Ability Card slot unlocks at Rank 40
+
+=== '''Combat Abilities''' ===
+{| class="article-table"
+!Ability
+!Unlocks
+!Description
+!Card
+|-
+|Gunslinger’s Choice
+|Rank 10
+|While dual-wielding, you deal more damage and are more accurate.
+|[[File:Gunslinger’s_Choice.png|thumb|100px]]
+|-
+|Horseman
+|Rank 10
+|You deal a little more damage while on horseback.
+|[[File:Horseman.png|thumb|100px]]
+|-
+|Sharpshooter
+|Rank 10
+|While using a scope, you deal more damage and take less damage.
+|[[File:Sharpshooter.png|thumb|100px]]
+|-
+|Necessity Breeds
+|Rank 16
+|As you get closer to death, you start to do a little more damage.
+|[[File:Necessity_Breeds.png|thumb|100px]]
+|-
+|Landon’s Patience
+|Rank 18
+|Waiting for up to 15 seconds between shots slightly increases your damage.
+|[[File:Landon’s_Patience.png|thumb|100px]]
+|-
+|The Short Game
+|Rank 38
+|You deal more damage to targets closer to you, but less to far away targets.
+|[[File:The_Short_Game.png|thumb|100px]]
+|-
+|Hangman
+|Rank 42
+|Lasso chokes enemies dealing damage for every second they are lassoed.
+|[[File:Hangman.png|thumb|100px]]
+|-
+|Winning Streak
+|Rank 48
+|Each consecutive shot on the same target does a little more damage.
+|[[File:Winning_Streak.png|thumb|100px]]
+|}
+
+=== '''Recovery Abilities''' ===
+{| class="article-table"
+!Ability
+!Unlocks
+!Description
+!Card
+|-
+|Iron Lung
+|Rank 10
+|Your Stamina regenerates faster, and you take less damage depending on your current Stamina level.
+|[[File:Iron_Lung.png|thumb|100px]]
+|-
+|Kick in the Butt
+|Rank 10
+|Whenever you take damage, a proportion of it is added to your Dead Eye.
+|[[File:Kick_in_the_Butt.png|thumb|100px]]
+|-
+|Live for the Fight
+|Rank 10
+|You regenerate Dead Eye slowly over time.
+|[[File:Live_for_the_Fight.png|thumb|100px]]
+|-
+|Ride Like the Wind
+|Rank 10
+|Whenever you take or deal damage while mounted, a proportion of it is added to your horse's Health and Stamina.
+|[[File:Ride_Like_the_Wind.png|thumb|100px]]
+|-
+|Come Back Stronger
+|Rank 10
+|Health begins regenerating a little sooner after you take damage.
+|[[File:Come_Back_Stronger.png|thumb|100px]]
+|-
+|Peak Condition
+|Rank 14
+|You inflict a little more damage if your Stamina is at least 75% full.
+|[[File:Peak_Condition.png|thumb|100px]]
+|-
+|Eye for an Eye
+|Rank 28
+|Headshots restore a little Dead Eye.
+|[[File:Eye_For_An_Eye.png|thumb|100px]]
+|-
+|The Gift of Focus
+|Rank 40
+|Items and Abilities which restore Dead Eye have their effects slightly improved. You deal a little less damage.
+|[[File:The_Gift_Of_Focus.png|thumb|100px]]
+|-
+|Strange Medicine
+|Rank 32
+|You regain a little health whenever you inflict damage. Your health will otherwise regenerate at half the normal rate.
+|[[File:Strange_Medicine.png|thumb|100px]]
+|-
+|Cold Blooded
+|Rank 36
+|After killing an enemy you will get back a little health over the next five seconds.
+|[[File:Cold_Blooded.png|thumb|100px]]
+|}
+
+=== '''Defense Abilities''' ===
+{| class="article-table"
+!Ability
+!Unlocks
+!Description
+!Card
+|-
+|Fool Me Once
+|Rank 10
+|You take less damage each consecutive time you are shot. This effect ends if you are not shot for 10 seconds.
+|[[File:Fool_Me_Once.png|thumb|100px]]
+|-
+|Friends for Life
+|Rank 10
+|While mounted, you and your horse take less damage.
+|[[File:Friends_for_Life.png|thumb|100px]]
+|-
+|Strength in Numbers
+|Rank 10
+|You take less damage for every nearby ally, up to a maximum of three allies.
+|[[File:Strength_in_Numbers.png|thumb|100px]]
+|-
+|Hunker Down
+|Rank 20
+|Take less damage while in cover.
+|[[File:Hunker_Down.png|thumb|100px]]
+|-
+|To Fight Another Day
+|Rank 22
+|Take less damage from bullets while sprinting.
+|[[File:To_Fight_Another_Day.png|thumb|100px]]
+|-
+|The Unblinking Eye
+|Rank 26
+|Dead Eye and Eagle Eye drain slower.
+|[[File:The_Unblinking_Eye.png|thumb|100px]]
+|-
+|Take the Pain Away
+|Rank 34
+|Reviving someone gives you and that person less damage taken for 8 seconds.
+|[[File:Take_the_Pain_Away.png|thumb|100px]]
+|-
+|Of Single Purpose
+|Rank 40
+|Take less damage from bullets while unarmed or using a melee weapon.
+|[[File:Of_Single_Purpose.png|thumb|100px]]
+|-
+|Never without One
+|Rank 46
+|Your hat will block one headshot and then fall off. If you are not wearing a hat you take more damage.
+|[[File:Never_without_One.png|thumb|100px]]
+|}
+
+[[de:Fähigkeitskarten]]
+[[Category:Red Dead Online]]
+[[Category:Gameplay]]

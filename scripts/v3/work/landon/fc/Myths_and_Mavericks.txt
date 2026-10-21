@@ -1,0 +1,90 @@
+{{/infobox}}
+{{Featured Past|1=October 2011}}
+The '''Myths and Mavericks''' bonus pack is a piece of free downloadable content for ''[[Red Dead Redemption]]'' that was released on September 13, 2011 via Xbox LIVE and PlayStation Network. The DLC requires the installation of [[Title Update 1.07]].
+
+==Background==
+The DLC was first hinted at on June 6, 2011 in an announcement that stated it was being made for fans, "as a show of appreciation for your amazing support since the game’s release last year".<ref name="dlc-announcement-01">[http://www.rockstargames.com/newswire/article/16621/free-fan-appreciation-dlc-for-red-dead-coming-soon.html FREE Fan Appreciation DLC for Red Dead Coming Soon]</ref> A follow-up post on July 27 pinned down the September timeframe and included the teaser that Landon Ricketts would be a playable character.<ref name="dlc-announcement-02">[http://www.rockstargames.com/newswire/article/17961/the-free-red-dead-redemption-myths-and-mavericks-bonus-pack-dlc-.html The Free Red Dead Redemption Myths and Mavericks Bonus Pack DLC Is Coming in September]</ref> The final release date and contents were revealed in an announcement on September 1, 2011.<ref name="dlc-announcement-03">[http://www.rockstargames.com/newswire/article/18701/release-date-details-on-the-free-red-dead-redemption-myths-and-m.html Release Date & Details on the Free Red Dead Redemption Myths and Mavericks Bonus Pack]</ref> It is the final piece of DLC to be released for the game.
+
+==Contents==
+The DLC includes new multiplayer characters and new multiplayer locations, as detailed in the sections below. There are no new [[Trophies/Achievements]], [[Multiplayer Challenges]], or [[Titles]] associated with this DLC, but stats accumulated within the new map locations do count towards existing challenges.
+
+===Multiplayer Characters===
+These eight characters are all added to the [[Outfitter]] under the "Revolution" category:
+
+*[[Drew MacFarlane]]
+*[[Eli]]
+*[[Javier Escuella]]
+*[[Jonah]]
+*[[Landon Ricketts]]
+*[[Nastas]]
+*[[Uncle]]
+*[[Vincente de Santa]]
+
+===Multiplayer Locations===
+New competitive map locations for [[Shootout]], [[Grab the Bag]], [[Gang Shootout]], [[Gold Rush]], [[Hold Your Own]], and [[Stronghold]]:
+
+*New locations, never featured in competitive multiplayer maps before:
+**[[Beecher's Hope]] (Stronghold)
+**[[Benedict Point]] (Hold Your Own, Grab the Bag)
+**[[Cochinay]] (Gold Rush, Shootout, Gang Shootout, Stronghold)
+**[[El Presidio]] (Gold Rush, Shootout, Gang Shootout)
+**[[Gaptooth Breach]] (Shootout, Gang Shootout)
+**[[Nekoti Rock]] (Gold Rush, Shootout, Gang Shootout)
+**[[Perdido]] (Hold Your Own, Grab the Bag)
+**[[Pike's Basin]] (Shootout, Gang Shootout)
+**[[Plainview]] (Gold Rush, Shootout, Gang Shootout)
+**[[Torquemada]] (Stronghold)
+*New modes added to existing multiplayer maps:
+**[[Armadillo]] (Stronghold)
+**[[Chuparosa]] (Stronghold)
+**[[Rio Bravo]] (Shootout, Gang Shootout)
+**[[Tumbleweed]] (Stronghold)
+
+Note: Rio Bravo has already been used in Shootout and Gang Shootout maps, but required the ''[[Legends and Killers]]'' DLC. With ''Myths and Mavericks'', the maps are now available even to players without ''Legends and Killers''. The loadouts and game conditions are different than in the ''Legends and Killers'' Rio Bravo maps.
+
+===Multiplayer Playlists===
+The preceding map locations were initially accessed via three new playlists: Myths and Mavericks Free For All Games, Myths and Mavericks Gang Matches, and Myths and Mavericks Stronghold. On September 23, 2011, the playlists were adjusted, adding a hardcore option and merging the Stronghold matches into the playlist with the Gang matches.<ref name="hardcore-announcement-01">[http://www.rockstargames.com/newswire/article/18951/hardcore-matches-now-added-for-red-deads-myths-and-mavericks-fre.html Hardcore Matches Now Added for Red Dead's Myths and Mavericks FREE Bonus Pack]</ref> Due to a limitation on the total number of playlists, there is not a separate hardcore playlist for FFA games. Instead, Rockstar will alternate the FFA playlist between normal and hardcore on a weekly basis.
+
+The updated playlists are:
+*Myths and Mavericks Free For All Games
+**Free For All games - changes between normal and hardcore on a weekly basis
+*Myths and Mavericks Team Games
+**Gang matches + Stronghold
+*Myths and Mavericks Hardcore Team Games
+**Gang matches + Stronghold
+
+==Notes==
+*No other DLC is required to play on ''Myths and Mavericks'' game modes. Therefore, a player without the [[Liars and Cheats]] DLC pack can still play Myths and Mavericks Stronghold.
+*The game maps added by ''Myths and Mavericks'' include three features not present in any of the maps released before:
+**Dangerous animals: [[bear]]s, [[boar]]s, and [[cougar]]s appear on certain maps in FFA, Gang matches, and Stronghold and will attack players during the match. Previously there was no risk of animal attack during these game modes.
+**Standoff/Showdown weapon variety: Previously, only [[Revolvers]] and [[Pistols]] were used in the standoff/showdown that starts a match. On certain ''Myths and Mavericks'' maps, [[Shotguns]] or the [[Tomahawk]] are used.
+**The [[Explosive Rifle]] is available in chests on many of the new FFA and Gang maps. Previously this weapon was only available in Stronghold and in certain gang hideouts.
+
+==Trivia==
+*Unlike almost all of the other characters featured in Multiplayer, the characters in this pack only have 7 taunts.
+*Rather than using a different actor for Landon Ricketts, Rockstar used Singleplayer quotes, in respect to [http://www.imdb.com/name/nm0353448/ Ross Hagen] (Landon Ricketts' voice actor) who died of prostate cancer.
+
+==Gallery==
+<gallery widths="200" spacing="small">
+Mythsandmavericks5-640.jpg|Stronghold at Beecher's Hope with Landon Ricketts, Eli, Jonah, and Uncle.
+Mythsandmavericks2-640.jpg|Gang Shootout in Gaptooth Breach with Uncle, Landon Ricketts, and Nastas.
+Mythsandmavericks3-640.jpg|Stronghold in Torquemada with Javier Escuella, Drew MacFarlane, Vincente de Santa, and Eli.
+Mythsandmavericks4-640.jpg|Shootout at Nekoti Rock with Landon Ricketts and Javier Escuella.
+Mm characters.jpg|All the characters
+</gallery>
+
+==Video==
+[[File:Red Dead Redemption - Myths and Mavericks DLC Commentary Review|center|300px]]
+
+==References==
+{{reflist}}
+
+==Related Content==
+{{Related Content}}
+{{RDR series}}
+
+[[es:Red Dead Redemption: Mitos y Renegados]]
+[[de:Helden & Außenseiter Bonus-Paket]]
+[[fr:Pack Mythes et Insoumis]]
+[[Category:Multiplayer]]
+[[Category:Redemption DLC]]
