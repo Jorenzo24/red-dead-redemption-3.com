@@ -1,0 +1,149 @@
+{{InfoboxPersonnages
+| theme = Red Dead Redemption
+| title1 = Abraham Reyes
+| image1 = Abraham Reyes03.jpg
+| caption1 = 
+| naissance = 1884
+| statut = Vivant
+| dapparition = 1914
+| décès = 1911 <small>(''UN')</small>
+| genre = Masculin
+| nationalité = Mexicaine
+| ldv = [[Agave Viejo]]<br/>[[Escalera]]
+| surnom = Zombie Reyes (''[[Undead Nightmare]]'')
+| activité = Révolutionnaire<br/>Président
+| famille = Mère décédée<br/>[[Famille Fortuna]]<br/>[[Luisa Fortuna]] <small>(Amante)</small>
+| allié = [[Rebelles]]<br/>[[John Marston]]<br/>[[Victor Melendez]]
+| ennemi = [[Agustin Allende]]<br/>[[Armée mexicaine]]
+| faction = [[Rebelles]]
+| arme = [[Revolver Schofield (RDR)|Revolver Schofield]]<br/>[[Carabine Winchester]]<br/>[[Fusil Rolling Block (RDR)|Fusil Rolling Block]]<br/>[[Couteau de chasse (RDR)|Couteau de chasse]]
+| monture = 
+| véhicule = 
+| acteur = [[Josh Segarra]]
+| motion capture = 
+| apparition = ''[[Red Dead Redemption]]''<br/>''[[Undead Nightmare]]''
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+'''Abraham Reyes''' est un [[Personnages dans Red Dead Redemption|personnage majeur]] présent dans ''[[Red Dead Redemption]]''.
+
+== Histoire ==
+Abraham est âgé de 27 ans en 1911. Né d'une famille très riche, il affirme que la femme de ménage employée par ses parents lui disait qu'un jour, le nom d'Abraham Reyes sera connu de tous. Croyant fermement en ces mots, il a pour but de devenir un des plus grands partisans des révolutionnaires [[Nuevo Paraíso|mexicains]]. Fils d'un noble mexicain, Abraham Reyes fréquente des écoles au Mexique et en Europe et est expulsé d'une école suisse en raison d'une liaison avec une femme de chambre.
+
+Il s'immisce peu à peu à la tête de la guérilla faisant rage entre les [[Rebelles]] et l'[[Armée mexicaine]], et entame une rivalité singulière avec particulièrement le chef de cette dernière, le [[Ignacio Sanchez|Général Sanchez]]. Le charisme de Reyes lui permit de devenir très influent dans ses interventions paramilitaires, l'armée mexicaine considérant Abraham comme le cadet de leurs soucis, disant qu'il n'était ni plus, ni moins qu'un traître et un lâche.
+
+Il a eu une idylle avec [[Luisa Fortuna]], qui l'aime profondément ; cependant Reyes l'appelle toujours "Laura" et n'a aucune notion de fidélité.
+
+== Interactions ==
+=== ''Red Dead Redemption'' ===
+==== Chapitre 2 : Nuevo Paraiso ====
+En 1911, [[John Marston]] le rencontre pour la première fois dans la mission lorsqu'il [[Un sauveur doit-il mourir ?|doit infiltrer]] la forteresse d'[[El Presidio]] pour libérer Reyes, sous la menace d'une exécution imminente. Suite à ce sauvetage, John bascule dans l'autre camp : auparavant affilié au [[Agustin Allende|Colonel Allende]] qui l'a trahi, il rejoint les rangs des rebelles de Reyes, qui, en retour, aident Marston à capturer un vieil ami, [[Javier Escuella]].
+
+Enfin, les rebelles lancent une ultime attaque contre la villa d'Allende, à [[Escalera]], afin d'en finir une bonne fois pour toutes avec le Colonel tyrannique et [[Bill Williamson]], un autre vieil ami de John<ref name="Williamson">John a recherché Williamson durant tout son passage à New Austin.</ref>. Reyes chasse ensuite Sanchez du pouvoir, et promet de faire revivre le Mexique, et la région de [[Nuevo Paraíso]].
+
+==== Épilogue ====
+En 1914, [[Jack Marston]] peut lire un article dans un journal disant que Reyes n'a pas tenu sa promesse. Il est d'ailleurs mentionné qu'il est devenu un tyran, comme l'étaient Allende et Sanchez.
+
+=== Undead Nightmare ===
+Dans ''[[Undead Nightmare]]'', il s'avère que Reyes est à l'origine de l'épidémie responsable de la transformation des Hommes en [[morts-vivants]]. En effet, en faisant des fouilles sous sa villa d'Escalera, il a trouvé un [[Masque Aztèque|masque]] maudit. Pensant que cela le rendrait immortel, il a mis le Masque sur son visage, mais il s'est transformé en zombie, ainsi que beaucoup d'autres.
+
+Durant la dernière [[Missions dans Undead Nightmare|mission]] d'''Undead Nightmare'', John Marston le tue et se bat pour reposer le masque sur son piédestal dans les catacombes, stoppant alors l'épidémie. Lorsque le hors-la-loi retourne chez lui à [[Beecher's Hope]], son fils Jack et sa femme [[Abigail Marston|Abigail]], préalablement zombifiés, sont redevenus normaux. Cependant, quelques mois après, [[Seth Briars]] vole le masque, relancant l'épidémie.
+
+=== Multijoueur de ''Red Dead Redemption'' ===
+Avec l'addition du [[Pack menteurs et tricheurs]], il est un modèle de personnage en mode [[Red Dead Redemption: Multijoueur|Multijoueur]] de ''[[Red Dead Redemption]]''. 
+
+== Apparitions dans les missions ==
+=== Red Dead Redemption ===
+* "[[Un sauveur doit-il mourir ?]]"
+* "[[Les lâches meurent plusieurs fois]]"
+* "[[L'attaque du train mexicain]]"
+* "[[Les portes d'El Presidio]]"
+* "[[À l'heure convenue]]"
+=== ''Undead Nightmare'' ===
+* "[[Un homme civilisé]]"
+
+== Pesonnalité ==
+L'armée le méprise alors comme chef de combat, l'accusant de ne jamais mener ses propres batailles, mais plutôt de sacrifier ses disciples ; des accusations qui ont un grain de vérité mais qui sont grandement exagérées. Il évite les combats inutiles, mais sauve aussi personnellement John Marston des hommes de Vincente de Santa avant qu'il ne puisse être exécuté, participe à l'assaut sur Escalera aux côtés de Marston, agit comme un leurre pour aider au vol d'un train et manie un canon pendant l'assaut sur El Presidio.
+
+Reyes se voit sous un jour romantique, comme quelqu'un qui agit comme un libérateur pour les pauvres mexicain. Les paysans l'estiment énormément, admirant comment il ne croit pas aux divisions de classe et aux préjugés fondés sur le passé. Ceci est renforcé par la conversation entre John et Luisa, dans laquelle elle lui dit de façon heureuse que Reyes a promis de l'épouser lorsque la révolution aura pris fin. En réalité, cependant, Reyes est plus cynique, il est horrifié par la simple suggestion d'épouser Luisa, unne paysanne, se considérant comme au-dessus de la classe inférieure du Mexique, bien qu'elle prétendre être leur libératrice. Cela finit par le rendre semblable aux autres révolutionnaires devenus des tyrans avant lui. Reyes montre peu de respect pour ces paysans, oubliant parfois le nom de Luisa, même après qu'elle ait sacrifié sa vie pour lui.
+
+Reyes semble épouser les vertus de l'eugénisme ; une idée relativement nouvelle au tournant du siècle qui divise les "races" de l'humanité en classes supérieures et inférieures. Il prétend posséder plus de sang noble que les "paysans" pour lesquels il se bat et, lorsqu'il est interrogé sur son traitement peu favorable des travailleurs chinois, il dit qu'ils sont "une race inférieure", à laquelle John répond sarcastiquement qu'il a l'étoffe d'un vrai chef.
+
+Cependant, malgré l'hypocrisie flagrante et la promiscuité endémique de Reyes, il semble respecter certaines personnes comme John et [[Dutch van der Linde|Dutch]], même s'il n'a jamais rencontré ce dernier. Dans une certaine mesure, il respecte les révolutionnaires qu'il dirige et aussi le peuple mexicain sur lequel il a finalement régné, bien qu'il soit devenu plus tard un tyran. Il admire les idéaux de Dutch et avoue à John qu'il aurait aimé le rencontrer. Il récompense également John pour ses services en l'aidant à traduire Bill Williamson et Javier Escuella en justice.
+
+== Anecdotes ==
+* Certains traits de Reyes semblent être basés sur des révolutionnaires mexicains comme [[wikipedia:fr:Pancho Villa|Pancho Villa]], [[wikipedia:fr:Emiliano Zapata|Emiliano Zapata]] et [[wikipedia:fr:Venustiano Carranza|Venustiano Carranza]]. Cependant, le révolutionnaire qui ressemble le plus à Reyes est [[wikipedia:fr:Francisco Madero|Francisco Madero]]. Comme Reyes, Madero était issu d'une famille foncière extrêmement riche, avait fait ses études en Europe et était encore très jeune au début de la Révolution mexicaine, lorsqu'il s'est présenté à la présidence de la nation. De plus, les événements de "[[À l'heure convenue]]" reflètent la bataille de Ciudad Juarez et la bataille de Cuautla. Ces batailles, qui ont eu lieu en avril et mai 1911, impliquant quelque 3000 partisans révolutionnaires de Madero qui se battairent contre les partisans du président de l'époque, [[wikipedia:fr:Porfirio Diaz|Porfirio Diaz]]. Le traité qui suivit le siège mit fin à la première phase de la révolution mexicaine et donna temporairement le pouvoir à Madero, qui entra à Mexico quelques semaines plus tard et s'inaugurer comme président en novembre 1911.
+* Il partage son nom de famille avec [[wikipedia:fr:Bernardo Reyes|Bernardo Reyes]], un autre figure importante de la révolution mexicaine dans la vraie vie. Reyes a renversé le gouvernement de la région 'Nuevo León' et a régné en dictateur pendant plusieurs années.
+* "Reyes" signifie "Rois", en espagnol.
+* Un indice de la future dictature de Reyes se trouve lors de sa première rencontre à Agave Viejo. Après avoir rassemblé ses hommes, Reyes fera remarquer à John que leur énergie est comme la nourriture pour lui, une phrase qui est presque identique à celle utilisée par le chef fasciste [[wikipedia:fr:Benito Mussolini|Benito Mussolini]].
+* Son apparence sur les images promotionnelles est légèrement différentes de son apparence finale. Il avait une apparence plus soignée, en particulier son bouc et des cheveux légèrement plus courts.
+* Il porte une ceinture des [[Armée Confédérée|Confédérés]].
+* Bien que, semble-t-il par erreur, il appelle Luisa Fortuna, Laura, il est révélé qu'après la mission "À l'heure convenue", qu'il connait une autre fille nommée Laura.
+* Le fait qu'il soit dans la [[:Catégorie:Personnages Damnation|catégorie Damnation]] dans le [[Red Dead Redemption: Multijoueur|multijoueur]] est probablement lié à son comportement hypocrite et qu'il soit devenu un tyran.
+* Parfois, [[Herbert Moon]] dira que Reyes est "''as revolutionary as Napoleon!''" ("aussi révolutionnaire que Napoléon !"). Ces deux hommes étaient des révolutionnaires qui utilisaient les révolutions pour gagner le pouvoir. En outre, il dit que Reyes aime juste monter des chevaux dans un uniforme de fantaisie.
+* Des portraits d'Abraham peuvent être trouvés dans le jeu. L'un est situé à [[Casa Madrugada]], trois autres à Escalera, un à [[Tesoro Azul]], et enfin un dernier à [[Solomon's Folly]]<ref name="Solomon's Folly">Le fait qu'un portrait d'Abraham soit à Solomon's Folly est étrange ; car ce lieu est situé du côté américain et non mexicain du jeu. Or, Reyes a rarement quitté le Mexique.</ref>.
+* Lorsque John lui parle de son [[Bande de Dutch van der Linde|passé]], Abraham semble admirer [[Dutch van der Linde]] pour ses actions passées. Après que John ait expliqué son passé et pourquoi il est venu au Mexique, Reyes commence à croire qu'il a beaucoup en commun avec Dutch et trouve ce dernier très inspirant. Il admire particulièrement Dutch qui croit que le système de pouvoir aux États-Unis est terrible, que de bonnes personnes sont injustement mises à mal et que le changement est un effort nécessaire qui ne peut réussir que si elle est brutale et implacable. Peu avant de changer de sujet de conversation, Reyes avoue à Marston qu'il aurait aimé rencontrer Dutch van der Linde, si ce dernier n'avait pas complètement perdu la tête et avait disparu de la vue du public il y a plusieurs années.
+* Parfois, dans le multijoueur, Reyes parle de lui-même en utilisant la troisième personne.
+* Reyes semble être accro au sexe. Pendant la plupart de ses interactions avec John, il parle sans vergogne de ses divers exploits sexuels et de ses partenaires. Il a également affirmé avoir couché avec la femme de l'ambassadeur d'Espagne quand il voyageait en Europe. Reyes prétend que qu'il a tant de rapports sexuels pour le bien du peuple, dans une l'espoir d'obtenir autant de sang noble dans les paysans que possible, déclarant qu'il doit cela au peuple.
+* Parfois, [[Drew MacFarlane]] porte des vêtements similaires à Reyes.
+* Son arme de prédilection semble être la [[Carabine Winchester]].
+* Dans la mission "Les portes d'El Presidio", un des rebelles mentionne que Reyes a 27 ans.
+* Dans le fameux journal de 1914, il est annoncé qu'il est devenu un tyran, comme l'avaient été Allende et Sanchez, car il a ordonné à ses soldats d'exécuter des protestants.
+* Il est apparemment raciste, car à El Presidio, il insulte les Chinois.
+
+== Galerie ==
+=== ''Red Dead Redemption'' ===
+<gallery>
+Abraham Reyes01.jpg
+Abraham Reyes02.jpg
+Abraham Reyes04.jpg
+</gallery>
+=== ''Red Dead Redemption: Multijoueur'' ===
+<gallery>
+Abraham Reyes05.png|Modèle 3D
+Abraham Reyes06.jpg|Reyes, [[Seth Briars]] et [[Bonnie MacFarlane]]
+</gallery>
+
+== Références ==
+<references/>
+
+== Navigation ==
+{{Personnages RDR}}
+[[en:Abraham Reyes]]
+[[de:Abraham Reyes]]
+[[es:Abraham Reyes]]
+[[ru:Абрахам Райес]]
+[[it:Abraham Reyes]]
+
+[[Catégorie:Personnages]]
+[[Catégorie:Personnages dans Red Dead Redemption]]
+[[Catégorie:Personnages présents dans Red Dead Redemption]]
+[[Catégorie:Personnages dans Undead Nightmare]]
+[[Catégorie:Personnages présents dans Undead Nightmare]]
+[[Catégorie:Personnages dans Red Dead Redemption: Multijoueur]]
+
+[[Catégorie:Personnages masculins]]
+[[Catégorie:Personnages masculins dans Red Dead Redemption]]
+[[Catégorie:Personnages masculins dans Undead Nightmare]]
+
+[[Catégorie:Représentants de la loi]]
+[[Catégorie:Représentants de la loi dans Red Dead Redemption]]
+[[Catégorie:Représentants de la loi dans Undead Nightmare]]
+
+[[Catégorie:Chefs de bande]]
+[[Catégorie:Chefs de bande dans Red Dead Redemption]]
+
+[[Catégorie:Famille Fortuna]]
+
+[[Catégorie:Rebelles]]
+
+[[Catégorie:Personnages Damnation]]
+
+[[Catégorie:Relecture]]

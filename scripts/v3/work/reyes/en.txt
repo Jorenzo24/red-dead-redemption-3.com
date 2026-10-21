@@ -1,0 +1,168 @@
+{{User/characterbox
+|name = Abraham Reyes
+|image = [[File:Abraham Reyes PS5.jpg]]
+|gender = Male
+|location = Transitory
+|affiliations = [[Reyes' Rebels]] <small>(leader)</small><br />[[Mexican Army]] <small>(leader; 1911-current)</small><br />[[John Marston]]
+|status = Alive (''[[Red Dead Redemption]]'')<br />[[A Civilized Man|Undead/Deceased]] (''[[Undead Nightmare]]'')
+|weapon = [[Hunting Knife]]<br />[[Schofield Revolver]]<br />[[Winchester Repeater]]<br />[[Rolling Block Rifle]] <br /> [[Semi-auto Shotgun]]
+|voice= [[Josh Segarra]]
+|family = Unnamed father<br>Unnamed mother {{icon|dead}}
+|game = ''[[Red Dead Redemption]]''
+|nationality = [[File:Flag of Mexico 1899-1917.png|border|20px]] Mexican
+|occupation = Leader of [[Reyes' Rebels]]<br>President of Mexico <small>(1911-current)</small>
+|mount = [[Cleveland Bay]]
+}}
+{{Quote|I owe it to the future of Mexico to breed, my brother. If I can get noble blood flowing through the veins of peasants, can you imagine how great this country can be? An army of Reyes! Of Kings!|''Abraham Reyes''}}
+
+'''Abraham Reyes''' is a [[Characters in Redemption#Major characters|major character]] featured in ''[[Red Dead Redemption]]''.
+
+With the addition of the ''[[Liars and Cheats]]'' [[DLC]] pack, '''Abraham Reyes''' is also a [[Multiplayer Characters|multiplayer character]] model that may be selected in the 'Damnation' section of the [[Outfitter]].
+
+== History ==
+=== Background ===
+{{Quote|He is the 30-year-old son of a wealthy nobleman, who has seemingly sided with the peasants and the rebels to drive out the regime that supports Allende and de Santa. He is very vain and he does not seem to really care about the rights of the poor. However, Mr. Reyes does love to give speeches.|''Red Dead Redemption: Game of the Year Edition Guide''}}
+Abraham Reyes was born circa 1881<ref>''[[Brady Games Official Guide#Game of the Year (GOTY) Edition|Red Dead Redemption: Game of the Year Edition Guide]]''</ref> on a ranch just outside Mexico City.<ref name="Civil war">"Another Civil War in Mexico?"</ref> Born to a rich family, Reyes enjoyed a privileged upbringing. According to him, his nursemaid used to tell him when he was little, "Abraham, one day everybody will know you."<ref>Stated himself in "[[The Great Mexican Train Robbery]]".</ref> As the son of a Mexican nobleman, Reyes attended schools in both Mexico and Europe, eventually being expelled from a Swiss school due to an affair with a chamber maid.<ref name="Civil war"/>
+
+Reyes spent much of younger years travelling in Europe. Sometime prior to the summer of 1894,<ref>In the mission "[[The Gates of El Presidio]]", Reyes states that his time in Madrid was around the same time that [[Javier Escuella]] was still active in Nuevo Paraíso. Since Javier claims to have fled Mexico around the summer of 1894 in ''[[Red Dead Redemption 2]]'', that would mean that the events Reyes speaks of occured sometime before then.</ref> a teenage Reyes was living in the Spanish city of Madrid, where he slept with the ambassador's wife.<ref>Mentioned in a conversation with [[John Marston]] in "The Gates of El Presidio":<br>'''Abraham"''' ''"I knew I had heard the name Javier Escuella before. He is from this province. They tell me he was once a notorious bounty hunter, and also one of the early revolutionaries."''<br>'''John:''' ''"That sounds about right."''<br>'''Abraham:''' ''"All before my rebellious urges took hold, of course. I think I was still travelling in Europe at the time. I was living in Madrid with the ambassador's wife."''</ref>
+
+Reyes eventually became a revolutionary guerrilla leader in 1911, residing in [[Nuevo Paraíso]]. Promising social reform, Reyes inspired many peasants to partake in [[Mexican Revolution|violent revolution]] against the [[Mexican Army]] and President [[Ignacio Sanchez]]. Reyes initially directed his followers' anger towards the local governor, Colonel [[Agustin Allende]], his charisma making him an excellent recruiter for his band of guerillas. By October of that year,<ref>Reyes is first mentioned in the article, "Another Civil War in Mexico?" in the [[Blackwater Ledger No. 56|56th issue]] of the weekly [[Newspapers|newspaper]] ''[[Blackwater Ledger|The Blackwater Ledger]]''. The article "[[Nate Johns Elected Governor]]" in the [[Blackwater Ledger No. 57|57th issue]] describes the American gubernatorial election as having recently concluded, meaning it must have been published between November 1 and November 8 inclusive. Since issue no. 56 was released at least a week earlier, it can concluded that the events described occurred in late October.</ref> Reyes' exploits as the leader of the revolution are known as far as in the United States.<ref name="Civil war"/>
+
+=== Events of ''Red Dead Redemption''===
+
+==== Nuevo Paraíso ====
+Reyes is first encountered in the mission "[[Must a Savior Die?]]", where he has been captured by the Mexican Army and is set to be executed in El Presidio. John manages to rescue him and returns him to [[Luisa Fortuna|Luisa]]. 
+
+After John has been betrayed by the Mexican Army and is himself about to be executed in [[Chuparosa]], Reyes snipes the executioner about to kill [[John Marston]], before cutting his ropes off and helping him find his weapons. Later, he helps to co-ordinate a robbery of a train belonging to the Mexican Army with John, with John receiving the contents of the safe on the train. His spies manage to track down the whereabouts of [[Javier Escuella]] to [[El Presidio]], where Reyes and his rebels storm the fort, allowing John to locate with Escuella. After Javier is dealt with, the rebels march on Escalera to overthrow [[Agustin Allende|Allende]].
+
+During the battle, Reyes is captured and beaten by [[Raul Zubieta]] and his men, although he is freed when Zubieta is killed by Marston in a duel in revenge for killing Luisa. The rebels eventually fight their way to Allende's villa, but the Colonel flees to an armored stagecoach with [[Bill Williamson]], where John and Reyes give chase. After the accompanying bodyguards are eliminated, the stagecoach comes to a standstill, with Williamson being forced by Allende at sword's point to exit. The player can decide to shoot either Williamson or Allende themselves (or both), where Reyes will shoot whichever one was not killed by John (or both if the player kills neither of the two).
+
+==== West Elizabeth ====
+{{Quote|Finally, my people, the people of this proud and valiant land are free. A new golden age for our country is just beginning. First, we need a period of stability, and then elections and a place on the world stage.|Abraham Reyes in "Sanchez's Government Falls"}}
+The day after Allende's death, Reyes promises to establish a workers council in Nuevo Paraíso. At the same time he releases a new state anthem, a ballad of of his own composition.<ref>Stated in the article, "'Tyrannical' Governor Overthrown. Is Sanchez Next?", part of Blackwater Ledger No. 58, which is published after the mission "[[An Appointed Time]]", the events of which are described as having occurred the previous day.</ref>
+
+Following the rebellion's takeover of Nuevo Paraíso, Reyes continues the revolution as anti-government riots erupt across Mexico. Around two weeks after the assault on Escalera, Reyes and his army march on the capital.<ref>Reyes' takeover of the capital is mentioned in the Blackwater Ledger No. 60 article "Sanchez's Government Falls" as having occurred the day before publication. This is two weekly issues after Blackwater Ledger No. 58, which describes the assault on Escalera as also occurring the day before publication.</ref> He gains the allegiance of the Fifth Mexican Cavalry Division after promising higher pay and doubled leave, turning the tide of the battle and ransacking the presidential palace. With Ignacio Sanchez usurped, Reyes assumes the position of President of Mexico. Reyes subsequently announces a three-day fiesta and declares a national holiday. Nonetheless, rioting continues across much of the country.<ref>"Sanchez's Government Falls"</ref>
+
+==== Epilogue ====
+By 1914, Reyes has become a tyrannical dictator. Around October of that year,<ref>Mentioned to have occurred "last month" in the [[Blackwater Ledger No. 213]] article "[[President Reyes Denies He is a Tyrant, Despite Massacre]]", which was published in November of 1914.</ref> Reyes allegedly ordered soldiers to execute thousands of peaceful protesters in a small village south of the capital. He is additionally reported to have delayed democratic elections and of allowing citizens to starve. That November, Reyes speaks out to deny these accusations. Despite widespread scrutiny of having reneged on his promises to provide liberty to citizens of Mexico, he voices his belief that the country is at the point of "entering a new golden age", citing the recent construction of the new presidential palace as proof that the Mexican people can work effectively together and making plans for the construction of a concert hall and other civic buildings.<ref>"[[President Reyes Denies He is a Tyrant, Despite Massacre]]"</ref>
+
+== Events of ''Undead Nightmare'' ==
+'''Note:''' ''The events of Undead Nightmare are not considered part of the same canon as Red Dead Redemption. The following description is therefore not contiguous with the preceding section on Red Dead Redemption.''
+
+[[File:Rdr_undead_abraham_reyes.jpg|300px|right|border]] 
+During the events of ''[[Undead Nightmare]],'' Abraham Reyes finds an ancient [[Mask|Aztec mask]] underneath [[Escalera]] within a [[Escalera Catacombs|deep underground tomb]]. He puts it on thinking it would make him immortal, but it instead turns him undead and awakens the dead across the land. In the final mission, John kills the undead Reyes and puts the Mask back in its pedestal, thus ending the apocalypse. When John Marston returns home, he finds that both [[Abigail Marston]] and [[Jack Marston]] have turned back to normal. However, a few months later, [[Seth Briars]] is seen stealing the mask, recommencing the undead plague.
+
+== Character ==
+
+=== Personality ===
+{{Quote|Marry a peasant? My dear boy, don't be absurd. I'm going to be the next president of Mexico. My wife will meet ambassadors, kings, other great men. The very thought that I would marry some peasant girl with a tight c*nt, and the hands of a farmer, well I really don't think so. My mother, qué Dios la cuide, will turn in her grave.|Abraham Reyes, in response to Marston's mention of marrying Luisa}}
+Reyes sees himself in a romantic light, as someone who acts as a liberator to the impoverished of Mexico. The peasants hold him in high regard, admiring how he doesn't believe in class divides and prejudice based on background. This is reinforced in John's conversation with Luisa, in which she happily tells him that Reyes promised to marry her after the revolution has ended. Underneath, however, Reyes is more cynically minded; he is disgusted by the mere suggestion of marrying Luisa, a peasant, seeing himself as above Mexico's lower class, despite claiming to be their liberator. This ends up making him similar to the other revolutionaries-turned-tyrants before him. Reyes shows little regard for these peasants, forgetting Luisa's name on occasions, even after she sacrificed her life for him.
+
+Reyes seems to espouse the virtues of eugenics; a relatively new idea at the turn of the century which divides the "races" of humanity into upper and lower classes. He claims to possess more noble blood than the "peasants" he fights for and, when questioned of his less-than-favorable treatment of Chinese workers, he remarks that they are "an inferior race", to which John sarcastically remarks "You have the makings of a true leader, Abraham."
+
+Officials in the Mexican Army, such as [[Vincente De Santa]], think very little of Reyes, labeling him as a traitor and coward who never fights his own battles, but rather sacrifices his followers. While these accusations have a grain of truth, they are greatly exaggerated. He avoids unnecessary combat, but also shows to hold no qualms participating in it directly, such as personally rescuing [[John Marston]] from the Mexican Army before he can be executed. Additionally, he acts as a decoy to aid the theft of a train and mans a cannon during the assault on [[El Presidio]], and participates in the assault on [[Escalera]] alongside Marston.
+
+However, despite Reyes' blatant hypocrisy and rampant promiscuity, he does seem to respect certain people such as John and [[Dutch]], despite never meeting the latter. To some degree he respects the revolutionaries he leads and also the Mexican people he eventually ruled over, although he later became a tyrant. He admires Dutch's ideals and admits to John he would have liked to have met him. He also goes on to reward John for his services by helping him bring [[Bill Williamson]] and [[Javier Escuella]] to justice.
+
+==Mission appearances==
+;''Red Dead Redemption''
+* "[[Must a Savior Die?]]"
+* "[[Cowards Die Many Times]]"
+* "[[The Great Mexican Train Robbery]]"
+* "[[The Gates of El Presidio]]"
+* "[[An Appointed Time]]"
+
+;''Undead Nightmare''
+* "[[A Civilized Man]]"
+
+==Quotes==
+{{quote|Allende is dead... Mexico is mine!|Abraham Reyes}}
+{{quote|Now find your weapons and let's fight these dogs!|Abraham Reyes}}
+{{quote|These peasant girls, they believe every word a fellow says! So naive! It is really quite charming. I love peasants.|Abraham Reyes}}
+{{quote|Two old friends reunited. It is a beautiful thing.|Abraham Reyes, about [[John Marston|John]] and [[Javier Escuella|Javier]]}}
+{{quote|In a country where most people cannot read the newspaper, song is a powerful means of communication. We do what we can to battle the lies and propaganda of the government.|Abraham Reyes}}
+{{quote|A man like me cannot be with just one woman. It would be an injustice to the people I have devoted my life to serving.|Abraham Reyes}}
+{{quote|Their energy... it is like food to me!|Abraham Reyes}}
+{{quote|"Politics, my friend, is for fools. That's why it plays such an important role in this country."|Abraham Reyes}}
+{{quote|Sarcasm should be beneath a man such as you, Mr. Marston.|Abraham Reyes}}
+
+===Multiplayer===
+*''"They will write about these days."''
+*''"Look at all those men and women... They would all die for me!"''
+*''"Soy invencible."'' ''( I am invincible.)''
+*''"¿No sabes quién soy yo?"'' ''(Don't you know who I am?)''
+*''"Todos van a morir."'' ''(They're all going to die.)''
+*''"No vas a salir con la tuya, hijo de puta." (You won't get away with this, you''' son of a bitch.)'''''
+*''"Ahora mando yo."'' ''(Now I am in charge.)''
+*''"Creo que he cojido a tu hermana."'' ''(I think I fucked your sister.)''
+*''"Lucha como un hombre, ¡Cabrón!"'' ''(Fight like a man, you asshole!)''
+*''"Y a tu madre le gusta por el culo."'' ''(Your mother likes it in the ass!)''
+*''"La Revolución es imparable."'' ''(The revolution is unstoppable!)''
+*''"Soy Abraham Reyes.''" ''(I am Abraham Reyes.)''
+*''"Abraham Reyes ha llegado."'' ''(Abraham Reyes has come.)''
+*''"Quieres mi nombre!"'' ''(Ask me my name!)''
+*''"Soy imparable, el pueblo me adora."'' ''(I am unstoppable, the people love me.)''
+*''"¡Viva la Revolución!"'' ''(Long live the revolution!)''
+*''"Mato por mi país."'' ''(I kill for my country.)''
+*''"Voy a coger a sus hermanas. Hahaha! ''(''I'll fuck his sisters! Hahaha!'')
+*''"Eres un hombre muerto."'' ''(You're a dead man.)''
+*''"Arrodíllate ante su líder."'' ''(Kneel before your leader.)''
+*''"¡Vete a la chingada!"'' ''(Go to hell!)''
+*''"Dá mi saludo a tu madre."'' ''(Greet your mother for me.)''
+*''"Nadie puede matar a Abraham Reyes."'' ''(No one can kill Abraham Reyes.)''
+*''"Soy el libertador de México."'' ''(I'm the liberator of Mexico.)''
+
+==Trivia==
+*Aspects of Reyes appear to be based on Mexican revolutionaries such as [[wikipedia:Pancho_Villa|Pancho Villa]], [[wikipedia:Emiliano_Zapata|Emiliano Zapata]], and [[wikipedia:Venustiano_Carranza|Venustiano Carranza]]. However, the revolutionary who most resembles Reyes was [[wikipedia:Francisco_I._Madero|Francisco Madero]] (1873-1913). Like Reyes, Madero was from an enormously wealthy landowning family, earned part of his education in Europe, and was still quite young in the early stages of the [[wikipedia:Mexican_Revolution|Mexican Revolution]] when he challenged for the nation’s presidency. Furthermore, the events of "[[An Appointed Time]]" mirror the actual [[wikipedia:Battle_of_Ciudad_Ju%C3%A1rez_(1911)|Battle of Ciudad Juarez]] and the [[wikipedia:Battle_of_Cuautla_(1911)|Battle of Cuautla]]. These battles, which took place in April and May 1911, involved some 3,000 revolutionary supporters of Madero fighting against supporters of then-President [[wikipedia:Porfirio_D%C3%ADaz|Porfirio Diaz.]] The [[wikipedia:Treaty_of_Ciudad_Ju%C3%A1rez|treaty]] following the siege ended the first phase of the Mexican Revolution and temporarily granted power to Madero, who entered Mexico City weeks later and was inaugurated as president in November 1911.
+*He shares the same last name as [[wikipedia:Bernardo Reyes|Bernardo Reyes]], another important figure in the real-life Mexican Revolution. Bernardo overthrew the government in the real-life border region 'Nuevo León' and ruled for a few years as a dictator.
+*His last name "Reyes" means "kings" in Spanish. He makes a reference to this during a mission, wishing for Mexico to be filled with "kings".
+*A foreshadowing of Reyes' future dictatorial nature is found upon meeting him for the first time at [[Agave Viejo]]. After rallying his men, Reyes will remark to John that their energy is "like food" to him, a phrase which is almost identical to the one used by fascist leader [[wikipedia:Benito Mussolini|Benito Mussolini]].
+*As seen in pre-release screenshots, Reyes had a rather neater appearance, as his goatee and hair were slightly shorter.
+*He wears a Confederate States of America belt buckle.
+*Although he always seems to mistakenly call [[Luisa Fortuna]], "Laura" instead of Luisa, it was revealed after the mission, "[[An Appointed Time]]" that Laura was another girl he knew.
+*He is in the Damnation category in the Outfitter, most likely because he was a hypocrite who became a tyrant.
+*Sometimes, [[Herbert Moon]] will say that Reyes is "as revolutionary as Napoleon!" Both of these men were revolutionaries who used revolutions to gain power. In addition, he says that Reyes "just likes riding horses in a fancy uniform."
+*There are posters of Abraham throughout the game world. One is in [[Casa Madrugada]], three are in [[Escalera]], one is in [[Tesoro Azul]], another can be found at [[Solomon's Folly]], one in [[Benedict Point]] and another last one on the side of the assay building in [[Tumbleweed]].
+*In the mission "[[The Great Mexican Train Robbery]]", Reyes begins to idolize [[John Marston|Marston's]] old gang leader [[Dutch van der Linde]]. After John explains his backstory and why he came to Mexico, Reyes starts to believe that he has a lot in common with Dutch and finds the latter to be very inspirational. He especially admires Dutch for believing that the system of power in the United States was terrible, that good people were unjustly made to suffer and that change was a necessary endeavor that could only succeed if it was brutal and relentless. Shortly before changing the subject of conversation, Reyes admits to Marston that he would have liked to meet Dutch van der Linde, had the latter not completely lost his mind and disappeared from public view several years ago.
+*Sometimes in [[Multiplayer]] he may refer to himself in the third person.
+*Reyes seems to be addicted to sex. During most of his interactions with John, he talks shamelessly about his various sexual exploits and partners (like his situation with Luisa, he fails to mention any of the women's names. Aside from mentioning that the reason he kept referring to Luisa as "Laura" was because he had sex with a girl named Laura). He also claimed to have slept with the Ambassador to Spain's wife when he was traveling in Europe. Reyes claims that his reason for having so many sexual encounters is for the good of the people, in an attempt to get as much noble blood into the peasants as possible, stating that he "owes it to the people to breed!"
+**As such, Reyes is involved in the only on-screen sex scene throughout the entire game. In the opening cutscene of the mission "[[The Gates of El Presidio]]" John walks in on Reyes having sex with a girl on the table. When John makes them aware of his presence the girl runs out the room, while Reyes shows no indication of embarrassment or shame at what he was doing, even when John asks what Luisa would think if she had witnessed the event. During the wagon ride, he says that a man like him cannot be with only one woman, as he claims it would be a disloyal injustice to the people he devoted his life to serving.
+*Sometimes, [[Drew MacFarlane]] will be wearing the same outfit as Reyes.
+*Reyes' primary weapon appears to be the [[Winchester Repeater]], which he uses in the assault on El Presidio and the battle in Escalera. It is also, depending on the player, the weapon he uses to kill [[Bill Williamson]]/[[Agustin Allende|Colonel Allende]].
+*In ''Undead Nightmare,'' Reyes is the thinnest of all the [[Undead#Bruisers|Bruisers]] in the game.
+**Reyes also appears to be the only undead to have more than one set of audio files associated with his undead appearance. While idle, Reyes shares the same - although slightly different - groans and noises as the male [[Undead#Fresh Undead|Fresh Undead]]. However, if Reyes charges at the player, he shares the same roar as the Bruisers.
+
+==Gallery==
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+File:Abrahamreyes.jpg
+File:Reyes.jpg|Pre-release screenshot
+File:Rdr_reyes_marston.jpg|Pre-release screenshot
+Escuella.png|Reyes as a ''[[Redemption Multiplayer]]'' skin
+Rdr Reyes.jpg|Close-up of Reyes
+rdr_reyes01.jpg|Reyes, leader of the rebels
+RDR Multiplayer 362.jpg
+rdr_0494.jpg
+rdr_0490.jpg
+Rdr_abraham_reyes_square.jpg|Reyes in "[[The Great Mexican Train Robbery]]"
+Rdr Marston and Reyes kill Allende.png
+IMG_7620.JPG|Undead Reyes
+</gallery>
+==References==
+<references/>
+==Navigation==
+{{DEFAULTSORT:Reyes, Abraham}}
+{{RDR}}
+{{Characters}}
+
+[[de:Abraham Reyes]]
+[[es:Abraham Reyes]]
+[[fr:Abraham Reyes]]
+[[ru:Абрахам Райес]]
+[[it:Abraham Reyes]]
+[[pt-br:Abraham Reyes]]
+
+[[Category:Characters in Redemption]]
+[[Category:Characters in Undead Nightmare]]
+[[Category:Multiplayer characters in Redemption]]
+[[Category:Antagonists]]
+[[Category:Undead Characters]]

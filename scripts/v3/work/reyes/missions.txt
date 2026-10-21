@@ -1,0 +1,12 @@
+Must a Savior Die?	scripts/v3/work/_m/Must_a_Savior_Die.txt
+Must a Savior Die?/dialogues	scripts/v3/work/_m/Must_a_Savior_Die_dialogues.txt
+Cowards Die Many Times	scripts/v3/work/_m/Cowards_Die_Many_Times.txt
+Cowards Die Many Times/dialogues	scripts/v3/work/_m/Cowards_Die_Many_Times_dialogues.txt
+The Great Mexican Train Robbery	scripts/v3/work/_m/The_Great_Mexican_Train_Robbery.txt
+The Great Mexican Train Robbery/dialogues	scripts/v3/work/_m/The_Great_Mexican_Train_Robbery_dialogues.txt
+The Gates of El Presidio	scripts/v3/work/_m/The_Gates_of_El_Presidio.txt
+The Gates of El Presidio/dialogues	scripts/v3/work/_m/The_Gates_of_El_Presidio_dialogues.txt
+An Appointed Time	scripts/v3/work/_m/An_Appointed_Time.txt
+An Appointed Time/dialogues	scripts/v3/work/_m/An_Appointed_Time_dialogues.txt
+A Civilized Man	scripts/v3/work/_m/A_Civilized_Man.txt
+A Civilized Man/dialogues	MISSING (no such wiki page)
