@@ -128,3 +128,8 @@ Hierarchy everywhere: transcripts > mission pages > character pages of the wiki.
 - Fort Mercer assault (RDR1): posse = Johnson, Eli, Jonah, Dickens, Seth; Irish supplied the Gatling gun but misses the fight. Seth is already inside, dancing on the wall, and welcomes Dickens's wagon at the gate (who opens the gate is not stated: never "Seth opens the gate" or "lets the wagon through"); Dickens raps on the wagon as the signal; Bill left for Mexico "yesterday morning".
 - John meets Landon Ricketts on arriving in Chuparosa; Dickens never points him there.
 - "First cutscene shot = John finding Dickens": Rob Nelson (co-head of Rockstar North), quoted by IGN, May 2020.
+- RDR1 "Cowards Die Many Times": Reyes's rebels save John from the firing squad in Chuparosa; De Santa dies later at Sepulcro, shot by John or by the rebels (player's choice).
+- RDR1 "Civilization, at Any Price": De Santa has John escort a decoy train out of Chuparosa to lure the rebels.
+- RDR1 "An Appointed Time": Allende and Bill die on the road fleeing by stagecoach, shot by John or by Reyes; if John shoots neither, Reyes shoots both.
+- Reyes is in power by 1911 (Blackwater Ledger No. 60) and still in 1914; the 1914 article does not say who ordered the shooting.
+- Undead Nightmare: "A Civilized Man" is the second-to-last mission; "On a Pale Horse" is the last.
