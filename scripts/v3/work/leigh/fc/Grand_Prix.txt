@@ -1,0 +1,85 @@
+[[File:Carreras.png]]
+
+[[File:Rdr_horse_racing_01.jpg|border|300px|right]]
+
+'''Grand Prix''' is a [[Redemption Multiplayer|Multiplayer]] horse racing [[:Category:Game modes|game mode]] in ''[[Red Dead Redemption]]'' that is added by the ''[[Liars and Cheats]]'' DLC pack.
+
+==Description==
+2 - 8 Players are able to race against each other on horseback with mounted combat. Races are entered via the "Grand Prix" multiplayer menu item. Six sets of [[Multiplayer Challenges/Racing Challenges|Racing Challenges]] are included as one of the categories of [[Multiplayer Challenges]].
+
+==Grand Prix==
+There are three Grand Prix circuits, each with a varying number of races to win. A circuit is chosen at random when starting a new Grand Prix session. Once one circuit is completed, players will automatically proceed to the next circuit. The next circuit can also be skipped to if a majority of players chose to skip.
+
+'''Carreras Perdido Cup''' (4 Races)
+:1. Carrera del Diablo
+:2. Ridge Racin'
+:3. L. Johnson's Run
+:4. Coronas Paradise
+
+'''N. Johns Invitational''' (5 Races)
+:1. Tall Trees Trail
+:- Rio Run
+:- Manzanita Mile
+:- Boulder Dash
+:- Sidewinder Breeze
+:
+:Only the first race is guaranteed to be Tall Trees Trail.
+
+'''Rathskeller Series''' (3 Races)
+:1. Rathskeller Run
+:2. Saint's Sprint
+:3. Boulder Dash
+
+==Combat==
+After the first 10 seconds of any race, [[Weapons in Redemption|weapons]] will become active and players can attempt to shoot their opponents or their opponents' horses. Weapons include the [[Schofield Revolver]], the [[Pump-action Shotgun]] (with six rounds), and the [[Hunting Knife]]. Ammunition is in short supply and does not replenish if the player dies, so be sure to make shots count. The Hunting Knife can be used to slash an opponents' horse from under him. One way to regain ammunition is to shoot down the opposing player who already has a weapon drawn and by then galloping over the "dropped" weapon.
+
+If a player or player's horse is killed, the player respawns in a couple of seconds at the point of death, ready to continue racing.
+
+==Scoring==
+In each individual race, points are awarded based on the player's place, with a difference of two points for each position (1st place = 10 points, 2nd place = 8 points, etc.). The circuit ranking is based on the total points scored for the individual races in the circuit. In the event of a tie score, ranking is based on total time for all races.
+
+==Trivia==
+
+*This is best to use in tandem with the Horse Traveler [[Multiplayer Challenges/Stat Challenges|Stat challenges]], as it is better than just running all over the place for hours.
+*Ridge Racin' may be a reference to [http://en.wikipedia.org/wiki/Ridge_Racer_%28series%29 Ridge Racer], a racing game developed by [http://en.wikipedia.org/wiki/Namco Namco].
+*Boulder Dash is the only race in two separate Grand Prix.
+
+==Gallery==
+<gallery widths="150">
+File:RDR Liars and Cheaters Horse Racing Artwork.jpg
+File:Rdr_horse_racing_02.jpg
+File:Rdr_horse_racing_03.jpg
+File:Rdr_horse_racing_04.jpg
+File:Rdr_horse_racing_05.jpg
+</gallery>
+
+==Achievements/Trophies==
+The following [[Trophies/Achievements]] can be acquired by participating in '''Horse Racing''':
+
+{{Achievement
+|Image = Rdr_triple_crown.jpg
+|Title = Triple Crown
+|Score = 10
+|Trophy = <font COLOR="#C0C0C0">Silver</font>
+|Desc = Get first place in all races in any Grand Prix.
+}}
+----
+{{Achievement
+|Image = Rdr_peacewalker.jpg
+|Title = Peacewalker
+|Score = 5
+|Trophy = '''XBOX 360 Only'''
+|Desc = Finish a single race without getting shot or killed, and without shooting a bullet.
+}}
+----
+{{Achievement
+|Image = Rdr_glue_mon_dioux.jpg
+|Title = From Glue to Mon Dieu!
+|Score = 5
+|Trophy = <font COLOR="#CD7F32">Bronze</font>
+|Desc = During a Grand Prix, finish a race in first after placing last in the previous race.
+}}
+[[de:Grand Prix]]
+[[Category:Multiplayer]]
+[[Category:Activities]]
+[[Category:Game modes]]
