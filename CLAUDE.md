@@ -595,5 +595,11 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     le wiki citant le guide. RDR2 ne montre pas le braquage du ferry. Le Stranger de « Lucky in Love » = Sanchez, second
     de Müller, selon le wiki. Erreur corrigée chez John : ils combattent les soldats aux grottes près d'El Matadero puis
     sur la route d'Escalera (pas des « patrouilles »).
+  - **Nigel West Dickens v3** : 6 850 mots EN, 13 relations, galerie 7 (dernière = Undead Nightmare). 8 missions (7 à
+    l'acte I + « Bear One Another's Burdens »). Irish fournit la Gatling mais MANQUE le combat de Fort Mercer ; Seth est
+    déjà dans le fort et danse sur le rempart, Dickens donne le signal en frappant sur le chariot (corrigé chez John, Bill
+    et dans le guide acte I EN+FR). Ricketts : John le rencontre à son arrivée à Chuparosa (pas « indiqué par Dickens »,
+    guide acte II corrigé). « Premier tournage = John trouvant Dickens » : Rob Nelson, co-directeur de Rockstar North,
+    cité par IGN (mai 2020), pas Variety. Article de 1907 « Man Exposes Medical Frauds ».
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
