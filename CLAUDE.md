@@ -620,5 +620,11 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     route en fuyant en diligence ; si John ne tire pas, Reyes les abat tous les deux. Undead Nightmare : « A Civilized Man »
     est l'avant-dernière mission. Voix : Josh Segarra. Retiré chez John : l'affirmation non sourcée sur des voix
     différentes dans les premières bandes-annonces.
+  - **Agustin Allende v3** : 7 210 mots EN, 14 relations, galerie 6 (dont l'affiche rebelle « perrito faldero »). John
+    travaille pour lui parce qu'il PROMET de retrouver Bill et Javier ; c'est Reyes qui révèle plus tard qu'ils l'ont payé
+    pour les cacher (guide acte II corrigé EN+FR, qui disait l'inverse). Aucune transcription ne montre Allende ordonner
+    l'exécution de John (attribué au wiki). Dans « An Appointed Time », la diligence est arrêtée, Allende livre Bill,
+    puis les deux sont abattus par John ou par Reyes. Voix : Gary Carlos Cervantes. Corrigé chez John : gouverneur
+    « provincial », mort sur la route d'Escalera (Allende et Bill).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
