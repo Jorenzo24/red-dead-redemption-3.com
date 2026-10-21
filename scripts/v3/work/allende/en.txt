@@ -1,0 +1,134 @@
+{{User/characterbox
+|image = [[File:AllendePS5.png|300px]]
+|aka = Colonel Allende<br>The Colonel
+|gender = Male
+|location = Town of [[Escalera]] in [[Punta Orgullo]], [[Nuevo Paraiso]]
+|affiliations = [[Mexican Army]]
+|weapon = Sabre<br />[[Cattleman Revolver]]
+|name = Agustin Allende
+|voice = [[Gary Carlos Cervantes]]
+|game = ''[[Red Dead Redemption]]''
+|nationality = [[File:Flag of Mexico 1899-1917.png|border|20px]] Mexican
+|occupation = Colonel in the [[Mexican Army]]<br>Governor of [[Nuevo Paraíso]]
+|family = Unnamed uncle
+}}
+{{Quote|We brought them God! But they turned their back on Him. Now, I fight to help them from themselves... Save them from themselves.|''Agustin Allende'' to [[John Marston]]}}
+'''Colonel Agustin Allende''' is a [[Characters in Redemption#Major Characters|major character]] and antagonist featured in ''[[Red Dead Redemption]]'', serving as a major antagonist of the game's [[Nuevo Paraíso]] [[Missions in Redemption#Nuevo Paraiso Chapter|chapter]].
+
+With the addition of the ''[[Liars and Cheats]]'' [[DLC]] pack, '''Colonel Allende''' is also a [[Multiplayer Characters|multiplayer character]] model that may be selected in the 'Damnation' section of the [[Outfitter]].
+
+== History ==
+=== Background ===
+{{Quote|This gentleman is a 53-year-old, sadistic, military leader of a local Mexican province. The province is in the midst of a rebellion. Many years ago, Allende was an idealist, but he's become a vicious cynic with a love of torture and sexual abuse. Takes pleasure in all manner of vices. He is intelligent, corrupt, and brutal.|Description of Allende in the GOTY Edition guide of ''Red Dead Redemption''.}}
+Allende was born circa 1858<ref>''[[Red Dead Redemption]]'' - Game of the Year guidebook.</ref> to an impoverished family,<ref>Mentioned by [[Abraham Reyes]] in "[[The Great Mexican Train Robbery]]":<br>'''Abraham:''' ''"Allende came from poverty, and look now at how he treats the poor."''<br>'''John:''' ''"It's strange alright. Allende's a peasant who wants to be a nobleman, and you're a nobleman who wants to be a peasant.</ref> although his uncle owned a farm that [[Javier Escuella]]'s father worked on.<ref>Mentioned in a conversation with [[John Marston]] in "[[The Demon Drink]]":<br>'''John:''' ''"Let me ask you this, sir. Do you know anything of the men I'm looking for?"''<br>'''Allende:''' ''"Escuella is from this province. His father was a borracho, a drunk who worked as a laborer on land cultivated by my uncle."''</ref>
+
+Early in his life, Allende was an idealist, but age transformed him into a vicious cynic with a love of torture and sexual abuse. At some point before 1911, he became a colonel in the [[Mexican Army]] and the provincial governor of the state of [[Nuevo Paraíso]] under the Mexican President, General [[Ignacio Sanchez]]. Allende would use this power to exploit the peasantry, taking their land and selling it to aristocrats, while beating and killing those who complain. Allende then forces them to work on the land they previously owned for little, if any, compensation.<ref>Mentioned by [[Luisa Fortuna]] in "[[Must a Savior Die?]]":<br>'''Luisa:''' ''"Allende takes the land from the peasants and sells it to the aristócratas. Anybody who tries to complain is beaten or killed. Then the peasants are forced to work the same land for no money.</ref> He is also responsible for suppressing the rebellion in the Nuevo Paraiso territory led by [[Abraham Reyes]].
+
+Allende lives in a high-class, fortified mansion on the highest ground of [[Escalera]], enabling him to oversee the entire city from the comfort of his front porch. It is known that Javier Escuella works for Allende as a hitman for hire.
+
+By the time [[John Marston]] arrives in Mexico on the hunt for his old gang members, Escuella and [[Bill Williamson]] are already under his protection. Instead of killing him, Allende decides to manipulate John into aiding him against the rebels led by Abraham Reyes.
+
+=== Events of ''Red Dead Redemption'' ===
+After Marston's venture to Mexico, he decided to partly work with Allende, who promised to deliver Escuella and Williamson to John. Allende took advantage of John's skills to go on numerous missions with Captain [[Vincente de Santa]] and Captain [[Espinoza]] and his many soldiers to massacre the rebels and capture young women for his "personal pleasure". Eventually, Allende met with John personally, claiming he had captured Escuella and Williamson and that they were being held in a church, ready for Marston to do whatever he wanted with them. However, Allende secretly betrayed him, having ordered De Santa to kill him after they arrived at the church. Marston's execution was interrupted by Abraham Reyes and his rebels just in time. While Captain De Santa escaped, Reyes, along with Marston and the rebels, took out all of Allende's soldiers, along with Captain Espinoza.
+
+Marston subsequently sided with the rebels and Reyes, who promised he would find Escuella and Williamson. While working with the rebels, Marston began helping them by killing more of Allende's soldiers, killing [[Vincente de Santa|Captain De Santa]], and either killing or capturing Escuella. Soon, the rebels attacked Allende's villa, killing every one of his soldiers in the process, causing Allende and [[Bill Williamson|Williamson]] to lock themselves within the villa. Once the rebels broke down the door to the villa, Allende and Williamson tried to escape in an armored stagecoach accompanied by three guards. Marston and Reyes chased after them on their horses, killing the Colonel's guards and the driver of the carriage, causing it to stop. Allende, fearing for his life, surrenders from inside the carriage. He forces Williamson out of the carriage and then proceeds to pin him to the ground with his foot. The Colonel tries to bargain with them, saying that Williamson was the one Marston wanted, and promises Reyes that he will flee the country.
+
+Allende and Williamson are then killed by either [[John Marston]] or [[Abraham Reyes]], depending on whether the player decides to shoot them or hesitates and allows Reyes to shoot them instead.
+
+== Character ==
+
+=== Personality ===
+Allende takes pleasure in all manner of vices, including torture and sexual abuse, and doesn't care who he kills or what he must do in order to achieve his goals.. He is also very corrupt and brutal, despite this, Allende is quite intelligent. Allende has no problem betraying those he allies with if it means saving his own skin, selfishly attempting to leverage Bill Williamson in exchange for his leaving Mexico. He will also manipulate people for his own personal gain, as shown with John.
+
+=== Appearance ===
+Colonel Allende, as per his title, dresses as a colonel would, and despite the heat of Mexico, his uniform is black. He also dons many medals and honors on his chest. His hair is black, and he has a soul patch with a handlebar mustache. In pre-release artwork, Allende appeared fatter and without a soul patch. 
+
+==Mission appearances==
+;''Red Dead Redemption''
+*"[[The Demon Drink]]"
+*"[[Mexican Caesar]]"
+*"[[Cowards Die Many Times]]"
+*"[[An Appointed Time]]"
+
+==Quotes==
+{{Quote|We'll make a patriot of you yet!|Agustin Allende}}
+{{Quote|Haha! Force must be used if you are to have your own way!|Agustin Allende}}
+{{Quote|Sorry? Why be sorry? It is the way of mankind, a fight between two forces.|Agustin Allende}}
+{{Quote|Qué serà, serà. What will be will be.|Agustin Allende}}
+{{Quote|Don't shoot! Here, take Williamson, just let me live. I will leave the country, I promise.|Agustin Allende's last words}}
+
+===Multiplayer===
+*''"El poder nunca será tuyo!"'' ''(The power will never be yours!)''
+*''"¡Vete al diablo!"'' ''(Go to hell!)''
+*''"No me toques cabrón!"'' ''(Don't touch me, you bastard!)''
+*''"Ja ja, no has ganado nada!"'' ''(Ha ha, you haven't won anything!)''
+*''"¡Hijo de puta!"'' ''(Son of a bitch!)''
+*''"Muere ya, cabrón!"'' ''(Die already, you bastard!!)''
+*''"¡Maldito!"'' ''(Damn!)''
+*''"¡Vámonos! Date prisa cabrón!"'' ''(Come on! Hurry up, asshole!)''
+*''"Vete a la chingada, Pendejo!"'' ''(Fuck off, asshole!)''
+*''"Te voy a cortar la cabeza, y cagar en el cuello!"'' ''(I'll cut off your head and shit in your neck!)''
+*''"Te voy a mandar al cuerno en un pinche caja! ¡Hijo de puta!"'' ''(I will send you to hell in a coffin! Son of a bitch!)''
+*''"Eres un cobarde!"'' ''(You are a coward!)''
+*''"No eres un hombre de pueblo!"'' ''(You're not a man of the people!)''
+*''"Get away from me!"''
+
+==Trivia==
+* It is implied that his family is of Spanish origin from his in-game dialogue and imperious attitude toward Mexico's citizens.
+* In "[[We Shall Be Together in Paradise]]", [[Irish]] says that he played cards with a Colonel who was based out of Escalera.
+* In "It is the way of mankind, a fight between two forces", Allende may be an allusion to ''[[wikipedia:The_Communist_Manifesto|The Communist Manifesto]]'', written by Karl Marx and Frederich Engels in 1848. This line parallels the statement at the beginning of the first chapter: "The history of all hitherto existing society is the history of class struggles.
+** It is possible that Allende was once a communist, or at least interested in communism. He claims to have been a "radical idealist" in the past, communism being a radical, left-wing ideology.
+* His name is likely a reference to two 20th century Chilean leaders - elected Marxist president [[Wikipedia:Salvador Allende|Salvador Allende]] and the brutal, pro-Western general [[Wikipedia:Augusto Pinochet|Augusto Pinochet]] who staged a coup. Allende committed suicide, and Pinochet ruled in a military junta.
+* A pre-release artwork of Colonel Allende shows him to be originally a little different. In the artwork, he is shown a bit fatter than he is in the game. The artwork also shows that Allende's uniform originally lacked epaulets.
+* Allende owns a sabre and an armor-plated stagecoach with a [[Gatling Gun]] on the back of it. Its only appearance is in the mission "[[An Appointed Time]]".
+* Even after Allende has been killed, his portrait will still hang inside his villa, hinting that the Rebels did not decide to occupy it.
+* According to Reyes and at times random NPCs, Allende ironically used to be a poor peasant. This contrasts with Reyes, who was born wealthy and is now leading the peasants in revolution.
+* Allende is described as "General Sanchez's dog" on one of the rebels' propaganda posters.
+* After leaving Escalera after "An Appointed Time", Allende's corpse can be seen in the middle of the road out of town.
+* In the pre-release artwork for ''Red Dead Redemption'', Allende resembles [[w:c:gta:Ricardo Diaz|Ricardo Diaz]], a character in both ''[[w:c:gta:Grand Theft Auto: Vice City|Grand Theft Auto: Vice City]]'' and ''[[w:c:gta:Grand Theft Auto: Vice City Stories|Grand Theft Auto: Vice City Stories]]''.
+* Agustin's surname may be a reference to a small, present-day border city of the same name.
+* He may be based off [[Wikipedia:Victoriano Huerta|Victoriano Huerta]] the 35th president of Mexico. Huerta's uniform is also similar to Allende's.
+* Despite being a Mexican character, his voice actor speaks Spanish in a strong American accent, even committing several grammatical errors in his speech.
+* For RDR's GOTY box art, Allende appears next to John.
+* In multiplayer mode, one of his quotes is a translated reference to ''[[Wikipedia:Full Metal Jacket|Full Metal Jacket]]'', in which Gunnery Sergeant Hartman says, "You'd best unfuck yourself, or ''I'll tear off your head and shit down your neck!''"
+* He is the only [[Characters in Redemption#Major characters|major character]] in ''Red Dead Redemption'' to not directly give [[Missions in Redemption|missions]] to [[John Marston]].
+
+==Gallery==
+<gallery widths="200" spacing="small" captionalign="center" position="center">
+File:Colonel Allende.jpg|Pre-release artwork of Colonel Allende.
+File:Reddeadredemption colonelallende 2560x1600.jpg|Official artwork.
+File:Rdr lc allende 640x400.jpg|Alternate artwork.
+File:Coronel allende.png|Allende as a ''[[Redemption Multiplayer]]'' skin.
+File:Rdr allende girls.jpg
+File:Rdr demon drink03.jpg
+File:Rdr demon drink06.jpg
+File:Rdr demon drink10.jpg
+File:Rdr demon drink13.jpg
+File:Rdr demon drink16.jpg
+File:Allende&Bill-Escaped.png
+File:BillandAllende.jpeg
+File:GotyPS3.jpg|Colonel Allende on RDR's GOTY box art
+File:Red Dead Redemption Screenshot 2025.04.04 - 13.04.13.30.png
+File:Ignacio Sanchez.png|"Allende is the lapdog of General Ignacio Sanchez. Power belongs to the people. Long live the revolution!"
+File:SanchezMarionette.jpeg|"Agustin Allende is the puppet of the dictator Sanchez."
+</gallery>
+
+==References==
+<references />
+
+==Related Content==
+{{Related Content}}
+{{Characters}}
+
+{{DEFAULTSORT:Allende, Agustin}}
+
+[[Category:Characters in Redemption]]
+[[Category:Multiplayer characters in Redemption]]
+[[Category:Antagonists]]
+
+[[de:Agustin Allende]]
+[[es:Agustín Allende]]
+[[fr:Agustin Allende]]
+[[it:Agustin Allende]]
+[[ru:Агустин Альенде]]
+[[pt-br:Agustin Allende]]
