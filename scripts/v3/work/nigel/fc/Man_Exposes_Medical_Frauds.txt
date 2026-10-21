@@ -1,0 +1,26 @@
+{{Infobox Newspaper article
+|Title = Man Exposes Medical Frauds
+|Image =
+|Newspaper = [[Blackwater Ledger No. 75]]<br />[[New Hanover Gazette No. 40]]<br />[[Saint Denis Times No. 56]]
+|Last =
+|Next =
+}}
+'''Man Exposes Medical Frauds''' is one of the [[Newspapers|newspaper articles]] in ''[[Red Dead Redemption 2]]''.
+
+==Text==
+'''AS CHARLATANS PEDDLE MARVELOUS CLAIMS.'''<br />HIPPOCRATIC FAKERS PLAGUING SMALL CITIES.
+----
+It was hoped that with the spread of scientific knowledge, the scourge of medical quacks selling health and salvation from suffering would abate eventually. However, in towns and hamlets across the nation, the evolution of reputable physicians into swindles continues at rapid speed as each new break in scientific progress is announced.
+
+A so-called doctor needs little more than a shingle to hang above his door and various potions and concoctions to peddle the ill, maimed and infirm, who are willing to part with their hard-earned money in hopes of prolonged health. Such is the crusade led by one man who has vowed to uncover the Hippocratic frauds who are preying on victims across the country. His name is [[Nigel West Dickens]], a studied man of letters, botany, ornithology and the history of home medicine practiced throughout the ages.
+
+He has begun demonstrations showing that sufferers of rheumatism, neuralgia, rickets, dysentery and scarlet fever can be cured of their maladies by use of a simple medicinal tonic. The response has been enthusiastic, and in more than one town the local doctor taken to task for peddling fraud cures. Mr. Dickens plans in the coming years to take his message on the road and root out charlatans and purveyors of false science.
+
+==Gallery==
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+Man Exposes Medical Frauds news article rdr2.jpg 
+</gallery>
+
+[[fr:Un homme révèle des fraudes médicales]]
+[[ru:Выявлены доктора-мошенники]]
+[[Category:Newspaper articles]]

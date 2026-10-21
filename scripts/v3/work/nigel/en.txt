@@ -1,0 +1,174 @@
+{{User/characterbox
+|image = Nigel West Dickens PS5.jpg
+|aka = {{Addendum|by T. Bernadette Moncrief|Nigel Dickens}}<br>The Snake Oil Guy<br />Old Man
+|gender = Male
+|location = Transitory
+|affiliations = [[John Marston]]<br />[[Seth Briars]]<br />[[Irish]]
+|weapon = [[Cattleman Revolver]]
+|voice = [[Don Creech]]
+|game = ''[[Red Dead Redemption]]''<br>''[[Red Dead Redemption 2]]'' <small>(mentioned)</small>
+|family = Unnamed father {{icon|dead}}<br>Unnamed mother<br />Unnamed ex-lover<br>Unnamed son {{icon|dead}}
+|nationality = [[File:Flag of the United States (1908–1912).svg|border|20px]] American <small>(English Descent)</small>
+|occupation = Snake Oil Salesmen
+}}
+{{Quote|Sir, I am about to do something which I greatly discourage in all wise and rational men: a selfless act, for [[John Marston|you]]. But, sir, before I act selflessly, allow me to act selfishly and sell some of my wares?|Nigel West Dickens in "[[Can a Swindler Change His Spots?]]"}}
+
+'''Nigel West Dickens''' is a [[Characters in Redemption#Major characters|major character]] featured in ''[[Red Dead Redemption]]''.
+
+With the addition of the ''[[Liars and Cheats]]'' [[DLC]] pack, Nigel West Dickens is also a [[Multiplayer Characters|multiplayer character]] model that may be selected in the 'Redemption' section of the [[Outfitter]].
+
+==History==
+===Background===
+{{Quote|Nigel is a 65-year-old traveling salesman. Some may consider him to be a would-be Victorian gentleman, but the truth is that he is really just a conniving huckster. He speaks with an English accent, but it is quite possible that he is not even English. Although he may not be wholly evil, he is extremely verbose and quite deceitful.|''Red Dead Redemption: Game of the Year Guide}}
+Nigel West Dickens was born circa 1846<ref name="GOTY">''[[Brady Games Official Guide#Game of the Year (GOTY) Edition|Red Dead Redemption: Game of the Year Edition Guide]]''</ref> in Fort Wayne, Indiana.<ref name="NWD backstory">Mentioned in a conversation with [[John Marston]] in "[[Liars, Cheats and Other Proud Americans]]":<br>'''John:''' ''"Where did you grow up?"''<br>'''West Dickens:''' ''"Why don't we just enjoy the view?"''<br>'''John:''' ''"Come on, I'm interested."''<br>'''West Dickens:''' ''"Mostly in Fort Wayne, if I remember correctly."''<br>'''John:''' ''"Where?"''<br>'''West Dickens:''' ''"Indiana."''<br>'''John:''' ''"Indiana? So, why do you speak with that ridiculous accent?"''<br>'''West Dickens:''' ''"Diction, John, I will not apologize for. And we were all British not so long ago."''<br>'''John:''' ''"Yeah, about a hundred and fifty years ago."''<br>'''West Dickens:''' ''"I had a cosmopolitan upbringing. My mother worked in the Arts, in the theater."''<br>'''John:''' ''"An actress?"''<br>'''West Dickens:''' ''"Er, strictly speaking, no. She was more involved in the building maintenance side of things."''<br>'''John:''' ''"So you're a maid's son from Indiana? That might just have made my day."''</ref> His father died sometime before 1911,<ref>In the mission "[[Old Swindler Blues]]", West Dickens may say ''"I'm coming home, Daddy."'' when low on health.</ref> and his mother worked as a maid at a local theater.<ref name="NWD backstory"/> Nigel claims to have experienced a "cosmopolitan upbringing", declaring European cities such as Paris and London to be his "spriritual homes,"<ref>Mentioned in a conversation with John Marston in "Liars, Cheats and Other Proud Americans":<br>'''West Dickens:''' ''"I am international, John. A citizen of the world."''<br>'''John:''' ''"What does that mean?"''<br>'''West Dickens:''' ''"Have you been to Paris?"''<br>'''John:''' ''"No."''<br>'''West Dickens:''' ''"Have you been to London?"''<br>'''John:''' ''"No."''<br>'''West Dickens:''' ''"Well, me neither. But those are my spiritual homes."''</ref> and can speak French.<ref name="Voltaire">Mentioned in a conversation with John Marston in "Liars, Cheats and Other Proud Americans":<br>'''West Dickens:''' ''"Voltaire would roll in his grave."''<br>'''John:''' ''"You speak French?"''<br>'''West Dickens:''' ''"Mais comme ça comme oui."''</ref> He was educated in science and literature to some extent, frequently citing the works of [[wikipedia:Isaac Newton|Isaac Newton]], [[wikipedia:Charles Darwin|Charles Darwin]], [[wikipedia:Voltaire|Voltaire]],<ref name="Voltaire"/> [[wikipedia:Ralph Waldo Emerson|Waldo Emerson]]<ref>Mentioned in a conversation with John Marston in "Liars, Cheats and Other Proud Americans":<br>'''West Dickens:''' ''"I'm heavily influenced by the work of Waldo Emerson."''<br>'''John:''' ''"Another fool with his head in the clouds."''</ref> and [[wikipedia:Homer|Homer]].
+
+Eventually, West Dickens began his career as a con artist, traveling from town to town in an opulent emblazoned [[Stagecoaches|stagecoach]] to peddle his latest scam. His signature grift involved selling shoddy miracle tonics purported to cure various ailments. West Dickens would adopt a fake English accent and dress in an immodest three-piece suit to present an educated persona to customers. Despite his products lacking any true medical benefits, he would successfully swindle gullible laymen for years.
+
+West Dickens claims to have wooed and bedded many women throughout his career, and left numerous bastard children in his wake.<ref>Mentioned in a conversation with John Marston in "[[The Sport of Kings, and Liars]]":<br>'''West Dickens:''' ''"Do you have children, John?"''<br>'''John:''' ''"Yeah, I have a son. I had a daughter too, but she died. Do you?"''<br>'''West Dickens:''' ''"I'm sure I have many. If you'll forgive my forthrightness, I have a prodigious seed. On account of the West Dickens elixir, that is. Virility is one of its many side effects."''</ref> Vehemently against being "shackled" to any woman, he would leave the following morning after each one-night stand.<ref>Mentioned in a conversation with John Marston in "The Sport of Kings, and Liars":<br>'''West Dickens:''' ''"Let me tell you something about women, John. After every amorous encounter, I creep out of the bedroom at the first dawn's light. Do you know why?"''<br>'''John:''' ''"Because the drink's worn off and she's weeping in the corner."''<br>'''West Dickens:''' ''"No, because man is not meant to be shackled. Have you not read Darwin?"''</ref> At some stage, West Dickens slept with a woman and had a son, who died soon after birth. He left the relationship after finding his lover to be too demanding.<ref>Mentioned in a conversation with John Marston in "The Sport of Kings, and Liars":<br>'''West Dickens:''' ''"I have one son that I know of, but fate whisked away soon after his birth. His mother was making all sorts of unreasonable demands."''<br>'''John:''' ''"You're a true man of honor, West Dickens."''</ref>
+
+Around 1898,<ref>The letter states that West Dickens began his relationship with the Moncriefs while their daughter, T. Bernadette was away at school. Considering that Ms. Moncrief returned in fall of that year, and that the Wheeler, Rawson and Co. Catalogue is dated 1899, it can be concluded that these events occurred circa 1898.</ref> Nigel West Dickens brought his wares to the town of [[Annesburg]], [[New Hanover]]. There, he conned a Mr. and Mrs. Moncrief, an elderly couple suffering from rheumatism, into purchasing a miracle tonic that was actually alcohol laced with opium. The Moncriefs subsequently became addicted and spent the rest of their savings on more of the product. In fall of that year, their daughter, T. Bernadette Moncrief returned home from her year at school to find her parents in a state of psychosis and ingesting high quantities of the elixir. When West Dickens returned the following week to sell more "medicine" to the family, T. Bernadette pulled out a [[Sawed-Off Shotgun (RDR 2)|sawed-off shotgun]] from underneath her knitting and ran him out of town.<ref>Wheeler Rawson and Co. Catalogue - [[Sawed-Off Shotgun (RDR 2)|Sawed-Off Shotgun]]</ref>
+
+=== Events of ''Red Dead Redemption 2'' ===
+In 1907, a newspaper article describes Dickens as a studied man of letters, botany, ornithology, and the history of home medicine practiced throughout the ages who has vowed to uncover "Hippocratic frauds" who were preying on victims across the country. Dickens had begun demonstrations showing that sufferers, of rheumatism, neuralgia, rickets, dysentery, and scarlet fever could be cured of their maladies by use of a simple medicinal tonic. The response was enthusiastic and in more than one town the local doctor taken to task for peddling fraud cures. At the time, Dickens planned to take his message on the road and root out charlatans and purveyors of false science. 
+
+=== Events of ''Red Dead Redemption''===
+[[John Marston]], after having worked with Marshal [[Leigh Johnson]] to clear [[Pike's Basin]], is tipped off by deputy [[Eli]] that West Dickens has gone missing. He states that West Dickens is missed by his repeat customers in [[Armadillo]]. Marshal Johnson equates West Dickens with a drug dealer.
+
+====New Austin====
+Marston finds West Dickens having been shot and exposed to the elements not far from his stagecoach south of [[Coot's Chapel]], and returns him to the doctor in [[Armadillo]] while fighting off bandits who want to finish the job.
+
+Despite Marston's personal dislike of him, West Dickens becomes the central networker and orchestrator of Marston's plan to assault [[Fort Mercer]]. West Dickens puts Marston in contact with [[Seth Briars]] and [[Irish]], as well as supplying his newly armored stagecoach and uses the "Trojan horse" strategy to deceive the outlaws.
+
+The attack does well, but they find out that Bill Williamson had escaped yesterday morning. Irish then volunteers to take John into Mexico on a barge. West Dickens suggests that he intends to travel abroad, having exhausted customers in the New Austin region. When Marston meets [[Irish]] at his barge on the way to Mexico, West Dickens is seen talking with Irish. This is when he tells them he is off to Europe or China.
+
+====West Elizabeth====
+He is later seen in the Blackwater police building, being arrested for possession and distribution of narcotics. John recognizes him and tells the officer to release him, stating he helped him catch [[Bill Williamson]]. With [[Edgar Ross]] sarcastically claiming that he is a "hero", he is let go.
+
+== Events of ''Undead Nightmare''==
+'''Note:''' ''The events of Undead Nightmare are not considered part of the same canon as Red Dead Redemption. The following description is therefore not contiguous with the preceding section on Red Dead Redemption.''
+
+Dickens is first seen at Fort Mercer trying to sell his Elixir for 100 gold coins, claiming it cures the zombie plague and repels zombies. He sees John and tries him to play along with his act but John ends up saying 100 coins is too much for a drink and threatens him with his revolver to give people a free sample of the Elixir. Dickens has no choice but to reluctantly give the customers free samples. However, he and John watch a man drink the elixir, exit the fort, and be immediately mauled by undead. Nigel gives John a bottle of elixir and tasks John with finding more plant ingredients so that he can attempt to make an actual cure for the [[Undead|plague]].
+
+[[File:Rdr nigel west dickens undead nightmare02.jpg|250px|right]]
+Upon the second encounter, Dickens sends John on an errand to [[Riley's Charge]] to acquire some metal parts he eventually uses to construct and complete a [[Blunderbuss]]. John, despite Dickens' hasty words, is unimpressed with the weapon.
+
+Dickens also confides in John concerning a branch of [[U.S. Army|soldiers]] "officially" crossing the border to help those in [[Mexico]]. Dickens' age would disallow him to pose as a member of the group and informs John of a group of army deserters stationed at [[The Scratching Post]] that may be willing to lend him a uniform instead. When John asks Dickens where he's heading, Dickens optimistically replies that he's headed for either Baghdad or to meet his maker at the hands of one of the undead, smiling as he and John depart amicably. Dickens leaves the scene on foot and he is not seen again.
+
+==Mission appearances==
+;''Red Dead Redemption''
+*[[Old Swindler Blues|&quot;Old Swindler Blues&quot;]]
+*[[You Shall Not Give False Testimony, Except for Profit|&quot;You Shall Not Give False Testimony, Except for Profit&quot;]]
+*[[Liars, Cheats and Other Proud Americans|&quot;Liars, Cheats and Other Proud Americans&quot;]]
+*[[Can a Swindler Change His Spots?|&quot;Can a Swindler Change His Spots?&quot;]]
+*[[The Sport of Kings, and Liars|&quot;The Sport of Kings, and Liars&quot;]]
+*[[The Assault on Fort Mercer|&quot;The Assault on Fort Mercer&quot;]]
+*[[We Shall Be Together in Paradise|&quot;We Shall Be Together in Paradise&quot;]]
+*[[Bear One Another's Burdens|&quot;Bear One Another's Burdens&quot;]]
+
+;''Undead Nightmare''
+*[[A Cure for Most of What Ails You|&quot;A Cure for Most of What Ails You&quot;]]
+*[[American Imperialism|&quot;American Imperialism&quot;]]
+
+==Character==
+===Personality===
+Nigel is a friendly, positive, and jolly individual. He is also shown to be somewhat of a fraud, showing that he sells non-working medicine to get other people's money. Although all that, he does try to be helpful and uplifting to others.
+
+==Quotes==
+{{quote|I know a cure for all ailments, Mr. Marston.|Nigel West Dickens}}
+{{quote|Skepticism is the bastard child of progress, son.|Nigel West Dickens}}
+{{quote|Let the battle commence!|Nigel West Dickens declares during the Battle for Fort Mercer.}}{{Quote|Racing, my friend, the sport of kings! Exactly the kind of activity where a lying, cheating degenerate like myself can prosper.|Nigel in "[[The Sport of Kings, and Liars]]"}}{{quote|Rednecks!|Nigel West Dickens}}
+{{quote|I have a soft spot for life's flotsam and jetsam.|Nigel West Dickens}}
+{{quote|Respect science!|Nigel West Dickens}}
+{{quote|You're an amusing man, Marston. After all the murders, robberies and kidnappings you've committed, a little hypocrisy is hardly a sin.|Nigel West Dickens}}
+{{quote|And I can tell you, with no uncertainty, that miracle cures are no laughing matter!|Nigel West Dickens to [[Nathanial Johnston]]}}
+{{quote|These yokels wouldn't know science if it crapped in their bed!|Nigel West Dickens}}
+{{quote|Bugger fuck! Goddammit! Good heavens!|Nigel West Dickens when Marston finds him at the side of the road during "Old Swindler Blues"}}
+{{quote|The spirit of free enterprise must be embraced!|Nigel West Dickens}}
+{{quote|I'll sink down to your level if I have to!|Nigel West Dickens}}
+{{quote|I'll show you, you inbred codhopper!|Nigel West Dickens}}
+{{quote|Ah! Sports, war and heartache!|Nigel West Dickens}}
+{{quote|Today, we are gladiators! Motivation, dear boy!|Nigel West Dickens}}
+{{quote|Have you been to Paris?|Nigel West Dickens}}
+{{quote|I refuse to let the blind stupidity of the proliteriate derail my calling in life!|Nigel West Dickens}}
+{{quote|Alas! No tonic can cure cowardice!|Nigel West Dickens}}
+{{quote|You'll rue the day you tangoed with Nigel West Dickens!|Nigel West Dickens}}
+{{quote|Oh me? London or Paris or maybe Pekeng. I'm a travelling man, sir.|Nigel West Dickens}}
+{{quote|This land is much too small for the likes of me.|Nigel West Dickens}}
+{{quote|The same to you, sir, the same to you.|Dickens words to Marston during "We Shall Be Together in Paradise"}}
+
+==Trivia==
+*His appearance, character, voice, and mannerisms seem to be based upon the actor/comedian W.C. Fields. His outfit is also very similar to Fields' most popular role as "Mr. Micawber" in the original ''David Copperfield'' film. Also, Fields played many con artists in his films, one, in particular, involves Fields' character peddling a "miracle elixir".
+*Furthermore, West Dickens' characterization and interactions with John Marston appear to be influenced by the character "Carpetbagger" from the [[Wikipedia:Clint Eastwood|Clint Eastwood]] film ''[[Wikipedia:The Outlaw Josey Wales|The Outlaw Josey Wales]]''.
+*After the mission "[[Can a Swindler Change His Spots?]]", if the player stays at [[Cueva Seca]], they can see Dickens urinating. Afterward. he will stop, walk away, go back and do it again.
+*When John introduces himself in [[Old Swindler Blues|&quot;Old Swindler Blues&quot;]], West Dickens recognizes John as an [[outlaw]]. If John wears the [[Walton's Gang Outfit]] or [[Bollard Twins Outfit]], West Dickens will note his membership in the gang.
+*As seen in ''[[Undead Nightmare]]'', Nigel West Dickens apparently owns a small valuable item, as he has a small box that he handles very carefully, with rattling coming from the box. This item could also be some of West Dickens' Elixir (which has been revealed to be a powerful Undead Bait) that the old man keeps in a little box and handle carefully to avoid spilling it (and so baiting every undead near).
+*It seems he has been lynched at one point, shown by a scar stretching across his neck. This is likely due to him being caught as a con artist.
+*Despite constantly failing at "cures" and "miracles", West Dickens says he will not give up science.
+*In [[Undead Nightmare|''Undead Nightmare'']], among the writing on the walls of the buildings in [[Blackwater]] one writing reads "I know a cure for all ailments." West Dickens says this to [[John Marston|John]] on his way out of [[Nathaniel Johnston|Doctor Johnston]]'s office.
+*Nigel West Dickens and [[Seth |Seth]] are the only uninfected major characters in ''[[Undead Nightmare]]'' to not battle the [[Undead]] in any way.
+*He is one of the three major characters who do not ride horses at all. The others are [[Agustin Allende]] and [[Luisa Fortuna]].
+*Nigel West Dickens is from Fort Wayne, Indiana according to the comment he made on "[[Liars, Cheats and Other Proud Americans]]".
+*West Dickens' elixir may also be a laxative as John states that 'that elixir I drank went through me like a dose of salts' during "[[The Sport of Kings and Liars]]".
+*Nigel West Dickens explains that he once tried to sell his elixir on [[MacFarlane's Ranch]], before being chased away by [[Bonnie MacFarlane]] herself.
+*In ''Red Dead Redemption 2'', Nigel West Dickens is referred to in an anecdote that appears in the [[Gunsmith]] catalogue's description for the [[Sawed-Off Shotgun (RDR 2)|Sawed-Off Shotgun]]. In it, a woman from [[Annesburg]] recounts having threatened West Dickens with the shotgun after her elderly parents became addicted to his elixirs.
+*He is not mentioned in the final ''[[Newspapers|Blackwater]] [[Newspapers|Ledger]]'' in 1914.
+
+==Gallery==
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+File:RDR nigelwestdickens.jpg
+Rdr nigel dickens.jpg|West Dickens selling his wares
+Dickens.png|Dickens as a ''[[Redemption Multiplayer]]'' skin
+File:Nigel_and_John.jpg
+red-dead-redemption-westdickens.jpg
+Rdr nigel west dickens square.jpg|West Dickens in "[[You Shall Not Give False Testimony, Except for Profit]]"
+File:West Dickens in Black Water.jpg|West Dickens being arrested in Blackwater
+Rdr false testimony01.jpg
+Rdr false testimony06.jpg
+Rdr false testimony10.jpg
+Rdr false testimony29.jpg
+Rdr false testimony33.jpg
+Rdr liars cheats proud americans01.jpg
+Rdr liars cheats proud americans03.jpg
+Rdr liars cheats proud americans05.jpg
+Rdr liars cheats proud americans08.jpg
+Rdr liars cheats proud americans10.jpg
+Rdr liars cheats proud americans13.jpg
+Rdr liars cheats proud americans20.jpg
+File:Rdr_can_swindler_change_spots03.jpg
+File:Rdr_can_swindler_change_spots14.jpg
+File:Rdr_can_swindler_change_spots18.jpg
+File:Rdr_sport_kings_liars04.jpg
+File:Rdr_sport_kings_liars06.jpg
+File:Rdr_sport_kings_liars08.jpg
+File:Rdr_sport_kings_liars12.jpg
+File:Rdr_assault_fort_mercer06.jpg
+File:Rdr_assault_fort_mercer16.jpg
+File:Rdr_assault_fort_mercer17.jpg
+Rdr together in paradise03.jpg
+Rdr cure most ails you.jpg
+RedDeadRedemption_westdickens01.jpg|Dickens and John
+Riley rdr3.png|Nigel scanning the horizon for undead
+Dutches gang.jpg|West Dickens (behind [[Dutch van der Linde]])
+</gallery>
+
+==References==
+<references/>
+
+==Related Content==
+{{Characters}}
+{{Characters 2}}
+{{Related Content}}
+{{DEFAULTSORT:Dickens, Nigel West}}
+
+[[Category:Characters in Redemption]]
+[[Category:Characters in Undead Nightmare]]
+[[Category:Multiplayer characters in Redemption]]
+[[Category:Mentioned characters in Redemption 2]]
+
+[[pl:Nigel_West_Dickens]]
+[[de:Nigel West Dickens]]
+[[es:Nigel West Dickens]]
+[[fr:Nigel_West_Dickens]]
+[[nl:Nigel_West_Dickens]]
+[[ru:Найджел Уэст Дикенс]]
+[[pt-br:Nigel West Dickens]]

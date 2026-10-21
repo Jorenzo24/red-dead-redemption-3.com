@@ -1,0 +1,16 @@
+{{Infobox Newspaper article
+|Title =Wonder Tonic From The East, Doctors Worried About Future
+|Image =Newspaper 10.PNG
+|Newspaper =[[Blackwater Ledger No. 53]] 
+|Last =
+|Next =
+}}'''Wonder Tonic From The East, Doctors Worried About Future''' is one of the [[Newspapers|newspaper articles]] in ''[[Red Dead Redemption]]''.
+
+==Text==
+WONDER TONIC FROM THE EAST, DOCTORS WORRIED ABOUT THE FUTURE
+----
+
+Users of a new medicinal tonic being sold in areas of New Austin have reported remarkable results. A one legged woman in [[Plainview]] grew back her missing limb and an elderly man close to death got up and ran to the nearest brothel with the resumed vigor of a 14-year old boy. [[Nigel West Dickens|West Dickens]] [[Nigel West Dickens' Elixir|Patented Elixir]] claims to effect an infallible and painless remedy to virtually all known human ailments, both internal, external, and spiritual, including aches, sprains, dysentery, lumbago, paralysis, chilblains, malaria, genital debility, rickets and depressed humors. The tonic, which is the result of years of research combining ancient wisdom from the east and scientific investigations from universities across the land is being hailed by its distributor as the greatest medical discovery of our time.
+
+[[ru:Чудо-снадобье с Востока: доктора боятся, что скоро станут не нужны]]
+[[Category:Newspaper articles]]

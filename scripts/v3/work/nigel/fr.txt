@@ -1,0 +1,135 @@
+{{InfoboxPersonnages
+| theme = 
+| title1 = Nigel West Dickens
+| image1 = Nigel West Dickens01.jpg
+| apparition = ''[[Red Dead Redemption]]''<br/>''[[Undead Nightmare]]''
+| caption1 = 
+| naissance = 1846
+| dapparition = 
+| décès = 
+| genre = Masculin
+| nationalité = Américano-anglaise
+| ldv = [[New Austin]]
+| surnom = M. West Dickens<br/>Dickens<br/>West Dickens<br/>N.W Dickens<br/>Vieil homme<br/>Le charlatan<br/>Le gras escroc<br/>N.W.D
+| activité = Charlatant
+| famille = 
+| allié = [[John Marston]]<br/>[[L'Irlandais]]<br/>[[Seth Briars]]<br/>Collaborateur Irakien
+| statut = Vivant <small>(1911)</small>
+| ennemi = 
+| faction = 
+| arme = [[Revolver Cattleman (RDR)|Revolver Cattleman]]
+| monture = 
+| véhicule = 
+| acteur = [[Don Creech]]
+| motion capture = 
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+'''Nigel West Dickens''', ou plus simplement '''West Dickens''', est un [[Personnages dans Red Dead Redemption|personnage majeur]] de ''[[Red Dead Redemption]]''. Il apparaît également dans l'extension ''[[Undead Nightmare]]''. 
+Il est, de plus, [[Personnages dans Red Dead Redemption II#Personnes mentionn.C3.A9es|mentionné]] dans ''[[Red Dead Redemption II]]''.
+
+== Histoire ==
+Agé de 65 ans en 1911, West Dickens se décrit comme un grand voyageur, voyages qu'il fait afin de vendre son remède miracle, capable de guérir toute maladie, qu'il appelle simplement [[élixir de Nigel West Dickens]].
+
+Il possède une [[Diligences|dilligence]] modifiée selon ses goûts, avec laquelle il effectue tous ses trajets.
+
+== Interactions ==
+=== ''Red Dead Redemption'' ===
+[[John Marston]], après avoir [[Règlement de comptes à Pike's Basin|nettoyé]] le [[Repaires de bandes|repaire]] de [[Pike's Basin]] avec le [[Leigh Johnson|Marshal Johnson]], apprend par l'adjoint [[Eli]] qu'un homme, que l'on appelle West Dickens, est porté disparu. L'ancien hors-la-loi retrouve le vieil homme au bord d'une route, ensanglanté, juste au sud de [[Coot's Chapel]]. John escorte l'anglais jusque chez [[Cabinet du docteur|médecin]] d'[[Armadillo]], tout en luttant contre les bandits qui tentent de finir le travail, car auteurs de l'agression<ref name="agression">Les auteurs de l'agression de West Dickens pourraient être les jumeaux Bollard et leur bande, car le Marshal Johnson les traque au moment où Dickens est porté disparu.</ref>.
+
+Bien que [[John Marston|Marston]] ne l'apprécie pas vraiment, West Dickens devient peu à peu l'organisateur et le stratège de [[l'attaque de Fort Mercer]] ; mais seulement après que John ait aidé -non sans mal- le vieil homme à vendre son élixir.
+
+Grâce à l'astuce de Dickens qui utilise le stratagème du "Cheval de Troie" afin de pénétrer dans la forteresse, l'attaque se déroule comme prévue, avec l'aide d'amis de l'anglais, l'[[L'Irlandais|Irlandais]] et [[Seth Briars|Seth]]<ref name="Arme">West Dickens n'utilise pas d'armes.</ref>. Cependant, celui que cherchait [[John Marston]] et donc la raison de sa venue à [[Fort Mercer]], [[Bill Williamson]], est parti pour le [[Nuevo Paraíso|Mexique]].
+
+Lorsque l'ancien hors-la-loi part traquer son ancien ami en allant voir l'Irlandais, afin de [[Les routes du Paradis|traverser en radeau]] la rivière entre Nuevo Paraíso et New Austin, West Dickens est avec lui. C'est là que l'Anglais explique qu'il ne peut plus aller en Chine ou en Europe à cause de ses multiples escroqueries.
+
+Beaucoup plus tard, il est revu à la prison de [[Blackwater]], incarcéré pour vente de narcotiques. John le reconnaît, et demande sa libération car il a aidé à la capture de Williamson et d'[[Javier Escuella|Escuella]]. [[Edgar Ross]] laisse ensuite partir l'anglais<ref name="anglais">Ce qui advient de West Dickens après ce moment-là demeure inconnu.</ref>.
+
+=== ''Undead Nightmare'' ===
+{{Citation
+| citation = Un [[tromblon]] ? Vous vous croyez en 1890 ?
+| auteur = [[John Marston]]
+| cible = West Dickens
+| plus = 
+| source = Un remède (presque) infaillible
+| url = 
+| archive = 
+| motion capture = 
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+Dans ''[[Undead Nightmare]]'', Nigel West Dickens est à [[Fort Mercer]], devenu [[Sanctuaires|sanctuaire]] de [[New Austin]]. Il dit avoir inventé un nouvel élixir permettant de sauver l'Humanité du fléau de [[Morts-vivants|zombies]], qu'il vend pour 100 pièces d'or.
+
+Il propose alors à John de payer pour ne pas être ennuyé par les morts-vivants. Mais pour l'ancien hors-la-loi, la plaisanterie de West Dickens ne peut pas durer dans une situation pareille. Il pointe l'anglais de son pistolet, afin qu'il donne gratuitement la boisson à tout le monde.
+
+Lorsque Marston voit que deux personnes ayant bu l'élixir sont dévorées à l'extérieur de la forteresse par une masse de zombies, il en conclut que l'élixir est un véritable [[Appât à morts-vivants]]<ref name="appât mv">L'appât à morts-vivants peut être utilisé pour attirer des zombies à un endroit précis. West Dickens a, indirectement, créé quelque chose d'utile.</ref>. Voyant John furieux, West Dickens lui propose d'aller cueillir des plantes afin de concevoir un vrai élixir permettant de guérir de la maladie. Avec les ingrédients récoltés par Marston, il met au point de l'[[Balles au phosphore|Enduit de phosphore]] pour l'appliquer sur des [[munitions]], redoutables face aux zombies.
+
+Lors d'une seconde rencontre, West Dickens demande à John d'aller chercher des pièces de métal à [[Riley's Charge]] afin de fabriquer le [[Tromblon]], une arme qu'il dit dévastatrice. Lorsque l'anglais montre le fusil à Marston, celui-ci est loin d'être impressionné par "une arme datant d'il y a un siècle". Mais un tir de Tromblon peut détruire tous les zombies à portée !
+
+Enfin, au [[Nuevo Paraíso|Mexique]], West Dickens informe que des [[Armée américaine|soldats]] passent la frontière avec Nuevo Paraíso, et qu'un groupe de déserteurs se trouve à [[The Scratching Post]], où John pourrait aller trouver un [[Tenues|uniforme]] de l'armée. Ensuite, Marston demande au vieil homme s'il va partir désormais, l'autre répondant qu'il va sûrement aller à Bagdad pour rencontrer l'un de ses collaborateurs. Tous deux se quittent amicalement, et Nigel West Dickens part à pied, sans plus jamais revoir John Marston<ref name="fin">Il se peut que ce soit la dernière rencontre en John et West Dickens, chronologies de ''Red Dead Redemption'' et ''Undead Nightmare'' confondues.</ref>.
+
+=== Multijoueur de ''Red Dead Redemption'' ===
+Avec l'addition du [[Pack menteurs et tricheurs]], il est un modèle de personnage en mode [[Red Dead Redemption: Multijoueur|Multijoueur]] de ''[[Red Dead Redemption]]''. 
+
+== Apparitions dans les missions ==
+=== ''Red Dead Redemption'' ===
+* "[[La complainte du vieil escroc]] "
+* "[[Le mensonge ne paie pas, quoique...]]"
+* "[[Menteurs, tricheurs et autres braves Américains]]"
+* "[[Un escroc peut-il changer ses rayures ?]]"
+* "[[Le sport des rois et des menteurs]]"
+* "[[L'attaque de Fort Mercer]]"
+* "[[Les routes du Paradis]]"
+* "[[Porte le fardeau d'un autre]]"
+
+=== ''Undead Nightmare'' ===
+* "[[Un remède (presque) infaillible]]"
+* "[[Impérialisme américain]]"
+
+== Anecdotes ==
+* West Dickens a des fréquentations douteuses : Seth, l'Irlandais... Malgré la noblesse qui le définit, il n'a pas les amis les plus aimables<ref name="amis">En effet, West Dickens serait issu de l'aristocratie anglaise.</ref>.
+* À la fin de la mission "Un escroc peut-il changer ses rayures ?", il peut-être vu en train d'uriner sur le sol<ref name="uriner">Confirmant une fois de plus que son éducation noble n'a pas forcément porté ses fruits.</ref>.
+* Sa relation avec l'Irlandais reste assez ambigüe. Elle peut s'expliquer par la vente de drogue de l'Irlandais à son ami [[Shaky]] ; drogue probablement fabriquée par West Dickens<ref name="relation">Oui, West Dickens sait aussi fabriquer toutes sortes de drogues, en plus d'élixirs ne fonctionnant pas.</ref>.
+* À la fin de la mission [[Le mensonge ne paie pas, quoique...]], si Marston pointe West Dickens avec une arme celui si s'enfuira, et si nous le tirons , les balles n'aurons aucun effet sur West Dickens.
+
+== Galerie ==
+<gallery>
+Nigel West Dickens02.jpg
+Diligences16.jpg
+Diligences13.jpg
+</gallery>
+
+== Références ==
+<references/>
+
+== Navigation ==
+{{Personnages RDR}}
+[[de:Nigel West Dickens]]
+[[en:Nigel West Dickens]]
+[[es:Nigel West Dickens]]
+[[nl:Nigel West Dickens]]
+[[pl:Nigel West Dickens]]
+[[ru:Найджел Уэст Дикенс]]
+
+[[Catégorie:Personnages dans Red Dead Redemption]]
+[[Catégorie:Personnages dans Red Dead Redemption: Multijoueur]]
+[[Catégorie:Personnages dans Undead Nightmare]]
+[[Catégorie:Personnages Redemption]]
+[[Catégorie:Personnages masculins]]
+[[Catégorie:Personnages masculins dans Red Dead Redemption]]
+[[Catégorie:Personnages]]
+[[Catégorie:Relecture]]

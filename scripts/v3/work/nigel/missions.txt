@@ -1,0 +1,20 @@
+Old Swindler Blues	scripts/v3/work/_m/Old_Swindler_Blues.txt
+Old Swindler Blues/dialogues	scripts/v3/work/_m/Old_Swindler_Blues_dialogues.txt
+You Shall Not Give False Testimony, Except for Profit	scripts/v3/work/_m/You_Shall_Not_Give_False_Testimony_Except_for_Profit.txt
+You Shall Not Give False Testimony, Except for Profit/dialogues	scripts/v3/work/_m/You_Shall_Not_Give_False_Testimony_Except_for_Profit_dialogues.txt
+Liars, Cheats and Other Proud Americans	scripts/v3/work/_m/Liars_Cheats_and_Other_Proud_Americans.txt
+Liars, Cheats and Other Proud Americans/dialogues	scripts/v3/work/_m/Liars_Cheats_and_Other_Proud_Americans_dialogues.txt
+Can a Swindler Change His Spots?	scripts/v3/work/_m/Can_a_Swindler_Change_His_Spots.txt
+Can a Swindler Change His Spots?/dialogues	scripts/v3/work/_m/Can_a_Swindler_Change_His_Spots_dialogues.txt
+The Sport of Kings, and Liars	scripts/v3/work/_m/The_Sport_of_Kings_and_Liars.txt
+The Sport of Kings, and Liars/dialogues	scripts/v3/work/_m/The_Sport_of_Kings_and_Liars_dialogues.txt
+The Assault on Fort Mercer	scripts/v3/work/_m/The_Assault_on_Fort_Mercer.txt
+The Assault on Fort Mercer/dialogues	scripts/v3/work/_m/The_Assault_on_Fort_Mercer_dialogues.txt
+We Shall Be Together in Paradise	scripts/v3/work/_m/We_Shall_Be_Together_in_Paradise.txt
+We Shall Be Together in Paradise/dialogues	scripts/v3/work/_m/We_Shall_Be_Together_in_Paradise_dialogues.txt
+Bear One Another's Burdens	scripts/v3/work/_m/Bear_One_Another_s_Burdens.txt
+Bear One Another's Burdens/dialogues	scripts/v3/work/_m/Bear_One_Another_s_Burdens_dialogues.txt
+A Cure for Most of What Ails You	scripts/v3/work/_m/A_Cure_for_Most_of_What_Ails_You.txt
+A Cure for Most of What Ails You/dialogues	MISSING (no such wiki page)
+American Imperialism	scripts/v3/work/_m/American_Imperialism.txt
+American Imperialism/dialogues	MISSING (no such wiki page)
