@@ -1,0 +1,53 @@
+{{User/characterbox
+|name = Leander Holland
+|image = [[File:Rdr leander holland french.jpg|300px]]
+|aka = French
+|gender = Male
+|location = Town of [[Armadillo]] in [[Cholla Springs]], [[New Austin]]
+|affiliations = [[Irish]]<br />[[Alwyn Lloyd|Welsh]]
+|status = Deceased
+|birth = Unknown
+|death = 1911
+|weapon = [[Cattleman Revolver]]
+|voice= [http://www.imdb.com/name/nm1559621/ Daron McFarland]|game = ''[[Red Dead Redemption]]''
+|nationality = [[File:Flag of France (1794–1815, 1830–1974).png|border|20px]] French
+|occupation = Criminal}}
+{{Quote|Yeah, keep on talking there, Irish. In about fifteen more seconds your whole world's gonna turn black!|"French"}}
+
+'''Leander Holland''', a.k.a. "'''French'''," is a [[Characters in Redemption#Minor Characters|minor character]] featured in ''[[Red Dead Redemption]]''.
+
+==History==
+===Background===
+French is a small-time career criminal, and is characterized as unkempt, aggressive, and witless. According to [[Irish]], he met French along with [[Alwyn Lloyd]] (a.k.a. "Welsh") on the boat to America, and were 'thick as thieves', literally.
+
+===Events of ''Red Dead Redemption''===
+French and his accomplice, Welsh, are in the middle of interrogating Irish by drowning him in a water trough. They accuse Irish of stealing their horses, and demand retribution. When they are interrupted by [[John Marston]], Irish claims he is innocent and that French was the one who stole the horses, although this is never proven. Sent by [[Nigel West Dickens]] to inquire with Irish about weaponry to [[The Assault on Fort Mercer|assault Fort Mercer]], Marston is forced to kill both Welsh and French in self defense and save Irish.
+
+==Mission Appearances==
+;''Red Dead Redemption''
+*"[[A Frenchman, a Welshman and an Irishman]]"
+
+==Trivia==
+*Just like Welsh and Irish, his nickname is a direct reference to his heritage.
+*Ironically enough, his last name is Holland, a region divided in two provinces located in the Netherlands, another European country.
+**However, the surname Holland is of English/Scottish origin, not French (the French surname equivalent would be Hollande).
+*While it is stated that Irish met French on the boat over from Europe, French's accent seems to be a mixture of a southern and a Cajun. However, John remarks after killing him and Welsh, to Irish, "He didn't sound very French."
+**Given Leander's non-French surname, and no Francophone accent, it is possible that either Leander's backstory is a fabrication or that Leander has lived in the United States long enough to have lost his accent, and potentially changed his name, like from Hollande to Holland.
+*He is dressed similar to Irish, with the addition of a hat and a few other items.
+*Surprisingly, French can be disarmed, and even shot non-fatally. If disarmed, he will scream something along the lines of "I'm going to cut you like a pig, you son of a bitch!" but will not chase the player. He can, however, attempt to throw a punch at the player if they get close.
+*French seems to keep his [[revolver]] tucked at front of his pants rather than in the holster. The same goes for [[Irish]].
+*Before completing "A Frenchman, a Welshman and an Irishman", Holland can be seen standing inside the Armadillo saloon. Strangely, the player is able to walk straight through him.
+
+==Gallery==
+<gallery widths="180" captionalign="left">
+Rdr frenchman welshman irishman04.jpg
+File:Rdr_frenchman_welshman_irishman07.jpg
+Rdr frenchman welshman irishman09.jpg
+</gallery>
+
+==Navigation==
+{{Characters}}
+{{DEFAULTSORT:Holland, Leander}}
+[[de:Leander Holland]]
+[[es:French]]
+[[Category:Characters in Redemption]]
