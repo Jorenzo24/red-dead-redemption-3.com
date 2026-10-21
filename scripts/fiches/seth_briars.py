@@ -36,7 +36,7 @@ def build(cl, CH):
     sections = [
         sec("Biography", "Biographie", P["A"].BLOCKS, open_=True),
         sec("Personality", "Personnalité", P["B"].BLOCKS_PERSONALITY),
-        sec("Skills, weapons and horses", "Compétences, armes et chevaux", P["B"].BLOCKS_SKILLS),
+        sec("Grave robbing, weapons and horse", "Pillage de tombes, armes et cheval", P["B"].BLOCKS_SKILLS),
         sec("Missions", "Missions", P["C"].BLOCKS_MISSIONS),
         sec("Quotes", "Citations", P["C"].BLOCKS_QUOTES),
     ]
