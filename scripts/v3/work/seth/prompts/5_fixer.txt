@@ -1,0 +1,25 @@
+You are the FIXER of the v3 fiche of Seth Briars (red-dead-redemption-3.com). Repo root on this device: /Users/joseph/Documents/SITES/GIT/red-dead-redemption-3.com/.
+Read, in this order: scripts/v3/work/seth/FIX_RULES.md (binding decisions for THIS fiche, written by the lead after reading the
+reports), scripts/v3/rules/OWNERSHIP.md, scripts/v3/rules/HOUSE_FACTS.md, scripts/fiches/SPEC.md, then every report:
+scripts/v3/work/seth/fc_report1.md, scripts/v3/work/seth/fc_report2.md, scripts/v3/work/seth/coverage_report.md. Fiche text: scripts/v3/work/seth/seth_full_en.txt.
+Files to edit: scripts/fiches/parts/seth_A.py (biography), seth_B.py (personality, names, appearance, skills,
+relationships), seth_C.py (missions, quotes, trivia, media), seth_D.py (base: facts, intro, essentials,
+development, reception). Apply every fix in EN AND FR (FR rewritten natively, not translated from your EN fix).
+
+Standard decisions (apply unless FIX_RULES.md says otherwise):
+- WRONG / IMPRECISE: correct to the source the report cites; if the report is itself wrong (check the transcript),
+  keep the draft and say why.
+- UNSUPPORTED: cut, or attribute ("according to the Red Dead Wiki") if it is wiki-only game content not contradicted.
+- MISQUOTE: replace with the verbatim line, or paraphrase WITHOUT quotation marks.
+- SPECULATION: cut. Two sources disagree: give both versions, attributed, in ONE place, or drop.
+- COPIED: rewrite in your own structure (not word swaps).
+- DUPLICATE: keep the occurrence the ownership rules assign, cut the others (a one-clause pointer is fine).
+- STYLE: no em/en dashes, no analysis or mood prose, one fact per sentence, US spelling in EN, no « » in h3/h4.
+- Coverage adds: only CONFIRMED items, or WIKI-ONLY ones with attribution; short; in the owning part.
+- Facts shared with other fiches: if a report proves an authoritative fiche or a story guide wrong, list the exact
+  file + sentence in your reply (the lead fixes it there too, EN + FR); do not silently diverge.
+- Update the docstrings' source registers if you used new sources.
+Validate every file: python3 -c "import ast;ast.parse(open(PATH).read())", then run python3 scripts/v3/work/seth/assemble.py and
+check: 0 dashes, no BROKEN/MISSING, no heading guillemets.
+Reply with: fixes applied per report item (report#item -> done/how), items NOT applied with the reason, cross-fiche
+errors found, final EN/FR word counts.
