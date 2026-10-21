@@ -39,9 +39,17 @@ the unused Red Dead Online model (cut content, part D) and Rob Wiethoff naming S
 "I hate the living" (wiki quote list without source or context, and close to the "I hate people" line kept for part
 B); "Fly! Fly!" when riding (horse line, left to part B Skills); the movie line "I'm here to paint my picture" (gallery caption that differs from the quote list's wording).
 
-OWNERSHIP: narrative events live in part A (one line per mission here). Lines likely used in part B "In his own
-words" ("I hate people", "I've lost it all", "my mind's going", "I needs the map", "I don't like women") are not
-quoted here. The 1911 and 1914 newspapers are told in part A only.
+OWNERSHIP (after the fix pass of 21 Oct 2026, scripts/v3/work/seth/FIX_RULES.md): narrative events live in part A (one
+line per mission here). Quoted HERE only (paraphrased elsewhere): "You remind me why I hate people...", "Hunting dead
+men's treasure...", "You and Seth have a lot in common..." (answers Dickens's "flotsam and jetsam"), "delight and amuse
+them...", "Seth'd sell his own mother", Dickens's Egypt line. Added from the transcripts: "Look at me! ... half insane..."
+(Exhuming, l.17), "I needs the map, partner. I needs it." and "Finally! Months of searching!" / "Maybe then you can take
+a bath." (A Gentle Drive with Friends). "Thanks for all the hard work, Seth!" lives in part B Names only. Mechanics
+introduced by each mission live HERE (Missions); pardon letter vs bounty and the UN revolver live in part B; John's
+undead-looting lines live in part B (John entry); "not in RDR2" lives in part D (Development). Trivia adds: Blackwater
+Ledger No. 56 ("More Ghosts Take up Residence at Tumbleweed", _m/, does not name Seth); lantern and War behaviours at
+Seth's party (character page trivia, attributed). Not used: the Undead Bait and shot-cards behaviours (they have Seth
+shoot outside the dynamite/fire bottle case set by the mission page); the GameStop preview (no saved source).
 """
 
 
@@ -56,8 +64,8 @@ UNM = two("Undead Nightmare", "Undead Nightmare")
 
 BLOCKS_MISSIONS = [
     {"h3": two("Missions", "Missions")},
-    {"p": two("Seth has a strand of three story missions in the first act of Red Dead Redemption, all in New Austin, numbered 13 to 15 in the story order. The first, \"Exhuming and Other Fine Hobbies\", becomes available once John has completed Bonnie MacFarlane's \"Wild Horses, Tamed Passions\" and Nigel West Dickens's \"You Shall Not Give False Testimony, Except for Profit\". It introduces wanted levels, bounties and hogtying, and unlocks the stranger mission \"Funny Man\". \"A Gentle Drive with Friends\" introduces fire bottles. \"Let the Dead Bury Their Dead\" is one of the four strands that must be completed before Leigh Johnson's \"The Assault on Fort Mercer\", with those of Johnson, Dickens and Irish. In Undead Nightmare, Seth gives one mission; completing it with Dickens's \"A Cure for Most of What Ails You\" unlocks the achievement \"Judge A Man By The...\".",
-              "Seth propose une série de trois missions principales dans le premier acte de Red Dead Redemption, toutes dans le New Austin, numérotées de 13 à 15 dans l'ordre de l'histoire. La première, \"Exhuming and Other Fine Hobbies\", se débloque une fois terminées \"Wild Horses, Tamed Passions\", une mission de Bonnie MacFarlane, et \"You Shall Not Give False Testimony, Except for Profit\", une mission de Nigel West Dickens. Elle introduit les avis de recherche, les primes et le ligotage, et débloque la mission d'inconnu \"Funny Man\". \"A Gentle Drive with Friends\" introduit les cocktails incendiaires. \"Let the Dead Bury Their Dead\" fait partie des quatre séries à terminer avant \"The Assault on Fort Mercer\", la mission de Leigh Johnson, avec celles de Johnson, de Dickens et d'Irish. Dans Undead Nightmare, Seth confie une mission ; la terminer, ainsi que \"A Cure for Most of What Ails You\", de Dickens, débloque le succès \"Judge A Man By The...\".")},
+    {"p": two("Seth has a strand of three story missions in the first act of Red Dead Redemption, all in New Austin, numbered 13 to 15 in the story order. The first, \"Exhuming and Other Fine Hobbies\", becomes available once John has completed Bonnie MacFarlane's \"Wild Horses, Tamed Passions\" and Nigel West Dickens's \"You Shall Not Give False Testimony, Except for Profit\". It introduces wanted levels, bounties and hogtying, and unlocks the stranger mission \"Funny Man\". \"A Gentle Drive with Friends\" introduces fire bottles. Seth's strand, which ends with \"Let the Dead Bury Their Dead\", is one of the four that must be completed before Leigh Johnson's \"The Assault on Fort Mercer\", with those of Johnson, Dickens and Irish. In Undead Nightmare, Seth gives one mission; completing it with Dickens's \"A Cure for Most of What Ails You\" unlocks the achievement \"Judge A Man By The...\".",
+              "Seth propose une série de trois missions principales dans le premier acte de Red Dead Redemption, toutes dans le New Austin, numérotées de 13 à 15 dans l'ordre de l'histoire. La première, \"Exhuming and Other Fine Hobbies\", se débloque une fois terminées \"Wild Horses, Tamed Passions\", une mission de Bonnie MacFarlane, et \"You Shall Not Give False Testimony, Except for Profit\", une mission de Nigel West Dickens. Elle introduit les avis de recherche, les primes et le ligotage, et débloque la mission d'inconnu \"Funny Man\". \"A Gentle Drive with Friends\" introduit les cocktails incendiaires. La série de Seth, qui se termine par \"Let the Dead Bury Their Dead\", fait partie des quatre à boucler avant \"The Assault on Fort Mercer\", la mission de Leigh Johnson, avec celles de Johnson, de Dickens et d'Irish. Dans Undead Nightmare, Seth confie une mission ; la terminer, ainsi que \"A Cure for Most of What Ails You\", de Dickens, débloque le succès \"Judge A Man By The...\".")},
     {"h4": two("Appearances", "Apparitions")},
     {"table": {"head": [two("Mission", "Mission"), two("Act", "Acte"), two("Seth's role", "Rôle de Seth")], "rows": [
         M("Exhuming and Other Fine Hobbies", A1,
@@ -70,8 +78,8 @@ BLOCKS_MISSIONS = [
           "Mission giver. Leads John to the Tumbleweed mansion, where the chest holds only a glass eye. Rewards: 10 dollars, 150 fame (200 with the gold medal) and 100 honor.",
           "Donneur de mission. Conduit John jusqu'au manoir de Tumbleweed, où le coffre ne contient qu'un œil de verre. Récompenses : 10 dollars, 150 points de célébrité (200 avec la médaille d'or) et 100 points d'honneur."),
         M("The Assault on Fort Mercer", A1,
-          "Already inside the fort, distracts the gang and welcomes Dickens's wagon through the gate. His last appearance in the story.",
-          "Déjà dans le fort, distrait la bande et fait entrer le chariot de Dickens. Sa dernière apparition dans l'histoire."),
+          "Already inside the fort, distracts the gang and welcomes Dickens's wagon at the gate. His last appearance in the story.",
+          "Déjà dans le fort, distrait la bande et accueille le chariot de Dickens à la porte. Sa dernière apparition dans l'histoire."),
         M("Get Back in That Hole, Partner", UNM,
           "Mission giver. Sends John to cleanse three cemeteries, then points him to Mexico. Reward: The Old Bacchus Place as a safehouse.",
           "Donneur de mission. Envoie John purifier trois cimetières, puis l'oriente vers le Mexique. Récompense : The Old Bacchus Place comme refuge."),
@@ -115,9 +123,6 @@ BLOCKS_QUOTES = [
         {"q": two("You must be stupid, trustin' that crazy bastard. Seth'd sell his own mother. We'll split it between us, just me and you.", "You must be stupid, trustin' that crazy bastard. Seth'd sell his own mother. We'll split it between us, just me and you."),
          "src": two("Moses Forth to John, Exhuming and Other Fine Hobbies (RDR1, Act I), hogtied",
                     "Moses Forth à John, Exhuming and Other Fine Hobbies (RDR1, acte I), ligoté. Traduction : « Faut être idiot pour faire confiance à ce cinglé. Seth vendrait sa propre mère. On partagera entre nous, rien que toi et moi. »")},
-        {"q": two("Thanks for all the hard work, Seth! Now kill 'em, boys!", "Thanks for all the hard work, Seth! Now kill 'em, boys!"),
-         "src": two("A treasure hunter, Let the Dead Bury Their Dead (RDR1, Act I)",
-                    "Un chasseur de trésor, Let the Dead Bury Their Dead (RDR1, acte I). Traduction : « Merci pour tout le boulot, Seth ! Allez, tuez-les, les gars ! »")},
         {"q": two("Seth has managed to get himself inside, but we can't leave it too long, or they will soon realize how very curious he is, and remove him from the premises, or slit his throat and watch him bleed to death, but for a minute, he will delight and amuse them. That's when he'll get us inside.", "Seth has managed to get himself inside, but we can't leave it too long, or they will soon realize how very curious he is, and remove him from the premises, or slit his throat and watch him bleed to death, but for a minute, he will delight and amuse them. That's when he'll get us inside."),
          "src": two("Nigel West Dickens, The Assault on Fort Mercer (RDR1, Act I), as Seth dances on the wall",
                     "Nigel West Dickens, The Assault on Fort Mercer (RDR1, acte I), pendant que Seth danse sur le mur. Traduction : « Seth a réussi à entrer, mais il ne faut pas tarder, sinon ils vont vite comprendre à quel point il est bizarre et le jeter dehors, ou lui trancher la gorge et le regarder se vider de son sang ; mais pendant une minute, il va les ravir et les amuser. C'est là qu'il nous fera entrer. »")},
@@ -127,6 +132,9 @@ BLOCKS_QUOTES = [
     ]},
     {"h4": two("Red Dead Redemption, Act I", "Red Dead Redemption, acte I")},
     {"quotes": [
+        {"q": two("Look at me! Look. Scrambling around, looking for maps, half insane. I ain't washed in 6 months, my hair's fallin' out, my mind's going.", "Look at me! Look. Scrambling around, looking for maps, half insane. I ain't washed in 6 months, my hair's fallin' out, my mind's going."),
+         "src": two("Exhuming and Other Fine Hobbies (RDR1, Act I), at Coot's Chapel, when John asks what mess he is in",
+                    "Exhuming and Other Fine Hobbies (RDR1, acte I), à Coot's Chapel, quand John lui demande dans quel pétrin il est. Traduction : « Regarde-moi ! Regarde. À courir après des cartes, à moitié fou. Je me suis pas lavé depuis six mois, je perds mes cheveux, je perds la tête. »")},
         {"q": two("Marston: How can you sink that low? Diggin' up graves and lootin' from the dead. / Seth: Hypocrites, the whole damn lotta you! Are you sayin' it's better to steal from the livin'? They're corpses. They don't care none.", "Marston: How can you sink that low? Diggin' up graves and lootin' from the dead. / Seth: Hypocrites, the whole damn lotta you! Are you sayin' it's better to steal from the livin'? They're corpses. They don't care none."),
          "src": two("Exhuming and Other Fine Hobbies (RDR1, Act I), on the ride to Benedict Point",
                     "Exhuming and Other Fine Hobbies (RDR1, acte I), en route vers Benedict Point. Traduction : « Marston : Comment peut-on tomber aussi bas ? Déterrer des tombes et dépouiller les morts. / Seth : Tous des hypocrites, autant que vous êtes ! Tu veux dire que c'est mieux de voler les vivants ? Ce sont des cadavres. Ils s'en fichent. »")},
@@ -142,6 +150,9 @@ BLOCKS_QUOTES = [
         {"q": two("Seth: Then I'm gonna cut you up piece by piece, 'til ya find your tongue. / Marston: Friend, this man's gone crazy in the sun. I suggest you take my advice and start talking. / Seth: Shut up, Marston, I wanna cut into a bonafide man's flesh! Ain't never cut into a live one before.", "Seth: Then I'm gonna cut you up piece by piece, 'til ya find your tongue. / Marston: Friend, this man's gone crazy in the sun. I suggest you take my advice and start talking. / Seth: Shut up, Marston, I wanna cut into a bonafide man's flesh! Ain't never cut into a live one before."),
          "src": two("Exhuming and Other Fine Hobbies (RDR1, Act I), threatening Moses Forth at Benedict Point",
                     "Exhuming and Other Fine Hobbies (RDR1, acte I), en menaçant Moses Forth à Benedict Point. Traduction : « Seth : Alors je vais te découper morceau par morceau, jusqu'à ce que ta langue se délie. / Marston : L'ami, cet homme a pris un coup de soleil sur la tête. Je te conseille de m'écouter et de parler. / Seth : La ferme, Marston, je veux entailler de la vraie chair d'homme ! J'en ai jamais découpé un vivant. »")},
+        {"q": two("I needs the map, partner. I needs it.", "I needs the map, partner. I needs it."),
+         "src": two("A Gentle Drive with Friends (RDR1, Act I), at Coot's Chapel, beside the wagon of bodies",
+                    "A Gentle Drive with Friends (RDR1, acte I), à Coot's Chapel, près du chariot de cadavres. Traduction : « Il me la faut, cette carte, l'ami. Il me la faut. »")},
         {"q": two("Marston: You're not even going to wait until they're buried before you... / Seth: Well they don't care, do ya boys? Honest folk, off to a better place.", "Marston: You're not even going to wait until they're buried before you... / Seth: Well they don't care, do ya boys? Honest folk, off to a better place."),
          "src": two("A Gentle Drive with Friends (RDR1, Act I), about the bodies in the wagon",
                     "A Gentle Drive with Friends (RDR1, acte I), à propos des corps dans le chariot. Traduction : « Marston : Tu n'attends même pas qu'ils soient enterrés pour... / Seth : Bah, ça leur est égal, pas vrai, les gars ? D'honnêtes gens, partis pour un monde meilleur. »")},
@@ -151,6 +162,9 @@ BLOCKS_QUOTES = [
         {"q": two("Christ alive! It's the map! I found the map! Go left up here! Looks like the treasure's in Tumbleweed! That's where I was headed! It's fate!", "Christ alive! It's the map! I found the map! Go left up here! Looks like the treasure's in Tumbleweed! That's where I was headed! It's fate!"),
          "src": two("A Gentle Drive with Friends (RDR1, Act I), searching the bodies during the chase",
                     "A Gentle Drive with Friends (RDR1, acte I), en fouillant les corps pendant la poursuite. Traduction : « Bon sang de bonsoir ! C'est la carte ! J'ai trouvé la carte ! À gauche, là-haut ! On dirait que le trésor est à Tumbleweed ! C'est là que j'allais ! C'est le destin ! »")},
+        {"q": two("Seth: Finally! Months of searching! I'm gonna be rich beyond my wildest dreams! / Marston: Maybe then you can take a bath.", "Seth: Finally! Months of searching! I'm gonna be rich beyond my wildest dreams! / Marston: Maybe then you can take a bath."),
+         "src": two("A Gentle Drive with Friends (RDR1, Act I), on reaching Tumbleweed",
+                    "A Gentle Drive with Friends (RDR1, acte I), à l'arrivée à Tumbleweed. Traduction : « Seth : Enfin ! Des mois de recherches ! Je vais être riche au-delà de mes rêves les plus fous ! / Marston : Tu pourras peut-être enfin prendre un bain. »")},
         {"q": two("Yeee Hooo! Finally, I see the light at the end of this very long, long tunnel. Seth's gonna be rich after all these years... It's silk sheets and Parisian whores from now on, mister!", "Yeee Hooo! Finally, I see the light at the end of this very long, long tunnel. Seth's gonna be rich after all these years... It's silk sheets and Parisian whores from now on, mister!"),
          "src": two("Let the Dead Bury Their Dead (RDR1, Act I), on finding the chest",
                     "Let the Dead Bury Their Dead (RDR1, acte I), en découvrant le coffre. Traduction : « Youhou ! Enfin, je vois la lumière au bout de ce très, très long tunnel. Seth va être riche, après toutes ces années... Désormais, ce sera draps de soie et putains parisiennes, mon gars ! »")},
@@ -161,8 +175,8 @@ BLOCKS_QUOTES = [
          "src": two("Let the Dead Bury Their Dead (RDR1, Act I), the last line of his strand",
                     "Let the Dead Bury Their Dead (RDR1, acte I), dernière réplique de sa série. Traduction : « Courir après le trésor des morts ne m'a rien rapporté de bon. D'accord. D'accord, je suis prêt pour les vivants. On se retrouve à Fort Mercer, toi et M. West Dickens, quand vous serez prêts, messieurs. »")},
         {"q": two("Hey, hey there! Come on in, come on in. Welcome to my humble abode! Come on.", "Hey, hey there! Come on in, come on in. Welcome to my humble abode! Come on."),
-         "src": two("The Assault on Fort Mercer (RDR1, Act I), opening the gate to Dickens's wagon",
-                    "The Assault on Fort Mercer (RDR1, acte I), en ouvrant la porte au chariot de Dickens. Traduction : « Hé, salut ! Entrez, entrez. Bienvenue dans mon humble demeure ! Allez, venez. »")},
+         "src": two("The Assault on Fort Mercer (RDR1, Act I), welcoming Dickens's wagon at the gate",
+                    "The Assault on Fort Mercer (RDR1, acte I), en accueillant le chariot de Dickens à la porte. Traduction : « Hé, salut ! Entrez, entrez. Bienvenue dans mon humble demeure ! Allez, venez. »")},
     ]},
     {"h4": two("Undead Nightmare (non-canon)", "Undead Nightmare (hors canon)")},
     {"quotes": [
@@ -192,23 +206,23 @@ BLOCKS_TRIVIA = [
             "Autour des feux de camp, des inconnus racontent parfois l'histoire d'une famille de Tumbleweed dont il ne serait resté qu'un œil de verre. Le Red Dead Wiki en donne deux versions : sur la page du personnage, la famille est abattue et ses biens détruits ; sur celle de la mission, elle est dévorée par un fantôme."),
         two("The title \"Let the Dead Bury Their Dead\" quotes Jesus in Matthew 8:22 and Luke 9:60, answering a disciple who asks to bury his father first.",
             "Le titre \"Let the Dead Bury Their Dead\" reprend une parole de Jésus (Matthieu 8:22 et Luc 9:60), adressée à un disciple qui demande d'abord à enterrer son père."),
-        two("At the end of \"Exhuming and Other Fine Hobbies\", the player can pay off the bounty with money instead and keep the pardon letter. According to the mission page, Seth does not die if John shoots him at the start of the mission: he gets up and runs away.",
-            "À la fin de \"Exhuming and Other Fine Hobbies\", le joueur peut payer la prime avec son argent et garder la lettre de grâce. D'après la page de la mission, Seth ne meurt pas si John lui tire dessus au début : il se relève et s'enfuit."),
+        two("According to the mission page of \"Exhuming and Other Fine Hobbies\", Seth does not die if John shoots him at the start of the mission: he gets up and runs away.",
+            "D'après la page de la mission \"Exhuming and Other Fine Hobbies\", Seth ne meurt pas si John lui tire dessus au début : il se relève et s'enfuit."),
         two("According to the mission page of \"A Gentle Drive with Friends\", the first body in the wagon uses the same model as Sam Odessa, found dead outside Tumbleweed. If the player drives through Armadillo against Seth's advice, extra lines play, and a lawman who sees the wagon stopped for long enough examines it, which fails the mission.",
             "D'après la page de la mission \"A Gentle Drive with Friends\", le premier corps du chariot reprend le modèle de Sam Odessa, retrouvé mort près de Tumbleweed. Si le joueur traverse Armadillo malgré le conseil de Seth, des répliques supplémentaires se déclenchent, et un représentant de la loi qui voit le chariot arrêté trop longtemps vient l'inspecter, ce qui fait échouer la mission."),
-        two("According to the Red Dead Wiki, Josephine Byrd, whose grave Seth digs up at Coot's Chapel, died on April 1, 1878. Her grave can be opened with a fire bottle, and her body wears the same trousers as Seth.",
-            "D'après le Red Dead Wiki, Josephine Byrd, dont Seth ouvre la tombe à Coot's Chapel, est morte le 1er avril 1878. Sa tombe peut être ouverte avec un cocktail incendiaire, et son corps porte le même pantalon que Seth."),
+        two("According to the Red Dead Wiki, Josephine Byrd died on April 1, 1878. Her grave can be opened with a fire bottle, and her body wears the same trousers as Seth.",
+            "D'après le Red Dead Wiki, Josephine Byrd est morte le 1er avril 1878. Sa tombe peut être ouverte avec un cocktail incendiaire, et son corps porte le même pantalon que Seth."),
         two("According to the Red Dead Wiki, Moses Forth's father, Herbert Forth, is buried in the Tumbleweed cemetery, under a tombstone that reads \"This is one grave he cannot rob.\"",
             "D'après le Red Dead Wiki, le père de Moses Forth, Herbert Forth, est enterré au cimetière de Tumbleweed, sous une pierre tombale où l'on lit \"This is one grave he cannot rob.\" (voilà une tombe qu'il ne pourra pas piller)."),
+        two("Issue No. 56 of the Blackwater Ledger carries the article \"More Ghosts Take up Residence at Tumbleweed\". It reports that dozens more men have died in Tumbleweed and mentions rumors of riches hidden in the town's abandoned mansion. It does not name Seth.",
+            "Le numéro 56 du Blackwater Ledger publie l'article \"More Ghosts Take up Residence at Tumbleweed\". On y lit que des dizaines d'hommes de plus ont trouvé la mort à Tumbleweed, et que des rumeurs parlent de richesses cachées dans le manoir abandonné de la ville. Seth n'y est pas nommé."),
     ]},
     {"h4": two("Undead Nightmare (non-canon)", "Undead Nightmare (hors canon)")},
     {"ul": [
-        two("According to the Red Dead Wiki, Seth and the niece of Mordecai Robbard are the only characters the undead never attack. The wiki also says that Seth and Nigel West Dickens are the only uninfected major characters of the expansion who never fight the undead.",
-            "D'après le Red Dead Wiki, Seth et la nièce de Mordecai Robbard sont les seuls personnages que les morts-vivants n'attaquent jamais. Le wiki ajoute que Seth et Nigel West Dickens sont les seuls personnages majeurs non infectés de l'extension à ne jamais combattre les morts-vivants."),
-        two("The undead at Seth's party cannot be shot, but a stick of dynamite or a fire bottle can kill them. According to the mission page, if Seth survives, he draws a revolver, fires at John and tries to flee. John can kill him, but this changes nothing: Seth still steals the mask at the end of the expansion.",
-            "Les morts-vivants de la fête de Seth sont insensibles aux balles, mais un bâton de dynamite ou un cocktail incendiaire peut les tuer. D'après la page de la mission, si Seth en réchappe, il sort un revolver, tire sur John et tente de s'enfuir. John peut l'abattre, mais cela ne change rien : Seth vole quand même le masque à la fin de l'extension."),
-        two("According to the Red Dead Wiki, when John searches the bodies of the undead, he can say \"Seth, I'm sorry about all the insults\", \"Seth, finally I've joined you\" or \"Seth, how do you enjoy this?\".",
-            "D'après le Red Dead Wiki, quand John fouille les corps des morts-vivants, il peut dire \"Seth, I'm sorry about all the insults\" (Seth, désolé pour toutes ces insultes), \"Seth, finally I've joined you\" (Seth, me voilà enfin des tiens) ou \"Seth, how do you enjoy this?\" (Seth, ça te plaît ?)."),
+        two("According to the Red Dead Wiki, Seth and the niece of Mordecai Robbard are the only characters the undead do not attack during the story, and Seth and Nigel West Dickens are the only uninfected major characters who take no part in fighting the undead.",
+            "D'après le Red Dead Wiki, Seth et la nièce de Mordecai Robbard sont les seuls personnages que les morts-vivants n'attaquent pas au fil de l'histoire, et Seth et Nigel West Dickens les seuls personnages majeurs non infectés qui ne prennent aucune part aux combats contre eux."),
+        two("The undead at Seth's party cannot be shot, but a stick of dynamite or a fire bottle can kill them (for Seth's reaction, see Weapons and horse). According to the Red Dead Wiki, shooting the lantern above the dancers sets one of them on fire and makes the others attack, and riding over them on War sets them burning while Seth runs off. John can kill Seth, but this changes nothing: Seth still steals the mask at the end of the expansion.",
+            "Les morts-vivants de la fête de Seth sont insensibles aux balles, mais un bâton de dynamite ou un cocktail incendiaire peut les tuer (pour la réaction de Seth, voir Armes et cheval). D'après le Red Dead Wiki, tirer sur la lanterne suspendue au-dessus des danseurs enflamme l'un d'eux et lance les autres à l'attaque, et les piétiner avec War les fait brûler pendant que Seth prend la fuite. John peut abattre Seth, mais cela ne change rien : il vole quand même le masque à la fin de l'extension."),
         two("\"Get Back in That Hole, Partner\" is also the title of a track on the Undead Nightmare soundtrack.",
             "\"Get Back in That Hole, Partner\" est aussi le titre d'un morceau de la bande originale d'Undead Nightmare."),
     ]},
@@ -226,7 +240,4 @@ BLOCKS_MEDIA = [
     {"h4": two("Marketing", "Promotion")},
     {"p": two("Rockstar released official artwork of Seth for Red Dead Redemption; according to the Red Dead Wiki, it shows him with longer, thicker hair than in the game. According to the same wiki, the debut trailer of Undead Nightmare opens on Moses Forth digging up a grave at Coot's Chapel before an undead Bruiser charges and devours him, and briefly shows Josephine Byrd's tombstone stained with blood.",
               "Rockstar a diffusé une illustration officielle de Seth pour Red Dead Redemption ; d'après le Red Dead Wiki, il y a les cheveux plus longs et plus épais que dans le jeu. Toujours selon ce wiki, la première bande-annonce d'Undead Nightmare s'ouvre sur Moses Forth en train de déterrer une tombe à Coot's Chapel, avant qu'un Bruiser mort-vivant ne le charge et ne le dévore, et montre brièvement la pierre tombale de Josephine Byrd tachée de sang.")},
-    {"h4": two("Red Dead Redemption 2", "Red Dead Redemption 2")},
-    {"p": two("Seth does not appear in Red Dead Redemption 2, which is set in 1899. The Red Dead Wiki's character page lists only Red Dead Redemption and its Undead Nightmare expansion among his games, and the wiki records no mention of him in the later game.",
-              "Seth n'apparaît pas dans Red Dead Redemption 2, qui se déroule en 1899. La page du personnage sur le Red Dead Wiki ne cite que Red Dead Redemption et son extension Undead Nightmare parmi ses jeux, et le wiki ne relève aucune mention de lui dans le second opus.")},
 ]

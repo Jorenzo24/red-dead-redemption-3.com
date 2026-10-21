@@ -17,8 +17,8 @@ Corrections to the v2 base:
 - v2 "Red Dead Redemption (2010) and its 2024 remaster": dropped (the 2023 console and 2024 PC releases are ports).
 - v2 "deranged", "unhinged", "unstable", "visibly unwell", "split-personality behaviour... suggest serious mental
   illness": interpretation; replaced by the GOTY guide quote (part B) and by facts.
-- v2 "escort a wagon of exhumed corpses to Tumbleweed to find the map's other half": the corpses come from Odd
-  Fellow's Rest and are searched on the way; the piece is found during the drive (transcript).
+- v2 "escort a wagon of exhumed corpses to Tumbleweed to find the map's other half": the transcript names no cemetery for the corpses
+  (character page: Odd Fellow's Rest; mission page: Coot's Chapel); they are searched on the way; the piece is found during the drive (transcript).
 - v2 "In-game newspapers wrongly credit Moses Forth for the grave-robbings": the 1911 article (Blackwater Ledger No. 53,
   "Grave Robber Captured, But Crimes Persist") names only Moses and notes that desecrations continue after his
   arrest; it does not name Seth. Left to parts A/C, not in the base.
@@ -99,7 +99,7 @@ BASE = {
         {"label": two("Residence", "Résidence"), "value": two("No fixed home in New Austin in 1911, according to the Red Dead Wiki; The Old Bacchus Place in Undead Nightmare", "Sans domicile fixe au New Austin en 1911, selon le Red Dead Wiki ; The Old Bacchus Place dans Undead Nightmare")},
         {"label": two("Occupation", "Activité"), "value": two("Grave robber and treasure hunter; formerly ran a business, by his own account", "Pilleur de tombes et chasseur de trésor ; à l'en croire, il a eu autrefois une affaire")},
         {"label": two("Family", "Famille"), "value": two("A wife and children he says he has lost; his mother is dead", "Une femme et des enfants qu'il dit avoir perdus ; sa mère est morte")},
-        {"label": two("Former partners", "Anciens associés"), "value": two("Moses Forth, Aiden O'Leary", "Moses Forth, Aiden O'Leary")},
+        {"label": two("Former partner", "Ancien associé"), "value": two("Moses Forth", "Moses Forth")},
         {"label": two("Allies", "Alliés"), "value": two("[[john-marston|John Marston]], [[nigel-west-dickens|Nigel West Dickens]]", "[[john-marston|John Marston]], [[nigel-west-dickens|Nigel West Dickens]]")},
         {"label": two("Weapons", "Armes"), "value": two("Knife; Cattleman Revolver and Repeater Carbine (Red Dead Wiki)", "Couteau ; Cattleman Revolver et Repeater Carbine (Red Dead Wiki)")},
         {"label": two("Games", "Jeux"), "value": two("Red Dead Redemption, Undead Nightmare; unused model in Red Dead Online", "Red Dead Redemption, Undead Nightmare ; modèle inutilisé dans Red Dead Online")},
@@ -108,8 +108,8 @@ BASE = {
     "intro": [
         two("Seth Briars is a grave robber and treasure hunter in Red Dead Redemption (2010), set in 1911. [[nigel-west-dickens|Nigel West Dickens]] sends [[john-marston|John Marston]] to him for a way into Fort Mercer, the hideout of [[bill-williamson|Bill Williamson]]'s gang. Seth agrees to help once he has his treasure map. John helps him force his former partner Moses Forth to talk, then drives a wagon of corpses to Tumbleweed while Seth searches them for the missing piece. In the Tumbleweed mansion, the treasure chest holds only a glass eye. Seth keeps his word and is inside Fort Mercer when the assault begins.",
             "Seth Briars est un pilleur de tombes et chasseur de trésor de Red Dead Redemption (2010), dont l'action se déroule en 1911. [[nigel-west-dickens|Nigel West Dickens]] envoie [[john-marston|John Marston]] le trouver pour entrer dans Fort Mercer, repaire de la bande de [[bill-williamson|Bill Williamson]]. Seth accepte d'aider, mais seulement une fois sa carte au trésor complète. John l'aide à faire parler son ancien associé, Moses Forth, puis conduit jusqu'à Tumbleweed un chariot de cadavres que Seth fouille en route pour trouver le morceau manquant. Dans le manoir de Tumbleweed, le coffre ne contient qu'un œil de verre. Seth tient parole : il est dans Fort Mercer quand l'assaut commence."),
-        two("In 1914, the last newspaper of the game reports that he walked into Blackwater with a large haul of gold and precious stones found in the mountains of Tall Trees. He is voiced by Kevin Glikmann and also appears in Undead Nightmare.",
-            "En 1914, le dernier journal du jeu rapporte qu'il est arrivé à Blackwater avec un énorme butin d'or et de pierres précieuses trouvé dans les montagnes de Tall Trees. Il a la voix de Kevin Glikmann et apparaît aussi dans Undead Nightmare."),
+        two("In 1914, the last newspaper of the game reports that he walked out of the mountains in Tall Trees and into Blackwater with a large haul of gold and precious stones. He is voiced by Kevin Glikmann and also appears in Undead Nightmare.",
+            "En 1914, le dernier journal du jeu rapporte qu'il est descendu des montagnes de Tall Trees jusqu'à Blackwater avec un énorme butin d'or et de pierres précieuses. Il a la voix de Kevin Glikmann et apparaît aussi dans Undead Nightmare."),
     ],
     "essentials": [
         two("In \"Exhuming and Other Fine Hobbies\", John finds him robbing graves at Coot's Chapel; Seth names his price for helping with Fort Mercer: the missing half of his treasure map.",
@@ -118,10 +118,10 @@ BASE = {
             "À Benedict Point, il menace au couteau son ancien associé, Moses Forth, jusqu'à ce que celui-ci lâche le nom d'Odd Fellow's Rest."),
         two("In \"A Gentle Drive with Friends\", he finds the missing piece on a corpse in the wagon; in \"Let the Dead Bury Their Dead\", the chest it leads to holds a glass eye.",
             "Dans \"A Gentle Drive with Friends\", il trouve le morceau manquant sur un cadavre du chariot ; dans \"Let the Dead Bury Their Dead\", le coffre auquel il mène contient un œil de verre."),
-        two("In \"The Assault on Fort Mercer\", he is already inside the fort and lets Dickens's wagon through the gate.",
-            "Dans \"The Assault on Fort Mercer\", il est déjà dans le fort et fait entrer le chariot de Dickens."),
-        two("In 1914, the Blackwater Ledger & Sentinel reports his return from Tall Trees with gold and precious stones.",
-            "En 1914, le Blackwater Ledger & Sentinel annonce son retour de Tall Trees avec de l'or et des pierres précieuses."),
+        two("In \"The Assault on Fort Mercer\", he is already inside the fort and welcomes Dickens's wagon at the gate.",
+            "Dans \"The Assault on Fort Mercer\", il est déjà dans le fort et accueille le chariot de Dickens à la porte."),
+        two("In 1914, the Blackwater Ledger & Sentinel reports that he walked out of the mountains in Tall Trees and into Blackwater with gold and precious stones.",
+            "En 1914, le Blackwater Ledger & Sentinel rapporte qu'il est descendu des montagnes de Tall Trees jusqu'à Blackwater avec de l'or et des pierres précieuses."),
         two("In Undead Nightmare, which is not canon, he sends John to clear three cemeteries and later steals the mask that ended the plague.",
             "Dans Undead Nightmare, qui n'appartient pas au canon, il envoie John nettoyer trois cimetières, puis vole le masque qui avait mis fin à l'épidémie."),
     ],

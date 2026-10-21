@@ -601,5 +601,10 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     et dans le guide acte I EN+FR). Ricketts : John le rencontre à son arrivée à Chuparosa (pas « indiqué par Dickens »,
     guide acte II corrigé). « Premier tournage = John trouvant Dickens » : Rob Nelson, co-directeur de Rockstar North,
     cité par IGN (mai 2020), pas Variety. Article de 1907 « Man Exposes Medical Frauds ».
+  - **Seth Briars v3** : 6 990 mots EN, 8 relations, galerie 5. Journal de 1914 lu sur l'image (Ledger & Sentinel n° 213) :
+    son NOM y est imprimé (le wiki dit le contraire), il « sort des montagnes de Tall Trees » avec or et pierres
+    précieuses ; RIEN sur sa famille (wiki EN/FR et Gameranx se trompent). Fort Mercer : Seth, déjà dans le fort, accueille
+    le chariot à la porte (qui ouvre : non précisé ; corrigé chez Nigel). Seul associé : Moses Forth. Guide RDR1 acte I :
+    il cherche à récupérer sa moitié de carte volée selon lui par Moses (pas « une carte au trésor » dans les cimetières).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
