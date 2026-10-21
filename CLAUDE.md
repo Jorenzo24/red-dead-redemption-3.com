@@ -612,5 +612,13 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     dans le Rio Bravo, pas à Cholla Springs (guide acte I corrigé EN+FR). Voix : Anthony De Longis ; Colin Nissan avait
     enregistré le rôle puis a été remplacé (Kotaku, 17 août 2010). « The Last Enemy... » = dernière mission de JOHN, pas
     du jeu (corrigé chez Landon et Seth).
+  - **Abraham Reyes v3** : 7 930 mots EN, 15 relations, galerie 5 (dernière = Undead Nightmare). Au pouvoir dès 1911
+    (Blackwater Ledger n° 60), toujours en 1914 ; l'article de 1914 ne dit pas qui a donné l'ordre de tirer. À Chuparosa,
+    ce sont les rebelles de Reyes qui sauvent John du peloton (« Cowards Die Many Times ») ; De Santa meurt plus tard à
+    Sepulcro, tué par John ou par les rebelles (guide acte II corrigé EN+FR, qui disait « John échappe au peloton et le
+    tue »). « Civilization, at Any Price » = escorte d'un train leurre (corrigé chez John). Allende et Bill meurent sur la
+    route en fuyant en diligence ; si John ne tire pas, Reyes les abat tous les deux. Undead Nightmare : « A Civilized Man »
+    est l'avant-dernière mission. Voix : Josh Segarra. Retiré chez John : l'affirmation non sourcée sur des voix
+    différentes dans les premières bandes-annonces.
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).

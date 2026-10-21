@@ -127,8 +127,6 @@ BLOCKS_TRIVIA = [
     {"ul": [
         two("In the first trailers released before the game, John looks younger and thinner than in the final version.",
             "Dans les premières bandes-annonces diffusées avant la sortie, John paraît plus jeune et plus mince que dans la version finale."),
-        two("The same early trailers use different voices for several characters: John, [[leigh-johnson|Leigh Johnson]], [[abraham-reyes|Abraham Reyes]], [[luisa-fortuna|Luisa Fortuna]], [[bonnie-macfarlane|Bonnie MacFarlane]] and her father Drew MacFarlane.",
-            "Ces mêmes bandes-annonces prêtent une autre voix à plusieurs personnages : John, [[leigh-johnson|Leigh Johnson]], [[abraham-reyes|Abraham Reyes]], [[luisa-fortuna|Luisa Fortuna]], [[bonnie-macfarlane|Bonnie MacFarlane]] et son père, Drew MacFarlane."),
         two("John opens the game on a steamboat that docks at Blackwater, escorted by two lawmen. He then takes the train to Armadillo (\"Exodus in America\").",
             "Le jeu s'ouvre sur John débarquant d'un bateau à vapeur à Blackwater, escorté par deux représentants de la loi. Il prend ensuite le train pour Armadillo (\"Exodus in America\")."),
         two("Outside Fort Mercer in \"Exodus in America\", John tells Bill Williamson \"I implore you\". Bill mocks the phrase, reminds John that he \"always were one for fancy words\", and declares that he is now in charge, with no more Dutch.",
