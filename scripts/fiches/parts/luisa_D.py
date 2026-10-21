@@ -30,9 +30,8 @@ SOURCE REGISTER (read 21 Oct 2026):
   look (darker yellow teeth, unkempt hair, more worn face); Undead Nightmare undead with her model and gold cross; Liars and
   Cheats multiplayer model. FR wiki (fr.txt): actrice Francesca Galeas; Luisa is one of the backgrounds of the official
   site.
-- IMDb full credits of Red Dead Redemption (tt1479962) and IMDb name page nm2277691: Francesca Galeas credited as Luisa
-  Fortuna (seen through search-engine extracts on 21 Oct 2026; imdb.com refuses direct fetches). Her other screen credits
-  could not be checked on a page and are not given.
+- IMDb (tt1479962, nm2277691): not readable (403) and no saved copy, so the IMDb credit is NOT given (fix, 21 Oct 2026);
+  only the Red Dead Wiki credit is stated.
 - Rockstar Newswire, "Original Red Dead Redemption Artwork: Luisa Fortuna & Irish", posted May 3, 2010, author R* Q
   (archived copy saved as luisa/fc/newswire_2010-05-03_artwork_luisa_irish.txt): artwork added to the official website,
   "People of the West" updates, character videos, desktops, backgrounds, icons and avatars on the Downloads page. The
@@ -69,8 +68,8 @@ def two(en, fr): return {"en": en, "fr": fr}
 
 BLOCKS_DEV = [
     {"h3": two("Casting", "Le casting")},
-    {"p": two("Luisa Fortuna appears in Red Dead Redemption, released in May 2010. The Red Dead Wiki credits Francesca Galeas as her voice, and the game's credits on IMDb list Galeas in the role. No interview in which Galeas discusses Red Dead Redemption was found. No source consulted names a performer for Luisa's motion capture, and Wikipedia's article on the game does not mention the character.",
-              "Luisa Fortuna apparaît dans Red Dead Redemption, sorti en mai 2010. Le Red Dead Wiki attribue sa voix à Francesca Galeas, et la fiche du jeu sur IMDb crédite Galeas dans le rôle. Aucune interview dans laquelle Galeas évoque Red Dead Redemption n'a été trouvée. Aucune des sources consultées ne nomme d'interprète pour la capture de mouvement de Luisa, et l'article de Wikipédia consacré au jeu ne cite pas le personnage.")},
+    {"p": two("Luisa Fortuna appears in Red Dead Redemption, released in May 2010. The Red Dead Wiki credits Francesca Galeas as her voice. No interview in which Galeas discusses Red Dead Redemption was found. No source consulted names a performer for Luisa's motion capture, and Wikipedia's article on the game does not mention the character.",
+              "Luisa Fortuna apparaît dans Red Dead Redemption, sorti en mai 2010. Le Red Dead Wiki attribue sa voix à Francesca Galeas. Aucune interview dans laquelle Galeas évoque Red Dead Redemption n'a été trouvée. Aucune des sources consultées ne nomme d'interprète pour la capture de mouvement de Luisa, et l'article de Wikipédia consacré au jeu ne cite pas le personnage.")},
     {"h3": two("Design and promotion", "Conception et promotion")},
     {"p": two("On May 3, 2010, two weeks before the game's release, Rockstar presented on its Newswire two character artworks newly added to the official Red Dead Redemption website, one of Luisa and one of Irish. The post adds that both characters feature in the site's \"People of the West\" updates and in the game's character videos, and that the artworks are available as desktops, backgrounds, icons and avatars on the Downloads page. The French-language Red Dead Wiki notes that she is one of the backgrounds of the official site. According to the Red Dead Wiki, a pre-release version of the game gave her a more worn face, dark yellow teeth and unkempt hair. The Red Dead Wiki's page on the game's cut content does not mention her.",
               "Le 3 mai 2010, deux semaines avant la sortie du jeu, Rockstar a présenté sur son Newswire deux illustrations de personnages ajoutées au site officiel de Red Dead Redemption : Luisa et Irish. Le billet précise que tous deux figurent dans les mises à jour \"People of the West\" du site et dans les vidéos de présentation des personnages, et que les illustrations sont proposées en fonds d'écran, arrière-plans, icônes et avatars dans la rubrique Downloads. Le Red Dead Wiki francophone relève qu'elle sert de fond au site officiel. Selon le Red Dead Wiki, une version du jeu antérieure à sa sortie lui donnait un visage plus marqué, des dents d'un jaune foncé et des cheveux en bataille. La page du Red Dead Wiki sur le contenu coupé du jeu ne la mentionne pas.")},
