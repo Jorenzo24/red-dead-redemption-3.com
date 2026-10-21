@@ -1,0 +1,97 @@
+{{User/characterbox
+|undefined
+|undefined
+|name = Luisa Fortuna
+|image = [[File:Rdr_luisa_fortuna_square.jpg|300px]]
+|game = ''[[Red Dead Redemption]]''
+|aka = {{addendum|by Abraham Reyes|Laura}}
+{{addendum|by Abraham Reyes|Peasent}}
+|nationality = [[File:Flag of Mexico 1899-1917.png|border|20px]] Mexican
+|gender = Female
+|location = [[Campo Mirada]] in [[Perdido]], [[Nuevo Paraíso]]
+|affiliations = [[Reyes' Rebels]]<br />[[John Marston]]<br />[[Abraham Reyes]]<br />[[Landon Ricketts]]
+|family = [[Mr. Fortuna]] <small>(father)</small><br>[[Mrs. Fortuna]] <small>(mother)</small><br>[[Emilio Fortuna]] <small>(brother)</small><br>[[Miranda Fortuna]] <small>(sister)</small><br>
+|occupation = Schoolteacher<br>Revolutionary
+|weapon = [[Cattleman Revolver]]<br />[[Hunting Knife]]
+|voice = [http://www.imdb.com/name/nm2277691/ Francesca Galeas]
+}}
+{{Quote|Don't worry about me, [[John Marston|Mr. Marston]]. I am living in history. I am not afraid to die.|''Luisa Fortuna''
+}}
+'''Luisa Fortuna''' is a [[Characters in Redemption#Major characters|major character]] featured in ''[[Red Dead Redemption]]''.
+
+With the addition of the ''[[Liars and Cheats]]'' [[DLC]] pack, '''Luisa Fortuna''' is also a [[Multiplayer Characters|multiplayer character]] model that may be selected in the 'Redemption' section of the [[Outfitter]].
+
+==History==
+===Background===
+Luisa was born in 1892.<ref>''[[Red Dead Redemption]]'' - Game of the Year guidebook.</ref> As a child, she learned to read, write, and speak English all on her own. By 1911, she is 19 years old and is training to be a schoolteacher while also fighting as a rebel in [[Nuevo Paraíso]], Mexico. She is a very dedicated and zealous revolutionary and is said to fight as well as any man.<ref>According to the rebels in a [[Captain De Santa's Downfall/dialogues|conversation]] with Marston.</ref>
+
+===Events of ''Red Dead Redemption''===
+John first meets Luisa when he and [[Landon Ricketts]] rescue her from a government jail at the behest of her brother [[Emilio Fortuna]]. John soon discovers that Luisa has fallen for the leader of the local rebellion, [[Abraham Reyes]], expecting that they will soon marry. Quite to the contrary, Reyes simply views Luisa (among other women) as a peasant and uses her for sex, while forgetting or confusing her name several times (often with "Laura") throughout the game. Regardless, she remains endlessly faithful to him and his rebellion. Luisa is unconcerned about how Reyes views her and how he forgets her name; she still loves him and still cares for his rebellion no matter what happens and no matter what Reyes says or does. Because of her love and loyalty to him and her country, Luisa is willing to do anything for Reyes's rebellion.
+
+Her relationship with John deteriorates throughout the time they know each other, despite all the favors he does for her. In [[Father Abraham|"Father Abraham"]], she claims that she "cannot forgive [him] for helping Allende", which may explain why she appears to be less friendly with him after the player has completed all of the missions for the [[Mexican Army]]. She does, however, seek John's help; she asks him to escort [[Miranda Fortuna|her sister]] to the docks so she can escape to the Yucatan, asks for his assistance in [[Must a Savior Die?|freeing Reyes]] from El Presidio, and persuades him to join a guerrilla attack on the Army to avenge [[Mr. Fortuna|her father]]'s death. Later, she organizes an assault on [[Sepulcro]] in order to kill [[Vincente de Santa|Captain de Santa]].
+
+During [[An Appointed Time|"An Appointed Time"]], after John witnesses the war crimes being carried out in [[Escalera]] by the Mexican Army, he comes across Reyes, who is about to be executed by [[Raul Zubieta]] and two of his men. As John tries to negotiate Reyes' release, Luisa appears and blindly charges at Zubieta, wielding a [[knife]]. Zubieta and his men then shoot Luisa through the chest three times, killing her. Enraged, John shoots Zubieta's two soldiers before being challenged to a duel by him. John kills Zubieta, avenging Luisa's death, before cutting Reyes free and continuing with the battle. Afterwards, he confronts Reyes about Luisa's martyrdom; for the final time Reyes fails to recount who she was, even though she lived and died for him.
+
+==Mission appearances==
+;''Red Dead Redemption''
+*[[Landon Ricketts Rides Again|"Landon Ricketts Rides Again"]]
+*[[The Mexican Wagon Train|"The Mexican Wagon Train"]]
+*[[My Sister's Keeper|"My Sister's Keeper"]]
+*[[Must a Savior Die?|"Must a Savior Die?"]]
+*[[Father Abraham|"Father Abraham"]]
+*[[Captain De Santa's Downfall|"Captain De Santa's Downfall"]]
+*[[An Appointed Time|"An Appointed Time"]]
+
+==Quotes==
+{{Quote|My heart is breaking, but I cry for Mexico.|Luisa Fortuna}}
+{{Quote|Thank you for saving me. You're good men. Friends of the people of this land.|Luisa Fortuna}}
+{{Quote|I'm well, sir, but Allende is sending more men to their deaths. Prisoners who have not been tried. A prominent writer, Castillo, and a local official whose only crime was not putting the small holders on the street when they were late with taxes.|Luisa Fortuna}}
+{{Quote|Mr. Ricketts!|Luisa Fortuna}}
+{{Quote|Thank you, both of you.|Luisa Fortuna}}
+{{Quote|Great and terrible things! The revolution is coming! The country will be in turmoil once more. This time, we hope is the last time.|Luisa Fortuna}}
+{{Quote|I would rather be dead than a cynic like you, Mr. Marston.|Luisa Fortuna}}
+{{Quote|I don't weep for myself, but for my country! Abraham Reyes has been captured!|Luisa Fortuna}}
+{{Quote|Mr. Marston, my father was killed yesterday. The army found him and accused him of treason. They cut out his heart and fed it to their dogs. Allende did this. Then, he took the honor of two young girls.|Luisa Fortuna}}
+{{Quote|My father must not die in vain! His death must mean something.|Luisa Fortuna}}
+{{Quote|Mr. Marston. I have lost my father. My mother is in the United States. My sister has fled. I have no family, just the cause. Please. Good actions make you a good man.|Luisa Fortuna}}
+{{Quote|Déjen mi hombre-|Luisa Fortuna's last words}}
+
+==Trivia==
+*Her characteristics draw parallels with the main character in the short story written by [[Wikipedia: Katherine Anne Porter|Katherine Anne Porter]] called "Flowering Judas", where a young woman named Laura falls in love with a shallow, boastful revolutionary.
+*In singleplayer, Luisa is seen wearing a dress throughout the game, though she is given chaps in multiplayer, a similar change applied to [[Abigail Marston]].
+*Even if John mentions to many people he has a family, he only reveals one of their names to Luisa: she asks during "Father Abraham" for his son's name, and he tells her.
+*Her last name means "luck", which is ironic considering her death later on in the story. On the other hand, this can be considered a better fate than being abused and heartbroken by Reyes, who did not reciprocate her romantic feelings for him and instead considered her as "some peasant girl with a tight c*nt."
+*In a pre-release version of the game Luisa had a more defeated, unhygienic face. Her teeth were a dark yellow and her hair was unkept.
+*She is one of the three major characters who do not ride horses at all. The others are [[Agustin Allende]] and [[Nigel West Dickens]].
+*A man buried at [[Sepulcro]] cemetery, Alejandro Fortuna, may be related to Luisa. According to his gravestone, "he died for his country".
+*In ''[[Undead Nightmare]]'', a regular [[undead]] uses Luisa's character model. Getting close enough to her and using [[Dead Eye Targeting]] reveals the gold cross necklace that Luisa wears throughout the game. This undead is first encountered in [[Escalera]].
+
+==Gallery==
+<gallery position="center" captionalign="center" hideaddbutton="true">
+File:luisafortuna.jpg
+Rdr luisa fortuna.jpg
+Reddeadredemption luisa 800x600.jpg
+rdr_0474.jpg
+rdr_0466.jpg
+tumblr_lzba8xuPtK1qfjahco3_1280.jpg|Luisa and Marston talk about the future of Nuevo Paraíso
+tumblr_lzba8xuPtK1qfjahco7_1280.jpg|Luisa is assisted by Marston
+tumblr_lzba8xuPtK1qfjahco9_1280.jpg|Luisa is serenaded by Abraham Reyes
+</gallery>
+
+==References==
+<references/>
+
+==Related Content==
+{{Related Content}}
+{{Characters}}
+
+{{DEFAULTSORT:Fortuna, Luisa}}
+
+[[Category:Characters in Redemption]]
+[[Category:Multiplayer characters in Redemption]]
+
+[[de:Luisa Fortuna]]
+[[fr:Luisa Fortuna]]
+[[es:Luisa Fortuna]]
+[[ru:Луиза Фортуна]]
+[[pt-br:Luisa Fortuna]]

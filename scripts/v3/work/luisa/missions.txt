@@ -1,0 +1,14 @@
+Landon Ricketts Rides Again	scripts/v3/work/_m/Landon_Ricketts_Rides_Again.txt
+Landon Ricketts Rides Again/dialogues	scripts/v3/work/_m/Landon_Ricketts_Rides_Again_dialogues.txt
+The Mexican Wagon Train	scripts/v3/work/_m/The_Mexican_Wagon_Train.txt
+The Mexican Wagon Train/dialogues	scripts/v3/work/_m/The_Mexican_Wagon_Train_dialogues.txt
+My Sister's Keeper	scripts/v3/work/_m/My_Sister_s_Keeper.txt
+My Sister's Keeper/dialogues	scripts/v3/work/_m/My_Sister_s_Keeper_dialogues.txt
+Must a Savior Die?	scripts/v3/work/_m/Must_a_Savior_Die.txt
+Must a Savior Die?/dialogues	scripts/v3/work/_m/Must_a_Savior_Die_dialogues.txt
+Father Abraham	scripts/v3/work/_m/Father_Abraham.txt
+Father Abraham/dialogues	scripts/v3/work/_m/Father_Abraham_dialogues.txt
+Captain De Santa's Downfall	scripts/v3/work/_m/Captain_De_Santa_s_Downfall.txt
+Captain De Santa's Downfall/dialogues	scripts/v3/work/_m/Captain_De_Santa_s_Downfall_dialogues.txt
+An Appointed Time	scripts/v3/work/_m/An_Appointed_Time.txt
+An Appointed Time/dialogues	scripts/v3/work/_m/An_Appointed_Time_dialogues.txt

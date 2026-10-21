@@ -1,0 +1,10 @@
+A Frenchman, a Welshman and an Irishman	scripts/v3/work/_m/A_Frenchman_a_Welshman_and_an_Irishman.txt
+A Frenchman, a Welshman and an Irishman/dialogues	scripts/v3/work/_m/A_Frenchman_a_Welshman_and_an_Irishman_dialogues.txt
+Man is Born Unto Trouble	scripts/v3/work/_m/Man_is_Born_Unto_Trouble.txt
+Man is Born Unto Trouble/dialogues	scripts/v3/work/_m/Man_is_Born_Unto_Trouble_dialogues.txt
+On Shaky's Ground	scripts/v3/work/_m/On_Shaky_s_Ground.txt
+On Shaky's Ground/dialogues	scripts/v3/work/_m/On_Shaky_s_Ground_dialogues.txt
+The Assault on Fort Mercer	scripts/v3/work/_m/The_Assault_on_Fort_Mercer.txt
+The Assault on Fort Mercer/dialogues	scripts/v3/work/_m/The_Assault_on_Fort_Mercer_dialogues.txt
+We Shall Be Together in Paradise	scripts/v3/work/_m/We_Shall_Be_Together_in_Paradise.txt
+We Shall Be Together in Paradise/dialogues	scripts/v3/work/_m/We_Shall_Be_Together_in_Paradise_dialogues.txt
