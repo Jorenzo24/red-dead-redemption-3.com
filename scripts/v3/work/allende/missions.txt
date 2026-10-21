@@ -1,0 +1,8 @@
+The Demon Drink	scripts/v3/work/_m/The_Demon_Drink.txt
+The Demon Drink/dialogues	scripts/v3/work/_m/The_Demon_Drink_dialogues.txt
+Mexican Caesar	scripts/v3/work/_m/Mexican_Caesar.txt
+Mexican Caesar/dialogues	scripts/v3/work/_m/Mexican_Caesar_dialogues.txt
+Cowards Die Many Times	scripts/v3/work/_m/Cowards_Die_Many_Times.txt
+Cowards Die Many Times/dialogues	scripts/v3/work/_m/Cowards_Die_Many_Times_dialogues.txt
+An Appointed Time	scripts/v3/work/_m/An_Appointed_Time.txt
+An Appointed Time/dialogues	scripts/v3/work/_m/An_Appointed_Time_dialogues.txt

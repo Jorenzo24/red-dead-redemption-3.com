@@ -1,0 +1,24 @@
+Web sources read 21 Oct 2026 (drafter B+D, Agustin Allende)
+- Wikipedia "Red Dead Redemption" (landon/fc/wp_rdr.txt): "Colonel Agustín Allende (Gary Carlos Cervantes), the state's tyrannical governor".
+- Red Dead Wiki "Gary Carlos Cervantes" (_m/Gary_Carlos_Cervantes.txt): American actor, born January 24, 1953, voiced Agustin Allende.
+- TMDb person 48136 (themoviedb.org, WebFetch): "Gary Anthony 'Carlos' Cervantes", born January 24, 1953, Maywood, California;
+  credits incl. 1941 (1979), Scarface (1983), Commando (1985, Diaz), Wild Wild West (1999, Dr. Guillermo Escobar), Bandidas (2006), Coco (2017, additional voices).
+- Wikipedia "Commando (1985 film)" cast: "Carlos Cervantes as Diaz". Wikipedia "Wild Wild West" cast: "Gary Carlos Cervantes as Professor
+  Guillermo Escobar, an MIT scientist kidnapped by Loveless".
+- No interview of Cervantes about Red Dead found (web search 21 Oct 2026). No motion-capture performer named anywhere.
+- Game Informer, Matt Bertz, review, May 17, 2010, 9.75/10 (quoted from reyes/fc/web_notes_BD.txt): "he must first get cozy with both the
+  corrupt ruler of the border region and the upstart rebel hell-bent on taking power for himself."
+- WhatCulture, Matt Thompson, "Red Dead Redemption: Every Villain Ranked From Worst To Best", published 7 Feb 2022 (schema datePublished
+  2022-02-07), page 3 of 15: "13. Colonel Agustin Allende". Verbatim: "Colonel Allende could have had more depth written into his character."
+  / "Allende's obsession for power does spill out in his words as he spouts his corruption, taste for murder and sexual assault of the
+  vulnerable women he rules over; but it's all surface level." / "Had Red Dead Redemption spent a smidgen of time to explain how he rose to
+  power and commanded such a vast army, his status as a formidable threat would have felt weighted." (Fussar = no. 15 on page 1.)
+- Javier Aldape (Texas A&M University), "The Mustang Diaries: A Study of Mexico in Red Dead Redemption 1", Revista Panamericana de
+  Comunicación, vol. 4, no. 2, pp. 21-34, 2022 (received 30 Sep 2022, accepted 21 Oct 2022; Redalyc, saved aldape_mustang_diaries_redalyc.html).
+  Verbatim: "RDR1 has two versions of caudillos in the personification of Colonel Agustin Allende on the Federales side and Abraham Reyes,
+  the leader of the Mexican rebeldes." / "Players discover that Colonel Allende was once an idealist who believed Mexico should be free-only
+  to be consumed by his love of power, money, women, and sex through cutscenes." / "Pictures of Victoriano Huerta with a cigar and a cognac
+  cup, or a general with an alcoholic beverage or a woman by his side were popular. Colonel Allende's house has those same elements." /
+  "Ultimately, Allende falls victim to his desire to rule Mexico through betrayals-another nod to the Caudillos of the time that promised
+  glory to their own, only to betray for personal fulfillment."
+  NB: the Reyes fiche (reyes_D.py) gives "published on October 21, 2022": Redalyc says ACCEPTED 21 Oct 2022.
