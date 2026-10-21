@@ -606,5 +606,11 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     précieuses ; RIEN sur sa famille (wiki EN/FR et Gameranx se trompent). Fort Mercer : Seth, déjà dans le fort, accueille
     le chariot à la porte (qui ouvre : non précisé ; corrigé chez Nigel). Seul associé : Moses Forth. Guide RDR1 acte I :
     il cherche à récupérer sa moitié de carte volée selon lui par Moses (pas « une carte au trésor » dans les cimetières).
+  - **Leigh Johnson v3** : 7 770 mots EN, 14 relations, galerie 6. Jonah et Eli ne l'accompagnent pas partout : dans
+    « Political Realities in Armadillo », il renvoie Jonah et suit Walton seul avec John (Walton tué ou pris vivant).
+    « stone-cold killer » (transcription). À Fort Mercer, c'est Jonah qui rapporte les mots du prisonnier. Fort Mercer est
+    dans le Rio Bravo, pas à Cholla Springs (guide acte I corrigé EN+FR). Voix : Anthony De Longis ; Colin Nissan avait
+    enregistré le rôle puis a été remplacé (Kotaku, 17 août 2010). « The Last Enemy... » = dernière mission de JOHN, pas
+    du jeu (corrigé chez Landon et Seth).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).

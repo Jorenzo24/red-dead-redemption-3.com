@@ -1,0 +1,167 @@
+{{User/characterbox
+|image = [[File:Rdr leigh johnson square.jpg]]
+|caption =
+|aka = Marshal Johnson
+|gender = Male
+|location = Town of [[Armadillo]] in [[Cholla Springs]], State of [[New Austin]]
+|affiliations = [[U.S. Marshals|United States Marshals Service]]<br />[[Armadillo]]'s Sheriff Office
+|birth = 
+|weapon = Custom [[Cattleman Revolver|Cattleman Revolvers]]<br />[[Repeater Carbine]]<br />[[Winchester Repeater]]<br />[[Double-barreled Shotgun]]
+|voice = [[Anthony De Longis]]
+|status = 
+|family = [[Priscilla Johnson]] <small>(wife)</small> {{icon|dead}}
+|game = ''[[Red Dead Redemption]]''<br>''[[Red Dead Online]]'' <small>(mentioned)</small>
+|nationality = [[File:Flag of the United States (1912-1959).svg|border|20px]] American
+|occupation = [[U.S. Marshals|District Marshal]] of [[Armadillo]] <small>(c. 1897-1914)</small>
+|mount = [[Standardbred Pinto]]
+}}
+{{Quote|My cause is to keep [[Armadillo|this town]] from turning into a living hell for the folks who live here.|Leigh Johnson in "[[Political Realities in Armadillo]]"}}
+
+'''Marshal Leigh Johnson''' is a [[Characters_in_Redemption#Major_characters|major character]] featured in ''[[Red Dead Redemption]]''.
+
+With the addition of the ''[[Liars and Cheats]]'' [[DLC]] pack, '''Marshal Johnson''' is also a [[Multiplayer Characters|multiplayer character]] model that may be selected in the 'Redemption' section of the [[Outfitter]].
+
+==History==
+===Background===
+{{Quote|He is a 50-year-old ageing cynic. This good ol' boy would be considered a southern gentleman. He is good with words, but he is slowly being defeated by the pressures facing him in the West. He has been showing signs of cracking up, but he still tries his best to maintain a dignified facade.|''Red Dead Redemption: Game of the Year Edition Guide''}}
+Leigh Johnson was born circa 1860.<ref name="Epilogue Article">The [[Newspapers|newspaper]] article "[[Marshall Johnson of Armadillo Retires]]" states that Johnson is fifty-four years old in 1914, making his year of birth approximately 1860. It also states that has been the marshall of Armadillo for seventeen years, meaning he became a marshall around 1897.</ref> Although he initially had no interest in police work,<ref>Mentioned in a conversation with [[John Marston]] in "[[Political Realities in Armadillo]]":<br>'''John:''' ''"I don't want to be no policeman, Marshal."''<br>'''Leigh:''' ''"Nor did I, my friend. I can promise you that."''</ref> he later became the district [[U.S. Marshals|marshall]] of [[Armadillo]], a settlement in the territory of [[New Austin]], around 1897.<ref name="Epilogue Article"/> He would also marry a woman named [[Priscilla Johnson]], who died on April 23rd, 1903.<ref>Grave found in [[Coot's Chapel]].</ref>
+
+Due to a cholera epidemic afflicting Armadillo in 1907, Marshal Johnson was temporarily absent, along with most of the town's residents.
+
+Throughout his career, Johnson put down multiple notorious outlaws throughout the state. At some point prior to November 1914, Johnson was involved in eliminating the [[Two Crows]] Boys, One-Lung Lester Riley and Wildcat Willie.<ref name="Johnson Retires">Mentioned in the newspaper article "[[Marshall Johnson of Armadillo Retires]]".</ref>
+
+Despite his work and contributions to keep Armadillo from becoming "a living hell", he receives little to no appreciation from the residents, even being rumored to be involved in acts such as corruption, among other things. The Marshal also commands a couple of loyal deputies, [[Jonah]] and [[Eli]], as well as an unnamed deputy featured in "[[The Assault on Fort Mercer]]".
+
+By October 1911,<ref>The timeline of events in ''Red Dead Redemption'' is deduced from the timing of release of the weekly [[Newspapers|newspaper]] ''[[Blackwater Ledger|The Blackwater Ledger]]''. The 57th issue describes the American gubernatorial election as having recently concluded, meaning it must have been published between November 1 and November 8 inclusive. The [[Blackwater Ledger No. 53|53rd issue]] is released after the mission "[[Political Realities in Armadillo]]". This confirms that John arrives in Armadillo around five weeks prior to the election of Governor [[Nate Johns]] in early November, meaning the beginning of the game must be set around early October of 1911.</ref> Johnson has adopted a more cynical mindset as a result of the increasing violence in New Austin. This attitude is exacerbated by the recent actions of the [[Southwestern Railroad Company]], who have been burning down settlements and threatening to cut the marshall's salary if he doesn't turn a blind eye.<ref>Mentioned in a conversation with John Marston in "Political Realities in Armadillo":<br>'''John:''' ''"Why? What's happening?"''<br>'''Leigh:''' ''"Right now? I got the railway, the people who pay my salary trying to get me to turn a blind eye to them burning down settlements up there."''</ref>
+
+===Events of ''Red Dead Redemption''===
+Marston first comes to meet Marshal Johnson in [[Armadillo]] after he has arrived looking for help on where to find [[Bill Williamson]]. He tasks Marston with numerous missions throughout [[New Austin]], for which in return he will help in the attempt to capture John's former-brother-in-arms at [[Fort Mercer]].
+
+Marshal Johnson's first mission with John involves them tracking down [[Walton Lowe]], the leader of [[Walton's gang]]. They track him down to [[Pleasance House]], and Walton is either killed by Marston, or injured by him, where Johnson will bring him back to Armadillo jail. Soon afterwards, John rides out with the Marshal to [[Pike's Basin]], to deal with the [[Bollard Twins gang]], who are cattle rustlers in the region. Along with Jonah and Eli, Marston and Johnson manage to eliminate the cattle rustlers and retrieve the stolen cattle, where the ranchers are grateful.
+
+A short while later, the Marshal hears about a horrific attack on [[Ridgewood Farm]] by [[Williamson gang|Bill Williamson's gang]]. In the hope of finding Williamson, John rides with the Marshal and two of his deputies. On the way to Ridgewood Farm, and at the place itself, they see dead bodies, many of whom were the victims of sadism. They are attacked by gang members from the central house, leading to a gunfight. They save a number of the residents, before going after other members of the gang. They find Williamson, who sends his men after them and, after another shootout, the Marshal and his accomplices manage to capture [[Norman Deek]], Williamson's second in command, and bring him back to Armadillo jail.
+
+Soon afterward, a [[Outlaw on Horse|member of the Williamson gang]] calls out to the Marshal from outside the office. He tells Johnson that his gang have kidnapped [[Bonnie MacFarlane]], and will give her back in exchange for Norman Deek, which is to take place in [[Tumbleweed]]. The Marshal, John, and two deputies, Jonah and Eli, ride out to Tumbleweed for the exchange. As Marshal Johnson expected, it turns out to be a trap, and Bonnie is hanged, although she is saved by John just in time. Meanwhile, Norman Deek is slain by his own gang and, after clearing out the area from the gang, Marshal Johnson takes Bonnie back to Armadillo.
+
+When Marston returns to Fort Mercer, later on, the Marshal and his deputies, alongside [[Seth Briars]] and [[Nigel West Dickens]], come along to help apprehend Williamson. After storming the fort, they learn that Williamson left a few days prior to the attack and that he traveled south across the border and into [[Nuevo Paraíso]], Mexico, with the help of [[Javier Escuella]]. Johnson and Marston thank each other for their assistance in their own matters, and part ways as Marston continue his pursuit of Williamson.
+
+====Epilogue====
+In 1914, Leigh Johnson would step down as marshal of Armadillo after 17 years of service. The town residents would hold a going-away party at the [[Armadillo Saloon]], which resulted in three arrests made by him while additionally leaving him the only participant left standing by the end of the night. When asked by a journalist what his next move would be, he stated that he plans to move as far away from the town as possible.<ref name="Johnson Retires"/>
+
+== Events of ''Undead Nightmare'' ==
+'''Note:''' ''The events of Undead Nightmare are not considered part of the same canon as Red Dead Redemption. The following description is therefore not contiguous with the preceding section on Red Dead Redemption.''
+[[File:Df4c12d2-2125-4871-9ba8-6d9854cd1a49.png|250px|right]]
+
+In the ''[[Undead Nightmare]]'' [[DLC]], Marshal Johnson is in the Sheriff's office in [[Armadillo]]. When Marston enters the office, Johnson explains the situation of the town. He asks Marston to look for his deputies, whom he sent out into the town. When Marston returns with the news of their demise, Johnson accepts it. He gives [[Jonah]]'s [[Sawed-off Shotgun]] to Marston and is not seen again.
+
+== Character ==
+
+=== Personality ===
+Johnson is an old-fashioned lawman with a strict no-nonsense work ethic. He is characterized as tough, straight to the point, and is not afraid to get aggressive, all while remaining fair to the law. Johnson isn't afraid to get his hands dirty, often fighting alongside his men and Marston, and is clearly a skilled shootist. Johnson does his best to maintain law and order in the town of Armadillo and the county of [[Cholla Springs]], while the world around them progresses into the modern age. Leigh holds a grudge against [[Bureau of Investigation|government agents from the east]] meddling in his affairs. Despite this, he shows respect for John and assists him in ridding New Austin of Bill and his gang.
+
+Despite his rough exterior and background, Leigh himself displays a fairly polite, professional and gentlemanly attitude towards those around him if not provoked.  In sharp contrast to his uneducated and inarticulate deputies, Johnson demonstrates a more refined vocabulary and a sharp, dry wit.
+
+Johnson is aware of the moral compromises he can and must make as a marshal, begrudgingly opting to leave one gang alone in order to solve other more pressing matters. Despite this, the marshal keeps cool under the intense pressure and constant threats that blight Armadillo, doing what he can  to keep order as efficiently as possible when a myriad of disturbances occur at once.
+
+=== Appearance ===
+Leigh Johnson bears the appearance of a middle-aged man with a beard and gray hair, wearing a well-kept marshal uniform. His beard appears to have a slight yellow tinge. This may be due to streaks of blond in his hair, or it may be caused by consumption of alcohol or chewing tobacco, similar to [[Uncle]].
+
+Johnson carries a pair of nickel-plated [[Cattleman Revolver|Cattleman Revolvers]].
+
+==Mission appearances==
+;''Red Dead Redemption''
+*"[[Political Realities in Armadillo]]"
+*"[[Justice in Pike's Basin]]"
+*"[[Spare the Rod, Spoil the Bandit]]"
+*"[[Hanging Bonnie MacFarlane]]"
+*"[[The Assault on Fort Mercer]]"
+
+;''Undead Nightmare''
+*"[[Dinner for Two]]"
+
+==Quotes==
+{{quote|We don't do deals with outlaws, boy.|Leigh Johnson to [[Outlaw on Horse]]}}
+{{quote|This country is infested with all manner of scum.|Leigh Johnson}}
+{{quote|Oh! The narcotic and bat piss salesman!|Leigh Johnson describing [[Nigel West Dickens]]}}
+{{quote|It's gonna be a bloody job.|Leigh Johnson to John Marston}}
+{{quote|You hear that, Marston? We just butchered a gang of thieves and the town is up in arms about a missing [[Nigel West Dickens|snake oil merchant]]. I'm so glad to be serving such a wise and respectable people.|Leigh Johnson}}
+{{Quote|Cattle rustlin' and bank robbery are at an all time low. While murder, blood drinking, and psychotic episodes seem to be somewhat prevalent. Either that, or I'm dreaming.|Leigh Johnson describing the state of Armadillo in ''Undead Nightmare''}}
+{{Quote|Will you ride with us again Marston?|Leigh Johnson inviting John Marston along}}
+{{Quote|That sarcasm is most unbecoming Eli. It's gonna hold you back in life, even worse than your lazy eye!|Leigh Johnson to Eli}}
+{{quote|Between [[Walton's Gang|Walton's boys]] and the [[Bollard Twins Gang|rustlers]], we've been spillin' a lot of blood. A man gets more evil when he's running scared. |Leigh Johnson}}
+{{Quote|Mount up, men. The man that kills the boss of that bunch gets fifty dollars.|Leigh Johnson after discovering the [[Ridgewood Farm]] massacre}}
+
+==Trivia==
+*Johnson is marked by inconsistencies regarding his role as a lawman. Despite being identified with a Federal Marshal badge, Johnson claims that Bill Williamson is outside his jurisdiction which contradicts the typical nationwide authority of U.S. Marshals. Johnson also complains of the interference of the federal government despite supposedly being a part of it. A newspaper clipping in 1914 identifies him as a town marshal rather than a federal one, which would limit his jurisdiction to just Armadillo. However, Johnson frequently leads operations far beyond the town, such as Pike's Basin, Tumbleweed, and Fort Mercer. If Johnson, like his badge signifies, is a U.S. Marshal, it would make little sense how he frequently complains about federal interference, since it would mean he’s a federal himself.
+**Due to the apparent lack of a proper sheriff of Armadillo in 1911, Johnson may have taken up additional responsibilities to better ensure law enforcement in Cholla Springs and by extension, Armadillo. His ventures into Gaptooth Ridge and Río Bravo, despite lacking formal jurisdiction, could be attributed to the critical lack of local law enforcement in those areas.
+*In ''[[Red Dead Redemption 2]]'', [[Palmer|Sheriff Palmer]] is seen in charge of Armadillo. He was either killed by the [[Del Lobo Gang]], or resigned. It is briefly mentioned that Marshal Johnson's absence is due to the cholera outbreak.
+*His outfit is similar to the one worn by [[Sheriff O'Grady]] from ''[[Red Dead Revolver]]''.
+*Despite carrying a pair of revolvers, in gameplay, Johnson will only wield one of these revolvers, dual-wielding them only in cutscenes.
+*NPCs at [[MacFarlane's Ranch]] can be heard stating that "he has the whole world on his shoulders".
+*Johnson is a widower. The tombstone of his late wife, [[Priscilla Johnson]], is located in the [[Coot's Chapel]] Cemetery, to the left of the front entrance. The grave reveals that she died April 23rd, 1903. The cause of death, however, is not mentioned. The tombstone also reads, 'Forever Smiling In Our Hearts'.
+*As seen in "[[Political Realities in Armadillo]]", the Marshal uses a [[Tersk]] as his mount. However, during "The Assault on Fort Mercer," he is seen dismounting a [[Kentucky Saddler]].
+*[[Bonnie MacFarlane]], along with Marshal Johnson, can be killed after the mission "[[Hanging Bonnie MacFarlane]]". Immediately after the mission, as Marston watches them ride off, if he goes into Dead Eye Mode and kills their horses, Bonnie and the Marshal will fall off.
+*In the [[DLC]] [[Liars and Cheats]], one of the [[Grand Prix]] race courses is named after him: '''L. Johnson's Run''', which starts and ends in Armadillo.
+*In a promotional picture that can be seen below in the gallery, the Marshal is pictured crumbling a bounty in his hand. If the player looks closely, they can see the bounty target's hideout, [[Campo Mirada]].
+*After his mission in ''Undead Nightmare'' and John leaves his office, he can be seen making calls and doing paperwork.
+**It is also possible to kill him.
+*In ''[[Red Dead Online]]'', Bonnie MacFarlane mentions to players about Leigh Johnson when beginning a recovery mission for her as she mentions that she is hoping that he can come back due to the fact he is away from the cholera outbreak.
+*Marshal Johnson's gun belt has 2 gun holsters. This is something he has in common with an outlaw, oddly enough. That outlaw is [[Norman Deek]], of the [[Williamson gang]]. 
+*Leigh Johnson appears to be a very despised person in Armadillo, as numerous citizens, shopkeepers and even lawmen in [[Armadillo]], like [[Mel Thaxton]], will often complain about him and badmouth him. An example of this is also shown at the end of "[[Justice in Pike's Basin]]", whereupon saving the town from the nearby cattle rustling gang, people were more concerned about [[Nigel West Dickens]] missing.
+**[[Baxter Deaton]] in Armadillo is notable to be heard talking badly about Johnson, such as how he "buried stolen goods out in [[Rio Del Lobo]]" and how "the gang over by [[Twin Rocks]] are in cahoots with him". He even talks about Johnson beating the local women. Coincidentally or not, Rio Del Lobo is where the second treasure for the Treasure hunting challenges is located.
+**[[Jeb Murphy]] will claim that Johnson was never a man in his eyes and that he never liked him.
+**[[Eldin Grubb]] might describe Johnson as a terrible lawman and person in general.
+**Mel Thaxton will often blame Marshal Johnson for the position he is in at Armadillo.
+**[[Herbert Moon]] will proclaim Marshal to be useless when witnessing a crime.
+**[[Jake]] has dialogue where he says that Marshal Johnson is not the same man he used to be.
+
+==Gallery==
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+Red_dead_redemption_marshal_leigh_johnson-t2.jpg|Artwork of Leigh Johnson
+RDR_marshalleighjohnson.jpg
+Marshal Leigh Johnson.jpg
+Rdr_leigh_johnson.jpg
+72.jpg|The Marshal with [[John Marston]].
+Marston_and_Johnson.jpg|John with the Marshal in [[Armadillo]].
+Politicreal.jpg|[[Leigh Johnson|Marshal Johnson]] taking cover before gunning down an outlaw.
+Rdr political realities02.jpg|Marshal Johnson taking Walton
+Rdr leigh johnson01.jpg|"''There's the dumb rat bastard now''".
+marshal J.jpg
+Rdr political realities10.jpg
+Rdr justice pike's basin01.jpg
+Rdr justice pike's basin03.jpg
+Rdr justice pike's basin05.jpg
+Rdr justice pike's basin12.jpg
+Rdr spare rod spoil bandit05.jpg
+Rdr hanging bonnie macfarlane02.jpg
+Rdr hanging bonnie macfarlane06.jpg|John, Marshal, and [[Drew MacFarlane]]
+Rdr hanging bonnie macfarlane14.jpg
+Rdr_assault_fort_mercer08.jpg
+Rdr_assault_fort_mercer28.jpg
+Rdr_assault_fort_mercer39.jpg
+tumblr_lgahf788qj1qcij2s.jpg
+Picture3z.png|Leigh Johnson apprehending an outlaw
+Riley rd2.png|Leigh Johnson and his trusty [[Double-barreled Shotgun]]
+marshal j.jpg|The Marshal
+</gallery>
+
+== References ==
+<references />
+
+==Related Content==
+{{Related Content}}
+{{characters}}
+{{DEFAULTSORT:Johnson, Leigh}}
+
+[[de:Leigh Johnson]]
+[[es:Leigh Johnson]]
+[[fr:Leigh Johnson]]
+[[ru:Ли Джонсон]]
+[[nl:Leigh Johnson]]
+[[it:Leigh Johnson]]
+[[pt-br:Leigh Johnson]]
+
+[[Category:Characters in Redemption]]
+[[Category:Characters in Undead Nightmare]]
+[[Category:Multiplayer characters in Redemption]]
+[[Category:Mentioned characters in Online]]

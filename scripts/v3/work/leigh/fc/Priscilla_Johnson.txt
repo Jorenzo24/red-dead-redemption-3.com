@@ -1,0 +1,27 @@
+{{User/characterbox
+|name = Priscilla Johnson
+|image = [[File: Priscilla-Johnson.jpg|300px]]
+|aka = Mrs. Johnson
+|gender = Female
+|location = [[Coot's Chapel]] Cemetery
+|status = Deceased
+|birth = Unknown
+|death = April 23rd, 1903
+|family = [[Leigh Johnson]] <small>(husband)</small>
+}}
+
+'''Priscilla Johnson''' is a [[Characters in Redemption#Unseen/Deceased|minor, deceased character]] featured in ''[[Red Dead Redemption]]''.
+
+== History ==
+
+=== Background ===
+Priscilla was the wife of Marshal [[Leigh Johnson]] until she died on April 23, 1903, however the cause of her death is unknown. 
+
+==Trivia==
+*Although Marshal Johnson never mentions her in the game, her tombstone can be found in the [[Coot's Chapel]] Cemetery.
+*Her tombstone reads "Forever Smiling In Our Hearts".
+
+{{Characters}}
+{{DEFAULTSORT:Johnson, Priscilla}}
+[[Category:Characters in Redemption]]
+[[fr:Priscilla_Johnson]]
