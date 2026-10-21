@@ -1,0 +1,90 @@
+{{User/characterbox
+|name = Shaky
+|image = <gallery>
+Shaky-0.jpg|1898
+Rdr_shaky_square.jpg|1911
+</gallery>
+|aka = 
+|gender = Male
+|location = Transitory <small>(1898)</small><br>Settlement of [[Thieves' Landing]] in [[Hennigan's Stead]], [[New Austin]] <small>(1911)</small>
+|affiliations = [[Irish]]<br>[[Red Dead Online protagonist|''Red Dead Online'' protagonist]]
+|weapon = [[Repeater Carbine]]
+|voice = [http://www.imdb.com/name/nm8311849/?ref_=ttfc_fc_cl_t42/ Joshua Bass]
+|game = ''[[Red Dead Redemption]]''<br>''[[Red Dead Online]]''
+|nationality = [[File:Flag of the United States (1908–1912).svg|border|20px]] American 
+|occupation = Contraband Smuggler|family=Unnamed ex-girlfriend}}
+{{Quote|Who's makin' f-f-fun of Sh-sh-sh-Shaky now?|author = "Shaky"}}
+
+
+'''"Shaky"''' is a recurring character in the ''[[Red Dead]]'' series; he appears as a [[Characters in Redemption#Minor Characters|minor character]] in ''[[Red Dead Redemption]]'', and as a [[Characters in Online|minor character]] and a [[stranger]] in ''[[Red Dead Online]]''.
+
+==History==
+===Background===
+Shaky is a contraband smuggler working out of [[Eddie Savoy]]'s warehouse in [[Thieves' Landing]]. Shaky has a very pronounced [[wikipedia:stuttering|stutter]], which is the origin of his nickname. He is associated with fellow smuggler [[Irish]], who supplies him with morphine to calm his nerves.
+
+===Events of ''Red Dead Online''===
+The [[Red Dead Online protagonist|protagonist]] can find Shaky sitting on a dock bench in Thieves' Landing, which at the time is little more than a corral, a pawnshop, and a few houses. Having just injected himself with morphine, he explains that he is not a bad person and asks if they are just there to stare or stab him in the back. Before the protagonist can leave, he offers them a paying job hunting down [[Ian Carmichael]], his old partner who deserted Shaky after stealing his girl.
+
+Afterwards, Shaky can offer the protagonist a variety of different jobs, including jailbreaks, thefts, paid killings, and destroying supplies. His missions reward the player with money, gold, and negative [[honor]].
+
+===Events of ''Red Dead Redemption''===
+Shaky is featured in the [[Missions in Redemption#Irish|mission]] "[[On Shaky's Ground]]". After Irish informs [[John Marston]] that only Shaky can get them the specific [[ammunition]] needed for the [[Gatling Gun]], John agrees to rescue Shaky from being tortured to death by his former associates, who suspect him of going behind their backs after finding the stolen ammunition.
+
+Marston breaks into the warehouse and eliminates the men holding Shaky, before untying him. The two then fight their way out into the storage area and eventually recover the ammunition. Irish arrives and helps Shaky load the ammunition onto his wagon, after which Marston and Irish part ways with Shaky. His fate afterwards is unknown as he never appears in any future missions or [[Free Roam]].
+
+==Character==
+===Personality===
+Despite the two of them supposedly being friends, Shaky is constantly mocked by Irish. Shaky will sometimes attempt to respond to Irish with a witty retort, but his stutter weakens the effectiveness of the insult. Shaky appears to be more courageous than Irish, risking his life fighting alongside John Marston during their escape from Thieves' Landing. And while Irish would often try to mislead or get Marston killed rather than honor his word, Shaky actually kept his promise and gave John the ammunition he needed without hesitation.
+
+==Mission appearances==
+;''Red Dead Redemption''
+* "[[On Shaky's Ground]]"
+
+;''Red Dead Online''
+* [[Paid Killing]]
+* [[Early Release]]
+* [[Early Execution]]
+* [[Horse Theft]]
+* [[Boat Theft]]
+* [[Wagon Theft]]
+* [[Bushwhack]]
+* [[Destroy Supplies]]
+
+==Quotes==
+{{Quote|This is gonna be one-one-one-one-one hell of a fight.|Shaky}}
+{{Quote|Fu-fu-fu-fuckin' f-fuck!|Shaky, cursing [[Irish]]}}
+{{Quote|P-p-p-p-pl-p-pl-please please, mister. Untie-un-un-un-unt-un-un-un untie me, I'll make it w-w-w-w-worth your while.|Shaky asks [[John Marston|Marston]] to untie him}}
+{{Quote|C-c-c-c-c-c-careful.|Shaky when bumped into}}
+
+==Trivia==
+* Shaky is voiced by one of the Art Directors at [[Rockstar San Diego]], [http://www.imdb.com/name/nm3942262/ Joshua Bass].
+* It is implied that Shaky is a drug addict, due to having been introduced by Irish to morphine as a means of "calming his nerves."
+** His addiction is confirmed in ''Red Dead Online'', as when the protagonist meets him, he is holding a syringe of recently injected morphine.
+* His outfit bears some resemblance to the [[Savvy Merchant Outfit]].
+* Shaky is one of the few characters to say the word "fuck" more than once.
+
+==Gallery==
+=== ''Red Dead Redemption'' ===
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+File:Shaky.jpg
+File:Rdr_shaky_02.jpg
+File:Rdr_on_shaky's_ground17.jpg|Shaky being beaten
+File:On_Shaky's_Ground.jpg
+File:Rdr_on_shaky's_ground22.jpg
+File:Rdr_on_shaky's_ground23.jpg
+File:Rdr_on_shaky's_ground26.jpg
+File:Rdr_on_shaky's_ground31.jpg
+</gallery>
+
+=== ''Red Dead Online'' ===
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+Shaky_in_Thieves'_Landing.png|Shaky sitting at the docks in Thieves' Landing
+</gallery>
+
+==Navigation==
+{{Characters}}
+[[de:Shaky]]
+[[es:Shaky]]
+[[fr:Shaky]]
+[[Category:Characters in Online]]
+[[Category:Characters in Redemption]]

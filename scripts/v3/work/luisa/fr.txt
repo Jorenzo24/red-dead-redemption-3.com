@@ -1,0 +1,83 @@
+{{InfoboxPersonnages
+| theme = 
+| title1 = Luisa Fortuna
+| image1 = Luisa Fortuna04.jpg
+| caption1 = Luisa à [[Campo Mirada]]
+| apparition = ''[[Red Dead Redemption]]''
+| naissance = 1892
+| dapparition = 
+| décès = 
+| genre = Feminin
+| nationalité = Mexicaine
+| ldv = [[Campo Mirada]]
+| surnom = Laura
+| activité = Rebelle
+| famille = [[Famille Fortuna]]<br/>[[M. Fortuna]] <small>(Père)</small><br/>[[Mme Fortuna]] <small>(Mère)</small><br/>[[Emilio Fortuna]] <small>(Frère)</small><br/>[[Miranda Fortuna]] <small>(Sœur)</small>
+| allié = [[Rebelles]]<br/>[[John Marston]]<br/>[[Abraham Reyes]]<br/>[[Landon Ricketts]]
+| ennemi = [[Armée mexicaine]]
+| statut = Décédée (1911)
+| faction = 
+| arme = [[Revolver Cattleman (RDR)|Revolver Cattleman]]<br/>[[Couteau de chasse (RDR)|Couteau de chasse]]
+| monture = 
+| véhicule = 
+| acteur = [[Francesca Galeas]]
+| motion capture = 
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+'''Luisa Fortuna''' est un [[Personnages dans Red Dead Redemption|personnage majeur]] présent dans ''[[Red Dead Redemption]]''.
+== Histoire ==
+En 1911, Luisa Fortuna est une jeune révolutionnaire mexicaine et institutrice âgée de 19 ans. Issue d'une famille mexicaine pauvre, elle résidait dans la petite maison familiale de [[Campo Mirada]] au sud de [[Perdido]], avant que la révolution mexicaine n'éclate et ne prive ainsi les siens de vivre en paix. Elle se bat pour la liberté et fait partie des [[rebelles]]. Elle est prête à tout, quitte à mourir, pour voir enfin son pays libéré de ses chaines et de la junte militaire. 
+
+== Interactions ==
+=== ''Red Dead Redemption'' ===
+Elle rencontre [[John Marston]] pour la première fois lorsque celui-ci la délivre aux côtés de [[Landon Ricketts]], à [[El Matadero]], après qu'elle ne se soit faite enlever.
+
+Elle entretient une relation amoureuse avec [[Abraham Reyes]], chef des [[rebelles]], et envisage leur mariage d'ici peu. Malheureusement, en dépit de l'amour et de l'admiration que la jeune femme voue au révolutionnaire, celui-ci ne semble pas éprouver les mêmes sentiments à son égard, n'estimant pas leur relation aussi sérieuse. Voyant la jeune femme comme une simple paysanne, il l'utilise simplement pour le sexe, et se trompe souvent de prénom pour la nommer, tout au long de l'histoire.
+
+Luisa trouve justement la mort en tentant de sauver [[Abraham Reyes]] des griffes des soldats mexicains, tuée par balle par trois d'entre eux. Elle est vengée quelques secondes plus tard par [[John Marston]].
+
+=== Multijoueur de ''Red Dead Redemption'' ===
+Avec l'addition du [[Pack menteurs et tricheurs]], il est un modèle de personnage en mode [[Red Dead Redemption: Multijoueur|Multijoueur]] de ''[[Red Dead Redemption]]''. 
+
+== Apparitions dans les missions ==
+* "[[Landon Ricketts remonte en selle]]"
+* "[[Le convoi mexicain]]"
+* "[[Le gardien de ma sœur]]"
+* "[[Un sauveur doit-il mourir ?]]"
+* "[[Père Abraham]]"
+* "[[La chute du capitaine De Santa]]"
+* "[[À l'heure convenue]]"
+
+== Anecdotes ==
+* Luisa est un des [https://www.rockstargames.com/reddeadredemption/img/global/backgrounds/background5.jpg fonds] du [https://www.rockstargames.com/reddeadredemption/fr/info site] de ''[[Red Dead Redemption]]''.
+* Elle est une des trois personnages qui ne montent jamais à cheval.
+* En mode histoire, elle porte une robe cependant en mode multijoueur elle porte un pentalon.
+== Galerie ==
+<gallery>
+Luisa Fortuna02.jpg|Artwork
+Luisa Fortuna03.jpg|Avatar
+Luisa Fortuna01.jpg|Luisa et John
+Pack menteurs et tricheurs19.jpg|Au poker en multijoueur
+</gallery>
+
+== Navigation ==
+{{Personnages RDR}}
+[[en:Luisa Fortuna]]
+[[de:Luisa Fortuna]]
+[[es:Luisa Fortuna]]
+[[ru:Луиза Фортуна]]
+
+[[Catégorie:Personnages dans Red Dead Redemption]]
+[[Catégorie:Personnages dans Red Dead Redemption: Multijoueur]]
+[[Catégorie:Personnages Redemption]]
+[[Catégorie:Famille Fortuna]]
+[[Catégorie:Personnages]]
+[[Catégorie:Relecture]]

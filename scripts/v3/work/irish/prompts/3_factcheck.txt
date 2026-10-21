@@ -1,0 +1,7 @@
+Read scripts/v3/work/irish/FC_PROMPT.md (repo root on this device: /Users/joseph/Documents/SITES/GIT/red-dead-redemption-3.com/) and follow it exactly.
+Your chunk: scripts/v3/work/irish/<half1.txt | half2.txt> (the lead names which one). The full fiche text, for DUPLICATE checks, is
+scripts/v3/work/irish/irish_full_en.txt. The source files behind the text are scripts/fiches/parts/irish_A.py .. irish_D.py
+(their docstrings list the sources each drafter used: check those first, then look further).
+Write your report to scripts/v3/work/irish/fc_report<1|2>.md: a title naming the chunk, the sources you used, a short "Verified OK"
+paragraph, then "## Problems" (numbered, one item per problem: category, draft excerpt, source says (file/page), fix),
+then the count per category. Reply with the counts only.

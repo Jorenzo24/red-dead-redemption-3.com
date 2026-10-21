@@ -1,0 +1,99 @@
+{{InfoboxPersonnages
+| theme = 
+| title1 = Inconnu
+| image1 = L'Irlandais01.jpg
+| apparition = ''[[Red Dead Redemption]]''
+| caption1 = 
+| naissance = Dublin en Irlande
+| dapparition = 
+| décès = 
+| genre = Masculin
+| nationalité = Irlandaise
+| ldv = [[Thieves' Landing]]
+| surnom = L'Irlandais<br/>El Rato
+| activité = 
+| famille = Père décédé<br/>Mère en vie <small>(1911)</small>
+| allié = [[John Marston]]<br/>[[Nigel West Dickens]]<br/>[[Leander Holland]]<br/>[[Le Gallois]]<br/>[[Shaky]]<br/>[[Landon Ricketts]] <small>(anciennement)</small>
+| statut = Décédé <small>(1914)</small>
+| ennemi = 
+| faction = 
+| arme = [[Revolver Cattleman (RDR)|Revolver Cattleman]]<br/>[[Carabine Winchester]]
+| monture = 
+| véhicule = 
+| acteur = [[Kevin Harrison Sweeney]]
+| motion capture = 
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+'''L'Irlandais''' est un [[Personnages dans Red Dead Redemption|personnage majeur]] présent dans ''[[Red Dead Redemption]]''.
+
+== Histoire ==
+Immigrant venu d'Irlande, l'Irlandais s'est installé dans l'état de [[New Austin]] après avoir quitté son pays. Il a, de par ses origines, un fort accent irlandais. C'est un alcoolique notoire qui raconte des histoires, la plupart du temps fausses, en les exagérant, et ne se rend pas toujours exactement compte de ce qu'il dit. Lorsque [[John Marston]] (le protagoniste) le rencontre et travaille avec lui, l'Irlandais est souvent en retrait et c'est le cow-boy qui doit gérer toute la situation. Il a toujours un argument pour ne pas avoir à combattre.<ref name="excuse">A maintes reprises au cours du jeu, l'Irlandais trouve des excuses pour rester à l'arrière. Il fait en fait preuve d'une grande lâcheté.</ref>
+
+== Interactions ==
+=== ''Red Dead Redemption'' ===
+==== Chapitre 1 : New Austin ====
+Quand [[Nigel West Dickens]] propose un jour à John Marston de rencontrer cet homme, supposant que celui-ci sait où trouver des munitions pour une mitrailleuse [[Gatling]], l'ancien hors-la-loi ne s'attend pas à l'homme qu'il va trouver.
+
+En premier lieu, John sauve l'Irlandais des mains d'un [[Leander Holland|Français]] et d'un [[Le Gallois|Gallois]]. Ensuite, l'Irlandais "aide" Marston à trouver des munitions pour la Gatling et sauver un ami de l'alcoolique, [[Shaky]]. Pendant l'[[L'attaque de Fort Mercer|attaque de Fort Mercer]] afin de débusquer [[Bill Williamson]], l'Irlandais est introuvable, jusqu'à la fin de l'assaut.<ref name="assaut">Il se justifie par ceci : "''Je me suis réveillé la tête entre une paire de seins, et je me serai senti mal si je ne m'étais pas joint à eux''".</ref>
+
+Ensuite, John escorte l'Irlandais avec une [[Diligences|diligence]] jusqu'à un radeau afin de traverser la rivière pour passer du côté de [[Nuevo Paraíso]]. Mais le passage tourne mal et les deux compères se retrouvent guidés par le courant, assiégés par des bandits. Une fois arrivés sains et saufs sur la rive, l'Irlandais fait ses adieux à John Marston.<ref name="adieux">Il s'agit en effet du dernier moment où l'Irlandais apparaît.</ref>.
+
+==== Épilogue ====
+Dans un [[Journaux dans Red Dead Redemption|journal]] de la fin du jeu, il est dit qu'un homme d'origine irlandaise, sans identité connue, est mort dans une explosion à [[Thieves' Landing]]. Il s'agit très probablement de l'Irlandais.
+
+=== Multijoueur de ''Red Dead Redemption'' ===
+Avec l'addition du [[Pack menteurs et tricheurs]], il est un modèle de personnage en mode [[Red Dead Redemption: Multijoueur|Multijoueur]] de ''[[Red Dead Redemption]]''. 
+
+== Apparitions dans les missions ==
+* "[[Un Français, un Gallois et un Irlandais...]]"
+* "[[Des soucis et des hommes]]"
+* "[[En terrain dangereux]]"
+* "[[L'attaque de Fort Mercer]]"
+* "[[Les routes du Paradis]]"
+
+== Anecdotes ==
+* Si le joueur essaie de tuer l'Irlandais avant l'une de ses [[Missions dans Red Dead Redemption|missions]], celui-ci ripostera ou se mettra simplement à fuir. Dans ce cas, il est impossible de le tuer.
+* Le vrai nom de l'Irlandais n'est jamais révélé dans le jeu.
+* Au lieu d'avoir un étui pour ranger son revolver, il le place à l'avant de son pantalon.
+* Après la mission "[[Les routes du Paradis]]", le joueur peut abattre l'Irlandais. Mais il faut être très rapide et uiliser le [[Sang-froid]] pour le tuer.
+* Il mentionne dans la même mission qu'il a rencontré [[Landon Ricketts]]<ref name="Ricketts">L'Irlandais affirme avoir connu Landon Ricketts, mais ce dernier n'a jamais parlé de quelqu'un comme lui dans ses fréquentations.</ref>.
+* D'après ses expressions dans le jeu, il vient de Dublin, capitale de la [[wikipedia:fr:Irlande (pays)|République d'Irlande]].
+* Il est l'un des rares personnages principaux de ''Red Dead Redemption'' à ne pas apparaître dans l'extension ''[[Undead Nightmare]]''. Pourtant dans cette extension, il est possible de rencontrer un [[Morts-vivants|mort-vivant]], près de la [[Trains|gare]] d'[[Armadillo]], en train de dévorer un homme à terre, qui a une très forte ressemblance avec l'Irlandais. Une [[carabine Winchester]], une arme utilisée par l'Irlandais dans ''Red Dead Redemption'', jonche le sol à ses côtés.<ref name="feu">L'Irlandais est sans doute le personnage du jeu qui a le moins ouvert le feu durant ses apparitions.</ref>
+* Il a d'après lui été un grand voyageur, à la fois à travers [[New Austin]], et, apparemment, à travers l'Irlande. Or, ces affirmations restent non confirmées ; la malhonnêteté de l'Irlandais étant tristement célèbre.
+* Son père s'est fait trancher la gorge par un Gallois à une date non mentionnée ; sa mère est apparemment toujours en vie en 1911.
+* Il méprise la religion, et le catholicisme en général.
+* La relation qu'entretient Nigel West Dickens avec l'Irlandais reste ambigüe. Dans une mission, le second explique qu'il doit vendre de la drogue à son ami Shaky. Drogue sans doute fabriquée par West Dickens, expliquant ainsi les liens qui les relient.
+* L'Irlandais a des similitudes avec [[l'Oncle]] : tous deux ont des barbes proéminentes, des problèmes avec l'alcool, un certain antipathisme, sont seulement connus par leurs surnoms, et enfintla relation que Marston entretient avec ces deux personnages, qui est très mitigée.
+
+== Galerie ==
+<gallery>
+L'Irlandais02.jpg
+L'Irlandais03.jpg|Avatar
+Un Français, un Gallois et un Irlandais...01.jpg
+En terrain dangereux01.jpg
+</gallery>
+
+== Navigation ==
+{{Personnages RDR}}
+
+== Références ==
+<references/>
+[[de:Irish]]
+[[en:Irish]]
+[[Catégorie:Personnages dans Red Dead Redemption]]
+[[Catégorie:Personnages dans Red Dead Redemption: Multijoueur]]
+[[Catégorie:Personnages Damnation]]
+[[Catégorie:Personnages masculins]]
+[[Catégorie:Personnages masculins dans Red Dead Redemption]]
+[[Catégorie:Personnages]]
+[[nl:Irish]]
+[[es:Irish]]
+[[Catégorie:Relecture]]

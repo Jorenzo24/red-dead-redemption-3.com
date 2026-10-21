@@ -1,0 +1,143 @@
+{{User/characterbox
+|name = Irish
+|image = [[File:IrishRAT.jpg|300px]]
+|game = ''[[Red Dead Redemption]]''
+|aka = Irish<br />El Rato
+|nationality = [[File:Flag of the lord lieutenant of ireland.png|border|20px]] Irish
+|gender = Male
+|location = Transitory
+|affiliations = [[John Marston]]<br />[[Nigel West Dickens]]<br />[[Leander Holland|French]] <small>(formerly)</small><br />[[Alwyn Lloyd|Welsh]] <small>(formerly)</small><br />[[Shaky]]
+|family = Unnamed mother<br />Unnamed father {{Icon|dead}}<br />Unnamed brother
+|occupation = Contraband Dealer
+|weapon = [[Cattleman Revolver]]<br />[[Repeater Carbine]]
+|status = Deceased <small>(1914)</small>
+|voice= [http://www.imdb.com/name/nm3151489/ K. Harrison Sweeney] [http://reddead.wikia.com/wiki/User_blog:Spawny0908/Spawny0908_interviews_K_Harrison_Sweeney_voice_of_Irish! (Interview)]
+}}
+{{Quote|They say God invented whisky to stop the Irish from rulin' the world.|Irish in "[[We Shall Be Together in Paradise]]"}}
+'''"Irish"''' is a [[Characters in Redemption#Major Characters|major character]] featured in ''[[Red Dead Redemption]]''.
+
+With the addition of the ''[[Liars and Cheats]]'' [[DLC]] pack, '''Irish''' is also a [[Multiplayer Characters|multiplayer character]] model that may be selected in the 'Damnation' section of the [[Outfitter]].
+
+==History==
+
+=== Background ===
+According to Irish, he grew up poor and hungry. Raised Catholic by a mother and a father who always told him to "never trust a Welshman", and his father would soon have his throat slit possibly by one. Irish emigrated to the United States at fourteen years old shortly after being caught in bed with his brother's wife. During the boat ride to America, Irish met and befriended two other immigrants, [[French]] and [[Welsh]]. In Irish's words, they became "as thick as thieves" ever since. He also alleges killing at least one man named "Twinkle-Toe Dave".
+
+=== Events of ''Red Dead Redemption'' ===
+====New Austin====
+Irish is one of the supporting characters in the first chapter of ''Red Dead Redemption''. His help was suggested to [[John Marston|Marston]] by [[Nigel West Dickens]] as the man who could get Marston heavy firepower and ammunition from a [[Gatling Gun]]. After saving Irish from two of his "friends", he will repay John by leading him to a shack where he flees at the sight armed guards leaving Marston to do it himself. After John fights his way to the cabin, he discovers that the gun wasn't there at all in the first place. 
+
+John tracks Irish down again, and Irish leads John to a mine where the machine gun is actually located. After John takes care of the miners overground, he descends into the mine and finds the gun inside a mine cart that he pushes and briefly rides towards a lift that Irish is stationed at. The gun is lifted up and hoisted into a wagon, where Irish delivers it to West Dickens. 
+
+John finds Irish in an alleyway at Thieves' Landing, holding two nuns at gunpoint, John confronts Irish who claims he doesn't remember who John is, and in response John pistol whips Irish and scolds him for his attempted armed robbery of the nuns. After Irish comes to his senses, he hooks John up with his contact, [[Shaky]], who can supply John with the ammo required for the Gatling Gun. When John and Irish arrive at the warehouse, Irish finds the door to be locked even though it shouldn't be and sends John inside to investigate. After disposing of Shaky's captors, the ammo for the Gatling gun is loaded into a cart as John rides shotgun with Irish to [[MacFarlane's Ranch]] while fending off people chasing the cart. When all is said and done, John makes it clear to Irish he expects him to fight at Fort Mercer. He will "help" John take over the hideout of [[Bill Williamson|Williamson]] in [[Fort Mercer]]. However, when the battle starts in Fort Mercer, he is nowhere to be found until just before the mission is finished.
+
+Later in "[[We Shall Be Together in Paradise]]," Irish provides John passage to [[Nuevo Paraíso]] by raft and accompanies him across the [[San Luis River]]. En route, the pair are ambushed by bounty hunters, forcing them to land further downstream while John dispatches their assailants while Irish cowers at the gunfire. Upon reaching shore, he suggests John visit the town of [[Chuparosa]] to search up [[Landon Ricketts|an American]] he had encountered during his last stay or [[Escalera]] for the region's [[Agustin Allende|governor]]. Before parting ways with John, Irish expresses that while he views him as an ill-tempered and ugly individual, he does not consider him a bad one. After which, he departs on horseback and is not encountered again. 
+
+====Epilogue====
+In 1914, the "miscellany" section of the ''[[Blackwater Ledger]]'' states that an "Irish male, of unknown name, came to his death by the accidental discharge of a gun in a [[Thieves' Landing]] outhouse".
+
+== Character ==
+{{Quote|A teller of tall tales, who'll try to talk his way out of anything.|author=Rockstar's description of Irish}}
+
+=== Personality ===
+Irish is a dysfunctional alcoholic known to greatly exaggerate, and tell tales of which he seldom remembers the finer details. When John Marston works alongside him, he often does the work while Irish is nowhere to be found, further perpetuating his reputation as a lazy drunk and a coward. He was also a regular problem for the people he was around because of this alcoholism. Almost being drowned by two of his [[Alwyn Lloyd|ex]]-[[Leander Holland|compatriots]], where he surely would've been seriously injured or killed had it not been for John Marston. He's frequently found by John being under the effects of the drink half-asleep sitting against a wall.
+
+=== Appearance ===
+Irish is just barely more well-dressed than [[Seth Briars|Seth]], with at least a, although shabby, looking shirt and pants. His hair is very shaggy and grown out, and his pistol is seen holstered at the front of his pants. 
+
+==Mission appearances==
+;''Red Dead Redemption''
+*"[[A Frenchman, a Welshman and an Irishman]]" 
+*"[[Man is Born Unto Trouble]]" 
+*"[[On Shaky's Ground]]" 
+*"[[The Assault on Fort Mercer]]"
+*"[[We Shall Be Together in Paradise]]"
+
+==Quotes==
+{{main|Irish/Quotes}}
+
+{{quote|It's the whisky, sir... It gives me the memory of a newborn babe. Innocent as could be.|Irish ("[[Man is Born Unto Trouble]]")}}
+[[File: Irish ItsTheWhisky.ogg|center|noicon]]
+{{quote|They call me El Rato, 'The cat', on account of me stealth and cunning.|Irish}}
+{{quote|"God invented whiskey to keep the Irish from taking over the world."|Irish}}
+{{Quote|Ain't you got some peckers to be suckin'?|Irish}}
+{{quote|Oh, me virgin ears!|Irish}}
+{{quote|You're an angry and a feck-ugly man, but not a bad one.|Irish's last words to John Marston}}
+
+==Trivia==
+* In multiplayer, he is placed in the ''Damnation'' section, most likely due to his crimes and attempts to get John Marston killed.
+* If shot at before starting a mission, he may shoot back and possibly kill the player or simply flee. During these moments, the player is unable to kill Irish.
+* Irish seems to keep his [[revolver]] tucked into the front of his pants rather than in a holster.
+** In multiplayer, Irish's gun is not in the front of his pants, but in a holster on his waist.
+** When Irish puts his gun away after shooting in the mission "[[We Shall Be Together in Paradise]]", it uses the animation like he is putting his gun in a holster. His gun can then be seen to teleport to the front of his pants.
+* After the mission "We Shall Be Together in Paradise", it is possible to kill him. However, the player needs to be extremely quick and likely will have to use [[Dead-Eye]].
+* He mentions indirectly that he met [[Landon Ricketts]].
+* According to a comment Irish makes in "On Shaky's Ground", Irish may be from the city of [[wikipedia:Dublin|Dublin, Ireland]].
+* During the mission “We Shall Be Together in Paradise”, he uses the term ‘shitehawk’ while being shot at. This could mean he comes from Cork, Ireland, as it’s a phrase used often in that area.
+** Also during the mission, Irish mentions he was born into the world fighting and he will leave it fighting, to which John replies that he thinks Irish will leave it pissing his pants. Ironically, this predicts Irish's death in the future when his gun accidentally goes off in an outhouse in Thieves' Landing.
+* He is one of the few original ''Red Dead Redemption'' characters that does not appear in ''Undead Nightmare''. However on occasion, a [[Undead#Retchers|Retcher]] may be encountered which has a striking similarity to Irish and next to the train station in Armadillo, there is a half-eaten corpse, that if looked at carefully, has a resemblance to Irish, with a [[Repeater Carbine]] next to the body.
+* He appears to be a well-travelled person, having been to both Mexico and Canada, the majority of New Austin, and his native Ireland (then a part of the United Kingdom). These claims may be untrue, however, due to Irish's consistent dishonesty.
+* Both of Irish's parents are mentioned at one point in the game. His father's throat was slit by a Welshman, as said in "A Frenchman, a Welshman and an Irishman", and his mother was still alive as of 1911, as said in "[[Man is Born Unto Trouble]]".
+* Irish justifies his thievery with ideals very similar in concept to Marston's, as told by his dialogue with Marston after being caught threatening a pair of nuns for money in "On Shaky's Ground".
+* When questioned by John about his absence during the assault on Fort Mercer at the beginning of "We Shall Be Together in Paradise", Irish replies; "I awoke with me head in a pair of tits and it felt ill-mannered not to get reacquainted with them." 
+* Irish and [[Uncle]] are similar in several aspects, considering they both have very prominent beards, struggle with alcoholism, are fairly apathetic, only known by their nicknames, have similar facial structures, are known for their most likely lies of grandeur, and the type of "love/hate" relationship (although mostly hate when it comes to the former) that Marston has with both.
+* After completing "On Shaky's Ground", when Irish rides off, the player can catch up to him and get back on the wagon. Doing so will cause Irish to flee, and the player is able to kill or hogtie him.
+* At the beginning of the mission "Man is Born Unto Trouble", the song Irish is singing, "I love me precious Flora, the lily of the West", is in fact "Lily of the West", an old Irish folksong.
+* Irish indirectly mentions that he drank and played a game of cards with a Colonel "something or other" in Escalera. The Colonel in question is most likely Agustin Allende.
+* In "Man is Born Unto Trouble", Irish mentions that one of his reasons for leaving Ireland was for "poking" his brother's wife.
+* During the raft ride in "We Shall Be Together in Paradise", Irish admits that he can't swim.
+* At least one news outlet criticized the portrayal of Irish as the "town drunk" who attempts to talk his way out of situations as being the "Stereotype of the drunken Paddy."<ref>[https://web.archive.org/web/20100523044558/http://www.herald.ie/national-news/irish-drunk-sours-launch-of-hit-game-2187117.html Archived article at the ''Herald Online'']</ref>
+
+==Gallery==
+<gallery widths="200" spacing="small">
+Irish.jpg
+Irish.png|Irish's ''[[Redemption Multiplayer]]'' skin.
+Irish Wallpaper.jpg|Artwork of Irish
+Rdr frenchman welshman irishman01.jpg|''"You got it all wrong, Welsh. All wrong. It was French, I promise. He said he was going to rip you off, now he's ripping me off."''
+Rdr frenchman welshman irishman11.jpg|''"I can't thank you enough for taking care of those two degenerates..."''
+Rdr frenchman welshman irishman12.jpg
+Rdr frenchman welshman irishman13.jpg
+Rdr man born unto trouble03.jpg|''"Let uncle Irish untie them strings..."''
+Rdr man born unto trouble05.jpg|''"Where are you? Who do you want?"''
+Rdr man born unto trouble06.jpg|''"I, I see ya. Get away from me."''
+Rdr man born unto trouble10.jpg|"''It's the whiskey, sir..."''
+Rdr man born unto trouble12.jpg|''"Gives me the memory of a newborn babe, as innocent as can be."''
+Rdr man born unto trouble15.jpg|''"Yes, let's do that."''
+Rdr man born unto trouble24.jpg|''"A short wee ride now and we'll have this executive peace maker delivered to old West Dickens."''
+Rdr man born unto trouble23.jpg|John carrying the gatling gun box.
+Rdr_on_shaky's_ground01.jpg|''"Up, sister."''
+Rdr_on_shaky's_ground02.jpg|''"Put them up."''
+Rdr_on_shaky's_ground06.jpg|''"I'm your old friend, amnesia."''
+Rdr_on_shaky's_ground08.jpg|John choking Irish.
+Rdr_on_shaky's_ground11.jpg|''"I thought they was doxies."''
+Rdr_irish_excuses.jpg|Irish in 'On Shaky's Ground'.
+Rdr_on_shaky's_ground16.jpg|''"Shaky's made the arrangements and he'll-... shhh!"''
+Rdr_on_shaky's_ground27.jpg|''"Half-even, Shaky. You still owe me them [[wikipedia:Morphine|morphine]] pills to calm your nerves, Shh-shh-shh-Shaky."''
+Rdr_assault_fort_mercer41.jpg|''"Oh, i'll take you [[Chuparosa|there]], John. I'm real popular down there. You just meet me at the [[Brittlebrush Trawl|ferry]]. I've got lots of friends down South."''
+Rdr_together_in_paradise04.jpg|''"I've got more friends than you could shake a stick at, should you so desire."''
+Rdr_together_in_paradise05.jpg|''"We just get on me raft here and let the current sweep us away to paradise."''
+Rdr_together_in_paradise08.jpg|''"Come on then, dovey."''
+Rdr_together_in_paradise09.jpg|''"Hey, come on now. Look at it this way. I know we ain't exactly old pals, but, y'know... have i ever done you wrong?"''
+Rdr_together_in_paradise17.jpg|Inspecting the "health" of the horses
+Rdr_together_in_paradise21.jpg|''"I played [[wikipedia:Three card poker|Three Card Stud]] with him... or was it Four Card Monty?"''
+Rdr_together_in_paradise24.jpg|''"You're an angry and a feck-ugly man, but not a bad one."''
+perfecto.jpg|[[Beta Releases|Beta]] mission "We Shall Be Together in Paradise". Note that John is wearing the [[U.S. Marshal Outfit]], which is not possible in-game.
+Dutches gang.jpg|Irish along with [[Nigel West Dickens|West Dickens]], [[Dutch van der Linde]], [[Bill Williamson]] and [[Professor Harold MacDougal]] in the Myths and Mavericks pack.
+</gallery>
+
+==References==
+<references />
+
+==Related Content==
+{{Related Content}}
+{{Characters}}
+
+[[de:Irish]]
+[[es:Irish]]
+[[fr:L'Irlandais]]
+[[nl:Irish]]
+[[ru:Ирландец]]
+[[pt-br:Irlandês]]
+
+[[Category:Characters in Redemption]]
+[[Category:Multiplayer characters in Redemption]]

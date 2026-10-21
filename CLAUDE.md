@@ -631,5 +631,13 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     l'échange de « Cowards Die Many Times » respecté. Avis de décès : Blackwater Ledger n° 58 (« Vicente », 34 ans). Tombe
     de Sepulcro (1877-1911) selon le wiki. Voix : Hector Luis Bustamante. Accueil : LGBTQ Video Game Archive (24 juin
     2016), attribué. Guide acte II : la mort à Sepulcro est déplacée en fin de paragraphe (clarté).
+  - **Luisa Fortuna v3** : 6 520 mots EN, 14 relations, galerie 5. Institutrice et rebelle (Newswire Rockstar, 3 mai 2010 :
+    « 19-year old Mexican teacher and revolutionary »), PAS une paysanne ni une co-dirigeante (guide acte II corrigé EN+FR).
+    Retenue dans les grottes près d'El Matadero ; morte à Escalera, abattue par les soldats qui gardent Reyes (les pages du
+    wiki divergent sur qui tire et combien de fois, attribué). Ne monte jamais à cheval elle-même. Voix : Francesca Galeas.
+  - **Irish v3** : 6 860 mots EN, 10 relations, galerie 7. Il conduit John à une cabane gardée, sans arme ; il fournit la
+    Gatling et les munitions (via Shaky) mais manque Fort Mercer (guide acte I corrigé EN+FR : pas « des contacts qu'il n'a
+    pas »). Avis de 1914 : coup de feu accidentel (le wiki FR dit « explosion », à tort), lien avec Irish attribué au wiki.
+    Ledger n° 56 nomme Alwyn Lloyd et Leander Holland. Voix : K. Harrison Sweeney (interview, blog du Red Dead Wiki, 2011).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).

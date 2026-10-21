@@ -1,0 +1,62 @@
+{{User/characterbox
+
+|name = Alwyn Lloyd
+|image = [[File:Rdr alwyn welsh lloyd.jpg|300px]]
+|caption = <!-- A caption for the image. -->
+|aka = Welsh
+|gender = Male
+|location = Town of [[Armadillo]] in [[Cholla Springs]], [[New Austin]]
+|affiliations = [[Irish]]<br />[[Leander Holland|French]]
+|status = Deceased <small>(1911)</small>
+|birth = Unknown
+|death = 1911
+|weapon = [[Hunting Knife]]
+|voice= Paul Mullan
+|game = ''[[Red Dead Redemption]]''
+|nationality = [[File:Flag of Wales (1807–1953).svg|border|20px]] [[File: Uk-flag.png|border|20px]] Welsh <small>(British Empire)</small>
+|occupation = Outlaw
+}}
+
+{{Quote|Who do you think you are, boyo? The bloody cavalry?|"Welsh", upon meeting [[John Marston]]}}
+
+'''Alwyn Lloyd''', a.k.a. "'''Welsh'''," is a [[Characters in Redemption#Minor Characters|minor character]] featured in ''[[Red Dead Redemption]]''.
+
+==History==
+===Background===
+Welsh is a small-time crook, and is characterized as unkempt, aggressive and witless. According to [[Irish]], he met Welsh along with [[Leander Holland|French]] while all three were immigrating to America and describes them as being "thick as thieves".
+
+===Events of ''Red Dead Redemption''===
+Welsh and French are in the middle of torturing Irish by holding him face-down in a water trough. They accuse Irish of stealing and selling off their horses and the loot from their last theft, demanding retribution. Irish claims he is innocent, and that French set him up by taking advantage of Welsh's "tiny and ineffective mind". The trio are interrupted by [[John Marston]], sent by [[Nigel West Dickens]] to inquire with Irish about obtaining weaponry to assault [[Fort Mercer]]. Marston tries to intimidate French and Welsh into backing off, but then kills them in self-defense when they try to rush him. 
+
+==Mission appearances==
+;''Red Dead Redemption''
+*"[[A Frenchman, a Welshman and an Irishman]]"
+
+==Trivia==
+*"Welsh" is a nickname, similar to [[Irish]] and [[French]], which demarcates his Welsh heritage, also indicated by his accent.
+*A death notice appears for Welsh in the ''[[Blackwater Ledger]]''. His real name is given as "Alwyn Lloyd".
+*He is the only NPC in the campaign to use a knife against the player.
+*John Marston asks in his conversation with Irish after the incident, "Who were those two fine specimens of humanity?" Irish then proceeds to tell Marston, "They was me only friends in the world. And boy am I glad to see them bastards dead."
+*There is a river in Wales called the [[wikipedia:Afon Lwyd|Afon Llwyd]], which was likely the inspiration for Welsh's real name. Afon Llwyd means "grey river" in English.
+*Welsh cannot technically be disarmed, as even shooting the knife out of his hand will cause Welsh to die. However, if the player is quick enough or has the [[Cheats in Redemption|"Invincibility" cheat]] activated, the player may punch Welsh to knock him out. He will drop his knife but will still follow the player around Armadillo attempting to engage them in a fist fight until he is killed.
+*He appears to have several teeth missing.
+
+==Gallery==
+<gallery widths="180">
+File:Sing Song Voice.jpg
+File:Character.irish.jpg
+Rdr frenchman welshman irishman01.jpg
+welsh..jpg
+Lloyd.jpg
+Rdr frenchman welshman irishman04.jpg
+Rdr frenchman welshman irishman09.jpg
+RDR  Screenshot 2017-03-19 09-16-13.png
+</gallery>
+
+==Navigation==
+{{Characters}}
+{{DEFAULTSORT:Lloyd, Alwyn}}
+[[de:Alwyn Lloyd]]
+[[es:Welsh]]
+[[fr:Le Gallois]]
+[[Category:Characters in Redemption]]
