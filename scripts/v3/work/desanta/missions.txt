@@ -1,0 +1,14 @@
+Civilization, at Any Price	scripts/v3/work/_m/Civilization_at_Any_Price.txt
+Civilization, at Any Price/dialogues	scripts/v3/work/_m/Civilization_at_Any_Price_dialogues.txt
+The Demon Drink	scripts/v3/work/_m/The_Demon_Drink.txt
+The Demon Drink/dialogues	scripts/v3/work/_m/The_Demon_Drink_dialogues.txt
+Empty Promises	scripts/v3/work/_m/Empty_Promises.txt
+Empty Promises/dialogues	scripts/v3/work/_m/Empty_Promises_dialogues.txt
+Mexican Caesar	scripts/v3/work/_m/Mexican_Caesar.txt
+Mexican Caesar/dialogues	scripts/v3/work/_m/Mexican_Caesar_dialogues.txt
+Cowards Die Many Times	scripts/v3/work/_m/Cowards_Die_Many_Times.txt
+Cowards Die Many Times/dialogues	scripts/v3/work/_m/Cowards_Die_Many_Times_dialogues.txt
+Captain De Santa's Downfall	scripts/v3/work/_m/Captain_De_Santa_s_Downfall.txt
+Captain De Santa's Downfall/dialogues	scripts/v3/work/_m/Captain_De_Santa_s_Downfall_dialogues.txt
+Mother Superior Blues	scripts/v3/work/_m/Mother_Superior_Blues.txt
+Mother Superior Blues/dialogues	MISSING (no such wiki page)

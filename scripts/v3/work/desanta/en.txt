@@ -1,0 +1,176 @@
+{{User/characterbox
+|name = Vincente de Santa
+|image = Rdr vincente santa (better).jpg
+|aka =  Captain de Santa<br>Office boy
+|gender = Male
+|location = Town of [[Escalera]] in [[Punta Orgullo]], [[Nuevo Paraíso]]
+|affiliations = [[Mexican Army]]
+|weapon        = [[Cattleman Revolver]]<br>[[Repeater Carbine]]
+|voice = [[Hector Luis Bustamante]]
+|game = ''[[Red Dead Redemption]]''
+|nationality = [[File:Flag of Mexico 1899-1917.png|border|20px]] Mexican
+|occupation = Captain in the [[Mexican Army]]<br>Deputy governor of [[Nuevo Paraíso]]
+|family = Unnamed father<br>Unnamed mother
+|mount = [[Painted Quarter Horse]]
+}}
+{{Quote|Sometimes in the service of what is right, you got to do terrible things.|Vincente de Santa}}
+[[File:Vincente Civilization InTheServiceOfWhatIsRight.ogg|noicon|center]]
+'''Captain Vincente de Santa''' is a [[Characters in Redemption#Major Characters|major character]] featured in ''[[Red Dead Redemption]]'', serving as a major antagonist of the game's [[Nuevo Paraíso]] [[Missions in Redemption#Nuevo Paraiso Chapter|chapter]].
+
+With the addition of the ''[[Myths and Mavericks]]'' [[DLC]] pack, de Santa is also a [[Multiplayer Characters|multiplayer character]] model that may be selected in the "Revolution" section of the [[Outfitter]].
+
+==History==
+===Background===
+{{Quote|A 33-year-old military man. He is Allende's man on the ground. Ambitious and unprincipled, Vincente knows that he is fighting a war that he must win because the rebels have put a price on his head. He will do anything and kill anyone. He also has been tasked with procuring young women for his boss.|Description of De Santa in the GOTY Edition guide of ''Red Dead Redemption''.}}
+Born in 1877,<ref>Birth year given on gravestone in [[Sepulcro]].</ref> Vincente de Santa hails from a family of soldiers spanning multiple generations. Believing it would "put the world in his hands", De Santa's parents had him study English for six years under the tutelage of an old woman from Milwaukee. As a result, De Santa would grow to resent his parents.<ref>Mentioned in a conversation with [[John Marston]] in "[[Civilization, at Any Price]]":<br>'''John:''' ''"Believe me, there ain't much you can say about my government I won't agree with you on."''<br>'''De Santa:''' ''"I come from a family of soldiers. Generations of brave men. My parents made me learn English, told me it would put the world in my hands, but I resented them for it. My world is Mexico, I have no use for your passionless language."''<br>'''John:''' ''"It's kind of comin' in handy right now, ain't it?"''<br>'''De Santa:''' ''"Six years of reciting verbs to a smelly old woman from Milly-Walky, just so I can communicate with American bounty hunters? Yes, it was well worth the effort."''</ref> As a child, De Santa's father would frequently beat him and call him a girl. Although Vincente hated him for it at the time, he came to realize that the beatings ultimately shaped the person he became.<ref>Mentioned in a conversation with John Marston in "[[The Demon Drink]]":<br>'''De Santa:''' ''"My father beat me all the time, called me a girl."''<br>'''John:''' ''"That also explains a lot."''<br>'''De Santa:''' ''"I hated him for it but it made me who I am."''</ref>
+
+By 1911, De Santa has ascended to the rank of captain in the [[Mexican Army]], serving under Colonel [[Agustin Allende]] in the province of [[Nuevo Paraíso]].
+
+===Events of ''Red Dead Redemption''===
+
+====Nuevo Paraíso====
+De Santa works alongside John Marston after his first visit to Escalera, sending him on various tasks, oftentimes personally helping John do these tasks. John grows to dislike him, seeing how most of the tasks involve burning down innocent people's homes and capturing young women to give to Allende and the other soldiers. John also obviously hates the idea of a dictatorship, seeing how he fought against governmental control. De Santa tries having John killed a few times, sending John on many missions with incompetent soldiers against large armies of rebels, most notably in the mission “[[Mexican Caesar]]” where he sends John and [[Espinoza]] on a suspected suicide mission, hoping the two would not come back alive.
+
+Eventually, De Santa [[Cowards Die Many Times|betrays]] John by claiming that the Mexican Army has captured [[Javier Escuella]] and [[Bill Williamson]], and insists they are being held in the church at [[Chuparosa]]. However, upon reaching said church, John is knocked unconscious by a rifle butt to the head. Upon coming to, he is on the ground, his hands tied behind his back. As he is about to be executed, a lone bullet, fired by Abraham Reyes, whizzes through the air and prevents a seemingly imminent death. In the confusion, a large group of [[Reyes' Rebels|rebels]] attack, covering John's escape. Rushing over to Reyes, John has the ropes binding his wrists cut, and hurries back to get his weapons. Unfortunately for Marston and the rebels, De Santa manages to escape.
+
+In the [[Luisa Fortuna]] mission, "[[Captain De Santa's Downfall]]", Luisa explains that De Santa was sent to oversee a massacre in [[Sepulcro]]. She asks Marston to ride out with a group of rebels and finish him once and for all. John and the rebels quickly dispatch all the Mexican Army soldiers before De Santa is continually beaten. Under intense interrogation, the brutalized De Santa tells John that Javier Escuella is hiding at [[Casa Madrugada]]. In the end, the player is given the choice whether to kill the captain themselves, or to walk away and allow the rebels to open fire on him.
+
+Captain De Santa's information about Casa Madrugada turns out to be a final lie, as only an ambush of Mexican soldiers awaits Marston.
+
+==Events of ''Undead Nightmare''==
+'''Note:''' ''The events of Undead Nightmare are not considered part of the same canon as Red Dead Redemption. The following description is therefore not contiguous with the preceding section on Red Dead Redemption.''
+[[File:Zombie de santa.PNG|thumb|Undead de Santa]]
+During the mission "[[Mother Superior Blues]]", the player will be asked to clear out [[Sepulcro]]. Once the coffins have been burned and most of the [[Undead]] cleared out, De Santa will emerge from his grave. As he rises, he will mumble, "Mexico loves you, Mr. Marston," in an eerily distorted voice. The player must kill or otherwise disable the Captain to complete the cemetery; you can either kill or hogtie him.
+
+==Character==
+
+===Personality===
+{{Quote|When I put on this uniform I swore a sacred oath to protect the country I love. And I will protect her, from threats external and internal. I will fight to my last breath to stop this rebellion. One day soon I will be a general.|De Santa in "[[Civilization, at Any Price]]"}}
+Ambitious and unprincipled, De Santa knows that he is fighting a war, and he has to win as the rebels have placed a price on his head. He will do anything for the Army and kill anyone that tries to stop him.
+
+De Santa is portrayed as a cruel, abusive, and sadistic man. Regularly, he has personally participated in the slaughter of civilians that support the rebels and has willingly kidnapped women to satisfy the sexual appetite of his commander, Colonel Allende. He is also a vicious sycophant, who is not above sending competitors on suicide missions for personal gain; he even makes a man dig his own grave before shooting him. Despite Allende's abuse or perhaps because of it, De Santa seems to genuinely admire and look up to Allende, seeing him as a savior of the Mexican way of life. 
+
+It is implied that De Santa is in a homosexual relationship with [[Quique Montemayor]], as in several missions he is seen taking prolonged looks at the waiter, and can be seen with his arms around him later in the game. Furthermore, it is implied he has feelings for the owner of the [[gunsmith]] in [[Escalera]], who says that De Santa is often kissing him "as if I were his brother" (in Spanish). It is also likely that De Santa's romantic preferences are known to others, as during the [[Missions in Redemption|mission]] "[[Must a Savior Die?]]", when [[John Marston|Marston]] tells [[Abraham Reyes]] he's "after two men", Reyes responds with, "You have been spending too much time with Captain De Santa." In the mission "[[Captain De Santa's Downfall]]" a rebel says "De Santa likes to do a lot of things to men on their knees."
+
+==Mission appearances==
+
+;''Red Dead Redemption''
+
+*"[[Civilization, at Any Price]]"
+*"[[The Demon Drink]]"
+*"[[Empty Promises]]"
+*"[[Mexican Caesar]]"
+*"[[Cowards Die Many Times]]"
+*"[[Captain De Santa's Downfall]]"
+
+;''Undead Nightmare''
+
+*"[[Mother Superior Blues]]"
+
+==Quotes==
+{{Quote|My [[Nuevo Paraíso|country]] is in pain, [[John Marston]]. Terrible pain.|Vincente de Santa speaking to John Marston ("[[Civilization, at Any Price]]")}}
+[[File:Vincente Civilization TerriblePain.ogg|noicon|center]]
+
+{{Quote|I am the government, or what is left of it.|Vincente de Santa to John Marston ("Civilization, at Any Price")}}
+[[File:Vincente Civilization IAmTheGovernment.ogg|noicon|center]]
+
+{{Quote|This isn't America, Señor. We are poor. Kindness must take a different form.|Vincente de Santa}}
+{{Quote|The peasants are stupid and like cows they can be herded. It only takes a few men to move many.|Vincente de Santa}}
+{{Quote|Sometimes we must be brutal to be kind. It is what men do.|Vincente de Santa in "[[The Demon Drink]]"}}
+{{Quote|My friend, I bleed red, white and green. I love my God and country, before I love myself. These rebels, they fight because they are selfish. They have lost their patriotism and it disgusts me.|Vincente de Santa in "The Demon Drink"}}
+{{Quote|Go get drunk! Go get a woman! Enjoy life! It's a beautiful struggle!|Vincente de Santa to John Marston after taking [[Torquemada]] from the rebels}}
+{{Quote|If my men are dead, the rebels will all die, if they're alive, they have failed me, and the rebels will all die!|Vincente de Santa}}
+{{Quote|Mexico loves you, Mr. Marston!|Vincente de Santa talking to [[John Marston]]}}
+{{Quote|You are the better man.|Vincente de Santa when injured}}
+{{Quote|Please, I am begging you.|Vincente de Santa when injured}}
+{{Quote|El nombre es Colonel Allende, ahora cavar su tumba maldita arriba. (The name is Colonel Allende, now dig your damn grave up.)|Vincente de Santa before killing a [[Chico Renovales|rebel]] in [[Sepulcro]]}}
+{{Quote|Marston ya hijo de puta! (Marston you son of a bitch!)|Vincente de Santa}}
+{{Quote|If you kill me I will sent the entire [[Mexican Army]] after you.|Vincente de Santa threating [[Marston]]}}
+
+===Multiplayer===
+
+*''"Tu fin ha llegado, ¡Pendejo!"'' ''(Your end has come, asshole!)''
+*''"No sabes con quién estás tratando."'' ''(You don't know who you're dealing with.)''
+*''"¡Van todos al infierno!"'' ''(You all go to hell!)''
+*''"Ríndanse!"'' ''(Give up!)''
+*''"Eres mío, ¡Hijo de puta!"'' ''(You're mine, son of bitch!)''
+*''"Estás muerto!"'' ''(You're dead!)''
+*''"¡Ya basta cabrón!"'' ''(Stop it you bastard!)''
+*''"¡Te voy a hacer pedazos!"'' ''(I will smash you to pieces!)''
+
+==Trivia==
+* The burgundy color of his shoulder patches signify he is some sort of general staff, meaning de Santa is [[Agustin Allende|Allende]]'s in command right hand; implying he his responsible for the administrative, operational and logistical needs of its unit and supports and advises Allende.
+* If the player kills him, he will be counted as a ''civilian'' kill.
+* It is possible that de Santa is bisexual. There are scenes hinting at a relationship between him and [[Quique Montemayor]], a waiter. In another cutscene, he is seen caressing a woman.
+**His relationship with the waiter is hinted at in the first cutscene with De Santa, where Quique Montemayor gives John and de Santa a look of longing and desire. In the same scene, as Quique goes to serve de Santa, one of de Santa's guards whispers in another guard's ear and they both laugh, possibly alluding to how obvious de Santa's sexuality is. In another scene, when he is bringing women to Allende with Quique, the two leave with arms around each other. Espinoza also says that he flirts with the bar boy.
+**When you first meet [[Abraham Reyes]], John tells him he is looking for two men, and Reyes replies with, "You have been spending too much time with Captain de Santa." After de Santa's death, Reyes remarks that "a lot of young boys will sleep safe in their beds." This implies that de Santa is a rapist and possibly a pedophile or a pederast as well, though this may be an instance of homophobia on Reyes' behalf.
+**During a mission, Allende calls him a ''mariconcito'' in Spanish, which roughly translates into "queer".
+**In a conversation with [[Victor Melendez]], Victor comments about de Santa's cowardice, claiming he'll only attack when a man is on his knees. John comments, "He'll do a lot of things when men are on their knees," further alluding to de Santa being homosexual.
+* He actually has a lazy eye. It is not as noticeable as [[Eli]]'s, however.
+* If the ''Undead Nightmare'' [[DLC]] is installed, de Santa's grave is present in [[Sepulcro]].
+* In ''Undead Nightmare'' his tombstone reads, ''"Hombre Tierno, Soldado Feroz"'', roughly translating into ''"Tender man, fierce soldier"''.
+* If the player leaves the rebels to kill de Santa, Victor Melendez will indicate that the rebels would've preferred that John killed de Santa himself. Furthermore, Abraham Reyes will also question why John hadn't killed him when granted the chance.
+*He has the same last name as [http://gta.wikia.com/Michael_De_Santa Michael De Santa], one of the main protagonists of [http://gta.wikia.com/Grand_Theft_Auto_V ''Grand Theft Auto V''], another Rockstar game. However, Michael's false surname was chosen by him after making a shady deal with corrupt [[w:c:gta:Federal Investigation Bureau|FIB]] agent [[w:c:gta:Dave Norton|Dave Norton]]; his real surname being Townley.
+*Vincente de Santa is very similar to [[w:c:gta:Brian Jeremy|Brian Jeremy]] from ''[[w:c:gta:The Lost and Damned|Grand Theft Auto: The Lost and Damned]]'':
+**Both of them are extremely loyal to their bosses (De Santa is very loyal to Allende, while Brian is very loyal to [[w:c:gta:Billy Grey|Billy Grey]]).
+**Both of them betray the protagonist in favor of the antagonist despite being constantly belittled by them.
+**Both of them can be killed or spared by the player, but they die anyway.
+**Both of them are mocked by most of their allies.
+**Both of them are possibly homosexuals.
+*When talking about Colonel Allende, his subtitled dialogue appears as "Coronel". This is because in Spanish 'Colonel' is written as 'Coronel'.
+
+==Gallery==
+====''Red Dead Redemption''====
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+de sena head.png
+Capitan De Santa.jpg
+Rdr_vincente_santa.jpg
+Rdr_civilization_any_price04.jpg
+Rdr_civilization_any_price10.jpg|"''Welcome to Mexico, amigo!''"
+Rdr_civilization_any_price13.jpg
+Rdr_civilization_any_price18.jpg|''"It breaks my heart."''
+Rdr_civilization_any_price20.jpg
+Rdr demon drink02.jpg
+Rdr demon drink04.jpg
+Rdr demon drink05.jpg
+Rdr demon drink07.jpg
+Rdr demon drink34.jpg
+Rdr demon drink22.jpg
+rdr_i'll_just_leave_this_here.jpg| ''"Mexico loves you, Mr Marston."''
+Rdr cowards die02.jpg
+John attacking de Santa.jpg|John Marston beating De Santa
+File:Rdr_marston_beats_de_santa.jpg
+File:Vincente de Santa.png|De Santa after being beaten by John
+</gallery>
+
+===Multiplayer===
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+Multi109.png|De Santa as a [[Redemption Multiplayer]] skin
+De Santa in multiplayer.jpg|De Santa in Multiplayer
+DeSantaDoubleActionRevolver.jpg|De Santa in Multiplayer holding a [[Double-action Revolver]]
+</gallery>
+
+====''Undead Nightmare''====
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+Rdr_undead_vincente_de_santa.jpg
+</gallery>
+
+==References==
+{{References}}
+
+==Navigation==
+{{Related Content}}
+{{Characters}}
+
+{{DEFAULTSORT:Santa de, Vincente}}
+
+[[de:Vincente de Santa]]
+[[es:Vicente De Santa]]
+[[fr:Vincente_De_Santa]]
+[[ru:Висенте Де Санта]]
+[[pt-br:Vincente de Santa]]
+
+[[Category:Characters in Redemption]]
+[[Category:Characters in Undead Nightmare]]
+[[Category:Multiplayer characters in Redemption]]
+[[Category:Antagonists]]
