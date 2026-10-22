@@ -17,3 +17,4 @@ scripts/v3/work/*/gal/*
 # v3 work: raw web dumps and full fan transcripts stay local (repo is public)
 scripts/v3/work/*/fc/*.html
 scripts/v3/work/*/fc/gsw.txt
+scripts/v3/work/*/fc/*.txt
