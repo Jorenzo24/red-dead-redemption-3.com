@@ -6,3 +6,9 @@
 4. No gallery (no usable images). The old gallery-1 is not used.
 5. Quote ownership: lines quoted in B (see hercule_B docstring) are not quoted again in A or C.
 6. La Capilla: the wiki contradicts itself (rebel camp vs Fussar outpost); do not label it, or give both attributed in one place.
+7. La Capilla: drop the "rebels' camp" label everywhere (rule 6).
+8. Levi Simon's "Haitian pirates": the game does not say whom he means; never "dismisses the insurgents as".
+9. Leon: co-leader vs member of Hercule's faction: say it once, attributed (the wiki pages disagree).
+10. The Haiti line ("back to Haiti"): quoted once (B, In his own words); elsewhere at most a pointer.
+11. Personality: official description sentence + traits observable, no second biography, no interpretation.
+12. "French with his men": only one rebel speaks French to him; his own French lines are exclamations.

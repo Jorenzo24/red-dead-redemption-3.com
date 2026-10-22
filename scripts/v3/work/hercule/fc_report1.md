@@ -88,7 +88,7 @@ Several lines are quoted twice in half2: "It's not my island" (Relationships Art
 
 ## Count per category
 - WRONG: 0
-- IMPRECISE: 8 (items 1, 3, 4, 5, 6, 7, 9, 16, 18 → 9; see corrected total below)
+- IMPRECISE: 9 (items 1, 3, 4, 5, 6, 7, 9, 16, 18)
 - UNSUPPORTED: 0
 - MISQUOTE: 0
 - SPECULATION: 2 (items 2, 10)
@@ -96,4 +96,4 @@ Several lines are quoted twice in half2: "It's not my island" (Relationships Art
 - DUPLICATE: 6 (items 11, 12, 13, 14, 15, 17)
 - STYLE: 0 (the style issues of item 10 are counted under SPECULATION)
 
-Corrected totals: WRONG 0, IMPRECISE 9, UNSUPPORTED 0, MISQUOTE 0, SPECULATION 2, COPIED 1, DUPLICATE 6, STYLE 0 (18 items).
+Total: 18 items.
