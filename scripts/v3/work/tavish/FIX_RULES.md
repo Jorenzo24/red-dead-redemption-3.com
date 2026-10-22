@@ -8,3 +8,7 @@
 6. GTA V cut heist: the target was Martin Madrazo (safe, prized horse, wife), not "a rival"; rewrite precisely, attributed.
 7. Jon Gravelli credit: rephrase, do not reuse Wikipedia's wording.
 8. Duplicates: keep the Biography telling; relationship entries and Caliga Hall summarise in one sentence and do not re-narrate.
+9. Remove "not an exiled Jacobite" (the letter never says it). Fix the appearance line to what the images show (no "long gray hair" unless visible). Gallery-1 alt/caption: the stables, not a porch (scripts/v3/work/tavish/gal/captions.json, then rerun galbuild with the same spec if captions are baked in, else edit the module GALLERY).
+10. The letter is addressed to "Mr. Gray" everywhere. Pearson's 1907 line attributed to the Red Dead Wiki.
+11. Add the confirmed lead quote "We haven't recovered as much as I'd hoped from the war..." only in B "In his own words" if not already quoted there (no duplicates).
+12. Touch only tavish_* parts, the tavish_gray module and tavish work files. No other fiche.
