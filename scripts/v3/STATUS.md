@@ -8,6 +8,8 @@ scripts/_enrich.py; total = characters/*/ folders + _queue/ items).
 ## In progress (one line per fiche: key, step, device, WIP branch)
 | Fiche | key | Step | Where | WIP branch |
 |---|---|---|---|---|
+| Hercule Fontaine | hercule | gallery+modules done, drafting | Mac session | wip/v3-hercule-rains |
+| Rains Fall | rains | gallery+modules done, drafting (merge only AFTER the drip publishes it on 2026-10-23) | Mac session | wip/v3-hercule-rains |
 
 A fiche listed here with a WIP branch can be resumed from any device: check out the branch first.
 

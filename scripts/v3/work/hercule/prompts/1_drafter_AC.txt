@@ -1,0 +1,25 @@
+You are drafting parts A and C of the v3 reference fiche of Hercule Fontaine for red-dead-redemption-3.com (static site, EN + FR).
+Repo root on this device: /Users/joseph/Documents/SITES/GIT/red-dead-redemption-3.com/. Work dir: scripts/v3/work/hercule/. Read scripts/v3/work/hercule/BRIEF.md FIRST and follow it, then scripts/fiches/SPEC.md,
+scripts/v3/rules/OWNERSHIP.md and scripts/v3/rules/HOUSE_FACTS.md. Another agent drafts parts B and D in parallel: do not write their content.
+
+Write two files (valid Python, same structure as scripts/fiches/parts/uncle_A.py and uncle_C.py):
+1. scripts/fiches/parts/hercule_A.py: BIOGRAPHY. Variable BLOCKS. h3 = periods (Origins, Red Dead Redemption 2 (1899),
+   epilogue 1907, Red Dead Redemption (1911/1914), Undead Nightmare (non-canon) as relevant), each period h3 with a "year"
+   key ("" for Origins and Undead Nightmare); h4 = chapters with a "chapter" key (1-6, "E1", "E2", "A1", "A2", "A3").
+   A medium fiche does not need an h4 for every chapter: only where the character does something. Narrative events
+   live HERE (other parts point to them).
+2. scripts/fiches/parts/hercule_C.py: BLOCKS_MISSIONS (one table: mission, chapter, one line on the character's role;
+   C1..C6 chapter labels as in the model), BLOCKS_QUOTES (quotes block, verbatim from transcripts or the wiki quote
+   list, original English in both languages, FR src gives "Traduction : « ... »"), BLOCKS_TRIVIA (only facts found
+   nowhere else in the fiche), BLOCKS_MEDIA (other media, marketing, Red Dead Online, legacy; may be short or empty
+   list if nothing is sourced; never invent).
+Each file starts with a docstring: what the part covers, then the SOURCE REGISTER (every page, transcript, newspaper,
+letter, interview used, with outlet + date for real-world sources) and the verified points / excluded facts.
+
+Process: read en.txt and fr.txt in full; read every transcript listed in scripts/v3/work/hercule/missions.txt; grep the authoritative
+parts ({abigail,allende,andrew,angelo,arthur,bill,bonnie,catherine,charles,colm,desanta,dutch,edgar,fordham,fussar,hosea,irish,jack,javier,john,josiah,karen,kieran,landon,leigh,lenny,leopold,leviticus,linton,luisa,macdougal,mary,micah,molly,nastas,nigel,orville,reyes,sadie,sean,seth,simon,susan,tavish,tilly,uncle}) for "Hercule" and align with them; grep scripts/v3/rules/HOUSE_FACTS.md for every shared event you tell.
+Cover EVERYTHING the wiki says that is not speculation (structure base = the wiki), then add what transcripts and
+mission pages give. Hedge wiki-only claims ("according to the Red Dead Wiki"). Save extra sources to scripts/v3/work/hercule/fc/.
+
+Validate both files with python3 -c "import ast;ast.parse(open(PATH).read())".
+Reply with: EN/FR word counts per file, the facts deliberately excluded (one line each with reason), open doubts.

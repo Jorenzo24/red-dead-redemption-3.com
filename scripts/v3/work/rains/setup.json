@@ -1,0 +1,8 @@
+{
+ "key": "rains",
+ "slug": "rains-fall",
+ "title": "Rains Fall",
+ "blurb": "RDR2 only, chapters 4 to 6 + epilogue mentions. Chief of the Wapiti, father of Eagle Flies. Missions with Charles/Arthur: Fleeting Joy? Verify every mission name from the wiki and transcripts (Charles side missions, 'The Noblest of Men, and a Woman', 'Archeology for Beginners'? etc.). HOUSE FACTS: Eagle Flies dies at the reservation (chapter 6), Charles carries/fights alongside; c'est Taima qui sert a la fuite (Charles fiche). Epilogue: what happens to the Wapiti (Canada?) must be sourced (Charles's 1907 lines). Actor: Graham Greene (Oneida, died September 1, 2025, Toronto, age 73 - verify). The fiche is QUEUED (publishDate 2026-10-23): links only to fiches live on or before 2026-10-23 (NOT eagle-flies 10-26, NOT sister-calderon). Authoritative related parts: charles_*, arthur_*, dutch_*, sadie_*, micah_*, john_*. Full fan transcript: copy scripts/v3/work/fussar/fc/gsw.txt to work/rains/fc/ (gitignored).",
+ "name": "Rains Fall",
+ "model": "uncle"
+}

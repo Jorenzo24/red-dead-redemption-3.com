@@ -1,0 +1,6 @@
+Welcome to the New World	scripts/v3/work/_m/Welcome_to_the_New_World.txt
+Welcome to the New World/dialogues	MISSING (no such wiki page)
+Hell Hath No Fury	scripts/v3/work/_m/Hell_Hath_No_Fury.txt
+Hell Hath No Fury/dialogues	MISSING (no such wiki page)
+Paradise Mercifully Departed	scripts/v3/work/_m/Paradise_Mercifully_Departed.txt
+Paradise Mercifully Departed/dialogues	MISSING (no such wiki page)

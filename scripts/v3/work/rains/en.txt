@@ -1,0 +1,107 @@
+{{User/characterbox
+|name = Rains Fall
+|image =<gallery>
+File:Rains Fall1899.jpeg|1899
+RainsFall.png|1907
+</gallery>
+|nationality = [[Native Americans|Native American]] <small>([[Wapiti Indians|Wapiti]])</small>
+|gender = Male
+|location = [[Wapiti Indian Reservation]] <small>(until 1899)</small><br>Canada <small>(post-1899)</small><br>[[Annesburg]] <small>(temporarily; 1907)</small>
+|affiliations = [[Wapiti Indians]]<br>[[Arthur Morgan]]<br>[[Charles Smith]]
+|family = [[Eagle Flies]] <small>(son)</small><br>Unnamed son {{Icon|dead}}<br>Unnamed wife {{icon|dead}}
+|game = ''[[Red Dead Redemption 2]]''
+|occupation = Chief of the Wapiti Indians
+|voice = [[Graham Greene]]
+|aka = {{addendum|by Colonel Favours|Chief Rains}}
+|mount=Blue Roan [[Nokota]] <br/> Grullo Dun [[Mustang]]  <br/> Tobiano [[American Paint]]}}
+{{Quote|Sometimes the correct path, the bravest path, is the least obvious... and also the gentlest.|Rains Fall to [[Arthur Morgan]] in "[[Archeology for Beginners]]"}}
+[[File:RainsFall-RDR2-Quote.ogg|noicon|center]]
+'''Rains Fall''' is a [[Characters in Redemption 2|major character]] featured in ''[[Red Dead Redemption 2]]''.
+
+==History==
+
+=== Background ===
+Sometime prior to 1899, Rains Fall was named Chieftain of the [[Wapiti Indians]]. As a young man, he fought for his tribe, though he later became a pacifist. Rains Fall had signed three treaties with the United States government as of 1899, two of which had already been broken, while the third consigned his tribe to live on the [[Wapiti Indian Reservation]]. Rains Fall also had a wife and two sons; his elder son had his head smashed by a drunken soldier and his wife had her throat slit, also by a soldier. Only his younger son, [[Eagle Flies]], lived.
+
+=== Events of ''Red Dead Redemption 2'' ===
+
+==== [[Colter]] Chapter ====
+Rains Fall is seen alongside Eagle Flies and [[Paytah]], observing the [[Van der Linde gang]]'s evacuation from the mountains, on their journey towards [[Horseshoe Overlook]].
+
+==== [[Saint Denis]] Chapter ====
+In response to attempts from the [[United States Army|US Army]] to drive the Wapiti Indians off their reservation due to the alleged oil deposits beneath it, Rains Fall attends Mayor [[Henri Lemieux]]'s party with Eagle Flies and is seen giving a document to the mayor. Later, Rains Fall is seen with Eagle Flies talking to [[Evelyn Miller]], where they are trying to arrange a meeting with a city councillor in an attempt to stop their relocation. [[Arthur Morgan]] approaches them soon after; Rains Fall offers to pay him well if he steals incriminating documents from the [[Cornwall Kerosene & Tar|Cornwall]] company in the hope of preventing them from being moved from the reservation.
+
+==== [[Beaver Hollow]] Chapter ====
+Arthur next encounters Rains Fall at the [[Wapiti Indian Reservation|reservation]] to talk to him, if the player decides to help him. Rains Fall welcomes Arthur into his tent but chastises him for going on a raid with Eagle Flies. However, Rains Fall forgives Arthur and expresses his condolences after discovering his illness and says he hopes Arthur can find peace. The chief then asks Arthur to go out on a ride with him, which he accepts. On the way, Rains Fall collects some herbs to help Arthur with his cough and talks with him about various personal troubles. As they continue on, Rains Fall discovers that the Army have destroyed an ancient spiritual shrine that the tribe holds dear. Realizing that if his people learn of this they will have war, he offers Arthur money to recover them for him without hurting anyone. Arthur gladly volunteers to do so without payment and soon brings a chanupa back to the chief. If Arthur managed it non-violently, Rains Fall gives him an owl trinket and laments that his son hasn't demonstrated such restraint.
+
+Later on, Rains Fall rides into camp with some news: that [[Henry Favours|Colonel Favours]] has arranged a truce meeting between the Wapiti Indians and the US Army. Rains Fall requests that Arthur and [[Charles Smith|Charles]] come with him to the event, citing that it looks better if people from outside the tribe are present. Despite Rains Fall's hopes, the meeting goes badly; Favours gives a condescending tirade against the Indians and it becomes apparent that he will not make any concessions. Matters then come to a head when Favours has [[Lyndon Monroe|Captain Monroe]] arrested and charged with treason, all for helping the tribe too much. Arthur and Charles take a hostage and rescue Monroe as a gun battle erupts, during which Rains Fall manages to slip away.
+
+Later on, Arthur visits the reservation and meets a despondent Rains Fall, in despair about the failed truce meeting and his son's [[Favored Sons|capture]]. Arthur informs him that he and Charles plan on rescuing Eagle Flies from [[Fort Wallace]], initially prompting a negative response from Rains Fall, who says that the tribe's conflict with the Army is already bad enough. However, Arthur and Charles go to rescue Eagle Flies anyway, to which Rains Fall offers no protest.
+
+Soon afterwards, Rains Fall rides into Beaver Hollow pleading his men to not go to war, though they do not listen to him and attack the US Army at the oil fields unabated. Eagle Flies is mortally wounded in this battle, so Arthur and Charles bring his body back to him. Rains Fall weeps as he watches his last son die, at which point Arthur and Charles leave him alone to mourn.
+
+==== Epilogue ====
+Eight years later, [[John Marston]] can meet Rains Fall at the train station in [[Annesburg]], who recognises Marston as an associate of Arthur. Rains Fall reveals that he and his tribe were forced to flee to Canada and that he had temporarily returned to America to mourn the death of Eagle Flies, which he had still not fully recovered from. 
+
+After John gives his condolences on the loss of his son, Rains Fall then boards a train to return to Canada. In the credits, Rains Fall is seen gazing at an eagle flying in the sky and wiping away a tear.
+
+==Character==
+===Personality===
+{{Quote|My only boy... my precious boy... do not mistake my strength for weakness.|Rains Fall to [[Eagle Flies]]}}
+Rains Fall is a pacifist, unlike his son [[Eagle Flies]]. He wishes that everything the Indians do is done in peace, and is willing to put up with decades of abuse from the U.S. Army if it means no war. Despite this, he understands the views his son possesses about wanting to fight against their oppressors and there being glory in death, but after seeing the deaths of so many of his own people and his enemies, he claims he hasn't found glory in any of their deaths. He seems to admit his pacifism and lack of action against his people's oppressors, claiming that he is a disappointment to his son.
+
+=== Appearance ===
+Rains Fall is an old man with long black hair, a lock of which is tied up with a red ribbon. One of his two outfits is a rather fancy one with a brown hat with a feather attached, a black coat, a red shirt, black pants, and boots. The components of his other outfit are a brown coat, a light-green waistcoat, a blue shirt, and no hat.
+
+==Mission appearances==
+;''Red Dead Redemption 2''
+*"[[Eastward Bound]]"
+*"[[The Gilded Cage]]"
+*"[[American Fathers I]]"
+*"[[Archeology for Beginners]]"
+*"[[The Fine Art of Conversation]]"
+*"[[The King's Son]]"
+*"[[My Last Boy]]"
+*[[Ending Credits]]
+*"Rains Fall"
+
+== Quotes ==
+{{Quote|Yes, my people, if we are even a people anymore... we fought hard... we've made peace treaties... and those treaties were broken... and we've been moved and punished and... punished and moved.|Rains Fall to [[Arthur Morgan]]}}
+{{Quote|We cannot fight another war.}}
+{{Quote|My son thinks there is glory in death. Maybe he's right... but for me... I saw death being handed out so freely by the most foolish of men... I never could equate it with victory.}}
+{{Quote|They moved us here. They've taken everything we had... I signed three treaties myself, and they've broken each one. And now they've taken the last hope...|Rains Fall to [[Arthur Morgan]] in "[[Archeology for Beginners]]"}}
+{{Quote|My son, my last son... don't. When I was your age... I fought. I saw death. I have killed. The men I knew were slain. My first born, your brother... had his head smashed by a drunken soldier. My wife had her throat slit. We made peace. I knew not to trust, yet I had no choice. Maybe you were right... maybe the slow death is worse than a fast one. Maybe none of these men are good. Maybe a world in which they came to us... is a world that we can not endure. But endure we must.|Rains Fall holding a speech in "[[My Last Boy]]" in order to prevent [[Eagle Flies]] from attacking the oil fields.}}
+{{Quote|Ah, well... my people aren't really a tribe, we're just a... bunch of families, I suppose... but we're in Canada now.|Rains Fall to [[John Marston]] in the Epilogue}}
+
+== Trivia ==
+*Aspects of Rains Fall appear to be based on Native American leaders such as [[Wikipedia:Sitting Bull|Sitting Bull]] and [[Wikipedia:Red Cloud|Red Cloud]]. 
+** Rains Fall appears to be somewhat based off Red Cloud, a real-life [[Wikipedia:Oglala|Oglala Lakota]] tribal chief who was a prominent Native American leader in the 19th century. Red Cloud fought against the United States Army but similarly adapted a pacifist approach later in his life while leading his tribe to transition from inhabiting their ancestral lands to settling onto reservations.
+** There are also similarities between Rains Fall and Sitting Bull; after the [[Wikipedia:Battle of Little Bighorn|Battle of the Little Bighorn]], the natives led by Sitting Bull was forced to relocate to Canada.
+* During the occasional instances in which Rains Fall departs from English to speak in a Native American language, the in-game caption reveals that the actual language he is using is [[Wikipedia:Lakota language|Lakota]].
+* In the credits cutscene, Rains Fall's appearance has noticeably aged, however when John meets him at the train station, his appearance appears to be the same as how he was eight years prior.
+* Meeting Rains Fall in the epilogue results in a sizable boost in [[Honor|honor]].
+* While meeting with Colonel Favours he says “I can’t say that silly name” to which Rains Fall suggests to just say his English name, meaning that Colonel Favours was given the information of his name in Lakotan.
+* Concept art shows Rains Fall's original name was "Rains Come".
+
+==Gallery==
+===Concept Art===
+<gallery spacing="small" position="center" widths="200" captionalign="center" hideaddbutton="true">
+RDR2-Rains Fall concept 1.jpg
+RDR2-Rains Fall concept 2.jpg|Full body
+</gallery>
+
+===In-game===
+<gallery spacing="small" position="center" widths="200" captionalign="center" hideaddbutton="true">
+File:Rains Fall Nokota.jpg|Rains Fall on his horse
+File:Rains Fall credits.jpeg|Rains Fall in the credits
+File:Rains Fall 1907 RDR2.png
+</gallery>
+
+==Navigation==
+{{Characters 2}}
+{{RDRII}}
+{{DEFAULTSORT:Rains, Fall}}
+[[de:Fallender Regen]]
+[[fr:Pluie-Battante]]
+[[tr:Yağan Yağmur]]
+[[Category:Characters in Redemption 2]]

@@ -1,0 +1,48 @@
+{{User/characterbox
+|name          =Hercule Fontaine 
+|image         =Hercule Fontaine rdr2.jpg 
+|caption       = 
+|game          = ''[[Red Dead Redemption 2]]''
+|aka           = 
+|gender        = Male 
+|location      = [[Cinco Torres]], [[Guarma]] 
+|affiliations  = [[Guarma Rebels]]<br>[[Baptiste]]<br>[[Leon Fuentes]]<br>[[Dutch van der Linde]]  <small>(temporarily)</small><br>[[Arthur Morgan]] <small>(temporarily)</small><br>[[Bill Williamson]] <small>(temporarily)</small><br>[[Micah Bell]] <small>(temporarily)</small> 
+|family        = 
+|weapon        = [[Bolt Action Rifle (RDR 2)|Bolt Action Rifle]]<br>[[Carcano Rifle (RDR 2)|Carcano Rifle]] 
+[[Springfield Rifle (RDR 2)|Springfield Rifle]]<br>[[Rolling Block Rifle]] 
+|voice actor   =
+|occupation = Revolutionary<br>Smuggler
+|voice = [[Guyviaud Joseph]]
+|nationality = [[File:Flag of Haiti (1859–1964).png|border|20px]] Haitian
+}}
+'''Hercule Fontaine''' is a [[Characters in Redemption 2|supporting character]] featured in ''[[Red Dead Redemption 2]]. ''He plays a significant role from the missions "[[Welcome to the New World]]" - "[[Paradise Mercifully Departed]]" in Chapter 5 of [[Red Dead Redemption 2]], helping the [[Bill Williamson|su]][[Arthur Morgan|rv]][[Dutch van der Linde|iv]][[Javier Escuella|or]][[Micah Bell|s]] of the [[Lost and Not Quite Found|shipwreck]] from the failed [[Banking, The Old American Art|robbery]] in [[Saint Denis]].
+
+He helps the gang by getting them a boat from Guarma back to America after defeating [[Alberto Fussar]] in "[[Hell Hath No Fury]]" after they take down the warship and blow up Fussar with a cannon. Dutch and Arthur thank him as they leave for America.
+
+==History==
+===Background===
+Hercule is a Haitian born in an unknown year. Sometime before 1899, he became involved in the uprising in [[Guarma]] against [[Alberto Fussar|Colonel Fussar]], smuggling supplies to rebels on the island to aid the revolt. 
+
+=== Events of ''Red Dead Redemption 2'' ===
+==== [[Guarma]] chapter ====
+Hercule is first encountered when he ambushes [[Cuban Military|Cuban troops]] who have taken members of the [[Van der Linde gang]] captive alongside rebels. During the confusion of the gunfire released by him, [[Arthur Morgan|Arthur]] manages to unlock the shackles on the gang, and arms himself, resulting in the deaths of the guards. Hercule then spots reinforcements approaching, before urging the five gang members and the rest of the prisoners to follow him. He and the gang fall back to an old tower, which has been stocked with [[Bolt Action Rifle (RDR 2)|Bolt Action Rifles]]. After the pursuing soldiers are driven away, Hercule subsequently leads the gang members to a church turned rebel outpost called [[La Capilla]]. He then tells them to get some rest.
+
+After helping [[Leon Fuentes|Leon]] in a situation with the workers and rescuing [[Javier Escuella|Javier]], the gang meets Hercule at an old Spanish fort called [[Cinco Torres]], which has been turned into a rebel hideout. Not long after arriving, the Cuban military assaults the fort with a large warship. The gang and Hercule open fire on the enemy soldiers and succeed in holding them off for a time before the overwhelming numbers reach the fort. Hercule, [[Dutch van der Linde|Dutch]], and Arthur then advance to the beach and dispatch the soldiers who have reached the fort. After doing this, Hercule decides that the Cuban warship is in firing range, so he and Arthur rush up to the cannon. Arthur mans the cannon and eventually sinks the warship, saving Cinco Torres.
+
+After the Battle for Cinco Torres, [[Micah Bell|Micah]] reports that Fussar has set up gun batteries around the island, to stop them from leaving. Hercule, Dutch, Micah, and Arthur then assault the gun batteries and destroy them. With the gun batteries out of the way, they launch an assault on [[Aguasdulces]] to rescue the captain who is being held there. After a standoff between Dutch, Arthur, [[Levi Simon]], and Alberto Fussar (which results in Levi's death), Fussar runs away. Hercule and the gang fight their way past the remaining Cuban soldiers, trying to find Fussar. They eventually see him in a tower manning a cannon. In order to take him down, Hercule and Dutch draw Fussar's fire, allowing Arthur to access a cannon of his own. Arthur fires it at the tower, destroying it and killing Fussar in the process. With Fussar dead, Hercule celebrates, seeing it as a great victory for the rebellion. Hercule mentions that he and his men will depart Guarma very soon and that he and the rebels will be gone by morning. Dutch thanks Hercule as the gang leaves, and Hercule's later fate is unknown.
+
+==Mission appearances==
+;''Red Dead Redemption 2''
+* "[[Welcome to the New World]]"
+* "[[Hell Hath No Fury]]"
+* "[[Paradise Mercifully Departed]]"
+
+== Navigation ==
+{{Characters 2}}
+{{Related Content}}
+{{DEFAULTSORT:Fontaine, Hercule}}
+[[de:Hercule Fontaine]]
+[[fr:Hercule Fontaine]]
+[[ru:Эркюль Фонтен]]
+[[tr:Hercule Fontaine]]
+[[Category:Characters in Redemption 2]]
