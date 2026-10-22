@@ -26,7 +26,8 @@ EXCLUDED
 - Wiki trivia that Guarma is "even worse" after his death (the 1907 article makes no comparison).
 - The wiki quote list's label "last words" for "You maggots are going to die. The US Navy is on the way.": he speaks again
   only through gunfire afterwards, but the lines belong to part B in any case.
-- Leon Fuentes's "Our only purpose is to work ourselves to death" is quoted together with "A tyrant..." (one entry).
+DEDUPE WATCH (for the fixer): Leon's "A tyrant..." and Micah's "I like the man's style..." are wiki quote boxes and may
+  also be picked by part B (Personality); if so, cut them here.
 - Any Red Dead Online presence of Fussar himself: none found (Guarma is inaccessible online; only a flag).
 - Marketing: no pre-release material, trailer or Rockstar description naming Fussar was found (THR descriptions of
   6 Sep 2018 cover the gang only).
@@ -51,8 +52,8 @@ BLOCKS_MISSIONS = [
           "A guest at Mayor Lemieux's party in Saint Denis. [[angelo-bronte|Bronte]] points him out to [[dutch-van-der-linde|Dutch]] and [[arthur-morgan|Arthur]] from a balcony.",
           "Invité à la réception du maire Lemieux à Saint-Denis. Depuis un balcon, [[angelo-bronte|Bronte]] le désigne à [[dutch-van-der-linde|Dutch]] et à [[arthur-morgan|Arthur]]."),
         M("A Kind and Benevolent Despot", C5,
-          "Mocks the captured [[javier-escuella|Javier]] in Aguasdulces, then harangues his soldiers while Dutch and Arthur blow up his refinery and free Javier.",
-          "Se moque de [[javier-escuella|Javier]], prisonnier, à Aguasdulces, puis harangue ses soldats pendant que Dutch et Arthur font sauter sa raffinerie et libèrent Javier."),
+          "Mocks the captured [[javier-escuella|Javier]] in Aguasdulces, then harangues his soldiers while Dutch and Arthur slip into his refinery, which they blow up to free Javier.",
+          "Se moque de [[javier-escuella|Javier]], prisonnier, à Aguasdulces, puis harangue ses soldats pendant que Dutch et Arthur s'introduisent dans sa raffinerie, qu'ils font sauter pour libérer Javier."),
         M("Paradise Mercifully Departed", C5,
           "Joins the standoff in the cabin where the ship's captain is held, escapes after Levi Simon is shot, then fires on the gang from a tower; Arthur kills him.",
           "Se joint au face-à-face dans la cabane où est retenu le capitaine du navire, s'enfuit après la mort de Levi Simon, puis tire sur la bande depuis une tour ; Arthur le tue."),
@@ -127,8 +128,8 @@ BLOCKS_TRIVIA = [
             "L'article consacré à la réception du maire, \"Mayor's Gala Was Grand\" (Blackwater Ledger n° 67), cite parmi les invités Archibald Jameson, le major Hobart Crawley, Gilbert Knightly, Hector Fellowes et Angelo Bronte, mais pas Fussar. Le même numéro publie \"Guarma Island Sugar Boom\"."),
         two("In \"A Kind and Benevolent Despot\", opening fire on Fussar or his soldiers once Javier has been seen fails the mission, and a cutscene shows the guards killing Javier.",
             "Dans \"A Kind and Benevolent Despot\", ouvrir le feu sur Fussar ou sur ses soldats une fois que Javier est en vue fait échouer la mission, et une cinématique montre les gardes en train de tuer Javier."),
-        two("According to the Red Dead Wiki, Fussar's estate in Aguasdulces is enclosed by a stone wall and comprises a large manor surrounded by cages, the sugar factory, a mill, a barn, a well and a dilapidated tower that leads down to the caves used by Dutch and Arthur.",
-            "D'après le Red Dead Wiki, le domaine de Fussar à Aguasdulces est entouré d'un mur de pierre et comprend un grand manoir entouré de cages, la sucrerie, un moulin, une grange, un puits et une tour délabrée qui donne accès aux grottes empruntées par Dutch et Arthur."),
+        two("According to the Red Dead Wiki, Fussar's estate in Aguasdulces is enclosed by a stone wall and comprises a large manor surrounded by cages, the sugar factory, a mill, a barn, a well and a dilapidated tower that gives access to the caves.",
+            "D'après le Red Dead Wiki, le domaine de Fussar à Aguasdulces est entouré d'un mur de pierre et comprend un grand manoir entouré de cages, la sucrerie, un moulin, une grange, un puits et une tour délabrée qui donne accès aux grottes."),
         two("Firing the cannon at Fussar's tower stops the clock on one of the Gold Medal objectives of \"Paradise Mercifully Departed\": escorting the captain to the boat within 1 minute and 45 seconds.",
             "Le tir de canon sur la tour de Fussar arrête le chronomètre de l'un des objectifs de la médaille d'or de \"Paradise Mercifully Departed\" : escorter le capitaine jusqu'au bateau en moins d'une minute et 45 secondes."),
         two("In the cabin standoff, Dutch draws his second revolver when Fussar walks in. According to the Red Dead Wiki, the same kind of standoff happens again in \"American Venom\", the last mission of the 1907 epilogue.",
