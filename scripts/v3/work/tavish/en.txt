@@ -1,0 +1,51 @@
+{{User/characterbox
+|name          =Tavish Gray 
+|image         =Red Dead Redemption 2 Tavish Gray HD 1.png
+|caption       = 
+|game          =''[[Red Dead Redemption 2]]''
+|aka           = 
+|gender        =Male 
+|location      =[[Caliga Hall]] plantation in [[Bayou Nwa]], State of [[Lemoyne]]
+|affiliations  =[[Gray family]] <small>(patriarch)</small> 
+|family        =[[Leigh Gray]] <small>(brother)</small><br>[[Beau Gray]] <small>(son)</small><br>[[Jock Gray]] <small>(relative)</small><br>Murdo Gray <small>(father)</small><br>Ross Gray <small>(ancestor)</small><br>Douglas Gray <small>(ancestor)</small>
+|weapon        = 
+|voice actor   =
+|nationality = [[File:Flag of the United States (1896–1908).png|border|20px]] American <small>(Scottish descent)</small>
+|voice = [[Madison Arnold]]
+}}
+{{Quote|We haven't recovered as much as I'd hoped from the war. My family try... my sons are good boys, but it's been hard. Like I said, some people in the area will hold us back forever. We need stability.|Tavish Gray}}
+
+'''Tavish Gray''' is a [[Characters in Redemption 2|minor character]] in ''[[Red Dead Redemption 2]]''.
+
+==History==
+===Background===
+Tavish is the patriarch and eldest member of the wealthy [[Gray family]], the rivals of the [[Braithwaite family]]. He is the brother of [[Leigh Gray]], the sheriff of [[Rhodes]], and the father of [[Beau Gray]].
+
+===Events of ''Red Dead Redemption 2''===
+Tavish is first seen at [[Caliga Hall]] talking to [[John Marston]], [[Javier Escuella]] and [[Arthur Morgan]] about [[Catherine Braithwaite]]'s prize horses, and promises them that they can get five-thousand dollars for them. The trio happily accepts the offer and steal the horses from the [[Braithwaite Manor]], although Tavish's promise turns out to be false when they get a mere seven hundred dollars for them, instead of the promised five thousand.
+
+Shortly afterward, after Arthur and [[Sean MacGuire]] burn down the Gray family's tobacco fields, the Grays plot revenge on the [[Van der Linde gang]]. They offer the gang a "security job" in [[Rhodes]], which Sean, [[Bill Williamson]] and [[Micah Bell]] accept. This ends up turning out to be an ambush from the Grays, where most members of the Gray family are killed along with Sean, although Tavish was not present during this.
+
+Sometime after the battle, Tavish dies, possibly due to suicide, but more likely from a heart attack judging by the state of his corpse. His body can be found on the back porch of the main building at Caliga Hall as a [[Point of Interest]] ([[Gray’s Secret]]) next to the cause of the presumed heart attack, a [[Gray Family History Letter|letter from Edinburgh University historian Malcolm Moffat]]. The letter reveals that Tavish's ancestor, Ross Gray, was not an exiled Jacobite as he previously believed, but a spy for the [[Wikipedia:Prince William, Duke of Cumberland|Duke of Cumberland]] who was forced to flee from Scotland after actual Jacobites began hunting down loyalists who informed on them.
+
+== Mission appearances ==
+;''Red Dead Redemption 2''
+*[[Horse Flesh for Dinner|"Horse Flesh for Dinner"]]
+
+==Trivia==
+* There seems to be inconsistency within the game regarding Tavish and Leigh. Members of the [[Van der Linde gang]] (i.e. [[Dutch van der Linde|Dutch]] and Arthur) refer to Leigh as Tavish's son while Beau says that Tavish is his father and Leigh is his uncle, making Tavish and Leigh brothers. This is likely a developer oversight, although in-game terms it is plausible that the gang received false information about the family and the nature of its relationships. However, Tavish doesn't correct Arthur when Arthur says he heard that Leigh is his son.
+* The historian who Tavish receives the letter from, Malcolm Moffat, has the same surname as the mother of Sam and Dan Houser, the founders of [[Rockstar Games]].
+
+== Gallery ==
+<gallery spacing="small" position="center" captionalign="center" hideaddbutton="true">
+Gray’s secet.jpeg|Tavish Gray's corpse.
+</gallery>
+
+==Navigation==
+{{Characters 2}}
+{{DEFAULTSORT:Gray, Tavish}}
+[[de:Tavish Gray]]
+[[fr:Tavish Gray]]
+[[tr:Tavish Gray]]
+[[Category:Characters in Redemption 2]]
+[[Category:Antagonists]]

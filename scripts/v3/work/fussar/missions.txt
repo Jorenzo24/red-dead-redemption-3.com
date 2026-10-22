@@ -1,0 +1,6 @@
+The Gilded Cage	scripts/v3/work/_m/The_Gilded_Cage.txt
+The Gilded Cage/dialogues	MISSING (no such wiki page)
+A Kind and Benevolent Despot	scripts/v3/work/_m/A_Kind_and_Benevolent_Despot.txt
+A Kind and Benevolent Despot/dialogues	MISSING (no such wiki page)
+Paradise Mercifully Departed	scripts/v3/work/_m/Paradise_Mercifully_Departed.txt
+Paradise Mercifully Departed/dialogues	MISSING (no such wiki page)

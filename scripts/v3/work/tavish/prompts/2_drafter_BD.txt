@@ -1,0 +1,29 @@
+You are drafting parts B and D of the v3 reference fiche of Tavish Gray for red-dead-redemption-3.com (static site, EN + FR).
+Repo root on this device: /Users/joseph/Documents/SITES/GIT/red-dead-redemption-3.com/. Work dir: scripts/v3/work/tavish/. Read scripts/v3/work/tavish/BRIEF.md FIRST and follow it, then scripts/fiches/SPEC.md,
+scripts/v3/rules/OWNERSHIP.md and scripts/v3/rules/HOUSE_FACTS.md. Another agent drafts parts A (biography) and C (missions, quotes,
+trivia, other media) in parallel: do not retell biography events (one clause at most, "see Biography").
+
+Write two files (valid Python, same structure as scripts/fiches/parts/uncle_B.py and uncle_D.py):
+1. scripts/fiches/parts/tavish_B.py:
+   - BLOCKS_PERSONALITY (~450 words max): official descriptions (Rockstar THR 6 Sep 2018 in scripts/v3/sources/thr_descriptions.txt,
+     official guides) QUOTED here only; observable traits; h4 "In his/her own words" (verbatim lines, FR gives the
+     translation in parentheses); h4 "Names" (aliases, nicknames, who uses them); h4 "Appearance" (2-3 sentences, NO
+     outfit catalogue: outfits go to gallery captions). Never a second biography sorted by year.
+   - BLOCKS_SKILLS: skills, weapons, horses, or the fiche-specific equivalent (e.g. "Business empire" for Cornwall:
+     tell the lead which section title to use in the module).
+   - RELATIONSHIPS: list of {"img": "<slug>.jpeg" or None, "slug": "<live slug>" or None, "name": ..., "text": two(EN, FR)}
+     (text may be a list of two() paragraphs). Camp scenes live HERE. img/slug only for slugs in scripts/v3/work/tavish/live_slugs.txt.
+2. scripts/fiches/parts/tavish_D.py: BLOCKS_DEV (Development and performance: actor per credits, dated interviews
+   with outlet named, motion capture only if sourced, cut content), BLOCKS_RECEPTION (only if real reviews/articles
+   exist: outlet + date; otherwise an empty list and say so), and BASE = full base dict (slug, name, publishDate =
+   the LIVE fiche's date, never changed; updated = 2026-10-22; schema_game, reg_role_en/fr matching
+   scripts/characters_registry.py, gender, birth/death, nationality or None, portrait_alt, eyebrow kept as on the live
+   page, meta_desc, og_desc, schema_desc, chips, facts grid, intro (2 paragraphs), essentials (4-6 bullets),
+   "sections": [Development and performance -> BLOCKS_DEV, Reception -> BLOCKS_RECEPTION]). Rebuild it from the live page
+   characters/tavish-gray/index.html + its v2 data entry (scripts/_enrich.py or scripts/_waveN.py), correcting what the
+   sources contradict and saying in the docstring what changed.
+Each file starts with a docstring: coverage, SOURCE REGISTER (pages, transcripts, interviews with outlet + date), and
+excluded facts. FR is written natively, not translated.
+
+Validate both files with python3 -c "import ast;ast.parse(open(PATH).read())".
+Reply with: EN/FR word counts per file, relationship count, facts deliberately excluded (one line each), open doubts.

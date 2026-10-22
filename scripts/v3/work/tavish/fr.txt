@@ -1,0 +1,51 @@
+{{InfoboxPersonnages
+| theme = 
+| title1 = Tavish Gray
+| image1 = [[Fichier:Tavish Gray01.jpg|thumb]]
+| apparition = ''[[Red Dead Redemption II]]''
+| caption1 = 
+| naissance = 
+| statut = 
+| dapparition = 
+| décès = 
+| genre = Masculin
+| nationalité = Américain
+| ldv = [[Caliga Hall]]
+| surnom = 
+| activité = 
+| famille = [[Leigh Gray]] <small>(Frère)</small><br/>[[Beau Gray]] <small>(Fils)</small>
+| allié = [[Famille Gray]]
+| ennemi = 
+| faction = 
+| arme = 
+| monture = 
+| véhicule = 
+| acteur = Madison Arnold
+| motion capture = 
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+'''Tavish Gray''' est un [[Personnages dans Red Dead Redemption II#Personnages supports 2|personnage support]] présent dans ''[[Red Dead Redemption II]]''.
+== Histoire ==
+Tavish est le membre le plus âgé de la riche [[famille Gray]], principaux rivaux de la [[famille Braithwaite]]. Il est le frère du [[Leigh Gray|shérif Gray]] et le père de [[Beau Gray|Beau]].
+== Red Dead Redemption II ==
+Lorsque [[Arthur Morgan|Arthur]] rejoint [[John Marston|John]] et [[Javier Escuella|Javier]] à [[Caliga Hall]], ils les retrouvent plongés dans une discussion avec Tavish à propos des chevaux de [[Catherine Braithwaite]]. Il leur promet que si ils acceptent de les voler ils ne tireront au moins cinq mille dollars. Le trio accepte volontiers cette offre. Une fois les chevaux volés et revendus, la promesse de Tavish se révèle être fausse car ils n'ont obtenu que sept cents dollars.
+
+Après qu'[[Arthur Morgan|Arthur]] et [[Sean MacGuire|Sean]] aient incendié les champs de tabac de la [[famille Gray]], Tavish et son frère [[Leigh Gray|Leigh]] désirent se venger. Ils tendent une embuscade à quatre des membres de la [[Bande de Dutch van der Linde|bande]] à savoir Arthur, [[Bill Williamson|Bill]], [[Micah Bell|Micah]] et [[Sean MacGuire|Sean]] dans la ville de [[Rhodes]] dont la famille Gray à le contrôle depuis des années. Alors que les hors-la-loi traversent la ville, [[Sean MacGuire|Sean]] est abattu d'une balle dans la tête ce qui entraîne une fusillade à travers toute la ville. À la fin de l'assaut, tous les [[Famille Gray|Gray]] ont été tué sauf Tavish qui met fin à ses jours quelques temps après. Son corps peut être trouvé sous le porche arrière de [[Caliga Hall]] avec une [[Lettre sur l'histoire des Gray|lettre]] expliquant la véritable raison de l'arrivée des Gray en Amérique.
+== Navigation ==
+{{Personnages RDR2}}
+[[de:Tavish Gray]]
+[[en:Tavish Gray]]
+[[tr:Tavish Gray]]
+
+[[Catégorie:Personnages dans Red Dead Redemption II]]
+[[Catégorie:Famille Gray]]
+[[Catégorie:Personnages]]
+[[Catégorie:Relecture]]

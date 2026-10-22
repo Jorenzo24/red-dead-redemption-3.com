@@ -1,0 +1,89 @@
+{{User/characterbox
+|name = Alberto Fussar
+|game = ''[[Red Dead Redemption 2]]''
+|gender = Male
+|location = [[Aguasdulces]], [[Guarma]]
+|aka = Colonel Fussar<br>Mr. Fussar
+|image = Alberto Fussar rdr2 .jpg
+|nationality = [[File:Flag of the United States (1896–1908).png|border|20px]] Cuban
+|occupation = Colonel in the [[Cuban Military]]<br>Governor of [[Guarma]]
+|voice actor = [[Alfredo Narciso]]
+|voice = [[Alfredo Narciso]]
+|affiliations = [[Cuban Military]]<br>[[Leviticus Cornwall]]<br>[[Levi Simon]]
+|weapon = [[Schofield Revolver (RDR 2)|Schofield Revolver]]<br>Sabre
+}}
+{{Quote|A tyrant, driven by nothing but power and greed.|[[Leon Fuentes]] on Alberto Fussar in "[[Welcome to the New World]]"}}
+
+'''Colonel Alberto Fussar''' is a [[Characters in Redemption 2#Major characters|major character]] and a supporting antagonist featured in ''[[Red Dead Redemption 2]]''. He serves as the main antagonist of the game's [[Guarma]] [[Missions in Redemption 2#Chapter 5: Guarma|chapter]].
+
+== History ==
+===Background===
+{{Quote|After making two trips to the region to tour sugar plantations, and signing an exclusive purchase order with the Governor of Guarma, imports are on the rise. Cornwall had called local governor Alberto Fussar "a great friend of America."|"[[Guarma Island Sugar Boom]]" newspaper article regarding the business partnership between Fussar and Cornwall.}}
+Alberto Fussar was likely born in Cuba, long before the American occupation. Judging by the medals on Alberto Fussar's military uniform, he probably served in the Spanish military prior to their withdrawal and defeat against the United States in 1898.<ref>https://www.reddit.com/r/RDR2/comments/qe3xt2/fun_fact_the_medals_on_alberto_fussars_outfit/</ref> Following his service for Spain, Fussar transferred his allegiance to the [[Cuban Military]], where he rose to the rank of colonel.
+
+At some point, Fussar was assigned the role as governor of [[Guarma]], the second island east of Cuba, and ran it under a quasi-military rule. Fussar enslaved nearly the entirety of the population and forced them to work on sugar plantations in [[Aguasdulces]] to make himself rich.<ref>Mentioned by [[Leon Fuentes]] in "[[Welcome to the New World]]":<br>'''Dutch:''' ''So, who is this Fussar?''<br>'''Leon:''' ''A tyrant, driven by nothing but power and greed. Our only purpose is to work ourselves to death to make him rich.''</ref> Anyone opposing him would be tortured and executed. Fussar's strict and harsh governance led to a [[Guarma Rebels|rebellion]] on Guarma.
+
+Fussar also built up connections with political elites of the city of [[Saint Denis]] and, despite his controversial reputation of being flamboyant and cruel, he became a close ally of [[Leviticus Cornwall]], who described Fussar as “a great friend to America”, likely as a result of their business ties.<ref>[[Guarma Island Sugar Boom]]</ref>
+
+=== Events of ''Red Dead Redemption 2'' ===
+====Saint Denis Chapter====
+Alberto Fussar makes a brief appearance at the [[Henri Lemieux|mayor]]'s [[The Gilded Cage|party]] in Saint Denis. According to [[Angelo Bronte]], he often visits the city in order to “whore and despoil himself”.
+
+====Guarma Chapter====
+After the gang's arrival on Guarma, they're captured by Levi Simon and a contingent of soldiers, that chains them with captured rebels. Simon orders them to be locked up before leaving, just before another group of rebels help the gang to escape. Fussar himself is first seen when [[Dutch van der Linde|Dutch]] and [[Arthur Morgan|Arthur]] sneak into Aguasdulces. Here, they see him with a large group of his men, taunting, beating and dragging [[Javier Escuella|Javier]] by a donkey following his capture by the local military. As Fussar is delivering a speech to his soldiers about what law and order should be on the island, the soldiers are interrogating Javier on who are his companions, but he refuses to speak.
+
+Fussar eventually discovers the gang's true identity and learns that they have a large bounty on their heads. He alerts the Cuban Navy and sets up gun batteries on the shore to stop them from leaving. Dutch, [[Micah Bell|Micah]], and Arthur, along with Hercule Fontaine, assault these batteries and then attack Aguasdulces to rescue the ship captain. Arthur bursts into the workers' cabin to rescue the captain but gets tackled by Levi Simon, Fussar's right-hand man. Simon holds Arthur at gunpoint, and is about to shoot him, when Dutch enters the room and holds Levi at gunpoint, only to, in turn, be held at gunpoint by Fussar himself. A Mexican standoff ensues, which is resolved when Arthur kicks a [[Bolt Action Rifle (RDR 2)|rifle]] over to the captain, who shoots Levi in the chest and kills him. Fussar, however, manages to escape.
+
+The gang then begins making their way to the ship, until they are attacked once again by Fussar, who is manning a [[cannon]] on a tower overlooking the port where their boat is docked. Knowing they won't be able to set sail while under the colonel's fire, Hercule draws Fussar's fire as a distraction so Arthur can sneak towards a second cannon nearby. Once he reaches it, Morgan fires the cannon at Fussar's tower, destroying it and killing Fussar in the process.
+
+== Character ==
+
+=== Personality ===
+{{Quote|I like the man's style... he's thorough, nasty and vindictive.|[[Micah Bell]] on Alberto Fussar in "[[Paradise Mercifully Departed]]"}}
+{{Quote|(In Spanish) Men... I was just in America... do you know how they deal with striking workers there? Do you know? They shoot them! That is civilization. That is future. That is law and order and that is what we must bring to this [[Guarma|place]].|Alberto Fussar in "[[A Kind and Benevolent Despot]]"}}
+Viewed from the outside, Alberto Fussar is described in newspapers as a good ruler to Guarma, fair and just. In reality, he is a ruthless dictator. Speaking fondly of the unscrupulous business practices of American industrialists, he equates shooting of striking workers to being representative of civilization and believes it to result in order. Similarly, he is said to by locals to work those employed at his plantation to death.
+
+He appears to take some amount of pleasure in seeing those he considers beneath him in pain, such as when he accompanies his soldiers in overseeing a wounded Javier being dragged to his compound, interrogating the pained and incapacitated outlaw with open delight. Further fitting for his brutal leanings, he has metal cages for holding prisoners at his estate.
+
+Fussar also shows himself to be an arrogant and prideful individual, as after being forced to flee the results of a deadly standoff, he makes an attempt to assault his enemies by personally manning a cannon, which results in his demise.
+
+=== Appearance ===
+During the party in Saint Denis, Fussar wears a regal full dress uniform, with medals and other honors on his person. In Guarma, Alberto wears clothing much more suited to the environment, with a blue vest and white shirt with black jeans tucked into boots. He wears a belt that his sword loops around and a holster on his right hip.
+
+== Mission appearances ==
+;'''''Red Dead Redemption 2'''''
+*"[[The Gilded Cage]]"
+*"[[A Kind and Benevolent Despot]]"
+*"[[Paradise Mercifully Departed]]"
+
+== Quotes ==
+{{Quote|And this is how we will deal with them here... our duty is to be fierce.|Alberto Fussar}}{{Quote|The last few days have been very unsettling for all of us, but now is the time... to show our ferocity.|Alberto Fussar}}{{Quote|You maggots are going to die. The US Navy is on the way.|Alberto Fussar's last words.}}
+
+==Trivia==
+*In the epilogue, a newspaper article states that Guarma is even worse after Fussar's death, as the sugar plantation is now run by businessman [[JD McKnight]], who also took over a lot of Cornwall's businesses. This caused the island to become totally reliant on American imports, which in turn led to the workers being mistreated even worse than under Fussar, who was both the governor and the ruler of the plantation.
+*He is very reminiscent of [[Agustin Allende]]. Both have the rank of Colonel and are tyrannical governors of a land that uses the Spanish language and both serve as the main antagonists of their respective chapters where the protagonist is in a foreign territory. Alberto also has a similar appearance to Allende, particularly during his introduction when he wears a uniform similar to Allende’s in addition to having similar hair and facial hair.
+*Killing Fussar with the cannon is only optional. He can also be killed with one shot by any gun if the player stands in the correct angle.
+*Fussar lives in a fortified manor in Aguasdulces, just near the worker's houses and the sugar factory.
+
+==Gallery==
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+Alberto Fussar The Gilded Cage RDR2.jpg|Alberto Fussar during the mission "[[The Gilded Cage]]"
+File:FussarStandoff.jpg|Fussar joining the standoff in "[[Paradise Mercifully Departed]]"
+File:FussarShooting.jpg|Fussar escaping after [[Levi Simon]] got shot
+File:FussarCanon.jpg|Fussar manning a [[cannon]]
+File:FussarDeath.jpg|Fussar's death
+</gallery>
+
+==References==
+{{References}}
+
+==Navigation==
+{{Characters 2}}
+{{RDRII}}
+{{DEFAULTSORT:Fussar, Alberto}}
+[[de:Alberto Fussar]]
+[[fr:Alberto Fussar]]
+[[ru:Альберто Фуссар]]
+[[tr:Alberto Fussar]]
+[[Category:Characters in Redemption 2]]
+[[Category:Antagonists]]

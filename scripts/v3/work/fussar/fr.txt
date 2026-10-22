@@ -1,0 +1,88 @@
+{{InfoboxPersonnages
+| theme = 
+| title1 = 
+| image1 = Alberto_Fussar01.jpg
+| caption1 = 
+| naissance = 
+| statut = Décédé
+| dapparition = 
+| décès = 1899
+| genre = Masculin
+| nationalité = Cubaine
+| ldv = [[Guarma]]<br/>[[Saint Denis]] <small>(provisoirement)</small>
+| surnom = Colonel Fussar
+| activité = Gouverneur de [[Guarma]]
+| famille = 
+| allié = [[Levi Simon]]<br/>[[Leviticus Cornwall]]
+| ennemi = [[Bande de Dutch van der Linde]]
+| faction = [[Armée cubaine]]
+| arme = Sabre<br/>[[Revolver Schofield (RDR2)|Revolver Schofield]]
+| monture = 
+| véhicule = 
+| acteur = [[Alfredo Narciso]]
+| motion capture = 
+| apparition = ''[[Red Dead Redemption II]]''
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+'''Alberto Fussar''' est un [[Personnages dans Red Dead Redemption II|personnage majeur]] présent dans ''[[Red Dead Redemption II]]''. Il est l'antagoniste principal du cinquième chapitre.
+
+== Histoire ==
+Avant 1899, Alberto Fussar devient gouverneur de l'île de [[Guarma]]. Il établit rapidement une liaison avec la ville de [[Saint Denis]] et s'allie avec [[Leviticus Cornwall]] en raison des nombreux champs de cannes à sucre présents sur son île.
+
+== Interactions ==
+=== Chapitre 4 : Shady Belle ===
+Alberto Fussar fait une rapide apparition lors de la soirée organisée par le maire de [[Saint Denis]], [[Henri Lemieux]].
+
+=== Chapitre 5 : Guarma ===
+Alberto Fussar est ensuite vue sur l'île de [[Guarma]] lorsque [[Dutch van der Linde|Dutch]] et [[Arthur Morgan|Arthur]] tentent de sauver [[Javier Escuella]] après sa capture par l'armée locale.
+
+Après cela, Fussar découvre la véritable identité des membres du [[Bande de Dutch van der Linde|gang]] et apprend par la même occasion qu'une grosse prime plane au-dessus de leurs têtes. La marine cubaine est alors informée et les empêchent alors de quitter l'île. [[Dutch van der Linde|Dutch]], [[Micah Bell|Micah]], [[Arthur Morgan|Arthur]] et [[Hercule Fontaine]] mènent l'assaut contre l'armement cubain et sauvent le Capitaine de leur navire. Cependant, Arthur se retrouve menacer par [[Levi Simon]] d'un côté et par Alberto Fussar de l'autre. Dutch entre alors et menace à son tour Fussar. Quelques minutes plus tard, Arthur lance un fusil au Capitaine qui tue [[Levi Simon]] avant que Fussar ne parvienne à s'échapper.
+
+Alors que la [[Bande de Dutch van der Linde|bande de Dutch]] se dirige vers le navire, ils se font une nouvelle fois attaquer par Alberto Fussar qui fait usage d'une [[Gatling]] en haut d'une tour. Arthur se faufile alors derrière un canon et atteint Fussar et la mitrailleuse d'un boulet. Il détruit alors la tour et tue Fussar par la même occasion.
+
+== Apparitions dans les missions ==
+* "[[Une cage dorée]]"
+* "[[Un despote bienveillant]]"
+* "[[Un paradis enfin perdu]]"
+
+== Anecdote ==
+* Il est impossible de lui parler pendant la fête. Il n'est présent que lorsque Dutch et Arthur sont avec Bronte.
+* Fussar et [[Agustin Allende]] ont plusieurs points communs :
+** Tous les deux sont des antagonistes tentant, pendant un chapitre, de bloquer la route au protagoniste.
+** Ils sont tous les deux à la tête d'un territoire, Guarma pour Fussar et [[Nuevo Paraíso]] pour Allende. Ils le gouvernent de façon tyrannique en utilisant l'armée et ne se préoccupent pas des paysans.
+** De plus, lors de leur première apparition, ils sont tous les deux en tenue militaire.
+** Les deux personnages utilisent un sabre en tant qu'arme secondaire.
+** Allende et Fussar parlent tous les deux espagnol sans avoir la nationalité espagnole.
+** Au sein de leur hiérarchie, ils ont tous le rang de colonel.
+** Au final, les deux personnages sont tués par les protagonistes avant qu'ils quittent l'état pour revenir aux États-Unis.
+
+== Galerie ==
+<gallery>
+Alberto Fussar02.jpg|Fussar à la fête de Bronte
+</gallery>
+
+== Navigation ==
+{{Personnages RDR2}}
+[[de:Alberto Fussar]]
+[[en:Alberto Fussar]]
+[[ru:Альберто Фуссар]]
+[[tr:Alberto Fussar]]
+
+[[Catégorie:Personnages]]
+[[Catégorie:Personnages dans Red Dead Redemption II]]
+[[Catégorie:Personnages présents dans Red Dead Redemption II]]
+
+[[Catégorie:Personnages masculins]]
+[[Catégorie:Personnages masculins dans Red Dead Redemption II]]
+
+[[Catégorie:Antagonistes]]
+[[Catégorie:Antagonistes dans Red Dead Redemption II]]
+[[Catégorie:Relecture]]
