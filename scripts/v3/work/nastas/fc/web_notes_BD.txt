@@ -1,0 +1,47 @@
+Nastas, real-world and extra sources gathered by the B/D drafter (22 Oct 2026)
+
+1. Rockstar character card (Red Dead Wiki file "Nastas22.jpg", 280x280, uploaded 23 Jun 2010, gallery caption
+   "Nastas' character description"; image saved here as rockstar_card_Nastas22.png, read on image):
+   "NASTAS / A NATIVE AMERICAN UNSURE ABOUT THE JOYS OF LIFE ON A RESERVATION."
+   Visible: red headband, turquoise earring, shoulder-length dark hair, pale jacket.
+
+2. Wikipedia "Benjamin Byron Davis" (raw wikitext read 22 Oct 2026): videography row
+   "Red Dead Redemption | Dutch van der Linde / Nastas" (2010). Lead: "Davis voiced and provided performance capture
+   for multiple characters in various Rockstar titles" (general, not specific to Nastas). Born June 21, 1972.
+   IMDb title tt1479962 characters page title (search result): "Benjamin Byron Davis as Dutch van der Linde, Nastas"
+   (page itself not read).
+
+3. Game Rant, Sean Mackey, "Red Dead Redemption 2 Voice Actor Also Played Character in Red Dead 1", 14 Jun 2020
+   (WebFetch): a Reddit user pointed out the detail; "Benjamin Byron Davis also played Nastas the Native American
+   informant who tries to help John capture Dutch in 2010's Red Dead Redemption." Called one of "many fun Easter eggs".
+   No statement from Davis.
+
+4. Game Informer, Jeff Cork, "Red Dead Redemption Crammed With Colorful Characters", 26 Feb 2010 (WebFetch):
+   "Nastas could prove to be an interesting character if he's truly conflicted about his place in the world."
+   Cork says Rockstar San Diego included "nearly every stock Western character", "from the shifty federal agent to the
+   snake-oil salesman".
+
+5. Wikipedia "Red Dead Redemption" (raw wikitext, 22 Oct 2026), Themes: "Elston recognized the Native American
+   character Nastas as an example of Gerald Vizenor's "manifest manners", a falsification of the indigenous experience
+   being told as truth." sfn Elston 2013 p. 149. Reference: M. Melissa Elston, "Allegorical Confrontation Meets Gaming
+   System: Rhetoric and Trauma within Red Dead Redemption / Undead Nightmare", in Cynthia J. Miller and A. Bowdoin
+   Van Riper (eds.), Undead in the West II: They Just Keep Coming, Scarecrow Press, 2013, pp. 142-158. Chapter itself
+   NOT read: attribute through Wikipedia.
+
+6. NYMGamer, Phill Alexander, "Red Dead Redemption and the Myth of the Noble Savage", 17 Apr 2014 (WebFetch):
+   "a Native named Nastas, a sort of guide-meets-confidant who aids with a large portion of the game";
+   "Nastas shows some classic Native American traits (he's generally quiet, he tends to not be combative, he has a deep
+   tie to nature and the environment), but he is not presented to the gamer as a cartoon."
+   MacDougal "has no sense that Nastas is intelligent and aware of his surroundings/knows English."
+
+7. Blackwater Ledger No. 59 (available after "The Prodigal Son Returns (To Yale)"), Miscellany, as transcribed in
+   reyes/fc/ireddead_newspapers.txt: "Nastas (Surname Unknown), of Indian descent, has passed away at Bear Claw Cabin
+   in Tall Trees. May you find God, my dear friend. Prof. Harold MacDougal Esq." (The wiki Nastas page quotes
+   "May you find God, dear friend": the transcription has "my dear friend".)
+
+8. Red Dead Wiki "Red Dead Redemption Cut Content" (_m/): "A beta version of Nastas can be found in the files under
+   "NativeAmericanContact", sharing the same belt and shirt. However, the high resolution textures for this version of
+   him were deleted."
+
+Checked, nothing usable: Twinfinite Feb 2019 Davis interview (403); Giant Bomb (403); xboxygen (403); UND CRC blog
+"Native Dancer" (Ariann Rousu, 18 Oct 2022) does not name Nastas.
