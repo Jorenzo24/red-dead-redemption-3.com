@@ -7,3 +7,6 @@
 5. Crucifix: give both of her statements (girl / novice) once, without reconciling.
 6. Duplicates: gameplay facts (lawmen shooting her and O'Leary, PC replay default, 300 dollars) live in B Skills: cut from C Trivia. Rains Fall/Isaac told once (B Rains Fall entry). Lines quoted in B not repeated in C and vice versa.
 7. Scope: edit only calderon_* parts and scripts/fiches/sister_calderon.py; report cross-fiche errors. Never stage characters/sister-calderon or fr/personnages/sister-calderon.
+8. Cross-fiche (this fixer applies, EN+FR, minimal): orville_B "prayed with a nun" -> the game/wiki say "a Catholic lady" (attributed); then python3 scripts/_enrich.py orville-swanson.
+9. "Isaac": "among the few" characters Arthur speaks to about Isaac (as arthur_F), never "the only two".
+10. Every sentence that treats the 2010 mother superior and the RDR2 nun as one person ("first appears in 2010", "twelve years later") is attributed to the Red Dead Wiki.
