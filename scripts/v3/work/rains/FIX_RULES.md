@@ -8,3 +8,8 @@
 6. Development owns Greene, Houser/Vulture, Lakota, cut content; Appearance (B) owns the aged look in the credits: C Trivia must not repeat them.
 7. Chapter 6 story guide already corrected by the lead (negotiated peace, not a move).
 8. The local characters/rains-fall/ HTML is a build artefact: never stage it before the drip publishes the fiche.
+9. The 1907 encounter is wiki-only: attribute it everywhere (Biography, John entry, Missions table).
+10. B "arranges the meeting himself" -> he says he is brokering peace and that Favours has agreed. Wolves: "approves" (gsw: "Good. There was no need to harm them.").
+11. Add the 4 confirmed quote-list lines to C (correct path, glory in death, "My son, my last son", "My only boy... I implore you"), cutting duplicates per rule 5.
+12. Scope: edit only rains_* parts and the rains_fall module. Another fixer is editing arthur_*, dutch_*, fussar_*; report cross-fiche errors instead.
+13. Build with python3 scripts/v3/work/rains/assemble.py (local placeholder pages exist; never stage characters/rains-fall or fr/personnages/rains-fall).
