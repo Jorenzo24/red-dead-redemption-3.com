@@ -13,16 +13,18 @@ SOURCE REGISTER (fetched Oct 2026; local copies in scripts/v3/work/rains/ and sc
 - TRANSCRIPT: "Red Dead Redemption 2 Full Transcript", Game Scripts Wiki
   (game-scripts-wiki.blogspot.com/2022/01/red-dead-redemption-2.html), scripts/v3/work/rains/fc/gsw.txt (gitignored).
   Every mission quote below is checked word for word against it (ellipses normalized to "..."), except the epilogue
-  line, which has no transcript and comes from the Red Dead Wiki quote list, and Arthur's journal entry, given in the
-  wording of the mission page's quote box (the transcript drops "him" in "Now I see him as wise").
-- Real world: Rockstar's character descriptions of September 6, 2018 (The Hollywood Reporter, September 7, 2018;
-  scripts/v3/sources/thr_descriptions.txt): the series covers the Van der Linde gang only, with no entry for Rains Fall.
+  line, which has no transcript and comes from the Red Dead Wiki quote list.
+- Rockstar's character descriptions of September 6, 2018: told once, in part B (Personality).
 
-QUOTES LEFT TO PART B (In his own words), not repeated here: "Sometimes the correct path, the bravest path... is the
-least obvious, and also the gentlest", "My son thinks there is glory in death...", "My only boy... my precious boy... do
-not mistake my strength for weakness", "I'm a great disappointment to my son", "I hope you can find peace within
-yourself", "my whole life I have tried to bring peace", and the Favours exchange on his name ("In English they call me
-Rains Fall"). If part B uses any of the lines below, the fixer removes it here.
+QUOTE OWNERSHIP (FIX_RULES 5, after the fact-check of 22 Oct 2026): lines quoted by part B ("In his own words",
+Names, relationship entries: "Brutality and beauty...", "Even sacred things... matter more.", "People have lied to my
+people... that's treason.", "The army aren't all bad men...", Arthur's journal) are NOT repeated here. This part keeps
+the wiki quote-list lines, all checked against the transcript: the correct path and glory in death (Archeology for
+Beginners, gsw l. 12319, 12321), the three treaties, the "My Last Boy" speech (gsw l. 13112, "The men I knew were slain"
+given once, "cannot" in one word) and its continuation up to "I implore you" (gsw l. 13114), "bunch of families". The
+King's Son line stops at "How could he commit treason?" (the end is quoted in B). Trivia keeps only facts found nowhere
+else (Lakota = D; trinket, herbs, Monroe's first name, aged look = B). The 1907 encounter is wiki-only (FIX_RULES 3,
+9): attributed in the table and the trivia.
 
 EXCLUDED
 - Sitting Bull / Red Cloud / Little Bighorn comparisons (wiki "appear to be based", mission page "similarities"):
@@ -86,21 +88,21 @@ BLOCKS_MISSIONS = [
           "Receives Arthur in his tent after his son's capture and opposes a rescue, which Arthur and Charles carry out anyway.",
           "Reçoit Arthur dans sa tente après la capture de son fils et s'oppose à un sauvetage, qu'Arthur et Charles mènent malgré tout."),
         M("My Last Boy", C6,
-          "Tries to stop his son's war party at Beaver Hollow, then begs Arthur for help. Eagle Flies dies in his tent at the end of the mission.",
-          "Tente d'arrêter l'expédition guerrière de son fils à Beaver Hollow, puis supplie Arthur de l'aider. Eagle Flies meurt dans sa tente à la fin de la mission."),
+          "Tries to stop his son's war party at Beaver Hollow, then begs Arthur for help. Eagle Flies dies in Rains Fall's tent at the end of the mission.",
+          "Tente d'arrêter l'expédition guerrière de son fils à Beaver Hollow, puis supplie Arthur de l'aider. Eagle Flies meurt sous la tente de son père à la fin de la mission."),
         M("Ending Credits", EP2,
           "Last scene of the credits: he watches an eagle from a peak in the Grizzlies East.",
           "Dernière scène du générique : il regarde passer un aigle depuis un sommet des Grizzlies East."),
         M("Rains Fall (encounter)", EP,
-          "Optional encounter with John at Annesburg station before he takes the train back to Canada.",
-          "Rencontre facultative avec John à la gare d'Annesburg, avant qu'il ne reprenne le train pour le Canada."),
+          "Optional encounter with John at Annesburg station; according to the Red Dead Wiki, he then takes the train back to Canada.",
+          "Rencontre facultative avec John à la gare d'Annesburg ; d'après le Red Dead Wiki, il reprend ensuite le train pour le Canada."),
     ]}},
 ]
 
 BLOCKS_QUOTES = [
     {"h3": two("Quotes", "Citations")},
-    {"p": two("The lines below are given as spoken in the game, in the original English, with the mission and the person addressed. Mission lines are checked against a full transcript of the game; the epilogue line, which has no transcript, comes from the Red Dead Wiki's quote list. Lines already quoted under Personality do not appear again here.",
-              "Les répliques ci-dessous sont reproduites telles qu'elles sont prononcées dans le jeu, en anglais, avec la mission et la personne à qui elles s'adressent. Les répliques de mission sont vérifiées sur une transcription complète du jeu ; celle de l'épilogue, sans transcription, provient de la liste de citations du Red Dead Wiki. Les répliques déjà citées dans la rubrique Personnalité ne sont pas reprises ici.")},
+    {"p": two("The lines below are given as spoken in the game, in the original English, with the mission and the person addressed. Mission lines are checked against a full transcript of the game; the epilogue line, which has no transcript, comes from the Red Dead Wiki's quote list. Lines already quoted under Personality or Relationships do not appear again here.",
+              "Les répliques ci-dessous sont reproduites telles qu'elles sont prononcées dans le jeu, en anglais, avec la mission et la personne à qui elles s'adressent. Les répliques de mission sont vérifiées sur une transcription complète du jeu ; celle de l'épilogue, sans transcription, provient de la liste de citations du Red Dead Wiki. Les répliques déjà citées dans les rubriques Personnalité ou Relations ne sont pas reprises ici.")},
     {"h4": two("Chapter 4", "Chapitre 4")},
     {"quotes": [
         {"q": two("Yes, my people, if we are even a people anymore... we fought hard... we've made peace treaties... and those treaties were broken... and we've been moved and punished and... punished and moved.",
@@ -114,38 +116,38 @@ BLOCKS_QUOTES = [
     ]},
     {"h4": two("Chapter 6", "Chapitre 6")},
     {"quotes": [
-        {"q": two("See the wolves over there feasting on that horse? Brutality and beauty are both all around us, yet so often we're unable to see past our own grievances. This is what I try to teach my son.",
-                  "See the wolves over there feasting on that horse? Brutality and beauty are both all around us, yet so often we're unable to see past our own grievances. This is what I try to teach my son."),
-         "src": two("Archeology for Beginners (RDR2, chapter 6), to Arthur, on the ride to the sacred site",
-                    "Archeology for Beginners (RDR2, chapitre 6), à Arthur, sur la route du site sacré. Traduction : « Vous voyez les loups là-bas, qui dévorent ce cheval ? La brutalité et la beauté nous entourent, et pourtant nous sommes si souvent incapables de voir au-delà de nos propres griefs. C'est ce que j'essaie d'apprendre à mon fils. »")},
-        {"q": two("The army aren't all bad men, just as my people aren't all good.",
-                  "The army aren't all bad men, just as my people aren't all good."),
-         "src": two("Archeology for Beginners (RDR2, chapter 6), to Arthur, about Captain Monroe and Colonel Favours",
-                    "Archeology for Beginners (RDR2, chapitre 6), à Arthur, au sujet du capitaine Monroe et du colonel Favours. Traduction : « L'armée n'est pas faite que de mauvais hommes, tout comme mon peuple n'est pas fait que de bons. »")},
+        {"q": two("Yes, sometimes the correct path, the bravest path... is the least obvious, and also the gentlest.",
+                  "Yes, sometimes the correct path, the bravest path... is the least obvious, and also the gentlest."),
+         "src": two("Archeology for Beginners (RDR2, chapter 6), to Arthur, in his tent, after telling him of Colonel Favours' revenge",
+                    "Archeology for Beginners (RDR2, chapitre 6), à Arthur, sous sa tente, après lui avoir appris la vengeance du colonel Favours. Traduction : « Oui, parfois le bon chemin, le plus courageux... est le moins évident, et aussi le plus doux. »")},
+        {"q": two("My son thinks there is glory in death. Maybe he's right... but for me... I saw death being handed out so freely by the most foolish of men... I never could equate it with victory.",
+                  "My son thinks there is glory in death. Maybe he's right... but for me... I saw death being handed out so freely by the most foolish of men... I never could equate it with victory."),
+         "src": two("Archeology for Beginners (RDR2, chapter 6), to Arthur, who has just said that his son seems to want a war",
+                    "Archeology for Beginners (RDR2, chapitre 6), à Arthur, qui vient de lui dire que son fils semble vouloir la guerre. Traduction : « Mon fils pense qu'il y a de la gloire dans la mort. Il a peut-être raison... mais moi... j'ai vu la mort distribuée si librement par les plus insensés des hommes... je n'ai jamais pu y voir une victoire. »")},
         {"q": two("They moved us here. They've taken everything we had. I signed three treaties myself, and they've broken each one. Now they've taken the last hope... Now my people are gonna want a war. A war they can't win.",
                   "They moved us here. They've taken everything we had. I signed three treaties myself, and they've broken each one. Now they've taken the last hope... Now my people are gonna want a war. A war they can't win."),
          "src": two("Archeology for Beginners (RDR2, chapter 6), at the burned sacred site",
                     "Archeology for Beginners (RDR2, chapitre 6), devant le site sacré incendié. Traduction : « Ils nous ont installés ici. Ils nous ont pris tout ce que nous avions... J'ai signé moi-même trois traités, et ils les ont tous rompus. Maintenant, ils nous ont pris le dernier espoir... Maintenant, mon peuple va vouloir la guerre. Une guerre qu'il ne peut pas gagner. »")},
-        {"q": two("Even sacred things... are only things. People... the heart... matter more. Was anyone hurt?",
-                  "Even sacred things... are only things. People... the heart... matter more. Was anyone hurt?"),
-         "src": two("Archeology for Beginners (RDR2, chapter 6), when Arthur brings back the Chanupa",
-                    "Archeology for Beginners (RDR2, chapitre 6), quand Arthur rapporte le Chanupa. Traduction : « Même les choses sacrées... ne sont que des choses. Les gens... le cœur... comptent davantage. Quelqu'un a-t-il été blessé ? »")},
         {"q": two("Now, he has lied to me more times than I care to remember... but maybe this time... he must want peace. Why could he possibly want to humiliate us further?",
                   "Now, he has lied to me more times than I care to remember... but maybe this time... he must want peace. Why could he possibly want to humiliate us further?"),
          "src": two("The Fine Art of Conversation (RDR2, chapter 6), to Arthur at Beaver Hollow, about Colonel Favours",
                     "The Fine Art of Conversation (RDR2, chapitre 6), à Arthur à Beaver Hollow, au sujet du colonel Favours. Traduction : « Il m'a menti plus souvent que je ne veux m'en souvenir... mais peut-être que cette fois... il veut vraiment la paix. Pourquoi voudrait-il nous humilier davantage ? »")},
         {"q": two("My son... my son is foolish but he's... still my son.",
                   "My son... my son is foolish but he's... still my son."),
-         "src": two("The King's Son (RDR2, chapter 6), to Arthur, in his tent after Eagle Flies' capture",
+         "src": two("The King's Son (RDR2, chapter 6), to Arthur, in his tent after Eagle Flies's capture",
                     "The King's Son (RDR2, chapitre 6), à Arthur, dans sa tente après la capture d'Eagle Flies. Traduction : « Mon fils... mon fils est un insensé, mais il reste... mon fils. »")},
-        {"q": two("He is the chief's son of a proud nation. How could he commit treason? People have lied to my people for a hundred years or more... that's treason.",
-                  "He is the chief's son of a proud nation. How could he commit treason? People have lied to my people for a hundred years or more... that's treason."),
-         "src": two("The King's Son (RDR2, chapter 6), to Arthur",
-                    "The King's Son (RDR2, chapitre 6), à Arthur. Traduction : « C'est le fils du chef d'une nation fière. Comment pourrait-il commettre une trahison ? On ment à mon peuple depuis cent ans ou plus... voilà la trahison. »")},
-        {"q": two("The earth, the water... they have no pride. They endure, and we must endure.",
-                  "The earth, the water... they have no pride. They endure, and we must endure."),
+        {"q": two("All my life, I've tried to bring peace... but I love my son. They'll hang him for treason. He is the chief's son of a proud nation. How could he commit treason?",
+                  "All my life, I've tried to bring peace... but I love my son. They'll hang him for treason. He is the chief's son of a proud nation. How could he commit treason?"),
+         "src": two("The King's Son (RDR2, chapter 6), to Arthur, after his son's capture",
+                    "The King's Son (RDR2, chapitre 6), à Arthur. Traduction : « Toute ma vie, j'ai cherché à apporter la paix... mais j'aime mon fils. Ils vont le pendre pour trahison. C'est le fils du chef d'une nation fière. Comment pourrait-il trahir ? »")},
+        {"q": two("My son, my last son... When I was your age... I fought... I saw death. I have killed. The men I knew were slain. My first born, your brother... had his head smashed by a drunken soldier. My wife had her throat slit. We made peace. I knew not to trust, yet I had no choice. Maybe you were right... maybe the slow death is worse than a fast one. Maybe none of these men are good. Maybe a world in which they came to us... is a world that we cannot endure. But endure we must.",
+                  "My son, my last son... When I was your age... I fought... I saw death. I have killed. The men I knew were slain. My first born, your brother... had his head smashed by a drunken soldier. My wife had her throat slit. We made peace. I knew not to trust, yet I had no choice. Maybe you were right... maybe the slow death is worse than a fast one. Maybe none of these men are good. Maybe a world in which they came to us... is a world that we cannot endure. But endure we must."),
          "src": two("My Last Boy (RDR2, chapter 6), to Eagle Flies, at Beaver Hollow",
-                    "My Last Boy (RDR2, chapitre 6), à Eagle Flies, à Beaver Hollow. Traduction : « La terre, l'eau... elles n'ont pas d'orgueil. Elles endurent, et nous devons endurer. »")},
+                    "My Last Boy (RDR2, chapitre 6), à Eagle Flies, à Beaver Hollow. Traduction : « Mon fils, mon dernier fils... Quand j'avais ton âge... je me suis battu... j'ai vu la mort. J'ai tué. Les hommes que je connaissais ont été massacrés. Mon premier-né, ton frère... a eu le crâne fracassé par un soldat ivre. Ma femme a été égorgée. Nous avons fait la paix. Je savais qu'il ne fallait pas leur faire confiance, mais je n'avais pas le choix. Tu avais peut-être raison... peut-être que la mort lente est pire qu'une mort rapide. Peut-être qu'aucun de ces hommes n'est bon. Peut-être qu'un monde où ils sont venus jusqu'à nous... est un monde que nous ne pouvons pas endurer. Mais endurer, nous le devons. »")},
+        {"q": two("Do not die for pride, my son. We have suffered too much in this trick. The earth, the water... they have no pride. They endure, and we must endure. My only boy... my precious boy... do not mistake my strength for weakness. As your chief, I implore you.",
+                  "Do not die for pride, my son. We have suffered too much in this trick. The earth, the water... they have no pride. They endure, and we must endure. My only boy... my precious boy... do not mistake my strength for weakness. As your chief, I implore you."),
+         "src": two("My Last Boy (RDR2, chapter 6), to Eagle Flies, who has just told him he is tired",
+                    "My Last Boy (RDR2, chapitre 6), à Eagle Flies, qui vient de lui dire qu'il est fatigué. Traduction : « Ne meurs pas par orgueil, mon fils. Nous avons trop souffert de cette ruse. La terre, l'eau... elles n'ont pas d'orgueil. Elles endurent, et nous devons endurer. Mon fils unique... mon fils chéri... ne prends pas ma force pour de la faiblesse. En tant que ton chef, je t'implore. »")},
         {"q": two("The wars are over... we have lost. These young men will be annihilated. Please.",
                   "The wars are over... we have lost. These young men will be annihilated. Please."),
          "src": two("My Last Boy (RDR2, chapter 6), to Arthur, after Eagle Flies rides off",
@@ -160,10 +162,6 @@ BLOCKS_QUOTES = [
     ]},
     {"h4": two("About Rains Fall", "À propos de Rains Fall")},
     {"quotes": [
-        {"q": two("He's a man who, not so long ago, I would have found weak and pathetic. Now I see him as wise and thoughtful and sensible. I would love to help him... or at least stop Dutch from pushing his son to do something real stupid.",
-                  "He's a man who, not so long ago, I would have found weak and pathetic. Now I see him as wise and thoughtful and sensible. I would love to help him... or at least stop Dutch from pushing his son to do something real stupid."),
-         "src": two("Arthur Morgan's journal, after Archeology for Beginners (RDR2, chapter 6)",
-                    "Journal d'Arthur Morgan, après Archeology for Beginners (RDR2, chapitre 6). Traduction : « C'est un homme que, il n'y a pas si longtemps, j'aurais trouvé faible et pitoyable. Aujourd'hui, je le vois comme un homme sage, réfléchi et sensé. J'aimerais beaucoup l'aider... ou au moins empêcher Dutch de pousser son fils à faire une grosse bêtise. »")},
         {"q": two("Father has confused wisdom with weakness.",
                   "Father has confused wisdom with weakness."),
          "src": two("Eagle Flies, in A Rage Unleashed (RDR2, chapter 6), when Arthur asks how his father is",
@@ -174,29 +172,19 @@ BLOCKS_QUOTES = [
 BLOCKS_TRIVIA = [
     {"h3": two("Trivia", "Anecdotes")},
     {"ul": [
-        two("When Rains Fall speaks a Native American language instead of English, the in-game captions identify it as Lakota. He uses it at the peace talks to tell his men that Arthur and Charles are friends.",
-            "Quand Rains Fall parle une langue amérindienne au lieu de l'anglais, les sous-titres du jeu indiquent qu'il s'agit du lakota. Il s'en sert pendant les pourparlers de paix pour dire à ses hommes qu'Arthur et Charles sont des amis."),
-        two("The Owl Feather Trinket he gives Arthur slows the drain of all of Arthur's cores by 15 percent, according to the mission page.",
-            "L'Owl Feather Trinket qu'il offre à Arthur ralentit de 15 % la baisse de toutes ses jauges de base, d'après la page de la mission."),
-        two("The two herbs he picks during \"Archeology for Beginners\", English mace and ginseng, are two of the three ingredients of a Special Health Cure; only yarrow is missing.",
-            "Les deux plantes qu'il cueille dans \"Archeology for Beginners\", la muscade anglaise et le ginseng, sont deux des trois ingrédients d'un Special Health Cure ; il ne manque que l'achillée."),
         two("The wolves that Arthur scares off on the ride with Rains Fall are, according to the mission page, the only wolves in the game that are not hostile to the player.",
             "Les loups qu'Arthur fait fuir pendant la chevauchée avec Rains Fall sont, d'après la page de la mission, les seuls loups du jeu qui ne sont pas hostiles au joueur."),
-        two("Before a game update, the sacred site was already burned when visited in free roam, even as early as chapter 2. Since the update, the site is intact if visited before the mission becomes available.",
-            "Avant une mise à jour du jeu, le site sacré était déjà incendié quand on le visitait en exploration libre, dès le chapitre 2. Depuis cette mise à jour, il est intact si on s'y rend avant que la mission soit disponible."),
-        two("According to the Red Dead Wiki, Rains Fall is the only character to say Captain Monroe's first name, once, in \"The Fine Art of Conversation\", and only if Arthur has not met Monroe before.",
-            "D'après le Red Dead Wiki, Rains Fall est le seul personnage à prononcer le prénom du capitaine Monroe, une seule fois, dans \"The Fine Art of Conversation\", et seulement si Arthur n'a pas encore rencontré Monroe."),
+        two("In early versions of the game, the sacred site could be found already burned in free roam from chapter 2 onward; according to the mission page, a later update leaves it standing until the mission is available.",
+            "Dans les premières versions du jeu, on pouvait trouver le site sacré déjà incendié en exploration libre dès le chapitre 2 ; d'après la page de la mission, une mise à jour l'a ensuite laissé intact tant que la mission n'est pas disponible."),
         two("In \"My Last Boy\", Rains Fall uses the word \"implore\" to try to stop Eagle Flies, with John present. John uses the same word at Fort Mercer in 1911 when he tries to make Bill Williamson give himself up. Neither plea works.",
             "Dans \"My Last Boy\", Rains Fall emploie le mot \"implore\" (implorer) pour tenter d'arrêter Eagle Flies, en présence de John. John utilise le même mot à Fort Mercer en 1911 quand il tente de convaincre Bill Williamson de se rendre. Aucune des deux suppliques n'aboutit."),
-        two("Meeting Rains Fall in the epilogue gives the player a sizable honor gain.",
-            "Rencontrer Rains Fall dans l'épilogue rapporte au joueur un gain d'honneur important."),
-        two("According to the Red Dead Wiki, Rains Fall looks visibly older in the 1907 credits scene, while at Annesburg station the same year he looks as he did in 1899.",
-            "D'après le Red Dead Wiki, Rains Fall paraît nettement plus âgé dans la scène du générique de 1907, alors qu'à la gare d'Annesburg, la même année, il a la même apparence qu'en 1899."),
+        two("The Annesburg meeting in 1907 raises John's honor by a large amount, according to the Red Dead Wiki.",
+            "D'après le Red Dead Wiki, la rencontre d'Annesburg en 1907 fait nettement monter l'honneur de John."),
     ]},
 ]
 
 BLOCKS_MEDIA = [
     {"h3": two("Other media and legacy", "Autres médias et postérité")},
-    {"p": two("Rains Fall appears only in Red Dead Redemption 2. He was not part of the series of character portraits and descriptions that Rockstar posted on September 6, 2018, and that The Hollywood Reporter reproduced the next day: that series covered the members of the Van der Linde gang. The Red Dead Wiki lists no Red Dead Online appearance for him. In Red Dead Online, the Wapiti Indian Reservation is empty and abandoned, as it is in 1907.",
-              "Rains Fall n'apparaît que dans Red Dead Redemption 2. Il ne figure pas dans la série de portraits et de descriptions que Rockstar a publiée le 6 septembre 2018, et que The Hollywood Reporter a reprise le lendemain : cette série portait sur les membres de la bande de Van der Linde. Le Red Dead Wiki ne lui attribue aucune apparition dans Red Dead Online. Dans Red Dead Online, la réserve indienne wapiti est vide et abandonnée, comme en 1907.")},
+    {"p": two("Rains Fall appears only in Red Dead Redemption 2. The Red Dead Wiki lists no Red Dead Online appearance for him. According to the Red Dead Wiki, the reservation has no inhabitants in Red Dead Online, the same state in which John finds it in 1907.",
+              "Rains Fall n'apparaît que dans Red Dead Redemption 2. Le Red Dead Wiki ne lui attribue aucune apparition dans Red Dead Online. Toujours d'après le Red Dead Wiki, la réserve n'y compte aucun habitant, comme lorsque John la découvre en 1907.")},
 ]
