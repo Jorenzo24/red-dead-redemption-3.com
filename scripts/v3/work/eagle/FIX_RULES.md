@@ -10,3 +10,7 @@
 8. Scope: edit only eagle_* parts and scripts/fiches/eagle_flies.py; report cross-fiche errors. Never stage characters/eagle-flies or fr/personnages/eagle-flies (local build artefacts).
 9. Paytah does NOT board the boat (transcript: "Paytah: Good luck." as they reach the steamboat). Arthur blows up the anchor mechanism on Dutch's order.
 10. Cross-fiche (this fixer applies, EN+FR, minimal): charles_B l.152 Paytah "boards the army boat" -> he stays behind; charles_A l.80 "into the Van Horn lighthouse" -> the steamboat runs onto the rocks (transcript); the lighthouse may be mentioned only as the Red Dead Wiki's location. Then rebuild Charles with python3 scripts/_enrich.py charles-smith.
+11. Grave availability: the wiki pages disagree (Donner Falls: epilogue; Paying Respects: after "My Last Boy"): give both, attributed, once. Gallery caption 5 (John at the grave, 1907) stays, attributed to the wiki if needed in captions.json.
+12. Blackwater Ledger No. 69 ("Tensions High") is available after "Visiting Hours" (chapter 6), not chapter 4.
+13. Cumberland Falls: only Rains Fall's "we saw you" crossing the river; do not link it to the Eastward Bound cliff scene.
+14. Karen's shotgun: unsupported, cut.
