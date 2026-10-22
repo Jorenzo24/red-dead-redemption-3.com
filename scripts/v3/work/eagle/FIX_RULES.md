@@ -8,3 +8,5 @@
 6. Quote ownership: lines quoted in B are not repeated in C (cut from C). "Father has confused wisdom with weakness..." goes in B In his own words if not already quoted anywhere.
 7. Personality: cut to ~450 words (drop "He's a vile man..." first and fix the Favours pointer).
 8. Scope: edit only eagle_* parts and scripts/fiches/eagle_flies.py; report cross-fiche errors. Never stage characters/eagle-flies or fr/personnages/eagle-flies (local build artefacts).
+9. Paytah does NOT board the boat (transcript: "Paytah: Good luck." as they reach the steamboat). Arthur blows up the anchor mechanism on Dutch's order.
+10. Cross-fiche (this fixer applies, EN+FR, minimal): charles_B l.152 Paytah "boards the army boat" -> he stays behind; charles_A l.80 "into the Van Horn lighthouse" -> the steamboat runs onto the rocks (transcript); the lighthouse may be mentioned only as the Red Dead Wiki's location. Then rebuild Charles with python3 scripts/_enrich.py charles-smith.
