@@ -1,0 +1,79 @@
+{{InfoboxPersonnages
+| theme = 
+| title1 = Pluie-Battante
+| image1 = <gallery>
+Pluie-Battante01.jpg|1899
+Pluie-Battante02.png|1907
+</gallery>
+| apparition = ''[[Red Dead Redemption II]]''
+| dapparition = 
+| décès = 
+| genre = Masculin
+| nationalité = Amérindien
+| ldv = [[Réserve Indienne de Wapiti]] <small>(1899)</small><br/>Canada <small>(1907)</small>
+| surnom = {{Addendum|par le Colonel Favours|Chef Pluie}}
+| activité = Chef de la Tribu
+| famille = [[Aigle-Qui-Vole]] <small>(Fils)</small>
+| allié = [[Arthur Morgan]]<br/>[[Charles Smith]]<br/>[[Lyndon Monroe]]
+| caption1 = 
+| naissance = 
+| statut = Vivant
+| ennemi = 
+| faction = 
+| arme = 
+| monture = 
+| véhicule = 
+| acteur = [[Graham Greene]]
+| motion capture = 
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+'''Pluie-Battante''' est un [[Personnages dans Red Dead Redemption II|personnage majeur]] présent dans [[Red Dead Redemption II]].
+
+== Histoire ==
+Pluie-Battante est le chef de la tribu de la [[Réserve Indienne de Wapiti]]. Sa femme et l'un de ses fils ont été tués par des soldats de l'[[Armée américaine]].
+=== Colter ===
+Pluie-Battante est aperçu par [[Arthur Morgan|Arthur]], [[Hosea Matthews|Hosea]] et [[Charles Smith|Charles]] lors du déménagement de la [[Bande de Dutch van der Linde|bande]]. Il se trouve à côté de son fils [[Aigle-Qui-Vole]] et de [[Paytah]].
+=== Shady Belle ===
+Pluie-Battante et [[Aigle-Qui-Vole]] sont présents à la soirée organisée par le maire de [[Saint Denis]], [[Henri Lemieux]]. Plus tard, il est vu en train de discuter avec [[Evelyn Miller]] pour tenter d'obtenir une confrontation afin d'obtenir la paix.
+=== Beaver Hollow ===
+Arthur se rend à la réserve indienne pour parler à Pluie-Battante, uniquement si le joueur décide de l'aider. Il l'accueille dans sa tente. Il lui demande de faire un tour avec lui, ce qu'Arthur accepte. Sur le chemin, Pluie-Battante récolte des herbes aux vertus médicinales visant à soulager Arthur de sa toux. Tandis qu'ils continuent leur promenade, il découvre avec tristesse que l'[[Armée américaine]] est à l'origine de la destruction d'un site spirituel indien.
+Il réalise rapidement que ce geste peut entraîner une guerre et il implore Arthur d'aller furtivement récupérer les reliques indiennes.
+
+Plus tard, Pluie-Battante rejoint le camp de [[Dutch van der Linde]] pour informer [[Arthur Morgan|Arthur]] et [[Charles Smith|Charles]] d'une réunion organisée par le Colonel [[Henry Favours|Favours]]. Les choses se compliquent lorsque Favours fait arrêter le [[Lyndon Monroe|Capitaine Monroe]] et l'accuse de trahison. Arthur et Charles prennent alors en otage un soldat pour sauver Monroe. Une fusillade éclate mais Pluie-Battante réussit à s'échapper.
+
+Peu de temps après, Arthur informe Pluie-Battante que lui et Charles ont dans l'idée de faire sortir [[Aigle-Qui-Vole]] de [[Fort Wallace]].
+
+Pluie-Battante est ensuite vu lorsqu'il se rend une nouvelle fois à [[Beaver Hollow]] pour implorer ses hommes de ne pas participer à l'assaut de l'usine de pétrole de [[Leviticus Cornwall]]. Ils attaquent tout de même l'usine et [[Aigle-Qui-Vole]] est mortellement blessé durant cette bataille.
+=== Épilogue ===
+En 1907, [[John Marston]] peut rencontrer Pluie-Battante à la gare d'[[Annesburg]]. Il révèle que lui et sa tribu ont été forcés de fuir vers le Canada. Il dit aussi qu'il est temporairement revenu aux États-Unis pour pleurer la mort de son fils. Il monte ensuite dans un train pour rentrer au Canada.
+
+== Personnage ==
+=== Caractère ===
+Pluie-Battante est un chef pacifiste contrairement à son fils [[Aigle-Qui-Vole]]. Il souhaite agir en paix et est même disposé à supporter des décennies d'abus pour éviter la guerre.
+== Apparitions dans les missions ==
+* "[[Vers l'est]]"
+* "[[Une cage dorée]]"
+* "[[Paternité et autres rêves|Paternité et autres rêves I]]"
+* "[[Petit guide de l'archéologue en herbe]]"
+* "[[L'art de la négociation]]"
+* "[[Le fils du roi]]"
+* "[[Mon dernier fils]]"
+* "[[Red Dead Redemption (mission)]]"
+
+== Navigation ==
+{{Personnages RDR2}}
+[[de:Fallender Regen]]
+[[en:Rains Fall]]
+[[tr:Yağan Yağmur]]
+
+[[Catégorie:Personnages dans Red Dead Redemption II]]
+[[Catégorie:Personnages]]
+[[Catégorie:Relecture]]
