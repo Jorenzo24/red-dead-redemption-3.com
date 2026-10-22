@@ -1,0 +1,34 @@
+{{Letter infobox 
+| image =File:LetterToAngeloBronter-RDR2-Page.png 
+| caption =
+| to = [[Angelo Bronte]]
+| from = [[Catherine Braithwaite]]
+| locations = [[Braithwaite Manor]]
+}}
+'''Letter to Angelo Bronte''' is one of the letters in ''[[Red Dead Redemption 2]]''.
+
+It can be found on the nightstand in the same room with the [[Gold Shield]], during the mission "[[Blood Feuds, Ancient and Modern]]".
+
+==Content==
+''Catherine Braithwaite''<br />
+​''Braithwaite Manor''<br />
+''Scarlett Meadows''<br />
+''Lemoyne''
+
+''Dear Signor Bronte''
+
+''Thank you for your message of last week, I trust you know that I always appreciate your candor. I would however, urge you to reconsider. We, our two proud and ancient families, have worked together successfully for five years now. We have always provided a quality product and paid our debts. You, in turn, have been a valued, the most valued of customer. Now, when faced with a small cash flow problem, and a minor disruption in supply,''
+
+''you are threatening to derail a successful business relationship. Out of respect for you, I will not allow you to do so without a fight. We will cover our debts shortly, I assure you of that. I agree that they have grown bigger, but we will pay the interest within the quarter. My spendthrift middle son has reformed his ways. This will not continue. As for the supply problems that disrupted business. That is a matter we have resolved entirely, as I told you.''
+
+''Furthermore,''
+
+==Gallery==
+<gallery hideaddbutton="true" position="center" captionalign="center">
+File:LetterToAngeloBronter-RDR2-Part1.png
+File:LetterToAngeloBronter-RDR2-Part2.png
+</gallery>
+
+[[Category:Documents in Redemption 2]]
+[[Category:Letters in Redemption 2]]
+[[Category:Missable Content]]

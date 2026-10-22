@@ -1,0 +1,73 @@
+{{User/characterbox
+|name          = Penelope Braithwaite
+|image         = Penelope Braithwaite rdr2.jpg
+|caption       = 
+|game          = ''[[Red Dead Redemption 2]]''
+|aka           = 
+|gender        = Female 
+|location      = [[Braithwaite Manor]] in [[Scarlett Meadows]], [[Lemoyne|State of Lemoyne]]<br>Boston, Massachusetts <small>(post-1899)</small>
+|affiliations  = [[Beau Gray]]<br>[[Olive Calhoon]]<br>[[Arthur Morgan]]
+|family        = Unidentified uncle<br>[[Catherine Braithwaite]] <small>(aunt)</small><br>[[Gareth Braithwaite]] <small> (cousin)</small><br>[[Bartholomew Braithwaite]]<small> (cousin)</small><br>[[Gerald Braithwaite]]<small> (cousin)</small><br>[[Gertrude Braithwaite]] <small>(cousin)</small><br>[[Beau Gray]] <small>(lover)</small>
+|weapon        = 
+|voice       = [[Alison Barton]]
+|nationality = [[File:Flag of the United States (1896–1908).png|border|20px]] American
+}}
+{{Quote|Well, yes, [[Beau Gray|he]]'s a little strange... but also, so human. The rest of our families are stuck in the Dark Ages, or... well, I don't know… cave people, perhaps.|Penelope Braithwaite}}
+
+'''Penelope Braithwaite''' is a [[Characters in Redemption 2|supporting character]] featured in ''[[Red Dead Redemption 2]]''.
+
+==History==
+===Background===
+Penelope was born in an unknown year to the [[Braithwaite family]]. Sometime before the year 1899, she fell in love with [[Beau Gray]] from the rival [[Gray family]] and became an activist for the women's suffrage movement.
+
+===Events of ''Red Dead Redemption 2''===
+
+====[[Clemens Point]] Chapter====
+Penelope is first seen sitting in the gazebo in the [[Braithwaite Manor]] grounds, when Arthur delivers a letter to her from Beau. After receiving it, she expresses her happiness at receiving the letter and how she loves Beau. She then sends Arthur a letter of her own to give to Beau.
+
+When Beau reads her letter, he grows alarmed as it says that she is planning to participate in a rally organized by [[Olive Calhoon]] for the suffrage movement, in a [[Rhodes|town]] which is deeply hostile to the movement. Beau asks Arthur to accompany him and convince Penelope to not participate. After arriving at the stagecoach that the suffragists will be riding in, they ask Penelope to leave with them, but she is insistent on being part of the march. Penelope then compromises with Beau by having Arthur driving the carriage through town in order to protect her and the suffragists. Upon the suffragists' arrival to the Bank of Rhodes, Penelope asks Arthur to help Beau, who is being harassed by his cousins, [[Iain Gray|Iain]] and [[Scott Gray]]. Before anything can escalate, Arthur brings Beau to safety.
+
+====[[Beaver Hollow]] Chapter====
+Penelope will next be heard from when she sends a letter to Arthur. She informs him that she is being kept in a cabin behind the ruins of [[Braithwaite Manor]], and she needs his help. After arriving, Penelope tells Arthur that she has been locked up for her role in the women's suffrage movement, and either her family or the [[Gray Family|Grays]] killed the suffrage leader, Olive Calhoon. Penelope then goes on to tell him that she and Beau are planning on moving to Boston, and that Beau is waiting for her at the train station. However, she cannot go alone, due to the considerable threat the Braithwaites and the Grays pose to their plan, and so she needs Arthur to take her.
+
+Arthur agrees to bring her to the station, where she reunites with Beau. Arthur purchases the train tickets, although it soon turns ugly when Iain and Scott approach them and attempt to pull Beau away. Arthur steps in and knocks both of them unconscious in a brawl. The three then hurry onto the train and set off. However, they are then pursued on horseback by Penelope's cousins, who are unwilling to allow her to elope with a Gray and have the family's jewelry. Arthur fights them off, but the train's driver abandons the locomotive out of fear, resulting in Arthur driving the train to [[Riggs Station]] in his stead. After stepping off the train, Penelope offers Arthur a sapphire bracelet as payment, which can be refused in exchange for honor gain. Arthur then helps the couple into a carriage, tells the driver to head for Boston, before taking his gun and giving it Penelope. She and Beau then say goodbye to Arthur as the carriage rolls away and are not seen again.
+
+==Character==
+
+===Personality===
+Penelope is a brave woman, as despite the fact Rhodes is hostile to the women's suffrage movement and there is a great amount of danger to women who participate in it, Penelope still lends her voice to the cause. She is deeply in love with Beau, a member of the rival Gray Family, to the point that she was willing to steal her family's jewelry and run away with him. 
+
+===Appearance===
+Penelope is a slender young woman, with blue eyes, blonde hair and braids. Penelope usually wears a long white and blue patterned dress with a big blue bow, a blue bow on her hair and black boots. 
+
+During her escape with Beau, Penelope wears a black top hat with a long dark blue ribbon, a blue elegant suit with a long skirt of the same color with dark blue stripes at the end, a white blouse with a dark blue bow tie, white gloves, and long white patterned boots.
+
+==Mission appearances==
+;''Red Dead Redemption 2''
+*"[[The Course of True Love I]]" <small>(mentioned)</small>
+*"[[The Course of True Love II]]"
+*"[[The Course of True Love III]]"
+*"[[The Course of True Love IV]]" <small>(voice only)</small>
+*"[[The Course of True Love V]]"
+
+==Trivia==
+* Penelope may have been named after the [[Wikipedia:Penelope|wife of Odysseus]] who was known for her fidelity despite her husband's twenty-year absence and the interest of more than a hundred suitors. 
+* The story of ''[[Wikipedia:Romeo and Juliet|Romeo and Juliet]]'' strongly resembles the situation of Beau and Penelope.
+* The story also has lots of similarities to the [[Wikipedia:Hatfield–McCoy feud|Hatfields & McCoys story]].
+* Beau and Penelope aren't the first of the Grays and Braithwaites to be romantically involved with each other, as Douglas Gray and Lucille Braithwaite also had a similar relationship.
+* When escaping, the player can take her to Gertrude's outhouse, where Penelope reveals that Gertrude is her cousin who is mentally ill and that her family decided that keeping her on the property would be better than sending her to a sanitarium. Penelope then states that she'll do what she can from Boston to help Gertrude, of which Arthur is highly doubtful. As seen in the epilogue, Penelope either never honored or was unable to keep that promise and it is revealed Gertrude was never released and apparently starved to death.
+
+==Gallery==
+<gallery position="center">
+File:Penelope Braithwaite Red Dead Redemption II.png|Penelope in the Braithwaite Manor grounds
+File:Penelope Purple Coat.jpg|Penelope during her escape with Beau
+File:Penelope Purple Coat No Hat.jpg|Penelope without her hat
+</gallery>
+
+==Navigation==
+{{Characters 2}}{{DEFAULTSORT:Braithwaite, Penelope}}
+
+[[fr:Penelope Braithwaite]]
+[[tr:Penelope Braithwaite]]
+
+[[Category:Characters in Redemption 2]]

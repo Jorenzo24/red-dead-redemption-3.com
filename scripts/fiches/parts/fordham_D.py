@@ -50,6 +50,10 @@ SOURCE REGISTER (read 22 Oct 2026):
   about Fordham found. Game Informer (Jeff Cork, 26 Feb 2010) only mentions "the shifty federal agent" as a type,
   without naming him: not used. BLOCKS_RECEPTION is empty and the section is not listed in "sections".
 
+FIX (22 Oct 2026, fc_report2 item 6, coverage 1.6): fbi03 has no newspaper (Ross scoffs at the idea); the FR wiki's
+unused "Bureau fella" line (fr.txt Anecdotes) is quoted and attributed, without the 1899 inference; Beecher's Hope
+1911 in the Fate fact and the essentials uses the standard hedge (FIX_RULES.md).
+
 Excluded: any motion-capture claim (no source); any RDR2 performer (no credit found); the wiki's age at death (53,
 contradicted); the wiki's "Fordham joined the Bureau in 1907 following its foundation" (wiki-only background; part A
 decides); "protégé" and "director" as our words (wiki); the wiki's reading of the 1899 model ("implying he was
@@ -70,10 +74,12 @@ BLOCKS_DEV = [
     {"p": two("According to Wikipedia, David Wilson Barnes was an American actor born on October 30, 1972, in San Diego, California. His film roles include Capote (2005), The Company Men (2010), The Bourne Legacy (2012) and Bridge of Spies (2015), and he had recurring roles in the television series Hell on Wheels and The Son. Red Dead Redemption is the only video game in his Wikipedia credits. He died of cancer in New York City on July 30, 2025, aged 52, a death reported by The Express on September 1, 2025.",
               "D'après Wikipédia, David Wilson Barnes était un acteur américain né le 30 octobre 1972 à San Diego, en Californie. Au cinéma, on l'a vu notamment dans Truman Capote (2005), The Company Men (2010), Jason Bourne : l'héritage (2012) et Le Pont des espions (2015) ; à la télévision, il a tenu des rôles récurrents dans les séries Hell on Wheels et The Son. Red Dead Redemption est le seul jeu vidéo de sa filmographie sur Wikipédia. Il est mort d'un cancer à New York le 30 juillet 2025, à 52 ans, une disparition rapportée par The Express le 1er septembre 2025.")},
     {"h3": two("Cut content", "Contenu coupé")},
-    {"p": two("The files of Red Dead Redemption contain a cutscene, labeled fbi03, that was not used. In it, Ross mocks a newspaper story about women wanting the vote, and Fordham answers that his Bessie does; Ross tells him to make sure she stays his Bessie and that he does not become hers. According to the Red Dead Wiki, subtitles left in the files of \"The Last Enemy That Shall Be Destroyed\" suggest an earlier version of the mission in which Fordham was to kill Rufus, the family dog.",
-              "Les fichiers de Red Dead Redemption contiennent une cinématique inutilisée, nommée fbi03. Ross s'y moque d'un article de journal sur les femmes qui réclament le droit de vote, et Fordham répond que sa Bessie le réclame ; Ross lui conseille de faire en sorte qu'elle reste sa Bessie, et non l'inverse. D'après le Red Dead Wiki, des sous-titres restés dans les fichiers de \"The Last Enemy That Shall Be Destroyed\" laissent deviner une version antérieure de la mission, dans laquelle Fordham devait tuer Rufus, le chien de la famille.")},
+    {"p": two("The files of Red Dead Redemption contain a cutscene, labeled fbi03, that was not used. In it, Ross scoffs at the idea of women wanting the vote, and Fordham answers that his Bessie does; Ross tells him to make sure she stays his Bessie and that he does not become hers. According to the Red Dead Wiki, subtitles left in the files of \"The Last Enemy That Shall Be Destroyed\" suggest an earlier version of the mission in which Fordham was to kill Rufus, the family dog.",
+              "Les fichiers de Red Dead Redemption contiennent une cinématique inutilisée, nommée fbi03. Ross s'y gausse de l'idée que des femmes puissent réclamer le droit de vote, et Fordham répond que sa Bessie le réclame ; Ross lui conseille de faire en sorte qu'elle reste sa Bessie, et non l'inverse. D'après le Red Dead Wiki, des sous-titres restés dans les fichiers de \"The Last Enemy That Shall Be Destroyed\" laissent deviner une version antérieure de la mission, dans laquelle Fordham devait tuer Rufus, le chien de la famille.")},
     {"p": two("The files of Red Dead Redemption 2 contain an unused 1899 version of Fordham, with a red vest, gloves, trousers and a different haircut. The Red Dead Wiki notes that this model carries a Pinkerton badge and reads it as a sign that he was first meant to appear as a Pinkerton agent before the epilogue. According to the same wiki, a cutscene of the end credits was meant to show him and Ross questioning townspeople and Sheriff Hanley in Strawberry; the wiki adds that Hanley may only be a placeholder in the cutscene files.",
               "Les fichiers de Red Dead Redemption 2 renferment une version inutilisée de Fordham datée de 1899, avec gilet rouge, gants, pantalon et une autre coupe de cheveux. Le Red Dead Wiki relève que ce modèle porte un insigne Pinkerton, et y voit le signe qu'il devait d'abord apparaître avant l'épilogue en agent de la Pinkerton. Selon le même wiki, une cinématique du générique de fin devait le montrer avec Ross en train d'interroger des habitants et le shérif Hanley à Strawberry ; le wiki ajoute que Hanley n'est peut-être qu'un personnage provisoire dans les fichiers de cinématique.")},
+    {"p": two("The French-language Red Dead Wiki reports an unused line for a passer-by found in the game files: \"I hear that Bureau fella's never been the same since his mother got shot in the massacre\". The line names neither Fordham nor the massacre in question. The same wiki links it to Fordham and to the Blackwater massacre of 1899, a reading it presents itself as a possibility.",
+              "Le Red Dead Wiki francophone signale une réplique inutilisée de passant, retrouvée dans les fichiers du jeu : \"I hear that Bureau fella's never been the same since his mother got shot in the massacre\" (il paraît que le type du Bureau n'est plus le même depuis que sa mère a pris une balle pendant le massacre). La réplique ne nomme ni Fordham ni le massacre en question. Ce wiki la rattache à Fordham et au massacre de Blackwater de 1899, rapprochement qu'il présente lui-même comme une simple possibilité.")},
 ]
 
 # No review or article about Fordham was found (searched 22 Oct 2026): empty, and not listed in BASE["sections"].
@@ -100,7 +106,7 @@ BASE = {
     "facts": [
         {"label": two("Name", "Nom"), "value": two("Archer Fordham", "Archer Fordham")},
         {"label": two("Born", "Naissance"), "value": two("Not given in the games", "Non précisée dans les jeux")},
-        {"label": two("Fate", "Sort"), "value": two("Not given after 1911; he can be shot at Beecher's Hope, according to the mission page of \"The Last Enemy That Shall Be Destroyed\"", "Inconnu après 1911 ; il peut être abattu à Beecher's Hope, selon la page de la mission \"The Last Enemy That Shall Be Destroyed\"")},
+        {"label": two("Fate", "Sort"), "value": two("Not given after 1911; according to the English-language Red Dead Wiki, he can be shot at Beecher's Hope (the French-language wiki says he is not there)", "Inconnu après 1911 ; d'après le Red Dead Wiki anglophone, il peut être abattu à Beecher's Hope (le wiki francophone le dit absent)")},
         {"label": two("Occupation", "Activité"), "value": two("Agent of the Bureau of Investigation", "Agent du Bureau of Investigation")},
         {"label": two("Superior", "Supérieur"), "value": two("[[edgar-ross|Edgar Ross]]", "[[edgar-ross|Edgar Ross]]")},
         {"label": two("Family", "Famille"), "value": two("Maybelle Fordham, mother, died 1900 (Red Dead Wiki)", "Maybelle Fordham, sa mère, morte en 1900 (Red Dead Wiki)")},
@@ -124,8 +130,8 @@ BASE = {
             "Dans \"Bear One Another's Burdens\", il conduit John et Ross jusqu'à l'épave du Serendipity, où il trouve avec John l'informateur [[nastas|Nastas]]."),
         two("He takes part in the ambush at the Blackwater bank and in the assault on Cochinay, and thanks John once Dutch is dead.",
             "Il participe à l'embuscade de la banque de Blackwater et à l'assaut de Cochinay, puis remercie John une fois Dutch mort."),
-        two("According to the Red Dead Wiki, he is among the men who come for John at Beecher's Hope later in 1911.",
-            "Selon le Red Dead Wiki, il fait partie des hommes qui viennent chercher John à Beecher's Hope, plus tard en 1911."),
+        two("According to the English-language Red Dead Wiki, he is visible among the men facing John through the barn doors at Beecher's Hope later in 1911; the French-language wiki says he is not there.",
+            "D'après le Red Dead Wiki anglophone, on l'aperçoit parmi les hommes qui font face à John, entre les portes de la grange de Beecher's Hope, plus tard en 1911 ; le wiki francophone affirme qu'il n'y est pas."),
     ],
     "rel_after": 1,
     "sections": [

@@ -1,0 +1,62 @@
+{{User/characterbox
+|name = Gertrude Braithwaite
+|image = Gertrude Braithwaite RDR2.PNG 
+|game = ''[[Red Dead Redemption 2]]''
+|nationality = [[File:Flag of the United States (1896–1908).png|border|20px]] American
+|gender = Female
+|location = Outhouse, near [[Braithwaite Manor]], [[Scarlett Meadows]], [[Lemoyne]]
+|occupation = None
+|affiliations = [[Braithwaite Family]]
+|weapon = None
+|voice = Reyna de Courcy
+|family = [[Catherine Braithwaite]] <small>(mother)</small><br>[[Gareth Braithwaite]] <small> (brother)</small><br>[[Bartholomew Braithwaite]]<small> (brother)</small><br>[[Gerald Braithwaite]]<small> (brother)</small><br>[[Penelope Braithwaite]]<small> (cousin)</small>
+}}
+'''Gertrude Braithwaite''' is a [[Characters in Redemption 2|minor character]] featured in ''[[Red Dead Redemption 2]]''.
+
+==History==
+===Background===
+Gertrude was born to [[Catherine Braithwaite]] and is a member of the [[Braithwaite family]]. Disfigured and mentally unwell, her family decided to lock her in an outhouse near [[Braithwaite Manor]] instead of sending her to a sanatorium, as they feared that the family name would be tarnished if word of Gertrude's health got out.
+
+=== Events of ''Red Dead Redemption 2'' ===
+When helping [[Penelope Braithwaite]] to [[The Course of True Love V|escape from her family]], [[Arthur Morgan|Arthur]] can take her to Gertrude's outhouse. If so, Penelope reveals that Gertrude is her cousin who is mentally ill and that her family decided that keeping her on the property would be better than sending her to a sanatorium. Penelope then states that she'll do what she can from Boston to help Gertrude, to which Arthur is highly doubtful. During this conversation, Gertrude notices Penelope outside and calls her a "bitch".
+
+During the epilogue, Gertrude's outhouse can be visited, revealing that she was never released and apparently starved to death. Her skeletal remains are still contained within the rotting structure, thus making it clear that Penelope did not in fact help her.
+
+==Character==
+=== Personality ===
+Gertrude is an unhinged individual prone to random fits of maniacal laughter. She also seems to relish in thoughts that most would find morbid. She does not seem entirely aware, and seems to have gone insane because of her isolation in the outhouse. 
+
+An alarming note are her sexually-themed lines, as should Arthur approach the outhouse, she may utter quotes aggressively such as ''"I'll fuck you"'' and ''"Let's kiss!"'', hinting at some sort of psychological trauma tied to sexual abuse. 
+
+=== Appearance ===
+After being locked in an outhouse for an unknown amount of time and partially exposed to the elements, Gertrude has developed a sickly appearance. Her eyes and cheeks are sunken and her skin is considerably pale. She appears to have a cleft palate lip. She has dirty blonde hair tied in pigtails and a receding hairline. Her left eye appears to be completely missing save for an empty eye socket, with a large scar across it. Some of the factors of her appearance may have been caused by her incestuous forebears and her extensive unclean living in the outhouse. 
+
+==Trivia==
+*Her name only appears in the credits.            
+*She is one of the many [[Point of Interest|points of interest]] that can be found across the map.
+*Gertrude's insanity and physical malformation could be the result of an incestuous lineage, as the Braithwaites have been known for condoning inbreeding. This is supported by her various sexual quotes and her overall aggression, hinting that she may have suffered sexual abuse from male members of her family.
+*If the player attempts to inspect the outhouse, or gets too close to the crescent moon-shaped hole in the door, Gertrude will attempt to grab the player through the hole to no avail. 
+*If Arthur shoots a gun or throws a molotov or [[Dynamite (RDR 2)|dynamite]] at the outhouse, he will lose [[honor]], but Gertrude will be nevertheless unaffected. But shooting a gun toward Gertrude's direction can also shut her up.
+*She is the only point of interest that can't be discovered as John (while the outhouse with her remains can be visited, the option to mark it as a point of interest is unavailable).
+
+==Gallery==
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+RDR2_POI_45_Braithwaites' Secret_04.png|<center>Location</center>
+RDR2_POI_45_Braithwaites' Secret_03.png|Arthur's drawing: ''"Found a crazy young woman, real strange looking. Locked in a kind of outhouse, hidden on Braithwaite Manor. World ain't a kind place to folk like her."''
+RDR2_POI_45_Braithwaites' Secret_01.png
+RDR2_POI_45_Braithwaites' Secret_07.png
+Gertrude rdr2.jpg
+RDR2_POI_45_Braithwaites' Secret_06.png|<center>Gertrude's remains</center>
+</gallery>
+
+==Navigation==
+{{POI}}
+{{Characters 2}}
+{{DEFAULTSORT:Braithwaite, Gertrude}}
+[[de:Gertrude Braithwaite]]
+[[fr:Gertrude Braithwaite]]
+[[tr:Gertrude Braithwaite]]
+[[Category:Characters in Redemption 2]]
+[[Category:Random encounters]]
+[[Category:Scarlett Meadows]]
+[[Category:Lemoyne]]

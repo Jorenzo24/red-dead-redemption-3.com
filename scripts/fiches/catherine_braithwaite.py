@@ -62,7 +62,7 @@ def _g(n, alt_en, alt_fr, cap_en, cap_fr):
 
 GALLERY = [
     _g(1, "Catherine Braithwaite standing at her front door with armed men behind her", "Catherine Braithwaite debout à sa porte, des hommes armés derrière elle",
-       "Catherine Braithwaite at Braithwaite Manor.", "Catherine Braithwaite au manoir Braithwaite."),
-    _g(2, "A figure kneeling in a burning room, seen from above", "Une silhouette agenouillée dans une pièce en flammes, vue d'en haut",
-       "Catherine inside the burning manor.", "Catherine dans le manoir en flammes."),
+       "Catherine at her front door, her sons armed behind her, in \"Advertising, The New American Art\".", "Catherine à sa porte, ses fils armés derrière elle, dans \"Advertising, The New American Art\"."),
+    _g(2, "Catherine in a nightgown on the floor of a burning room, Dutch on the stairs", "Catherine en chemise de nuit au sol d'une pièce en flammes, Dutch dans l'escalier",
+       "Catherine inside the burning manor in \"Blood Feuds, Ancient and Modern\".", "Catherine dans le manoir en flammes dans \"Blood Feuds, Ancient and Modern\"."),
 ]

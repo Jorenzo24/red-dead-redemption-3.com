@@ -1,0 +1,101 @@
+{{Infobox location
+|name = Braithwaite Manor
+|image = Braithwaite-Manor.png
+|game = ''[[Red Dead Redemption 2]]''<br>''[[Red Dead Online]]''
+|type = Plantation <small>(formerly)</small><br>
+Fishing community
+|territory = [[Lemoyne]]
+|region = [[Scarlett Meadows]]
+|inhabitants = [[Braithwaite family]] <small>(c. 1779-c. 1899)</small><br>
+Fishing community <small>(since c. 1907)</small>
+|image2 = BraithwaiteManorMap.png
+}}
+
+'''Braithwaite Manor''' is a large plantation featured in ''[[Red Dead Redemption 2]]'' and ''[[Red Dead Online]]'', in the [[Scarlett Meadows]] region of the state of [[Lemoyne]].
+
+== Description ==
+The Braithwaite Plantation is quite large, situated in the southern [[Scarlett Meadows]] region of Lemoyne. At the very north of the plantation is the main manor, a symmetrical and grandiose mansion. A long road leading southward to the house is flanked by large oak trees on either side, along with a sign warning travelers that the Braithwaite Plantation is private property. 
+
+The manor is built in the typical southern architecture of the antebellum era, being two stories tall with porches and balconies surrounding its walls. Through the main entrance of the house is a corridor-like foyer, where a living room and large dining hall can be found. Near the back of the first floor, an office and kitchen can be found as well. On the second floor are several rooms, with one of them having a bathroom, likely being Catherine Braithwaite's master bedroom. After the mission, "[[Blood Feuds, Ancient and Modern]]," the manor is burned down, and all that remains is the charred skeleton of the house.
+
+To the south of the manor are the stables, where the family's prized horses are kept, and a bunch of cabins, likely where much of the staff and other family members reside. Directly west along the shoreline are several boathouses and a gazebo. Southeast of the boathouses are swathes of cornfields, where a barnhouse can be found. The rest of the property consist of tobacco and cotton fields, the overall being delimitated by white fences. Braithwaite henchmen can be seen standing guard or patrolling the plantation.
+
+==History==
+===Background===
+The Braithwaite Manor is the mansion and former slave plantation of the [[Braithwaite family]], a wealthy [[Lemoyne|Lemoynian]] dynasty. The manor is presumably as old as the Braithwaites themselves, dating back to approximately 1779. Following the conclusion of the American Civil War and the South's defeat, slavery was abolished, dealing a significant financial blow to the plantation. Although the property's crops are still tended to by the events of ''Redemption 2'', the Braithwaite family has transitioned to the more financially lucrative illegal dealing of [[moonshine]].
+
+===Events of ''Red Dead Redemption 2''===
+
+==== [[Clemens Point]] Chapter ====
+The Braithwaite Manor is first visited by [[Arthur Morgan]] in 1899, where he goes to [[The Course of True Love II|deliver a letter]] from [[Beau Gray]] to [[Penelope Braithwaite]]. He manages to sneak past several guards, until he finds Penelope sitting in the gazebo. She thanks Arthur for the letter and the two have a brief conversation, before she asks Arthur to send Beau her own letter.
+
+While [[Van der Linde gang|the gang]] stayed in Lemoyne, [[Dutch van der Linde]] and [[Hosea Matthews]] had a plan to manipulate both the [[Gray family|Gray]] and [[Braithwaite family|Braithwaite]] families in hopes that there would be “confederate gold” under their feud. Using moonshine that the gang had [[American Distillation|stolen]] from the Braithwaites, Arthur and Hosea rode out to the manor in hopes of receiving money in exchange for the moonshine. They initially were given a hostile response from the family until [[Catherine Braithwaite]], the family matriarch, paid the pair ten dollars to [[Advertising, The New American Art|give it out for free]] in the [[Rhodes Parlour House]].
+
+Later on, Arthur briefly visited the manor with Hosea and [[Sean MacGuire]] to look for a job to do in exchange for payment. Catherine commissioned them to [[The Fine Joys of Tobacco|burn down]] the [[Gray family]]'s tobacco fields, resulting in Arthur and Sean traveling to [[Caliga Hall]] and doing just that. Around the same time, [[Tavish Gray]] promised the gang that they could get $5000 for stealing the Braithwaite family's prized horses. Arthur, [[John Marston]] and [[Javier Escuella]] sneaked onto the manor grounds and [[Horse Flesh for Dinner|stole the three horses]]. They eventually got detected, but managed to gun down their pursuers and escape the area.
+
+After the Braithwaites realized that the Van der Linde gang had stolen their horses, they decided to retaliate. They slipped past the guards of [[Clemens Point]] and kidnapped [[Jack Marston]]. The gang was furious after learning the Braithwaites had committed the atrocity, and most of the gang rode out to Braithwaite Manor to confront the family. In a [[Blood Feuds, Ancient and Modern|brutal gunfight]], nearly the entire family was massacred, and the manor was set on fire. As the gang left the scene, Catherine Braithwaite ran to the burning manor in tears, dying in an act of self-immolation.
+
+The following day, during the mission, "[[The Battle of Shady Belle]]," the gang is rushing to find a new camp. They send Arthur and John to investigate [[Shady Belle]]. As they ride out, smoke from Braithwaite Manor can still be seen billowing into the sky.
+
+==== [[Shady Belle]] Chapter ====
+Although the Braithwaites no longer play a role in the story by this chapter, the manor can now be revisited. If the player visits the mansion, it will be burned to the ground and decrepit, with hostile survivors of the plantation still guarding the area. Catherine Braithwaite’s charred body can also be found near what was the entrance.
+
+==== [[Beaver Hollow]] Chapter ====
+At some point in Chapter 6, Arthur receives a letter from Beau Gray and Penelope Braithwaite pleading for his help, as the couple wished to flee the Gray and Braithwaite families and head for Boston. With the help of Arthur, Penelope and Beau [[The Course of True Love V|successfully elope]], taking the last of the family jewelry with them.
+
+==== Epilogue ====
+By 1907, the Braithwaite family seems to have died out, with the decrepit manor grounds completely overgrown. Although the guards who once patrolled the manor are nowhere to be found, the area is inhabited by friendly NPCs, who appear to have formed a small fishing community in the docks in which the workers once lived, building a new home above ruins.
+
+=== Mission Appearances: ===
+
+* "[[The Course of True Love II]]"
+* "[[Advertising, The New American Art]]"
+* "[[Magicians for Sport]]"
+* "[[The Fine Joys of Tobacco]]"
+* "[[Horse Flesh for Dinner]]"
+* "[[Blood Feuds, Ancient and Modern]]"
+* "[[The Battle of Shady Belle]]" (decay of the mansionfire noticeable in the background)
+
+==Trivia==
+*The manor is an almost perfect recreation of both the [[Wikipedia:Oak Alley Plantation|Oak Alley Plantation]] and [[Wikipedia:The Houmas|Houmas House Plantation]], two national historic landmarks and slavery museums in Louisiana, which is the real-life counterpart to Lemoyne.
+**It is also noted by many to have a striking resemblance to Candyland from ''[[Wikipedia:Django Unchained|Django Unchained]]'', which was filmed at [[Wikipedia:Whitney Plantation Historic District|Whitney Plantation]].
+*The Braithwaite Manor can also be visited and explored in ''[[Red Dead Online]]''. Additionally, if the player chooses to pitch their camp in the Scarlett Meadows region of Lemoyne, there is a chance that the game will pitch their camp on the property.
+*Inside the barnhouse on the southern end of the property, the player can loot a [[Rare Rolling Block Rifle|rare rolling block rifle]] (the weapon can only be obtained in the mission, "[[Magicians for Sport]]").
+*Braithwaite guards have the same voice lines as the ones used for train guards.
+*Braithwaite guards will still appear between Chapter 4 until the end of Chapter 6, however, if killed they will not respawn.
+*In the manor itself, in the room east from [[Catherine Braithwaite]]'s body, a lockbox can be found under the wall containing a gold bar (accessible only in Chapter 4 and onwards, after "Blood Feuds, Ancient and Modern").
+*Inside the boathouse on a table is a Naval Compass. On a workbench next to a boat is the [[Cigarette Cards|Cigarette Card]] for U.S. Frigate.
+*In the center of the town is a clothesline with a table near it. Under the table is the Cigarette Card for Edith Corinne.
+*A fishing cabin can be found southeast of the southern-most island in Flat Iron Lake. On a barrel behind the shack is Aged Pirate Rum. Southeast of here, just southeast of the small group of buildings near the shack, is a locked outhouse where only [[Arthur Morgan|Arthur]] can [[Point of Interest|discover]] the [[Gertrude Braithwaite|Braithwaite's Secret]].
+*Northwest of the manor, east from where the two largest islands almost connect, the [[Legendary Bluegill]] can be fished.
+*In the cornfields to the south, a Scarecrow Derby Hat can be found on a scarecrow.
+
+==Gallery==
+<gallery widths="200" spacing="small" position="center" captionalign="center" hideaddbutton="true">
+Bwmanor.png|The Van der Linde gang marching towards the manor
+Braithwaite Manor from the south.jpg|Braithwaite Manor seen from the south
+Braithwaitefields1.jpg|The Braithwaite fields
+Braithwaitefields2.jpg|The manor's side view
+Braithwaite-Manor Dawn.png|The Braithwaite Manor grounds at dawn
+Braithwaitenentrance.jpg|The manor's entrance
+Braithwaiteremains.jpg|The manor's charred remains
+Braithwaite Manor ruin (Photo Mode).png|Another view of the manor's ruin
+BraithwaiteRuins.jpg|Manor ruins
+BraithwaiteSign.jpg|No trespassing or hunting sign
+Braithwaite Manor loading screen.jpg|Braithwaite Manor loading screen
+File:Braithwaite manor logo.jpg|Braithwaite Manor Logo
+</gallery>
+
+== Navigation ==
+{{Redemption 2 Locations}}
+{{Related Content}}
+[[de:Braithwaite Manor]]
+[[fr:Manoir Braithwaite]]
+[[es:Mansión Braithwaite]]
+[[ru:Поместье Брейтуэйтов]]
+[[Category:Redemption II Locations]]
+[[Category:Online Locations]]
+[[Category:Locations]]
+[[Category:Settlements]]
+[[Category:Lemoyne]]
+[[Category:Scarlett Meadows]]

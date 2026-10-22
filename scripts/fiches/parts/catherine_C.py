@@ -27,6 +27,9 @@ SOURCE REGISTER (fetched Oct 2026; local copies in scripts/v3/work/catherine/ an
 Ownership: narrative events are in part A (one line per mission here). Catherine's own lines (the 120 years, "Yankees",
 "Ain't no rules in war", "as big and as dumb as he looks", "promotional expense", "Pay the man") are NOT quoted here:
 they are left to part B "In her own words". Quotes here are lines by others about her or to her family.
+Fix pass (22 Oct 2026, lead decisions): Bartholomew's name is attributed to the wiki in every quote source; the
+"Gareth" subtitle is told once (Trivia); Archibald's thoroughbred line and Tavish's "hag" line stay in Quotes (part B
+paraphrases them); the horse-brand and Bill-in-Rhodes trivia items are cut (told in part B Horses and part A).
 Excluded: the gold medal objective that names who must shoot Gareth and Gerald (would name the killers, no transcript);
 the stablehand's names for the three horses (Cerberus, Old Faithful, Old Father Time): they are horses at the stable, the
 transcript does not say which three are taken; the YouTube title calling a Turkoman "courtesy of Catherine Braithwaite"
@@ -98,14 +101,14 @@ BLOCKS_QUOTES = [
     {"h4": two("Her family", "Sa famille")},
     {"quotes": [
         {"q": two("The alternative is you get shot.", "The alternative is you get shot."),
-         "src": two("Bartholomew Braithwaite to Hosea, who suggests selling the moonshine elsewhere, Advertising, The New American Art (RDR2, chapter 3)",
-                    "Bartholomew Braithwaite à Hosea, qui propose de vendre l'alcool ailleurs, Advertising, The New American Art (RDR2, chapitre 3). Traduction : « L'autre solution, c'est qu'on vous abatte. »")},
+         "src": two("A Braithwaite son (Bartholomew according to the Red Dead Wiki) to Hosea, who suggests selling the moonshine elsewhere, Advertising, The New American Art (RDR2, chapter 3)",
+                    "Un fils Braithwaite (Bartholomew selon le Red Dead Wiki) à Hosea, qui propose de vendre l'alcool ailleurs, Advertising, The New American Art (RDR2, chapitre 3). Traduction : « L'autre solution, c'est qu'on vous abatte. »")},
         {"q": two("She ain't gonna pay you with a certified check... you Yankee numbskull.", "She ain't gonna pay you with a certified check... you Yankee numbskull."),
-         "src": two("Bartholomew Braithwaite to Hosea, who asks how his mother will pay, The Fine Joys of Tobacco (RDR2, chapter 3)",
-                    "Bartholomew Braithwaite à Hosea, qui demande comment sa mère compte payer, The Fine Joys of Tobacco (RDR2, chapitre 3). Traduction : « Elle va pas vous payer par chèque certifié... espèce d'abruti de Yankee. »")},
+         "src": two("A Braithwaite son (Bartholomew according to the Red Dead Wiki) to Hosea, who asks how his mother will pay, The Fine Joys of Tobacco (RDR2, chapter 3)",
+                    "Un fils Braithwaite (Bartholomew selon le Red Dead Wiki) à Hosea, qui demande comment sa mère compte payer, The Fine Joys of Tobacco (RDR2, chapitre 3). Traduction : « Elle va pas vous payer par chèque certifié... espèce d'abruti de Yankee. »")},
         {"q": two("Shouldn't have messed with our business now, should you?", "Shouldn't have messed with our business now, should you?"),
-         "src": two("A Braithwaite son to Dutch in front of the manor (Bartholomew according to the Red Dead Wiki, subtitled Gareth), Blood Feuds, Ancient and Modern (RDR2, chapter 3)",
-                    "Un fils Braithwaite à Dutch, devant le manoir (Bartholomew selon le Red Dead Wiki, sous-titré Gareth), Blood Feuds, Ancient and Modern (RDR2, chapitre 3). Traduction : « Fallait pas vous mêler de nos affaires, hein ? »")},
+         "src": two("A Braithwaite son to Dutch in front of the manor (Bartholomew according to the Red Dead Wiki), Blood Feuds, Ancient and Modern (RDR2, chapter 3)",
+                    "Un fils Braithwaite à Dutch, devant le manoir (Bartholomew selon le Red Dead Wiki), Blood Feuds, Ancient and Modern (RDR2, chapitre 3). Traduction : « Fallait pas vous mêler de nos affaires, hein ? »")},
         {"q": two("The main house and all it stood for are thankfully no more.", "The main house and all it stood for are thankfully no more."),
          "src": two("Penelope Braithwaite, her niece, in her letter to Arthur, The Course of True Love V (RDR2, chapter 6)",
                     "Penelope Braithwaite, sa nièce, dans sa lettre à Arthur, The Course of True Love V (RDR2, chapitre 6). Traduction : « La maison principale, et tout ce qu'elle représentait, n'existent plus, Dieu merci. »")},
@@ -156,14 +159,10 @@ BLOCKS_TRIVIA = [
             "Sa lettre à Angelo Bronte est un document manquable : on ne peut la ramasser que pendant \"Blood Feuds, Ancient and Modern\", sur la table de nuit de la pièce où se trouve aussi un Gold Shield."),
         two("Killing Catherine before her scripted death fails \"Blood Feuds, Ancient and Modern\".",
             "Tuer Catherine avant sa mort scénarisée fait échouer \"Blood Feuds, Ancient and Modern\"."),
-        two("According to the Red Dead Wiki, Gareth originally appeared twice during the raid while Bartholomew was missing; a later update placed Bartholomew at the front of the house, but his subtitles still read \"Gareth\", and his body is labeled Bartholomew when looted.",
-            "Selon le Red Dead Wiki, Gareth apparaissait à l'origine deux fois pendant l'assaut, tandis que Bartholomew manquait à l'appel ; une mise à jour a ensuite placé Bartholomew devant la maison, mais ses sous-titres indiquent toujours \"Gareth\", et son corps porte le nom de Bartholomew quand on le fouille."),
+        two("According to the Red Dead Wiki, Gareth originally appeared twice during the raid while Bartholomew was missing; this was later fixed, and Bartholomew now appears at the front of the house, but his subtitles still read \"Gareth\", and his body is labeled Bartholomew when looted.",
+            "Selon le Red Dead Wiki, Gareth apparaissait à l'origine deux fois pendant l'assaut, tandis que Bartholomew manquait à l'appel ; le problème a depuis été corrigé et Bartholomew se tient désormais devant la maison, mais ses sous-titres indiquent toujours \"Gareth\", et son corps porte le nom de Bartholomew quand on le fouille."),
         two("Smoke from the burning manor can still be seen in the sky when Arthur and John ride out to Shady Belle in \"The Battle of Shady Belle\", according to the Red Dead Wiki.",
             "La fumée du manoir en flammes est encore visible dans le ciel quand Arthur et John partent pour Shady Belle dans \"The Battle of Shady Belle\", selon le Red Dead Wiki."),
-        two("The horses stolen in \"Horse Flesh for Dinner\" carry the Braithwaite brand on their hindquarters, according to the mission page.",
-            "Les chevaux volés dans \"Horse Flesh for Dinner\" portent la marque des Braithwaite sur la croupe, selon la page de la mission."),
-        two("In \"A Short Walk in a Pretty Town\", Bill starts to repeat what the Grays have been saying about Catherine Braithwaite, but Arthur cuts him off when he senses a trap, and Sean is shot a moment later.",
-            "Dans \"A Short Walk in a Pretty Town\", Bill commence à rapporter ce que les Gray racontent sur Catherine Braithwaite, mais Arthur l'interrompt en flairant un piège, et Sean est abattu l'instant d'après."),
         two("Gertrude's outhouse is the point of interest called \"Braithwaites' Secret\". Only Arthur can record it: John can visit it in the epilogue but cannot mark it, according to the Red Dead Wiki.",
             "Les latrines de Gertrude correspondent au point d'intérêt appelé \"Braithwaites' Secret\". Seul Arthur peut le consigner : John peut s'y rendre pendant l'épilogue mais pas le marquer, selon le Red Dead Wiki."),
         two("The graves of Lucille Braithwaite and Douglas Gray, the two lovers the Red Dead Wiki places at the origin of the feud, can be found in the Rhodes cemetery.",

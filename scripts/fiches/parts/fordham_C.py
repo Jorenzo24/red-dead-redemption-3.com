@@ -8,7 +8,7 @@ scripts/v3/work/fordham/fc/):
   America" (1st), "The Gates of El Presidio" (40th; giver Abraham Reyes; 300 fame, 350 with the Gold Medal, 125
   honor), "Bear One Another's Burdens" (42nd, first of West Elizabeth; giver Edgar Ross; High Power Pistol, 150 fame,
   200 with the Gold Medal, 25 honor; failure if the car is damaged or Ross, Fordham or Nastas is assaulted, killed or
-  left to die; trivia: Galatians 6:2, Fordham starts the car from the driver's seat), "Great Men are Not Always Wise"
+  left to die; trivia: Galatians 6:2), "Great Men are Not Always Wise"
   (43rd; giver Ross; 150 fame, 200 with the Gold Medal, up to 225 honor; failure if Ross, Fordham or another lawman is
   assaulted or killed; trivia: Job 32:9), "And You Will Know The Truth" (47th; giver Ross; 50 fame with the Gold Medal;
   failure if Ross or Fordham is assaulted or killed; trivia: John 8:32), "And The Truth Will Set You Free" (48th, last
@@ -40,13 +40,17 @@ Son page's "it is quite unknown why" the agents are absent (commentary); the Ame
 her about the whereabouts of Micah Bell's killer" (interpretation: only her presence is kept); the wiki's link of
 Fordham's "we have been watching" to the 1907 credits (the wiki's reading).
 
-OWNERSHIP: narrative events live in part A (one line per mission here). Lines left to part B "In his own words" and
-therefore NOT quoted here: "Marston, you're a public menace. We should've had you killed.", "It ends when we say it
-ends. You're in no position to make demands.", "Like you always say, sir, the higher the stakes, the smarter you have
-to play the game.", "See, this is what happens when you fraternize with savages...", "Van der Linde is a psychopath. A
-murderer and a rapist.", "I don't understand you people...", "There's always somebody watching, Mr. Marston...", "But
-you aren't from anywhere.", "We are neither, Mr. Marston." If part B uses a line quoted below, the fixer removes it
-from one place. Ross's "Don't get snarky with me, Fordham." is quoted in edgar_B and only paraphrased in this fiche.
+OWNERSHIP: narrative events live in part A (one line per mission here). Lines quoted in part B ("In his own words":
+"I don't understand you people...", "Our armed forces have no equal...", "And this isn't much more than a simple
+prototype...", "There's always somebody watching, Mr. Marston..."; Names: "Mr. Fordham", "Agent Fordham", John's
+"office clerk or social secretary or some such") are NOT quoted here. Quoted HERE (FIX 22 Oct 2026, coverage items
+1-5): "Marston, you're a public menace...", "Like you always say, sir...", "It ends when we say it ends...", "See, this
+is what happens when you fraternize with savages...", John's "Dutch was a good man once, a far better man than you."
+(transcripts: And You Will Know The Truth l.9, Bear One Another's Burdens l.87 and l.109, And The Truth Will Set You
+Free l.61 and l.67). "Van der Linde is the priority..." is quoted here and paraphrased in part B. Failure conditions
+live in the Missions table only; the ignition fact lives in part B (Trivia item cut); the full EN-vs-FR wiki dispute
+on the last mission is told once, in Trivia; elsewhere the standard hedge of FIX_RULES.md. Ross's "Don't get snarky
+with me, Fordham." is quoted in edgar_B and only paraphrased in this fiche.
 """
 
 
@@ -63,8 +67,8 @@ E2 = two("RDR2, epilogue II", "RDR2, épilogue II")
 
 BLOCKS_MISSIONS = [
     {"h3": two("Missions", "Missions")},
-    {"p": two("Fordham appears in six story missions of Red Dead Redemption, numbered 1, 40, 42, 43, 47 and 48 in the story order, and gives none of them. The last four belong to Edgar Ross's strand, which opens the West Elizabeth part of the game and ends with the death of Dutch van der Linde. The English-language Red Dead Wiki also places him in the last story mission, number 57. In Red Dead Redemption 2 he appears only in the end credits that follow \"American Venom\". Several missions fail if the player assaults or kills him.",
-              "Fordham apparaît dans six missions principales de Red Dead Redemption, numérotées 1, 40, 42, 43, 47 et 48 dans l'ordre de l'histoire, et n'en confie aucune. Les quatre dernières appartiennent à la série d'Edgar Ross, qui ouvre la partie West Elizabeth du jeu et se clôt sur la mort de Dutch van der Linde. Le Red Dead Wiki anglophone le place aussi dans la dernière mission principale, la 57e. Dans Red Dead Redemption 2, il n'apparaît que dans le générique de fin qui suit \"American Venom\". Plusieurs missions échouent si le joueur l'agresse ou le tue.")},
+    {"p": two("Fordham appears in six story missions of Red Dead Redemption, numbered 1, 40, 42, 43, 47 and 48 in the story order, and gives none of them. The last four belong to Edgar Ross's strand, which opens the West Elizabeth part of the game and ends with the death of Dutch van der Linde. The English-language Red Dead Wiki, but not the French-language one, also places him in the last story mission, number 57. In Red Dead Redemption 2 he appears only in the end credits that follow \"American Venom\".",
+              "Fordham apparaît dans six missions principales de Red Dead Redemption, numérotées 1, 40, 42, 43, 47 et 48 dans l'ordre de l'histoire, et n'en confie aucune. Les quatre dernières appartiennent à la série d'Edgar Ross, qui ouvre la partie West Elizabeth du jeu et se clôt sur la mort de Dutch van der Linde. Le Red Dead Wiki anglophone, contrairement au wiki francophone, le place aussi dans la dernière mission principale, la 57e. Dans Red Dead Redemption 2, il n'apparaît que dans le générique de fin qui suit \"American Venom\".")},
     {"h4": two("Appearances", "Apparitions")},
     {"table": {"head": [two("Mission", "Mission"), two("Act", "Acte"), two("Fordham's role", "Rôle de Fordham")], "rows": [
         M("Exodus in America", A1,
@@ -74,8 +78,8 @@ BLOCKS_MISSIONS = [
           "Waits with Ross near the border bridge and takes Javier Escuella, alive or dead depending on the player's choice. Mission giver: Abraham Reyes. Rewards: 300 fame (350 with the Gold Medal) and 125 honor.",
           "Attend avec Ross près du pont de la frontière et récupère Javier Escuella, vivant ou mort selon le choix du joueur. Donneur de mission : Abraham Reyes. Récompenses : 300 points de célébrité (350 avec la médaille d'or) et 125 d'honneur."),
         M("Bear One Another's Burdens", A3,
-          "Drives Ross and John to the wreck of the Serendipity, searches it with John, finds Nastas and repairs the car under fire. Mission giver: Edgar Ross. Rewards: High Power Pistol, 150 fame (200 with the Gold Medal) and 25 honor. Fails if the agents' car is damaged, or if Ross, Fordham or Nastas is attacked, killed or left to Dutch's men.",
-          "Conduit Ross et John jusqu'à l'épave du Serendipity, la fouille avec John, trouve Nastas et répare la voiture sous les balles. Donneur de mission : Edgar Ross. Récompenses : pistolet High Power, 150 points de célébrité (200 avec la médaille d'or) et 25 d'honneur. Échec si la voiture des agents est endommagée, ou si Ross, Fordham ou Nastas est agressé, tué ou abandonné aux hommes de Dutch."),
+          "Drives Ross and John to the wreck of the Serendipity, searches it with John, identifies Nastas once John finds him and repairs the car under fire. Mission giver: Edgar Ross. Rewards: High Power Pistol, 150 fame (200 with the Gold Medal) and 25 honor. Fails if the agents' car is damaged, or if Ross, Fordham or Nastas is attacked, killed or left to Dutch's men.",
+          "Conduit Ross et John jusqu'à l'épave du Serendipity, la fouille avec John, identifie Nastas une fois que John l'a trouvé, et répare la voiture sous les balles. Donneur de mission : Edgar Ross. Récompenses : pistolet High Power, 150 points de célébrité (200 avec la médaille d'or) et 25 d'honneur. Échec si la voiture des agents est endommagée, ou si Ross, Fordham ou Nastas est agressé, tué ou abandonné aux hommes de Dutch."),
         M("Great Men are Not Always Wise", A3,
           "Takes position with Ross and John on a roof facing the Blackwater bank, then rides in the pursuit of Dutch. Mission giver: Edgar Ross. Rewards: 150 fame (200 with the Gold Medal) and up to 225 honor. Fails if Ross, Fordham or another lawman is attacked or killed.",
           "Se poste avec Ross et John sur un toit face à la banque de Blackwater, puis participe à la poursuite de Dutch. Donneur de mission : Edgar Ross. Récompenses : 150 points de célébrité (200 avec la médaille d'or) et jusqu'à 225 d'honneur. Échec si Ross, Fordham ou un autre homme de loi est agressé ou tué."),
@@ -86,8 +90,8 @@ BLOCKS_MISSIONS = [
           "Rides to Cochinay with Ross, John and the army, then thanks John after Dutch's fall. Mission giver: Edgar Ross. Rewards: 500 fame (550 with the Gold Medal) and 250 honor. Last mission of the West Elizabeth part.",
           "Chevauche jusqu'à Cochinay avec Ross, John et l'armée, puis remercie John après la chute de Dutch. Donneur de mission : Edgar Ross. Récompenses : 500 points de célébrité (550 avec la médaille d'or) et 250 d'honneur. Dernière mission de la partie West Elizabeth."),
         M("The Last Enemy That Shall Be Destroyed", A3,
-          "According to the English-language Red Dead Wiki only: among the firing squad at the barn, and a possible casualty of John's last Dead Eye sequence. Last story mission of the game.",
-          "Selon le seul Red Dead Wiki anglophone : présent dans le peloton d'exécution devant la grange, et victime possible de la dernière séquence en Dead Eye de John. Dernière mission principale du jeu."),
+          "According to the English-language Red Dead Wiki, Fordham is visible among the men facing John through the barn doors at Beecher's Hope in 1911 (he can be shot in the final Dead Eye and may disappear from the cutscene that follows); the French-language wiki says he does not take part in the mission. Last story mission of the game.",
+          "D'après le Red Dead Wiki anglophone, on aperçoit Fordham parmi les hommes qui font face à John entre les portes de la grange de Beecher's Hope en 1911 (il peut être abattu pendant le Dead Eye final et disparaître de la cinématique qui suit) ; le wiki francophone affirme qu'il ne participe pas à la mission. Dernière mission principale du jeu."),
         M("Ending Credits", E2,
           "Searches Micah Bell's cabin while Ross examines the body, questions witnesses with him in Valentine and near Rhodes, and watches John and Jack at Beecher's Hope.",
           "Fouille la cabane de Micah Bell pendant que Ross examine le corps, interroge avec lui des témoins à Valentine et près de Rhodes, et observe John et Jack à Beecher's Hope."),
@@ -113,6 +117,12 @@ BLOCKS_QUOTES = [
         {"q": two("Mr. Marston, I ask you to calm down.", "Mr. Marston, I ask you to calm down."),
          "src": two("Bear One Another's Burdens (RDR1, Act III), when John threatens him in the Blackwater office",
                     "Bear One Another's Burdens (RDR1, acte III), quand John le menace dans le bureau de Blackwater. Traduction : « Monsieur Marston, je vous demande de vous calmer. »")},
+        {"q": two('Like you always say, sir, the higher the stakes, the smarter you have to play the game.', 'Like you always say, sir, the higher the stakes, the smarter you have to play the game.'),
+         "src": two("Bear One Another's Burdens (RDR1, Act III), to Ross, on the drive to the wreck",
+                    "Bear One Another's Burdens (RDR1, acte III), à Ross, sur la route de l'épave. Traduction : « Comme vous dites toujours, monsieur : plus les enjeux sont élevés, plus il faut jouer finement. »")},
+        {"q": two("It ends when we say it ends. You're in no position to make demands.", "It ends when we say it ends. You're in no position to make demands."),
+         "src": two("Bear One Another's Burdens (RDR1, Act III), when John asks where it will all end",
+                    "Bear One Another's Burdens (RDR1, acte III), quand John demande où tout cela s'arrêtera. Traduction : « Ça s'arrêtera quand nous le déciderons. Vous n'êtes pas en position d'exiger quoi que ce soit. »")},
         {"q": two("Van der Linde is the priority. We go in, take him down and get the hell out of here. Quick and clean.", "Van der Linde is the priority. We go in, take him down and get the hell out of here. Quick and clean."),
          "src": two("Bear One Another's Burdens (RDR1, Act III), on the way down to the wreck",
                     "Bear One Another's Burdens (RDR1, acte III), en descendant vers l'épave. Traduction : « Van der Linde est la priorité. On entre, on l'abat et on fiche le camp d'ici. Vite et proprement. »")},
@@ -122,12 +132,12 @@ BLOCKS_QUOTES = [
         {"q": two("I was trying to escape an ambush, sir.", "I was trying to escape an ambush, sir."),
          "src": two("Bear One Another's Burdens (RDR1, Act III), when Ross blames the breakdown on his driving",
                     "Bear One Another's Burdens (RDR1, acte III), quand Ross met la panne sur le compte de sa conduite. Traduction : « J'essayais d'échapper à une embuscade, monsieur. »")},
-        {"q": two("Our armed forces have no equal. We have made incredible progress the past few years.", "Our armed forces have no equal. We have made incredible progress the past few years."),
-         "src": two("And You Will Know The Truth (RDR1, Act III), when John remarks that the machine gun is turning heads",
-                    "And You Will Know The Truth (RDR1, acte III), quand John remarque que la mitrailleuse attire les regards. Traduction : « Nos forces armées n'ont pas d'égales. Nous avons fait des progrès incroyables ces dernières années. »")},
-        {"q": two("And this isn't much more than a simple prototype. You should see what they're working on in Virginia. Soon there will be no war we can't win.", "And this isn't much more than a simple prototype. You should see what they're working on in Virginia. Soon there will be no war we can't win."),
-         "src": two("And You Will Know The Truth (RDR1, Act III), on the way to the army camp",
-                    "And You Will Know The Truth (RDR1, acte III), en route vers le camp de l'armée. Traduction : « Et ce n'est guère plus qu'un simple prototype. Vous devriez voir ce qu'ils préparent en Virginie. Bientôt, il n'y aura plus une guerre que nous ne puissions gagner. »")},
+        {"q": two("Marston, you're a public menace. We should've had you killed.", "Marston, you're a public menace. We should've had you killed."),
+         "src": two('And You Will Know The Truth (RDR1, Act III), in the Blackwater office, after Ross tells John he has failed',
+                    'And You Will Know The Truth (RDR1, acte III), dans le bureau de Blackwater, après que Ross a reproché son échec à John. Traduction : « Marston, vous êtes un danger public. On aurait dû vous faire tuer. »')},
+        {"q": two('See, this is what happens when you fraternize with savages. How could you ever follow a man like that?', 'See, this is what happens when you fraternize with savages. How could you ever follow a man like that?'),
+         "src": two('And The Truth Will Set You Free (RDR1, Act III), on the ride to Cochinay',
+                    'And The Truth Will Set You Free (RDR1, acte III), sur la route de Cochinay. Traduction : « Voilà ce qui arrive quand on fraie avec des sauvages. Comment avez-vous pu suivre un homme pareil ? »')},
         {"q": two("It's time to kill these motherless bastards!", "It's time to kill these motherless bastards!"),
          "src": two("And The Truth Will Set You Free (RDR1, Act III), when the gate of Cochinay is blown",
                     "And The Truth Will Set You Free (RDR1, acte III), quand la porte de Cochinay saute. Traduction : « Il est temps de tuer ces fils de rien ! »")},
@@ -140,9 +150,6 @@ BLOCKS_QUOTES = [
         {"q": two("You leave Dutch to me. We don't want you gettin' that suit dirty.", "You leave Dutch to me. We don't want you gettin' that suit dirty."),
          "src": two("John Marston, Bear One Another's Burdens (RDR1, Act III), when Fordham sets out the plan",
                     "John Marston, Bear One Another's Burdens (RDR1, acte III), quand Fordham expose le plan. Traduction : « Laissez-moi Dutch. On ne voudrait pas que vous salissiez ce costume. »")},
-        {"q": two("Nice of you to help us out. Hell of a plan sendin' in two men to take on an entire gang of outlaws. Especially when one of them's an office clerk or social secretary or some such.", "Nice of you to help us out. Hell of a plan sendin' in two men to take on an entire gang of outlaws. Especially when one of them's an office clerk or social secretary or some such."),
-         "src": two("John Marston, Bear One Another's Burdens (RDR1, Act III), to Ross, back in the car",
-                    "John Marston, Bear One Another's Burdens (RDR1, acte III), à Ross, de retour dans la voiture. Traduction : « Merci du coup de main. Sacré plan, d'envoyer deux hommes contre toute une bande de hors-la-loi. Surtout quand l'un d'eux est un employé de bureau, un secrétaire mondain ou je ne sais quoi. »")},
         {"q": two("Perhaps if Mr. Fordham maneuvered it with a little more finesse.", "Perhaps if Mr. Fordham maneuvered it with a little more finesse."),
          "src": two("Edgar Ross, Bear One Another's Burdens (RDR1, Act III), when John complains about the automobile",
                     "Edgar Ross, Bear One Another's Burdens (RDR1, acte III), quand John se plaint de l'automobile. Traduction : « Peut-être que si M. Fordham la manœuvrait avec un peu plus de finesse. »")},
@@ -152,6 +159,9 @@ BLOCKS_QUOTES = [
         {"q": two("Can't you hold this thing steady, Fordham?", "Can't you hold this thing steady, Fordham?"),
          "src": two("Edgar Ross, And You Will Know The Truth (RDR1, Act III), during the chase off the road",
                     "Edgar Ross, And You Will Know The Truth (RDR1, acte III), pendant la poursuite hors de la route. Traduction : « Vous ne pouvez pas tenir ce machin droit, Fordham ? »")},
+        {"q": two("Ross don't seem too different. Dutch was a good man once, a far better man than you.", "Ross don't seem too different. Dutch was a good man once, a far better man than you."),
+         "src": two('John Marston, And The Truth Will Set You Free (RDR1, Act III), on the ride to Cochinay, after Fordham calls Dutch a psychopath',
+                    "John Marston, And The Truth Will Set You Free (RDR1, acte III), sur la route de Cochinay, quand Fordham traite Dutch de psychopathe. Traduction : « Ross n'a pas l'air bien différent. Dutch a été un homme bien, autrefois, bien meilleur que vous. »")},
         {"q": two("Come on, Archer, let's go find somebody else we can annoy.", "Come on, Archer, let's go find somebody else we can annoy."),
          "src": two("Edgar Ross, And The Truth Will Set You Free (RDR1, Act III), after Dutch's death",
                     "Edgar Ross, And The Truth Will Set You Free (RDR1, acte III), après la mort de Dutch. Traduction : « Venez, Archer, allons trouver quelqu'un d'autre à embêter. »")},
@@ -164,14 +174,12 @@ BLOCKS_TRIVIA = [
     {"ul": [
         two("Five of the missions in which Fordham appears take their titles from the Bible, as their mission pages note: \"Bear One Another's Burdens\" (Galatians 6:2), \"Great Men are Not Always Wise\" (Job 32:9), \"And You Will Know The Truth\" and \"And The Truth Will Set You Free\" (John 8:32) and \"The Last Enemy That Shall Be Destroyed\" (1 Corinthians 15:26).",
             "Cinq des missions où apparaît Fordham tirent leur titre de la Bible, comme le relèvent leurs pages de mission : \"Bear One Another's Burdens\" (Galates 6:2), \"Great Men are Not Always Wise\" (Job 32:9), \"And You Will Know The Truth\" et \"And The Truth Will Set You Free\" (Jean 8:32), et \"The Last Enemy That Shall Be Destroyed\" (1 Corinthiens 15:26)."),
-        two("According to the mission page of \"Bear One Another's Burdens\", Fordham starts the automobile from the driver's seat with the ignition, which the page notes was rare for cars of the time.",
-            "D'après la page de la mission \"Bear One Another's Burdens\", Fordham démarre l'automobile depuis le siège du conducteur, avec le contact, ce qui était rare sur les voitures de l'époque, note la page."),
         two("According to the Red Dead Wiki's page on the end credits of Red Dead Redemption 2, Ross and Fordham both wear Pinkerton badges in their 1907 scenes, although a newspaper of the epilogue reports that Ross now heads the Bureau of Investigation.",
             "D'après la page du Red Dead Wiki consacrée au générique de fin de Red Dead Redemption 2, Ross et Fordham portent tous deux un insigne Pinkerton dans leurs scènes de 1907, alors qu'un journal de l'épilogue annonce que Ross dirige désormais le Bureau of Investigation."),
-        two("According to the mission page of \"Americans at Rest\" (Red Dead Redemption 2, chapter 2), the woman Ross and Fordham talk to in the Valentine saloon during the credits is one of the two women [[javier-escuella|Javier Escuella]] drinks with in that mission.",
-            "D'après la page de la mission \"Americans at Rest\" (Red Dead Redemption 2, chapitre 2), la femme à qui Ross et Fordham parlent dans le saloon de Valentine pendant le générique est l'une des deux femmes avec qui [[javier-escuella|Javier Escuella]] boit dans cette mission."),
-        two("A U.S. marshal, Isaac McKinnon, is often taken for Fordham in \"The Last Enemy That Shall Be Destroyed\", according to the English-language Red Dead Wiki: he stands near Ross after John's death, wears a similar dark three-piece suit and bowler hat, and has similar features. The French-language wiki goes further and holds that Fordham is not in the mission at all, and that the man seen beside Ross is McKinnon.",
-            "Selon le Red Dead Wiki anglophone, un marshal, Isaac McKinnon, est souvent pris pour Fordham dans \"The Last Enemy That Shall Be Destroyed\" : il se tient près de Ross après la mort de John, porte un costume trois pièces sombre et un chapeau melon semblables, et lui ressemble de visage. Le wiki francophone va plus loin : selon lui, Fordham est absent de la mission, et l'homme vu aux côtés de Ross est McKinnon."),
+        two("According to the mission page of \"Americans at Rest\" (Red Dead Redemption 2, chapter 2), the woman Ross and Fordham talk to in the Valentine saloon during the credits is one of the two women [[javier-escuella|Javier Escuella]] is talking to at the bar in that mission.",
+            "D'après la page de la mission \"Americans at Rest\" (Red Dead Redemption 2, chapitre 2), la femme à qui Ross et Fordham parlent dans le saloon de Valentine pendant le générique est l'une des deux femmes avec qui [[javier-escuella|Javier Escuella]] discute au bar dans cette mission."),
+        two("The two Red Dead Wikis disagree about Fordham's presence in \"The Last Enemy That Shall Be Destroyed\". The English-language wiki places him among the men at the barn. It also names a U.S. marshal, Isaac McKinnon, who looks and dresses like Fordham and stands beside Ross in the last cutscene, and notes that the two are often confused. The French-language wiki holds that Fordham is not in the mission at all and that the man beside Ross is McKinnon.",
+            "Les deux Red Dead Wiki ne s'accordent pas sur la présence de Fordham dans \"The Last Enemy That Shall Be Destroyed\". Le wiki anglophone le compte parmi les hommes postés devant la grange. Il signale aussi un marshal, Isaac McKinnon, qui a le physique et la tenue de Fordham, et qui se tient aux côtés de Ross dans la dernière cinématique ; on confond souvent les deux hommes, note-t-il. Le wiki francophone soutient que Fordham est absent de la mission et que l'homme aux côtés de Ross est McKinnon."),
     ]},
 ]
 
