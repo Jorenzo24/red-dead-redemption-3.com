@@ -12,3 +12,4 @@
 10. The Haiti line ("back to Haiti"): quoted once (B, In his own words); elsewhere at most a pointer.
 11. Personality: official description sentence + traits observable, no second biography, no interpretation.
 12. "French with his men": only one rebel speaks French to him; his own French lines are exclamations.
+13. Cross-fiche (this fixer only, EN+FR, minimal edits): arthur_D Hercule entry (drop "Haitian"; Arthur takes a dead guard's gun while the others free themselves; "an old building", not a tower; only Dutch thanks him at the dock); fussar_B "The Haitian smuggler" -> drop "Haitian"; dutch_B and arthur_C: the workers had escaped and were being hunted, not "captured", when Hercule made the deal (verify in transcript first).
