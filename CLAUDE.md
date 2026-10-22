@@ -676,8 +676,8 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     générique). Accueil : WhatCulture (Dustin Crawford, 16 juin 2020). Corrigé chez Arthur (arme prise à un garde mort, vieux
     bâtiment et non tour, seul Dutch remercie Hercule au quai), Dutch (fusils et revolvers en caisses, ouvriers évadés et
     traqués) et dans le guide ch. 6 EN+FR (Rains Fall cherche une paix négociée, pas un déménagement).
-  - **Rains Fall v3** : 6 190 mots EN, 12 relations, galerie 3 (dessins « Rains Come » écartés). Publié par le drip le
-    23 oct. puis remplacé par la v3. Wapiti en 1907 : Blackwater Ledger n° 72 (« Pump Jacks Sit Silent ») + réplique
+  - **Rains Fall v3** : 6 190 mots EN, 12 relations, galerie 3 (dessins « Rains Come » écartés). Écrit directement en v3 dans sa
+    file `_queue/48-rains-fall/` (`_enrich.py` réécrit l'élément de file si la fiche n'est pas en ligne), publié par le drip le 23 oct. Wapiti en 1907 : Blackwater Ledger n° 72 (« Pump Jacks Sit Silent ») + réplique
     « we're in Canada now » (liste de citations du wiki, attribuée) ; la rencontre de 1907 n'a pas de transcription.
     Eagle Flies meurt dans la tente de son père, sur la réserve. Section « Chef, remèdes et chevaux ». Graham Greene mort à
     Stratford (Ontario), pas Toronto (premières dépêches). Sources ajoutées : Vulture (Dan Houser, 14 oct. 2018), Andrei Nae
