@@ -1,0 +1,139 @@
+{{Spoilers}}
+{{Infobox character
+|name           = Jon Gravelli
+|image          = JonGravelli-GTAIV.jpg
+|games          = {{Games|IV=y}}
+|mentioned      = {{Games|V={{UN|unseen}}}}
+|gender         = M
+|dob            = {{Circa}} [[1923]]
+|pob            = [[Meadow Hills]], [[Dukes]], [[Liberty City (HD Universe)|Liberty City]], [[State of Liberty (HD Universe)|Liberty]]
+|dod            = [[2008]] {{Small|(aged 85)}}
+|pod            = [[Schottler Medical Center]], [[Schottler]], [[Broker]], [[Liberty City (HD Universe)|Liberty City]], [[State of Liberty (HD Universe)|Liberty]]
+|cod            = Natural causes.
+|home           = [[Liberty City (HD Universe)|Liberty City]], [[State of Liberty (HD Universe)|Liberty]]
+|nationality    = {{Country|adj=y|IT|US}}
+|family         = [[Jon Gravelli, Jr.]] {{Small|(son)}} {{Status|I=y}}
+|affiliations   = 
+*[[Gambetti Family]] {{Small|(Leader)}}
+*[[The Commission]]
+*[[Sonny Cangelosi]] {{Status|D1=y}}
+*[[Jon Gravelli, Jr.]] {{Status|I=y}}
+*[[Messina Crime Family]]
+*[[Harvey Noto]]
+*[[United Liberty Paper contact]]
+*[[Niko Bellic]]
+*[[Bobby Jefferson]]
+|occupation     = Boss of the [[Gambetti Crime Family]]
+|status         = Deceased
+|voice          = [[Madison Arnold]]
+}}
+{{Quote|Everyone wants to pay homage to a dying legend, everyone wants the glamor of a bygone age...|Jon Gravelli to [[Niko Bellic]] in [[Liquidize the Assets]].|sound=JonGravelli-GTAIV-Quote.ogg}}
+'''Jon Gravelli''' is a main character in {{IV}}. He is also mentioned briefly in {{V}}.
+
+He is voiced by [[Madison Arnold]].
+
+==History==
+===Background===
+Gravelli was the [[Don]] of the [[Gambetti Crime Family]] in [[Liberty City (HD Universe)|Liberty City]] from [[1978]] until his death in [[2008]].
+
+====Life up to [[2008]]====
+Gravelli was born in [[Meadow Hills]], [[Dukes]], Liberty City {{Circa}} [[1923]]. It is likely that he was some way affiliated with a Dukes based Mafia regime since the age of 12, given his awareness of a rival organization, the [[Ancelotti Crime Family]]. His criminal record dates back to [[1940]], when he was arrested at the age of seventeen for possession of gambling records.
+
+He continued to participate in minor and rigorous criminal activities, having been arrested for grand theft auto, attempted murder, and bribery - though his LCPD record states that he has never been in prison.
+
+His son, [[Jon Gravelli, Jr.]], was born in [[1968]], and he grew up to become an associate within the Gambetti family, presumably working for his father. Gravelli, Jr. soon developed a cocaine addiction however, and was disowned by the family.
+
+In [[1972]], Gravelli almost killed [[Giovanni Ancelotti]]'s uncle, but decided to spare him, a decision he regretted later.
+
+Gravelli became the boss of the [[Gambetti Family]] in [[1978]], after the death of [[Sonny Cangelosi]]. Under Gravelli's leadership, the Gambettis became the most powerful Italian-American faction in Liberty City.
+
+During the early 1990s, Gravelli was arrested twice, for racketeering and murder and obstruction of justice, although he was acquitted of both charges. Sometime in the late 1990s to the early 2000s, Gravelli started to work with [[United Liberty Paper]] company, and befriended one of the company's senior [[United Liberty Paper contact|agents]].
+
+In [[2005]], whilst awaiting trial, Gravelli was admitted to the [[Schottler Medical Center]] with a serious illness. He was still awaiting trial in 2006 whilst still hospitalised when he was charged with racketeering.
+
+===Events of ''Grand Theft Auto IV''===
+Gravelli was introduced to [[Niko Bellic]] in 2008 via [[Mobile Phone|phone]] through his [[United Liberty Paper contact|contact]] at the [[United Liberty Paper]] company, who is referred to as a "mutual friend". Niko was first ordered by Gravelli to provide security for a [[Bobby Jefferson|politician]] who was wanted dead by Dimitri Rascalov's organization. Niko and the convoy are [[Entourage|ambushed]] on a back street, but they survive the hit. Next, Gravelli sends Niko to kill [[Kim Young-Guk]] for running a counterfeiting operation in Gambetti territory.
+
+In [[Liquidize the Assets]], he hired Niko to destroy multiple Ancelotti drug vans, and in return for his efforts, the ULP located [[Darko Brevic]], the man who sold out the [[Fifteen Man Squad|military unit]] he and Niko were members of during the Yugoslav Wars - Brevic was smuggled into Liberty City where he was confronted by Niko, who then chooses either to spare or execute him.
+
+====Death====
+After the [[Endings in GTA IV|completion]] of the storyline, internet and radio news reports announced that Gravelli died peacefully in his sleep in the hospital at the age of 85.
+
+==Character==
+===Personality===
+As the leader of the most powerful mafia family in Liberty City, Gravelli is confident but not arrogant. He understands the limits of the power he obtains illegally and is part of the corrupt system of governance as opposed to against it, as his contacts range from hitmen like Niko, the [[United Liberty Paper contact|contact]] who is implied to be working for the [[International Affairs Agency|IAA]], to the mayor and senators. Gravelli describes himself as "vain", being concerned about his appearance despite his visibly emaciated body, and particularly concerned with his and his family's legacy, saying "if it wasn't me, it would just be someone else. So it might as well be me." He is somewhat patriotic and possibly xenophobic, as he is concerned with criminals of immigrant background like the Russians and [[Kim Young-Guk]] disrupting the status quo, and agrees to assist the ULPC contact with stopping the Ancelottis and Russians from working together, as they would create a risk to national security. He may also be homophobic, as he refers to [[Bernie Crane]] as a f*****, although this may be because of the language that an elderly man like himself was brought up using, or how "f*****" was considered a more socially acceptable word at the time of the game's release as opposed to any actual homophobic tendencies. It's highly unlikely that it actually matters to him considering his underboss, [[Roy Zito]], is rumored to be homosexual. Perhaps a testament to this is the fact that Zito is so fiercely loyal to his don, it was rumored that when Jon Gravelli had kidney failure, Zito offered him his kidney. Gravelli refused the offer, but Zito cut his kidney out himself and presented it to Gravelli in a bucket of ice.
+
+Above all, Gravelli is as ruthless as one would expect a mafia boss to be. He rewards favors handsomely and treats disrespect and failure harshly.
+
+===LCPD Database Record===
+{{LCPDDB
+|firstname = Jon
+|surname = Gravelli
+|imagename = 
+|age = 85
+|pob = Meadow Hills, Liberty City
+|affiliations = 
+Gambetti Crime Syndicate
+|record = 
+1940 - Possession Gambling Records<br>
+1942 - Promoting Gambling<br>
+1942 - Assault<br>
+1944 - Grand theft Auto<br>
+1946 - Attempted Murder<br>
+1949 - Bribery<br>
+1990 - Racketeering and Murder<br>
+1992 - Obstruction of Justice<br>
+2006 - Racketeering<br>
+|notes = 
+- Head of the Gambetti Crime Syndicate since the death of Sonny Cangelosi in 1978.<br>
+- Indicted several times but never convicted of a serious crime.<br>
+- Resident of the Schottler Medical Center for the last 3 years due to an allegedly serious illness.<br>
+|status = Deceased
+}}
+
+==Prominent Appearances in Gameplay==
+*[[Entourage]] {{Small|(Boss)}}
+*[[Dining Out]] {{Small|(Boss)}}
+*[[Liquidize the Assets]] {{Small|(Boss)}}
+
+==Gallery==
+<gallery position="center" spacing="small" widths="270px">
+JonGravelli-Artwork.jpg|[[Grand Theft Auto IV/Artwork|Artwork]] of '''Jon Gravelli'''.
+JonGravelli-GTAIV-Entourage.jpg|'''Jon Gravelli''' in the mission [[Entourage]] on a [[Schottler Medical Center|hospital]] bed.
+</gallery>
+
+==Trivia==
+===General===
+*He is most likely based on {{WP|Carlo Gambino}}, former boss of the {{WP|Gambino crime family}}, on which the Gambettis are based, although his name shares similarities with {{WP|John Gotti}}. His last name is also similar to Gotti informant {{WP|Sammy Gravano|Sammy "The Bull" Gravano}}. He might also be based on {{WP|Giacomo Amari}}, the late acting boss of the {{WP|DeCavalcante crime family}} in {{WP|New Jersey}}, as he was diagnosed with stomach cancer during his tenure as acting boss, and as his condition worsened, he was unable to run the family as efficiently as before. However, Gravelli's illness appears to be respiratory in nature, as his voice is generally hoarse, and in [[cutscenes]], he occasionally has breaks in his speech to use his oxygen mask.
+*He shares a few similarities with {{Red Dead|Landon Ricketts}} from the ''[[Red Dead|Red Dead Redemption]]'' series.
+**Both are renowned criminals and at the end of their careers.
+**Both help the [[Protagonist|protagonists]] (Niko Bellic and [[John Marston]]) in locating their former associates (Niko hunting for Darko Brevic and John hunting for {{Red Dead|Javier Escuella}}) so they can decide their fate.
+**Both pass away at the end of their respective games.
+
+===''Grand Theft Auto IV''===
+*Despite being able to call Gravelli after missions, his number will not be recognized by [[Niko Bellic|Niko]]'s [[Mobile Phone|phone]] if the player tries to phone him at any other time.
+*Gravelli's model does not have legs, as he only appears in a hospital bed. His legs are actually part of the bed instead of his body.
+*A minor [[Glitches|glitch]] can occur whereby Gravelli is listed as "Deceased" on the [[Liberty City Police Department (HD Universe)/Database|LCPD database]] even whilst Niko is still performing missions for him.
+
+==Navigation==
+{{Navbox
+|title = Navigation
+|list1 = 
+{{Navbox gtaiv characters|state=collapsed}}
+{{Navbox gtav characters|state=collapsed}}
+}}
+
+[[Category:Characters in GTA IV]]
+[[Category:Male characters]]
+[[Category:Gangsters]]
+[[Category:Gang leaders]]
+[[Category:Gambetti crime family members]]
+[[Category:Mission givers]]
+[[Category:Deceased characters]]
+
+[[de:John Gravelli]]
+[[es:Jon Gravelli]]
+[[fr:Jon Gravelli]]
+[[pl:Jon Gravelli]]
+[[ru:Джон Гравелли]]
+[[sv:Jon Gravelli]]
