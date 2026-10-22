@@ -1,13 +1,8 @@
-# Hercule Fontaine fixers: shared decisions (binding)
+# Lead decisions for Hercule Fontaine (binding for checkers and fixer)
 
-Reports in this folder (scripts/v3/work/hercule/): fc_report1.md (half1: intro, facts, biography, personality), fc_report2.md (half2:
-relationships, skills, missions, quotes, development, reception, media, trivia), coverage_report.md.
-Fiche text: hercule_full_en.txt.
-Files: scripts/fiches/parts/hercule_A.py (biography), hercule_B.py (personality, names, appearance, skills,
-relationships), hercule_C.py (missions, quotes, trivia, media), hercule_D.py (base: facts, intro, essentials,
-development, reception). EN AND FR. SPEC.md rules apply. scripts/v3/rules/OWNERSHIP.md and scripts/v3/rules/HOUSE_FACTS.md apply.
-
-Decisions (the lead writes them here after reading the reports: one line per disputed point, which source wins):
-- 
-
-Report back: fixes applied per report item, items not applied with reason.
+1. Fussar fires a CANNON on the tower. Hercule's offer: if Fussar is silenced, he can get them away before anyone arrives from America. Hercule drawing Fussar's fire = Red Dead Wiki only (attributed, part A only). Arthur kicks the rifle to the captain.
+2. Fate after Guarma: never stated.
+3. Nationality: not stated in game. Quote his "I am not from here" / "back to Haiti" lines; "Haitian" only "according to the Red Dead Wiki". Cross-fiche (fixer applies, EN+FR, minimal): fussar_B "The Haitian smuggler" and arthur_D "The Haitian rebel" / "Le rebelle haïtien" -> drop "Haitian" or attribute.
+4. No gallery (no usable images). The old gallery-1 is not used.
+5. Quote ownership: lines quoted in B (see hercule_B docstring) are not quoted again in A or C.
+6. La Capilla: the wiki contradicts itself (rebel camp vs Fussar outpost); do not label it, or give both attributed in one place.
