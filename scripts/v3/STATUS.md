@@ -8,6 +8,8 @@ scripts/_enrich.py; total = characters/*/ folders + _queue/ items).
 ## In progress (one line per fiche: key, step, device, WIP branch)
 | Fiche | key | Step | Where | WIP branch |
 |---|---|---|---|---|
+| Eagle Flies | eagle | gallery+modules done, drafting (queued 2026-10-26: final build writes _queue/49-eagle-flies) | Mac session | wip/v3-eagle-calderon |
+| Sister Calderón | calderon | gallery+modules done, drafting (queued 2026-10-29; wiki page = "Mother Superior Calderón") | Mac session | wip/v3-eagle-calderon |
 
 A fiche listed here with a WIP branch can be resumed from any device: check out the branch first.
 

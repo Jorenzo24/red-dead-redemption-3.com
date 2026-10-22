@@ -1,0 +1,100 @@
+{{User/characterbox
+|name = Eagle Flies
+|image = EagleFliesRDR2New.png
+|nationality = [[Native Americans|Native American]] <small>([[Wapiti Indians|Wapiti]])</small>
+|gender = Male
+|location = [[Wapiti Indian Reservation]], in<br>[[Grizzlies East]], State of [[Ambarino]]
+|affiliations = [[Wapiti Indians]]<br>[[Van der Linde gang]]
+|family = [[Rains Fall]] <small>(father)</small><br>Unnamed brother {{Icon|dead}}<br>Unnamed mother {{Icon|dead}}
+|game = ''[[Red Dead Redemption 2]]''
+|voice = [[Jeremiah Bitsui]]
+|weapon = [[Bow]]<br>[[Carbine Repeater]]<br>[[Lancaster Repeater]]<br>[[Springfield Rifle (RDR 2)|Springfield Rifle]]
+|mount = Splashed White [[American Paint]] <br/> Splashed White American Paint (Palomino Base) <br/> Tobiano  American Paint
+}}
+{{Quote|Father has confused wisdom with weakness. His people, my people, we've suffered too much, been lied to too much.|Eagle Flies on the state of his tribe}}
+[[File:EagleFlies-RDR2-Quote.ogg|noicon|center]]
+'''Eagle Flies''' is a [[Characters in Redemption 2|major character]] featured in ''[[Red Dead Redemption 2]]''.
+
+== History ==
+=== Background ===
+Eagle Flies is the second son of [[Rains Fall]]. At some point before 1899, both his brother and mother were killed by the [[United States Army|U.S. Army]], and he, along with his people, was moved onto the [[Wapiti Indian Reservation]].
+
+=== Events of ''Red Dead Redemption 2'' ===
+==== [[Colter]] Chapter ====
+Eagle Flies is first seen when the gang are relocating from [[Colter]] to [[Horseshoe Overlook]], where he is observing [[Van der Linde gang|the gang]]’s journey from atop the cliff alongside Rains Fall and [[Paytah]].
+
+==== [[Saint Denis]] Chapter ====
+Eagle Flies is next seen at [[Henri Lemieux|Mayor Henri Lemieux's]] party in [[Saint Denis]] with his father. Soon afterwards, [[Arthur Morgan|Arthur]] meets him with his father and [[Evelyn Miller]] where he offers Arthur with a possible job opportunity: they have learned that the army plans on moving them off of their reservation, in order to allow the [[Cornwall Kerosene & Tar|Cornwall Company]] to drill for oil on their land. Arthur accepts the offer and meets up with Eagle Flies near the oil refinery. Eagle Flies advises Arthur to board a wagon into the refinery, which he does. After Arthur steals the documents, he makes his escape from the building but quickly runs into trouble. Luckily, Eagle Flies causes an explosion, allowing Arthur to escape in the chaos. After the two fight their way out, Eagle Flies pays Arthur and tells him that he hopes the papers help them with lobbying the army.
+
+==== [[Beaver Hollow]] Chapter ====
+Eagle Flies is next encountered when he rides into the Beaver Hollow with [[Charles Smith|Charles]]. He explains that the army has confiscated the tribe's horses and, as Arthur helped him before, he hopes that he may help him to get them back. [[Dutch van der Linde|Dutch]], in the hope of redirecting the army's attention away from the gang, agrees to help. Arthur and Charles decide to go too, wary of Dutch's motives. Once there, the four men silently canoe over to the ferry and climb aboard. They quickly knock out the guards, drop the anchor, and take the horses back to the mainland. Once back, Dutch tells Eagle Flies he wants to talk to him, and they will depart to the reservation.
+
+Dutch and Eagle Flies make a plan to trap an army patrol in a valley, in order to tar and feather them. Eagle Flies, Paytah, and several other Indians proceed to meet up with Dutch and Arthur. They set up dynamite in the trees and, when the patrol arrives, set it off, trapping the soldiers. They point their guns at them, only for swarms of reinforcements to quickly attack the Indians and their allies. Eagle Flies, Paytah, Dutch and Arthur survive the initial onslaught, but Paytah is wounded. Eagle Flies attempts to rescue him but is captured and taken to [[Fort Wallace]].
+
+Arthur and Charles go on a rescue mission for Eagle Flies and succeed in breaking into the fort. They sneak into the prison, unlock his cell, and carry him out. After shooting through the guards, Arthur blows down a weak spot in the wall and they escape on horseback until reaching a river, where Charles puts Eagle Flies into a canoe. They then sail downstream, while Arthur covers them. After escaping, Charles takes Eagle Flies back to his father.
+
+Eagle Flies later rides into Beaver Hollow with the majority of the younger members of his tribe and asks the gang to join him in an attack on the [[Heartland Oil Fields]]. Rains Fall rides up and begs them not to attack the US Army, but Eagle Flies defiantly brushes off his father's concern and rides away with his men. The gang decide to follow him and arrive at the refinery to find the Indians scattered, with Eagle Flies fighting for his life at the center of the oil fields. Arthur leads [[Sadie Adler|Sadie]], Charles, and a group of the Indians to rescue him. After they meet, Eagle Flies tells them that they must save every Indian they see.
+
+After most of the soldiers had been defeated, Dutch and Arthur enter the warehouse to find the state bonds. While the two are about to exit the warehouse, some soldiers attack them. A pipe bursts while Arthur is escaping, leaving him incapacitated and at the mercy of the soldiers—after Dutch chooses to abandon him—resulting in Eagle Flies charging in and slaying the three soldiers about to kill him. Then, [[Henry Favours|Colonel Favours]] appears and mortally wounds Eagle Flies with a shot to the abdomen. Instantly after, Arthur shoots and kills Favours in retaliation before helping Eagle Flies up. Arthur expresses dismay at Eagle Flies' reckless attempt to help him, calling him a "silly fool", only for the latter to state that the former saved his life more than once and that he had to return the favor. Arthur, Paytah, and Charles then bring the weakened Eagle Flies back to Rains Fall at the reservation, and he dies in his father's arms shortly afterwards.
+
+====Legacy====
+The attack on the oil refinery ended up causing the opposite of what Eagle Flies intended, as the remaining Wapiti would be forced to flee their ancestral lands and escape to Canada, where they would incur heavy casualties during the journey and would be reduced to a “bunch of families” rather than a tribe by 1907. Before they left, however, the tribe buried Eagle Flies' body near the reservation.
+
+The way that Dutch used Eagle Flies not only sparked a chain of events that would get the latter killed, but it also gave Arthur a new perspective on Dutch, becoming horrified at his actions, describing Eagle Flies as "Another angry fool [Dutch] used". Arthur began to see that Dutch had been taking advantage of him all those years, just like with Eagle Flies, causing his relationship with him to become strained even further. Arthur's negative feelings toward Dutch were accentuated by the latter leaving him to die at the refinery, an action that indirectly killed Eagle Flies who stepped in to save Arthur.
+
+After fleeing to Canada, Rains Fall temporarily returns to the Wapiti's ancestral homelands to pay his respects to Eagle Flies in 1907. During an encounter with [[John Marston]], Rains Fall tells him that he is still mourning for his last son all these years after his death.
+
+In the [[Ending Credits]], Rains Fall is seen standing atop a mountain overlooking the map, as he notices an eagle flying above him, reminding him of his son.
+
+Eagle Flies' manipulation by Dutch would later be echoed by the latter's manipulation of Native Americans in 1911, wherein he forms a new gang primarily comprised of them. Under the pretense of "fighting for an idea," they would commit various crimes like robbery and murder until John stops them and Dutch dies by suicide.
+
+==Character==
+=== Personality ===
+Eagle Flies is a prideful and reckless young man who is greatly angered by the injustices his tribe is subjected to by the Army, whom he has deemed dishonorable as they had been paid off by [[Leviticus Cornwall]] to force the Indians off the reservation lands, which are supposedly oil-rich. In response to these grievances, Eagle Flies came to believe that war with the Army is the only solution open to the tribe, believing in the glory in death and valuing the old warrior ways of the Wapiti, while outright rejecting the pacifistic values Rains Fall desperately tries to hold onto.
+
+Though initially wary of Arthur Morgan and the Van der Linde gang's interest in their tribe, he began to feel a camaraderie with them when Arthur pointed out that the U.S. government wasn't very fond of outlaws any more than the Indians. This sense of camaraderie only furthered after a number of generous acts by Arthur for his tribe, and when Eagle Flies himself was rescued by Arthur and Charles after he was captured and sentenced to die by the Army.
+
+However, this, coupled with his anger towards the Army, left Eagle Flies vulnerable to being manipulated by Dutch, who had wanted to use the Wapiti as a distraction in order to divert attention away from the gang. Arthur, having become wary of Dutch's increasingly erratic leadership, had come to realize this and reflected this on his own past with Dutch. Due to his pacifism, Rains Fall, while understanding the plight his tribe faces from decades of abuse by the Army, came to believe that he was a disappointment to Eagle Flies.
+
+This eventually came to a head when Eagle Flies and a large group of his tribesmen decided to mount an assault on the oil fields, even asking the Van der Linde gang to ride with them. Despite Rains Fall's pleas for his son to stand down, Eagle Flies stated that his father's words "mean nothing" to him and nihilistically carried out the attack, during which heavy losses were sustained. Towards the end of the battle, Eagle Flies saves Arthur from being killed by the Army, only to be fatally wounded by Colonel Favours himself.
+
+In the end, Eagle Flies had not regretted saving Arthur, and he was but another person used by Dutch who ended up losing his life in the process. In what could perhaps be seen as ironic, Eagle Flies' death meant that he never accompanied his tribe in moving to Canada or suffered the hardships they faced there. Instead, he ultimately sacrificed himself for Arthur, thus gaining the honor and glory in death that he had always wanted.
+
+==Mission appearances==
+;''Red Dead Redemption 2''
+*"[[Eastward Bound]]"
+*"[[The Gilded Cage]]"
+*"[[American Fathers I]]"
+*"[[American Fathers II]]"
+*"[[A Rage Unleashed]]"
+*"[[Favored Sons]]"
+*"[[The King's Son]]"
+*"[[My Last Boy]]"
+
+==Trivia==
+* The player can find his grave west of [[Donner Falls]].
+* Eagle Flies has a unique [[American Paint]] which resembles the "Splashed White" variant.
+* Eagle Flies and [[Nastas]] share some similarities to each other: 
+** Both are acquaintances of the protagonist during their first meeting and later mutual respect due to American civilization ruining their life and society. For Eagle Flies, he despises the US Army for their cruel treatment of Wapiti Tribe and respected Arthur for serving his tribe. For Nastas, both he and John cooperate to stop the young tribe from joining Dutch's Gang as it will lead to further destruction for his tribe. Nastas is angry that the hunters only hunt buffalo for sport which leads to near extinction of the buffalo, and he claims that the US government had no respect for land as they cut their trees and used their land for industrialization.
+** Both are sympathized with by protagonists about their tribes at conflict with the US government.
+** Both tried to help their own tribe in different ways. Eagle Flies prefers violence and vengeance against the US Army for attempting to steal their horses and their medicine for smallpox, and especially imprisoning him in Fort Wallace after Colonel Favours violated the treaty that they signed upon themselves. Nastas prefers nonviolence as he attempts to save his tribe from joining Dutch's gang by cooperating with the US government, similar to how Chief Rains Fall tried to save his tribe from being annihilated by the US Army by making a peace agreement with the US government unconditionally, only to be violated by Colonel Favours and Leviticus Cornwall. Nastas does use violence only to defend himself; as John and Nastas venture themselves to a mining area in Tall Trees looking for a way in to scout Fort Cochinay, he shoots an insane miner after getting injured in the arm with a knife.
+** Both of them ultimately die under tragic circumstances: [[Enepay]] shoots Nastas in the head, while Colonel Favours shoots Eagle Flies in the abdomen, and he eventually succumbs to his wounds after he arrives at the Wapiti Reservation.
+
+==Gallery==
+<gallery captionalign="center" position="center" hideaddbutton="true">
+Eagle.png|Eagle Flies with war paint
+2EB24538-4F62-49F1-A4C7-CA65515F9725.jpeg|Visiting the grave of Eagle Flies as [[John Marston]], 1907
+File:Eagle Flies' American Paint.PNG|Eagle Flies' unique horse
+EagleFliesScouting.jpg|Eagle Flies scouting out [[Heartland Oil Fields]] before "[[American Fathers II]]"
+AmericanFathersIIEnd.jpg|Eagle Flies at the end of "American Fathers II"
+</gallery>
+
+==Navigation==
+{{Characters 2}}
+{{RDRII}}
+{{DEFAULTSORT:Eagle, Flies}}
+[[de:Eagle Flies]]
+[[fr:Aigle-Qui-Vole]]
+[[ru:Парящий Орел]]
+[[tr:Uçan Kartal]]
+[[Category:Characters in Redemption 2]]

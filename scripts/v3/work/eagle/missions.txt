@@ -1,0 +1,16 @@
+Eastward Bound	scripts/v3/work/_m/Eastward_Bound.txt
+Eastward Bound/dialogues	scripts/v3/work/_m/Eastward_Bound_dialogues.txt
+The Gilded Cage	scripts/v3/work/_m/The_Gilded_Cage.txt
+The Gilded Cage/dialogues	MISSING (no such wiki page)
+American Fathers I	scripts/v3/work/_m/American_Fathers_I.txt
+American Fathers I/dialogues	MISSING (no such wiki page)
+American Fathers II	scripts/v3/work/_m/American_Fathers_II.txt
+American Fathers II/dialogues	MISSING (no such wiki page)
+A Rage Unleashed	scripts/v3/work/_m/A_Rage_Unleashed.txt
+A Rage Unleashed/dialogues	MISSING (no such wiki page)
+Favored Sons	scripts/v3/work/_m/Favored_Sons.txt
+Favored Sons/dialogues	MISSING (no such wiki page)
+The King's Son	scripts/v3/work/_m/The_King_s_Son.txt
+The King's Son/dialogues	MISSING (no such wiki page)
+My Last Boy	scripts/v3/work/_m/My_Last_Boy.txt
+My Last Boy/dialogues	MISSING (no such wiki page)
