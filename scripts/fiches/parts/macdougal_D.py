@@ -94,7 +94,7 @@ BASE = {
     "facts": [
         {"label": two("Name", "Nom"), "value": two("Harold MacDougal", "Harold MacDougal")},
         {"label": two("Also known as", "Autres noms"), "value": two("Professor, Professor MacDougal; Dr. MacDougal in the Game of the Year guide (Red Dead Wiki)", "Professor, Professor MacDougal ; Dr. MacDougal dans le guide Game of the Year (Red Dead Wiki)")},
-        {"label": two("Born", "Naissance"), "value": two("Not given in the game; 42 years old according to the Game of the Year guide, cited by the Red Dead Wiki", "Non précisée dans le jeu ; 42 ans selon le guide Game of the Year, cité par le Red Dead Wiki")},
+        {"label": two("Born", "Naissance"), "value": two("Not given in the game; 42 years old according to the Game of the Year guide, cited by the Red Dead Wiki, which places his birth around 1869", "Non précisée dans le jeu ; 42 ans selon le guide Game of the Year, cité par le Red Dead Wiki, qui en déduit une naissance vers 1869")},
         {"label": two("Status", "Statut"), "value": two("Alive in 1914, when the Blackwater Ledger & Sentinel reports his expulsion from Yale; killed by an undead Nastas in Undead Nightmare (non-canon)", "En vie en 1914, quand le Blackwater Ledger & Sentinel annonce son renvoi de Yale ; tué par Nastas, devenu mort-vivant, dans Undead Nightmare (hors canon)")},
         {"label": two("Nationality", "Nationalité"), "value": two("American (from Connecticut)", "Américaine (originaire du Connecticut)")},
         {"label": two("Residence", "Résidence"), "value": two("A room at the Blackwater Hotel (1911); New Haven, Connecticut", "Une chambre de l'hôtel de Blackwater (1911) ; New Haven, Connecticut")},
@@ -113,8 +113,8 @@ BASE = {
             "Quand la bande de Dutch attaque son hôtel, John lui fait traverser les toits et l'escorte jusqu'au train de Manzanita Post, et il repart pour Yale. En 1914, un journal annonce que Yale l'a renvoyé après qu'il a frappé un collègue avec un maillet de croquet. Dans Undead Nightmare, qui ne relève pas du canon, il est tué par Nastas devenu mort-vivant. Il a la voix de Joe Ochman."),
     ],
     "essentials": [
-        two("In \"Bear One Another's Burdens\", Ross and Fordham bring the wounded Nastas to his room in Blackwater and ask him to find out what Nastas knows about Dutch.",
-            "Dans \"Bear One Another's Burdens\", Ross et Fordham amènent Nastas blessé dans sa chambre de Blackwater et lui demandent de découvrir ce que Nastas sait de Dutch."),
+        two("In \"Bear One Another's Burdens\", Ross, Fordham and John bring the wounded Nastas to his room in Blackwater, and Fordham asks him to find out what Nastas knows about Dutch.",
+            "Dans \"Bear One Another's Burdens\", Ross, Fordham et John amènent Nastas blessé dans sa chambre de Blackwater, et Fordham le charge de découvrir ce que Nastas sait de Dutch."),
         two("In \"At Home with Dutch\", he rides with John and Nastas to the cliffs below Cochinay, then turns back to Blackwater.",
             "Dans \"At Home with Dutch\", il chevauche avec John et Nastas jusqu'aux falaises sous Cochinay, puis rebrousse chemin vers Blackwater."),
         two("In \"For Purely Scientific Purposes\", the meeting with Dutch's men at Bearclaw Camp turns into an ambush in which Nastas is killed; John brings MacDougal back to Blackwater.",

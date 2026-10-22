@@ -133,3 +133,5 @@ Hierarchy everywhere: transcripts > mission pages > character pages of the wiki.
 - RDR1 "An Appointed Time": Allende and Bill die on the road fleeing by stagecoach, shot by John or by Reyes; if John shoots neither, Reyes shoots both.
 - Reyes is in power by 1911 (Blackwater Ledger No. 60) and still in 1914; the 1914 article does not say who ordered the shooting.
 - Undead Nightmare: "A Civilized Man" is the second-to-last mission; "On a Pale Horse" is the last.
+- RDR1 Nastas is the Bureau's informant (Fordham: "our informant"); Ross leaves him with MacDougal. Nastas alone carries John down the mountain. Enepay shoots him in the head at Bearclaw Camp. Notice: Blackwater Ledger No. 59 (1911).
+- RDR1 Undead Nightmare, "Curious Tales from Blackwater": the objective is to kill or avoid the undead Nastas and MacDougal.

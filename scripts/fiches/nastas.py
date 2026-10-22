@@ -63,12 +63,10 @@ def _g(n, alt_en, alt_fr, cap_en, cap_fr):
 GALLERY = [
     _g(1, "Close-up of Nastas wearing a red headband", "Gros plan de Nastas portant un bandeau rouge",
        "Nastas in Red Dead Redemption.", "Nastas dans Red Dead Redemption."),
-    _g(2, "Nastas, John Marston and others with hands raised", "Nastas, John Marston et d'autres, mains levées",
-       "Nastas with John Marston.", "Nastas avec John Marston."),
-    _g(3, "Nastas and John Marston outdoors", "Nastas et John Marston en extérieur",
-       "Nastas and John.", "Nastas et John."),
-    _g(4, "Nastas and Harold MacDougal on a dark staircase", "Nastas et Harold MacDougal dans un escalier sombre",
-       "Nastas with Harold MacDougal.", "Nastas avec Harold MacDougal."),
-    _g(5, "An undead Nastas in a street", "Nastas mort-vivant dans une rue",
+    _g(2, "Nastas, John Marston and Harold MacDougal held at gunpoint, hands raised", "Nastas, John Marston et Harold MacDougal tenus en joue, mains levées",
+       "Nastas, John and MacDougal held at gunpoint at the Bear Claw cabin in \"For Purely Scientific Purposes\".", "Nastas, John et MacDougal tenus en joue à la cabane de Bear Claw dans \"For Purely Scientific Purposes\"."),
+    _g(3, "Nastas and Harold MacDougal looking down", "Nastas et Harold MacDougal regardant vers le bas",
+       "Nastas and MacDougal watch John wake up in MacDougal's room at the end of \"At Home with Dutch\".", "Nastas et MacDougal regardent John se réveiller dans la chambre de MacDougal, à la fin de \"At Home with Dutch\"."),
+    _g(4, "An undead Nastas in a street", "Nastas mort-vivant dans une rue",
        "Undead Nightmare (non-canon): Nastas among the undead.", "Undead Nightmare (hors canon) : Nastas parmi les morts-vivants."),
 ]

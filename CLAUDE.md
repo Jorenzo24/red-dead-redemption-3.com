@@ -639,5 +639,14 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     Gatling et les munitions (via Shaky) mais manque Fort Mercer (guide acte I corrigé EN+FR : pas « des contacts qu'il n'a
     pas »). Avis de 1914 : coup de feu accidentel (le wiki FR dit « explosion », à tort), lien avec Irish attribué au wiki.
     Ledger n° 56 nomme Alwyn Lloyd et Leander Holland. Voix : K. Harrison Sweeney (interview, blog du Red Dead Wiki, 2011).
+  - **Nastas v3** : 4 360 mots EN, 6 relations, galerie 4 (image de sa mort écartée, trop crue). Informateur DU BUREAU
+    (Fordham : « our informant »), confié par Ross à MacDougal ; pas le guide de MacDougal. Il porte seul John au bas de la
+    montagne. Tué d'une balle dans la tête à Bearclaw Camp par Enepay (« treacherous snake »). Avis de MacDougal : Blackwater
+    Ledger n° 59 (1911). Voix : Benjamin Byron Davis (aussi Dutch). L'ancienne fiche (vague 6) avait des affirmations sans
+    source, toutes retirées. Corrigé chez Dutch, John et dans le guide acte III (EN+FR).
+  - **Harold MacDougal v3** : 5 580 mots EN, 10 relations, galerie 5 (2 dernières = Undead Nightmare). Ours tué par
+    MacDougal ET John ; il monte le premier sur le toit et y est pris en otage par Nashoba. Ledger n° 59 (« Blackwater beset by
+    savages »), article de 1914 (dernière mention, rien sur la suite). Voix : Ochman. Corrigé chez Ross (aucune source pour
+    « Ross apprend de MacDougal que John est allé à Cochinay »).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).

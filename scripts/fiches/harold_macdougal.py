@@ -61,14 +61,14 @@ def _g(n, alt_en, alt_fr, cap_en, cap_fr):
     return {"img": f"gallery-{n}.jpeg", "alt": two(alt_en, alt_fr), "cap": two(cap_en, cap_fr)}
 
 GALLERY = [
-    _g(1, "Harold MacDougal at a desk with a bottle and a microscope", "Harold MacDougal à un bureau avec une bouteille et un microscope",
-       "Harold MacDougal in Red Dead Redemption.", "Harold MacDougal dans Red Dead Redemption."),
-    _g(2, "MacDougal in a town street at night", "MacDougal dans une rue, de nuit",
-       "MacDougal in Blackwater.", "MacDougal à Blackwater."),
-    _g(3, "MacDougal and Nastas on a dark staircase", "MacDougal et Nastas dans un escalier sombre",
-       "MacDougal with Nastas.", "MacDougal avec Nastas."),
-    _g(4, "MacDougal facing the camera, John Marston behind him", "MacDougal face à l'objectif, John Marston derrière lui",
+    _g(1, "Harold MacDougal at a desk with a microscope, bookshelves behind", "Harold MacDougal à un bureau avec un microscope, des étagères derrière",
+       "Harold MacDougal in his office in Red Dead Redemption.", "Harold MacDougal dans son bureau, dans Red Dead Redemption."),
+    _g(2, "MacDougal and Nastas leaning over the camera", "MacDougal et Nastas penchés vers l'objectif",
+       "MacDougal and Nastas watch John wake up in Blackwater at the end of \"At Home with Dutch\".", "MacDougal et Nastas regardent John se réveiller à Blackwater, à la fin de \"At Home with Dutch\"."),
+    _g(3, "MacDougal facing the camera in his office, John Marston behind him", "MacDougal face à l'objectif dans son bureau, John Marston derrière lui",
        "MacDougal with John Marston.", "MacDougal avec John Marston."),
+    _g(4, "MacDougal in a deserted street at night with fires", "MacDougal dans une rue déserte, de nuit, au milieu des incendies",
+       "Undead Nightmare (non-canon): MacDougal in Blackwater in \"Curious Tales from Blackwater\".", "Undead Nightmare (hors canon) : MacDougal à Blackwater dans \"Curious Tales from Blackwater\"."),
     _g(5, "MacDougal beside an undead Nastas in a street", "MacDougal à côté de Nastas mort-vivant dans une rue",
        "Undead Nightmare (non-canon): MacDougal and the undead Nastas.", "Undead Nightmare (hors canon) : MacDougal et Nastas mort-vivant."),
 ]
