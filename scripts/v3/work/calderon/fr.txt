@@ -1,0 +1,90 @@
+{{InfoboxPersonnages
+| theme = 
+| title1 = Mère Supérieure Calderón
+| image1 = 
+<gallery>
+Mère Supérieure Calderón02.png|1899
+Mère Supérieure Calderón01.png|1911
+</gallery>
+| apparition = ''[[Red Dead Redemption]]<br/>[[Undead Nightmare]]<br/>[[Red Dead Redemption II]]''
+| dapparition = 
+| décès = 
+| genre = Féminin
+| nationalité = 
+| ldv = [[Saint Denis]] <small>(1899)</small><br/>[[Las Hermanas]] <small>(1911)</small>
+| surnom = Sister Calderón
+| activité = Religieuse
+| famille = Mère non-nommée<br/>Père non-nommé
+| allié = [[Arthur Morgan]]<br/>[[John Marston]]
+| caption1 = 
+| naissance = 
+| statut = Vivante
+| ennemi = 
+| faction = 
+| arme = [[Carabine Winchester]]
+| monture = 
+| véhicule = 
+| acteur = [[Irene DeBari]]
+| motion capture = 
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+'''Mère Supérieure Calderón''' est un [[Personnages dans Red Dead Redemption#Personnages mineurs|personnage]] présent dans ''[[Red Dead Redemption]]'' et elle est aussi un [[Personnages dans Red Dead Redemption II#Personnages supports 2|support]] présent dans ''[[Red Dead Redemption II]]''.
+
+== Histoire ==
+La Sœur Calderón est une nonne habitant dans la ville de [[Saint Denis]].
+
+== Interactions ==
+=== ''Red Dead Redemption II'' ===
+La première rencontre avec la Sœur Calderón se déroule dans la ville de [[Saint Denis]]. Elle apprends à des jeunes à lire avec le [[Frère Dorkins]]. ce dernier introduit [[Arthur Morgan]], une conversation démarre entre eux cependant elle est écourtée lorsque l'un des jeunes vole le crucifix de la sœur. [[Arthur Morgan|Arthur]] décide de les rattraper. Une fois récupéré, il ramène l'objet à sa propriétaire. Elle le remercie.
+
+Plus tard elle demande à [[Arthur Morgan|Arthur]] un don d'argent , de nourrir pour les pauvres.
+
+Si le niveau d'[[Honneur]] d'Arthur est assez haut et il a finit la [[Missions dans Red Dead Redemption II|mission]]
+
+"[[Tous frères et sœurs]]", la sœur Calderón est à la [[Emerald Ranch|station]] à la place du [[Orville Swanson|Reverand Swanson]]. Elle a une longue avec [[Arthur Morgan|Arthur]] avant de prendre le [[trains|train]] pour le [[Nuevo Paraíso|Mexique]].
+
+=== ''Red Dead Redemption'' ===
+En 1911, la Mère Supérieure est à [[Las Hermanas]], depuis douze ans (après avoir laissé [[Arthur Morgan]] à la gare d'[[Emerald Ranch]]). Elle donne le service "[[Je vous connais]]". Elle récolte des dons devant [[Las Hermanas]]. [[John Marston]] peut soit la voler, soit lui donner de l'argent. Si il offre de l'argent, il pourra rencontrer d'autres [[Rencontres aléatoires dans Red Dead Redemption|événement]] demandant des dons.
+
+Elle apparaît aussi durant le service "[[Eva est en danger]]". Lorsque [[John Marston|Marston]] lui demande si elle a vu [[Eva Cortes]], la mère Supérieure l'informe qu'elle était à [[Las Hermanas]], mais elle est partie avec un [[Mario Alcalde|homme]] à [[Sepulcro]].
+
+Elle est régulièrement visible à [[Las Hermanas]].
+=== ''Undead Nightmare'' ===
+[[John Marston]] la rencontre pour la première fois à l'extérieur de [[Las Hermanas]]. Elle est occupée à combattre des [[Morts-vivants]]. Elle les tue avec une [[Carabine Winchester]]. Après avoir tué les derniers [[Morts-vivants]], [[John Marston|John]] et la Mère Supérieure parlent et elle dit que les autres [[nonnes]] sont moins enclins à tuer les [[Morts-vivants]]. Elles ne sont pas aussi débrouillardes que [[John Marston|John]] et elle-même. Elle demande alors à [[John Marston|John]] de [[Villes dans Undead Nightmare|sécuriser]] [[Las Hermanas]]. Après avoir rendu service à la Mère Supérieure, il lui demande si elle sait d'où viendrait cette "épidémie". Elle répond qu'elle en serait plus si il lui amenait des [[Morts-vivants]].
+
+Lorsque [[John Marston]] ramène un [[morts-vivants|mort-vivant]], la Mère Supérieure suspect une source de démon. Elle offre à [[John Marston|John]] de l'[[Eau bénite]]. Elle parle ensuite d'[[Escalera]] comme origine de l'épidémie. [[Ayauhtéotl]] pourrait-être à l'origine de cette dernière information. Elle est visible (déguisée en [[Nonnes|nonne]]) derrière la mère supérieure dans certaines cinématiques.
+
+== Apparitions dans les missions ==
+=== ''Red Dead Redemption'' ===
+* "[[Je vous connais]]"
+=== ''Undead Nightmare'' ===
+* "[[La croix et la bannière]]"
+=== ''Red Dead Redemption II'' ===
+* "[[Tous frères et sœurs]]"
+* "[[L'art de la négociation]]"
+
+== Galerie ==
+<gallery>
+Mère Supérieure Calderón03.jpg
+</gallery>
+
+== Navigation ==
+{{Personnages RDR}}
+{{Personnages RDR2}}
+[[Catégorie:Personnages]]
+[[Catégorie:Personnages dans Red Dead Redemption]]
+[[Catégorie:Personnages dans Undead Nightmare]]
+[[Catégorie:Personnages dans Red Dead Redemption II]]
+
+[[de:Mutter Oberin Calderón]]
+[[en:Mother Superior Calderón]]
+[[tr:Rahibe Calderón]]
+[[Catégorie:Relecture]]
