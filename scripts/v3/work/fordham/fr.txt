@@ -1,0 +1,107 @@
+{{InfoboxPersonnages
+| theme = 
+| title1 = 
+| image1 = 
+<gallery>
+Archer Fordham04.png|1907
+Archer Fordham03.jpg|1911
+</gallery>
+| caption1 = 
+| naissance = 
+| statut = Vivant
+| dapparition = 1911
+| décès = 
+| genre = Masculin
+| nationalité = Américaine
+| ldv = [[Blackwater]]
+| surnom = 
+| activité = Agent du gouvernement
+| famille = Maybelle Fordham <small>(Mère)</small>
+| allié = [[Edgar Ross]]<br/>[[Blackwater Police Department]]<br/>[[United States Marshals Service]]<br/>[[Armée américaine]]
+| ennemi = [[John Marston]]
+| faction = [[Bureau fédéral]]
+| arme = [[Revolver Cattleman (RDR)|Revolver Cattleman]]<br/>[[Pistolet GP]]<br/>[[Carabine Winchester]]
+| monture = 
+| véhicule = [[Automobile|Ford Modèle T]]
+| acteur = [[David Wilson Barnes]]
+| motion capture = 
+| apparition = ''[[Red Dead Redemption]]<br/>[[Red Dead Redemption II]]''
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+'''Archer Fordham''' est un [[Personnages dans Red Dead Redemption|représentant de la loi]] présent dans ''[[Red Dead Redemption]]''. Il fait également une [[personnages dans Red Dead Redemption II|apparition]] dans le générique de ''[[Red Dead Redemption II]]''.
+
+== Histoire ==
+Archer Fordham rejoint le [[Bureau fédéral]] à un certain moment avant 1907. Il y devient le protégé d'[[Edgar Ross]], le chef du bureau.
+
+== Interaction ==
+=== ''Red Dead Redemption II'' ===
+En 1907, Fordham accompagne [[Edgar Ross]] au [[Mount Hagen]], puis sur la piste du tueur de [[Micah Bell]] qui mène les deux hommes au [[Beecher's Hope]].
+Il surveille avec [[Edgar Ross|Ross]] le ranch où [[John Marston]] apprend à [[Jack Marston|Jack]] à brosser un cheval. Convaincus d'avoir trouvé le tueur, Fordham et Ross se regardent avant partir, prévoir un [[Red Dead Redemption|plan]].
+=== ''Red Dead Redemption'' ===
+Il est vu pour la première fois au [[Exode en Amérique|début de l'aventure]] en compagnie de Ross ; tout deux escortent [[John Marston]] jusqu'à la station de chemin de fer de [[Blackwater]].
+
+Il est visible à nouveau [[Les portes d'El Presidio|plus tard]], à la [[Ramita de la Baya|frontière entre les états]] de [[New Austin]] et [[Nuevo Paraíso]], afin de constater l'avancée de la mission confiée à [[John Marston]].
+
+Enfin, il aide Marston et Ross lorsque le protagoniste est de retour à [[West Elizabeth]]. Il aide ainsi notamment Marston, Ross et l'[[armée américaine]] à venir à bout de la [[bande de Dutch van der Linde]] et de [[Dutch van der Linde]] lui-même.
+
+== Apparitions dans les missions ==
+=== ''Red Dead Redemption'' ===
+* "[[Exode en Amérique]]"
+* "[[Les portes d'El Presidio]]"
+* "[[Porte le fardeau d'un autre]]"
+* "[[Les grands hommes ne sont pas tous des sages]]"
+* "[[Et vous connaîtrez la Vérité]]"
+* "[[Et la Vérité vous libérera]]"
+=== ''Red Dead Redemption II'' ===
+* "[[Le poison de l'Amérique]]"
+
+== Anecdotes ==
+* La mère d'Archer, Maybelle Foreman, est morte le 24 juillet 1900 et est enterrée dans le [[cimetières|cimetière]] de Blackwater. Dans les fichier du jeu, il est possible de trouver une ligne de dialogue pour un PNJ concernant la mort de la mère de Foreman. Cette citation dit "''I hear that Bureau fella's never been the same since his mother got shot in the massacre''" (pouvant être traduit par "J'ai entendu dire que le gars du Bureau n'a plus jamais été le même depuis que sa mère s'est fait tirer dessus lors du massacre"). Étant donné que le [[massacre de Blackwater]] a eu lieu en 1899, il est possible que ce soit lors de ce massacre qu'elle ait prit une balle avant de succomber au blessures un an plus tard.
+* Si Marston capture [[Javier Escuella]], Fordham sera plus gentil avec Marston dans les deux premières cinématiques où il parle. À contrario, si Marston ramène Escuella mort, Fordham se montrera moins sympa car il avait ordonné à Marston de le ramener vivant.
+* Fordham utilise un [[Revolver Cattleman (RDR2)|Revolver Cattleman]] dans les premières missions tandis que dans les dernières missions, il utilise un [[Pistolet GP]] tout comme Edgar Ross.
+* Fordham n'est pas présent lors de la mission "[[Le dernier ennemi à abattre]]". Cependant, un des [[United States Marshals Service|Marshals]], [[Isaac McKinnon]], peut être confondu avec Fordham au vu de la ressemblance des deux hommes ainsi que par le fait qu'il est vu aux côtés de Ross.
+
+== Galerie ==
+<gallery>
+Archer Fordham05.png|Tenue alternative dans ''Red Dead Redemption II''
+Blackwater10.jpg|Fordham et Ross escortant Marston
+Edgar Ross10.jpg|Fordham et Ross rencontrant Marston à Nuevo Paraíso
+Archer Fordham02.jpg|Fordham et Marston
+Automobile03.jpg|Ross, Fordham, Marston et Nastas durant la mission "Porte le fardeau d'un autre"
+</gallery>
+
+== Navigation ==
+{{Personnages RDR}}
+{{Personnages RDR2}}
+[[de:Archer Fordham]]
+[[en:Archer Fordham]]
+[[es:Archer Fordham]]
+[[ru:Арчер Фордхэм]]
+
+[[Catégorie:Personnages]]
+[[Catégorie:Personnages dans Red Dead Redemption]]
+[[Catégorie:Personnages présents dans Red Dead Redemption]]
+[[Catégorie:Personnages dans Red Dead Redemption II]]
+[[Catégorie:Personnages présents dans Red Dead Redemption II]]
+
+[[Catégorie:Représentants de la loi]]
+[[Catégorie:Représentants de la loi dans Red Dead Redemption]]
+
+[[Catégorie:Antagonistes]]
+[[Catégorie:Antagonistes dans Red Dead Redemption]]
+
+[[Catégorie:Personnages masculins]]
+[[Catégorie:Personnages masculins dans Red Dead Redemption]]
+[[Catégorie:Personnages masculins dans Red Dead Redemption II]]
+
+[[Catégorie:Pinkerton National Detective Agency]]
+[[Catégorie:Bureau fédéral]]
+[[Catégorie:Relecture]]

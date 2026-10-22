@@ -1,0 +1,136 @@
+<!-- Archer Fordham does appear in "The Last Enemy That Shall Be Destroyed". Please do not change any information regarding this. -->
+{{User/characterbox
+|name = Archer Fordham
+|image = <gallery>
+Archer Fordham Credits (No Filter).jpg|1907
+ArcherHD.jpeg|1911
+</gallery>
+|game = ''[[Red Dead Redemption]]''<br />''[[Red Dead Redemption 2]]''
+|nationality = [[File:Flag of the United States (1908–1912).svg|border|20px]] American
+|gender = Male
+|location = Town of [[Blackwater]] in [[Great Plains]], Commonwealth of [[West Elizabeth]]
+|affiliations = United States government<br />[[Bureau of Investigation]]<br />[[Blackwater Police Department]]<br />[[U.S. Marshals]]
+|family = Maybelle Fordham <small>(mother)</small> {{icon|dead}}
+|occupation = Federal agent
+|weapon = [[Cattleman Revolver]]<br />[[High Power Pistol]]<br />[[Winchester Repeater]]
+|voice = [[David Wilson Barnes]]
+}}
+{{Quote|Marston, you're a public menace. We should've had you killed.|Archer Fordham}}
+[[File:“Marston,_you’re_a_public_menace”.ogg|noicon|center]]
+
+
+'''Agent Archer Fordham''' is a recurring character in the ''[[Red Dead]]'' series. He is a [[Characters in Redemption#Supporting characters|supporting character]] and a secondary antagonist in ''[[Red Dead Redemption]]'', and makes a [[Characters in Redemption 2|cameo appearance]] at the end of ''[[Red Dead Redemption 2]]''.
+
+==History==
+
+=== Background ===
+{{Quote|Archer is a young, sturdy, and keen-eyed government agent. He is Ross's right-hand man and he is very ambitious and aggressive.|GOTY guide description.}}
+Fordham joined the [[Bureau of Investigation]] in 1907 following its foundation that same year. He is the protegé of senior agent and director [[Edgar Ross]].
+
+=== Events of ''Red Dead Redemption 2'' ===
+In June 1907,<ref>A [[Second Invitation from Mayor Lemieux|letter]] from [[Henri Lemieux]] confirms that the Epilogue takes place in June of 1907.</ref> Fordham and Ross find [[Micah Bell]]'s corpse at his [[Micah's Hideout|hideout]] on the top of [[Mount Hagen]], and travel to various locations whilst interviewing citizens, in an attempt to find the killer. They eventually find the ranch at [[Beecher's Hope]], where they spy [[John Marston]] teaching his son [[Jack Marston|Jack]] how to brush a horse. Convinced that they found the killer, Fordham and Ross nod to each other and leave to plan their next move.
+
+=== Events of ''Red Dead Redemption'' ===
+In 1911, prior to the events of ''Red Dead Redemption'', Fordham and Ross take [[Marston family|John Marston's family]] away from him in order to strong-arm him into hunting down some of his former comrades from the [[Van der Linde gang]]. Following the abduction of [[Abigail Marston|Abigail]] and Jack Marston, the two agents are seen escorting John Marston to the train station in [[Blackwater]], during the [[Exodus in America|opening credits]] of ''Red Dead Redemption''.
+
+==== Nuevo Paraíso ====
+Fordham is not seen again until much later in the game. After the player captures or kills [[Javier Escuella]] in the mission "[[The Gates of El Presidio]]", they are required to meet Fordham and Ross at a bridge crossing between [[New Austin]] and [[Nuevo Paraíso]]. Depending on whether Escuella is alive or dead, Fordham will commend John for a job well done, or criticize him for killing Escuella. Either way, Fordham reminds Marston of his obligations and tells him to return to Blackwater as soon as he deals with [[Bill Williamson]], before he and Ross drive off with Escuella.
+
+==== West Elizabeth ====
+Once John arrives in Blackwater, Fordham and Ross directly work with him to track down his former gang leader and mentor, [[Dutch van der Linde]], who has formed a [[Dutch's Gang|new gang of disaffected Native Americans]]. 
+
+After [[Bear One Another's Burdens|rescuing their informant]], [[Nastas]], from the [[Wreck of the Serendipity]] and attempting to prevent Dutch and his gang from [[Great Men are Not Always Wise|robbing the Blackwater bank]], Fordham participates alongside John and Ross in a [[And You Will Know The Truth|climatic assault on Van der Linde's camp]] in [[Cochinay]] with the assistance of the [[United States Army|U.S. Army]]. During the assault, [[And The Truth Will Set You Free|Marston corners Dutch, who chooses to commit suicide by throwing himself from a cliff]].
+
+Following Dutch's death, Fordham and Ross meet with John one last time at the bottom of the cliff, where the former thanks John for his assistance and tells him that he's made his country proud. The agents then part ways with Marston, informing him that he is free to return to his [[Beecher's Hope|ranch]], where [[The Outlaw's Return|his family is waiting for him]].
+
+Sometime after this, Fordham [[The Last Enemy That Shall Be Destroyed|heads to John's ranch]] alongside the military and Ross as part of a firing squad with the intent of killing John. Fordham can be shot by John or left alive, leaving his fate determinant.
+
+== Character ==
+
+=== Personality ===
+Archer is characterized as being assertive and exceedingly capable at his profession, yet more hot-headed and impulsive than his cold and calculating mentor.
+
+Fordham unwaveringly supports Ross in his less than ethical methods. However, unlike Ross, Fordham appears to develop a respect of sorts for Marston during the last few missions he is in, and thanking him for his help after Dutch's death.
+
+Participating in a handful of violent engagements with [[Dutch van der Linde]], Fordham demonstrates himself as exceedingly capable in combat.
+
+=== Appearance ===
+As of 1907, Fordham is a young man with a clean-shaven face. He is seen dressed in a formal business suit with a black tie and a black bowler hat with gray trimmings.
+
+By 1911, Archer is slightly leaner and appears much taller than Ross. He sports an immodest, lighter three-piece suit with a black tie. In addition, he wears a different bowler hat with darker black trimmings.
+
+==Mission appearances==
+;''Red Dead Redemption''
+*"[[Exodus in America]]"
+*"[[The Gates of El Presidio]]"
+*"[[Bear One Another's Burdens]]"
+*"[[Great Men are Not Always Wise]]"
+*"[[And You Will Know The Truth]]"
+*"[[And The Truth Will Set You Free]]"
+*"[[The Last Enemy That Shall Be Destroyed]]"
+
+;''Red Dead Redemption 2''
+*[[Ending Credits]]
+
+==Quotes==
+{{Quote|You've done well, Mr. Marston. Now, [[Javier Escuella|Javier]] here gets to see how far the hand of justice can reach.|Fordham to [[John Marston]], after the latter turns Javier Escuella in alive}}
+{{Quote|He's not looking very... healthy. We told you to keep them alive.|Fordham to John, if the latter kills Javier}}
+{{Quote|Like you always say, sir, the higher the stakes, the smarter you have to play the game.|Fordham to [[Edgar Ross]]}}
+{{Quote|It ends when we say it ends. You're in no position to make demands.|Fordham to John}}
+{{Quote|See, this is what happens when you fraternize with savages. How could you ever follow a man like that?|Fordham to John, about [[Dutch van der Linde]]}}
+{{Quote|Thank you, Mr. Marston, for everything. I know this wasn't easy for you, but I have to say, you've done your country proud.|Fordham's final words to John}}
+
+==Trivia==
+=== ''Red Dead Redemption'' ===
+*Fordham's mother, Maybelle, has been dead since July 24th, 1900, and is buried at Blackwater cemetery.
+*If Marston captures Javier Escuella, Fordham seems to have a more positive feeling towards Marston during the first two cutscenes in which he speaks. If Marston brings in Escuella dead, Fordham will show less appreciation to Marston, due to the fact that he instructed Marston to bring him alive.
+*Fordham uses a [[Cattleman Revolver]] in the earlier missions but later uses a [[High Power Pistol]], just as Edgar Ross did.
+*Even though Fordham is Ross' partner, like [[Jonah]] and [[Eli]], they actually contrast. Ross wears light clothes while Fordham wears dark clothes, Ross is old while Fordham is young, Ross is short while Fordham is tall and, most importantly, Ross is deceitful and sardonic while Fordham is honest and blunt.
+*In the mission "[[The Last Enemy That Shall Be Destroyed]]", Fordham is present during the Dead Eye sequence and can be killed. However, he may disappear in the following cutscene regardless of whether or not he is shot. Fordham can also be spotted before this sequence, when John is observing the Army through the barn's doors.<ref>[https://youtu.be/G51ERfCjoSg?feature=shared Did Archer Fordham Betray John Marston? Was He At Beecher's Hope? - Red Dead Redemption Lore Explained]</ref>
+**A [[U.S. Marshals|Marshal]], [[Isaac McKinnon]], is often mistaken for Fordham as he bears a striking resemblance to him and is seen close to Ross' side by the final cutscene in the mission.
+*Interestingly, Fordham does not make an appearance or is mentioned in the epilogue even when spared. 
+**In the [[Blackwater Ledger]] only [[Edgar Ross Retires After a Lifetime of Government Service|Edgar Ross is credited for all of the work]] with no mention of Fordham.
+
+===''Red Dead Redemption 2''===
+*An unused 1899 appearance for Fordham exists in the game files, implying he may have originally been intended to have appeared prior to the Epilogue as a member of the [[Pinkerton National Detective Agency]], as indicated by the Pinkerton badge featured on the model.
+
+==Gallery==
+===''Red Dead Redemption''===
+<gallery widths="200" spacing="small" captionalign="center" position="center" hideaddbutton="true">
+File:Imagess.jpg
+File:ArcherFordham.jpg|Fordham and Ross escorting [[John Marston]] through [[Blackwater]]
+File:Rdr edgar ross01.jpg
+File:Rdr fordham marston.jpg
+File:AgentFordham.jpg|Fordham and Ross
+File:Rdr archer fordham square.jpg
+File:Rdr another's burdens.jpg
+File:Fordham Barn Door.jpeg|Archer Fordham is the first person Marston sees when looking through the barn doors.
+File:Fordham TLETSBD.jpeg|Fordham seen to the right of John in the final sequence of "[[The Last Enemy That Shall Be Destroyed]]"
+File:Archer and Isaac.jpeg|[[Isaac McKinnon]] is on the left while Archer Fordham is on the right.
+</gallery>
+
+===''Red Dead Redemption 2''===
+<gallery widths="200" spacing="small" captionalign="center" position="center" hideaddbutton="true">
+File:Ross and Fordham observe Micah.jpg|Archer Fordham and Edgar Ross discovering the corpse of Micah Bell.
+File:RossandForhamValentine.jpg|Fordham and Ross question [[Smithfield]] on possible members of the Van der Linde gang in Valentine.
+File:BureauSaloonInterrigation.jpg|Fordham and Ross continue their investigation by questioning [[Morris Peyton]] about suspect whereabouts in [[Smithfield's Saloon]].
+File:RossBusinessCard.jpg|Fordham and Ross question a stagecoach near Rhodes, and Ross gives one of the passengers his card.
+File:BeechersHopeBureauInvestigation.jpg|Fordham and Ross observing John and Jack Marston at Beecher's Hope.
+File:Ross and Forham walking away.jpg|Fordham and Ross walking away after gathering all the information they wanted.
+File:Archer New Suit.png|Fordham's unused outfit in ''Red Dead Redemption 2''
+</gallery>
+
+==References==
+{{References}}
+
+==Navigation==
+{{Characters}}
+{{Characters 2}}
+{{DEFAULTSORT:Fordham, Archer}}
+[[de:Archer Fordham]]
+[[es:Archer Fordham]]
+[[fr:Archer Fordham]]
+[[ru:Арчер Фордхэм]]
+[[Category:Characters in Redemption]]
+[[Category:Characters in Redemption 2]]
+[[Category:Antagonists]]

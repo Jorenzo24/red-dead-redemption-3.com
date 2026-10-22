@@ -1,0 +1,16 @@
+Exodus in America	scripts/v3/work/_m/Exodus_in_America.txt
+Exodus in America/dialogues	scripts/v3/work/_m/Exodus_in_America_dialogues.txt
+The Gates of El Presidio	scripts/v3/work/_m/The_Gates_of_El_Presidio.txt
+The Gates of El Presidio/dialogues	scripts/v3/work/_m/The_Gates_of_El_Presidio_dialogues.txt
+Bear One Another's Burdens	scripts/v3/work/_m/Bear_One_Another_s_Burdens.txt
+Bear One Another's Burdens/dialogues	scripts/v3/work/_m/Bear_One_Another_s_Burdens_dialogues.txt
+Great Men are Not Always Wise	scripts/v3/work/_m/Great_Men_are_Not_Always_Wise.txt
+Great Men are Not Always Wise/dialogues	scripts/v3/work/_m/Great_Men_are_Not_Always_Wise_dialogues.txt
+And You Will Know The Truth	scripts/v3/work/_m/And_You_Will_Know_The_Truth.txt
+And You Will Know The Truth/dialogues	scripts/v3/work/_m/And_You_Will_Know_The_Truth_dialogues.txt
+And The Truth Will Set You Free	scripts/v3/work/_m/And_The_Truth_Will_Set_You_Free.txt
+And The Truth Will Set You Free/dialogues	scripts/v3/work/_m/And_The_Truth_Will_Set_You_Free_dialogues.txt
+The Last Enemy That Shall Be Destroyed	scripts/v3/work/_m/The_Last_Enemy_That_Shall_Be_Destroyed.txt
+The Last Enemy That Shall Be Destroyed/dialogues	scripts/v3/work/_m/The_Last_Enemy_That_Shall_Be_Destroyed_dialogues.txt
+Ending Credits	scripts/v3/work/_m/Ending_Credits.txt
+Ending Credits/dialogues	MISSING (no such wiki page)

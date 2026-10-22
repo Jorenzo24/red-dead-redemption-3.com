@@ -8,7 +8,8 @@ scripts/_enrich.py; total = characters/*/ folders + _queue/ items).
 ## In progress (one line per fiche: key, step, device, WIP branch)
 | Fiche | key | Step | Where | WIP branch |
 |---|---|---|---|---|
-| (none) | | | | |
+| Archer Fordham | fordham | setup done, drafting | Mac session | wip/v3-fordham-catherine |
+| Catherine Braithwaite | catherine | setup done, drafting | Mac session | wip/v3-fordham-catherine |
 
 A fiche listed here with a WIP branch can be resumed from any device: check out the branch first.
 
