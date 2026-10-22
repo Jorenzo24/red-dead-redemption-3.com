@@ -8,7 +8,7 @@ scripts/_enrich.py; total = characters/*/ folders + _queue/ items).
 ## In progress (one line per fiche: key, step, device, WIP branch)
 | Fiche | key | Step | Where | WIP branch |
 |---|---|---|---|---|
-| Rains Fall | rains | fixing (merge only AFTER the drip publishes it on 2026-10-23, then rebuild with _enrich) | Mac session | wip/v3-hercule-rains |
+| Rains Fall | rains | FIXED, ready. Ship AFTER the drip publishes it (2026-10-23 09:00 UTC): delete local untracked characters/rains-fall + fr/personnages/rains-fall, merge origin/main into the WIP branch, run python3 scripts/_enrich.py rains-fall, add CLAUDE.md entry is already done, PR + merge | Mac session | wip/v3-hercule-rains |
 
 A fiche listed here with a WIP branch can be resumed from any device: check out the branch first.
 
