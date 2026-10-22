@@ -1,13 +1,10 @@
-# Rains Fall fixers: shared decisions (binding)
+# Lead decisions for Rains Fall (binding for checkers and fixer)
 
-Reports in this folder (scripts/v3/work/rains/): fc_report1.md (half1: intro, facts, biography, personality), fc_report2.md (half2:
-relationships, skills, missions, quotes, development, reception, media, trivia), coverage_report.md.
-Fiche text: rains_full_en.txt.
-Files: scripts/fiches/parts/rains_A.py (biography), rains_B.py (personality, names, appearance, skills,
-relationships), rains_C.py (missions, quotes, trivia, media), rains_D.py (base: facts, intro, essentials,
-development, reception). EN AND FR. SPEC.md rules apply. scripts/v3/rules/OWNERSHIP.md and scripts/v3/rules/HOUSE_FACTS.md apply.
-
-Decisions (the lead writes them here after reading the reports: one line per disputed point, which source wins):
-- 
-
-Report back: fixes applied per report item, items not applied with reason.
+1. Publishes 2026-10-23: link only fiches live by then. Eagle Flies, Sister Calderon, Favours, Monroe, Miller, Paytah: plain text.
+2. Graham Greene died in Stratford, Ontario (manager via RCI, CTV Kitchener); early reports said a Toronto hospital (mention once, in Development).
+3. Wapiti in 1907: Blackwater Ledger No. 72 "Pump Jacks Sit Silent" (many gunned down in Wyoming, a few believed to have reached Canada) + his own "we're in Canada now" (Red Dead Wiki quote list, attributed). The 1907 Annesburg meeting has no transcript: wiki-only, attributed.
+4. Treaties: give the verbatim line; the wiki's reading attributed, in one place.
+5. Quote ownership: lines quoted in B (see rains_B docstring) are not quoted again in C; C keeps the wiki quote-list lines (correct path, glory in death, three treaties, My Last Boy, bunch of families). Cut duplicates from C, not B.
+6. Development owns Greene, Houser/Vulture, Lakota, cut content; Appearance (B) owns the aged look in the credits: C Trivia must not repeat them.
+7. Chapter 6 story guide already corrected by the lead (negotiated peace, not a move).
+8. The local characters/rains-fall/ HTML is a build artefact: never stage it before the drip publishes the fiche.
