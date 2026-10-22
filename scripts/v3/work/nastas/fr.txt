@@ -1,0 +1,129 @@
+{{InfoboxPersonnages
+| theme = 
+| title1 = Nastas
+| image1 = Nastas02.jpg
+| apparition = ''[[Red Dead Redemption]]''<br/>''[[Undead Nightmare]]''
+| dapparition = 
+| décès = 
+| genre = Masculin
+| nationalité = Américain
+| ldv = [[West Elizabeth]]
+| surnom = 
+| activité = Indien
+| famille = 
+| allié = [[Bureau fédéral]]<br/>[[Edgar Ross]]<br/>[[Harold MacDougal]]<br/>[[John Marston]]
+| ennemi = [[Dutch van der Linde]]
+| caption1 = 
+| naissance = 
+| statut = Décédé <small>(1911)</small>
+| faction = 
+| arme = [[Revolver Cattleman (RDR)|Revolver Cattleman]]
+| monture = 
+| véhicule = 
+| acteur = [[Benjamin Byron Davis]]
+| motion capture = 
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+'''Nastas''' est un [[Personnages dans Red Dead Redemption|personnage support]] de ''[[Red Dead Redemption]]''.
+
+== Histoire ==
+Nastas est un [[Amérindiens|Amérindien]]. Il est né et a vécu dans les réserves américaines, et est allé à l'école pour apprendre la langue anglaise et l'éducation nécessaire à son intégration dans la société. Il est un ancien membre de la [[Bande de Dutch van der Linde|bande]] de [[Dutch van der Linde]], mais il l'a infiltrée, car en réalité, il est un informateur pour le [[Bureau fédéral]] et plus précisément pour [[Edgar Ross]].
+
+Il dit avoir accepté d'infiltrer la [[Bandes dans Red Dead Redemption|bande]] dans le but de sauver les siens, car les rangs de la bande de Dutch comptent des Amérindiens.
+
+== Interactions ==
+=== ''Red Dead Redemption'' ===
+John apprend par Ross et son partenaire [[Archer Fordham]] que l'un de leurs informateurs est retenu en otage sur l'[[Wreck of the Serendipity|épave du Serendipity]] par la bande de Dutch. John [[Porte le fardeau d'un autre|prend d'assaut l'épave]] avec Fordham et sauve cet informateur, s'avère être Nastas. Une fois ramené à [[Blackwater]], Nastas est déposé chez le Professeur [[Harold MacDougal]].
+
+Justement, plus tard, Nastas est vu en train de travailler avec le Professeur plusieurs fois. Ils se disputent souvent, car Nastas en tant qu'Amérindien soutient la nature et l'écologie, alors que MacDougal est pour la civilisation et clame que le reste n'est que sauvagerie.
+
+Malgré ceci, Nastas dit apprécier le Professeur parce que "c'est un grand homme, au fond". En premier lieu Nastas [[Ce bon vieux Dutch|aide Marston]] à observer [[Cochinay]], puis lorsque la bande de Dutch [[Dans un but purement scientifique|convoque]] Nastas, MacDougal et John dans une cabane perdue de [[Tall Trees]] , il est chagriné de voir un [[Ours brun|ours]] se faire tuer par la faute du Professeur, sur le chemin. Lorsque les trois compères, arrivés, entrent dans la cabane pour discuter avec la bande de Dutch, l'un deux, [[Enepay]], qui est avec d'autres membres Amérindiens de la [[Bandes dans Red Dead Redemption|bande]], traîte Nastas de "traître" et le tue instantanément d'une balle dans la tête. John, enragé, venge l'Amérindien et fuit avec MacDougal.
+==== Épilogue ====
+{{Citation
+| citation = J'espère que vous avez trouvé Dieu, mon cher ami.
+| auteur = [[Harold MacDougal|Professeur MacDougal]]
+| cible = 
+| plus = rendant hommage à Nastas en 1914
+| source = 
+| url = 
+| archive = 
+| motion capture = 
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+En postant un message dans le [[Journaux dans Red Dead Redemption|journal]] de [[Blackwater]], MacDougal lui rend hommage au cours de l'année 1914.
+
+=== Multijoueur de ''Red Dead Redemption'' ===
+Avec l'addition du [[pack Mythes et Insoumis]], il est aussi un modèle de [[Personnages dans Red Dead Redemption|personnage]] jouable en [[Red Dead Redemption: Multijoueur|Multijoueur]].
+
+=== ''Undead Nightmare'' ===
+[[Fichier:Nastas05.jpg|thumb|left|220px]]
+
+Nastas apparaît dans ''[[Undead Nightmare]]'', sous forme de [[Morts-vivants|mort-vivant]]. Le Professeur dit à John Marston qu'il a oublié son sac dans son bureau, et quand il y retourne, Nastas, zombifié, attaque MacDougal. Ensuite, tous deux tentent de tuer Marston.
+{{clear}}
+
+== Apparitions dans les missions ==
+=== ''Red Dead Redemption'' ===
+* "[[Porte le fardeau d'un autre]]"
+* "[[Ce bon vieux Dutch]]"
+* "[[Dans un but purement scientifique]]"
+
+=== ''Undead Nightmare'' ===
+* "[[Histoires fantastiques de Blackwater]]"
+
+== Anecdotes ==
+* Nastas ne cesse de clamer qu'il veut sauver les autres Amérindiens. C'est sûrement dû à la nature colonisatrice des Etats-Unis.
+* C'est le seul [[Personnages dans Red Dead Redemption|personnage]] qui est blessé dans chaque mission où il apparaît.
+* Il partage la même voix que [[Dutch van der Linde]] (même doubleur).
+* Dans "Ce bon vieux Dutch", Nastas traîtera le joueur de "bâtard" s'il tue un [[Animaux dans Red Dead Redemption|animal]].
+* Nastas et [[Aigle-Qui-Vole]] ont plusieurs points communs :
+** Tous les deux font connaissance avec les protagonistes durant leur première visite et partageront l'idées que la civilisation américaine a ruinée leur vie et la société. Pour Aigle-Qui-Vole, il méprise l'armée américaine dû à leur comportement cruel envers sa tribu et respecte [[Arthur Morgan|Arthur]] pour avoir aidé les siens. En ce qui concerne Nastas, il coopère avec Marston pour éviter que d'autres jeunes membres de sa tribu soient recrutés par Dutch ce qui conduirait à la destruction de sa tribu. Nastas déteste également les chasseurs de bison, qui ne le font que pour le sport, menant à l'extinction de l'espèce et affirme que le gouvernement américain n'a aucun respect pour la terre car ils ont coupé leur arbre et utilisé leur terre pour l'industrialisation.
+** Tous les deux sympathisent avec les protagonistes dû au conflit oposant leur tribu respective et le gouvernement américain.
+** Tous deux ont essayé de résoudre les problèmes de leur tribu de différentes façons. Aigle-Qui-Vole préfère la violence et la vengeance à l'encontre l'armée américaine pour avoir tenté de voler leurs chevaux et leurs médicaments contre la variole, et surtout l'avoir emprisonné au Fort Wallace après que le colonel Favor ait violé le traité qu'ils avaient signé. Nastas préfère la non-violence alors qu'il tente de sauver sa tribu de des griffe de la bande de Dutch en coopérant avec le gouvernement américain, semblable à la façon dont le chef Pluie-Battante a essayé de sauver sa tribu de l'invasion américaine en concluant un accord de paix avec le gouvernement américain sans condition. Avant que Favours et Cornwall le viole. Nastas n'utilise la violence que pour se défendre comme lorsque John et Nastas s'aventurent dans une zone minière de Tall Trees à la recherche d'un moyen d'explorer Cochinay, il tire sur un mineur fou après s'être blessé au bras avec un couteau.
+** Au final, les deux personnages sont tués : Enepay tue Nastas d'une balle en pleine tête tandis que Aigle-Qui-Vole meurt des suites de la balle tirée dans le torse par le [[Henry Favours|Colonel Favours]].
+
+== Galerie ==
+=== ''Red Dead Redemption'' ===
+<gallery>
+Nastas01.jpg|Nastas attendant Marston
+Wreck of the Serendipity05.jpg|Sur l'épaule de John
+Automobile03.jpg|Ross, Fordham, Marston et Nastas durant la mission "Porte le fardeau d'un autre"
+</gallery>
+
+=== ''Undead Nightmare'' ===
+<gallery>
+Nastas03.jpg|Avatar (UN)
+Nastas04.jpg|Artwork officiel (UN)
+</gallery>
+
+== Navigation ==
+{{Personnages RDR}}
+[[de:Nastas]]
+[[en:Nastas]]
+[[es:Nastas]]
+[[Catégorie:Personnages dans Red Dead Redemption]]
+[[Catégorie:Personnages dans Undead Nightmare]]
+[[Catégorie:Personnages dans Red Dead Redemption: Multijoueur]]
+[[Catégorie:Personnages Révolution]]
+[[Catégorie:Personnages masculins]]
+[[Catégorie:Personnages masculins dans Red Dead Redemption]]
+[[Catégorie:Bureau fédéral]]
+[[Catégorie:Personnages]]
+[[nl:Nastas]]
+[[ru:Настас]]
+[[Catégorie:Relecture]]

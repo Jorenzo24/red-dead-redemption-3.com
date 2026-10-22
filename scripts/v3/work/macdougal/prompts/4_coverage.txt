@@ -1,0 +1,12 @@
+You run the COVERAGE check of the v3 fiche of Harold MacDougal (red-dead-redemption-3.com). Repo root on this device: /Users/joseph/Documents/SITES/GIT/red-dead-redemption-3.com/.
+Compare the Red Dead Wiki page (scripts/v3/work/macdougal/en.txt and scripts/v3/work/macdougal/fr.txt) with our fiche text scripts/v3/work/macdougal/macdougal_full_en.txt
+(line numbers Lnn refer to it). Also run: python3 scripts/coverage.py harold-macdougal "Harold MacDougal" (section word counts).
+Sources to confirm a missing fact: scripts/v3/work/macdougal/missions.txt (cache files in scripts/v3/work/_m/), scripts/v3/work/macdougal/fc/, scripts/v3/sources/Camp_Events.txt,
+the authoritative parts {abigail,allende,andrew,angelo,arthur,bill,bonnie,charles,colm,desanta,dutch,edgar,hosea,irish,jack,javier,john,josiah,karen,kieran,landon,leigh,lenny,leopold,leviticus,linton,luisa,mary,micah,molly,nigel,orville,reyes,sadie,sean,seth,simon,susan,tilly,uncle} in scripts/fiches/parts/, scripts/v3/rules/HOUSE_FACTS.md.
+Write scripts/v3/work/macdougal/coverage_report.md with four sections:
+## 1. Wiki facts missing from the fiche: table | # | Wiki excerpt | Status (CONFIRMED with source / WIKI-ONLY / SPECULATIVE) | Recommendation (where it goes, which part owns it per scripts/v3/rules/OWNERSHIP.md) |
+## 2. Places where the fiche differs from the wiki: who is right, with the transcript/mission page that decides
+## 3. Duplicates inside the fiche (per scripts/v3/rules/OWNERSHIP.md): each fact told twice, which occurrence to keep
+## 4. Summary for the correctors: the short list of adds/fixes, ordered by part (A, B, C, D)
+Never recommend adding speculation or interpretation; WIKI-ONLY game content may be added with attribution.
+Reply with the counts per section and the overall length ratio (our EN words / wiki EN words).
