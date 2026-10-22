@@ -47,6 +47,12 @@ received false information" on the Leigh question (interpretation); Joe Butler's
 "fifty years ago": about the family, wiki-only, part A at most); the Villains Wiki; Hamish's "Mr. Gray's got a heap of
 problems" (the game does not say which Gray he means); Jock, Iain and Scott Gray (no link to Tavish shown); his
 slurs against the Braithwaites quoted verbatim (paraphrased).
+
+FIX PASS (22 Oct 2026): the "That hag and her inbred sons..." line and "Who are you?" are now quoted in C Quotes (B
+paraphrases). Added "We haven't recovered as much as I'd hoped from the war..." (gsw l.7438) to In his own words.
+"Old Man Gray": the game does not say which Gray (never given as Tavish's nickname). Leigh, Beau, John, Arthur entries and
+Caliga Hall reduced to summaries (the Biography owns the telling, including the 1907 estate). Appearance re-read on the
+portrait and gallery-1 (bald crown, dark hair streaked with gray, patterned vest). No "not an exiled Jacobite".
 """
 
 
@@ -56,17 +62,19 @@ def two(en, fr): return {"en": en, "fr": fr}
 BLOCKS_PERSONALITY = [
     {"h3": two("Personality", "Personnalité")},
     {"p": two(
-        "Rockstar's character descriptions of September 2018 cover the Van der Linde gang and do not include him. He has a single scene, at the Caliga Hall stables in \"Horse Flesh for Dinner\". In it he speaks of a family still struggling since the war and in need of stability. He insists on his Scottish roots and on the value of hard, fair work. He wants the theft done without any public link to his family. He describes the Braithwaites with insults and slurs, and accuses them of ruining the county and killing his uncle (see Quotes). He values the stolen horses at 5,000 dollars; the fence pays 700 (see Biography).",
-        "Les descriptions de personnages publiées par Rockstar en septembre 2018 portent sur le gang Van der Linde et ne le mentionnent pas. Il n'a qu'une scène, aux écuries de Caliga Hall, dans \"Horse Flesh for Dinner\". Il y parle d'une famille qui peine à se relever de la guerre et qui a besoin de stabilité. Il revendique ses racines écossaises et vante le travail dur mais honnête. Il veut que le vol ne puisse en aucun cas être relié publiquement à sa famille. Il couvre les Braithwaite d'insultes, les accuse d'avoir ruiné le comté et tué son oncle (voir Citations). Il estime les chevaux volés à 5 000 dollars ; le receleur en donne 700 (voir la biographie).")},
+        "Rockstar's character descriptions of September 2018 cover the Van der Linde gang and do not include him. He has a single scene, at the Caliga Hall stables in \"Horse Flesh for Dinner\". In it he is first wary of the newcomers. He talks about the war, his family and his Scottish roots (see In his own words). He speaks of the Braithwaites only through insults (see Quotes).",
+        "Les descriptions de personnages publiées par Rockstar en septembre 2018 portent sur le gang Van der Linde et ne le mentionnent pas. Il n'a qu'une scène, aux écuries de Caliga Hall, dans \"Horse Flesh for Dinner\". Il commence par se méfier des nouveaux venus. Il y parle de la guerre, de sa famille et de ses racines écossaises (voir Dans ses propres mots). Il n'évoque les Braithwaite qu'à coups d'insultes (voir Citations).")},
     {"p": two(
         "Dutch sums up the Grays as \"Scots... degenerates... drunkards\", adds that they are the local law and calls them \"Rich as Croesus\". His son Beau says the Grays have been the Braithwaites' murderers for so long that nobody can explain why, \"Beyond blind loyalty... and stupidity\".",
         "Dutch résume les Gray en trois mots, \"Scots... degenerates... drunkards\" (des Écossais… des dégénérés… des ivrognes), ajoute qu'ils tiennent la loi locale et les dit \"Rich as Croesus\" (riches comme Crésus). Son fils Beau explique que les Gray tuent des Braithwaite depuis si longtemps que plus personne ne sait pourquoi, \"Beyond blind loyalty... and stupidity\" (si ce n'est par loyauté aveugle… et par bêtise).")},
     {"h4": two("In his own words", "Dans ses propres mots")},
     {"ul": [
+        two("\"We haven't recovered as much as I'd hoped from the war. My family try... my sons are good boys, but it's been hard. Like I said, some people in the area will hold us back for ever. We need stability.\" (to John)",
+            "\"We haven't recovered as much as I'd hoped from the war. My family try... my sons are good boys, but it's been hard. Like I said, some people in the area will hold us back for ever. We need stability.\" (on ne s'est pas relevés de la guerre autant que je l'espérais ; ma famille fait des efforts, mes fils sont de bons garçons, mais ça a été dur ; je le répète, certains dans la région nous mettront toujours des bâtons dans les roues ; il nous faut de la stabilité), à John."),
         two("\"We're an old Scottish family. We work. My daddy taught that to me, I taught my sons. Work hard, but fair.\" (to John)",
             "\"We're an old Scottish family. We work. My daddy taught that to me, I taught my sons. Work hard, but fair.\" (nous sommes une vieille famille écossaise, nous travaillons ; mon père me l'a appris, je l'ai appris à mes fils : travailler dur, mais honnêtement), à John."),
-        two("\"We've got gold, Yankee... we've got gold.\" (to John, who asks what the family wants)",
-            "\"We've got gold, Yankee... we've got gold.\" (on a de l'or, le Yankee… on a de l'or), à John, qui lui demande ce que veut la famille."),
+        two("\"We've got gold, Yankee... we've got gold.\" (to John)",
+            "\"We've got gold, Yankee... we've got gold.\" (on a de l'or, le Yankee… on a de l'or), à John."),
         two("\"I'm Scottish.\" (after John claims that his own father came over from Scotland)",
             "\"I'm Scottish.\" (je suis écossais), quand John affirme que son propre père est venu d'Écosse."),
         two("\"Just keep us away from this... publicly I mean.\"",
@@ -74,50 +82,50 @@ BLOCKS_PERSONALITY = [
     ]},
     {"h4": two("Names", "Noms")},
     {"p": two(
-        "His first name is given by his son Beau, who introduces himself as the son of Tavish Gray. At the stables John calls him Mr. Gray, and the letter found beside his body opens with \"Dear Mr. Gray\"; in it the historian notes that his correspondent describes himself as a \"Scot in exile\". On the way to Caliga Hall in \"The Fine Joys of Tobacco\", Sean says that \"Old Man Gray\" has doubled security; the game does not name him further. Riding away from the stables, John calls him a \"Crazy old fool\". Dutch and Arthur speak of him as the sheriff's father (see Relationships, Leigh Gray).",
-        "Son prénom est donné par son fils Beau, qui se présente comme le fils de Tavish Gray. Aux écuries, John l'appelle Mr. Gray, et la lettre retrouvée près de son corps commence par \"Dear Mr. Gray\" ; l'historien y relève que son correspondant se présente lui-même comme un \"Scot in exile\" (un Écossais en exil). En route pour Caliga Hall dans \"The Fine Joys of Tobacco\", Sean raconte que \"Old Man Gray\" (le vieux Gray) a doublé la garde ; le jeu n'en dit pas plus sur ce personnage. En quittant les écuries, John le traite de \"Crazy old fool\" (vieux fou). Dutch et Arthur parlent de lui comme du père du shérif (voir Relations, Leigh Gray).")},
+        "His first name is given by his son Beau (see Quotes). At the stables John calls him Mr. Gray, and the letter found beside his body opens with \"Dear Mr. Gray\"; in it the historian notes that his correspondent describes himself as a \"Scot in exile\". Riding away from the stables, John calls him a \"Crazy old fool\". Sean speaks of an \"Old Man Gray\" on the way to Caliga Hall in \"The Fine Joys of Tobacco\"; the game does not say which Gray he means.",
+        "Son prénom est donné par son fils Beau (voir Citations). Aux écuries, John l'appelle Mr. Gray, et la lettre retrouvée près de son corps commence par \"Dear Mr. Gray\" ; l'historien y relève que son correspondant se présente lui-même comme un \"Scot in exile\" (un Écossais en exil). En quittant les écuries, John le traite de \"Crazy old fool\" (vieux fou). En route pour Caliga Hall dans \"The Fine Joys of Tobacco\", Sean parle d'un \"Old Man Gray\" (le vieux Gray), sans que le jeu précise de quel Gray il s'agit.")},
     {"h4": two("Appearance", "Apparence")},
     {"p": two(
-        "He is an elderly man, bald on top, with long gray hair on the sides, heavy dark eyebrows and a thick graying beard. At the stables he wears a dark suit over a white shirt.",
-        "C'est un homme âgé, chauve sur le dessus du crâne, aux longs cheveux gris sur les côtés, aux sourcils épais et sombres et à la barbe fournie et grisonnante. Aux écuries, il porte un costume sombre sur une chemise blanche.")},
+        "He is an elderly man with a bald crown, dark hair streaked with gray on the sides and back, heavy dark eyebrows and a full graying beard. At the stables he wears a dark coat over a white shirt, a dark tie and a patterned vest.",
+        "C'est un homme âgé, au sommet du crâne dégarni, aux cheveux sombres striés de gris sur les côtés et à l'arrière, aux sourcils épais et noirs, et à la barbe fournie qui grisonne. Aux écuries, il porte une veste sombre, une chemise blanche, une cravate foncée et un gilet à motifs.")},
 ]
 
 # ---------------------------------------------------------------- CALIGA HALL (skills equivalent)
 BLOCKS_SKILLS = [
     {"p": two(
-        "Caliga Hall is the Gray family's house and tobacco plantation, just east of Rhodes; the Red Dead Wiki places it on the western edge of Bayou Nwa, in Lemoyne. In \"The New South\", the deputy Archibald MacGregor points out its tobacco fields to Arthur, says the Grays have lived there for generations and that they own all the businesses in Rhodes, including the Rhodes Parlor House. The estate has a main house, stables, barns and cabins for the farmhands, with fields all around.",
-        "Caliga Hall est la demeure et la plantation de tabac de la famille Gray, juste à l'est de Rhodes ; le Red Dead Wiki la situe à la lisière ouest du Bayou Nwa, en Lemoyne. Dans \"The New South\", l'adjoint Archibald MacGregor montre ses champs de tabac à Arthur, explique que les Gray y vivent depuis des générations et qu'ils possèdent tous les commerces de Rhodes, dont le saloon Rhodes Parlor House. Le domaine compte une maison de maître, des écuries, des granges et des cabanes pour les ouvriers agricoles, entourées de champs.")},
+        "Caliga Hall is the Gray family's house and tobacco plantation, just east of Rhodes; the Red Dead Wiki places it on the western edge of Bayou Nwa, in Lemoyne. In \"The New South\", the deputy Archibald MacGregor points out its tobacco fields to Arthur on the road to Rhodes (see Biography). The estate has a main house, stables, barns and cabins for the farmhands, with fields all around.",
+        "Caliga Hall est la demeure et la plantation de tabac de la famille Gray, juste à l'est de Rhodes ; le Red Dead Wiki la situe à la lisière ouest du Bayou Nwa, en Lemoyne. Dans \"The New South\", sur la route de Rhodes, l'adjoint Archibald MacGregor montre ses champs de tabac à Arthur (voir la biographie). Le domaine compte une maison de maître, des écuries, des granges et des cabanes pour les ouvriers agricoles, entourées de champs.")},
     {"p": two(
-        "Armed guards keep strangers out: in \"The Course of True Love I\", one stops Arthur at the entrance and tells him the property is private. In \"The Fine Joys of Tobacco\", Sean reports that security has been doubled since the saloon incident, and that supply and payroll wagons come and go for the extra men. According to the Red Dead Wiki, the family still owns the estate in 1907, the fields are still worked and guards patrol at night. The same wiki says the house and grounds closely reproduce Shirley Plantation, in Virginia.",
-        "Des gardes armés tiennent les étrangers à distance : dans \"The Course of True Love I\", l'un d'eux arrête Arthur à l'entrée et lui rappelle que la propriété est privée. Dans \"The Fine Joys of Tobacco\", Sean rapporte que la garde a été doublée depuis l'incident du saloon, et que les chariots de ravitaillement et de paie défilent pour les hommes recrutés en renfort. D'après le Red Dead Wiki, la famille possède toujours le domaine en 1907, les champs sont encore cultivés et des gardes patrouillent la nuit. Le même wiki indique que la maison et ses abords reproduisent presque à l'identique la plantation Shirley, en Virginie.")},
+        "Armed guards keep strangers out: in \"The Course of True Love I\", one stops Arthur at the entrance and tells him the property is private. According to Sean, wagons bring supplies, equipment and pay to the estate, which has taken on extra guards (see Biography for its state in 1907). The Red Dead Wiki says the house and grounds closely reproduce Shirley Plantation, in Virginia.",
+        "Des gardes armés tiennent les étrangers à distance : dans \"The Course of True Love I\", l'un d'eux arrête Arthur à l'entrée et lui rappelle que la propriété est privée. D'après Sean, des chariots y livrent sans cesse vivres, matériel et paie, d'autant que le domaine a embauché des gardes en renfort (voir la biographie pour son état en 1907). Le Red Dead Wiki indique que la maison et ses abords reproduisent presque à l'identique la plantation Shirley, en Virginie.")},
 ]
 
 # ---------------------------------------------------------------- RELATIONSHIPS
 RELATIONSHIPS = [
     {"img": None, "slug": None, "name": "Beau Gray", "text": two(
-        "His son. Beau introduces himself to Arthur as the son of Tavish Gray, the nephew of Sheriff Leigh Gray and the grandson of Murdo Gray. He is secretly in love with Penelope Braithwaite, of the rival family, and leaves Rhodes with her in chapter 6 with Arthur's help (see Biography).",
-        "Son fils. Beau se présente à Arthur comme le fils de Tavish Gray, le neveu du shérif Leigh Gray et le petit-fils de Murdo Gray. Il aime en secret Penelope Braithwaite, de la famille rivale, et quitte Rhodes avec elle au chapitre 6, avec l'aide d'Arthur (voir la biographie).")},
+        "His son (see Quotes for how he introduces himself). He is secretly in love with Penelope Braithwaite, of the rival family, and leaves Rhodes with her in chapter 6 with Arthur's help (see Biography).",
+        "Son fils (voir Citations pour la façon dont il se présente). Il aime en secret Penelope Braithwaite, de la famille rivale, et quitte Rhodes avec elle au chapitre 6, avec l'aide d'Arthur (voir la biographie).")},
     {"img": None, "slug": None, "name": "Leigh Gray", "text": two(
-        "The sheriff of Rhodes. The game gives two versions of their link. Beau calls Leigh his uncle, which makes him Tavish's brother, and both Red Dead Wikis (EN and FR) list him as such. Dutch, on the other hand, says the sheriff put in a word for the gang with his father, and Arthur asks Tavish whether the sheriff is his son; Tavish does not correct him. Leigh dies in the Rhodes ambush, where Tavish is not present (see Biography).",
-        "Le shérif de Rhodes. Le jeu donne deux versions de leur lien. Beau appelle Leigh son oncle, ce qui en fait le frère de Tavish, et les deux Red Dead Wiki (anglais et français) le présentent ainsi. Dutch affirme au contraire que le shérif a recommandé la bande à son père, et Arthur demande à Tavish si le shérif est son fils ; Tavish ne le reprend pas. Leigh meurt dans l'embuscade de Rhodes, à laquelle Tavish n'assiste pas (voir la biographie).")},
+        "The sheriff of Rhodes, killed in the Rhodes ambush: Tavish's brother according to Beau and both Red Dead Wikis, his son according to Dutch and Arthur (see Biography).",
+        "Le shérif de Rhodes, tué dans l'embuscade de Rhodes : frère de Tavish pour Beau et les deux Red Dead Wiki, son fils pour Dutch et Arthur (voir la biographie).")},
     {"img": None, "slug": None, "name": "Murdo Gray", "text": two(
-        "His father, according to the Red Dead Wiki; Beau calls himself the grandson of old Murdo Gray. Tavish says his father taught him to work (see In his own words).",
-        "Son père, d'après le Red Dead Wiki ; Beau se présente comme le petit-fils du vieux Murdo Gray. Tavish dit tenir de son père le goût du travail (voir Dans ses propres mots).")},
+        "His father: Beau calls himself the grandson of old Murdo Gray, and the Red Dead Wiki lists Murdo as Tavish's father. Tavish says his father taught him to work (see In his own words).",
+        "Son père : Beau se présente comme le petit-fils du vieux Murdo Gray, et le Red Dead Wiki fait de Murdo le père de Tavish. Tavish dit tenir de son père le goût du travail (voir Dans ses propres mots).")},
     {"img": None, "slug": None, "name": "Ross Gray", "text": two(
-        "The ancestor who left Scotland for the colonies. The letter found beside Tavish's body says he was a paid informer for the Duke of Cumberland, not an exiled Jacobite (see Biography).",
-        "L'ancêtre qui a quitté l'Écosse pour les colonies. La lettre retrouvée près du corps de Tavish affirme qu'il était un informateur payé par le duc de Cumberland, et non un jacobite exilé (voir la biographie).")},
+        "The ancestor who left Scotland for the colonies. The letter found beside Tavish's body says he was a paid informer for the Duke of Cumberland and stayed in Scotland until 1755 (see Biography).",
+        "L'ancêtre qui a quitté l'Écosse pour les colonies. La lettre retrouvée près du corps de Tavish affirme qu'il était un informateur à la solde du duc de Cumberland et qu'il n'a quitté l'Écosse qu'en 1755 (voir la biographie).")},
     {"img": "catherine-braithwaite.jpeg", "slug": "catherine-braithwaite", "name": "Catherine Braithwaite", "text": two(
-        "The head of the rival family. They never share a scene. He calls her a hag, calls her sons inbred and accuses them of killing his uncle (see Quotes). She pays the gang to burn his tobacco fields, while he pays it to steal her horses (see Biography).",
-        "La cheffe de la famille rivale. Ils n'apparaissent jamais ensemble. Il la traite de vieille sorcière, dit de ses fils qu'ils sont consanguins et les accuse d'avoir tué son oncle (voir Citations). Elle paie le gang pour incendier ses champs de tabac, pendant que lui le paie pour voler ses chevaux (voir la biographie).")},
+        "The head of the rival family. They never share a scene. He insults her and her sons and accuses them of killing his uncle (see Quotes). She hires the gang to burn his tobacco fields, while he sends it to steal her horses and sell them to a fence (see Biography).",
+        "La cheffe de la famille rivale. Ils n'apparaissent jamais ensemble. Il l'insulte, elle et ses fils, et les accuse d'avoir tué son oncle (voir Citations). Elle engage le gang pour incendier ses champs de tabac, tandis que lui l'envoie voler ses chevaux pour les revendre à un receleur (voir la biographie).")},
     {"img": "john-marston.jpeg", "slug": "john-marston", "name": "John Marston", "text": two(
-        "John does most of the talking at the stables. He tells Tavish the newcomers lost money in the west on a failed railway speculation, and claims a father who came over from Scotland. He accepts the deal and later takes the 700 dollars the fence offers (see Biography). He calls Tavish a crazy old fool as they ride off (see Names).",
-        "C'est John qui mène la discussion aux écuries. Il raconte à Tavish que les nouveaux venus ont perdu de l'argent dans l'Ouest sur une spéculation ferroviaire ratée, et affirme que son père est venu d'Écosse. Il accepte le marché, puis les 700 dollars proposés par le receleur (voir la biographie). En repartant, il traite Tavish de vieux fou (voir Noms).")},
+        "John does most of the talking at the stables, accepts the deal and takes the fence's 700 dollars (see Biography).",
+        "C'est John qui mène la discussion aux écuries ; il accepte le marché, puis empoche les 700 dollars du receleur (voir la biographie).")},
     {"img": "arthur-morgan.jpeg", "slug": "arthur-morgan", "name": "Arthur Morgan", "text": two(
-        "Arthur joins John and Javier at the stables, asks how much gold is on offer and where to sell the horses. He steals them, then burns the Grays' tobacco fields for Catherine Braithwaite with Sean, and can find Tavish's body on a porch of Caliga Hall (see Biography). In his journal he writes after the sale that they felt like prize idiots.",
-        "Arthur rejoint John et Javier aux écuries, demande combien d'or est en jeu et où vendre les chevaux. Il les vole, puis incendie les champs de tabac des Gray avec Sean pour le compte de Catherine Braithwaite, et peut découvrir le corps de Tavish sous un porche de Caliga Hall (voir la biographie). Après la vente, il note dans son journal qu'ils se sont sentis comme de parfaits idiots.")},
+        "Arthur joins John and Javier at the stables, asks how much gold is on offer and where to sell the horses. He steals them, then burns the Grays' tobacco fields for Catherine Braithwaite with Sean, and can find Tavish's body on a porch of Caliga Hall (see Biography).",
+        "Arthur rejoint John et Javier aux écuries, demande combien d'or est en jeu et où vendre les chevaux. Il les vole, puis incendie les champs de tabac des Gray avec Sean pour le compte de Catherine Braithwaite, et peut découvrir le corps de Tavish sous un porche de Caliga Hall (voir la biographie).")},
     {"img": "javier-escuella.jpeg", "slug": "javier-escuella", "name": "Javier Escuella", "text": two(
-        "Javier is at the stables with John when Arthur arrives, and helps steal the horses (see Biography). Tavish does not speak to him.",
-        "Javier est aux écuries avec John quand Arthur arrive, et participe au vol des chevaux (voir la biographie). Tavish ne lui adresse pas la parole.")},
+        "Javier is at the stables with John when Arthur arrives, and helps steal the horses (see Biography). He says nothing to Tavish at the stables.",
+        "Javier est aux écuries avec John quand Arthur arrive, et participe au vol des chevaux (voir la biographie). Aux écuries, il ne dit pas un mot à Tavish.")},
     {"img": "dutch-van-der-linde.jpeg", "slug": "dutch-van-der-linde", "name": "Dutch van der Linde", "text": two(
         "Dutch plans to make each family believe the gang is on its side, then rob both. He tells Arthur that the sheriff put in a word with his father, which is how John and Javier get the meeting at Caliga Hall. He never meets Tavish on screen. After Sean's death, in a rare camp line, Dutch swears the gang will make the Grays bleed.",
         "Dutch compte faire croire à chaque famille que le gang est de son côté, puis les dépouiller toutes les deux. Il explique à Arthur que le shérif a glissé un mot à son père, ce qui vaut à John et Javier leur rendez-vous à Caliga Hall. Il ne rencontre jamais Tavish à l'écran. Après la mort de Sean, dans une réplique rare au camp, Dutch jure que le gang fera saigner les Gray.")},
@@ -131,12 +139,12 @@ RELATIONSHIPS = [
         "Bill says he has been making deals with the Gray men, and it is to him that they offer the security job in Rhodes. The job is the ambush in which Leigh Gray takes him hostage (see Biography).",
         "Bill affirme avoir monté des affaires avec les hommes des Gray, et c'est à lui qu'ils proposent le travail de protection à Rhodes. Ce travail est l'embuscade où Leigh Gray le prend en otage (voir la biographie).")},
     {"img": "micah-bell.jpeg", "slug": "micah-bell", "name": "Micah Bell", "text": two(
-        "Micah rides into Rhodes with Arthur, Bill and Sean for the security job, and fights the Grays' gunmen with Arthur (see Biography). He never meets Tavish.",
-        "Micah se rend à Rhodes avec Arthur, Bill et Sean pour le travail de protection, et affronte avec Arthur les hommes armés des Gray (voir la biographie). Il ne rencontre jamais Tavish.")},
+        "Micah waits in Rhodes with Bill and Sean for Arthur before the security job, and fights the Grays' gunmen with Arthur (see Biography). He never meets Tavish.",
+        "Micah attend Arthur à Rhodes avec Bill et Sean avant le travail de protection, et affronte avec Arthur les hommes armés des Gray (voir la biographie). Il ne rencontre jamais Tavish.")},
     {"img": None, "slug": None, "name": "Clay Davies", "text": two(
         "The fence at Clemens Cove that Tavish recommends, saying he will take the horses out of state for half their value. He pays 700 dollars for the three stallions (see Biography).",
         "Le receleur de Clemens Cove que recommande Tavish, en assurant qu'il fera sortir les chevaux de l'État et en donnera la moitié de leur valeur. Il paie 700 dollars pour les trois étalons (voir la biographie).")},
     {"img": None, "slug": None, "name": "Malcolm Moffat", "text": two(
-        "The University of Edinburgh historian who answers a letter from a Mr. Gray about his ancestor. His reply lies beside Tavish's body (see Biography).",
-        "L'historien de l'université d'Édimbourg qui répond à la lettre d'un certain Mr. Gray sur son ancêtre. Sa réponse repose à côté du corps de Tavish (voir la biographie).")},
+        "The University of Edinburgh historian who answers a letter from Mr. Gray about his ancestor. His reply lies beside Tavish's body (see Biography).",
+        "L'historien de l'université d'Édimbourg qui répond à la lettre de Mr. Gray sur son ancêtre. Sa réponse repose à côté du corps de Tavish (voir la biographie).")},
 ]

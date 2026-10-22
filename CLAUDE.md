@@ -660,5 +660,15 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     tireur nommé. Arthur suppose une rançon (corrigé chez Bronte). Le nom « Bartholomew » vient du wiki (attribué chez Arthur,
     Hosea, Sean, Dutch). Hosea répond par une plaisanterie (pas « se porte garant »). Guides ch. 3 et 4 corrigés EN+FR (Sean
     meurt dans « A Short Walk in a Pretty Town », le shérif Gray est tué, etc.).
+  - **Tavish Gray v3** : 4 380 mots EN, 15 relations, galerie 1 (le wiki n'a rien d'autre d'exploitable ; corps et lettre
+    disponibles dans `work/tavish/fc/` si Joseph veut les ajouter). Source : transcription complète (gsw). Cause de la mort
+    jamais affirmée ; Tavish ne paie jamais le gang (5 000 annoncés, le receleur Clay Davies paie 700) ; « Old Man Gray » de
+    Sean non attribué à Tavish ; section « Caliga Hall » à la place des compétences ; pas d'Accueil. Voix : Madison Arnold
+    (wiki + GTABase). Corrigé chez Hosea (pas de « les Gray comprennent ») et Arthur (pas de « promet », pas d'Arthur qui
+    abat le shérif).
+  - **Alberto Fussar v3** : 4 720 mots EN, 13 relations, galerie 4, section « Le pouvoir à Guarma ». Sur la tour il charge et
+    tire au CANON (transcription + captures), pas une Gatling (corrigé chez Arthur et Dutch). Offre d'Hercule : faire taire
+    Fussar pour partir avant que quiconque n'arrive d'Amérique (corrigé chez Arthur et Dutch). Nationalité non dite en jeu
+    (cubain selon le wiki). Voix : Alfredo Narciso (année de naissance non sourcée, retirée). Accueil : WhatCulture, 7 févr. 2022.
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).

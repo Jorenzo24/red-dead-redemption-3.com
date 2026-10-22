@@ -29,6 +29,11 @@ up the letter (bug report, no value); the "No true Scotsman" reading of the lett
 keep a stolen horse (not about Tavish); Arthur removing his deputy badge (not about Tavish, and the wiki's "seemingly" is
 interpretation); the Gray family crest inspired by Bully (about the family, not Tavish); Pearson's 1907 line (already
 quoted on the Catherine Braithwaite fiche; paraphrased in part A here); Red Dead Online appearance for Tavish (none listed).
+
+FIX PASS (22 Oct 2026): Quotes gain the "hag" line (gsw l.7446) and "Who are you?" (gsw l.7436). GTA V trivia rewritten
+from GTA Wiki "The Sharmoota Job" (Martin Madrazo; safe, prized horse, wife). Thoroughbred/Black Arabian item attributed
+to the Red Dead Wiki (Cut Content + Horse Flesh mission page). Pearson's 1907 line is paraphrased in part A, attributed to
+the wiki quote list. Moffat writes to "Mr. Gray" (never "to Tavish").
 """
 
 
@@ -53,8 +58,8 @@ BLOCKS_MISSIONS = [
     {"h4": two("Other missions linked to Tavish", "Autres missions liées à Tavish")},
     {"table": {"head": [two("Mission", "Mission"), two("Chapter", "Chapitre"), two("Link with Tavish", "Lien avec Tavish")], "rows": [
         M("The New South", C3,
-          "Arthur helps Tavish's brother, Sheriff Leigh Gray, catch the Anderson boys.",
-          "Arthur aide le frère de Tavish, le shérif Leigh Gray, à rattraper les frères Anderson."),
+          "Arthur helps Sheriff Leigh Gray catch the Anderson boys.",
+          "Arthur aide le shérif Leigh Gray à rattraper les frères Anderson."),
         M("American Distillation", C3,
           "Leigh Gray deputizes [[dutch-van-der-linde|Dutch]], Arthur and [[bill-williamson|Bill]] to shut down a Braithwaite still.",
           "Leigh Gray fait de [[dutch-van-der-linde|Dutch]], d'Arthur et de [[bill-williamson|Bill]] ses adjoints pour démanteler un alambic des Braithwaite."),
@@ -79,10 +84,18 @@ BLOCKS_MISSIONS = [
 
 BLOCKS_QUOTES = [
     {"h3": two("Quotes", "Citations")},
-    {"p": two("The lines below are given in the original English. Tavish's words about himself and his family are quoted under Personality.",
-              "Les répliques ci-dessous sont citées en version originale. Ce que Tavish dit de lui-même et de sa famille figure dans la rubrique Personnalité.")},
+    {"p": two("The lines below are given in the original English. Tavish's words about himself and his family are quoted under Personality; his lines about the Braithwaites and the horse job are here.",
+              "Les répliques ci-dessous sont citées en version originale. Ce que Tavish dit de lui-même et de sa famille figure dans la rubrique Personnalité ; ses propos sur les Braithwaite et sur l'affaire des chevaux sont rassemblés ici.")},
     {"h4": two("The horse job", "L'affaire des chevaux")},
     {"quotes": [
+        {"q": two("You don't know me... you turn up in this town... and you're helping everybody. And everywhere... there's troubles. Who are you?",
+                  "You don't know me... you turn up in this town... and you're helping everybody. And everywhere... there's troubles. Who are you?"),
+         "src": two("Tavish to John, at the start of the stables scene, Horse Flesh for Dinner (RDR2, chapter 3)",
+                    "Tavish à John, au début de la scène des écuries, Horse Flesh for Dinner (RDR2, chapitre 3). Traduction : « Vous ne me connaissez pas... Vous débarquez dans cette ville... et vous rendez service à tout le monde. Et partout où vous passez... il y a des ennuis. Qui êtes-vous ? »")},
+        {"q": two("That hag and her inbred sons... they've ruined this county. They killed my uncle, you know.",
+                  "That hag and her inbred sons... they've ruined this county. They killed my uncle, you know."),
+         "src": two("Tavish on Catherine Braithwaite and her sons, to John and Arthur, Horse Flesh for Dinner (RDR2, chapter 3)",
+                    "Tavish à propos de Catherine Braithwaite et de ses fils, devant John et Arthur, Horse Flesh for Dinner (RDR2, chapitre 3). Traduction : « Cette vieille sorcière et ses fils consanguins... ils ont ruiné le comté. Ils ont tué mon oncle, vous savez. »")},
         {"q": two("Enough. These are prized horses I'm talking about... them they'll get you... five thousand.",
                   "Enough. These are prized horses I'm talking about... them they'll get you... five thousand."),
          "src": two("Tavish, asked by Arthur how much gold he means, Horse Flesh for Dinner (RDR2, chapter 3)",
@@ -135,16 +148,18 @@ BLOCKS_TRIVIA = [
             "Agresser ou tuer Tavish fait échouer \"Horse Flesh for Dinner\"."),
         two("According to the Red Dead Wiki, \"Gray's Secret\" is the only point of interest in the game that requires a specific mission to be completed before it can be found.",
             "Selon le Red Dead Wiki, \"Gray's Secret\" est le seul point d'intérêt du jeu qui ne peut être découvert qu'après une mission précise."),
-        two("The historian who writes to Tavish, Malcolm Moffat, shares his surname with Geraldine Moffat, the actress who is the mother of Sam and Dan Houser, co-founders of Rockstar Games.",
-            "L'historien qui écrit à Tavish, Malcolm Moffat, porte le même nom que Geraldine Moffat, l'actrice qui est la mère de Sam et Dan Houser, cofondateurs de Rockstar Games."),
-        two("According to the Red Dead Wiki, \"Horse Flesh for Dinner\" reuses the idea of a heist cut from Grand Theft Auto V, in which the crew poses as buyers interested in a rival's property in order to steal his horses.",
-            "Selon le Red Dead Wiki, \"Horse Flesh for Dinner\" reprend l'idée d'un braquage coupé de Grand Theft Auto V, dans lequel l'équipe se fait passer pour des acheteurs intéressés par la propriété d'un rival afin de lui voler ses chevaux."),
+        two("The historian who writes to Mr. Gray, Malcolm Moffat, shares his surname with Geraldine Moffat, the actress who is the mother of Sam and Dan Houser, co-founders of Rockstar Games.",
+            "L'historien qui écrit à Mr. Gray, Malcolm Moffat, porte le même nom que Geraldine Moffat, l'actrice qui est la mère de Sam et Dan Houser, cofondateurs de Rockstar Games."),
+        two("According to the Red Dead Wiki, \"Horse Flesh for Dinner\" reuses the idea of a heist cut from Grand Theft Auto V. According to the GTA Wiki, in that heist Michael and Trevor were to visit the house of the cartel boss Martin Madrazo as prospective buyers, in order to take his safe and his prized horse and to kidnap his wife.",
+            "Selon le Red Dead Wiki, \"Horse Flesh for Dinner\" reprend l'idée d'un braquage retiré de Grand Theft Auto V. D'après le GTA Wiki, Michael et Trevor devaient y visiter la maison du chef de cartel Martin Madrazo en se faisant passer pour des acheteurs, afin de s'emparer de son coffre-fort et de son cheval de prix, et d'enlever sa femme."),
+        two("Tavish calls the stolen horses thoroughbreds; according to the Red Dead Wiki, the stallion that breaks loose during the mission is a Black Arabian.",
+            "Tavish parle de pur-sang pour les chevaux volés ; d'après le Red Dead Wiki, l'étalon qui s'échappe pendant la mission est un Arabe noir."),
     ]},
 ]
 
 
 BLOCKS_MEDIA = [
     {"h3": two("Other media and legacy", "Autres médias et postérité")},
-    {"p": two("The Red Dead Wiki lists Tavish only in Red Dead Redemption 2. Caliga Hall, his estate, is also a location in Red Dead Online, whose story is set in 1898. His brother Leigh Gray appears there as the sheriff of Rhodes, who sells the player a bounty hunter license.",
-              "Le Red Dead Wiki ne recense Tavish que dans Red Dead Redemption 2. Caliga Hall, son domaine, figure aussi parmi les lieux de Red Dead Online, dont l'histoire se déroule en 1898. Son frère Leigh Gray y apparaît en shérif de Rhodes, qui vend au joueur une licence de chasseur de primes.")},
+    {"p": two("The Red Dead Wiki lists Tavish only in Red Dead Redemption 2. Caliga Hall, his estate, is also a location in Red Dead Online, whose story is set in 1898. Leigh Gray appears there as the sheriff of Rhodes, who sells the player a bounty hunter license.",
+              "Le Red Dead Wiki ne recense Tavish que dans Red Dead Redemption 2. Caliga Hall, son domaine, figure aussi parmi les lieux de Red Dead Online, dont l'histoire se déroule en 1898. Leigh Gray y apparaît en shérif de Rhodes, qui vend au joueur une licence de chasseur de primes.")},
 ]
