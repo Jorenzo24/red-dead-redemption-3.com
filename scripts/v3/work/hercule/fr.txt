@@ -1,0 +1,58 @@
+{{InfoboxPersonnages
+| theme = 
+| title1 = Hercule Fontaine
+| image1 = Hercule Fontaine01.png
+| apparition = ''[[Red Dead Redemption II]]''
+| dapparition = 
+| décès = 
+| genre = Masculin
+| nationalité = Haïtien
+| ldv = [[Guarma]]
+| surnom = 
+| activité = Rebelle<br/>Contrebandier<br/>Esclave <small>(Anciennement)</small>
+| caption1 = 
+| naissance = 
+| statut = Vivant
+| famille = 
+| allié = 
+| ennemi = 
+| faction = 
+| arme = 
+| monture = 
+| véhicule = 
+| acteur = [[Guyviaud Joseph]]
+| motion capture = 
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+'''Hercule Fontaine''' est un [[Personnages dans Red Dead Redemption II#Personnages majeurs 2|personnage majeur]] présent dans ''[[Red Dead Redemption II]]''.
+
+== Histoire ==
+Avant 1899, étant définit comme "problématique" par les responsables cubains, il est envoyé sur l'île de [[Guarma]] où il mène une lente rébellion contre le [[Alberto Fussar|gouverneur Fussar]].
+== Interactions ==
+=== Guarma ===
+Hercule Fontaine est aperçu pour la première lorsqu'il ouvre le feu sur les soldats ayant capturé les membres de la [[Bande de Dutch van der Linde|bande de Dutch]]. Au cours de cet échange de balles, [[Arthur Morgan|Arthur]] réussit à détacher ses liens et participe à son tour à la fusillade. Des renforts arrivent et Hercule propose à la bande de le suivre.
+
+Après avoir sauvé des travailleurs et [[Javier Escuella|Javier]], le gang rencontre Hercule dans un vieux fort espagnol. L'Armée cubaine attaque le fort. [[Dutch van der Linde|Dutch]], [[Arthur Morgan|Arthur]] et Hercule se chargent de l'assaut avant de décider d'abattre le navire de guerre à l'aide d'un canon.
+
+Après l'assaut, [[Micah Bell|Micah]] informe les autres membres qu'[[Alberto Fussar]] a remplit l'île de soldats pour les empêcher de fuir. Ils se chargent rapidement des soldats et des installations de Fussar et sauvent le Capitaine de leur navire après un duel qui confrontait [[Dutch van der Linde|Dutch]], [[Arthur Morgan|Arthur]], [[Alberto Fussar]] et [[Levi Simon]]. Fussar s'enfuit et Levi Simon est tué. Sur le chemin, Fussar s'arme d'une [[Gatling]]. Arthur le tue finalement d'un coup de canon. Après cela Hercule mentionne que lui et ses hommes vont bientôt quitter [[Guarma]] et que lui et les rebelles seront partis avant le matin.
+== Apparitions dans les missions ==
+* "[[Bienvenue dans le Nouveau Monde]]"
+* "[[Les Enfers n'ont pas de pire furie]]"
+* "[[Un paradis enfin perdu]]"
+
+{{Personnages RDR2}}
+[[de:Hercule Fontaine]]
+[[en:Hercule Fontaine]]
+[[ru:Эркюль Фонтен]]
+[[tr:Hercule Fontaine]]
+[[Catégorie:Personnages dans Red Dead Redemption II]]
+[[Catégorie:Personnages]]
+[[Catégorie:Relecture]]
