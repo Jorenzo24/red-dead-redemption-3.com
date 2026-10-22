@@ -3,25 +3,24 @@
 Last update: 2026-10-22. Counter: run `python3 scripts/v3/counter.py` (done = build( entries in _FULL of
 scripts/_enrich.py; total = characters/*/ folders + _queue/ items).
 
-**Counter: 46 done / 50 total, 4 remaining.**
+**Counter: 47 done / 50 total, 3 remaining.**
 
 ## In progress (one line per fiche: key, step, device, WIP branch)
 | Fiche | key | Step | Where | WIP branch |
 |---|---|---|---|---|
-| Hercule Fontaine | hercule | gallery+modules done, drafting | Mac session | wip/v3-hercule-rains |
-| Rains Fall | rains | gallery+modules done, drafting (merge only AFTER the drip publishes it on 2026-10-23) | Mac session | wip/v3-hercule-rains |
+| Rains Fall | rains | fixing (merge only AFTER the drip publishes it on 2026-10-23, then rebuild with _enrich) | Mac session | wip/v3-hercule-rains |
 
 A fiche listed here with a WIP branch can be resumed from any device: check out the branch first.
 
-## Done (46, in _FULL order)
+## Done (47, in _FULL order)
 Full tier: John Marston, Arthur Morgan, Dutch van der Linde, Sadie Adler, Micah Bell, Hosea Matthews, Charles Smith,
 Bill Williamson, Javier Escuella, Abigail Marston, Jack Marston, Uncle.
 Medium tier, gang: Sean MacGuire, Lenny Summers, Kieran Duffy, Susan Grimshaw, Karen Jones, Tilly Jackson,
 Simon Pearson, Mary-Beth Gaskill, Orville Swanson, Leopold Strauss, Molly O'Shea, Josiah Trelawny.
-Medium tier, outside the gang: Colm O'Driscoll, Edgar Ross, Andrew Milton, Leviticus Cornwall, Mary Linton, Angelo Bronte, Bonnie MacFarlane, Landon Ricketts, Nigel West Dickens, Seth Briars, Leigh Johnson, Abraham Reyes, Agustin Allende, Vincente de Santa, Luisa Fortuna, Irish, Nastas, Harold MacDougal, Archer Fordham, Catherine Braithwaite, Tavish Gray, Alberto Fussar.
+Medium tier, outside the gang: Colm O'Driscoll, Edgar Ross, Andrew Milton, Leviticus Cornwall, Mary Linton, Angelo Bronte, Bonnie MacFarlane, Landon Ricketts, Nigel West Dickens, Seth Briars, Leigh Johnson, Abraham Reyes, Agustin Allende, Vincente de Santa, Luisa Fortuna, Irish, Nastas, Harold MacDougal, Archer Fordham, Catherine Braithwaite, Tavish Gray, Alberto Fussar, Hercule Fontaine.
 
-## Remaining (4)
-Live, not v3 yet (1): hercule-fontaine.
+## Remaining (3)
+Live, not v3 yet: none.
 Queued in _queue/, not published yet (3): rains-fall, eagle-flies, sister-calderon. Do them after the drip has published them
 (the v3 rebuild regenerates characters/<slug>/ through _enrich.py), never publish them early.
 
