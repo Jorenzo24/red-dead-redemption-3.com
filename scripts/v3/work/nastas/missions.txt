@@ -1,0 +1,8 @@
+Bear One Another's Burdens	scripts/v3/work/_m/Bear_One_Another_s_Burdens.txt
+Bear One Another's Burdens/dialogues	scripts/v3/work/_m/Bear_One_Another_s_Burdens_dialogues.txt
+At Home with Dutch	scripts/v3/work/_m/At_Home_with_Dutch.txt
+At Home with Dutch/dialogues	scripts/v3/work/_m/At_Home_with_Dutch_dialogues.txt
+For Purely Scientific Purposes	scripts/v3/work/_m/For_Purely_Scientific_Purposes.txt
+For Purely Scientific Purposes/dialogues	scripts/v3/work/_m/For_Purely_Scientific_Purposes_dialogues.txt
+Curious Tales from Blackwater	scripts/v3/work/_m/Curious_Tales_from_Blackwater.txt
+Curious Tales from Blackwater/dialogues	MISSING (no such wiki page)

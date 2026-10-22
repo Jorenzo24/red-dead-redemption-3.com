@@ -1,0 +1,160 @@
+{{User/characterbox
+|image = [[File:Rdr harold macdougal square.jpg|300px]]
+|aka = Professor MacDougal
+|gender = Male
+|location = Town of [[Blackwater]] in [[Great Plains]], Commonwealth of [[West Elizabeth]] <small>(c.1911)</small><br>City of [[wikipedia:New Haven|New Haven]], State of [[wikipedia:Connecticut|Connecticut]]
+|affiliations = Yale University <small>(formerly)</small><br />[[Bureau of Investigation]]<br />[[John Marston]]<br />[[Nastas]]
+|weapon = [[Cattleman Revolver]]
+|voice = [[Joe Ochman]]
+|game = ''[[Red Dead Redemption]]''<br>''[[Red Dead Redemption 2]]'' <small>(mentioned)</small>
+|nationality = [[File:Flag of the United States (1908–1912).svg|border|20px]] American
+|occupation = Anthropology professor at Yale University <small>(formerly)</small>
+|family = Unnamed father
+|mount = [[Ardennais]]<br>[[Cleveland Bay]]
+}}
+{{quote|The savage heart cannot be conventionally civilized! I was right all along!|Harold MacDougal}}
+
+'''Professor Harold MacDougal''' is a [[Characters in Redemption#Major characters|major character]] featured in ''[[Red Dead Redemption]]''. He is also mentioned in ''[[Red Dead Redemption 2]]''.
+
+With the addition of the ''[[Liars and Cheats]]'' [[DLC]] pack, '''Professor MacDougal''' is also a [[Multiplayer Characters|multiplayer character]] model that may be selected in the 'Damnation' section of the [[Outfitter]].
+
+==History==
+===Background===
+{{Quote|Dr. MacDougal is a 42-year-old anthropologist. He is on a sabbatical from Yale, writing a book about Native Americans and the last days of the old west. He is, very much, an east coast turn-of-the-century man. However, it could also be said that he has taken his study of opium a little too seriously. It's possible that his sabbatical from Yale was forced. He is an optimist who loves the American way of life and speaks in large metaphors.|Description of MacDougal in the GOTY Edition guide of ''Red Dead Redemption''}}
+Harold MacDougal MacDougal was born circa 1869.<ref>''Red Dead Redemption'' GOTY guide.</ref> Since childhood, MacDougal was fascinated by the study of anthropology.<ref>Mentioned in a conversation with [[John Marston]] in "[[For Purely Scientific Purposes]]":<br>'''Harold:''' ''"I've been fascinated by anthropology for as long as I can remember, since a young boy."''</ref> Prior to 1899, he became an anthropology professor at Yale University, much to the disdain of his father, who didn't view it as a legitimate profession.<ref>Mentioned in a conversation with John Marston in "For Purely Scientific Purposes":<br>'''Harold:''' ''"Ah, but it's far more than that! You sound like my ape of a father, an argument against evolution if there ever was one. 'Get a real profession, Harold!'. Hah!"''</ref> As a professor, MacDougal dedicated his academic focus to the study of race and civilization, and frequently argued with a fellow academic named [[Newspaper Characters#Lionel Fortisque|Lionel Fortisque]]. At some point prior to 1899, MacDougal would also gain notoriety for publishing a book titled "The Scourge of Crossbreading".<ref name=":0">[[Prominent Yale Scientist Speaks Out]]</ref>
+
+While in Yale, MacDougal was introduced to cocaine, a drug that he abuses frequently, exacerbating his nervous personality and causing him to have insomnia and bouts of extreme panic.
+
+===Events of ''Red Dead Redemption 2''===
+
+===[[Saint Denis]] Chapter===
+Although he does not make a physical appearance, he and a book he wrote are mentioned in "[[Help a Brother Out]]" by the fence shopkeeper.
+
+===[[Beaver Hollow]] Chapter===
+{{Quote|It is clear to me that some societies advance, taming agriculture, mastering letters and literature, inventing fantastical things such as the phonograph or electricity while others wallow in squalor, scarcely able to feed and clothe themselves. It comes down to the nature of the savage soul. Savages cannot construct buildings that rise to the heavens, but we have.|Harold MacDougal duirng his presentation.}}
+In June of 1899,<ref>The later chapters of ''Red Dead Redemption 2'''s story occur in June 1899, as evidenced by the month and date marked in Mayor [[Henri Lemieux]]'s [[Second Invitation from Mayor Lemieux|second letter]].</ref> Harold presents a paper to his colleagues at Yale titled "Savage Minds: The Racial Continuum Between Animal and God", asserting that some races are predisposed to create higher functioning societies than others. MacDougal's paper is heavily critized by his colleague Benjamin Fortescue, who argued that there is little evidence to support these claims.<ref name=":0"/>
+
+===Events of ''Red Dead Redemption''===
+{{Quote|A highly-strung anthropology professor, on a forced sabbatical from Yale.|Rockstar Games' description of Harold MacDougal for ''Red dead Redemption''.}}
+Around 1911, MacDougal takes a hiatus from his job at Yale. Although he claims it was self-imposed, in reality he was put on a forced unpaid sabbatical for "degeneracy".<ref>Mentioned by [[Archer Fordham]] and [[Edgar Ross]] in "[[Bear One Another's Burdens]]":<br>'''Archer:''' ''"So, this is the office of an anthropologist named MacDougal. He was thrown out of Yale for degeneracy."''<br>'''Ross:''' ''"Which should tell you something."''</ref> In May of that year,<ref>"Anthropologist Turns Savage" states that MacDougal spent six months in Blackwater before fleeing the town at the end of "[[The Prodigal Son Returns (To Yale)]]", which takes place in November of 1911.</ref> MacDougal moves to the town of [[Blackwater]] to begin studying the social and cultural behaviors of the local Native population,<ref name="Blackwater ledger>Mentioned in the article, "Anthropologist turns savage" in the 1914 issue of [[Blackwater Ledger|The Blackwater Ledger and Sentinel]].</ref> funded by his own inheritance.<ref>Mentioned in a conversation with John Marston in "For Purely Scientific Purposes":<br>'''John:''' ''"And somebody pays you to do this?"''<br>'''Harold:''' ''"Of course they do. I'm an academic. Or they did, at least. I am enjoying a little imposed professional hiatus right now. Dipping into the old inheritance."''</ref> There, his book intelligence is rendered useless in the violent and pragmatic environment of the Old West.
+
+====West Elizabeth====
+MacDougal is still conducting his research in Blackwater by November of 1911.<ref>The timeline of events in ''Red Dead Redemption'' is deduced from the timing of release of the weekly [[Newspapers|newspaper]] ''[[Blackwater Ledger|The Blackwater Ledger]]''. The article "[[Nate Johns Elected Governor]]" in the [[Blackwater Ledger No. 57|57th issue]] describes the American gubernatorial election as having recently concluded, meaning it must have been published between November 1 and November 8 inclusive. The 58th issue is released shortly before MacDougal's missions become available. This confirms that John returns to Blackwater around a week after the election of Governor [[Nate Johns]] in early November, meaning it must be set in November of 1911.</ref> When [[John Marston]] and [[Archer Fordham]] retrieve [[Nastas]] from Dutch's trap at the [[Wreck of the Serendipity]], they drop him off at Professor MacDougal's hotel room to recover. [[Edgar Ross]] then instructs Marston to pay him a visit later.
+
+When John Marston visits MacDougal again, he finds him comparing blood samples of, in his opinion, the 'savage' Native Americans and the 'civilized' white man. After observing them, he is absolutely shocked to see that they are exactly the same. Nastas then enters, and MacDougal tries to communicate with sign language and metaphors, but Nastas responds to him by speaking in a perfectly normal manner. Nastas claims to know the location of [[Dutch van der Linde]], and both Marston and MacDougal follow Nastas into [[Tall Trees]], where MacDougal rides back to Blackwater, obviously frightened. After Marston gets knocked out, Nastas runs up the mountain and carries him back to MacDougal, where he revives him with smelling salts. MacDougal claims that he and Nastas carried Marston back, but after an angry glare from Nastas, he reveals Nastas carried Marston down, and he planned the escape.
+
+When John Marston encounters MacDougal again, Nastas arranges a meeting with Dutch's men at [[Bearclaw Camp]]. On the way, they encounter a [[Grizzly Bears|bear]], and MacDougal, horrified, shoots the bear, which, in turn, makes the bear angry. When it attacks, Marston kills the bear before it could do any damage. Nastas then says that the bear meant no harm and would not have attacked if MacDougal had not shot first. The meeting with Dutch does not go very well as Nastas is shot in the head after being called a traitor. The professor cowers in fear as Marston fights Dutch's men, and the two of them escape back to Blackwater. During the escape trip, MacDougal is saddened that Nastas was killed, thinking he was "a brilliant savage companion."
+
+Marston next finds him packing in a hurried state, repeatedly calling either the natives or Dutch's gang (or both) "fucking savages," and aiming to take the next train back to Yale. Dutch van der Linde and several men approach his house from the street, firing a gun at the building, telling John to send MacDougal outside so that they may show him their own method of 'Anthropology.' Marston and MacDougal escape via the rooftops, but Dutch has snipers all over the town. After a battle, Marston and MacDougal get on their horses and run full speed to the train station at [[Manzanita Post]]. Marston, along the way, kills any of Dutch's men trying to pursue them.
+
+When they reach the station, MacDougal thanks Marston for his help. He shakes his hand but gives up and gives him a hug before boarding the train.
+
+After his escape, MacDougal posts a paragraph in the ''[[Blackwater Ledger]]'' mourning Nastas' death, writing, "May you find God, dear friend".<ref>Mentioned in Blackwater Ledger No. 59, published in 1911.</ref>
+
+====Epilogue====
+MacDougal succeeded in returning to Yale University, for a time. In 1913, he publishes a damning thesis on the impossibility of taming the savage mind. Come 1914, however, MacDougal grows increasingly unstable over the course of multiple months, eventually being put on probation following allegations of attempting to pay a groundskeeper to have the top of his head opened so he could photograph a living brain. Some months later, around November of 1914, a drunk MacDougal is caught beating fellow academic Lionel Fortisque on the head with a croquet mallet at a garden party following an argument over Polynesian cannibals. He then climbes the roof of Woolsey Hall, strips naked and threatens to jump if not brought fine food and drink. MacDougal is expelled from the university following this incident.<ref name="Blackwater ledger"/>
+
+==Events of ''Undead Nightmare''==
+'''Note:''' ''The events of Undead Nightmare are not considered part of the same canon as Red Dead Redemption. The following description is therefore not contiguous with the preceding section on Red Dead Redemption.''
+[[File:Rdr macdougal undead nastas.jpg|250px|right]]
+
+MacDougal appears in the [[Missions in Redemption#Undead Nightmare|mission]] [[Curious Tales from Blackwater, USA|&quot;Curious Tales from Blackwater&quot;]]. [[John Marston]] happens to encounter the professor while looking for survivors in the overrun town of [[Blackwater]], to which MacDougal claims to have returned for "more research". Marston attempts to ascertain the nature of the plague through the professor, to which he replies he doesn't have "a fucking clue." Seeing as MacDougal is unarmed, John implores the frightened professor to stay with him, to which he agrees on the condition that Marston allows him to wander down a lonely, deserted road to get his bags, which he left with [[Nastas]]. MacDougal is able to manage a few paces before being assaulted and devoured by the undead Nastas. Marston has the choice to kill both of them afterward.
+
+==Character==
+
+===Personality===
+Although learned academically, MacDougal is demonstrably naïve and small-minded, and his behavior towards the local Natives demonstrates his ignorance of their culture that allows for multiple displays of prejudice and bigotry; he is unwilling to accept the "savages" as human beings despite taking blood samples that showed that the Natives had the same blood as Caucasian humans. He is also largely incompetent in practical matters, a trait which draws disdain among his acquaintances, including John Marston and Nastas. MacDougal also suffers from anxiety, frequently experiencing bouts of panic.
+
+Despite his racist beliefs, MacDougal developes a sense of respect for Nastas, mourning his death in ''The Blackwater Ledger'' and referring to him as a dear friend.
+
+==Bibliography==
+* ''The Scourge of Crossbreeding''<ref name=":0"/>, published prior to 1899
+* ''Savage Minds: The Racial Continuum Between Animal and God''<ref name=":0"/>, published in 1899
+* Unnamed thesis published in 1913
+
+==Mission appearances==
+;''Red Dead Redemption''
+*[[Bear One Another's Burdens|&quot;Bear One Another's Burdens&quot;]]
+*[[At Home with Dutch|&quot;At Home with Dutch&quot;]]
+*[[For Purely Scientific Purposes|&quot;For Purely Scientific Purposes&quot;]]
+*[[The Prodigal Son Returns (To Yale)|&quot;The Prodigal Son Returns (To Yale)&quot;]]
+
+;''Undead Nightmare''
+*[[Curious Tales from Blackwater|&quot;Curious Tales from Blackwater&quot;]]
+
+==Quotes==
+===''Red Dead Redemption''===
+{{Quote|You know, I dreamt of documenting the last days of the Old West. The romance, the honor, the nobility! But it turns out it's just people killing each other.|Harold MacDougal}}
+{{Quote|I don't want a bullet in my flippin' neck!|Harold MacDougal}}
+{{Quote|Species don't die, they evolve. Hunting, in time, will make the buffalo stronger.|Harold MacDougal arguing with Nastas about buffalos}}
+{{Quote|I'm from Connecticut. I'm a professor at Yale! I write books! I do not deserve to die out here!|Harold MacDougal}}
+{{Quote|Ah, but they'll give me a prize in New Haven for this. Well, they bloody better. Well...goodbye, Mr. Marston.|Harold MacDougal}}
+{{Quote|Look Mr. Marston! Buffalo! What a noble beast!|Harold after seeing a buffalo}}
+{{quote|Best of luck, dear friend.|Harold MacDougal to John Marston}}
+
+===''Undead Nightmare''===
+{{Quote|Well, sir, I'm a man of science, a man of great learning, a thinker, a wise man and I'll be honest with you, sir... I haven't got a fucking clue.|Harold MacDougal in ''Undead Nightmare''|topic = the current undead situation}}[[File:MacDougal HaventGotAClue.ogg|noicon|center]]
+
+{{Quote|Could you just wait a sec here, would you please? I'm going to wander down that lonely deserted street and get my bag.|author = Harold MacDougal to [[John Marston]]}}
+[[File:MacDougal GetMyBag.ogg|noicon|center]]
+
+{{Quote|Affirmative, a couple of minutes.|Harold MacDougal's last words in ''Undead Nightmare''}}
+
+==Trivia==
+
+===General===
+*MacDougal's staunch and dogmatic views on anthropology may have been influenced by the likes of [[wikipedia:Paolo Mantegazza|Paolo Mantegazza]]. During the time period, the discipline saw an overhaul of the anthropological method by academics such as [[wikipedia:Franz Boas|Franz Boas]], [[wikipedia:Edward Burnett Tylor|E.B. Tylor]], and [[wikipedia:Malinowski|Bronislaw Malinowski]].
+*His character could possibly be inspired by [[wikipedia:Vine Deloria|Vine Deloria's]] book ''[[Wikipedia:Custer Died for Your Sins|Custer Died For Your Sins]]'', especially his interactions with Nastas. Deloria talks about how anthropologists like MacDougal are dead set on proving their preconceived notions and not actually the truth.
+*His nervous personality and his "I was right all along!" quip resembles traits of the stereotypical [[Wikipedia:Mad scientist|mad scientist]].
+
+===''Red Dead Redemption''===
+*MacDougal appears to have a skewed understanding of [[wikipedia:Natural selection|natural selection]]: [[Nastas]] comments that the [[Buffalo]] will be hunted to extinction if the westerners do not stop hunting at the rate they are, to which MacDougal responds "Species don't die, they evolve. Hunting, in time, will make the buffalo stronger". The blame for the decline of the bison population during the late 18th and early 19th centuries has been [https://fee.org/media/4296/schweikart1202.pdf divisively contested] between ecological factors, overhunting by both Westerners and Native Americans, and disease, among other possible influences on their numbers.
+*While MacDougal is extremely bigoted and prejudiced against [[Native Americans]] in general, he does seem to greatly respect Nastas, going so far as to publish a touching obituary for his faithful Indian friend after Nastas' [[For Purely Scientific Purposes|death]] in the Blackwater Ledger in 1914.
+*MacDougal's boots are almost exactly the same as the [[US Army Uniform]] ones, and the ones that [[Buford Ackley]] wears. The only difference is that McDougal's boots lace up in the front.
+*His section multiplayer Outfitter seems to be "Damnation" despite being an ally with Nastas and [[John Marston]], it is most likely due to his ignorance combined with his bigotry and prejudice along with much of his plagiarism about the Native American and Old West philosophy like the rest American racist professor. He is also known to be a user of cocaine since using drugs is a sin - evidently, he is a Protestant when he carries a Bible in his personal belongings further showing his hypocrisy.
+
+===''Undead Nightmare''===
+*There exists of promotional artwork for an [[undead]] MacDougal which can be seen below.
+*A loading screen in ''[[Undead Nightmare]]'' depicts an undead MacDougal chasing after an unseen foe next to the [[Blackwater Saloon]].
+*In ''Undead Nightmare'', if the player chooses not to kill the undead Professor MacDougal after the initial cutscene of the mission "[[Curious Tales from Blackwater]]", he may re-appear later during the mission when [[Town Saving|clearing]] [[Blackwater]] of the undead hordes. At this point, the player must either kill or [[Lasso|hogtie]] him to progress through the mission.
+**Alternatively, the undead MacDougal might spawn just outside the graveyard after the player successfully [[Cemetery Clearing|cleanses]] it of the undead. Here, the player has the option to kill him, hogtie him, or simply leave him to wander.
+*MacDougal's death in ''Undead Nightmare'' is steeped in irony, as he is savagely murdered by an undead Nastas. This is significant because, in ''Red Dead Redemption'', MacDougal often referred to Native Americans as "savages" and "uncivilized," highlighting the poetry of his fate.
+**Additionally, his death is subtly foreshadowed during the mission "[[The Prodigal Son Returns (To Yale)]]" in ''Red Dead Redemption''. In a scene, Marston jokingly tells MacDougal that he should take him to [[Dutch van der Linde]] and his [[Dutch's Gang|gang]] to "watch them tear [him] limb from limb." In the universe of ''Undead Nightmare'', this grim prediction is realized as Marston watches helplessly while MacDougal is literally torn apart by the undead Nastas.
+
+===''Red Dead Redemption 2''===
+*One of his books, ''The Scourge of Crossbreeding'', appears in ''[[Red Dead Redemption 2]]'' during the mission "[[Help a Brother Out]]", disguising the lever to open the bookcase door to the basement in the [[Saint Denis Pawnbroker]] shop.
+
+==Gallery==
+<gallery position="center" captionalign="center" hideaddbutton="true">
+File:Professormacdougal.jpg
+Professor.png|MacDougal as a ''[[Redemption Multiplayer]]'' skin
+HaroldMacDougal-UndeadNightmare-Artwork.jpg|Artwork of an undead MacDougal for ''Undead Nightmare''
+File:Pantalla un67.png|An undead MacDougal in an ''Undead Nightmare'' loading screen
+File:Rdr_professormacdougal.jpg|Harold looking at a slide on his microscope
+rdr_0609.jpg
+rdr_0587.jpg
+Riley rdr1.png
+Dutches gang.jpg|MacDougal (far left)
+</gallery>
+
+==References==
+<references />
+
+==Related Content==
+{{Characters}}
+{{Characters 2}}
+{{Related Content}}
+{{DEFAULTSORT:MacDougal, Harold}}
+
+[[de:Harold MacDougal]]
+[[es:Harold MacDougal]]
+[[fr:Harold MacDougal]]
+[[nl:Harold_MacDougal]]
+[[ru:Гарольд МакДугал]]
+[[pt-br:Harold MacDougal]]
+
+[[Category:Characters in Redemption]]
+[[Category:Characters in Undead Nightmare]]
+[[Category:Multiplayer characters in Redemption]]
+[[Category:Mentioned characters in Redemption 2]]
+[[Category:Undead Characters]]

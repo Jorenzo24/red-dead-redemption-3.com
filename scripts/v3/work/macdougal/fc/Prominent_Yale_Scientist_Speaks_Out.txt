@@ -1,0 +1,20 @@
+{{Infobox Newspaper article
+|Title =Prominent Yale Scientist Speaks Out
+|Image =
+|Newspaper =[[Blackwater Ledger No. 71]]<br />[[New Hanover Gazette No. 36]]<br />[[Saint Denis Times No. 52]]
+|Last =
+|Next =
+}}'''Prominent Yale Scientist Speaks Out''' is one of the [[Newspapers|newspaper articles]] in ''[[Red Dead Redemption 2]]''.
+
+==Text==
+'''MIXING OF RACES DISCOURAGED.'''<br />AMERICAN SOCIETY AT RISK.
+----
+Noted Yale anthropologist [[Harold MacDougal]], author of the book "The Scourge of Crossbreeding", presented a paper to colleagues at a symposium last week, reminding fellow scientists that some races are predisposed to create higher functioning societies than others. The paper, titled 'Savage Minds: The Racial Continuum Between Animal and God', has created a stir amongst those in the anthropological community.
+
+It is clear to me that some societies advance, taming agriculture, mastering letters and literature, inventing fantastical things such as the [[phonograph]] or electricity while others wallow in squalor, scarcely able to feed and clothe themselves. It comes down to the nature of the savage soul. Savages cannot construct buildings that rise to the heavens, but we have, MacDougal said in an agitated and excited manner.
+
+The Professor of Anthropology at Yale has dedicated his academic focus to the study of race and civilization.<br />His paper was soundly thrashed by his colleague Benjamin Fortescue who asserted that MacDougal has no empirical evidence to support his wild claims.
+
+[[fr:Déclarations explosives d'un éminent scientifique de Yale]]
+[[ru:Мнение видного Йельского ученого]]
+[[Category:Newspaper articles]]

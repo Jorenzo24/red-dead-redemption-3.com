@@ -1,0 +1,114 @@
+{{User/characterbox
+|name = Nastas
+|image = Nastas RDR Portrait.png
+|aka = 
+|gender = Male
+|location = [[West Elizabeth]]
+|affiliations = [[Bureau of Investigation]]<br>[[John Marston]]<br>[[Edgar Ross]]<br>[[Harold MacDougal]]
+|weapon = [[Cattleman Revolver]] <br /> [[Double-barreled Shotgun]]<br />[[Repeater Carbine]]
+|voice= [[Benjamin Byron Davis]]
+|nationality = [[Native Americans|Native American]]
+|occupation = Informant
+|game = ''[[Red Dead Redemption]]''
+}}
+{{quote|There is no respect for the land anymore.|''Nastas''
+}}
+'''Nastas''' is a [[Characters in Redemption|supporting character]] featured in ''[[Red Dead Redemption]]''.
+
+With the addition of the ''[[Myths and Mavericks]]'' [[DLC]] pack, '''Nastas''' is also a [[Multiplayer Characters|multiplayer character]] model that may be selected in the "Revolution" section of the [[Outfitter]].
+
+==History==
+===Background===
+Nastas is a [[Native Americans|Native American]]. He was born and raised on a reservation, where he received a classical English education at a boarding school. Being familiar with both sides of the ongoing Native American conflict, Nastas is openly critical of government policy, but also the criminal response of his fellow tribesmen for joining [[Dutch's Gang]]. He is initially an informant for the [[Bureau of Investigation]], under [[Edgar Ross]]. It can be assumed that he agreed to infiltrate the gang in an attempt to "rescue" his tribesmen from their perceived inner destruction under Dutch van der Linde's leadership.
+
+===Events of ''Red Dead Redemption''===
+[[John Marston|John]] is told that Nastas has arranged for [[Dutch van der Linde]] to be present on the [[Wreck of the Serendipity]], for John to capture. The meeting turns out to be a trap, Nastas having been beaten and tied to a chair in Van der Linde's stead. John and [[Archer Fordham]] rescue him, escaping alongside Ross in an [[automobile]].
+
+Nastas is later seen reluctantly working alongside [[Harold MacDougal]]. MacDougal regularly showers Nastas with patronizing ignorance of natural sciences and native culture, while believing himself superior. During certain missions, Nastas expresses his fears for the loss of the forests, and the buffalo going extinct as well, regarding American "civilization" with resigned disdain. In his words: ''"There is no respect for the land anymore."'' Marston identifies with this after a long journey during which he experienced encroaching federalism and technology for himself.
+
+Because of their conflicting worldviews, Nastas gets into constant arguments with MacDougal. MacDougal dismisses traditional cultural knowledge, with which Nastas is adept; accurately commenting on the over-hunting of [[Buffalo]]. Contrary, MacDougal argues back invoking his poor understanding of natural selection and ethnocentric attitudes. John appears to sympathize with Nastas, acknowledging his insight. Additionally, John appears to view Nastas with respect when he unconditionally accompanies him in an attempt to confront Van der Linde.
+
+Nastas is then instantly killed after being shot in the face by [[Enepay]], a member of [[Dutch's Gang]], while being called a "traitor" during a confrontation between MacDougal and the Native American members of the gang. An enraged John immediately kills his murderers in revenge.
+
+MacDougal later shows his respect for Nastas by posting a paragraph in the ''[[Blackwater Ledger]]'' noting his death, writing, "May you find God, dear friend".
+
+==Events of ''Undead Nightmare''==
+'''Note:''' ''The events of Undead Nightmare are not considered part of the same canon as Red Dead Redemption. The following description is therefore not contiguous with the preceding section on Red Dead Redemption.''
+
+Nastas appears in the [[Missions in Redemption#Undead Nightmare|mission]] "[[Curious Tales from Blackwater]]".
+[[File:Undead Nastas.jpg|right|300x300px]]
+Nastas reappears as an [[undead]], returning from the dead. Harold MacDougal claimed to have left his bag with Nastas, and while MacDougal is going to retrieve it, he is attacked by Nastas and also turns into an undead. Both of them then proceed to try to kill John. He appears to have died from a bite wound to his neck, rather than the headshot in the campaign. This hints towards ''Undead Nightmare'' taking place in an alternate timeline.
+
+==Mission appearances==
+===Red Dead Redemption===
+*"[[Bear One Another's Burdens]]"
+*"[[At Home with Dutch]]"
+*"[[For Purely Scientific Purposes]]"
+
+===Undead Nightmare===
+*"[[Curious Tales from Blackwater]]"
+
+== Murders Committed ==
+* Unnamed miner – Gunned down in self-defense after being slashed in the arm by him.
+
+==Quotes==
+{{quote|For a wise man, you are a very stupid man, mister.|Nastas criticizing [[Harold MacDougal]]}}
+{{quote|My people have already endured many disasters. Before, this was all our land.|Nastas explaining Native American history during "[[At Home with Dutch]]"}}
+{{quote|I think they are interested to find out what conclusions a white man has reached on hundreds of years of our culture and society from the comfort of his hotel room.|Nastas belittling [[Harold MacDougal|Harold MacDougal's]] 'research' in "[[For Purely Scientific Purposes]]"}}
+{{quote|This is not what we agreed.|Nastas's last words}}
+{{Quote|That was my fault.|Nastas when bumped into}}
+
+===Multiplayer===
+*''"I don't back down from nobody!"''
+*''"Last chance to put the gun down!"''
+*''"Come on, then!"''
+*''"Stay and fight!"''
+*''"I don't care who you are!"''
+*''"You shouldn't have done this!"''
+*''"You're making a big mistake!"''
+
+==Trivia==
+*"Nastas" is a Navajo name which means "curve-like foxtail grass".
+*Although Nastas is a Navajo name, it is more likely that he was modeled after a member of the Apache nation. He makes several comments about his tribe hunting buffalo, which were hunted by Apache and Comanche but not by the Navajo. It is possible he was talking about Native Americans in general. It should also be noted, that both the Navajo and Apache speak Athabaskan, which is the language spoken by Natives across the Western part of North America. 
+*He has his own custom carved flute, which he plays fluently.
+*If Nastas witnesses Marston killing an animal during "[[At Home with Dutch]]", he will call Marston a bastard.
+*After he is killed, it is possible to loot him, and he will carry four to seven dollars. This does not result in a loss of [[Honor]] or a failure of the mission.
+*He, [[Hassun]] and [[Chogan]] are the only non-hostile Native Americans in the game.
+*When Nastas dies and the cutscene ends, if the player were to look at his body, his face would sometimes become deformed. This is the result of a glitch.
+*Nastas sides with the Bureau of Investigation as he does not approve of Dutch’s influence on his people. Ironically, they share the same voice actor.
+*Although Marston and [[Archer Fordham]] always pronounce his name as "Nosstas", MacDougal sometimes pronounces it as "Nastoss".
+*Nastas appears to wear some sort of mocassin shoe. If you look closely enough, you can see the stitching on the side of his shoes.
+
+==Gallery==
+===''Red Dead Redemption''===
+<gallery position="center" captionalign="center" hideaddbutton="true">
+File:nastas22.jpg|Nastas' character description
+Rdr nastas.jpg|Promotional screenshot
+Multi111.png|Nastas as he appears in [[Redemption Multiplayer|multiplayer]]
+Rdr nastas captive.jpg|Nastas held captive by [[Dutch's Gang]]
+Rdr carrying nastas.jpg|Nastas is carried away by Marston
+Rdr 0587.jpg|Nastas and MacDougal look down at Marston
+Rdr scientific purposes.jpg|Nastas being held at gunpoint
+IMG_3820.jpg|Strange looking face as the result of a visual glitch
+Nastas's fate.png|Nastas' death at the hands of Enepay
+</gallery>
+
+===''Undead Nightmare''===
+<gallery position="center" captionalign="center" hideaddbutton="true">
+File:Undeadnightmare zombienastas 640x360.jpg|A promotional artwork of an Undead Nastas for ''Undead Nightmare''
+File:Rdr macdougal undead nastas.jpg|MacDougal being attacked by Undead Nastas
+</gallery>
+
+==Related content==
+{{Related Content}}
+{{Characters}}
+[[de:Nastas]]
+[[es:Nastas]]
+[[fr:Nastas]]
+[[Category:Characters in Redemption]]
+[[Category:Characters in Undead Nightmare]]
+[[Category:Multiplayer characters in Redemption]]
+[[nl:Nastas]]
+[[nl:Nastas]]
+[[ru:Настас]]
+[[Category:Undead Characters]]
