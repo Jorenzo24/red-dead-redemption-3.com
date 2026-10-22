@@ -3,7 +3,7 @@
 Last update: 2026-10-20. Counter: run `python3 scripts/v3/counter.py` (done = build( entries in _FULL of
 scripts/_enrich.py; total = characters/*/ folders + _queue/ items).
 
-**Counter: 42 done / 50 total, 8 remaining.**
+**Counter: 44 done / 50 total, 6 remaining.**
 
 ## In progress (one line per fiche: key, step, device, WIP branch)
 | Fiche | key | Step | Where | WIP branch |
@@ -12,19 +12,19 @@ scripts/_enrich.py; total = characters/*/ folders + _queue/ items).
 
 A fiche listed here with a WIP branch can be resumed from any device: check out the branch first.
 
-## Done (42, in _FULL order)
+## Done (44, in _FULL order)
 Full tier: John Marston, Arthur Morgan, Dutch van der Linde, Sadie Adler, Micah Bell, Hosea Matthews, Charles Smith,
 Bill Williamson, Javier Escuella, Abigail Marston, Jack Marston, Uncle.
 Medium tier, gang: Sean MacGuire, Lenny Summers, Kieran Duffy, Susan Grimshaw, Karen Jones, Tilly Jackson,
 Simon Pearson, Mary-Beth Gaskill, Orville Swanson, Leopold Strauss, Molly O'Shea, Josiah Trelawny.
-Medium tier, outside the gang: Colm O'Driscoll, Edgar Ross, Andrew Milton, Leviticus Cornwall, Mary Linton, Angelo Bronte, Bonnie MacFarlane, Landon Ricketts, Nigel West Dickens, Seth Briars, Leigh Johnson, Abraham Reyes, Agustin Allende, Vincente de Santa, Luisa Fortuna, Irish, Nastas, Harold MacDougal.
+Medium tier, outside the gang: Colm O'Driscoll, Edgar Ross, Andrew Milton, Leviticus Cornwall, Mary Linton, Angelo Bronte, Bonnie MacFarlane, Landon Ricketts, Nigel West Dickens, Seth Briars, Leigh Johnson, Abraham Reyes, Agustin Allende, Vincente de Santa, Luisa Fortuna, Irish, Nastas, Harold MacDougal, Archer Fordham, Catherine Braithwaite.
 
-## Remaining (8)
-Live, not v3 yet (5): alberto-fussar, archer-fordham,
-catherine-braithwaite, hercule-fontaine, leigh-johnson,
+## Remaining (6)
+Live, not v3 yet (3): alberto-fussar, archer-fordham,
+hercule-fontaine, leigh-johnson,
 tavish-gray, vincente-de-santa.
 Queued in _queue/, not published yet (3): rains-fall, eagle-flies, sister-calderon. Do them after the drip has published them
 (the v3 rebuild regenerates characters/<slug>/ through _enrich.py), never publish them early.
 
-Notes: Fordham needs re-checking (claims without a source, see CLAUDE.md). Pick the next fiche with
+ Pick the next fiche with
 `python3 scripts/v3/counter.py` and write it in the table above BEFORE starting.

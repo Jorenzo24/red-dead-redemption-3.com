@@ -648,5 +648,17 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     MacDougal ET John ; il monte le premier sur le toit et y est pris en otage par Nashoba. Ledger n° 59 (« Blackwater beset by
     savages »), article de 1914 (dernière mention, rien sur la suite). Voix : Ochman. Corrigé chez Ross (aucune source pour
     « Ross apprend de MacDougal que John est allé à Cochinay »).
+  - **Archer Fordham v3** : 5 900 mots EN, 10 relations, galerie 7. Ancienne fiche (vague 6) : affirmations sans source,
+    toutes retirées. Beecher's Hope 1911 : UNE formule partout (wiki anglophone : vu par les portes de la grange, tuable en
+    Dead Eye ; wiki francophone : absent ; corrigé chez Ross et John). Générique 1907 : Ross et lui examinent le corps de
+    Micah, observent Beecher's Hope, interrogent des clients au Smithfield's Saloon. Voix : David Wilson Barnes (mort le
+    30 juil. 2025). Guides RDR1 actes I et III corrigés (la famille est « retenue » par le Bureau ; c'est le capitaine qui
+    commande l'assaut de Cochinay).
+  - **Catherine Braithwaite v3** : 5 490 mots EN, 16 relations, galerie 2. Source : transcription complète du jeu (Game
+    Scripts Wiki, fc/gsw.txt). « My sons gave him to Angelo Bronte », dit devant la maison en feu (jamais « vendu »). Aucun
+    tir à la porte ; deux fils meurent dans la pièce, Dutch achève celui qui est encore en vie (page de mission) ; aucun
+    tireur nommé. Arthur suppose une rançon (corrigé chez Bronte). Le nom « Bartholomew » vient du wiki (attribué chez Arthur,
+    Hosea, Sean, Dutch). Hosea répond par une plaisanterie (pas « se porte garant »). Guides ch. 3 et 4 corrigés EN+FR (Sean
+    meurt dans « A Short Walk in a Pretty Town », le shérif Gray est tué, etc.).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).

@@ -1,0 +1,76 @@
+{{User/characterbox
+|name          = Catherine Braithwaite
+|image         = <gallery>
+Catherine Braithwaite RDR2.jpg
+</gallery>
+|caption       = 
+|game          = ''[[Red Dead Redemption 2]]''<br>''[[Red Dead Online]]'' <small>(mentioned)</small>
+|aka           = 
+|gender        = Female 
+|location      = [[Braithwaite Manor]] in [[Scarlett Meadows]], [[Lemoyne|State of Lemoyne]]
+|Status        = 
+|affiliations  = [[Angelo Bronte]] <small>(business associate)</small>
+|family        = [[Gareth Braithwaite]] <small> (son)</small><br>[[Bartholomew Braithwaite]]<small> (son)</small><br>[[Gerald Braithwaite]]<small> (son)</small><br>[[Gertrude Braithwaite]]<small> (daughter)</small><br>[[Penelope Braithwaite]]<small> (niece)</small>
+|weapon        = 
+|voice actor   =
+|nationality   = [[File:Flag of the United States (1896–1908).png|border|20px]] American [[File: Uk-flag.png|border|20px]] <small>(British descent)</small>
+|voice = [[Ellen Harvey]]
+}}
+{{Quote|Ain't no rules in war...|Catherine Braithwaite}}
+
+'''Catherine Braithwaite''' is a [[Characters in Redemption 2|major character]] and supporting antagonist featured in ''[[Red Dead Redemption 2]]''. She serves as the main antagonist of the game's [[Clemens Point]] [https://reddead.fandom.com/wiki/Missions_in_Redemption_2#Chapter_3:_Clemens_Point chapter].
+
+==History==
+
+=== Background ===
+She is the matriarch and eldest member of the wealthy [[Braithwaite Family|Braithwaite family]], the rivals of the [[Gray family]].
+
+At some point before 1899, Catherine Braithwaite began selling moonshine to the Lemoyne Raiders through an illegitimate side business. She also became acquainted with Angelo Bronte.
+
+=== Events of ''Red Dead Redemption 2'' ===
+Catherine is first seen at the Braithwaite manor when [[Hosea Matthews|Hosea]] and [[Arthur Morgan|Arthur]] arrive to sell her back the liquor the [[Van der Linde gang]] previously stole from her. Catherine instead hires them to give out the liquor for free at the bar in [[Rhodes]], for some "promotional advertising". While distributing the liquor in town, Hosea and Arthur are ambushed by the Lemoyne Raiders. Whether or not this was Catherine's plan is unclear.
+
+After negotiating with Hosea over a game of cribbage, Mrs. Braithwaite hires Arthur and [[Sean MacGuire|Sean]] to burn down the Gray tobacco fields using the stolen moonshine.
+
+She eventually double-crosses the gang and kidnaps [[Jack Marston]]. When Dutch and the rest of the gang arrive to her manor to retrieve Jack, a shootout ensues which results in all of her sons being killed. After the gang lights the Braithwaite estate on fire, she reveals that she sold Jack to the notorious crime lord [[Angelo Bronte]] in [[Saint Denis]]. As the gang leave, she runs back into the burning mansion in an act of self-immolation and dies.
+
+After the assault on Braithwaite Manor, her charred corpse can be found in the wreckage of her home, unrecognizable aside from the name.
+
+== Character ==
+
+=== Personality ===
+Catherine displays a typical attitude of a snobbish elite from the old wealthy family. She has a strong sense of superiority, calling people whom she considers beneath her as "filth" or "scum". Naturally, what with belonging to an old plantation family, Catherine despises "Yankees", using the term as a pejorative. Still, while certainly arrogant, she is far from foolish, eventually catching on to the [[Van der Linde gang|Van der Linde gang's]] machinations.
+
+Mrs. Braithwaite is highly invested in her heritage and family, expressing fury at Dutch for murdering her sons and trying to topple the dynasty. Along this vein, she seems to prioritize her family's reputation even at the cost of their wellbeing, as she kept her [[Gertrude Braithwaite|disfigured and mentally ill daughter]] in an outhouse rather than have her sent to a sanitarium. It is implied that Catherine is also passionate about horses as she owns several expensive horses and is enraged at their disappearance; this implies either a sentimental value or a show of wealth and power. 
+
+=== Appearance ===
+Catherine is an elderly woman with dark gray hair. She wears a brooch around her neck along with other fancy clothes. 
+
+==Mission appearances==
+;''Red Dead Redemption 2''
+* "[[Advertising, The New American Art]]"
+* "[[The Fine Joys of Tobacco]]"
+* "[[Blood Feuds, Ancient and Modern]]"
+
+== Trivia ==
+*An item named “Catherine’s Brooch” can be looted from her corpse and sold to a [[Fence]] for a reasonable price.
+*Catherine Braithwaite is briefly mentioned by [[Josiah Trelawny]] in ''[[Red Dead Online]]'' where he tasks players to steal a horse from her and deliver it to his contact at [[Hill Haven Ranch]].
+
+==Gallery==
+<gallery>Catherine Braithwaite.jpg|Catherine Braithwaite backed up by sons upon first meeting Arthur and Hosea when they tried to sell the Braithwaites their own moonshine.
+Catherine Braithwaite cowers as the Van der Linde gang assault and torch Braithwaite Manor.jpg|Catherine cowers, as the Van der linde gang assault and torches the Manor.
+CBcorpse1.jpg|Catherine's charred remains.
+CBcorpse2.jpg|</gallery>
+
+==Navigation==
+{{Characters 2}}
+{{RDRII}}
+{{DEFAULTSORT:Braithwaite, Catherine}}
+[[de:Catherine Braithwaite]]
+[[es:Catherine Braithwaite]]
+[[tr:Catherine Braithwaite]]
+[[fr:Catherine Braithwaite]]
+[[Category:Characters in Redemption 2]]
+[[Category:Antagonists]]
+[[it:Catherine_Braithwaite]]
+[[Category:Mentioned characters in Online]]

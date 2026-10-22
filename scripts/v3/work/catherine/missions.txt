@@ -1,0 +1,6 @@
+Advertising, The New American Art	scripts/v3/work/_m/Advertising_The_New_American_Art.txt
+Advertising, The New American Art/dialogues	MISSING (no such wiki page)
+The Fine Joys of Tobacco	scripts/v3/work/_m/The_Fine_Joys_of_Tobacco.txt
+The Fine Joys of Tobacco/dialogues	MISSING (no such wiki page)
+Blood Feuds, Ancient and Modern	scripts/v3/work/_m/Blood_Feuds_Ancient_and_Modern.txt
+Blood Feuds, Ancient and Modern/dialogues	MISSING (no such wiki page)

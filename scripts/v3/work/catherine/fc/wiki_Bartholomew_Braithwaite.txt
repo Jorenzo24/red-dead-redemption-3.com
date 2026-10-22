@@ -1,0 +1,76 @@
+{{User/characterbox
+|name = Bartholomew Braithwaite
+|image = <gallery>
+BartholomewBraithwaite-1899.png
+</gallery>
+|game = ''[[Red Dead Redemption 2]]''<br>''[[Red Dead Online]]''
+|nationality = [[File:Flag of the United States (1896–1908).png|border|20px]] American
+|gender = Male
+|location = [[Braithwaite Manor]] in [[Scarlett Meadows]], State of [[Lemoyne]]
+|affiliations = [[Braithwaite family]]<br>[[Lemoyne Raiders]]<br>[[Danny-Lee Caton]]
+|family = [[Catherine Braithwaite]] <small>(mother)</small><br>[[Gareth Braithwaite]] <small> (brother)</small><br>[[Gertrude Braithwaite]]<small> (sister)</small><br>[[Gerald Braithwaite]]<small> (brother)</small><br>[[Penelope Braithwaite]]<small> (cousin)</small>
+|weapon = [[Double-Barreled Shotgun (RDR 2)|Double-Barreled Shotgun]]<br>[[Cattleman Revolver (RDR 2)|Cattleman Revolver]]
+|voice = [[Michael Cuddire]]
+}}
+'''Bartholomew Braithwaite''' is a recurring character in the ''[[Red Dead]]'' series, appearing as [[Characters in Redemption 2|minor character]] and antagonist in ''[[Red Dead Redemption 2]]'' and as a [[Characters in Online|minor character]] in ''[[Red Dead Online]]'', in which he serves as a secondary antagonist of the ''[[Moonshiner (Red Dead Online)|Moonshiners DLC]]''.
+
+==History==
+=== Background ===
+Bartholomew was born into the wealthy [[Braithwaite family]] to the family's matriarch, [[Catherine Braithwaite]], and an unidentified father.
+
+=== Events of ''Red Dead Online'' ===
+
+==== ''A Life of 'Shine'' ====
+After the [[Red Dead Online protagonist|protagonist]] starts a [[Moonshiner (Red Dead Online)|moonshine business]] alongside [[Maggie Fike]], Bartholomew becomes a rival bootlegger to Maggie's revived operation. Following Maggie's disappearance six years prior, the Braithwaites took over the moonshine trade in [[Lemoyne]], and recruited Maggie's former cook, [[Danny-Lee Caton]], who was looking for protection, to oversee their production.
+
+After the protagonist [[Where There is Smoke, There's Firewater|sabotages]] one of their operations on Maggie's behalf, Bartholomew and Danny-Lee confront them at their [[Moonshine Shack|shack]] shortly afterwards in an attempt to intimidate them, but their threats are waved off by Maggie.
+
+Later, Maggie arranges a meeting with Bartholomew and Danny-Lee under the guise of making amends by providing a shipment of moonshine, and anonymously tips off [[Reid Hixon]]. When Bartholomew and Danny-Lee arrive at the meeting place to find no one, they are quickly held at gunpoint by Hixon's recently-arrived revenue agents. Bartholomew tries to save himself by betraying Danny-Lee and telling Hixon that he can arrest him. When this fails, he tries to intimidate Hixon by telling him that he has hired gunmen nearby, and that only he can call them off. In the end, after giving Hixon a $100 bribe, Bartholomew is allowed to escape.
+
+=== Events of ''Red Dead Redemption 2'' ===
+Bartholomew is first seen in the game alongside his mother, [[Catherine Braithwaite|Catherine]], and his brothers, [[Gerald Braithwaite|Gerald]] and [[Gareth Braithwaite|Gareth]], when [[Arthur Morgan]] and [[Hosea Matthews]] arrive at [[Braithwaite Manor]] with stolen moonshine. When Hosea suggests selling the moonshine somewhere else, Bartholomew threatens Arthur and Hosea, pointing his shotgun at them and threatening them to hand over the moonshine. However, Catherine lowers his gun and asks him to pay Hosea, in return for also giving out the moonshine for free at the saloon in [[Rhodes]].
+
+Later, Bartholomew is seen meeting at the manor with Hosea, [[Sean MacGuire|Sean]], and later Arthur, alongside his mother. Bartholomew stays relatively silent during the discussion, except while insulting Hosea, while Catherine commissions the trio with burning down the [[Gray family]]'s tobacco fields.
+
+After the Braithwaite family's kidnapping of [[Jack Marston]] in retaliation for the [[Van der Linde gang]] having interfered in their feud with Grays, Bartholomew is present when the gang approaches the manor. After a brief exchange of words, [[Dutch van der Linde|Dutch]] abruptly shoots him in the head, killing him and resulting in the subsequent shootout at the manor.  
+
+== Mission appearances ==
+;''Red Dead Redemption 2''
+* "[[Advertising, The New American Art]]"
+* "[[The Fine Joys of Tobacco]]"
+* "[[Blood Feuds, Ancient and Modern]]"
+;''Red Dead Online''
+* "[[Where There is Smoke, There's Firewater]]"
+* "[[The Certainty of Death and Taxes]]"
+
+==Quotes==
+{{Quote|The alternative is you get shot.|Bartholomew to Hosea, for saying that he could sell the moonshine somewhere else.}}
+{{Quote|She ain’t gonna pay you with a certified cheque, you Yankee numbskull.|Bartholomew insulting Hosea at the meeting.}}
+{{Quote|Shouldn't have messed with our business, should you?|Bartholomew to Dutch}}  
+{{Quote|Get the hell off our land.|Bartholomew last words before Dutch shoots him.}}
+{{Quote|I got guns covering this whole area. You let me go, I'll call 'em off... and, and, and you can have Danny-Lee. And I also have one hundred dollars.|Braithwaite bribing [[Reid Hixon]]}}
+
+==Gallery==
+<gallery position="center" widths="200" captionalign="center" hideaddbutton="true">
+
+Bartholomew Braithwaite01.jpg|Bartholomew pointing his shotgun at Hosea but his mother intervenes
+Bartholomew Braithwaite rdr2.jpg|Bartholomew greeting Hosea with hostility
+Bartholomew Braithwaite02.jpg|Bartholomew paying Hosea and Arthur for the stolen moonshine
+Bartholomew and Catherine .jpg|Bartholomew with Catherine in "The Fine Joys of Tobacco"
+Bartholomew Braithwaite Blood Feuds, Ancient and Modern.jpg|Bartholomew Braithwaite in "Blood Feuds, Ancient and Modern"
+BartholomewDeath.png|Bartholomew's death
+DannyLeeShack.png|Braithwaite and [[Danny-Lee Caton]] in the [[Moonshine Shack]]
+Bartholomew1898.jpg|Bartholomew Braithwaite in ''Red Dead Online''
+BartDannyHixon.png|[[Reid Hixon]] confronting Braithwaite and Danny-Lee
+
+</gallery>
+
+== Navigation ==
+{{Characters 2}}
+{{DEFAULTSORT:Braithwaite, Bartholomew}}
+[[de:Bartholomew Braithwaite]]
+[[es:Bartholomew Braithwaite]]
+[[fr:Bartholomew Braithwaite]]
+[[Category:Characters in Redemption 2]]
+[[Category:Characters in Online]]
+[[Category:Antagonists]]

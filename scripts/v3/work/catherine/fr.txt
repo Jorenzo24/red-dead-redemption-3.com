@@ -1,0 +1,84 @@
+{{InfoboxPersonnages
+| theme = 
+| title1 = 
+| image1 = Catherine Braithwaite01.jpg
+| caption1 = Catherine en 1899
+| naissance = 
+| statut = Décédée
+| dapparition = 
+| décès = 1899<br/>Manoir Braithwaite
+| genre = Féminin
+| nationalité = Américaine
+| ldv = [[Manoir Braithwaite]]
+| surnom = 
+| activité = Matriarche<br/>Contrebandière
+| famille = [[Famille Braithwaite]]<br/>[[Gareth Braithwaite]] <small>(Fils)</small><br/>[[Bartholomew Braithwaite]] <small>(Fils)</small><br/>[[Gerald Braithwaite]] <small>(Fils)</small><br/>[[Gertrude Braithwaite]] <small>(Fille)</small><br/>[[Penelope Braithwaite]] <small>(Nièce)</small>
+| allié = [[Angelo Bronte]] <small>(Allié en affaire)</small>
+| ennemi = [[Famille Gray]]
+| faction = 
+| arme = 
+| monture = 
+| véhicule = 
+| acteur = [[Ellen Harvey]]
+| motion capture = 
+| apparition = ''[[Red Dead Redemption II]]''
+| apparition1 = 
+| apparition2 = 
+| apparition3 = 
+| apparition4 = 
+| image2 = 
+| caption2 = 
+| prime1 = 
+| prime2 = 
+| localisation = 
+}}
+'''Catherine Braithwaite''' est un [[Personnages dans Red Dead Redemption II#Personnages majeurs 2|personnage majeur]] présent dans ''[[Red Dead Redemption II]]''. Elle est notamment l'antagoniste principal du troisième chapitre.
+
+== Histoire ==
+Catherine Braithwaite est la matriarche et le membre le plus âgé de la [[famille Braithwaite]], rivaux principaux de la [[famille Gray]].
+
+À un certain moment avant 1899, Catherine commence à vendre de l'alcool se contrebande aux [[pillards de Lemoyne]] bien que cela soit illégal. Elle devient également une associée en affaire avec [[Angelo Bronte]].
+
+== Interactions ==
+=== Clemens Point ===
+Catherine Braithwaite est aperçue pour la première fois dans le manoir de sa famille lorsque [[Hosea Matthews|Hosea]] et [[Arthur Morgan|Arthur]] tentent de lui revendre les bouteilles d'alcools que la [[Bande de Dutch van der Linde|bande]] lui ont auparavant dérobées. Hosea et Arthur se rendent ensuite au saloon de la ville de [[Rhodes]] et distribuent gratuitement des verres d'alcool.
+
+Plus tard, Arthur et [[Sean MacGuire]], sont recrutés pour incendier les champs de la famille Gray à la nuit tombée avec son propre alcool de contrebande. 
+
+Cependant, Catherine Braithwaite devance la bande et kidnappe [[Jack Marston]].
+
+Lorsque Dutch et le reste de la bande arrivent dans son manoir pour récupérer Jack, une fusillade éclate et ses deux fils sont tués. Ils mettent le feu au manoir et oblige la matriarche à révéler l'endroit où est détenu Jack. Elle explique alors qu'il se trouve entre les mains d'un homme d'affaires de [[Saint Denis]], [[Angelo Bronte]]. Elle meurt brûlée dans l'incendie de son manoir.
+
+== Apparitions dans les missions ==
+* "[[La publicité, ce nouvel art américain II]]"
+* "[[Les petits plaisirs du tabac]]"
+* "[[Querelles d'hier et d'aujourd'hui]]"
+== Anecdotes ==
+* Sa broche peut lui être volée et vendue pour un bon prix.
+* Lorsque [[Arthur Morgan]] et [[Hosea Matthews]] se trouvent au Saloon de [[Rhodes]], il est possible que Catherine ait contacté les Pilleurs de Lemoyne dans l'intention de les assassiner.
+
+== Galerie ==
+<gallery>
+Revolver Schofield (RDR2)14.jpg|Dutch <small>(sa main tenant le revolver)</small>, Hosea et Catherine
+</gallery>
+
+== Navigation ==
+{{Personnages RDR2}}
+[[de:Catherine Braithwaite]]
+[[en:Catherine Braithwaite]]
+[[es:Catherine Braithwaite]]
+[[it:Catherine Braithwaite]]
+[[tr:Catherine Braithwaite]]
+
+[[Catégorie:Personnages]]
+[[Catégorie:Personnages dans Red Dead Redemption II]]
+[[Catégorie:Personnages présents dans Red Dead Redemption II]]
+
+[[Catégorie:Antagonistes]]
+[[Catégorie:Antagonistes dans Red Dead Redemption II]]
+
+[[Catégorie:Personnages féminins]]
+[[Catégorie:Personnages féminins dans Red Dead Redemption II]]
+
+[[Catégorie:Famille Braithwaite]]
+[[Catégorie:Relecture]]

@@ -42,6 +42,14 @@ Hierarchy everywhere: transcripts > mission pages > character pages of the wiki.
 - Molly's mirror: the reward is a cigar, chapter 3 only. The line "none of them will live seven years" does not exist.
 - Hosea: Abigail hid the explosive alone (Camp Events + wiki).
 - Strauss is shot in the leg (Camp Events, chapter 3).
+- Ch. 3, "American Distillation": Sheriff Leigh Gray deputizes Dutch, Arthur and Bill to shut down a Braithwaite still; Archibald leaves them the liquor. The Braithwaites' business with the Lemoyne Raiders is stated in the game (Archibald; the Raider in the saloon): no wiki attribution needed.
+- Ch. 3, "The New South": Arthur helps Sheriff Gray catch the Anderson boys; he never "hires on" breaking horses for the Grays. No on-screen Hosea warning that the scheme is "too clever".
+- Ch. 3, "A Short Walk in a Pretty Town" (not "Blessed are the Peacemakers"): Sean is killed and Sheriff Leigh Gray dies; never "the Grays are wiped out".
+- Ch. 3, Jack's kidnapping: the Braithwaites take him after the Rhodes ambush; the gang reads it as revenge for the stolen horses. Kieran saw the Braithwaites come to camp but did not think they would take Jack (apology at Shady Belle).
+- Ch. 3, "Blood Feuds, Ancient and Modern": NO shot at the door (the son there says "Get the hell off our land", then a firefight). Per the mission page, two sons die when the room is stormed and Dutch finishes off one who is barely alive, in front of her. Never name who kills Gareth and Gerald. Arthur goes back out against reinforcements, then helps John break down the door. Dutch drags Catherine off the stairs and carries her out on his shoulder, gun to her head. Outside she says "My sons gave him to Angelo Bronte" (never "sold"). No promise of gold from the Braithwaites.
+- Bartholomew Braithwaite: the name comes from the wiki (transcript labels "Braithwaite"/"Gareth"): attributed. Subtitles say "Gareth" at the door (one mention, Trivia).
+- Ch. 4, "Angelo Bronte, a Man of Honor": Dutch, Arthur and John visit Bronte. On the way Arthur GUESSES the Braithwaites meant to hold Jack for ransom and sent him to Bronte out of the gang's reach; never "for money" as a fact.
+- Hosea's answer to Catherine's "as big and as dumb as he looks" is a joke, not a recommendation.
 - Ch. 4: John is arrested in Saint Denis; it is Micah who is shipwrecked with Arthur, Dutch, Bill and Javier.
 - Ch. 4: Abigail tells Arthur that Jack has disappeared after "A Short Walk in a Pretty Town" (Rhodes ambush), not after "Advertising". Abigail is a co-giver of "Advertising, The New American Art".
 - Ch. 4, "My Last Boy": Bill is with Dutch's group, not at the warehouse; the battle is at the Heartland Oil Fields (Cornwall = the company).
@@ -95,7 +103,7 @@ Hierarchy everywhere: transcripts > mission pages > character pages of the wiki.
 - Abigail's grave: "Abigail Marston, 1877-1914, Always in our hearts"; no cause of death.
 - A daughter of John and Abigail, dead before 1911, is attested only by John ("Women and Cattle": "I had a daughter, but she died."; "Father Abraham": "a daughter in heaven"). Word it "John mentions a daughter who died"; never her birth.
 - Abigail and John: "around 1894" / "about five years before 1899"; Jack born "around 1895".
-- Archer Fordham: presence at Beecher's Hope attributed to the wiki; gallery-1 caption = 1907.
+- Archer Fordham: presence at Beecher's Hope (1911) = standard hedge, both wikis: EN wiki = visible among the men facing John through the barn doors, can be shot in the final Dead Eye, MAY disappear from the following cutscene (never "does not appear in the cutscene"); FR wiki = he does not take part (the man beside Ross is Isaac McKinnon). gallery-1 caption = 1907. 1907 suit charcoal + black tie; 1911 suit brown + dark red tie.
 - Fordham also appears in the RDR2 epilogue (watching Micah's body with Ross).
 
 ## Undead Nightmare (non-canon)
