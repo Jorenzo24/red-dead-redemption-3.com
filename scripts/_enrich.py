@@ -10,7 +10,7 @@ Each entry fully replaces the fiche's data from its original wave driver.
 """
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from gen_fiche import build_live, reg
+from gen_fiche import build_live, build_to_queue, reg, ROOT
 
 def two(en, fr): return {"en": en, "fr": fr}
 
@@ -1390,5 +1390,11 @@ if __name__ == "__main__":
     only = set(sys.argv[1:])
     for c in ENRICHED:
         if only and c["slug"] not in only:
+            continue
+        live = os.path.isfile(os.path.join(ROOT, "characters", c["slug"], "index.html"))
+        queued = [d for d in os.listdir(os.path.join(ROOT, "_queue")) if d.endswith("-" + c["slug"])]
+        if not live and queued:
+            # Not published yet: rewrite its drip-queue item instead (same folder), so the drip ships this version.
+            print("queued", build_to_queue(dict(c, order=int(queued[0].split("-")[0]))))
             continue
         print("rebuilt", build_live(c))
