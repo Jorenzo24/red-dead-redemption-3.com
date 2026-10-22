@@ -19,7 +19,11 @@ SOURCE REGISTER (fetched Oct 2026; wiki pages cached in scripts/v3/work/_m/, oth
 OWNERSHIP: narrative events are told in part A (one line per mission here). Fussar's own lines (Javier's interrogation,
 the speech on striking workers, "cowards are the worst traitors", "You maggots are going to die", "The US Navy is on the
 way") are left to part B "In his own words"; the quotes below are lines spoken ABOUT him, as in leviticus_C. Part A
-paraphrases every line quoted here. The kill by gunshot instead of the cannon is in part A (not repeated in Trivia).
+paraphrases every line quoted here. The kill by gunshot instead of the cannon is in part B Weapons (not repeated in Trivia).
+Fix pass (22 Oct 2026): Bronte, Simon, Leon, Hercule ("more money") and Micah quotes dropped (quoted in part B,
+FIX_RULES 3); added Hercule's "desperate to find you" and "behind Colonel Fussar's back" and the tower exchange
+(transcript, Welcome to the New World / Paradise Mercifully Departed). Trivia: estate item dropped (in B); standoff item
+kept for the "American Venom" repeat only.
 
 EXCLUDED
 - Wiki trivia comparing Fussar with Agustin Allende (interpretation; also dropped in allende_C).
@@ -44,8 +48,8 @@ C5 = two("5. Guarma", "5. Guarma")
 
 BLOCKS_MISSIONS = [
     {"h3": two("Missions", "Missions")},
-    {"p": two("The Red Dead Wiki lists three missions of Red Dead Redemption 2 in which Fussar appears: one in chapter 4 and two in chapter 5. He speaks only in the two Guarma missions. Two other Guarma missions are driven by his regime without showing him; they are listed in the second table.",
-              "Le Red Dead Wiki recense trois missions de Red Dead Redemption 2 où apparaît Fussar : une au chapitre 4 et deux au chapitre 5. Il ne parle que dans les deux missions de Guarma. Deux autres missions de Guarma tournent autour de son régime sans le montrer ; elles figurent dans le second tableau.")},
+    {"p": two("The Red Dead Wiki lists three missions of Red Dead Redemption 2 in which Fussar appears: one in chapter 4 and two in chapter 5. He speaks only in the two Guarma missions. Three other Guarma missions are driven by his regime without showing him; they are listed in the second table.",
+              "Le Red Dead Wiki recense trois missions de Red Dead Redemption 2 où apparaît Fussar : une au chapitre 4 et deux au chapitre 5. Il ne parle que dans les deux missions de Guarma. Trois autres missions de Guarma tournent autour de son régime sans le montrer ; elles figurent dans le second tableau.")},
     {"h4": two("Appearances", "Apparitions")},
     {"table": {"head": [two("Mission", "Mission"), two("Chapter", "Chapitre"), two("Fussar's role", "Rôle de Fussar")], "rows": [
         M("The Gilded Cage", C4,
@@ -75,21 +79,17 @@ BLOCKS_MISSIONS = [
 
 BLOCKS_QUOTES = [
     {"h3": two("Quotes", "Citations")},
-    {"p": two("The lines below are spoken about Fussar by other characters. They are given in the original English and checked against a full transcript of the game. Fussar's own lines are under Personality.",
-              "Les répliques ci-dessous sont prononcées au sujet de Fussar par d'autres personnages. Elles sont citées dans leur version originale anglaise et vérifiées sur une transcription complète du jeu. Les paroles de Fussar lui-même figurent dans la rubrique Personnalité.")},
+    {"p": two("The lines below are spoken about Fussar by other characters. They are given in the original English and checked against a fan transcript of the game. Fussar's own lines are under Personality.",
+              "Les répliques ci-dessous sont prononcées au sujet de Fussar par d'autres personnages. Elles sont citées dans leur version originale anglaise et vérifiées sur une transcription du jeu réalisée par des fans. Les paroles de Fussar lui-même figurent dans la rubrique Personnalité.")},
     {"quotes": [
-        {"q": two("That is... Alberto Fussar. He owns a sugar plantation out on the island and he... comes here to whore and despoil himself.",
-                  "That is... Alberto Fussar. He owns a sugar plantation out on the island and he... comes here to whore and despoil himself."),
-         "src": two("Angelo Bronte to Dutch and Arthur, The Gilded Cage (RDR2, chapter 4)",
-                    "Angelo Bronte à Dutch et Arthur, The Gilded Cage (RDR2, chapitre 4). Traduction : « Ça, c'est... Alberto Fussar. Il possède une plantation de sucre là-bas, sur l'île, et il... vient ici courir les filles et se vautrer dans la débauche. »")},
-        {"q": two("Not half as upsetting as it'll be for them. Mr. Fussar has a lot of very powerful friends.",
-                  "Not half as upsetting as it'll be for them. Mr. Fussar has a lot of very powerful friends."),
-         "src": two("Levi Simon to Dutch, about the island's labor troubles, Welcome to the New World (RDR2, chapter 5)",
-                    "Levi Simon à Dutch, au sujet des troubles chez les ouvriers de l'île, Welcome to the New World (RDR2, chapitre 5). Traduction : « Ce sera bien plus fâcheux pour eux. M. Fussar a beaucoup d'amis très puissants. »")},
-        {"q": two("A tyrant, driven by nothing but power and greed. Our only purpose is to work ourselves to death... to make him rich.",
-                  "A tyrant, driven by nothing but power and greed. Our only purpose is to work ourselves to death... to make him rich."),
-         "src": two("Leon Fuentes, answering Dutch's \"So, who is this Fussar?\", Welcome to the New World (RDR2, chapter 5)",
-                    "Leon Fuentes, en réponse au \"So, who is this Fussar?\" de Dutch, Welcome to the New World (RDR2, chapitre 5). Traduction : « Un tyran, que seuls le pouvoir et l'appât du gain font avancer. Notre seule raison d'être, c'est de nous tuer à la tâche... pour l'enrichir. »")},
+        {"q": two("Okay. Well, Fussar will be desperate to find you. We must be very careful.",
+                  "Okay. Well, Fussar will be desperate to find you. We must be very careful."),
+         "src": two("Hercule Fontaine to Dutch, after the ambush, Welcome to the New World (RDR2, chapter 5)",
+                    "Hercule Fontaine à Dutch, après l'embuscade, Welcome to the New World (RDR2, chapitre 5). Traduction : « Bon. Fussar va vous chercher partout. Il faut être très prudents. »")},
+        {"q": two("I am not from here. I bring things in and off the islands... behind Colonel Fussar's back.",
+                  "I am not from here. I bring things in and off the islands... behind Colonel Fussar's back."),
+         "src": two("Hercule Fontaine, when Dutch asks about him, Welcome to the New World (RDR2, chapter 5)",
+                    "Hercule Fontaine, quand Dutch l'interroge sur lui-même, Welcome to the New World (RDR2, chapitre 5). Traduction : « Je ne suis pas d'ici. Je fais entrer et sortir des marchandises des îles... dans le dos du colonel Fussar. »")},
         {"q": two("You know, wasn't Fussar one of the fellers Bronte pointed out to us at the party in Saint Denis?",
                   "You know, wasn't Fussar one of the fellers Bronte pointed out to us at the party in Saint Denis?"),
          "src": two("Arthur to Dutch in the caves, A Kind and Benevolent Despot (RDR2, chapter 5)",
@@ -97,21 +97,17 @@ BLOCKS_QUOTES = [
         {"q": two("Very kind of you, Mr. Fussar!", "Very kind of you, Mr. Fussar!"),
          "src": two("Dutch, as the warship's fire hits its own soldiers, Hell Hath No Fury (RDR2, chapter 5)",
                     "Dutch, quand les tirs du navire de guerre frappent ses propres soldats, Hell Hath No Fury (RDR2, chapitre 5). Traduction : « Bien aimable à vous, monsieur Fussar ! »")},
-        {"q": two("That is the problem. It doesn't matter how many we kill. He will have the money to get more.",
-                  "That is the problem. It doesn't matter how many we kill. He will have the money to get more."),
-         "src": two("Hercule Fontaine, after Arthur asks how many men Fussar has, Hell Hath No Fury (RDR2, chapter 5)",
-                    "Hercule Fontaine, quand Arthur demande combien d'hommes a Fussar, Hell Hath No Fury (RDR2, chapitre 5). Traduction : « C'est bien le problème. Peu importe combien on en tue. Il aura toujours de quoi en payer d'autres. »")},
         {"q": two("This feller is really beginning to try my patience. / And he ain't even had you tortured yet.",
                   "This feller is really beginning to try my patience. / And he ain't even had you tortured yet."),
          "src": two("Dutch, then Arthur, after Micah's report on the captain and the gun positions, Paradise Mercifully Departed (RDR2, chapter 5)",
                     "Dutch, puis Arthur, après le rapport de Micah sur le capitaine et les pièces d'artillerie, Paradise Mercifully Departed (RDR2, chapitre 5). Traduction : « Ce type commence vraiment à mettre ma patience à l'épreuve. / Et il ne t'a même pas encore fait torturer. »")},
-        {"q": two("I like the man's style... he's thorough, nasty and vindictive.",
-                  "I like the man's style... he's thorough, nasty and vindictive."),
-         "src": two("Micah Bell, Paradise Mercifully Departed (RDR2, chapter 5)",
-                    "Micah Bell, Paradise Mercifully Departed (RDR2, chapitre 5). Traduction : « Il a du style, cet homme-là... il est méthodique, mauvais et rancunier. »")},
         {"q": two("Oh, I'll fight Alberto Fussar every day I can.", "Oh, I'll fight Alberto Fussar every day I can."),
          "src": two("Hercule Fontaine, when Dutch asks if he is in, Paradise Mercifully Departed (RDR2, chapter 5)",
                     "Hercule Fontaine, quand Dutch lui demande s'il en est, Paradise Mercifully Departed (RDR2, chapitre 5). Traduction : « Oh, je combattrai Alberto Fussar chaque jour que je pourrai. »")},
+        {"q": two("Fussar is up there I think. / In the tower? / Yes. Yes, that's him.",
+                  "Fussar is up there I think. / In the tower? / Yes. Yes, that's him."),
+         "src": two("Hercule Fontaine, then Arthur, then Hercule, near the harbor, Paradise Mercifully Departed (RDR2, chapter 5)",
+                    "Hercule Fontaine, puis Arthur, puis Hercule, près du port, Paradise Mercifully Departed (RDR2, chapitre 5). Traduction : « Fussar est là-haut, je crois. / Dans la tour ? / Oui. Oui, c'est lui. »")},
         {"q": two("I got him for you, Javier.", "I got him for you, Javier."),
          "src": two("Arthur, after destroying Fussar's tower, Paradise Mercifully Departed (RDR2, chapter 5)",
                     "Arthur, après avoir détruit la tour de Fussar, Paradise Mercifully Departed (RDR2, chapitre 5). Traduction : « Je l'ai eu pour toi, Javier. »")},
@@ -128,12 +124,10 @@ BLOCKS_TRIVIA = [
             "L'article consacré à la réception du maire, \"Mayor's Gala Was Grand\" (Blackwater Ledger n° 67), cite parmi les invités Archibald Jameson, le major Hobart Crawley, Gilbert Knightly, Hector Fellowes et Angelo Bronte, mais pas Fussar. Le même numéro publie \"Guarma Island Sugar Boom\"."),
         two("In \"A Kind and Benevolent Despot\", opening fire on Fussar or his soldiers once Javier has been seen fails the mission, and a cutscene shows the guards killing Javier.",
             "Dans \"A Kind and Benevolent Despot\", ouvrir le feu sur Fussar ou sur ses soldats une fois que Javier est en vue fait échouer la mission, et une cinématique montre les gardes en train de tuer Javier."),
-        two("According to the Red Dead Wiki, Fussar's estate in Aguasdulces is enclosed by a stone wall and comprises a large manor surrounded by cages, the sugar factory, a mill, a barn, a well and a dilapidated tower that gives access to the caves.",
-            "D'après le Red Dead Wiki, le domaine de Fussar à Aguasdulces est entouré d'un mur de pierre et comprend un grand manoir entouré de cages, la sucrerie, un moulin, une grange, un puits et une tour délabrée qui donne accès aux grottes."),
         two("Firing the cannon at Fussar's tower stops the clock on one of the Gold Medal objectives of \"Paradise Mercifully Departed\": escorting the captain to the boat within 1 minute and 45 seconds.",
             "Le tir de canon sur la tour de Fussar arrête le chronomètre de l'un des objectifs de la médaille d'or de \"Paradise Mercifully Departed\" : escorter le capitaine jusqu'au bateau en moins d'une minute et 45 secondes."),
-        two("In the cabin standoff, Dutch draws his second revolver when Fussar walks in. According to the Red Dead Wiki, the same kind of standoff happens again in \"American Venom\", the last mission of the 1907 epilogue.",
-            "Lors du face-à-face dans la cabane, Dutch dégaine son second revolver à l'entrée de Fussar. Selon le Red Dead Wiki, une confrontation du même genre se reproduit dans \"American Venom\", la dernière mission de l'épilogue de 1907."),
+        two("According to the Red Dead Wiki, the double-revolver standoff in the cabin happens again in \"American Venom\", the last mission of the 1907 epilogue.",
+            "Selon le Red Dead Wiki, le face-à-face de la cabane, où Dutch tient un revolver dans chaque main, se reproduit dans \"American Venom\", la dernière mission de l'épilogue de 1907."),
         two("The Red Dead Wiki's list of the people Arthur kills counts three named deaths that the story imposes on him: Sheriff Leigh Gray, Alberto Fussar and Colonel Henry Favours.",
             "La liste des personnes tuées par Arthur sur le Red Dead Wiki compte trois morts nommées que l'histoire lui impose : le shérif Leigh Gray, Alberto Fussar et le colonel Henry Favours."),
     ]},
