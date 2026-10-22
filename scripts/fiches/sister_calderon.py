@@ -62,5 +62,5 @@ def _g(n, alt_en, alt_fr, cap_en, cap_fr):
 
 GALLERY = [
     _g(1, "Mother Superior Calderón in the garden of the Las Hermanas convent in Red Dead Redemption", "La mère supérieure Calderón dans le jardin du couvent de Las Hermanas dans Red Dead Redemption",
-       "Calderón as mother superior at Las Hermanas, Nuevo Paraíso, in Red Dead Redemption (1911).", "Calderón, mère supérieure à Las Hermanas, au Nuevo Paraíso, dans Red Dead Redemption (1911)."),
+       "The mother superior of Las Hermanas, Nuevo Paraíso, in Red Dead Redemption (1911); the Red Dead Wiki identifies her with Calderón.", "La mère supérieure de Las Hermanas, au Nuevo Paraíso, dans Red Dead Redemption (1911) ; le Red Dead Wiki l'identifie à Calderón."),
 ]
