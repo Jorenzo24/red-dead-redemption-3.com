@@ -1,0 +1,12 @@
+Brothers and Sisters, One and All	scripts/v3/work/_m/Brothers_and_Sisters_One_and_All.txt
+Brothers and Sisters, One and All/dialogues	MISSING (no such wiki page)
+Of Men and Angels	scripts/v3/work/_m/Of_Men_and_Angels.txt
+Of Men and Angels/dialogues	scripts/v3/work/_m/Of_Men_and_Angels_dialogues.txt
+The Fine Art of Conversation	scripts/v3/work/_m/The_Fine_Art_of_Conversation.txt
+The Fine Art of Conversation/dialogues	MISSING (no such wiki page)
+Red Dead Redemption (mission)	scripts/v3/work/_m/Red_Dead_Redemption_mission.txt
+Red Dead Redemption (mission)/dialogues	scripts/v3/work/_m/Red_Dead_Redemption_mission_dialogues.txt
+I Know You	scripts/v3/work/_m/I_Know_You.txt
+I Know You/dialogues	scripts/v3/work/_m/I_Know_You_dialogues.txt
+Mother Superior Blues	scripts/v3/work/_m/Mother_Superior_Blues.txt
+Mother Superior Blues/dialogues	MISSING (no such wiki page)

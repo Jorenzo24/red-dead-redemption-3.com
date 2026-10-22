@@ -1,0 +1,108 @@
+{{User/characterbox
+|name = Mother Superior Calderón
+|game = ''[[Red Dead Redemption]]<br>[[Red Dead Redemption 2]]''
+|image = <gallery>
+Sister Calderón RDR2.png|1899
+Sister Calderón RDR.png|1911
+</gallery>
+|gender = Female
+|aka = Sister Calderón
+|occupation = Nun
+|nationality = 
+|location = *City of [[Saint Denis]] in [[Bayou Nwa]], State of [[Lemoyne]] <small>(1899)</small>
+*[[Las Hermanas]] in [[Perdido]], [[Nuevo Paraíso]] <small>(1911)</small>
+|weapon = [[Winchester Repeater]]
+|affiliations = [[Church of the Holy Blessed Virgin]]<br>[[Brother Dorkins]]<br>[[Father O'Leary]]<br>[[Arthur Morgan]]<br>[[John Marston]]
+|voice = Irene DeBari
+|family = Unnamed mother {{icon|dead}}<br>Unnamed husband {{icon|dead}}<ref>https://www.youtube.com/watch?v=HoHL686Rkv8</ref>
+}}
+{{Quote|Take a gamble that love exists, and do a loving act!|Mother Superior}}
+[[File:SisterCalderon-RDR2-Quote.ogg|noicon|center]]
+'''Mother Superior Calderón''', formerly known as '''Sister Calderón''', is a recurring character in the ''[[Red Dead]]'' series, appearing as a [[Characters in Redemption|minor character]] in ''[[Red Dead Redemption]]'', the tritagonist in its non-canon DLC ''[[Undead Nightmare]]'', and as a [[Characters in Redemption 2|supporting character]] and [[Strangers|stranger]] in ''[[Red Dead Redemption 2]]''.
+
+==History==
+===Background===
+Calderón had a husband who, prior to 1899, "died a long time ago", including a mother. Her mother gave her a crucifix when she was a novice, shortly before she passed away.<ref>https://www.youtube.com/watch?v=ZVrB1o94GN4</ref> Calderón became a nun based in the city of [[Saint Denis]] at some point prior to 1899, becoming a Sister of the [[Church of the Holy Blessed Virgin|church]]. She immigrated to Mexico in June 1899, [[The Fine Art of Conversation|boarding a train]] at [[Emerald Station]]. Her reasoning for moving to Mexico was that she was "sent on a mission", presumably by the church. 
+
+===Events of ''Red Dead Redemption 2''===
+==== [[Saint Denis]] Chapter ====
+Sister Calderón is first encountered at a church in the slums of [[Saint Denis]], where she is teaching some boys to read alongside [[Brother Dorkins]]. He introduces [[Arthur Morgan]] to her, but their conversation is cut short when one of the boys steals Sister Calderón's crucifix. Arthur decides to chase after him and retrieve it, but Calderón tells him to not harm the boy. When Arthur comes back with the crucifix, Sister Calderón is seen talking to a [[Father O'Leary|priest]] at the church cathedral. She thanks Arthur for recovering it, stating that it was from her mother and so it is invaluable to her.
+
+==== [[Beaver Hollow]] Chapter ====
+When encountered again, she asks Arthur to donate money and/or food to a food bank she is making for the poor.
+
+If the player's [[Honor]] is high and they have completed the aforementioned stranger mission "[[Of Men and Angels]]", then Sister Calderón will appear in the mission "[[The Fine Art of Conversation]]" at the [[Emerald Station|train station]], in place of [[Orville Swanson|Reverend Swanson]]. She and Arthur have a long conversation, in which he informs her that he is dying, before she boards the train to Mexico.
+
+===Events of ''Red Dead Redemption''===
+In 1911, Mother Superior Calderón is still at [[Las Hermanas]], the convent she was sent to go to twelve years prior. She plays a small part in the [[Strangers|Stranger side-mission]] "[[I Know You]]". She collects money for the poor outside Las Hermanas, and so the [[Strange Man]] sends [[Marston]] to her, giving him the choice to either donate to her or rob her. If Marston donates, the player will have random encounters with other nuns asking Marston for a donation.
+
+Mother Superior can also be found in Las Hermanas attending to daily work and eating on the second floor in the church.
+
+==Events of ''Undead Nightmare''==
+'''Note:''' ''The events of Undead Nightmare are not considered part of the same canon as Red Dead Redemption. The following description is therefore not contiguous with the preceding section on Red Dead Redemption.''
+
+[[John Marston]] first meets Mother Superior outside [[Las Hermanas]], while she is busy fighting off an Undead, which she ultimately kills with a repeater shot. After the Undead is killed, John and Mother Superior chat and Mother Superior says that the other nuns are less inclined to kill the Undead, and are not as resourceful as John and herself, so she asks John to save them inside Las Hermanas. After John does so, John asks Mother Superior if she knows anything about the plague, and Mother Superior states that if John can find her an Undead that has recently turned, she can find out more about them.
+
+When John brings her an Undead, Mother Superior suspects that it is an evil cause, and she pours [[Holy Water]] on the Undead. The man or woman shortly returns to the world of the living, after being briefly bathed in a blue flame, before it returns to its growling. John notes this, to which Mother Superior informs him that spiritual infections are confusing things that no one can ever understand. After some dialogue, Mother Superior asks John to cleanse [[Sepulcro]] and then gives him the Holy Water. When John cleanses the graveyard and returns to Mother Superior, she will state that [[Ayauhtéotl|a woman]] mentioned to her that all of this may have been caused by [[Abraham Reyes]], so she tells John that he should travel to [[Escalera]]. They don't meet again.
+
+== Character ==
+
+=== Personality ===
+{{Quote|You know, a long time ago, I was like [[Arthur Morgan|you]] [...] I did terrible things, awful things, and I could not stop doing terrible things, because I did not believe that goodness existed... and then, one day, I saw that love did exist, and ever since then, doing bad things became... well, not impossible, but... ridiculous!"|Sister Calderón during "[[Of Men and Angels]]"}}
+Being of Christian faith, Sister Calderón has a kind and bittersweet personality, helping others in need, and supporting the protagonist despite his sins as an outlaw. She is portrayed as a mature nun who's capable of understanding, compassion, and admitting that "we all sin".  Sister Calderón is one of the only characters in the ''[[Red Dead]]'' series to have such a special mindset, showing compassion, love, understanding, hope, and empathy during every encounter the player has with her.  
+
+During [[Brothers and Sisters, One and All|her time in Saint Denis]], she and Brother Dorkins can be seen helping some children how to read. This shows even more of her compassion and love for others. Sister Calderón also [[Of Men and Angels|fundraises for the starving people]] in Saint Denis. 
+
+=== Appearance ===
+Sister Calderón is an elderly woman, as depicted with the wrinkles on her face. She wears a traditional [[Wikipedia:Religious habit|Religious Habit]] outfit, specifically one of a Catholic nun. Her outfit consist of a black tunic, a white coif, and a black veil.
+
+==Mission appearances==
+;''Red Dead Redemption 2''
+* "[[Brothers and Sisters, One and All]]"
+* "[[Of Men and Angels]]"
+* "[[The Fine Art of Conversation]]" <small>(determinant)</small>
+* "[[Red Dead Redemption (mission)|Red Dead Redemption]]" <small>(voice only; determinant)</small>
+
+;''Red Dead Redemption''
+* "[[I Know You]]"
+;''Undead Nightmare''
+* "[[Mother Superior Blues]]"
+
+==Quotes==
+{{Quote|You know, a long time ago, I was like [[Arthur Morgan|you]] [...] I did terrible things, awful things, and I could not stop doing terrible things, because I did not believe that goodness existed... and then, one day, I saw that love did exist, and ever since then, doing bad things became... well, not impossible, but... ridiculous!"|Sister Calderón during "[[Of Men and Angels]]"}}
+{{Quote|Religion is just a word. Hearts are rarely pure, but equally are they rarely impure either. [...] To me, God is people, and people are God, so we must all do what we can.|Sister Calderón during "[[Of Men and Angels]]"}}
+{{Quote|Don't worry so much about your heart. The actions will lead, and the heart follows.|Sister Calderón during "[[Of Men and Angels]]"}}
+{{Quote|I'll still think of you in very nasty terms, as you wish.|Sister Calderón during "[[Of Men and Angels]]"}}
+{{Quote|You are wonderful, Mr. Morgan. [...] Oh, I meant wonderful, but... so very frightening, as you wish. Consider your good deed done for the day. I won't subject you to anymore benevolence.|Sister Calderón during "[[Of Men and Angels]]"}}
+{{Quote|We've all live bad lives, Mr. Morgan; we all sin... but I know you. [You don't know me.] Forgive me, but that is the problem. You don't know you!|Sister Calderón during "[[The Fine Art of Conversation]]"}}
+{{Quote|Life is full of pain... but there is also love and beauty. [...] Be grateful that for the first time, you see your life clearly.|Sister Calderón during "The Fine Art of Conversation"; the latter part is a line Arthur remembers during his last ride in "[[Red Dead Redemption (mission)|Red Dead Redemption]]" if his Honor is high}}
+{{Quote|Often, neither do I... but then I meet someone like you, and everything makes sense.|Sister Calderón when Arthur says he doesn't believe in anything during "The Fine Art of Conversation"}}
+{{Quote|There is nothing to be afraid of, Mr. Morgan. Take a gamble that love exists, and do a loving act!|Sister Calderón during "The Fine Art of Conversation"}}
+
+==Trivia==
+===General===
+* Calderón is the only minor/sidequest character to appear in ''[[Red Dead Redemption]]'', ''[[Red Dead Redemption 2]]'' and ''[[Undead Nightmare]]''.
+* She is one of the few people in ''Red Dead Redemption 2'', besides [[Rains Fall]], with whom Arthur discusses his [[Isaac|son]]. 
+* She has a strong dislike of [[Abraham Reyes]] (at least in Undead Nightmare), calling him a "vain, ambitious and repugnant parasite" as well as a philanderer.
+
+===''Red Dead Redemption 2''===
+* A drunk man in [[Doyle's Tavern]] refers to her as a "Spanish nun".
+* In a camp encounter during Chapter 6, [[Orville Swanson]] can mention having started recovering from his addictions after having prayed with "a Catholic lady",<ref>https://www.youtube.com/watch?v=vOW5j7PoAQ0</ref> implied to be Sister Calderón.
+* Calderón was originally planned to have dialogue from being hogtied with the [[Lasso]], but this was cut from the final game.
+* Her loot will always consist of [[Burdock Root]].
+* After completing "[[Brothers and Sisters, One and All]]", lawmen pursuing a wanted Arthur Morgan may attack Sister Calderón and Father O'Leary if he leads them to the two NPCs while being chased. Sister Calderón and Father O'Leary usually die after two gunshots, after which their bodies become lootable.
+
+==References==
+<references />
+
+==Navigation==
+{{Characters}}
+{{Characters 2}}
+{{DEFAULTSORT:Calderón, Mother Superior}}
+[[fr:Mère Supérieure Calderón]]
+[[de:Mutter Oberin Calderón]]
+[[tr:Rahibe Calderón]]
+[[Category:Characters in Redemption]]
+[[Category:Characters in Undead Nightmare]]
+[[Category:Characters in Redemption 2]]
+[[Category:Strangers in Redemption 2]]

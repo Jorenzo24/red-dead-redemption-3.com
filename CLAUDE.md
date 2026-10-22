@@ -686,5 +686,15 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     Stratford (Ontario), pas Toronto (premières dépêches). Sources ajoutées : Vulture (Dan Houser, 14 oct. 2018), Andrei Nae
     (2025). Corrigé chez Charles et Arthur : Charles a dit à Rains Fall qu'il ne se battrait pas « pour des chevaux » (pas
     « rester à l'écart du conflit ») ; guide ch. 6 EN+FR (paix négociée).
+  - **Eagle Flies v3** : 6 490 mots EN, 13 relations, galerie 5 (dont peintures de guerre, vérifiées par légende du wiki, et
+    tombe 1907). Écrit dans `_queue/49-eagle-flies` (drip du 26 oct.). Voix : Jeremiah Bitsui (voix + capture, Wikipédia).
+    Accueil : IGN (Jared Petty, 24 déc. 2018), Andrei Nae (2025). Section « Raids, armes et chevaux ». Tombe : disponibilité
+    selon deux pages du wiki (épilogue / après « My Last Boy »), attribuée. Corrigé chez Charles et Arthur : Paytah ne monte
+    pas sur le bateau, qui s'échoue sur les rochers (phare = wiki).
+  - **Sister Calderón v3** : 5 510 mots EN, 13 relations, galerie 1 (RDR1). Écrite dans `_queue/50-sister-calderon` (drip du
+    29 oct.). Page wiki = « Mother Superior Calderón » ; identité RDR2/RDR1 attribuée au wiki ; aucun prénom ni origine.
+    Voix : Irene DeBari (listes de distribution pour RDR2, wiki seul pour RDR1). Accueil : Game Rant (6 mars 2021), RDR2.org
+    (6 juil. 2026). Section « Œuvres de charité et gameplay ». Corrigé chez Swanson (« une dame catholique ») et Arthur
+    (« Of Men and Angels » jouable au ch. 5 ou 6). **FIN DU CHANTIER V3 : les 50 fiches sont au standard v3 (22 oct. 2026).**
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
