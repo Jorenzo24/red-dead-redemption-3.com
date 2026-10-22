@@ -1,0 +1,8 @@
+{
+ "key": "hercule",
+ "slug": "hercule-fontaine",
+ "title": "Hercule Fontaine",
+ "blurb": "RDR2 only, chapter 5 (Guarma). Guarma rebel leader working with the gang against Fussar; key missions: Welcome to the New World, Savagery Unleashed, A Kind and Benevolent Despot, Hell Hath No Fury, Paradise Mercifully Departed. HOUSE FACTS: Fussar loads and fires a CANNON on the tower; Hercule's offer = if Fussar is silenced he can get them away before anyone arrives from America; Hercule drawing Fussar's fire = Red Dead Wiki only. His fate after Guarma is NOT shown: never invent it. Nationality 'Haitian' in the live fiche is unverified: check (game may not say). Voice: Guyviaud Joseph (verify). Authoritative related parts: fussar_*, arthur_*, dutch_*, javier_*, micah_*, bill_*. Full fan transcript: copy scripts/v3/work/fussar/fc/gsw.txt to work/hercule/fc/ if present, else download Game Scripts Wiki RDR2 transcript (gitignored).",
+ "name": "Hercule Fontaine",
+ "model": "uncle"
+}

@@ -670,5 +670,11 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     tire au CANON (transcription + captures), pas une Gatling (corrigé chez Arthur et Dutch). Offre d'Hercule : faire taire
     Fussar pour partir avant que quiconque n'arrive d'Amérique (corrigé chez Arthur et Dutch). Nationalité non dite en jeu
     (cubain selon le wiki). Voix : Alfredo Narciso (année de naissance non sourcée, retirée). Accueil : WhatCulture, 7 févr. 2022.
+  - **Hercule Fontaine v3** : 4 410 mots EN, 10 relations, pas de galerie (aucune image exploitable ; l'ancienne gallery-1
+    n'est plus utilisée). Nationalité non dite en jeu (« haïtien » = wiki, retiré comme fait aussi chez Fussar et Arthur).
+    Sort après Guarma jamais montré. Section « Contrebande et combat ». Voix : Guyviaud Joseph (Wikipédia, d'après le
+    générique). Accueil : WhatCulture (Dustin Crawford, 16 juin 2020). Corrigé chez Arthur (arme prise à un garde mort, vieux
+    bâtiment et non tour, seul Dutch remercie Hercule au quai), Dutch (fusils et revolvers en caisses, ouvriers évadés et
+    traqués) et dans le guide ch. 6 EN+FR (Rains Fall cherche une paix négociée, pas un déménagement).
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).
