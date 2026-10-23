@@ -784,4 +784,13 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/articles/nouveau-red-dead-en-2027-ce-que-citi-et-rockstar-ont-dit/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/articles/new-red-dead-in-2027-what-citi-and-rockstar-said/"/>
     </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/characters/rains-fall/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/characters/rains-fall/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/personnages/rains-fall/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/characters/rains-fall/"/>
+    </url>
 </urlset>
