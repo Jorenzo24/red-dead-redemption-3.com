@@ -16,7 +16,7 @@ See CHAR SCHEMA at the bottom for the expected dict shape.
 import json, os, re, html
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CSS_V = "20261014d"
+CSS_V = "20261024a"
 JS_V = "20261009a"
 
 _MONTHS_EN = ["January", "February", "March", "April", "May", "June", "July",
@@ -49,11 +49,89 @@ def reg(slug, name, role_en, role_fr):
 
 
 _TOKEN = re.compile(r"\[\[([a-z0-9-]+)\|([^\]]+)\]\]")
+# Mission token [[m:<slug>|Text]] -> /missions/<slug>/ (EN) or /fr/missions/<slug>/ (FR),
+# linked ONLY if that mission page exists, otherwise plain text (no internal 404).
+_MTOKEN = re.compile(r"\[\[m:([a-z0-9-]+)\|([^\]]+)\]\]")
+# When True (set by gen_mission while it renders), a character token whose fiche is
+# not live yet renders as plain text. Fiches keep the old behaviour (False): a queued
+# fiche may link fiches that will be live by its own publishDate.
+LINK_LIVE_ONLY = False
+
+
+def mission_live(slug):
+    return os.path.isfile(os.path.join(ROOT, "missions", slug, "index.html"))
+
+
+def character_live(slug):
+    return os.path.isfile(os.path.join(ROOT, "characters", slug, "index.html"))
 
 
 def _links(text, lang):
+    mbase = "/missions/" if lang == "en" else "/fr/missions/"
+    text = _MTOKEN.sub(lambda m: (f'<a href="{mbase}{m.group(1)}/">{m.group(2)}</a>'
+                                  if mission_live(m.group(1)) else m.group(2)), text)
     base = "/characters/" if lang == "en" else "/fr/personnages/"
-    return _TOKEN.sub(lambda m: f'<a href="{base}{m.group(1)}/">{m.group(2)}</a>', text)
+    def ch(m):
+        if LINK_LIVE_ONLY and not character_live(m.group(1)):
+            return m.group(2)
+        return f'<a href="{base}{m.group(1)}/">{m.group(2)}</a>'
+    return _TOKEN.sub(ch, text)
+
+
+def header_menu(lang, active, enpath, frpath):
+    """Header menu + language switch, shared by fiches and mission pages.
+    active: "news" | "story" | "characters"; enpath/frpath: root-relative URLs of
+    this page in each language (the switch points to the other one)."""
+    items = ([("news", "/articles/", "News"), ("story", "/story/", "Story"), ("characters", "/characters/", "Characters")]
+             if lang == "en" else
+             [("news", "/fr/articles/", "Actus"), ("story", "/fr/histoire/", "Histoire"), ("characters", "/fr/personnages/", "Personnages")])
+    cur = ' aria-current="page"'
+    links = "".join(
+        f'                    <a href="{href}" class="site-header__link{" is-active" if key == active else ""}"'
+        f'{cur if key == active else ""}>{lbl}</a>\n'
+        for key, href, lbl in items)
+    if lang == "en":
+        switch = (f'<div class="lang-switch"><span class="site-header__lang is-active" aria-current="true">EN</span>'
+                  f'<a href="{frpath}" class="site-header__lang" hreflang="fr" aria-label="Lire en français">FR</a></div>')
+    else:
+        switch = (f'<div class="lang-switch"><a href="{enpath}" class="site-header__lang" hreflang="en" aria-label="Read in English">EN</a>'
+                  f'<span class="site-header__lang is-active" aria-current="true">FR</span></div>')
+    return (f'                <div class="site-header__menu">\n{links}'
+            f'                </div>\n'
+            f'                {switch}')
+
+
+def footer_html(lang):
+    """Footer nav + legal lines (inside <footer class="site-footer">)."""
+    if lang == "en":
+        return ('        <nav class="site-footer__nav" aria-label="Footer">\n'
+                '            <a href="/about/">About</a>\n'
+                '            <a href="/about/joseph-lambert/">Author</a>\n'
+                '            <a href="/characters/">Characters</a>\n'
+                '            <a href="/story/">Story</a>\n'
+                '            <a href="/articles/">Articles</a>\n'
+                '            <a href="/contact/">Contact</a>\n'
+                '        </nav>\n'
+                '        <p>&copy; <span id="year">2026</span> red-dead-redemption-3.com &middot; All rights reserved.</p>\n'
+                '        <p>This is a fan site. Not affiliated with, endorsed, or sponsored by Rockstar Games or Take-Two Interactive.</p>')
+    return ('        <nav class="site-footer__nav" aria-label="Pied de page">\n'
+            '            <a href="/fr/a-propos/">À propos</a>\n'
+            '            <a href="/fr/a-propos/joseph-lambert/">Auteur</a>\n'
+            '            <a href="/fr/personnages/">Personnages</a>\n'
+            '            <a href="/fr/histoire/">Histoire</a>\n'
+            '            <a href="/fr/articles/">Articles</a>\n'
+            '            <a href="/fr/contact/">Contact</a>\n'
+            '        </nav>\n'
+            '        <p>&copy; <span id="year">2026</span> red-dead-redemption-3.com &middot; Tous droits réservés.</p>\n'
+            '        <p>Site de fans. Sans aucune affiliation avec Rockstar Games ou Take-Two Interactive, ni leur approbation.</p>')
+
+
+def byline_html(lang, bdate):
+    """Author byline with the last-update date (EEAT)."""
+    author_url = "/about/joseph-lambert/" if lang == "en" else "/fr/a-propos/joseph-lambert/"
+    if lang == "en":
+        return f'By <a href="{author_url}"><span>Joseph Lambert</span></a> &middot; Updated <time datetime="{bdate}">{_fmt_date(bdate, "en")}</time>'
+    return f'Par <a href="{author_url}"><span>Joseph Lambert</span></a> &middot; Mis à jour le <time datetime="{bdate}">{_fmt_date(bdate, "fr")}</time>'
 
 
 def _ccard(slug, lang, depth):
@@ -218,20 +296,10 @@ def _page(c, lang):
     # header menu (Characters active)
     if lang == "en":
         logo_href, logo_aria, navlabel = "/", "Red Dead Redemption 3, Home", "Primary"
-        menu = (f'                <div class="site-header__menu">\n'
-                f'                    <a href="/articles/" class="site-header__link">News</a>\n'
-                f'                    <a href="/story/" class="site-header__link">Story</a>\n'
-                f'                    <a href="/characters/" class="site-header__link is-active" aria-current="page">Characters</a>\n'
-                f'                </div>\n'
-                f'                <div class="lang-switch"><span class="site-header__lang is-active" aria-current="true">EN</span><a href="{frurl.replace("https://red-dead-redemption-3.com","")}" class="site-header__lang" hreflang="fr" aria-label="Lire en français">FR</a></div>')
     else:
         logo_href, logo_aria, navlabel = "/fr/", "Red Dead Redemption 3, accueil", "Principale"
-        menu = (f'                <div class="site-header__menu">\n'
-                f'                    <a href="/fr/articles/" class="site-header__link">Actus</a>\n'
-                f'                    <a href="/fr/histoire/" class="site-header__link">Histoire</a>\n'
-                f'                    <a href="/fr/personnages/" class="site-header__link is-active" aria-current="page">Personnages</a>\n'
-                f'                </div>\n'
-                f'                <div class="lang-switch"><a href="{enurl.replace("https://red-dead-redemption-3.com","")}" class="site-header__lang" hreflang="en" aria-label="Read in English">EN</a><span class="site-header__lang is-active" aria-current="true">FR</span></div>')
+    menu = header_menu(lang, "characters", enurl.replace("https://red-dead-redemption-3.com", ""),
+                       frurl.replace("https://red-dead-redemption-3.com", ""))
 
     chips = "\n".join(f'                    <span class="chip">{L(ch)}</span>' for ch in c["chips"])
     facts = "\n".join(
@@ -264,35 +332,9 @@ def _page(c, lang):
     rel_all = "All characters &rarr;" if lang == "en" else "Tous les personnages &rarr;"
     rel_label = "More characters" if lang == "en" else "Plus de personnages"
 
-    author_url = "/about/joseph-lambert/" if lang == "en" else "/fr/a-propos/joseph-lambert/"
     bdate = c.get("updated") or c.get("publishDate", "2026-06-23")  # byline shows last update
-    byline = (f'By <a href="{author_url}"><span>Joseph Lambert</span></a> &middot; Updated <time datetime="{bdate}">{_fmt_date(bdate, "en")}</time>'
-              if lang == "en" else
-              f'Par <a href="{author_url}"><span>Joseph Lambert</span></a> &middot; Mis à jour le <time datetime="{bdate}">{_fmt_date(bdate, "fr")}</time>')
-    if lang == "en":
-        fnav = ('        <nav class="site-footer__nav" aria-label="Footer">\n'
-                '            <a href="/about/">About</a>\n'
-                '            <a href="/about/joseph-lambert/">Author</a>\n'
-                '            <a href="/characters/">Characters</a>\n'
-                '            <a href="/story/">Story</a>\n'
-                '            <a href="/articles/">Articles</a>\n'
-                '            <a href="/contact/">Contact</a>\n'
-                '        </nav>\n')
-        footer = (fnav +
-                  '        <p>&copy; <span id="year">2026</span> red-dead-redemption-3.com &middot; All rights reserved.</p>\n'
-                  '        <p>This is a fan site. Not affiliated with, endorsed, or sponsored by Rockstar Games or Take-Two Interactive.</p>')
-    else:
-        fnav = ('        <nav class="site-footer__nav" aria-label="Pied de page">\n'
-                '            <a href="/fr/a-propos/">À propos</a>\n'
-                '            <a href="/fr/a-propos/joseph-lambert/">Auteur</a>\n'
-                '            <a href="/fr/personnages/">Personnages</a>\n'
-                '            <a href="/fr/histoire/">Histoire</a>\n'
-                '            <a href="/fr/articles/">Articles</a>\n'
-                '            <a href="/fr/contact/">Contact</a>\n'
-                '        </nav>\n')
-        footer = (fnav +
-                  '        <p>&copy; <span id="year">2026</span> red-dead-redemption-3.com &middot; Tous droits réservés.</p>\n'
-                  '        <p>Site de fans. Sans aucune affiliation avec Rockstar Games ou Take-Two Interactive, ni leur approbation.</p>')
+    byline = byline_html(lang, bdate)
+    footer = footer_html(lang)
 
     body_extra = " read-dark" if c.get("reading_dark", True) else ""  # tobacco reading blocks, default on every fiche (Oct 2026)
     schema = {

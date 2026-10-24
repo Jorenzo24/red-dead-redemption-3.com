@@ -707,5 +707,19 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   un tunnel, butin = obligations. Corrigé dans les fiches : Dutch (réplique exacte), Arthur et Dutch (Heidi McCourt =
   wiki), Micah (enterrement de Jake = wiki), Lenny (variante du mécanicien), Rains Fall (« We saw you »), Kieran (« now all
   we'll get is lies »). Balise `site-header__menu` non fermée corrigée sur les 22 pages de guides.
-- **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
+- **PAGES DE MISSION (décision de Joseph, 24 oct. 2026) : l'histoire passe à UNE PAGE PAR MISSION**, `/missions/<slug>/` +
+  `/fr/missions/<slug>/` (slug = nom anglais de la mission, aussi en FR ; collision avec le nom du jeu à régler au cas par cas,
+  ex. `red-dead-redemption-mission`). Générées depuis les données : `scripts/missions/rdr2_<slug>.py` (dict `MISSION`, spec
+  dans `DATA-SCHEMA.md` §4) → `python3 scripts/build_missions.py [slug ...]` (`scripts/gen_mission.py`, réutilise gen_fiche).
+  Page : encadré (jeu, chapitre, rang, donneur, lieu, personnages, déblocages, récompenses, précédente/suivante), intro,
+  accordéons Déroulé / Choix et variantes / Médaille d'or (attribuée au wiki) / Citations / Anecdotes. Règle : une réplique
+  n'est citée qu'UNE fois par page (le bloc Citations ne prend que des répliques inédites, vérifiées sur 2 transcriptions).
+  Jeton `[[m:slug|Texte]]` = lien vers une mission, seulement si sa page existe. Même rigueur v3 (relecture contradictoire).
+  **Hub `/story/` + `/fr/histoire/`** généré par `scripts/gen_story_hub.py` (appelé par `build_missions.py` ET par le drip
+  après chaque fiche) : chaque chapitre/acte = 4-5 phrases factuelles + accordéon qui déroule ses missions (liens), ancres
+  fixes `rdr2-chapter-1`…`rdr2-epilogue-2`, `rdr1-act-1`…`rdr1-act-3`. Les pages de chapitre restent tant que leurs missions
+  n'ont pas de pages ; ensuite 301 vers `/story/#<ancre>` (jamais de 404 ; à faire chapitre par chapitre, avec l'accord de
+  Joseph). Pilote fait : les 6 missions du ch. 1 (1 470 à 2 020 mots EN chacune). Missions secondaires / inconnus / vie au
+  camp : plus tard, probablement dans un « guide 100 % ».
+- **Cache-buster CSS** actuellement à `?v=20261024a` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).

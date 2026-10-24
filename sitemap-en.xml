@@ -273,7 +273,7 @@
     </url>
     <url>
         <loc>https://red-dead-redemption-3.com/story/</loc>
-        <lastmod>2026-06-24</lastmod>
+        <lastmod>2026-10-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/story/"/>
@@ -792,5 +792,59 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/characters/rains-fall/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/personnages/rains-fall/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/characters/rains-fall/"/>
+    </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/missions/outlaws-from-the-west/</loc>
+        <lastmod>2026-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/missions/outlaws-from-the-west/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/missions/outlaws-from-the-west/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/missions/outlaws-from-the-west/"/>
+    </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/missions/eastward-bound/</loc>
+        <lastmod>2026-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/missions/eastward-bound/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/missions/eastward-bound/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/missions/eastward-bound/"/>
+    </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/missions/enter-pursued-by-a-memory/</loc>
+        <lastmod>2026-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/missions/enter-pursued-by-a-memory/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/missions/enter-pursued-by-a-memory/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/missions/enter-pursued-by-a-memory/"/>
+    </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/missions/old-friends/</loc>
+        <lastmod>2026-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/missions/old-friends/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/missions/old-friends/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/missions/old-friends/"/>
+    </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/missions/the-aftermath-of-genesis/</loc>
+        <lastmod>2026-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/missions/the-aftermath-of-genesis/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/missions/the-aftermath-of-genesis/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/missions/the-aftermath-of-genesis/"/>
+    </url>
+    <url>
+        <loc>https://red-dead-redemption-3.com/missions/who-the-hell-is-leviticus-cornwall/</loc>
+        <lastmod>2026-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://red-dead-redemption-3.com/missions/who-the-hell-is-leviticus-cornwall/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://red-dead-redemption-3.com/fr/missions/who-the-hell-is-leviticus-cornwall/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://red-dead-redemption-3.com/missions/who-the-hell-is-leviticus-cornwall/"/>
     </url>
 </urlset>
