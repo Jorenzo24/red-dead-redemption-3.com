@@ -228,7 +228,88 @@ des cartes d'articles `.acard` (les personnages sont une partie différente du s
 
 ---
 
-## 4. Sitemap
+## 4. Mission
+
+> Pilote : `missions/outlaws-from-the-west/` (+ FR `fr/missions/outlaws-from-the-west/`),
+> 24 oct. 2026. Une page par mission principale, générée depuis des données comme les fiches.
+
+### URL pattern (figée)
+- EN : `/missions/<slug>/` · FR : `/fr/missions/<slug>/` (segment `missions` identique en FR).
+- `slug` = nom EN de la mission « slugifié » (`gen_mission.slugify` : ASCII, minuscules,
+  apostrophes supprimées, tout le reste → `-`). Ex. `Who the Hell is Leviticus Cornwall?`
+  → `who-the-hell-is-leviticus-cornwall`. Même slug dans toutes les langues (le nom de la
+  mission reste en anglais, tel que Rockstar le publie). `build()` refuse un slug ≠ slugify(name).
+
+### Fichiers
+- Données : `scripts/missions/<jeu>_<slug_avec_underscores>.py`, qui expose `MISSION` (dict).
+  Docstring = registre des sources (ce qui est repris, d'où, et ce qui est écarté).
+- Générateur : `scripts/gen_mission.py` (`build(m)` écrit les 2 pages + entrées sitemap EN/FR,
+  idempotent). Réutilise `gen_fiche` (header/menu, footer, byline, rendu des blocs, tokens).
+- Build : `python3 scripts/build_missions.py [slug ...]` (2 passes pour que les missions d'un
+  même lot se lient entre elles ; avec des slugs, reconstruit aussi leurs voisines prev/next).
+- Chaque page commence par un front-matter YAML en commentaire (`type: mission`, slug, lang,
+  title, game, chapter, number, dates, hreflang, `data:` = module source).
+
+### Dict `MISSION`
+
+Convention : `two(en, fr)` = `{"en": ..., "fr": ...}`. Toute prose accepte les tokens
+`[[<slug-perso>|Texte]]` (lien fiche, **seulement si la fiche est en ligne**, sinon texte simple)
+et `[[m:<slug-mission>|Texte]]` (lien page mission, **seulement si la page existe**). Le token `m:`
+marche aussi dans les fiches (`gen_fiche._links`).
+
+| Champ           | Type              | Requis | Notes |
+|-----------------|-------------------|--------|-------|
+| `slug`          | string            | oui    | = slugify(`name`) |
+| `name`          | string            | oui    | Nom EN officiel = `<h1>` dans toutes les langues (jamais de `« »`) |
+| `game`          | `rdr2` / `rdr1`   | oui    | Pilote le libellé du jeu, le `<title>` et `about` (VideoGame) |
+| `also_games`    | string[]          | non    | Autres jeux à ajouter à `about` |
+| `chapter`       | int / `"E1"` `"E2"` `"A1"`…`"A3"` | oui | Clé de `gen_mission.CHAPTERS` (guide lié, libellés EN/FR) |
+| `number`        | int               | oui    | Rang dans le chapitre |
+| `chapter_total` | int               | non    | Nb de missions du chapitre (« Mission 1 of 6 ») |
+| `story_order`   | int               | non    | Rang dans toute l'histoire du jeu (1 = « première mission du jeu ») |
+| `publishDate` / `updated` | date ISO | oui / non | Byline « Updated » = `updated` sinon `publishDate` ; JSON-LD + sitemap |
+| `prev` / `next` | `{slug, name}` ou `None` | oui | Fait « Mission précédente/suivante » + nav du bas ; lien seulement si la page existe |
+| `meta_desc`     | two               | oui    | Meta description, unique, factuelle |
+| `og_desc`       | two               | non    | OG/Twitter (défaut : `meta_desc`) |
+| `hero`          | `{src, alt: two, cap: two}` | non | `src` relatif à la racine (`assets/...`), aussi `og:image` |
+| `chips`         | two[]             | non    | Chips en plus de Jeu · Chapitre · Mission n sur N |
+| `facts`         | dict              | oui    | Clés optionnelles, chacune two : `giver`, `location`, `characters`, `unlocks`, `rewards`. Jeu, Chapitre, Mission (rang), Précédente/Suivante sont générés |
+| `intro`         | two[]             | oui    | 2-3 phrases factuelles |
+| `sections`      | dict              | oui    | Voir ci-dessous ; une section absente ou vide n'est JAMAIS rendue |
+| `reading_dark`  | bool              | non    | Blocs « tabac » (défaut `True`, comme les fiches) |
+
+`sections` (ordre de rendu fixe, accordéons `<details>`, le 1er présent est ouvert) :
+
+| Clé       | EN / FR                                   | Contenu |
+|-----------|-------------------------------------------|---------|
+| `story`   | Story / Déroulé                           | Liste de blocs fiche (`p`, `h3`, `h4`, `ul`, `quotes`, `table`) ; h3 = étapes de la mission |
+| `choices` | Choices and variants / Choix et variantes | Idem (dialogues à choix, issues, variantes, conditions d'échec) |
+| `gold`    | Gold Medal objectives / Objectifs de la médaille d'or | `{"objectives": [two..], "caption": two?, "after": [blocs]?}` → table `# / Objectif` avec légende attribuée au Red Dead Wiki |
+| `quotes`  | Quotes / Citations                        | `[{"q": "réplique VO", "src": two, "fr": "traduction"}]` → VO dans les deux langues, FR : « src. Traduction : "..." » |
+| `trivia`  | Trivia / Anecdotes                        | Liste de two (puces) ou liste de blocs |
+
+Bloc `table` (missions) : `{"table": {"caption": two?, "head": [two..], "rows": [[two|str..]..]}}`
+(seul bloc rendu par `gen_mission` lui-même, pour la légende ; le reste passe par `gen_fiche`).
+
+### Structure HTML (ordre fixe)
+`body.theme-light.read-dark` → header (menu « Story/Histoire » actif) → fil d'Ariane
+Accueil › Histoire › Chapitre N : nom (guide) › Mission → `article.article.mission` :
+`header.article-header` (eyebrow « Mission · Red Dead Redemption 2 · Chapter 1 », `h1`,
+`.story-meta` chips, byline) → `figure.article-hero` → `.profile__intro` → `dl.profile__facts`
+→ `.accordions` → `nav.story-nav` (précédente · toutes les missions du chapitre · suivante ;
+`<span>` sans lien tant que la page voisine n'existe pas). Aucune CSS propre aux missions.
+
+### SEO
+- `<title>` : « <Mission>: RDR2 Mission Walkthrough and Story » / « <Mission> : mission de RDR2,
+  déroulé et histoire » (RDR1 pour `game: rdr1`). og/twitter = même titre.
+- JSON-LD `Article` (auteur Joseph Lambert, `datePublished`, `dateModified`, `about` VideoGame)
+  + `BreadcrumbList` (4 niveaux). hreflang en/fr/x-default réciproques, canonical = self.
+- Sitemaps : `build()` ajoute l'URL EN à `sitemap-en.xml` et l'URL FR à `sitemap-fr.xml`
+  (sinon met à jour `lastmod`).
+
+---
+
+## 5. Sitemap
 
 - `sitemap.xml` = **sitemap index** (liste les sitemaps par langue).
 - `sitemap-en.xml` = URLs EN (homepage + futurs articles + futures fiches).
@@ -238,7 +319,7 @@ des cartes d'articles `.acard` (les personnages sont une partie différente du s
 
 ---
 
-## 5. Évolution de ce document
+## 6. Évolution de ce document
 
 À chaque fois qu'on stabilise un champ ou qu'on en ajoute un sur une fiche/article
 réelle, **mettre ce fichier à jour AVANT** de continuer à écrire d'autres pages.
