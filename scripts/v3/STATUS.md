@@ -22,3 +22,7 @@ Medium tier, outside the gang: Colm O'Driscoll, Edgar Ross, Andrew Milton, Levit
 None. New fiches: same pipeline; if the fiche is only in _queue/, `python3 scripts/_enrich.py <slug>` rewrites its queue item
 (local build trick for assemble: mkdir + touch characters/<slug>/index.html and fr/personnages/<slug>/index.html, never stage
 them, delete them before the final _enrich run).
+
+## Story guides v3 (started 2026-10-24)
+Spec: scripts/v3/story/SPEC.md. Work dirs: scripts/v3/work/story-ch<N>/ (FC_PROMPT.md, FIX_RULES.md, reports).
+Done: RDR2 Chapter 1 (Colter). Remaining: RDR2 ch. 2-6, epilogue I-II, RDR1 acts I-III (10).

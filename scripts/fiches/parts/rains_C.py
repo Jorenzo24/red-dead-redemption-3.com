@@ -55,8 +55,8 @@ BLOCKS_MISSIONS = [
               "Le Red Dead Wiki anglais recense pour Rains Fall sept missions principales de Red Dead Redemption 2, plus le générique de fin et une rencontre de l'épilogue qui porte son nom. L'édition française compte huit entrées : elle laisse de côté le générique et la rencontre, et ajoute la mission \"Red Dead Redemption\", où ni la page de la mission ni la transcription ne le montrent. Le tableau ajoute aussi les missions où il est seulement mentionné, ou dans lesquelles les affaires de son peuple avancent sans lui ; il le précise au cas par cas.")},
     {"table": {"head": [two("Mission", "Mission"), two("Chapter", "Chapitre"), two("Rains Fall's role", "Rôle de Rains Fall")], "rows": [
         M("Eastward Bound", C1,
-          "One of three riders watching the gang's wagons from a cliff, according to the wiki. He later tells Arthur that he saw the wagon train cross the river at Cumberland Falls.",
-          "L'un des trois cavaliers qui observent les chariots de la bande du haut d'une falaise, d'après le wiki. Il dit plus tard à Arthur avoir vu le convoi traverser la rivière aux Cumberland Falls."),
+          "One of three riders watching the gang's wagons from a cliff, according to the wiki. He later tells Arthur: \"We saw you on the wagon train... crossing the river at Cumberland Falls.\"",
+          "L'un des trois cavaliers qui observent les chariots de la bande du haut d'une falaise, d'après le wiki. Il dit plus tard à Arthur que les siens l'ont vu avec le convoi, quand il traversait la rivière aux Cumberland Falls."),
         M("The Gilded Cage", C4,
           "Guest at the mayor's garden party with Eagle Flies. Bronte mocks the pair as they hand a letter to the mayor.",
           "Invité à la garden-party du maire avec Eagle Flies. Bronte se moque d'eux pendant qu'ils remettent une lettre au maire."),
