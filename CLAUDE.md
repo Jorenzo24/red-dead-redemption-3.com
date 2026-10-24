@@ -696,5 +696,16 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
     Voix : Irene DeBari (listes de distribution pour RDR2, wiki seul pour RDR1). Accueil : Game Rant (6 mars 2021), RDR2.org
     (6 juil. 2026). Section « Œuvres de charité et gameplay ». Corrigé chez Swanson (« une dame catholique ») et Arthur
     (« Of Men and Angels » jouable au ch. 5 ou 6). **FIN DU CHANTIER V3 : les 50 fiches sont au standard v3 (22 oct. 2026).**
+- **Guides de l'histoire v3 (chantier lancé le 24 oct. 2026, pilote = RDR2 ch. 1 Colter)** : même standard que les fiches
+  (wiki = base via les pages de MISSION du chapitre + transcriptions, 2 relectures + couverture + correcteur). Spec :
+  `scripts/v3/story/SPEC.md` ; dossier de travail `scripts/v3/work/story-ch<N>/`. Pages HTML écrites à la main (pas de
+  générateur). Ch. 1 : 600 → 7 170 mots EN ; structure = intro, résumé du chapitre affiché par le jeu (VO + trad), contexte
+  Blackwater, une h3 par mission, vie au camp, tableau « en un coup d'œil » (objectifs médaille d'or attribués au wiki),
+  personnages, anecdotes, événements clés. Erreurs de l'ancien guide : Sadie trouvée dans « Outlaws from the West » (pas
+  « Aftermath of Genesis »), Davey arrive mort (Abigail entre la première, Bill et Arthur portent la civière), Micah croisé
+  en chemin, il FRAPPE Bill (« Old Friends »), argent de Blackwater caché en ville, charge de Bill ratée et abordage depuis
+  un tunnel, butin = obligations. Corrigé dans les fiches : Dutch (réplique exacte), Arthur et Dutch (Heidi McCourt =
+  wiki), Micah (enterrement de Jake = wiki), Lenny (variante du mécanicien), Rains Fall (« We saw you »), Kieran (« now all
+  we'll get is lies »). Balise `site-header__menu` non fermée corrigée sur les 22 pages de guides.
 - **Cache-buster CSS** actuellement à `?v=20261014d` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).

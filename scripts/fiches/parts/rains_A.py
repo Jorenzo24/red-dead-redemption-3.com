@@ -20,7 +20,7 @@ SOURCE REGISTER (fetched Oct 2026; local copies in scripts/v3/work/rains/ and sc
   (Blackwater Ledger No. 72, the 1907 issue that also carries "Panic of 1907").
 
 VERIFIED POINTS
-- Rains Fall himself says at the courthouse that he saw the gang's wagon train crossing the river at Cumberland Falls and
+- Rains Fall himself tells Arthur "We saw you on the wagon train" crossing the river at Cumberland Falls and
   saw Arthur upstairs at the party (transcript): this confirms the "Eastward Bound" sighting that charles_A attributes to
   the wiki.
 - Treaties: his own words are "I signed three treaties myself, and they've broken each one" (transcript); the wiki's
@@ -76,8 +76,8 @@ BLOCKS = [
     {"h3": two("Red Dead Redemption 2 (1899)", "Red Dead Redemption 2 (1899)"), "year": "1899"},
 
     {"h4": two("Chapter 1: Colter", "Chapitre 1 : Colter"), "chapter": 1},
-    {"p": two("In \"Eastward Bound\", the gang leaves Colter for Horseshoe Overlook. While [[arthur-morgan|Arthur]], Hosea and [[charles-smith|Charles Smith]] refit a wheel on their wagon, three riders watch them from a cliff. The Red Dead Wiki identifies them as Rains Fall, Eagle Flies and Paytah, a Wapiti close to Eagle Flies. Rains Fall later confirms the sighting himself in Saint Denis: he tells Arthur that he saw him with the wagon train crossing the river at Cumberland Falls.",
-              "Dans \"Eastward Bound\", la bande quitte Colter pour Horseshoe Overlook. Pendant qu'[[arthur-morgan|Arthur]], Hosea et [[charles-smith|Charles Smith]] remettent en place une roue de leur chariot, trois cavaliers les observent du haut d'une falaise. Le Red Dead Wiki les identifie comme Rains Fall, Eagle Flies et Paytah, un Wapiti proche d'Eagle Flies. Rains Fall confirme plus tard la scène lui-même, à Saint-Denis : il dit à Arthur l'avoir vu avec le convoi de chariots qui traversait la rivière aux Cumberland Falls.")},
+    {"p": two("In \"Eastward Bound\", the gang leaves Colter for Horseshoe Overlook. While [[arthur-morgan|Arthur]], Hosea and [[charles-smith|Charles Smith]] refit a wheel on their wagon, three riders watch them from a cliff. The Red Dead Wiki identifies them as Rains Fall, Eagle Flies and Paytah, a Wapiti close to Eagle Flies. Rains Fall later confirms the sighting himself in Saint Denis: he tells Arthur: \"We saw you on the wagon train... crossing the river at Cumberland Falls.\"",
+              "Dans \"Eastward Bound\", la bande quitte Colter pour Horseshoe Overlook. Pendant qu'[[arthur-morgan|Arthur]], Hosea et [[charles-smith|Charles Smith]] remettent en place une roue de leur chariot, trois cavaliers les observent du haut d'une falaise. Le Red Dead Wiki les identifie comme Rains Fall, Eagle Flies et Paytah, un Wapiti proche d'Eagle Flies. Rains Fall confirme plus tard la scène lui-même, à Saint-Denis : il dit à Arthur que les siens l'ont vu avec le convoi de chariots, quand il traversait la rivière aux Cumberland Falls.")},
 
     {"h4": two("Chapter 4: Saint Denis", "Chapitre 4 : Saint-Denis"), "chapter": 4},
     {"p": two("In \"The Gilded Cage\", Rains Fall and Eagle Flies attend the garden party of Henri Lemieux, the mayor of Saint Denis. From a balcony, [[angelo-bronte|Angelo Bronte]] points out the guests to [[dutch-van-der-linde|Dutch van der Linde]] and Arthur, and mocks the chief and his son as they hand a letter to the mayor. The next day, Dutch mentions Evelyn Miller and the Native Americans to Arthur as people the gang could try to help. According to the Red Dead Wiki, the Army is trying to drive the Wapiti off their reservation because of the oil believed to lie beneath it.",
