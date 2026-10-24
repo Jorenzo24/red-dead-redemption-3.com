@@ -13,3 +13,5 @@
    - lenny_A.py:88: add the engineer variant (if Lenny is ahead, the engineer goes for Lenny), attributed to the mission page.
    - rains_A.py:79 and rains_C.py:58: "he saw him" -> Rains Fall says "We saw you" (rains-fall is live: rebuild it).
    - kieran_A.py:63: Dutch's actual line ("now all we'll get is lies") instead of "a beating would only produce lies".
+8. Coverage adds: all CONFIRMED story items (priority: the Eastward Bound final scene after the "Chapter II" title card; Kieran struck by Colm and his horse Branwen; the full "Colm can wait..." line; Dutch's third option for the train employees; Hosea's "dying" line in the mission text so Trivia can point to it). WIKI-ONLY rewards/trophies/items: compact, one "Rewards" sentence per mission or in the table, attributed. Camp events: complete the Colter list concisely (one sentence each). Newspaper issue numbers for the "Train Robbed" articles: yes. No walkthrough minutiae, no Gold Medal tips, nothing from the "never add" rows.
+9. Duplicates: apply the coverage report's section 3 (delete L116; Micah ferry quote once; Rains Fall identification once; trim L112).
