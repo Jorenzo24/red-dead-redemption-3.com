@@ -25,4 +25,5 @@ them, delete them before the final _enrich run).
 
 ## Story guides v3 (started 2026-10-24)
 Spec: scripts/v3/story/SPEC.md. Work dirs: scripts/v3/work/story-ch<N>/ (FC_PROMPT.md, FIX_RULES.md, reports).
-Done: RDR2 Chapter 1 (Colter). Remaining: RDR2 ch. 2-6, epilogue I-II, RDR1 acts I-III (10).
+Done: RDR2 Chapter 1 (Colter) guide. DIRECTION CHANGED 2026-10-24: one page per mission (scripts/missions/, see CLAUDE.md
+"PAGES DE MISSION"). Done: the 6 chapter 1 missions. Next: chapter 2 missions (wiki order in _m/Missions_in_Redemption_2.txt).

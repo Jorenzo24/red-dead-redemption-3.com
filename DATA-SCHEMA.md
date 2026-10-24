@@ -288,6 +288,15 @@ marche aussi dans les fiches (`gen_fiche._links`).
 | `quotes`  | Quotes / Citations                        | `[{"q": "réplique VO", "src": two, "fr": "traduction"}]` → VO dans les deux langues, FR : « src. Traduction : "..." » |
 | `trivia`  | Trivia / Anecdotes                        | Liste de two (puces) ou liste de blocs |
 
+Règle des citations (comme sur les fiches, 24 oct. 2026) : **aucune réplique n'est citée deux fois
+sur une page**. Une réplique citée dans `story` ou `choices` (et, autant que possible, dans `trivia`)
+ne revient PAS dans `quotes` ; on la garde là où elle se lit le mieux (en général le déroulé).
+`quotes` ne contient que des répliques verbatim absentes du reste de la page, vérifiées dans la
+transcription du wiki (`scripts/v3/work/_m/<Mission>_dialogues.txt`) ou celle du jeu
+(`scripts/v3/work/story-ch1/fc/gsw.txt`) ; en cas de divergence entre les deux (mot, locuteur),
+on écarte la réplique. Éviter aussi une réplique déjà paraphrasée de près dans le déroulé. Peu de
+répliques disponibles = bloc plus court ; liste vide = section non rendue.
+
 Bloc `table` (missions) : `{"table": {"caption": two?, "head": [two..], "rows": [[two|str..]..]}}`
 (seul bloc rendu par `gen_mission` lui-même, pour la légende ; le reste passe par `gen_fiche`).
 

@@ -8,6 +8,8 @@ Two passes: [[m:<slug>|...]] tokens and the prev/next links only link pages that
 already exist, so a second pass lets missions built in the same run link each
 other. When building a subset, the missions they point to (prev/next) are
 rebuilt too, so their own links to the new page appear.
+The Story hub (/story/ + /fr/histoire/) is regenerated at the end, so new
+mission pages appear in their chapter's accordion.
 """
 import importlib, os, pkgutil, sys
 
@@ -46,6 +48,8 @@ def main(argv):
             paths = gen_mission.build(allm[s])
             if _pass == 2:
                 print("built", s, "->", ", ".join(paths))
+    import gen_story_hub
+    gen_story_hub.main()
 
 
 if __name__ == "__main__":

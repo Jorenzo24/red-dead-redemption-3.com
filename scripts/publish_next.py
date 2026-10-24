@@ -346,6 +346,9 @@ def main():
     #    (the homepage cards themselves are hand-picked and never touched here)
     import gen_listing
     gen_listing.regenerate()
+    # the Story hub links character names only when their fiche is live: refresh it
+    import gen_story_hub
+    gen_story_hub.main()
 
     # 3. sitemaps
     D = "https://red-dead-redemption-3.com"
