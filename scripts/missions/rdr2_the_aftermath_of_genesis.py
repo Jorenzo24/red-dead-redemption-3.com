@@ -59,11 +59,17 @@ MISSION = {
         "La première chasse d'Arthur avec Charles Smith dans les Grizzlies, étape par étape, et ce qui change selon l'ordre des missions."),
 
     "facts": {
-        "giver": two("[[simon-pearson|Simon Pearson]]", "[[simon-pearson|Simon Pearson]]"),
+        "giver": [
+            {"slug": "simon-pearson", "name": "Simon Pearson", "short": "Pearson"},
+        ],
         "location": two("Starts and ends at Colter; Grizzlies West, Ambarino (deer tracks near Beartooth Beck, according to the mission page)",
                         "Départ et retour à Colter ; Grizzlies West, Ambarino (traces de cerfs près de Beartooth Beck, selon la page de la mission)"),
-        "characters": two("[[arthur-morgan|Arthur Morgan]], [[charles-smith|Charles Smith]], [[simon-pearson|Simon Pearson]], [[uncle|Uncle]]",
-                          "[[arthur-morgan|Arthur Morgan]], [[charles-smith|Charles Smith]], [[simon-pearson|Simon Pearson]], [[uncle|Uncle]]"),
+        "characters": [
+            {"slug": "arthur-morgan", "name": "Arthur Morgan"},
+            {"slug": "charles-smith", "name": "Charles Smith"},
+            {"slug": "simon-pearson", "name": "Simon Pearson", "short": "Pearson"},
+            {"slug": "uncle", "name": "Uncle"},
+        ],
         "unlocks": two("Played after [[m:old-friends|Old Friends]], it continues directly into [[m:who-the-hell-is-leviticus-cornwall|Who the Hell is Leviticus Cornwall?]]; played first, it leaves Old Friends to play",
                        "Jouée après [[m:old-friends|Old Friends]], elle enchaîne directement sur [[m:who-the-hell-is-leviticus-cornwall|Who the Hell is Leviticus Cornwall?]] ; jouée en premier, il reste Old Friends à faire"),
         "rewards": two("Bow, 22 arrows, Assorted Salted Offal, Eagle Eye ability",

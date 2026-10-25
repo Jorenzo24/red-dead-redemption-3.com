@@ -59,12 +59,26 @@ MISSION = {
         "La bande quitte la neige pour Horseshoe Overlook, près de Valentine : la dernière mission du chapitre 1, étape par étape."),
 
     "facts": {
-        "giver": two("[[dutch-van-der-linde|Dutch van der Linde]]", "[[dutch-van-der-linde|Dutch van der Linde]]"),
+        "giver": [
+            {"slug": "dutch-van-der-linde", "name": "Dutch van der Linde"},
+        ],
         "location": two("Starts at Colter; ends at Horseshoe Overlook, the Heartlands, New Hanover",
                         "Départ de Colter ; arrivée à Horseshoe Overlook, dans les Heartlands, en New Hanover"),
-        "characters": two(
-            "[[arthur-morgan|Arthur Morgan]], [[hosea-matthews|Hosea Matthews]], [[charles-smith|Charles Smith]], [[javier-escuella|Javier Escuella]], [[dutch-van-der-linde|Dutch van der Linde]], [[micah-bell|Micah Bell]], [[lenny-summers|Lenny Summers]], [[bill-williamson|Bill Williamson]], [[leopold-strauss|Leopold Strauss]], [[simon-pearson|Simon Pearson]], [[susan-grimshaw|Susan Grimshaw]] and the rest of the gang; three riders the Red Dead Wiki identifies as [[rains-fall|Rains Fall]], Eagle Flies and Paytah",
-            "[[arthur-morgan|Arthur Morgan]], [[hosea-matthews|Hosea Matthews]], [[charles-smith|Charles Smith]], [[javier-escuella|Javier Escuella]], [[dutch-van-der-linde|Dutch van der Linde]], [[micah-bell|Micah Bell]], [[lenny-summers|Lenny Summers]], [[bill-williamson|Bill Williamson]], [[leopold-strauss|Leopold Strauss]], [[simon-pearson|Simon Pearson]], [[susan-grimshaw|Susan Grimshaw]] et le reste de la bande ; trois cavaliers que le Red Dead Wiki identifie comme [[rains-fall|Rains Fall]], Eagle Flies et Paytah"),
+        "characters": [
+            {"slug": "arthur-morgan", "name": "Arthur Morgan"},
+            {"slug": "hosea-matthews", "name": "Hosea Matthews"},
+            {"slug": "charles-smith", "name": "Charles Smith"},
+            {"slug": "javier-escuella", "name": "Javier Escuella"},
+            {"slug": "dutch-van-der-linde", "name": "Dutch van der Linde"},
+            {"slug": "micah-bell", "name": "Micah Bell"},
+            {"slug": "lenny-summers", "name": "Lenny Summers"},
+            {"slug": "bill-williamson", "name": "Bill Williamson"},
+            {"slug": "leopold-strauss", "name": "Leopold Strauss", "short": "Strauss"},
+            {"slug": "simon-pearson", "name": "Simon Pearson", "short": "Pearson"},
+            {"slug": "susan-grimshaw", "name": "Susan Grimshaw", "short": "Susan"},
+        ],
+        "characters_note": two("The rest of the gang also appears. Three riders are identified by the Red Dead Wiki as [[rains-fall|Rains Fall]], Eagle Flies and Paytah.",
+                     "Le reste de la bande apparaît aussi. Trois cavaliers sont identifiés par le Red Dead Wiki comme [[rains-fall|Rains Fall]], Eagle Flies et Paytah."),
         "unlocks": two("Chapter 2; Horseshoe Overlook becomes the gang's camp, and the mission page lists \"Polite Society, Valentine Style\", \"Americans at Rest\" and \"Who is Not Without Sin\" as the next missions",
                        "Le chapitre 2 ; Horseshoe Overlook devient le camp de la bande, et la page de la mission indique comme suites \"Polite Society, Valentine Style\", \"Americans at Rest\" et \"Who is Not Without Sin\""),
         "rewards": two("Free roam; a camera; 5 ginseng and 5 yarrow; Volcanic Pistol, Varmint Rifle and Springfield Rifle at gunsmiths; \"Back in the Mud\" trophy for completing Chapter 1",

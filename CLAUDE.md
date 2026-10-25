@@ -721,5 +721,5 @@ toutes les pages qui les référencent (`index.html`, `404.html`, …).
   n'ont pas de pages ; ensuite 301 vers `/story/#<ancre>` (jamais de 404 ; à faire chapitre par chapitre, avec l'accord de
   Joseph). Pilote fait : les 6 missions du ch. 1 (1 470 à 2 020 mots EN chacune). Missions secondaires / inconnus / vie au
   camp : plus tard, probablement dans un « guide 100 % ».
-- **Cache-buster CSS** actuellement à `?v=20261024a` (cf. §8 : bumper à chaque modif CSS ;
+- **Cache-buster CSS** actuellement à `?v=20261025a` (cf. §8 : bumper à chaque modif CSS ;
   `CSS_V` dans `scripts/gen_fiche.py` doit suivre). JS à `?v=20261009a` (`JS_V` dans `gen_fiche.py`).

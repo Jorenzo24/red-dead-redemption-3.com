@@ -57,13 +57,25 @@ MISSION = {
         "La deuxième mission de Red Dead Redemption 2, étape par étape : la recherche de John Marston, les loups et le retour à Colter."),
 
     "facts": {
-        "giver": two("[[abigail-marston|Abigail]] (listed under her 1899 name, Abigail Roberts, on the Red Dead Wiki mission page)",
-                     "[[abigail-marston|Abigail]] (sous son nom de 1899, Abigail Roberts, sur la page de la mission du Red Dead Wiki)"),
+        "giver": [
+            {"slug": "abigail-marston", "name": "Abigail Marston"},
+        ],
+        "giver_note": two("Listed under her 1899 name, Abigail Roberts, on the Red Dead Wiki mission page.",
+                     "Sous son nom de 1899, Abigail Roberts, sur la page de la mission du Red Dead Wiki."),
         "location": two("Starts and ends at Colter; Grizzlies West, Ambarino",
                         "Départ et retour à Colter ; Grizzlies West, Ambarino"),
-        "characters": two(
-            "[[arthur-morgan|Arthur Morgan]], [[javier-escuella|Javier Escuella]], [[john-marston|John Marston]]; at camp, [[abigail-marston|Abigail]], [[hosea-matthews|Hosea Matthews]], [[tilly-jackson|Tilly Jackson]], [[mary-beth-gaskill|Mary-Beth Gaskill]], [[bill-williamson|Bill Williamson]], [[lenny-summers|Lenny Summers]] and [[leopold-strauss|Leopold Strauss]]",
-            "[[arthur-morgan|Arthur Morgan]], [[javier-escuella|Javier Escuella]], [[john-marston|John Marston]] ; au camp, [[abigail-marston|Abigail]], [[hosea-matthews|Hosea Matthews]], [[tilly-jackson|Tilly Jackson]], [[mary-beth-gaskill|Mary-Beth Gaskill]], [[bill-williamson|Bill Williamson]], [[lenny-summers|Lenny Summers]] et [[leopold-strauss|Leopold Strauss]]"),
+        "characters": [
+            {"slug": "arthur-morgan", "name": "Arthur Morgan"},
+            {"slug": "javier-escuella", "name": "Javier Escuella"},
+            {"slug": "john-marston", "name": "John Marston"},
+            {"slug": "abigail-marston", "name": "Abigail Marston", "camp": True},
+            {"slug": "hosea-matthews", "name": "Hosea Matthews", "camp": True},
+            {"slug": "tilly-jackson", "name": "Tilly Jackson", "camp": True},
+            {"slug": "mary-beth-gaskill", "name": "Mary-Beth Gaskill", "camp": True},
+            {"slug": "bill-williamson", "name": "Bill Williamson", "camp": True},
+            {"slug": "lenny-summers", "name": "Lenny Summers", "camp": True},
+            {"slug": "leopold-strauss", "name": "Leopold Strauss", "short": "Strauss", "camp": True},
+        ],
         "unlocks": two("[[m:the-aftermath-of-genesis|The Aftermath of Genesis]] and [[m:old-friends|Old Friends]], which can be played in either order; the optional camp scenes at Colter",
                        "[[m:the-aftermath-of-genesis|The Aftermath of Genesis]] et [[m:old-friends|Old Friends]], jouables dans l'ordre qu'on veut ; les scènes facultatives du camp de Colter"),
         "rewards": two("Sawed-Off Shotgun; \"Just a Scratch\" trophy",

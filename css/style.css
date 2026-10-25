@@ -2130,3 +2130,251 @@ body.drawer-open { overflow: hidden; }
     margin-top: 0.15rem;
 }
 .timeline__content .storyrow__guide { margin-top: 0.8rem; font-size: 0.95rem; font-weight: 600; }
+
+/* ============================================
+   Mission pages (/missions/, /fr/missions/), Oct 2026: ticket-style mission
+   card (.mcard, replaces the fact grid on mission pages only) and inline story
+   figures (.mfig). Rendered by scripts/gen_mission.py.
+   ============================================ */
+.mcard {
+    --mc-bg:     #1d1712;
+    --mc-tile:   #261e17;
+    --mc-line:   #3d3024;
+    --mc-text:   #ece2cf;
+    --mc-muted:  #a99b84;
+    --mc-link:   #ee6b55;
+    --mc-link-h: #f7a08f;
+    --mc-notch:  var(--bg, #ece6da);
+    position: relative;
+    margin-top: 1.75rem;
+    background: var(--mc-bg);
+    color: var(--mc-text);
+    border-radius: 12px;
+    box-shadow: inset 0 0 0 1px var(--mc-line), 0 14px 28px -18px rgba(40, 24, 10, 0.6);
+}
+.mcard::before { /* thin brick rule along the top edge, like a printed ticket band */
+    content: "";
+    position: absolute;
+    left: 1rem;
+    right: 1rem;
+    top: 0;
+    height: 3px;
+    border-radius: 0 0 3px 3px;
+    background: #c8201e;
+}
+.mcard a { color: var(--mc-link); text-decoration: none; }
+.mcard a:hover { color: var(--mc-link-h); opacity: 1; }
+.mcard a:focus-visible {
+    outline: 2px solid var(--mc-link);
+    outline-offset: 3px;
+    border-radius: 6px;
+}
+.mcard__sec { padding: 1.15rem 1rem; }
+.mcard__tiles {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-flow: row dense;
+    gap: 0.6rem;
+    margin: 0;
+    padding-top: 1.4rem;
+}
+.mtile {
+    min-width: 0;
+    padding: 0.7rem 0.8rem 0.75rem;
+    background: var(--mc-tile);
+    border: 1px solid var(--mc-line);
+    border-radius: 8px;
+}
+.mtile--wide { grid-column: 1 / -1; }
+.mtile dt {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--mc-muted);
+}
+.mtile dt svg,
+.mbtn svg {
+    width: 1.2rem;
+    height: 1.2rem;
+    flex: none;
+    color: var(--mc-link);
+}
+.mtile dd {
+    margin: 0.4rem 0 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+}
+.mtile__sub {
+    display: block;
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+    color: var(--mc-muted);
+}
+/* tear line: dashed rule with two half-circle notches cut into the card edges */
+.mcard__cut {
+    position: relative;
+    margin: 0 1rem;
+    border-top: 2px dashed var(--mc-line);
+}
+.mcard__cut::before,
+.mcard__cut::after {
+    content: "";
+    position: absolute;
+    top: -12px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--mc-notch);
+}
+.mcard__cut::before { left: calc(-1rem - 11px); }
+.mcard__cut::after  { right: calc(-1rem - 11px); }
+.mcard__people {
+    display: grid;
+    gap: 1.2rem;
+}
+.mcard__label {
+    margin: 0 0 0.7rem;
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--mc-muted);
+}
+.mcard__label--sub { margin-top: 1rem; }
+.mcard__note,
+.mcard__text {
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: var(--mc-muted);
+}
+.mcard__text { margin-top: 0; color: var(--mc-text); font-size: 0.95rem; }
+.mavs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem 0.35rem;
+}
+.mav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 4.4rem;
+    text-align: center;
+    color: var(--mc-text);
+}
+.mcard a.mav { color: var(--mc-text); }
+.mav__img {
+    display: block;
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #2a2018;
+    border: 2px solid var(--mc-line);
+    box-shadow: 0 0 0 2px var(--mc-bg), 0 0 0 3px rgba(238, 107, 85, 0);
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.mav__img picture { display: block; width: 100%; height: 100%; }
+.mav__img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 25%;
+    transform: scale(1.22);
+    transform-origin: 50% 22%;
+}
+.mav--none .mav__img img { transform: none; }
+.mav__name {
+    margin-top: 0.4rem;
+    font-size: 0.78rem;
+    line-height: 1.2;
+}
+.mav--none .mav__name { color: var(--mc-muted); }
+.mcard a.mav:hover { color: var(--mc-link-h); }
+.mcard a.mav:hover .mav__img,
+.mcard a.mav:focus-visible .mav__img {
+    border-color: var(--mc-link);
+    box-shadow: 0 0 0 2px var(--mc-bg), 0 0 0 3px rgba(238, 107, 85, 0.45);
+}
+.mcard a.mav:focus-visible { outline-offset: 2px; }
+.mcard__nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.6rem;
+}
+.mbtn {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    min-width: 0;
+    padding: 0.7rem 0.85rem;
+    background: var(--mc-tile);
+    border: 1px solid var(--mc-line);
+    border-radius: 8px;
+    font-size: 0.92rem;
+    line-height: 1.3;
+}
+.mcard a.mbtn { color: var(--mc-text); transition: border-color 0.15s ease, background 0.15s ease; }
+.mcard a.mbtn:hover { color: var(--mc-text); border-color: var(--mc-link); background: #2d231b; }
+.mbtn__txt { min-width: 0; }
+.mbtn small {
+    display: block;
+    margin-bottom: 0.15rem;
+    font-size: 0.66rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--mc-muted);
+}
+.mbtn--next { justify-content: flex-end; text-align: right; }
+.mbtn.is-off { color: var(--mc-muted); border-style: dashed; background: transparent; }
+.mbtn.is-off svg { color: var(--mc-line); }
+@media (max-width: 479px) {
+    .mcard__nav { grid-template-columns: 1fr; }
+}
+@media (min-width: 640px) {
+    .mcard__sec { padding: 1.3rem 1.5rem; }
+    .mcard__tiles { grid-template-columns: repeat(4, minmax(0, 1fr)); padding-top: 1.6rem; }
+    .mtile--wide { grid-column: span 2; }
+    .mcard__cut { margin: 0 1.5rem; }
+    .mcard__cut::before { left: calc(-1.5rem - 11px); }
+    .mcard__cut::after  { right: calc(-1.5rem - 11px); }
+    .mcard__people { grid-template-columns: auto minmax(0, 1fr); gap: 1.5rem; }
+    .mcard__group--giver {
+        padding-right: 1.5rem;
+        border-right: 2px dashed var(--mc-line);
+        max-width: 14rem;
+    }
+}
+
+/* Inline story figures inside the mission accordions */
+.mfig { margin: 1.5rem 0 1.6rem; }
+.accordion__body > .mfig { margin-top: 1.5rem; }
+.mfig picture { display: block; }
+.mfig img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+.mfig figcaption {
+    margin-top: 0.55rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    font-style: italic;
+    color: var(--text-muted);
+}
+@media (max-width: 600px) {
+    .mfig { margin-left: -1.25rem; margin-right: -1.25rem; }
+    .mfig img { border-radius: 0; }
+    .mfig figcaption { padding: 0 1.25rem; }
+}
