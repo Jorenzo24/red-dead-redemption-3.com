@@ -22,6 +22,14 @@ Source register:
   it, and both ride dialogue options (the "trap" answer also says the money was
   stashed in town).
 
+- Inline story images (25 Oct 2026): Red Dead Wiki mission page images,
+  scripts/v3/work/moutlaws/gal/dl/ (candidates.json): scene-1 = "Arthur and
+  Dutch scouting" (000), scene-2 = "Outlaws-from-the-west RDRII" loading screen
+  (010, 512x288 upscaled), scene-3 = "Dutch speaking to the O'Driscolls" (002,
+  same frame as the Chapter 1 guide's scene-2), scene-4 = "Micah finding the
+  corpse" (004). Captions follow the wiki file names and our story text. Not
+  used: "Jake Adler's frozen corpse" (003), near-duplicates 001 (= hero), 005-009.
+
 Left out: the wiki's "Reservoir Dogs" comparison (speculation), the "prophetic"
 link with "American Venom" (interpretation), Javier's absence from Colter "it is
 implied" (speculation), the claim that Dutch's speech is repeated at Horseshoe
@@ -64,12 +72,22 @@ MISSION = {
     },
 
     "facts": {
-        "giver": two("[[dutch-van-der-linde|Dutch van der Linde]]", "[[dutch-van-der-linde|Dutch van der Linde]]"),
+        "giver": [
+            {"slug": "dutch-van-der-linde", "name": "Dutch van der Linde"},
+        ],
         "location": two("Starts and ends at Colter; Adler Ranch, Grizzlies West, Ambarino",
                         "Départ et retour à Colter ; Adler Ranch, Grizzlies West, Ambarino"),
-        "characters": two(
-            "[[arthur-morgan|Arthur Morgan]], [[dutch-van-der-linde|Dutch van der Linde]], [[micah-bell|Micah Bell]], [[sadie-adler|Sadie Adler]]; at camp, [[hosea-matthews|Hosea Matthews]], [[charles-smith|Charles Smith]], [[susan-grimshaw|Susan Grimshaw]] and the rest of the gang",
-            "[[arthur-morgan|Arthur Morgan]], [[dutch-van-der-linde|Dutch van der Linde]], [[micah-bell|Micah Bell]], [[sadie-adler|Sadie Adler]] ; au camp, [[hosea-matthews|Hosea Matthews]], [[charles-smith|Charles Smith]], [[susan-grimshaw|Susan Grimshaw]] et le reste de la bande"),
+        "characters": [
+            {"slug": "arthur-morgan", "name": "Arthur Morgan"},
+            {"slug": "dutch-van-der-linde", "name": "Dutch van der Linde"},
+            {"slug": "micah-bell", "name": "Micah Bell"},
+            {"slug": "sadie-adler", "name": "Sadie Adler"},
+            {"slug": "hosea-matthews", "name": "Hosea Matthews", "camp": True},
+            {"slug": "charles-smith", "name": "Charles Smith", "camp": True},
+            {"slug": "susan-grimshaw", "name": "Susan Grimshaw", "short": "Susan", "camp": True},
+        ],
+        "characters_note": two("The rest of the gang also appears at camp.",
+                     "Le reste de la bande apparaît aussi au camp."),
         "unlocks": two("[[m:enter-pursued-by-a-memory|Enter, Pursued by a Memory]], which starts directly after this mission",
                        "[[m:enter-pursued-by-a-memory|Enter, Pursued by a Memory]], qui s'enchaîne directement"),
         "rewards": two("Mahogany Bay Tennessee Walker (the horse from the barn)",
@@ -102,12 +120,34 @@ MISSION = {
             {"h3": two("The ride to the homestead", "La route de la ferme")},
             {"p": two("Outside, Arthur asks what really happened on the boat. Dutch answers: \"We missed you, that's what happened.\" [[charles-smith|Charles Smith]] brings them two horses; Dutch tells him to get indoors and rest his hand. Arthur rides Charles's mare, Taima. On the trail, Arthur says he cannot believe they lost Davey too. Dutch answers: \"He's the last one, Arthur. No more.\" He tells Arthur he is the only one he can rely on to stay strong. The player can then ask about the money or about whether Blackwater was a trap (see Choices and variants).",
                       "Dehors, Arthur demande ce qui s'est vraiment passé sur le bateau. Dutch répond : \"We missed you, that's what happened.\" (Tu nous as manqué, voilà ce qui s'est passé.) [[charles-smith|Charles Smith]] leur amène deux chevaux ; Dutch lui ordonne de rentrer se reposer la main. Arthur monte Taima, la jument de Charles. En route, Arthur n'en revient pas d'avoir aussi perdu Davey. Dutch répond : \"He's the last one, Arthur. No more.\" (C'est le dernier, Arthur. Plus personne.) Il lui confie qu'il est le seul sur qui il peut compter pour rester solide. Le joueur peut alors l'interroger sur l'argent, ou lui demander si Blackwater était un piège (voir Choix et variantes).")},
+            {"figure": {"src": "assets/missions/outlaws-from-the-west/scene-1.jpeg",
+                        "alt": two("Two riders with lanterns in a snowstorm at night, one on a white horse",
+                                   "Deux cavaliers munis de lanternes dans une tempête de neige, de nuit, l'un sur un cheval blanc"),
+                        "cap": two("Dutch, on the white horse, and Arthur ride out of Colter to find John or Micah.",
+                                   "Dutch, sur le cheval blanc, et Arthur quittent Colter pour retrouver John ou Micah.")}},
             {"p": two("They meet Micah Bell, who has found a homestead \"blazing with light and noise\", where it sounds like a party. Dutch tells him that Davey and Jenny did not make it. Micah has not seen John since the storm came in.",
                       "Ils tombent sur Micah Bell, qui a repéré une ferme illuminée et bruyante, où l'on semble faire la fête. Dutch lui apprend que Davey et Jenny n'ont pas survécu. Micah n'a pas vu John depuis le début de la tempête.")},
+            {"figure": {"src": "assets/missions/outlaws-from-the-west/scene-2.jpeg",
+                        "alt": two("Sepia picture of three men walking through deep snow toward a ranch house",
+                                   "Image sépia de trois hommes marchant dans la neige profonde vers une maison de ranch"),
+                        "cap": two("The mission's loading screen: Dutch, Arthur and Micah approach the Adler Ranch on foot.",
+                                   "L'écran de chargement de la mission : Dutch, Arthur et Micah s'approchent à pied de l'Adler Ranch.")}},
 
             {"h3": two("The shootout at the Adler Ranch", "La fusillade de l'Adler Ranch")},
-            {"p": two("At the homestead, Dutch sends Micah behind a wagon and Arthur behind a shed. He goes to the door alone: \"One lonely man is a lot less intimidating than three nasty-looking degenerates.\" He poses as a lost traveler and asks for a few cans of food. Micah finds a body under a sheet in the wagon. One of the men recognizes Dutch and shouts: \"It's goddamn Dutch van der Linde, you morons!\" The men are [[colm-odriscoll|Colm O'Driscoll]]'s gang. Arthur or Micah fires first, and the three outlaws kill the O'Driscolls at the house. The mission page names two of the dead, Billy and Declan.",
-                      "À la ferme, Dutch envoie Micah derrière un chariot et Arthur derrière une remise. Il se présente seul à la porte : \"One lonely man is a lot less intimidating than three nasty-looking degenerates.\" (Un homme seul fait bien moins peur que trois dégénérés à la mine patibulaire.) Il se fait passer pour un voyageur égaré et demande quelques conserves. Micah découvre un cadavre sous une bâche, dans le chariot. L'un des hommes reconnaît Dutch et s'écrie : \"It's goddamn Dutch van der Linde, you morons!\" (C'est ce foutu Dutch van der Linde, bande d'abrutis !) Ce sont des hommes de [[colm-odriscoll|Colm O'Driscoll]]. Arthur ou Micah tire le premier, et les trois hors-la-loi abattent les O'Driscoll présents. La page de la mission nomme deux des morts, Billy et Declan.")},
+            {"p": two("At the homestead, Dutch sends Micah behind a wagon and Arthur behind a shed. He goes to the door alone: \"One lonely man is a lot less intimidating than three nasty-looking degenerates.\" He poses as a lost traveler and asks for a few cans of food.",
+                      "À la ferme, Dutch envoie Micah derrière un chariot et Arthur derrière une remise. Il se présente seul à la porte : \"One lonely man is a lot less intimidating than three nasty-looking degenerates.\" (Un homme seul fait bien moins peur que trois dégénérés à la mine patibulaire.) Il se fait passer pour un voyageur égaré et demande quelques conserves.")},
+            {"figure": {"src": "assets/missions/outlaws-from-the-west/scene-3.jpeg",
+                        "alt": two("Dutch van der Linde holding up a lantern in the snow",
+                                   "Dutch van der Linde levant une lanterne dans la neige"),
+                        "cap": two("Dutch talks to the O'Driscolls outside the house, lantern in hand.",
+                                   "Dutch parlemente avec les O'Driscoll devant la maison, lanterne à la main.")}},
+            {"p": two("Micah finds a body under a sheet in the wagon. One of the men recognizes Dutch and shouts: \"It's goddamn Dutch van der Linde, you morons!\" The men are [[colm-odriscoll|Colm O'Driscoll]]'s gang. Arthur or Micah fires first, and the three outlaws kill the O'Driscolls at the house. The mission page names two of the dead, Billy and Declan.",
+                      "Micah découvre un cadavre sous une bâche, dans le chariot. L'un des hommes reconnaît Dutch et s'écrie : \"It's goddamn Dutch van der Linde, you morons!\" (C'est ce foutu Dutch van der Linde, bande d'abrutis !) Ce sont des hommes de [[colm-odriscoll|Colm O'Driscoll]]. Arthur ou Micah tire le premier, et les trois hors-la-loi abattent les O'Driscoll présents. La page de la mission nomme deux des morts, Billy et Declan.")},
+            {"figure": {"src": "assets/missions/outlaws-from-the-west/scene-4.jpeg",
+                        "alt": two("Micah Bell lifting a sheet off a body lying in a wagon",
+                                   "Micah Bell soulevant le drap qui recouvre un corps dans un chariot"),
+                        "cap": two("Micah lifts the sheet over the body in the wagon.",
+                                   "Micah soulève le drap qui recouvre le corps, dans le chariot.")}},
             {"p": two("Dutch and Arthur search the cabin for food, medicine and ammunition. Arthur points out a large pool of blood on the floor. Arthur notes that there is a large price on Colm's head; Dutch answers that wanting Colm dead \"is about the only thing me and Uncle Sam agree on.\" Arthur suggests moving the women and Jack to the house, but Dutch does not want the gang to split up.",
                       "Dutch et Arthur fouillent la maison à la recherche de nourriture, de remèdes et de munitions. Arthur signale une grande flaque de sang sur le plancher. Arthur rappelle que la tête de Colm est mise à prix ; Dutch répond que vouloir Colm mort est à peu près le seul point sur lequel il s'entend avec l'Oncle Sam. Arthur propose d'installer les femmes et Jack dans la maison, mais Dutch ne veut pas diviser la bande.")},
 

@@ -11,10 +11,11 @@ Data lives in scripts/missions/<module>.py (one module per mission, a MISSION
 dict); scripts/build_missions.py builds them all. The dict shape is documented
 in DATA-SCHEMA.md, section "Mission" (future Astro content collection).
 
-Presentation reuses the existing classes only (no CSS of its own): article
-column (.article, .article-header, .article-hero), .story-meta chips, fiche fact
-grid (.profile__facts), fiche accordions (.accordion, tobacco "read-dark"
-blocks), .data-table, .quotes and .story-nav. Header, footer, byline, block
+Presentation reuses the article column (.article, .article-header,
+.article-hero), .story-meta chips, fiche accordions (.accordion, tobacco
+"read-dark" blocks), .data-table, .quotes and .story-nav, plus two mission-only
+components: the ticket-style mission card (.mcard, replaces the fact grid) and
+inline story figures (.mfig). Header, footer, byline, block
 rendering and inline-link tokens come from gen_fiche.
 
 Tokens in any prose string:
@@ -79,13 +80,43 @@ def _L(d, lang):
 
 
 # ------------------------------------------------------------------ blocks
+def _figure(fg, lang, depth):
+    """{"src": "assets/.../scene-1.jpeg", "alt": two, "cap": two} -> <figure class="mfig">
+    with a WebP <source> (when the .webp twin exists) and the JPEG fallback."""
+    up = "../" * depth
+    src = fg["src"]
+    webp = os.path.splitext(src)[0] + ".webp"
+    w, h = _img_size(src)
+    out = ['                            <figure class="mfig">',
+           '                                <picture>']
+    if os.path.isfile(os.path.join(ROOT, webp)):
+        out.append(f'                                    <source srcset="{up}{webp}" type="image/webp">')
+    out.append(f'                                    <img src="{up}{src}" alt="{_L(fg["alt"], lang)}" width="{w}" height="{h}" loading="lazy" decoding="async">')
+    out.append('                                </picture>')
+    if fg.get("cap"):
+        out.append(f'                                <figcaption>{gf._links(_L(fg["cap"], lang), lang)}</figcaption>')
+    out.append('                            </figure>')
+    return out
+
+
+def _img_size(rel):
+    from PIL import Image
+    p = os.path.join(ROOT, rel)
+    if not os.path.isfile(p):
+        raise SystemExit(f"ERROR: missing image {rel}")
+    with Image.open(p) as im:
+        return im.size
+
+
 def _blocks(blocks, lang, depth, slug):
     """Render accordion body blocks. Everything gen_fiche knows (p, h3, h4, ul,
-    quotes, video) is delegated to gen_fiche._accordion; "table" is rendered
-    here because mission tables carry a caption (attribution)."""
+    quotes, video) is delegated to gen_fiche._accordion; "table" and "figure"
+    are rendered here (mission tables carry a caption, figures a <picture>)."""
     out = []
     for b in blocks:
-        if "table" in b:
+        if "figure" in b:
+            out += _figure(b["figure"], lang, depth)
+        elif "table" in b:
             t = b["table"]
             cell = (lambda x: gf._links(_L(x, lang), lang))
             out.append('                            <div class="table-wrap">')
@@ -145,6 +176,157 @@ def _section_blocks(m, key, lang):
     return s
 
 
+
+# ------------------------------------------------------------------ mission card
+# Monoline 24px icons (stroke = currentColor), drawn for the mission card.
+_ICON_PATHS = {
+    "game": '<path d="M7 8.5h10a4.5 4.5 0 0 1 4.4 5.4l-.7 3.3a2.4 2.4 0 0 1-4.1 1.2L14.4 16H9.6l-2.2 2.4a2.4 2.4 0 0 1-4.1-1.2l-.7-3.3A4.5 4.5 0 0 1 7 8.5z"/><path d="M7.5 11.2v3.2M5.9 12.8h3.2"/><path d="M15.6 12.2h.01M17.8 14h.01" stroke-width="2.4"/>',
+    "chapter": '<path d="M12 6.6C10 5 7.2 4.5 3.5 4.9v13.2c3.7-.4 6.5.1 8.5 1.7 2-1.6 4.8-2.1 8.5-1.7V4.9C16.8 4.5 14 5 12 6.6z"/><path d="M12 6.6v13.2"/>',
+    "location": '<path d="M12 21s-6.5-6.1-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 14.9 12 21 12 21z"/><circle cx="12" cy="9.8" r="2.4"/>',
+    "rewards": '<path d="M8.5 3h3l1.2 5M15.5 3h-3"/><circle cx="12" cy="14.5" r="5.5"/><path d="M12 11.6l.9 1.9 2 .3-1.5 1.4.4 2-1.8-1-1.8 1 .4-2-1.5-1.4 2-.3z"/>',
+    "unlocks": '<circle cx="7.5" cy="15.5" r="3.8"/><path d="M10.2 12.8 20 3M16.3 6.7l2.6 2.6M13.8 9.2l2 2"/>',
+    "prev": '<path d="M19 12H5M11 6l-6 6 6 6"/>',
+    "next": '<path d="M5 12h14M13 6l6 6-6 6"/>',
+}
+
+
+def _icon(name, cls=""):
+    c = f' class="{cls}"' if cls else ""
+    return (f'<svg{c} viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" '
+            f'stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" '
+            f'focusable="false">{_ICON_PATHS[name]}</svg>')
+
+
+def _plain_len(html):
+    return len(re.sub(r"\[\[(?:m:)?[^|\]]+\|([^\]]+)\]\]", r"\1", re.sub(r"<[^>]+>", "", html)))
+
+
+def _avatar(p, lang, up):
+    """One round portrait icon. p = {"slug": str|None, "name": str|two, "short": str|two?}.
+    Linked to the fiche (and portrait used) only if the fiche is live; otherwise the
+    western placeholder avatar, no link."""
+    name = _L(p["name"], lang)
+    short = _L(p.get("short"), lang) if p.get("short") else name.split()[0]
+    slug = p.get("slug")
+    live = bool(slug) and gf.character_live(slug)
+    if live:
+        base = f"assets/characters/{slug}/portrait"
+        src = base + ".jpeg"
+        if not os.path.isfile(os.path.join(ROOT, src)):
+            raise SystemExit(f"ERROR: no portrait for {slug}")
+        webp = f'<source srcset="{up}{base}.webp" type="image/webp">' \
+            if os.path.isfile(os.path.join(ROOT, base + ".webp")) else ""
+        pic = (f'<picture>{webp}<img src="{up}{src}" alt="{name}" width="64" height="64" '
+               f'loading="lazy" decoding="async"></picture>')
+        href = ("/characters/" if lang == "en" else "/fr/personnages/") + slug + "/"
+        return (f'<li><a class="mav" href="{href}"><span class="mav__img">{pic}</span>'
+                f'<span class="mav__name" aria-hidden="true">{short}</span></a></li>')
+    pic = (f'<img src="{up}assets/characters/placeholder-avatar.svg" alt="{name}" width="64" height="64" '
+           f'loading="lazy" decoding="async">')
+    return (f'<li><span class="mav mav--none"><span class="mav__img">{pic}</span>'
+            f'<span class="mav__name" aria-hidden="true">{short}</span></span></li>')
+
+
+def _people(lst, lang, up, ind):
+    """List of people -> <ul class="mavs">. A legacy two() string (old data) renders as text."""
+    if isinstance(lst, dict):
+        return f'{ind}<p class="mcard__text">{gf._links(_L(lst, lang), lang)}</p>'
+    items = "\n".join(f"{ind}    {_avatar(p, lang, up)}" for p in lst)
+    return f'{ind}<ul class="mavs">\n{items}\n{ind}</ul>'
+
+
+def _mcard(m, lang, up):
+    """Ticket-style mission card: tiles (game, chapter, location, rewards, unlocks),
+    a dashed tear line, people (started by, characters, at camp) as round portrait
+    icons, then previous / next buttons. Pure HTML + CSS (.mcard ...)."""
+    en = lang == "en"
+    L = (lambda d: _L(d, lang))
+    ch_en, ch_fr, chl_en, chl_fr, chs_en, chs_fr, game = CHAPTERS[m["chapter"]]
+    game_name = GAMES[game][0]
+    ch_href = f"/story/{ch_en}/" if en else f"/fr/histoire/{ch_fr}/"
+    ch_label, ch_short = (chl_en, chs_en) if en else (chl_fr, chs_fr)
+    n, tot = m["number"], m.get("chapter_total")
+    f = m.get("facts", {})
+    I = "            "
+
+    def tile(icon, label, value, sub=None):
+        if not value:
+            return ""
+        wide = " mtile--wide" if _plain_len(value) > 34 else ""
+        sub_html = f'<span class="mtile__sub">{sub}</span>' if sub else ""
+        return (f'{I}        <div class="mtile{wide}">\n'
+                f'{I}            <dt>{_icon(icon)}{label}</dt>\n'
+                f'{I}            <dd>{gf._links(value, lang)}{sub_html}</dd>\n'
+                f'{I}        </div>\n')
+
+    pos = (f"Mission {n} of {tot}" if en else f"Mission {n} sur {tot}") if tot else f"Mission {n}"
+    so = m.get("story_order")
+    game_sub = ((f"Story mission no. {so}" if en else f"Mission principale n° {so}") if so else None)
+    tiles = (tile("game", "Game" if en else "Jeu", game_name, game_sub)
+             + tile("chapter", "Chapter" if en else "Chapitre", f'<a href="{ch_href}">{ch_label}</a>', pos)
+             + tile("location", "Location" if en else "Lieu", L(f.get("location")) if f.get("location") else None)
+             + tile("rewards", "Rewards" if en else "Récompenses", L(f.get("rewards")) if f.get("rewards") else None)
+             + tile("unlocks", "Unlocks" if en else "Débloque", L(f.get("unlocks")) if f.get("unlocks") else None))
+
+    # people
+    def note(key):
+        v = f.get(key)
+        return f'\n{I}        <p class="mcard__note">{gf._links(L(v), lang)}</p>' if v else ""
+    blocks = []
+    if f.get("giver"):
+        blocks.append(f'{I}    <div class="mcard__group mcard__group--giver">\n'
+                      f'{I}        <p class="mcard__label">{"Started by" if en else "Donnée par"}</p>\n'
+                      f'{_people(f["giver"], lang, up, I + "        ")}{note("giver_note")}\n'
+                      f'{I}    </div>')
+    chars = f.get("characters")
+    if chars:
+        if isinstance(chars, dict):  # legacy text
+            inner = _people(chars, lang, up, I + "        ")
+        else:
+            main = [p for p in chars if not p.get("camp")]
+            camp = [p for p in chars if p.get("camp")]
+            inner = _people(main, lang, up, I + "        ")
+            if camp:
+                inner += (f'\n{I}        <p class="mcard__label mcard__label--sub">{"At camp" if en else "Au camp"}</p>\n'
+                          + _people(camp, lang, up, I + "        "))
+        blocks.append(f'{I}    <div class="mcard__group mcard__group--cast">\n'
+                      f'{I}        <p class="mcard__label">{"Characters" if en else "Personnages"}</p>\n'
+                      f'{inner}{note("characters_note")}\n'
+                      f'{I}    </div>')
+    people = ""
+    if blocks:
+        people = (f'{I}    <div class="mcard__cut" aria-hidden="true"></div>\n'
+                  f'{I}    <div class="mcard__sec mcard__people">\n' + "\n".join("    " + b.replace("\n", "\n    ") for b in blocks) + f'\n{I}    </div>\n')
+
+    # previous / next buttons
+    def btn(ref, kind):
+        small = (("Previous mission" if en else "Mission précédente") if kind == "prev"
+                 else ("Next mission" if en else "Mission suivante"))
+        if ref:
+            label = ref["name"]
+        elif kind == "prev":
+            label = ("None, first mission of the game" if en else "Aucune, première mission du jeu") \
+                if so == 1 else ("None" if en else "Aucune")
+        else:
+            label = "None" if en else "Aucune"
+        ico = _icon(kind)
+        body = f'<span class="mbtn__txt"><small>{small}</small>{label}</span>'
+        inner = (ico + body) if kind == "prev" else (body + ico)
+        cls = f"mbtn mbtn--{kind}"
+        if ref and gf.mission_live(ref["slug"]):
+            return f'{I}        <a class="{cls}" href="{urls(ref["slug"])[0 if en else 1]}">{inner}</a>\n'
+        return f'{I}        <span class="{cls} is-off">{inner}</span>\n'
+    nav = (f'{I}    <div class="mcard__cut" aria-hidden="true"></div>\n'
+           f'{I}    <nav class="mcard__sec mcard__nav" aria-label="{"Previous and next mission" if en else "Mission précédente et suivante"}">\n'
+           + btn(m.get("prev"), "prev") + btn(m.get("next"), "next") + f'{I}    </nav>\n')
+
+    aria = "Mission card" if en else "Fiche de la mission"
+    return (f'{I}<section class="mcard" aria-label="{aria}">\n'
+            f'{I}    <dl class="mcard__sec mcard__tiles">\n{tiles}{I}    </dl>\n'
+            + people
+            + nav + f'{I}</section>')
+
+
 # ------------------------------------------------------------------ page
 def _page(m, lang):
     depth = 2 if lang == "en" else 3
@@ -180,33 +362,8 @@ def _page(m, lang):
     chips = [game_name, ch_label, pos] + [L(c) for c in m.get("chips", [])]
     chips_html = "\n".join(f'                    <span class="chip">{c}</span>' for c in chips)
 
-    # facts grid
-    def mlink(ref):
-        if not ref:
-            return None
-        return gf._links(f'[[m:{ref["slug"]}|{ref["name"]}]]', lang)
-    none_prev = ("None (first mission of the game)" if en else "Aucune (première mission du jeu)") \
-        if m.get("story_order") == 1 else ("None" if en else "Aucune")
-    order_txt = (f"{n} of {tot} in {ch_short}" if en else f"{n} sur {tot} {_du(ch_short)}") if tot else str(n)
-    if m.get("story_order"):
-        order_txt += (f"; story mission no. {m['story_order']} of the game" if en
-                      else f" ; mission principale n° {m['story_order']} du jeu")
-    f = m.get("facts", {})
-    rows = [
-        (("Game", "Jeu"), game_name),
-        (("Chapter", "Chapitre"), f'<a href="{ch_href}">{ch_label}</a>'),
-        (("Mission", "Mission"), order_txt),
-        (("Started by", "Donnée par"), f.get("giver")),
-        (("Location", "Lieu"), f.get("location")),
-        (("Characters", "Personnages"), f.get("characters")),
-        (("Unlocks", "Débloque"), f.get("unlocks")),
-        (("Rewards", "Récompenses"), f.get("rewards")),
-        (("Previous mission", "Mission précédente"), mlink(m.get("prev")) or none_prev),
-        (("Next mission", "Mission suivante"), mlink(m.get("next")) or ("None" if en else "Aucune")),
-    ]
-    facts_html = "\n".join(
-        f'                <div><dt>{lbl[0] if en else lbl[1]}</dt><dd>{gf._links(L(v), lang)}</dd></div>'
-        for lbl, v in rows if v)
+    # mission card (ticket-style facts box, mission pages only)
+    mcard_html = _mcard(m, lang, up)
 
     intro = "\n".join(f'                <p>{gf._links(L(p), lang)}</p>' for p in m["intro"])
 
@@ -345,9 +502,7 @@ def _page(m, lang):
 {intro}
             </div>
 
-            <dl class="profile__facts">
-{facts_html}
-            </dl>
+{mcard_html}
 
             <div class="accordions">
 {accordions}

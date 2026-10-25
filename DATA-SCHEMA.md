@@ -273,7 +273,7 @@ marche aussi dans les fiches (`gen_fiche._links`).
 | `og_desc`       | two               | non    | OG/Twitter (défaut : `meta_desc`) |
 | `hero`          | `{src, alt: two, cap: two}` | non | `src` relatif à la racine (`assets/...`), aussi `og:image` |
 | `chips`         | two[]             | non    | Chips en plus de Jeu · Chapitre · Mission n sur N |
-| `facts`         | dict              | oui    | Clés optionnelles, chacune two : `giver`, `location`, `characters`, `unlocks`, `rewards`. Jeu, Chapitre, Mission (rang), Précédente/Suivante sont générés |
+| `facts`         | dict              | oui    | Clés optionnelles : `giver` (liste de personnes), `giver_note` (two), `characters` (liste de personnes), `characters_note` (two), `location`, `unlocks`, `rewards` (two). Jeu, Chapitre, rang, Précédente/Suivante sont générés. Voir « Fiche de mission » ci-dessous |
 | `intro`         | two[]             | oui    | 2-3 phrases factuelles |
 | `sections`      | dict              | oui    | Voir ci-dessous ; une section absente ou vide n'est JAMAIS rendue |
 | `reading_dark`  | bool              | non    | Blocs « tabac » (défaut `True`, comme les fiches) |
@@ -282,7 +282,7 @@ marche aussi dans les fiches (`gen_fiche._links`).
 
 | Clé       | EN / FR                                   | Contenu |
 |-----------|-------------------------------------------|---------|
-| `story`   | Story / Déroulé                           | Liste de blocs fiche (`p`, `h3`, `h4`, `ul`, `quotes`, `table`) ; h3 = étapes de la mission |
+| `story`   | Story / Déroulé                           | Liste de blocs fiche (`p`, `h3`, `h4`, `ul`, `quotes`, `table`, `figure`) ; h3 = étapes de la mission |
 | `choices` | Choices and variants / Choix et variantes | Idem (dialogues à choix, issues, variantes, conditions d'échec) |
 | `gold`    | Gold Medal objectives / Objectifs de la médaille d'or | `{"objectives": [two..], "caption": two?, "after": [blocs]?}` → table `# / Objectif` avec légende attribuée au Red Dead Wiki |
 | `quotes`  | Quotes / Citations                        | `[{"q": "réplique VO", "src": two, "fr": "traduction"}]` → VO dans les deux langues, FR : « src. Traduction : "..." » |
@@ -297,6 +297,33 @@ transcription du wiki (`scripts/v3/work/_m/<Mission>_dialogues.txt`) ou celle du
 on écarte la réplique. Éviter aussi une réplique déjà paraphrasée de près dans le déroulé. Peu de
 répliques disponibles = bloc plus court ; liste vide = section non rendue.
 
+Bloc `figure` (missions, 25 oct. 2026) : `{"figure": {"src": "assets/missions/<slug>/scene-N.jpeg",
+"alt": two, "cap": two}}`, à placer dans `story` (ou une autre section) juste après le paragraphe
+qu'il illustre. Rendu `<figure class="mfig"><picture>` : `<source>` WebP si le jumeau `.webp` existe,
+`<img>` JPEG avec `width`/`height` lus sur le fichier (Pillow), `loading="lazy"`, `decoding="async"`.
+Images 1400×787 (16:9), JPEG q≈82 + WebP, dans `assets/missions/<slug>/`. 3 ou 4 moments clés par
+mission, dans l'ordre du récit ; légende = un fait qui correspond au texte (pas d'ambiance). Un
+`build()` échoue si l'image manque. Sur mobile, la figure déborde jusqu'aux bords de l'accordéon.
+
+**Fiche de mission (`.mcard`, 25 oct. 2026)** : remplace la grille de faits sur les pages mission
+(les fiches personnage gardent `.profile__facts`). Rendue par `gen_mission._mcard`, sans JS :
+- tuiles à icône SVG monoline (Jeu + « Story mission no. N », Chapitre lié + « Mission n of N »,
+  Lieu, Récompenses, Débloque) ; une valeur de plus de 34 caractères (texte brut) prend 2 colonnes
+  (`.mtile--wide`) ; 2 colonnes sur mobile, 4 dès 640 px ;
+- ligne de découpe pointillée à encoches (`.mcard__cut`), comme un ticket ;
+- personnes en icônes rondes (`.mavs` / `.mav`) : `portrait.webp`/`.jpeg` de la fiche, lien vers
+  la fiche, prénom dessous ; sans fiche en ligne → `placeholder-avatar.svg`, sans lien. `alt` = nom
+  complet, prénom visible en `aria-hidden` ;
+- boutons Précédente / Suivante (`.mbtn`), `<span class="is-off">` tant que la page n'existe pas.
+
+Format d'une personne (`giver`, `characters`) :
+`{"slug": "arthur-morgan" | None, "name": "Arthur Morgan" | two, "short": str | two (optionnel),
+"camp": True (optionnel)}`. `short` = libellé sous l'icône (défaut : premier mot du nom ; ex.
+`"Pearson"`, `"Strauss"`, `"Susan"`). `camp: True` range la personne sous le sous-titre « At camp /
+Au camp ». Le reste (« le reste de la bande », personnage seulement nommé, aperçu à la jumelle,
+identification attribuée au wiki) va dans `giver_note` / `characters_note` (two, tokens admis).
+Compatibilité : un `giver`/`characters` encore au format two (texte) est rendu en paragraphe.
+
 Bloc `table` (missions) : `{"table": {"caption": two?, "head": [two..], "rows": [[two|str..]..]}}`
 (seul bloc rendu par `gen_mission` lui-même, pour la légende ; le reste passe par `gen_fiche`).
 
@@ -304,9 +331,10 @@ Bloc `table` (missions) : `{"table": {"caption": two?, "head": [two..], "rows": 
 `body.theme-light.read-dark` → header (menu « Story/Histoire » actif) → fil d'Ariane
 Accueil › Histoire › Chapitre N : nom (guide) › Mission → `article.article.mission` :
 `header.article-header` (eyebrow « Mission · Red Dead Redemption 2 · Chapter 1 », `h1`,
-`.story-meta` chips, byline) → `figure.article-hero` → `.profile__intro` → `dl.profile__facts`
-→ `.accordions` → `nav.story-nav` (précédente · toutes les missions du chapitre · suivante ;
-`<span>` sans lien tant que la page voisine n'existe pas). Aucune CSS propre aux missions.
+`.story-meta` chips, byline) → `figure.article-hero` → `.profile__intro` → `section.mcard`
+(tuiles `dl.mcard__tiles`, personnes `.mcard__people`, `nav.mcard__nav`) → `.accordions` → `nav.story-nav` (précédente · toutes les missions du chapitre · suivante ;
+`<span>` sans lien tant que la page voisine n'existe pas). CSS propre aux missions : `.mcard*`, `.mtile*`,
+`.mav*`, `.mbtn*`, `.mfig` (bloc « Mission pages » en fin de `css/style.css`).
 
 ### SEO
 - `<title>` : « <Mission>: RDR2 Mission Walkthrough and Story » / « <Mission> : mission de RDR2,
